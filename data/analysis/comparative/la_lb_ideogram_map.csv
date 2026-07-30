@@ -1,0 +1,404 @@
+la_bennett_id,la_unicode,la_character,la_transliteration,la_occurrences,lb_abbr,lb_meaning,lb_unicode,lb_character,lb_sign_name,co_occurring_logograms,correspondence_certainty,notes
+A 301,U+1068A,𐚊,"
+",1,SILQUA,siliqua / carob (dry measure),,,*301,VASE 8(4); VASE 10(3); VASE 2(1); VASE 1(1),high,Dry measure. LB *301 = siliqua.
+A 302,U+1068B,𐚋,*351,1,OVIS,sheep,U+100D8,𐃘,*105 / OVIS,,high,Sheep ideogram.
+A 303,U+1068C,𐚌,*352,2,OLIV,olives,U+100EA,𐃪,*122 / OLIV,VASE 4(1),high,Olive ideogram. LA uses same sign for cattle? Distinguish from BOS (A 303).
+A 304,U+1068D,𐚍,*353,1,CROC,saffron / crocus,U+100F0,𐃰,*135 / CROC,A 562(1),high,Saffron. LA meaning [vessel?] — may be a vessel that held saffron.
+A 305,U+1068E,𐚎,*354,1,FIC,figs,U+100ED,𐃭,*132 / FIC,VASE 9(2); A 306(1),high,Fig ideogram.
+A 306,U+1068F,𐚏,*355,1,CYC,cyperus (Cyperus esculentus / rotundus),U+100EE,𐃮,*133 / CYC,VASE 9(2); A 305(1),high,Cyperus — an aromatic plant used in perfumery. LA meaning uncertain.
+A 307,U+10690,𐚐,[?],1,COR,coriander,U+100EF,𐃯,*134 / COR,,high,Coriander. LA meaning uncertain.
+A 308,U+10691,𐚑,HIDE+[?],1,GRA,wheat,U+100E8,𐃨,*120 / GRA,,high,"Wheat ideogram. Also found as GRA+PA (A 400), GRA+DA (A 399), GRA+MA, GRA+QE etc. in LA."
+A 309,U+10692,𐚒,[barley?],1,HORD,barley,U+100E9,𐃩,*121 / HORD,,high,Barley ideogram. LA counterpart also [barley?] in transliteration.
+A 310,U+10693,𐚓,[wine?],1,VIN,wine,U+100EC,𐃬,*131 / VIN,,high,Wine ideogram. LA counterpart also [wine?].
+A 311,U+10694,𐚔,[oil?],1,OLE,olive oil,U+100EB,𐃫,*130 / OLE,,high,"Olive oil ideogram. LA counterpart also [oil?]. Many ligatures in LA: OLE+RI (A 381), OLE+NE (A 730), OLE+U (A 728)."
+A 312,U+10695,𐚕,[?],1,,,,,,VASE 7(3); VASE 3(2); VASE 4(1),low,No known LB counterpart
+A 313,U+10696,𐚖,*362,1,,,,,,VASE 7(1),low,No known LB counterpart
+A 314,U+10697,𐚗,*363,2,,,,,,VASE 7(1),low,No known LB counterpart
+A 314,U+10697,𐚗,KE,2,,,,,,VASE 7(1),low,No known LB counterpart
+A 316,U+10699,𐚙,*365,1,,,,,,,low,No known LB counterpart
+A 317,U+1069A,𐚚,*366,1,,,,,,,low,No known LB counterpart
+A 318,U+1069B,𐚛,*367,1,,,,,,,low,No known LB counterpart
+A 319,U+1069C,𐚜,*368,1,,,,,,,low,No known LB counterpart
+A 320,U+1069D,𐚝,*369,1,,,,,,,low,No known LB counterpart
+A 321,U+1069E,𐚞,NU,2,,,,,,,low,No known LB counterpart
+A 321,U+1069E,𐚞,*370,2,,,,,,,low,No known LB counterpart
+A 322,U+1069F,𐚟,*371,1,,,,,,,low,No known LB counterpart
+A 325,U+106A2,𐚢,QA,4,,,,,,A 339(4); A 338(4); A 333(4),low,No known LB counterpart
+A 325,U+106A2,𐚢,"
+",4,,,,,,A 339(4); A 338(4); A 333(4),low,No known LB counterpart
+A 325,U+106A2,𐚢,PA₃,4,,,,,,A 339(4); A 338(4); A 333(4),low,No known LB counterpart
+A 325,U+106A2,𐚢,TA,4,,,,,,A 339(4); A 338(4); A 333(4),low,No known LB counterpart
+A 326,U+106A3,𐚣,*403,1,,,,,,A 385(1); A 370(1); A 369(1),low,No known LB counterpart
+A 327,U+106A4,𐚤,VS,1,,,,,,,low,No known LB counterpart
+A 328,U+106A5,𐚥,*405,1,,,,,,VASE 8(1),low,No known LB counterpart
+A 329,U+106A6,𐚦,2,1,,,,,,VASE 7(3); A 400(2); VASE 6(1); VASE 5(1); A 568(1),low,No known LB counterpart
+A 331,U+106A8,𐚨,*408,4,,,,,,,low,No known LB counterpart
+A 332,U+106A9,𐚩,*409,5,,,,,,,low,No known LB counterpart
+A 333,U+106AA,𐚪,VS,2,,,,,,A 325(4); A 339(1); A 338(1),low,No known LB counterpart
+A 333,U+106AA,𐚪,VAS,2,,,,,,A 325(4); A 339(1); A 338(1),low,No known LB counterpart
+A 334,U+106AB,𐚫,*411,15,,,,,,,low,No known LB counterpart
+A 335,U+106AC,𐚬,VS,1,,,,,,VASE 7(2),low,No known LB counterpart
+A 338,U+106AF,𐚯,VS,1,,,,,,A 325(4); A 339(1); A 333(1),low,No known LB counterpart
+A 339,U+106B0,𐚰,VS,1,,,,,,A 325(4); A 338(1); A 333(1),low,No known LB counterpart
+A 340,U+106B1,𐚱,*417,2,,,,,,,low,No known LB counterpart
+A 342,U+106B3,𐚳,DA+RO,2,,,,,,A 504(2),low,No known LB counterpart
+A 343,U+106B4,𐚴,43,1,,,,,,VASE 7(3); A 400(2); VASE 6(1); VASE 5(1); A 568(1),low,No known LB counterpart
+A 344,U+106B5,𐚵,[?],1,,,,,,A 345(1),low,No known LB counterpart
+A 345,U+106B6,𐚶,[?],1,,,,,,A 344(1),low,No known LB counterpart
+A 346,U+106B7,𐚷,TE+RO[,1,,,,,,VASE 7(2),low,No known LB counterpart
+A 347,U+106B8,𐚸,3,1,,,,,,VASE 4(1),low,No known LB counterpart
+A 348,U+106B9,𐚹,¹⁄₆,6,UNGUENT,unguent / perfumed oil,,,*408,VASE 8(9); VASE 6(6); VASE 4(4); VASE 2(4); A 350(4),high,Perfumed oil/unquent vessel. Frequent in LA at Hagia Triada.
+A 348,U+106B9,𐚹,"
+",6,UNGUENT,unguent / perfumed oil,,,*408,VASE 8(9); VASE 6(6); VASE 4(4); VASE 2(4); A 350(4),high,Perfumed oil/unquent vessel. Frequent in LA at Hagia Triada.
+A 348,U+106B9,𐚹,1,6,UNGUENT,unguent / perfumed oil,,,*408,VASE 8(9); VASE 6(6); VASE 4(4); VASE 2(4); A 350(4),high,Perfumed oil/unquent vessel. Frequent in LA at Hagia Triada.
+A 348,U+106B9,𐚹,QA2+[?]+RE,6,UNGUENT,unguent / perfumed oil,,,*408,VASE 8(9); VASE 6(6); VASE 4(4); VASE 2(4); A 350(4),high,Perfumed oil/unquent vessel. Frequent in LA at Hagia Triada.
+A 348,U+106B9,𐚹,MI+JA+I,6,UNGUENT,unguent / perfumed oil,,,*408,VASE 8(9); VASE 6(6); VASE 4(4); VASE 2(4); A 350(4),high,Perfumed oil/unquent vessel. Frequent in LA at Hagia Triada.
+A 349,U+106BA,𐚺,10,4,,,,,,VASE 4(8); VASE 10(6); VASE 6(5); VASE 3(5); VASE 2(3),low,No known LB counterpart
+A 349,U+106BA,𐚺,QA2+[?]+RE+PU,4,,,,,,VASE 4(8); VASE 10(6); VASE 6(5); VASE 3(5); VASE 2(3),low,No known LB counterpart
+A 349,U+106BA,𐚺,𐝉,4,,,,,,VASE 4(8); VASE 10(6); VASE 6(5); VASE 3(5); VASE 2(3),low,No known LB counterpart
+A 349,U+106BA,𐚺,"
+",4,,,,,,VASE 4(8); VASE 10(6); VASE 6(5); VASE 3(5); VASE 2(3),low,No known LB counterpart
+A 350,U+106BB,𐚻,QA2+[?]+PU,8,,,,,,VASE 8(9); VASE 7(9); VASE 2(6); VASE 4(5); VASE 3(5),low,No known LB counterpart
+A 350,U+106BB,𐚻,1,8,,,,,,VASE 8(9); VASE 7(9); VASE 2(6); VASE 4(5); VASE 3(5),low,No known LB counterpart
+A 350,U+106BB,𐚻,SA,8,,,,,,VASE 8(9); VASE 7(9); VASE 2(6); VASE 4(5); VASE 3(5),low,No known LB counterpart
+A 350,U+106BB,𐚻,QA2+[?]+RE,8,,,,,,VASE 8(9); VASE 7(9); VASE 2(6); VASE 4(5); VASE 3(5),low,No known LB counterpart
+A 350,U+106BB,𐚻,¹⁄₁₆,8,,,,,,VASE 8(9); VASE 7(9); VASE 2(6); VASE 4(5); VASE 3(5),low,No known LB counterpart
+A 350,U+106BB,𐚻,[?],8,,,,,,VASE 8(9); VASE 7(9); VASE 2(6); VASE 4(5); VASE 3(5),low,No known LB counterpart
+A 351,U+106BC,𐚼,QA2+[?]+PU+RE,1,,,,,,VASE 8(1); A 389(1); A 350(1),low,No known LB counterpart
+A 352,U+106BD,𐚽,𐝫,3,,,,,,,low,No known LB counterpart
+A 352,U+106BD,𐚽,NA,3,,,,,,,low,No known LB counterpart
+A 352,U+106BD,𐚽,*22F,3,,,,,,,low,No known LB counterpart
+A 353,U+106BE,𐚾,MA,2,,,,,,,low,No known LB counterpart
+A 353,U+106BE,𐚾,3,2,,,,,,,low,No known LB counterpart
+A 354,U+106BF,𐚿,RE+SE,1,,,,,,VASE 7(3); A 400(2); VASE 6(1); VASE 5(1); A 568(1),low,No known LB counterpart
+A 355,U+106C0,𐛀,*516,10,,,,,,VASE 7(5); VASE 8(4); A 400(4); VASE 2(3); VASE 4(2),low,No known LB counterpart
+A 355,U+106C0,𐛀,¹⁄₅,10,,,,,,VASE 7(5); VASE 8(4); A 400(4); VASE 2(3); VASE 4(2),low,No known LB counterpart
+A 355,U+106C0,𐛀,𐄁,10,,,,,,VASE 7(5); VASE 8(4); A 400(4); VASE 2(3); VASE 4(2),low,No known LB counterpart
+A 356,U+106C1,𐛁,I+*301,2,,,,,,,low,No known LB counterpart
+A 356,U+106C1,𐛁,5,2,,,,,,,low,No known LB counterpart
+A 357,U+106C2,𐛂,"
+",1,,,,,,VASE 8(2); VASE 6(1); VASE 5(1); VASE 4(1); VASE 2(1),low,No known LB counterpart
+A 358,U+106C3,𐛃,7,2,,,,,,VASE 3(7); VASE 7(2); VASE 6(2); VASE 4(1); A 568(1),low,No known LB counterpart
+A 358,U+106C3,𐛃,KI,2,,,,,,VASE 3(7); VASE 7(2); VASE 6(2); VASE 4(1); A 568(1),low,No known LB counterpart
+A 359,U+106C4,𐛄,[?],1,,,,,,,low,No known LB counterpart
+A 360,U+106C5,𐛅,"
+",1,,,,,,VASE 8(2); VASE 6(1); VASE 5(1); VASE 4(1); VASE 2(1),low,No known LB counterpart
+A 361,U+106C6,𐛆,MI+JA+KA,2,,,,,,VASE 4(3); VASE 8(2); VASE 10(2); A 383(2); A 348(2),low,No known LB counterpart
+A 361,U+106C6,𐛆,[?],2,,,,,,VASE 4(3); VASE 8(2); VASE 10(2); A 383(2); A 348(2),low,No known LB counterpart
+A 362,U+106C7,𐛇,"
+",1,,,,,,A 389(1),low,No known LB counterpart
+A 363,U+106C8,𐛈,*528,1,,,,,,,low,No known LB counterpart
+A 364,U+106C9,𐛉,𐄁,5,,,,,,A 568(2); A 375(1),low,No known LB counterpart
+A 364,U+106C9,𐛉,SI+SE,5,,,,,,A 568(2); A 375(1),low,No known LB counterpart
+A 364,U+106C9,𐛉,GRA,5,,,,,,A 568(2); A 375(1),low,No known LB counterpart
+A 365,U+106CA,𐛊,SA,1,,,,,,VASE 6(5); VASE 8(2); VASE 2(1); A 381(1); A 349(1),low,No known LB counterpart
+A 366,U+106CB,𐛋,KI,1,,,,,,A 568(2); A 373(1),low,No known LB counterpart
+A 367,U+106CC,𐛌,[?],1,,,,,,VASE 4(3); VASE 8(1); VASE 7(1); VASE 2(1); VASE 10(1),low,No known LB counterpart
+A 368,U+106CD,𐛍,[?],1,,,,,,A 391(1),low,No known LB counterpart
+A 369,U+106CE,𐛎,"
+",1,,,,,,A 385(1); A 370(1); A 326(1),low,No known LB counterpart
+A 370,U+106CF,𐛏,"
+",1,,,,,,A 385(1); A 369(1); A 326(1),low,No known LB counterpart
+A 371,U+106D0,𐛐,[?],1,,,,,,VASE 4(2); VASE 10(2); VASE 3(1); VASE 12(1); A 509(1),low,No known LB counterpart
+A 372,U+106D1,𐛑,"
+",1,,,,,,A 568(2); VASE 7(1); A 566(1),low,No known LB counterpart
+A 373,U+106D2,𐛒,*539,1,,,,,,A 568(2); A 366(1),low,No known LB counterpart
+A 374,U+106D3,𐛓,𐝫,1,,,,,,VASE 11(2),low,No known LB counterpart
+A 375,U+106D4,𐛔,RA+KA,1,,,,,,A 568(1); A 364(1),low,No known LB counterpart
+A 376,U+106D5,𐛕,22,1,,,,,,VASE 4(1); A 568(1); A 396(1),low,No known LB counterpart
+A 377,U+106D6,𐛖,12,3,,,,,,A 398(2),low,No known LB counterpart
+A 377,U+106D6,𐛖,14,3,,,,,,A 398(2),low,No known LB counterpart
+A 377,U+106D6,𐛖,[?],3,,,,,,A 398(2),low,No known LB counterpart
+A 378,U+106D7,𐛗,"
+",1,,,,,,,low,No known LB counterpart
+A 379,U+106D8,𐛘,³⁄₄,1,,,,,,VASE 4(2); A 568(1),low,No known LB counterpart
+A 380,U+106D9,𐛙,],1,,,,,,VASE 8(3); VASE 4(1); VASE 10(1); A 350(1); A 348(1),low,No known LB counterpart
+A 381,U+106DA,𐛚,OLE+RI,8,OLE+RI,olive oil (RI variety?),,,OLE+RI,VASE 2(8); VASE 8(6); VASE 6(6); VASE 7(4); VASE 3(4),high,Oil ligatured with RI. LA-only ligature.
+A 381,U+106DA,𐛚,"
+",8,OLE+RI,olive oil (RI variety?),,,OLE+RI,VASE 2(8); VASE 8(6); VASE 6(6); VASE 7(4); VASE 3(4),high,Oil ligatured with RI. LA-only ligature.
+A 381,U+106DA,𐛚,1,8,OLE+RI,olive oil (RI variety?),,,OLE+RI,VASE 2(8); VASE 8(6); VASE 6(6); VASE 7(4); VASE 3(4),high,Oil ligatured with RI. LA-only ligature.
+A 381,U+106DA,𐛚,MI+JA+RU,8,OLE+RI,olive oil (RI variety?),,,OLE+RI,VASE 2(8); VASE 8(6); VASE 6(6); VASE 7(4); VASE 3(4),high,Oil ligatured with RI. LA-only ligature.
+A 381,U+106DA,𐛚,4,8,OLE+RI,olive oil (RI variety?),,,OLE+RI,VASE 2(8); VASE 8(6); VASE 6(6); VASE 7(4); VASE 3(4),high,Oil ligatured with RI. LA-only ligature.
+A 381,U+106DA,𐛚,𐝫,8,OLE+RI,olive oil (RI variety?),,,OLE+RI,VASE 2(8); VASE 8(6); VASE 6(6); VASE 7(4); VASE 3(4),high,Oil ligatured with RI. LA-only ligature.
+A 382,U+106DB,𐛛,SA+MU+KU,3,,,,,,VASE 8(2); VASE 6(1); VASE 5(1); VASE 4(1); VASE 2(1),low,No known LB counterpart
+A 382,U+106DB,𐛛,MI+JA+I,3,,,,,,VASE 8(2); VASE 6(1); VASE 5(1); VASE 4(1); VASE 2(1),low,No known LB counterpart
+A 382,U+106DB,𐛛,1000,3,,,,,,VASE 8(2); VASE 6(1); VASE 5(1); VASE 4(1); VASE 2(1),low,No known LB counterpart
+A 383,U+106DC,𐛜,90,2,,,,,,VASE 4(3); VASE 8(2); VASE 10(2); A 361(2); A 348(2),low,No known LB counterpart
+A 383,U+106DC,𐛜,MI+JA+KA,2,,,,,,VASE 4(3); VASE 8(2); VASE 10(2); A 361(2); A 348(2),low,No known LB counterpart
+A 384,U+106DD,𐛝,MI+*301,2,,,,,,,low,No known LB counterpart
+A 385,U+106DE,𐛞,"
+",1,,,,,,A 370(1); A 369(1); A 326(1),low,No known LB counterpart
+A 386,U+106DF,𐛟,GRA+PA,1,,,,,,VASE 7(2); A 400(2); VASE 9(1); VASE 4(1); VASE 10(1),low,No known LB counterpart
+A 387,U+106E0,𐛠,1,1,,,,,,A 566(3); A 390(1); A 389(1); A 388(1),low,No known LB counterpart
+A 388,U+106E1,𐛡,"
+",1,,,,,,A 566(3); A 390(1); A 389(1); A 387(1),low,No known LB counterpart
+A 389,U+106E2,𐛢,*560,4,,,,,,A 566(3); VASE 8(1); VASE 7(1); A 390(1); A 388(1),low,No known LB counterpart
+A 389,U+106E2,𐛢,[?],4,,,,,,A 566(3); VASE 8(1); VASE 7(1); A 390(1); A 388(1),low,No known LB counterpart
+A 389,U+106E2,𐛢,RE,4,,,,,,A 566(3); VASE 8(1); VASE 7(1); A 390(1); A 388(1),low,No known LB counterpart
+A 389,U+106E2,𐛢,PA,4,,,,,,A 566(3); VASE 8(1); VASE 7(1); A 390(1); A 388(1),low,No known LB counterpart
+A 390,U+106E3,𐛣,"
+",1,,,,,,A 566(3); A 389(1); A 388(1); A 387(1),low,No known LB counterpart
+A 391,U+106E4,𐛤,𐝫,1,,,,,,A 368(1),low,No known LB counterpart
+A 392,U+106E5,𐛥,¹⁄₂,3,,,,,,VASE 7(3); VASE 5(2); VASE 4(1),low,No known LB counterpart
+A 392,U+106E5,𐛥,*86+'*188',3,,,,,,VASE 7(3); VASE 5(2); VASE 4(1),low,No known LB counterpart
+A 392,U+106E5,𐛥,[?],3,,,,,,VASE 7(3); VASE 5(2); VASE 4(1),low,No known LB counterpart
+A 393,U+106E6,𐛦,*86+*188,8,,,,,,,low,No known LB counterpart
+A 394,U+106E7,𐛧,VIR+KA,10,VIR,man / person,U+100FC?,𐀒,VIR,VASE 7(2); VASE 3(2); VASE 6(1); VASE 4(1); VASE 10(1),high,"Man/person ideogram. LA A 394 = VIR+KA, A 395 = VIR+*307."
+A 394,U+106E7,𐛧,58,10,VIR,man / person,U+100FC?,𐀒,VIR,VASE 7(2); VASE 3(2); VASE 6(1); VASE 4(1); VASE 10(1),high,"Man/person ideogram. LA A 394 = VIR+KA, A 395 = VIR+*307."
+A 395,U+106E8,𐛨,VIR+*307,3,,,,,,VASE 4(5); VASE 8(2); VASE 2(2); VASE 7(1); VASE 10(1),low,No known LB counterpart
+A 395,U+106E8,𐛨,𐝫,3,,,,,,VASE 4(5); VASE 8(2); VASE 2(2); VASE 7(1); VASE 10(1),low,No known LB counterpart
+A 395,U+106E8,𐛨,13,3,,,,,,VASE 4(5); VASE 8(2); VASE 2(2); VASE 7(1); VASE 10(1),low,No known LB counterpart
+A 396,U+106E9,𐛩,TA,2,,,,,,VASE 4(2); VASE 3(2); A 568(2); VASE 7(1); VASE 6(1),low,No known LB counterpart
+A 396,U+106E9,𐛩,RO,2,,,,,,VASE 4(2); VASE 3(2); A 568(2); VASE 7(1); VASE 6(1),low,No known LB counterpart
+A 397,U+106EA,𐛪,18,4,,,,,,VASE 2(6); VASE 3(5); VASE 7(4); VASE 8(3); VASE 13(3),low,No known LB counterpart
+A 397,U+106EA,𐛪,"
+",4,,,,,,VASE 2(6); VASE 3(5); VASE 7(4); VASE 8(3); VASE 13(3),low,No known LB counterpart
+A 397,U+106EA,𐛪,𐝫𐝁𐝌,4,,,,,,VASE 2(6); VASE 3(5); VASE 7(4); VASE 8(3); VASE 13(3),low,No known LB counterpart
+A 398,U+106EB,𐛫,*301,1,,,,,,A 377(2),low,No known LB counterpart
+A 399,U+106EC,𐛬,GRA+DA,1,,,,,,,low,No known LB counterpart
+A 400,U+106ED,𐛭,GRA+PA,22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,"
+",22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,I,22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,NA,22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,62,22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,KI,22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,PA,22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,6,22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,[?],22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,26,22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,*304,22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,2,22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 400,U+106ED,𐛭,1,22,GRA+PA,wheat measured by the pa unit,,,GRA+PA,VASE 7(17); VASE 3(7); VASE 4(5); A 355(4); VASE 1(3),high,Wheat ligatured with PA (a dry measure unit sign). Common in LA.
+A 401,U+106EE,𐛮,¹⁄₁₆,1,,,,,,VASE 8(1); VASE 4(1),low,No known LB counterpart
+A 402,U+106EF,𐛯,GRA+BOSm,1,BOSm,bull / male bovid,U+100D7,𐃗,*104bis / BOSm,VASE 3(5); VASE 7(1),high,Male cattle. LA A 402 = GRA+BOSm in transliteration.
+A 500,U+1071D,𐜝,"
+",9,,,,,,VASE 7(3); VASE 4(2); VASE 3(2); VASE 8(1); VASE 6(1),low,No known LB counterpart
+A 500,U+1071D,𐜝,KU,9,,,,,,VASE 7(3); VASE 4(2); VASE 3(2); VASE 8(1); VASE 6(1),low,No known LB counterpart
+A 500,U+1071D,𐜝,*304+PA,9,,,,,,VASE 7(3); VASE 4(2); VASE 3(2); VASE 8(1); VASE 6(1),low,No known LB counterpart
+A 500,U+1071D,𐜝,¹⁄₁₆,9,,,,,,VASE 7(3); VASE 4(2); VASE 3(2); VASE 8(1); VASE 6(1),low,No known LB counterpart
+A 501,U+1071E,𐜞,"
+",1,,,,,,VASE 7(3),low,No known LB counterpart
+A 502,U+1071F,𐜟,"
+",1,,,,,,,low,No known LB counterpart
+A 503,U+10720,𐜠,*307+*387,3,,,,,,VASE 7(2); A 394(1),low,No known LB counterpart
+A 504,U+10721,𐜡,*316+KI,2,,,,,,A 342(2),low,No known LB counterpart
+A 505,U+10722,𐜢,],1,,,,,,,low,No known LB counterpart
+A 506,U+10723,𐜣,113,1,,,,,,,low,No known LB counterpart
+A 507,U+10724,𐜤,*330+SA,1,,,,,,VASE 8(1),low,No known LB counterpart
+A 508,U+10725,𐜥,*337+*188,2,,,,,,,low,No known LB counterpart
+A 509,U+10726,𐜦,100,1,,,,,,VASE 4(2); VASE 10(2); VASE 3(1); VASE 12(1); A 383(1),low,No known LB counterpart
+A 510,U+10727,𐜧,"
+",1,,,,,,VASE 7(2); A 568(1),low,No known LB counterpart
+A 560,U+1074D,𐝍,[?],6,,,,,,VASE 3(5); VASE 2(5); VASE 7(4); A 381(3); VASE 8(2),low,No known LB counterpart
+A 560,U+1074D,𐝍,"
+",6,,,,,,VASE 3(5); VASE 2(5); VASE 7(4); A 381(3); VASE 8(2),low,No known LB counterpart
+A 560,U+1074D,𐝍,CYP,6,,,,,,VASE 3(5); VASE 2(5); VASE 7(4); A 381(3); VASE 8(2),low,No known LB counterpart
+A 560,U+1074D,𐝍,𐝫,6,,,,,,VASE 3(5); VASE 2(5); VASE 7(4); A 381(3); VASE 8(2),low,No known LB counterpart
+A 561,U+1074E,𐝎,.3,4,,,,,,VASE 1(10); VASE 4(7); A 568(6); VASE 7(5); VASE 6(2),low,No known LB counterpart
+A 561,U+1074E,𐝎,"
+",4,,,,,,VASE 1(10); VASE 4(7); A 568(6); VASE 7(5); VASE 6(2),low,No known LB counterpart
+A 561,U+1074E,𐝎,SA,4,,,,,,VASE 1(10); VASE 4(7); A 568(6); VASE 7(5); VASE 6(2),low,No known LB counterpart
+A 561,U+1074E,𐝎,[?],4,,,,,,VASE 1(10); VASE 4(7); A 568(6); VASE 7(5); VASE 6(2),low,No known LB counterpart
+A 562,U+1074F,𐝏,≈,4,,,,,,VASE 4(3); A 304(1),low,No known LB counterpart
+A 562,U+1074F,𐝏,[?],4,,,,,,VASE 4(3); A 304(1),low,No known LB counterpart
+A 566,U+10753,𐝓,MA,6,,,,,,VASE 7(9); VASE 3(8); A 390(3); A 389(3); A 388(3),low,No known LB counterpart
+A 566,U+10753,𐝓,¹⁄₅,6,,,,,,VASE 7(9); VASE 3(8); A 390(3); A 389(3); A 388(3),low,No known LB counterpart
+A 566,U+10753,𐝓,¹⁄₂,6,,,,,,VASE 7(9); VASE 3(8); A 390(3); A 389(3); A 388(3),low,No known LB counterpart
+A 566,U+10753,𐝓,*560,6,,,,,,VASE 7(9); VASE 3(8); A 390(3); A 389(3); A 388(3),low,No known LB counterpart
+A 566,U+10753,𐝓,RA,6,,,,,,VASE 7(9); VASE 3(8); A 390(3); A 389(3); A 388(3),low,No known LB counterpart
+A 566,U+10753,𐝓,"
+",6,,,,,,VASE 7(9); VASE 3(8); A 390(3); A 389(3); A 388(3),low,No known LB counterpart
+A 568,U+10755,𐝕,DA,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,15,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,³⁄₄,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,[?],32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,7,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,1,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,"
+",32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,20,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,RE,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,KE,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,RU,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,KI,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,OLIV,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,93,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,𐝕𐝉𐝫,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+A 568,U+10755,𐝕,JE,32,,,,,,VASE 7(28); VASE 4(18); VASE 2(6); A 561(6); VASE 6(5),low,No known LB counterpart
+VASE 1,U+10740,𐝀,¹⁄₄,18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 1,U+10740,𐝀,≈,18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 1,U+10740,𐝀,OLE+KI,18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 1,U+10740,𐝀,"
+",18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 1,U+10740,𐝀,¹⁄₆,18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 1,U+10740,𐝀,OLIV,18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 1,U+10740,𐝀,E,18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 1,U+10740,𐝀,U,18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 1,U+10740,𐝀,KI,18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 1,U+10740,𐝀,MA,18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 1,U+10740,𐝀,*306,18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 1,U+10740,𐝀,vase,18,SITVL,situla / bucket-shaped vessel,U+100C0,𐃀,SITVL,A 561(10); VASE 8(8); VASE 7(6); VASE 2(5); VASE 10(5),high,Situla/bucket vessel. LA VASE 1.
+VASE 10,U+10749,𐝉,𐝉,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,𐝉𐝋𐝫,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,"
+",30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,PA,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,vase,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,KA,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,≈,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,TO,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,𐝫,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,TA,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,GRA,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,𐝉𐝫,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 10,U+10749,𐝉,4,30,CUP,cup / drinking vessel,U+102A8,𐊨,CUP,VASE 8(22); VASE 4(17); VASE 7(11); VASE 2(11); VASE 3(6),high,Cup/goblet. LA VASE 10.
+VASE 11,U+1074A,𐝊,"
+",2,,,,,,A 374(2),low,No known LB counterpart
+VASE 11,U+1074A,𐝊,vase,2,,,,,,A 374(2),low,No known LB counterpart
+VASE 12,U+1074B,𐝋,"
+",4,PAN,pan / shallow vessel,U+102C0,𐋀,PAN,VASE 4(3); VASE 10(2); VASE 6(1); VASE 3(1); A 509(1),high,Shallow pan or tray. LA VASE 12.
+VASE 12,U+1074B,𐝋,𐝫,4,PAN,pan / shallow vessel,U+102C0,𐋀,PAN,VASE 4(3); VASE 10(2); VASE 6(1); VASE 3(1); A 509(1),high,Shallow pan or tray. LA VASE 12.
+VASE 13,U+1074C,𐝌,vase,2,,,,,,A 397(3); VASE 2(2); VASE 8(1); VASE 7(1); VASE 4(1),low,No known LB counterpart
+VASE 2,U+10741,𐝁,¹⁄₃,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,"
+",41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,vase,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,E,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,¹⁄₄,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,*304,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,?,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,𐝫,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,*348,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,3,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,NI,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,DU,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,CYP,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,TA,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 2,U+10741,𐝁,OLIV,41,,,,,,VASE 7(39); VASE 3(25); VASE 4(20); VASE 8(18); VASE 10(11),low,No known LB counterpart
+VASE 3,U+10742,𐝂,8,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,RA,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,𐝫,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,vase,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,"
+",42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,mina,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,double,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,¹⁄₂,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,OLE+U,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,𐝂𐝂𐝂𐝂,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,KA,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,PO,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,¹⁄₅,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,𐝍𐝫,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,NI,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,4,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,1,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,OLE+KI,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,3,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 3,U+10742,𐝂,2,42,PITHOS,pithos / storage jar,U+102BC,𐊼,PITHOS,VASE 7(47); VASE 2(25); VASE 4(18); A 566(8); VASE 6(7),high,Large storage jar. LA VASE 3.
+VASE 4,U+10743,𐝃,¹⁄₄,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,³⁄₈,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,vase,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,¹⁄₅,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,245,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,—,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,"
+",77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,5,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,4,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,17,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,3,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,RO,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,E,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,CYP+E,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,NI,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,1,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,MI,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,.3,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,2,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,CYP,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,OLE+U,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,DA,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,VIN,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 4,U+10743,𐝃,SE,77,HYDRIA,hydria / water jar,U+102AA,𐊪,HYDRIA,VASE 7(61); VASE 2(20); VASE 5(18); VASE 3(18); A 568(18),high,Water jar. LA VASE 4 — also used as fraction ¼.
+VASE 5,U+10744,𐝄,"
+",19,AMPHORA,amphora,U+102A2,𐊢,AMPHORA,VASE 7(20); VASE 4(18); VASE 8(6); VASE 2(5); VASE 6(2),high,Wine/storage amphora. LA VASE 5.
+VASE 5,U+10744,𐝄,¹⁄₈,19,AMPHORA,amphora,U+102A2,𐊢,AMPHORA,VASE 7(20); VASE 4(18); VASE 8(6); VASE 2(5); VASE 6(2),high,Wine/storage amphora. LA VASE 5.
+VASE 5,U+10744,𐝄,vase,19,AMPHORA,amphora,U+102A2,𐊢,AMPHORA,VASE 7(20); VASE 4(18); VASE 8(6); VASE 2(5); VASE 6(2),high,Wine/storage amphora. LA VASE 5.
+VASE 5,U+10744,𐝄,20,19,AMPHORA,amphora,U+102A2,𐊢,AMPHORA,VASE 7(20); VASE 4(18); VASE 8(6); VASE 2(5); VASE 6(2),high,Wine/storage amphora. LA VASE 5.
+VASE 5,U+10744,𐝄,𐝫,19,AMPHORA,amphora,U+102A2,𐊢,AMPHORA,VASE 7(20); VASE 4(18); VASE 8(6); VASE 2(5); VASE 6(2),high,Wine/storage amphora. LA VASE 5.
+VASE 6,U+10745,𐝅,≈,16,KRATER,krater / mixing bowl,U+102C1,𐋁,KRATER,VASE 8(12); VASE 7(9); VASE 3(7); VASE 2(6); A 381(6),high,Mixing bowl. LA VASE 6.
+VASE 6,U+10745,𐝅,OLE+NE,16,KRATER,krater / mixing bowl,U+102C1,𐋁,KRATER,VASE 8(12); VASE 7(9); VASE 3(7); VASE 2(6); A 381(6),high,Mixing bowl. LA VASE 6.
+VASE 6,U+10745,𐝅,"
+",16,KRATER,krater / mixing bowl,U+102C1,𐋁,KRATER,VASE 8(12); VASE 7(9); VASE 3(7); VASE 2(6); A 381(6),high,Mixing bowl. LA VASE 6.
+VASE 6,U+10745,𐝅,¹⁄₆,16,KRATER,krater / mixing bowl,U+102C1,𐋁,KRATER,VASE 8(12); VASE 7(9); VASE 3(7); VASE 2(6); A 381(6),high,Mixing bowl. LA VASE 6.
+VASE 6,U+10745,𐝅,SE,16,KRATER,krater / mixing bowl,U+102C1,𐋁,KRATER,VASE 8(12); VASE 7(9); VASE 3(7); VASE 2(6); A 381(6),high,Mixing bowl. LA VASE 6.
+VASE 6,U+10745,𐝅,KI,16,KRATER,krater / mixing bowl,U+102C1,𐋁,KRATER,VASE 8(12); VASE 7(9); VASE 3(7); VASE 2(6); A 381(6),high,Mixing bowl. LA VASE 6.
+VASE 6,U+10745,𐝅,2,16,KRATER,krater / mixing bowl,U+102C1,𐋁,KRATER,VASE 8(12); VASE 7(9); VASE 3(7); VASE 2(6); A 381(6),high,Mixing bowl. LA VASE 6.
+VASE 6,U+10745,𐝅,vase,16,KRATER,krater / mixing bowl,U+102C1,𐋁,KRATER,VASE 8(12); VASE 7(9); VASE 3(7); VASE 2(6); A 381(6),high,Mixing bowl. LA VASE 6.
+VASE 7,U+10746,𐝆,vase,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,¹⁄₂,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,"
+",137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,RI,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,NI,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,RU,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,7,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,𐝓,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,1,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,𐝆𐝇,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,DU,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,𐝫,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,6,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,3,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,KI,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,A,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,𐄁,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,*301,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,*188,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,2,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,DA,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,*308,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,RO,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,*304,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,JA,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,*905,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,*306,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,ME,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,*304+PA,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,¹⁄₄,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,MI+JA+RU,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,¹⁄₃,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,ZU,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,E,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,𐝆𐝆,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,MA,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,I,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,KU,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,PA,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,NE,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 7,U+10746,𐝆,1/2,137,VAS,vessel (general),U+102B0,𐊰,VAS,VASE 4(61); VASE 3(47); VASE 2(39); A 568(28); VASE 5(20),high,Generic vessel ideogram. Highly frequent in LA (VASE 7).
+VASE 8,U+10747,𐝇,¹⁄₁₆,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,vase,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,*21F,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,"
+",35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,¹⁄₆,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,𐄁,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,NI,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,SU,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,VIN,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,A,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,𐝍𐝫,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,¹⁄₄,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,U,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,*401+RU,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 8,U+10747,𐝇,VS,35,JAR,jar (generic),U+102C3,𐋃,JAR,VASE 10(22); VASE 2(18); VASE 7(14); VASE 4(14); VASE 6(12),high,Generic jar. LA VASE 8 — also used as fraction 1/16.
+VASE 9,U+10748,𐝈,vase,10,BOWL,bowl,U+102AE,𐊮,BOWL,VASE 4(4); VASE 7(2); VASE 1(2); A 400(2); A 306(2),high,Bowl. LA VASE 9.
+VASE 9,U+10748,𐝈,L,10,BOWL,bowl,U+102AE,𐊮,BOWL,VASE 4(4); VASE 7(2); VASE 1(2); A 400(2); A 306(2),high,Bowl. LA VASE 9.
+VASE 9,U+10748,𐝈,"
+",10,BOWL,bowl,U+102AE,𐊮,BOWL,VASE 4(4); VASE 7(2); VASE 1(2); A 400(2); A 306(2),high,Bowl. LA VASE 9.
+VASE 9,U+10748,𐝈,𐝈𐝃,10,BOWL,bowl,U+102AE,𐊮,BOWL,VASE 4(4); VASE 7(2); VASE 1(2); A 400(2); A 306(2),high,Bowl. LA VASE 9.
+VASE 9,U+10748,𐝈,𐝈𐝈,10,BOWL,bowl,U+102AE,𐊮,BOWL,VASE 4(4); VASE 7(2); VASE 1(2); A 400(2); A 306(2),high,Bowl. LA VASE 9.
+VASE 9,U+10748,𐝈,QE+GRA+PA,10,BOWL,bowl,U+102AE,𐊮,BOWL,VASE 4(4); VASE 7(2); VASE 1(2); A 400(2); A 306(2),high,Bowl. LA VASE 9.

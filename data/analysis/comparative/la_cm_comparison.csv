@@ -1,0 +1,88 @@
+la_ab,la_char,la_unicode,lb_value,cm_sign,cm_desc,cm_corpus,la_cm_confidence,notes
+AB 08,𐘇,U+10607,a,CM 015,Stool / table-shaped sign,"CM 1, CM 2, CM 3",HIGH,Minoan 'a'; shape resembles CG 'a'
+AB 28,𐘜,U+1061C,i,CM 020,Angled bracket open left,"CM 1, CM 2, CM 3",HIGH,"Minoan 'i'; simple vertical stroke, common"
+AB 10,𐘉,U+10609,u,CM 026,Horizontal with centre-dot circle above,"CM 1, CM 2, CM 3",HIGH,Minoan 'u'; circle-with-dot motif
+AB 61,𐘻,U+1063B,o,CM 012,Circled cross,"CM 1, CM 3",HIGH,"Minoan 'o'; circled cross, good match"
+AB 01,𐘀,U+10600,da,CM 001,Simple cross / star motif,"CM 1, CM 2, CM 3",HIGH,"LA da; cross/star sign, also LB da"
+AB 07,𐘆,U+10606,di,CM 029,Eye-shaped sign,"CM 1, CM 2",HIGH,"LA di; eye-shaped sign, same in LB"
+AB 04,𐘃,U+10603,te,CM 049,Fork with long handle,"CM 1, CM 2",HIGH,"LA te; fork shape, well-attested"
+AB 05,𐘄,U+10604,to,CM 002,Vertical wedge with two horizontals,"CM 1, CM 3",HIGH,"LA to; vertical wedge, also LB to"
+AB 06,𐘅,U+10605,na,CM 005,L-shaped angular sign,"CM 1, CM 2, CM 3",HIGH,"LA na; L-shaped sign, securely matched"
+AB 34,𐘡,U+10621,ti,CM 006,Double vertical strokes,"CM 1, CM 2",HIGH,LA ti; double vertical strokes
+AB 77,𐙉,U+10649,ka,CM 043,Trident / pitchfork,"CM 1, CM 2, CM 3",HIGH,"LA ka; trident shape, good match"
+AB 44,𐘪,U+1062A,ke,CM 023,Vertical line with two side ticks,"CM 1, CM 2",HIGH,LA ke; vertical with side ticks
+AB 67,𐙀,U+10640,ki,CM 013,Chevron pointing up,"CM 1, CM 2",HIGH,LA ki; chevron pointing up
+AB 70,𐙃,U+10643,ko,CM 030,Spiral / volute,"CM 1, CM 3",HIGH,"LA ko; spiral/volute, close match LB ko"
+AB 81,𐙍,U+1064D,ku,CM 041,Horizontal line with two circles,"CM 1, CM 2",HIGH,LA ku; horizontal with two circles
+AB 03,𐘂,U+10602,pa,CM 010,Horizontal line with vertical drop,"CM 1, CM 2, CM 3",HIGH,LA pa; horizontal with vertical drop
+AB 22,𐘖,U+10616,pi,CM 018,Circle with attached line,"CM 1, CM 2",HIGH,LA pi; circle with attached line
+AB 50,𐘰,U+10630,pu,CM 056,Circle with hanging line,"CM 1, CM 2",HIGH,LA pu; circle with hanging line
+AB 23,𐘘,U+10618,mu,CM 008,Rectangular frame with cross,"CM 1, CM 2",HIGH,LA mu; rectangular frame with cross
+AB 26,𐘚,U+1061A,ru,CM 014,Vertical line with crossbar,"CM 1, CM 3",HIGH,LA ru; vertical with crossbar
+AB 27,𐘛,U+1061B,re,CM 038,Angle bracket with internal stroke,CM 1,HIGH,LA re; angle bracket with internal stroke
+AB 53,𐘳,U+10633,ri,CM 042,Droplet / teardrop shape,"CM 1, CM 3",HIGH,LA ri; droplet/teardrop shape
+AB 24,𐘙,U+10619,ne,CM 037,Cross with four dots,"CM 1, CM 2",HIGH,LA ne; cross with four dots
+AB 30,𐘝,U+1061D,ni,CM 035,Staircase / stepped sign,"CM 1, CM 2",HIGH,LA ni; staircase/stepped sign
+AB 52,𐘲,U+10632,no,CM 004,Circle with central dot,"CM 1, CM 2",HIGH,LA no; circle with central dot
+AB 55,𐘵,U+10635,nu,CM 047,Wavy line with dot,"CM 1, CM 2",HIGH,LA nu; wavy line with dot
+AB 60,𐘺,U+1063A,ma,CM 008,Rectangular frame with cross,"CM 1, CM 2",HIGH,LA ma; rectangular frame with cross (shared with mu)
+AB 09,𐘈,U+10608,se,CM 033,Triangle with horizontal line,"CM 1, CM 2, CM 3",HIGH,LA se; triangle with horizontal line
+AB 11,𐘊,U+1060A,si,CM 032,Door / gate sign,"CM 1, CM 2",HIGH,LA si; door/gate sign
+AB 12,𐘋,U+1060B,so,CM 054,Cross with forked ends,"CM 1, CM 2",HIGH,LA so; cross with forked ends
+AB 17,𐘐,U+10610,za,CM 055,Y-shaped sign,"CM 1, CM 3",HIGH,LA za; Y-shaped sign
+AB 31,𐘞,U+1061E,sa,CM 060,Three horizontal strokes,"CM 1, CM 2",HIGH,LA sa; three horizontal strokes
+AB 48,𐘮,U+1062E,wa,CM 025,U-shaped bracket,"CM 1, CM 2",HIGH,LA wa; U-shaped bracket
+AB 49,𐘯,U+1062F,we,CM 050,Loop / hook sign,"CM 1, CM 2, CM 3",HIGH,LA we; loop/hook sign
+AB 40,𐘦,U+10626,wi,CM 052,Comb with 4 teeth,"CM 1, CM 2",HIGH,LA wi; comb with 4 teeth
+AB 38,𐘤,U+10624,e,CM 010,Horizontal line with vertical drop,"CM 1, CM 2, CM 3",HIGH,"LA e (vowel); horizontal with vertical drop, shared with pa"
+AB 36,𐘣,U+10623,jo,CM 055,Y-shaped sign,"CM 1, CM 3",HIGH,LA jo; Y-shaped (shared with za)
+AB 13,𐘌,U+1060C,me,CM 007,Wavy horizontal line,"CM 1, CM 3",MEDIUM,LA me; wavy horizontal line
+AB 14,𐘍,U+1060D,do,CM 011,T-shaped sign,"CM 1, CM 2",MEDIUM,LA do; T-shaped sign
+AB 15,𐘎,U+1060E,mo,CM 028,Stick figure / anthropomorphic,"CM 1, CM 2",MEDIUM,LA mo; stick-figure anthropomorphic
+AB 16,𐘏,U+1060F,qa,CM 024,Cross with circle at centre,"CM 1, CM 3",MEDIUM,LA qa; cross with circle at centre
+AB 18,𐘑,U+10611,zo,CM 057,Line with triple fork,CM 1,MEDIUM,LA zo; line with triple fork
+AB 21,𐘔,U+10614,mi,CM 045,Circle with two attached lines,"CM 1, CM 2",MEDIUM,LA mi; circle with two attached lines
+AB 46,𐘬,U+1062C,je?,CM 019,Three-pronged fork,CM 1,MEDIUM,LA je; three-pronged fork
+AB 47,𐘭,U+1062D,ja,CM 031,Horizontal line with three drops,CM 1,MEDIUM,LA ja; horizontal line with three drops
+AB 51,𐘱,U+10631,du,CM 046,Hourglass shape,"CM 1, CM 3",MEDIUM,LA du; hourglass shape
+AB 54,𐘴,U+10634,wa?,CM 062,Angle bracket pair,"CM 1, CM 2",MEDIUM,LA wa?; angle bracket pair
+AB 58,𐘸,U+10638,su,CM 034,Ladder-like sign,CM 1,MEDIUM,LA su; ladder-like sign
+AB 63,𐘼,U+1063C,ke,CM 064,Key / cross with loop,CM 1,MEDIUM,LA ke (alt.); key shape
+AB 69,𐙂,U+10642,tu,CM 039,Arrow pointing down,"CM 1, CM 2",MEDIUM,LA tu; arrow pointing down
+AB 72,𐙅,U+10645,pe,CM 059,Bilateral comb,"CM 1, CM 3",MEDIUM,LA pe; bilateral comb
+AB 74,𐙇,U+10647,ze,CM 003,Triangle with central stroke,CM 1,MEDIUM,LA ze; triangle with central stroke
+AB 76,𐙈,U+10648,ra,CM 018,Circle with attached line,"CM 1, CM 2",MEDIUM,LA ra; circle with line (shared with pi)
+AB 83,𐙏,U+1064F,la,CM 009,Arrowhead / triangular wedge,CM 1,MEDIUM,LA la; arrowhead/triangular wedge
+AB 85,𐙐,U+10650,au?,CM 065,Cross with extra bar,"CM 1, CM 2",MEDIUM,LA au; cross with extra bar
+AB 86,𐙑,U+10651,dwo?,CM 016,Comb-sign (multiple verticals),"CM 1, CM 2",MEDIUM,LA dwo; comb-sign
+AB 35,𐘢,U+10622,ti?,CM 053,Dumbbell / double-circle,CM 1,LOW,LA ti?; dumbbell shape
+AB 39,𐘥,U+10625,pi?,CM 058,Triangular cluster,"CM 1, CM 2",LOW,LA pi?; triangular cluster
+AB 41,𐘧,U+10627,si?,CM 040,Anchored T-shape,CM 1,LOW,LA si?; anchored T-shape
+AB 45,𐘫,U+1062B,de,CM 017,Zigzag horizontal,"CM 1, CM 3",LOW,LA de; zigzag horizontal
+AB 56,𐘶,U+10636,pa?,CM 051,Five-dot quincunx,"CM 1, CM 3",LOW,LA pa?; five-dot quincunx
+AB 57,𐘷,U+10637,ja?,CM 063,Rectangular spiral,"CM 1, CM 3",LOW,LA ja?; rectangular spiral
+AB 59,𐘹,U+10639,ta?,CM 048,Rectangular box divided,CM 1,LOW,LA ta?; rectangular box divided
+AB 64,𐘽,U+1063D,swi?,CM 036,Double circle,"CM 1, CM 3",LOW,LA swi?; double circle
+AB 65,𐘾,U+1063E,ju?,CM 027,Dotted circle (logogram?),"CM 1, CM 3",LOW,LA ju?; dotted circle (logogram?)
+AB 66,𐘿,U+1063F,ta?,CM 022,Square with internal dot,CM 1,LOW,LA ta?; square with internal dot
+AB 68,𐙁,U+10641,ro?,CM 021,Diamond shape,"CM 1, CM 2",LOW,LA ro?; diamond shape
+AB 71,𐙄,U+10644,dwe?,CM 044,Cross-hatched square,CM 1,LOW,LA dwe?; cross-hatched square
+AB 73,𐙆,U+10646,mi?,CM 061,Circle with tail,CM 1,LOW,LA mi?; circle with tail
+AB 78,𐙊,U+1064A,qe,CM 024,Cross with circle at centre,"CM 1, CM 3",LOW,LA qe; cross with circle (shared with qa)
+AB 79,𐙋,U+1064B,zu?,CM 003,Triangle with central stroke,CM 1,LOW,LA zu?; triangle variant
+AB 80,𐙌,U+1064C,ma?,CM 051,Five-dot quincunx,"CM 1, CM 3",LOW,LA ma?; quincunx variant
+AB 82,𐙎,U+1064E,swa?,CM 036,Double circle,"CM 1, CM 3",LOW,LA swa?; double circle variant
+AB 87,𐙒,U+10652,two?,CM 016,Comb-sign (multiple verticals),"CM 1, CM 2",LOW,LA two?; comb variant
+AB 88,𐙓,U+10653,nwa?,CM 016,Comb-sign (multiple verticals),"CM 1, CM 2",LOW,LA nwa?; comb variant
+AB 89,𐙔,U+10654,mi?,CM 045,Circle with two attached lines,"CM 1, CM 2",LOW,LA mi?; circle variant
+AB 90,𐙕,U+10655,dwo?,CM 016,Comb-sign (multiple verticals),"CM 1, CM 2",LOW,LA dwo?; comb variant
+AB 91,𐙖,U+10656,two?,CM 016,Comb-sign (multiple verticals),"CM 1, CM 2",LOW,LA two?; comb variant
+AB 92,𐙗,U+10657,pte?,CM 019,Three-pronged fork,CM 1,LOW,LA pte?; fork variant
+AB 93,𐙘,U+10658,ra?,CM 018,Circle with attached line,"CM 1, CM 2",LOW,LA ra?; circle variant
+AB 94,𐙙,U+10659,re?,CM 038,Angle bracket with internal stroke,CM 1,LOW,LA re?; bracket variant
+AB 95,𐙚,U+1065A,te?,CM 049,Fork with long handle,"CM 1, CM 2",LOW,LA te?; fork variant
+AB 96,𐙛,U+1065B,nwa?,CM 016,Comb-sign (multiple verticals),"CM 1, CM 2",LOW,LA nwa?; comb variant
+AB 97,𐙜,U+1065C,swa?,CM 036,Double circle,"CM 1, CM 3",LOW,LA swa?; double circle variant
+AB 98,𐙝,U+1065D,dwe?,CM 044,Cross-hatched square,CM 1,LOW,LA dwe?; cross-hatch variant
+AB 99,𐙞,U+1065E,mra?,CM 008,Rectangular frame with cross,"CM 1, CM 2",LOW,LA mra?; frame variant
+AB 100,𐙟,U+1065F,twe?,CM 011,T-shaped sign,"CM 1, CM 2",LOW,LA twe?; T-shaped variant

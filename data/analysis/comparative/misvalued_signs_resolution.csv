@@ -1,0 +1,21 @@
+bennett_id,conventional_value,refined_value,decision,confidence,phase2_positional_rank,phase2_ngram_rank,positional_flags,lb_composite,cm_confidence,cm_value,grid_confidence_score,grid_proposed_value,evidence_summary,conflict_note,resolution
+AB 01,da,da,UNCERTAIN,73.5,27,3,,82.8,HIGH,ta,65.0,da,LB=83; CM=HIGH; GC=65; Pos#27; Ng#3,HIGH CM=/ta/ vs LB=/da/ — genuine conflict,UNCERTAIN: retained as da
+AB 02,ro,ro,UNCERTAIN,42.8,6,17,ANOMALOUS: CV sign in final position,76.2,,,45.0,i,LB=76; GC=45; Pos#6; Ng#17,Conflict: LB=/ro/; GC=/i/,UNCERTAIN: retained as ro
+AB 03,pa,pa,CONFIRM,74.5,21,9,,79.8,HIGH,pa,61.0,pa,LB=80; CM=HIGH; GC=61; Pos#21; Ng#9,,CONFIRM: retained as pa
+AB 04,te,te,CONFIRM,57.6,32,4,,70.5,HIGH,te,28.0,i,LB=70; CM=HIGH; GC=28; Pos#32; Ng#4,Conflict: LB=/te/; CM=/te/; GC=/i/,CONFIRM: retained as te
+AB 06,na,na,CONFIRM,65.6,13,7,,75.2,HIGH,na,43.0,pa,LB=75; CM=HIGH; GC=43; Pos#13; Ng#7,Conflict: LB=/na/; CM=/na/; GC=/pa/,CONFIRM: retained as na
+AB 07,di,di,UNCERTAIN,69.2,20,6,,76.2,HIGH,ti,55.0,di,LB=76; CM=HIGH; GC=55; Pos#20; Ng#6,HIGH CM=/ti/ vs LB=/di/ — genuine conflict,UNCERTAIN: retained as di
+AB 16,qa,qa,UNCERTAIN,48.1,1,11,initial-biased; prefix-like CV sign,68.0,MEDIUM,ka,,,LB=68; CM=MEDIUM; Pos#1; Ng#11,Conflict: LB=/qa/; CM=/ka/,UNCERTAIN: retained as qa
+AB 22,pi,pi,CONFIRM,54.7,4,14,final-biased; ANOMALOUS: CV sign in final position,68.0,HIGH,pi,,,LB=68; CM=HIGH; Pos#4; Ng#14,,CONFIRM: retained as pi
+AB 24,ne,ne,CONFIRM,71.3,28,13,,77.5,HIGH,ne,52.0,pa,LB=78; CM=HIGH; GC=52; Pos#28; Ng#13,Conflict: LB=/ne/; CM=/ne/; GC=/pa/,CONFIRM: retained as ne
+AB 26,ru,ru,CONFIRM,72.2,38,8,,78.0,HIGH,ru,58.0,i,LB=78; CM=HIGH; GC=58; Pos#38; Ng#8,Conflict: LB=/ru/; CM=/ru/; GC=/i/,CONFIRM: retained as ru
+AB 27,re,re,CONFIRM,64.9,9,2,,65.0,HIGH,re,,,LB=65; CM=HIGH; Pos#9; Ng#2,,CONFIRM: retained as re
+AB 29,pu,pu,UNCERTAIN,63.2,37,10,,75.0,,,50.0,i,LB=75; GC=50; Pos#37; Ng#10,Conflict: LB=/pu/; GC=/i/,UNCERTAIN: retained as pu
+AB 36,jo,jo,UNCERTAIN,59.0,14,5,,67.2,HIGH,za,35.0,i,LB=67; CM=HIGH; GC=35; Pos#14; Ng#5,HIGH CM=/za/ vs LB=/jo/ — genuine conflict,UNCERTAIN: retained as jo
+AB 53,ri,ri,CONFIRM,58.7,7,42,ANOMALOUS: CV sign in final position,74.0,HIGH,ri,,,LB=74; CM=HIGH; Pos#7; Ng#42,,CONFIRM: retained as ri
+AB 57,ja,ja,CONFIRM,47.0,25,15,,72.5,LOW,ja,36.0,pa,LB=72; CM=LOW; GC=36; Pos#25; Ng#15,Conflict: LB=/ja/; CM=/ja/; GC=/pa/,CONFIRM: retained as ja
+AB 60,ra,ra,UNCERTAIN,57.9,2,16,final-biased; ANOMALOUS: CV sign in final position; prefix-like CV sign,72.5,HIGH,ma,,,LB=72; CM=HIGH; Pos#2; Ng#16,HIGH CM=/ma/ vs LB=/ra/ — genuine conflict,UNCERTAIN: retained as ra
+AB 67,ki,ki,CONFIRM,73.3,5,12,,66.0,HIGH,ki,,,LB=66; CM=HIGH; Pos#5; Ng#12,,CONFIRM: retained as ki
+AB 80,ma,ma,UNCERTAIN,34.1,3,27,ANOMALOUS: CV sign in final position; prefix-like CV sign,76.0,LOW,pa,,,LB=76; CM=LOW; Pos#3; Ng#27,Conflict: LB=/ma/; CM=/pa/,UNCERTAIN: retained as ma
+AB 81,ku,ku,CONFIRM,53.9,,1,,62.5,HIGH,ku,,,LB=62; CM=HIGH; Ng#1,,CONFIRM: retained as ku
+AB 85,?,au,UNCERTAIN,25.0,,,,,LOW,au,,,CM=LOW,Low confidence (25/100) — insufficient for assignment,UNCERTAIN: ? → au

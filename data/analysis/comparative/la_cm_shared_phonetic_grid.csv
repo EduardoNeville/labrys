@@ -1,0 +1,88 @@
+la_ab,la_char,la_lb_value,cm_sign,cm_desc,cg_value,cg_char,cg_unicode,inferred_la_phonetic,triangular_confidence,notes
+AB 08,𐘇,a,CM 015,Stool / table-shaped sign,a,𐠀,U+10800,a,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 28,𐘜,i,CM 020,Angled bracket open left,i,𐠂,U+10802,i,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 10,𐘉,u,CM 026,Horizontal with centre-dot circle above,u,𐠄,U+10804,u,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 61,𐘻,o,CM 012,Circled cross,o,𐠃,U+10803,o,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 01,𐘀,da,CM 001,Simple cross / star motif,ta,𐠭,U+1082D,ta,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 07,𐘆,di,CM 029,Eye-shaped sign,ti,𐠯,U+1082F,ti,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 04,𐘃,te,CM 049,Fork with long handle,te,𐠮,U+1082E,te,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 05,𐘄,to,CM 002,Vertical wedge with two horizontals,to,𐠰,U+10830,to,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 06,𐘅,na,CM 005,L-shaped angular sign,na,𐠙,U+10819,na,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 34,𐘡,ti,CM 006,Double vertical strokes,ti,𐠯,U+1082F,ti,MEDIUM,"LA↔CM: HIGH. CM↔CG: MEDIUM. Good LA↔CM match, moderate CM↔CG descent."
+AB 77,𐙉,ka,CM 043,Trident / pitchfork,ka,𐠊,U+1080A,ka,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 44,𐘪,ke,CM 023,Vertical line with two side ticks,ke,𐠋,U+1080B,ke,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 67,𐙀,ki,CM 013,Chevron pointing up,ki,𐠌,U+1080C,ki,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 70,𐙃,ko,CM 030,Spiral / volute,ko,𐠍,U+1080D,ko,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 81,𐙍,ku,CM 041,Horizontal line with two circles,ku,𐠎,U+1080E,ku,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 03,𐘂,pa,CM 010,Horizontal line with vertical drop,pa,𐠞,U+1081E,pa,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 22,𐘖,pi,CM 018,Circle with attached line,pi,𐠠,U+10820,pi,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 50,𐘰,pu,CM 056,Circle with hanging line,pu,𐠢,U+10822,pu,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 23,𐘘,mu,CM 008,Rectangular frame with cross,ma,𐠔,U+10814,ma,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 26,𐘚,ru,CM 014,Vertical line with crossbar,ru,𐠧,U+10827,ru,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 27,𐘛,re,CM 038,Angle bracket with internal stroke,re,𐠤,U+10824,re,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 53,𐘳,ri,CM 042,Droplet / teardrop shape,ri,𐠥,U+10825,ri,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 24,𐘙,ne,CM 037,Cross with four dots,ne,𐠚,U+1081A,ne,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 30,𐘝,ni,CM 035,Staircase / stepped sign,ni,𐠛,U+1081B,ni,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 52,𐘲,no,CM 004,Circle with central dot,no,𐠜,U+1081C,no,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 55,𐘵,nu,CM 047,Wavy line with dot,nu,𐠝,U+1081D,nu,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 60,𐘺,ma,CM 008,Rectangular frame with cross,ma,𐠔,U+10814,ma,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 09,𐘈,se,CM 033,Triangle with horizontal line,se,𐠩,U+10829,se,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 11,𐘊,si,CM 032,Door / gate sign,si,𐠪,U+1082A,si,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 12,𐘋,so,CM 054,Cross with forked ends,so,𐠫,U+1082B,so,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 17,𐘐,za,CM 055,Y-shaped sign,za,𐠶,U+10836,za,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 31,𐘞,sa,CM 060,Three horizontal strokes,sa,𐠨,U+10828,sa,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 48,𐘮,wa,CM 025,U-shaped bracket,wa,𐠲,U+10832,wa,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 49,𐘯,we,CM 050,Loop / hook sign,we,𐠳,U+10833,we,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 40,𐘦,wi,CM 052,Comb with 4 teeth,wi,𐠴,U+10834,wi,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 38,𐘤,e,CM 010,Horizontal line with vertical drop,pa,𐠞,U+1081E,pa,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 36,𐘣,jo,CM 055,Y-shaped sign,za,𐠶,U+10836,za,HIGH,LA↔CM: HIGH. CM↔CG: HIGH. Strong chain: both links high-confidence.
+AB 13,𐘌,me,CM 007,Wavy horizontal line,me,𐠕,U+10815,me,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 14,𐘍,do,CM 011,T-shaped sign,to,𐠰,U+10830,to,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 15,𐘎,mo,CM 028,Stick figure / anthropomorphic,mo,𐠗,U+10817,mo,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 16,𐘏,qa,CM 024,Cross with circle at centre,ka,𐠊,U+1080A,ka,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 18,𐘑,zo,CM 057,Line with triple fork,zo,𐠸,U+10838,zo,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 21,𐘔,mi,CM 045,Circle with two attached lines,mi,𐠖,U+10816,mi,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 46,𐘬,je?,CM 019,Three-pronged fork,je,,,je,LOW,"LA↔CM: MEDIUM. CM↔CG: LOW. LA↔CM=MEDIUM, CM↔CG=LOW. Needs further evidence."
+AB 47,𐘭,ja,CM 031,Horizontal line with three drops,ja,𐠅,U+10805,ja,LOW,"LA↔CM: MEDIUM. CM↔CG: LOW. LA↔CM=MEDIUM, CM↔CG=LOW. Needs further evidence."
+AB 51,𐘱,du,CM 046,Hourglass shape,du,,,du,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 54,𐘴,wa?,CM 062,Angle bracket pair,wa,𐠲,U+10832,wa,LOW,"LA↔CM: MEDIUM. CM↔CG: LOW. LA↔CM=MEDIUM, CM↔CG=LOW. Needs further evidence."
+AB 58,𐘸,su,CM 034,Ladder-like sign,su,𐠬,U+1082C,su,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 63,𐘼,ke,CM 064,Key / cross with loop,ke,𐠋,U+1080B,ke,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 69,𐙂,tu,CM 039,Arrow pointing down,tu,𐠱,U+10831,tu,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: HIGH. Moderate LA↔CM, strong CM↔CG."
+AB 72,𐙅,pe,CM 059,Bilateral comb,pe,𐠟,U+1081F,pe,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 74,𐙇,ze,CM 003,Triangle with central stroke,ze,𐠷,U+10837,ze,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 76,𐙈,ra,CM 018,Circle with attached line,pi,𐠠,U+10820,pi,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: HIGH. Moderate LA↔CM, strong CM↔CG."
+AB 83,𐙏,la,CM 009,Arrowhead / triangular wedge,la,𐠏,U+1080F,la,MEDIUM,"LA↔CM: MEDIUM. CM↔CG: MEDIUM. LA↔CM=MEDIUM, CM↔CG=MEDIUM. Needs further evidence."
+AB 85,𐙐,au?,CM 065,Cross with extra bar,au,,,au,LOW,"LA↔CM: MEDIUM. CM↔CG: LOW. LA↔CM=MEDIUM, CM↔CG=LOW. Needs further evidence."
+AB 86,𐙑,dwo?,CM 016,Comb-sign (multiple verticals),lo,𐠒,U+10812,lo,LOW,"LA↔CM: MEDIUM. CM↔CG: LOW. LA↔CM=MEDIUM, CM↔CG=LOW. Needs further evidence."
+AB 35,𐘢,ti?,CM 053,Dumbbell / double-circle,ti,𐠯,U+1082F,ti,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 39,𐘥,pi?,CM 058,Triangular cluster,pe,𐠟,U+1081F,pe,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 41,𐘧,si?,CM 040,Anchored T-shape,si,𐠪,U+1082A,si,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 45,𐘫,de,CM 017,Zigzag horizontal,de,,,de,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 56,𐘶,pa?,CM 051,Five-dot quincunx,pa,𐠞,U+1081E,pa,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 57,𐘷,ja?,CM 063,Rectangular spiral,ja,𐠅,U+10805,ja,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 59,𐘹,ta?,CM 048,Rectangular box divided,ta,𐠭,U+1082D,ta,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 64,𐘽,swi?,CM 036,Double circle,o,𐠃,U+10803,o,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 65,𐘾,ju?,CM 027,Dotted circle (logogram?),jo,,,jo,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 66,𐘿,ta?,CM 022,Square with internal dot,ta,𐠭,U+1082D,ta,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 68,𐙁,ro?,CM 021,Diamond shape,ro,𐠦,U+10826,ro,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 71,𐙄,dwe?,CM 044,Cross-hatched square,ke,𐠋,U+1080B,ke,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 73,𐙆,mi?,CM 061,Circle with tail,mi,𐠖,U+10816,mi,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 78,𐙊,qe,CM 024,Cross with circle at centre,ka,𐠊,U+1080A,ka,LOW,"LA↔CM: LOW. CM↔CG: MEDIUM. LA↔CM=LOW, CM↔CG=MEDIUM. Needs further evidence."
+AB 79,𐙋,zu?,CM 003,Triangle with central stroke,ze,𐠷,U+10837,ze,LOW,"LA↔CM: LOW. CM↔CG: MEDIUM. LA↔CM=LOW, CM↔CG=MEDIUM. Needs further evidence."
+AB 80,𐙌,ma?,CM 051,Five-dot quincunx,pa,𐠞,U+1081E,pa,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 82,𐙎,swa?,CM 036,Double circle,o,𐠃,U+10803,o,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 87,𐙒,two?,CM 016,Comb-sign (multiple verticals),lo,𐠒,U+10812,lo,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 88,𐙓,nwa?,CM 016,Comb-sign (multiple verticals),lo,𐠒,U+10812,lo,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 89,𐙔,mi?,CM 045,Circle with two attached lines,mi,𐠖,U+10816,mi,LOW,"LA↔CM: LOW. CM↔CG: MEDIUM. LA↔CM=LOW, CM↔CG=MEDIUM. Needs further evidence."
+AB 90,𐙕,dwo?,CM 016,Comb-sign (multiple verticals),lo,𐠒,U+10812,lo,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 91,𐙖,two?,CM 016,Comb-sign (multiple verticals),lo,𐠒,U+10812,lo,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 92,𐙗,pte?,CM 019,Three-pronged fork,je,,,je,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 93,𐙘,ra?,CM 018,Circle with attached line,pi,𐠠,U+10820,pi,LOW,"LA↔CM: LOW. CM↔CG: HIGH. LA↔CM=LOW, CM↔CG=HIGH. Needs further evidence."
+AB 94,𐙙,re?,CM 038,Angle bracket with internal stroke,re,𐠤,U+10824,re,LOW,"LA↔CM: LOW. CM↔CG: HIGH. LA↔CM=LOW, CM↔CG=HIGH. Needs further evidence."
+AB 95,𐙚,te?,CM 049,Fork with long handle,te,𐠮,U+1082E,te,LOW,"LA↔CM: LOW. CM↔CG: HIGH. LA↔CM=LOW, CM↔CG=HIGH. Needs further evidence."
+AB 96,𐙛,nwa?,CM 016,Comb-sign (multiple verticals),lo,𐠒,U+10812,lo,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 97,𐙜,swa?,CM 036,Double circle,o,𐠃,U+10803,o,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 98,𐙝,dwe?,CM 044,Cross-hatched square,ke,𐠋,U+1080B,ke,LOW,"LA↔CM: LOW. CM↔CG: LOW. LA↔CM=LOW, CM↔CG=LOW. Needs further evidence."
+AB 99,𐙞,mra?,CM 008,Rectangular frame with cross,ma,𐠔,U+10814,ma,LOW,"LA↔CM: LOW. CM↔CG: HIGH. LA↔CM=LOW, CM↔CG=HIGH. Needs further evidence."
+AB 100,𐙟,twe?,CM 011,T-shaped sign,to,𐠰,U+10830,to,LOW,"LA↔CM: LOW. CM↔CG: MEDIUM. LA↔CM=LOW, CM↔CG=MEDIUM. Needs further evidence."

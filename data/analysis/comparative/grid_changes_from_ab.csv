@@ -1,0 +1,5 @@
+bennett_id,conventional_value,refined_value,decision,confidence,reason
+AB 45,ri,de,UNCERTAIN,45.0,Conflict: CM=/de/; GC=/ri/
+AB 47,nu,ja,UNCERTAIN,35.5,Conflict: CM=/ja/; GC=/pa/
+AB 65,ju,jo,UNCERTAIN,47.5,Conflict: CM=/jo/; GC=/i/
+AB 68,ro₂,ro,UNCERTAIN,41.0,Conflict: CM=/ro/; GC=/pa/

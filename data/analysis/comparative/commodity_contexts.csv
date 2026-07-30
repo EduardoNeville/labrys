@@ -1,0 +1,1328 @@
+la_bennett_id,inscription_id,gorila_id,sequence,character,findspot,period,object_type,syllabograms_before,syllabograms_after,chars_before,chars_after,nearby_numbers,nearby_fractions,all_inscription_logograms,pattern_frequency,morphology_cross_reference
+A 372,6,HT6a,17,𐛑,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"TA JA 24 
+ JA+RU",,𐘢 𐘳 𐘱 𐄑 𐄊,,24; 20; 4; 10; 10,,A 372; A 566; A 568; VASE 7,,
+A 566,6,HT6a,18,𐝓,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"10 
+ O DI NE",,𐙁 𐙭 𐄐 𐘵 𐘽,24; 20; 4; 10; 10,,A 372; A 566; A 568; VASE 7,,
+A 568,6,HT6a,31,𐝕,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"KA QE 5 ³⁄₄ 
+","RA 𐄁 
+ QE TA",𐄈 𐘾 𐘂 𐘿 𐄋,𐘀 𐘿 𐘴 𐄁 𐘿,2; 5; 0.75; 5,,A 372; A 566; A 568; VASE 7,,
+A 568,6,HT6a,41,𐝕,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"TA 22 ³⁄₄ 
+ NI",pu 𐄐 𐄋,𐘿 𐘢 𐘳 𐄑 𐄈,𐘝 𐄐 𐄋,22; 0.75; 20; 2; 10; 5,,A 372; A 566; A 568; VASE 7,,
+VASE 7,6,HT6a,45,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),pu 𐄐 𐄋,,𐘝 𐄐 𐄋,,2; 15; 10; 5,,A 372; A 566; A 568; VASE 7,,
+VASE 6,7,HT6b,5,𐝅,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),WA DU NI MI 3,"
+ RA TI SE 
+",𐘮 𐘬 𐘝 𐘻 𐄉,𐘴 𐘠 𐘈 𐄇 𐙁,3; 1,,VASE 4; VASE 6; VASE 7,,
+VASE 4,7,HT6b,23,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),MA 66 DA KI 3,"SA MA 35 
+ NI",𐄕 𐄌 𐘀 𐘸 𐄉,𐘞 𐙁 𐄒 𐄋 𐘰,60; 6; 3; 30; 5,,VASE 4; VASE 6; VASE 7,,
+VASE 7,7,HT6b,33,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),NI NA 17 ¹⁄₂ 𐄍,,𐘰 𐘝 𐘅 𐄐 𐄍,,17; 10; 7,,VASE 4; VASE 6; VASE 7,,
+VASE 7,10,HT8a,9,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),PA₃ KA RA TI 1,PA 3,𐘰 𐘾 𐘴 𐘠 𐄇,𐘂 𐄉,1; 3; 0.5,,A 568; VASE 4; VASE 7,,
+VASE 7,10,HT8a,12,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),PA 3,TE *301 2 QA *310,𐘂 𐄉,𐘃 𐙕 𐄈 𐘌 𐙠,1; 0.5; 3; 2,,A 568; VASE 4; VASE 7,,
+A 568,10,HT8a,19,𐝕,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),*301 2 QA *310 I,SI KI RA,𐙕 𐄈 𐘌 𐙠 𐘚,𐘤 𐘸 𐘴,2; 0.25,,A 568; VASE 4; VASE 7,,
+VASE 4,10,HT8a,23,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),SI KI RA,KI RE TA NA,𐘤 𐘸 𐘴,𐘸 𐘙 𐘳 𐘅,0.75; 0.5,,A 568; VASE 4; VASE 7,,
+VASE 7,10,HT8a,28,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),KI RE TA NA,,𐘸 𐘙 𐘳 𐘅,,0.25,,A 568; VASE 4; VASE 7,,
+VASE 4,11,HT8b,13,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),2 QA *310 I 1,,𐄈 𐘌 𐙠 𐘚 𐄇,,2; 1; 0.5,,A 392; VASE 4; VASE 5; VASE 7,,
+VASE 5,11,HT8b,14,𐝄,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,PA ¹⁄₂,,𐘾 𐘂,1; 0.375; 0.5,,A 392; VASE 4; VASE 5; VASE 7,,
+VASE 7,11,HT8b,17,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),PA ¹⁄₂,JA RE 1 ¹⁄₈,𐘾 𐘂,𐘂 𐘱 𐘙 𐄇,1; 0.375; 0.5; 1; 1,,A 392; VASE 4; VASE 5; VASE 7,,
+VASE 5,11,HT8b,22,𐝄,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),JA RE 1 ¹⁄₈,,𐘂 𐘱 𐘙 𐄇,,1; 1; 0.5,,A 392; VASE 4; VASE 5; VASE 7,,
+A 392,11,HT8b,23,𐛥,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,1; 1,,A 392; VASE 4; VASE 5; VASE 7,,
+VASE 7,11,HT8b,24,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,1; 1; 0.5,,A 392; VASE 4; VASE 5; VASE 7,,
+VASE 7,11,HT8b,25,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,1; 1; 0.5,,A 392; VASE 4; VASE 5; VASE 7,,
+A 568,12,HT9a,11,𐝕,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐄁 PA DE 𐄁 5,*306 TU 10 DI NA,𐄁 𐘂 𐘦 𐄁 𐄋,𐙚 𐘹 𐄐 𐘆 𐘅,5; 10,,A 568; VASE 4; VASE 7,,
+VASE 7,12,HT9a,26,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),2 *324 DI RA 2,TA I AROM 2,𐄈 𐙰 𐘆 𐘴 𐄈,𐘳 𐘚 𐙌 𐄈,2; 2; 2; 0.5,,A 568; VASE 4; VASE 7,,
+VASE 7,12,HT9a,31,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),TA I AROM 2,A RU 4,𐘳 𐘚 𐙌 𐄈,𐘇 𐘘 𐄊,0.5; 2; 4; 0.25,,A 568; VASE 4; VASE 7,,
+VASE 4,12,HT9a,35,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),A RU 4,KU RO 31 ³⁄₄,𐘇 𐘘 𐄊,𐙂 𐘁 𐄒 𐄇,2; 0.5; 4; 30; 1,,A 568; VASE 4; VASE 7,,
+A 568,12,HT9a,40,𐝕,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),KU RO 31 ³⁄₄,,𐙂 𐘁 𐄒 𐄇,,0.25; 30; 1,,A 568; VASE 4; VASE 7,,
+VASE 7,14,HT10a,14,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐄁 DA RE 16 ¹⁄₂,"*325 ZA 4 
+ 6",𐄁 𐘀 𐘙 𐄐 𐄌,𐘉 𐙱 𐘍 𐄊 𐙕,10; 6; 4; 4; 6,,VASE 7,,
+VASE 7,14,HT10a,30,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"*305 RU ¹⁄₂ 
+ DA","8 
+ ME ZA so",𐄊 𐝫 𐙙 𐘘 𐄈,𐘀 𐘭 𐘀 𐄎 𐘋,4; 0.5; 2; 8; 8,,VASE 7,,
+VASE 7,15,HT10b,14,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"15 
+ TA 6 ¹⁄₂","SA RU 6 
+ NA",𐄐 𐄋 𐙢 𐘳 𐄌,𐘾 𐘞 𐘘 𐄌 𐘳,10; 5; 6; 6; 6; 6,,VASE 4; VASE 7,,
+VASE 4,15,HT10b,23,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ NA TI 9 ¹⁄₄",,𐄌 𐘳 𐘅 𐘠 𐄏,,6; 9; 9,,VASE 4; VASE 7,,
+A 350,18,HT12,13,𐚻,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),5 QE TU NE 𐄁,1 E 30,𐄋 𐘿 𐘹 𐘗 𐄁,𐄇 𐘡 𐄒,5; 1; 30,,A 350; A 351; A 389; VASE 8,,
+A 389,18,HT12,17,𐛢,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),1 E 30,𐄁 *118 5 3,𐄇 𐘡 𐄒,𐄁 𐙈 𐄋 𐄉,1; 30; 5; 3,,A 350; A 351; A 389; VASE 8,,
+A 351,18,HT12,25,𐚼,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),5 3 NI 1,,𐄋 𐄉 𐘝 𐄇,,5; 3; 1; 0.0625; 50,,A 350; A 351; A 389; VASE 8,,
+VASE 8,18,HT12,26,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,DA I 50,,𐘀 𐘚 𐄔,3; 1; 50,,A 350; A 351; A 389; VASE 8,,
+VASE 7,19,HT13,12,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐄁 RE ZA 5 ¹⁄₂,"TE 56 
+ TE KI",𐄁 𐘙 𐘍 𐄋 𐝫,𐝫 𐘃 𐘹 𐄔 𐄌,5; 0.5; 56; 50; 6,,VASE 7,,
+VASE 7,19,HT13,22,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"KI ¹⁄₂ 
+ KU ZU","
+ DA SI *118 19",𐄌 𐘃 𐘸 𐄑 𐄍,𐙂 𐙀 𐘝 𐄐 𐄎,6; 0.5; 20; 7; 10; 8,,VASE 7,,
+VASE 7,19,HT13,42,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐄋 ta? ro 𐄙 𐄒,,𐄋 𐙂 𐘁 𐄙 𐄒,,5; 100; 30,,VASE 7,,
+VASE 5,22,HT16,7,𐝄,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),PA 𐄁 DI NA U,𐄁 WA,𐘂 𐄁 𐘆 𐘅 𐘉,𐄁 𐘮,0.3333; 0.375,A 724,VASE 2; VASE 4; VASE 5; VASE 8,,
+VASE 2,22,HT16,10,𐝁,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐄁 WA,,𐄁 𐘮,,0.125; 0.375,A 724,VASE 2; VASE 4; VASE 5; VASE 8,,
+VASE 4,22,HT16,12,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.125; 0.3333; 0.0625,A 724,VASE 2; VASE 4; VASE 5; VASE 8,,
+VASE 5,22,HT16,13,𐝄,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,PO ZE ¹⁄₁₆,,𐘞 𐘊 𐘼,0.3333; 0.375; 0.0625,A 724,VASE 2; VASE 4; VASE 5; VASE 8,,
+VASE 8,22,HT16,17,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),PO ZE ¹⁄₁₆,,𐘞 𐘊 𐘼,,0.375; 0.0625,,VASE 2; VASE 4; VASE 5; VASE 8,,
+VASE 7,25,HT19,11,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),VIN 30 SA RO 5,DU ME DI 43 ¹⁄₂,𐙍 𐄒 𐘞 𐘁 𐄋,𐘬 𐘋 𐘆 𐄓 𐄉,30; 5; 40; 3,,VASE 7,,
+VASE 7,25,HT19,17,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),DU ME DI 43 ¹⁄₂,,𐘬 𐘋 𐘆 𐄓 𐄉,,40; 3,,VASE 7,,
+VASE 4,26,HT20,7,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),SU 𐄁 KU MA JU,QE KU RE 𐄁 DI,𐘲 𐄁 𐙂 𐙁 𐘶,𐘿 𐙂 𐘙 𐄁 𐘆,,,VASE 4; VASE 5; VASE 7,,
+VASE 7,26,HT20,13,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),QE KU RE 𐄁 DI,*21M,𐘿 𐙂 𐘙 𐄁 𐘆,𐘑,0.125,,VASE 4; VASE 5; VASE 7,,
+VASE 5,26,HT20,15,𐝄,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),*21M,SA RE JU,𐘑,𐘞 𐘙 𐘶,0.5; 0.125,,VASE 4; VASE 5; VASE 7,,
+VASE 5,26,HT20,19,𐝄,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),SA RE JU,WA,𐘞 𐘙 𐘶,𐘮,0.125; 0.25; 0.5,A 724,VASE 4; VASE 5; VASE 7,,
+VASE 4,26,HT20,21,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),WA,,𐘮,,0.125; 0.5,A 724,VASE 4; VASE 5; VASE 7,,
+VASE 7,26,HT20,23,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.125; 0.25,A 724,VASE 4; VASE 5; VASE 7,,
+A 568,27,HT21,16,𐝕,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),*304,"
+ OLIV",𐄉,𐙘 𐄍,10; 1; 3; 7; 1; 1,A 728,A 568; VASE 4,,
+A 568,27,HT21,19,𐝕,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ OLIV",? 𐄇,𐙘 𐄍,𐙋 𐄇,3; 7; 7; 1,,A 568; VASE 4,,
+VASE 4,27,HT21,22,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),? 𐄇,,𐙋 𐄇,,7; 1; 1,,A 568; VASE 4,,
+A 506,28,HT22,5,𐜣,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"230 
+ 
+",𐄙 𐄐 𐄉,𐄚 𐄒 —,𐄙 𐄐 𐄉,200; 30; 100; 10; 3,A 709,A 506,,
+VASE 2,29,HT23a,4,𐝁,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),KA NA 𐄁 CYP,*308,𐘾 𐘅 𐄁 𐙗,𐙜,0.1667,A 730,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+VASE 6,29,HT23a,6,𐝅,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),*308,,𐙜,,0.3333; 0.1667,A 730,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+VASE 6,29,HT23a,8,𐝅,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.3333; 0.1667; 0.1667,A 730,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+VASE 6,29,HT23a,10,𐝅,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.1667; 0.1667,A 730,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+VASE 6,29,HT23a,12,𐝅,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.1667; 10; 0.1667,A 730,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+A 381,29,HT23a,13,𐛚,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.1667; 0.1667; 10; 0.1667; 10,,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+VASE 6,29,HT23a,14,𐝅,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"
+ MI+JA+RU",,𐙍 𐄐,0.1667; 0.1667; 10; 0.1667; 10; 10,,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+A 348,29,HT23a,17,𐚹,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ MI+JA+RU","
+",𐙍 𐄐,𐄐,0.1667; 10; 10; 10; 10; 10; 10,,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+A 349,29,HT23a,19,𐚺,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+","
+ 10 
+ QA2+[?]+RE+PU 
+",𐄐,𐄐 𐘡 𐄐 𐄍 𐘐,10; 0.1667; 10; 10; 10; 10; 7,,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+VASE 8,29,HT23a,28,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"QA2+[?]+RE+PU 
+ E 17 
+",TU QA ¹⁄₁₆,𐄍 𐘐 𐘭 𐘹 𐘌,𐘞 𐘞 𐘋,7; 17; 0.0625,,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+VASE 8,29,HT23a,32,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),TU QA ¹⁄₁₆,,𐘞 𐘞 𐘋,,0.0625; 10; 1,,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+A 365,29,HT23a,33,𐛊,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"ME 
+ SI+ME 10",,𐄐 𐘺 𐘘 𐄇,0.0625; 10; 1,,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,
+VASE 2,30,HT23b,3,𐝁,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),NI RA CYP,OLE ¹⁄₃,𐘝 𐘴 𐙗,𐙖 𐝫,0.3333,,A 348; A 350; A 381; VASE 2,,
+VASE 2,30,HT23b,6,𐝁,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),OLE ¹⁄₃,,𐙖 𐝫,,0.3333; 0.3333; 1,,A 348; A 350; A 381; VASE 2,,
+A 381,30,HT23b,7,𐛚,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"
+ QA2+[?]+PU 
+",,𐝫 𐘕 𐝫,0.3333; 0.3333; 1,,A 348; A 350; A 381; VASE 2,,
+A 350,30,HT23b,11,𐚻,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ QA2+[?]+PU 
+","
+",𐝫 𐘕 𐝫,𐝫,1,,A 348; A 350; A 381; VASE 2,,
+A 348,30,HT23b,13,𐚹,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+","E 
+ ra? 𐄍 𐝫",𐝫,𐄇 𐝫 𐘡 𐄍 𐝫,1; 1; 7,,A 348; A 350; A 381; VASE 2,,
+VASE 7,31,HT24a,16,𐝆,Haghia Triada - Corridor 9 and Vestibule 26,LM IB,tablet (page-shaped),"10 
+ 9 
+ MA","6 
+ PA SA JA",𐘘 𐘋 𐄐 𐝫 𐄏,𐙁 𐘘 𐘋 𐄌 𐘂,10; 10; 9; 6; 6,,A 389; VASE 7,,
+A 389,31,HT24a,32,𐛢,Haghia Triada - Corridor 9 and Vestibule 26,LM IB,tablet (page-shaped),KO *560 mu ru ?,𐝫,𐘋 𐝫 𐘘 𐘚 𐘺,𐝫,,,A 389; VASE 7,,
+A 568,32,HT24b,3,𐝕,Haghia Triada - Corridor 9 and Vestibule 26,LM IB,tablet (page-shaped),*118 1 ³⁄₄,,𐝫 𐙈 𐄇,,1; 1; 1; 0.75,,A 366; A 373; A 568,,
+A 366,32,HT24b,4,𐛋,Haghia Triada - Corridor 9 and Vestibule 26,LM IB,tablet (page-shaped),,*118 1,,𐙈 𐄇,1; 1; 1; 0.75,,A 366; A 373; A 568,,
+A 568,32,HT24b,7,𐝕,Haghia Triada - Corridor 9 and Vestibule 26,LM IB,tablet (page-shaped),*118 1,,𐙈 𐄇,,1; 1; 1,,A 366; A 373; A 568,,
+A 373,32,HT24b,8,𐛒,Haghia Triada - Corridor 9 and Vestibule 26,LM IB,tablet (page-shaped),,*118 1,,𐙈 𐄇,1; 0.75; 1,,A 366; A 373; A 568,,
+A 377,36,HT26b,14,𐛖,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"U ZU NI 4 
+","
+ I 2 
+ *188",𐘾 𐘉 𐙀 𐘝 𐄊,𐄐 𐄈 𐘚 𐙜 𐄈,4; 4; 10; 2; 2; 2,,A 377,,
+A 568,37,HT27a,51,𐝕,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),7 𐄒 𐄋 ? 𐄏,,𐄛 𐄒 𐄋 𐙗 𐄏,,300; 30; 5; 9; 10,,A 568; VASE 2,,
+VASE 2,37,HT27a,52,𐝁,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,pu 𐄐,,𐘝 𐄐,30; 5; 9; 10; 7,,A 568; VASE 2,,
+VASE 2,37,HT27a,55,𐝁,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),pu 𐄐,ka 𐄍,𐘝 𐄐,𐙍 𐄍,9; 10; 7,,A 568; VASE 2,,
+VASE 7,39,HT28a,13,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),2,1,𐄈,𐄇,5; 2; 1,A 702; A 728,A 394; VASE 10; VASE 7,,
+VASE 10,39,HT28a,17,𐝉,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),1,SA RA₂,𐄇,𐘞 𐘽,0.5; 1; 1,A 726,A 394; VASE 10; VASE 7,,
+A 394,39,HT28a,26,𐛧,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),1 NI 2 VIN 3,VIN 6 A RU DA,𐄇 𐘝 𐄈 𐙍 𐄉,𐙍 𐄌 𐘇 𐘘 𐘀,1; 2; 3; 6,,A 394; VASE 10; VASE 7,,
+VASE 4,40,HT28b,35,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),3 VIN 3,,𐄉 𐙍 𐄉,,3; 3,A 726,VASE 4,,
+VASE 7,42,HT30,9,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"CYP 
+ ¹⁄₂ 
+ NI","
+ VIN",𐙗 𐝫 𐝫 𐄐 𐄊,𐘝 𐄍,0.5; 10; 4; 7; 8; 8,,A 350; A 566; VASE 3; VASE 7,,
+VASE 3,42,HT30,12,𐝂,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ VIN","
+ OLE+TA",𐘝 𐄍,𐙍 𐄎,10; 4; 7; 7; 8; 0.2,,A 350; A 566; VASE 3; VASE 7,,
+VASE 7,42,HT30,15,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ OLE+TA",,𐙍 𐄎,,7; 8; 8; 0.2; 0.5,,A 350; A 566; VASE 3; VASE 7,,
+A 566,42,HT30,17,𐝓,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,8; 8; 0.5,,A 350; A 566; VASE 3; VASE 7,,
+A 350,42,HT30,18,𐚻,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,8; 0.2; 0.5; 1,,A 350; A 566; VASE 3; VASE 7,,
+VASE 3,42,HT30,19,𐝂,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"¹⁄₂ 
+ *23M",,𐘞 𐘴 𐘴,8; 0.2; 0.5; 1,,A 350; A 566; VASE 3; VASE 7,,
+VASE 7,42,HT30,23,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"¹⁄₂ 
+ *23M","KI RO CYP 8 
+",𐘞 𐘴 𐘴,𐘖 𐄇 𐘸 𐘁 𐄁,0.5; 1; 8,,A 350; A 566; VASE 3; VASE 7,,
+A 566,42,HT30,32,𐝓,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"8 
+ NI 𐝓 VIN",*23M,𐘁 𐄁 𐙗 𐄎 𐘝,𐙍,8; 8; 1; 0.2; 1,,A 350; A 566; VASE 3; VASE 7,,
+VASE 7,42,HT30,34,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),*23M,"¹⁄₅ 
+ OLE+TA 
+",𐙍,𐘖 𐄇 𐝫 𐝫,8; 0.5; 0.2; 1,,A 350; A 566; VASE 3; VASE 7,,
+VASE 3,42,HT30,39,𐝂,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"¹⁄₅ 
+ OLE+TA 
+",,𐘖 𐄇 𐝫 𐝫,,1; 0.2; 1; 100,,A 350; A 566; VASE 3; VASE 7,,
+VASE 3,42,HT30,41,𐝂,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,𐝫,,𐝫,1; 100,,A 350; A 566; VASE 3; VASE 7,,
+A 333,43,HT31,8,𐚪,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐄁 PU KO 𐄁 *410,"𐝫 5 
+",𐘞 𐄁 𐘫 𐘺 𐄁,𐝫 𐝫 𐄋,5; 5,,A 325; A 333; A 338; A 339,,
+A 325,43,HT31,12,𐚢,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"𐝫 5 
+","PA₃ 10 
+",𐝫 𐝫 𐄋,𐘌 𐘰 𐄐,5; 5; 10; 10,,A 325; A 333; A 338; A 339,,
+A 338,43,HT31,16,𐚯,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"PA₃ 10 
+",SU PU 10 *416,𐘌 𐘰 𐄐,𐘲 𐘫 𐄐 𐝫,5; 10; 10; 10,,A 325; A 333; A 338; A 339,,
+A 339,43,HT31,21,𐚰,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),SU PU 10 *416,KA RO PA₃ 10 SA,𐘲 𐘫 𐄐 𐝫,𐘾 𐘁 𐘰 𐄐 𐘞,10; 10,,A 325; A 333; A 338; A 339,,
+A 325,43,HT31,38,𐚢,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"MA *323 NA 
+ *815",*815,𐘸 𐘦 𐙁 𐙯 𐘅,𐄜,400; 300,,A 325; A 333; A 338; A 339,,
+A 325,43,HT31,40,𐚢,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),*815,"RA 300 
+ *815",𐄜,𐘲 𐘰 𐘴 𐄛,400; 300; 300,,A 325; A 333; A 338; A 339,,
+A 325,43,HT31,45,𐚢,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"RA 300 
+ *815",QE 3000 ? 𐄤,𐘲 𐘰 𐘴 𐄛,𐘂 𐘳 𐘿 𐄤,300; 300; 3000; 3000,,A 325; A 333; A 338; A 339,,
+VASE 7,44,HT32,5,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),*307 SA RA₂ 𐄁 *308,,𐙛 𐘞 𐘽 𐄁 𐙜,,1; 1,A 730,A 348; A 350; A 381; VASE 7; VASE 8,,
+VASE 7,44,HT32,7,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.5; 1; 1; 1,A 730,A 348; A 350; A 381; VASE 7; VASE 8,,
+VASE 8,44,HT32,8,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.5; 1; 1; 1; 1,A 730,A 348; A 350; A 381; VASE 7; VASE 8,,
+A 350,44,HT32,9,𐚻,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,¹⁄₁₆,,𐄇,0.5; 1; 1; 1; 1,A 730,A 348; A 350; A 381; VASE 7; VASE 8,,
+VASE 8,44,HT32,11,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),¹⁄₁₆,,𐄇,,1; 1; 1; 1; 1; 1,A 730,A 348; A 350; A 381; VASE 7; VASE 8,,
+A 348,44,HT32,12,𐚹,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"
+",,𐄇,1; 1; 1; 1; 1,,A 348; A 350; A 381; VASE 7; VASE 8,,
+A 381,44,HT32,14,𐛚,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+","
+ RE 𐄁 108 
+",𐄇,𐄇 𐘲 𐘙 𐄁 𐄙,1; 1; 1; 1; 1; 108; 100,,A 348; A 350; A 381; VASE 7; VASE 8,,
+A 349,45,HT33,4,𐚺,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),SA RA₂ 𐄁,1,𐘞 𐘽 𐄁,𐄇,1; 0.25,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+VASE 4,45,HT33,6,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),1,,𐄇,,1; 3,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+A 348,45,HT33,7,𐚹,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,1; 0.25; 3; 3,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+VASE 10,45,HT33,8,𐝉,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,1; 0.25; 3; 3,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+VASE 12,45,HT33,9,𐝋,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,3 E+KA 𐝃𐝉,,𐝫 𐝫 𐄉,1; 0.25; 3; 3; 0.2,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+A 361,45,HT33,13,𐛆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),3 E+KA 𐝃𐝉,,𐝫 𐝫 𐄉,,3; 3; 0.2; 90; 100,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+VASE 4,45,HT33,14,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,3; 3; 90; 100; 90,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+VASE 10,45,HT33,15,𐝉,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,3; 3; 0.2; 90; 100; 90; 100,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+A 383,45,HT33,16,𐛜,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,3; 0.2; 100; 90; 100; 100,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+VASE 3,45,HT33,17,𐝂,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"100 
+",,𐙙 𐄘,3; 0.2; 90; 100; 90; 100; 100,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+A 509,45,HT33,20,𐜦,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"100 
+",𐄙,𐙙 𐄘,𐄙,90; 100; 90; 100; 100,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+A 371,45,HT33,22,𐛐,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐄙,𐄙,𐄙,𐄙,100; 90; 100; 100; 100,,A 348; A 349; A 361; A 371; A 383; A 509; VASE 10; VASE 12; VASE 3; VASE 4,,
+A 355,46,HT34,5,𐛀,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),DA JU TE 𐄁 SI,𐄁 SA RA₂ 𐄁,𐘀 𐘶 𐘃 𐄁 𐘤,𐄁 𐘞 𐘽 𐄁,,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+A 383,46,HT34,10,𐛜,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐄁 SA RA₂ 𐄁,"
+ 
+ 
+",𐄁 𐘞 𐘽 𐄁,𐝫 𐝫 𐝫,,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+VASE 2,46,HT34,14,𐝁,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ 
+ 
+","GRA 200 
+ E+[ ]",𐝫 𐝫 𐝫,𐘡 𐄁 𐙉 𐄚 𐝫,200; 200,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+A 360,46,HT34,21,𐛅,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"200 
+ E+[ ] 𐝅𐝇",QA2+[?]+PU,𐄁 𐙉 𐄚 𐝫 𐝫,𐄈,200; 200; 2; 0.1667; 0.25,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+VASE 6,46,HT34,23,𐝅,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),QA2+[?]+PU,,𐄈,,200; 2; 0.1667; 0.25; 245,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+VASE 8,46,HT34,24,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,2; 0.25; 245,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+A 350,46,HT34,25,𐚻,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,2; 0.1667; 0.25; 245; 200,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+VASE 1,46,HT34,26,𐝀,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,2; 0.1667; 245; 200; 40,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+A 348,46,HT34,27,𐚹,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,2; 0.1667; 0.25; 245; 200; 40; 5,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+VASE 4,46,HT34,28,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.1667; 0.25; 200; 40; 5,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+A 382,46,HT34,29,𐛛,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"100 
+ PA₃",,𐄚 𐄓 𐄋,0.1667; 0.25; 245; 200; 40; 5; 100,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+A 357,46,HT34,33,𐛂,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"100 
+ PA₃","KI 37 
+ ¹⁄₁₆ 
+",𐄚 𐄓 𐄋,𐄙 𐘰 𐄖 𐘸 𐘁,245; 200; 40; 5; 100; 37; 70; 0.0625,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+A 361,46,HT34,41,𐛆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ ¹⁄₁₆ 
+ PU ¹⁄₈",,𐄖 𐘸 𐘁 𐄒 𐄍,,70; 0.0625; 30; 7,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+VASE 8,46,HT34,42,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,ai?,,𐘫,0.0625; 30; 7,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+VASE 5,46,HT34,44,𐝄,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),ai?,,𐘫,,30; 7,,A 348; A 350; A 355; A 357; A 360; A 361; A 382; A 383; VASE 1; VASE 2; VASE 4; VASE 5; VASE 6; VASE 8,,
+A 381,47,HT35,11,𐛚,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),I KU TA CYP 1,,𐘚 𐙂 𐘳 𐙗 𐄇,,1; 0.3333; 0.3333; 0.3333,,A 350; A 381; VASE 2; VASE 3; VASE 8,,
+VASE 2,47,HT35,12,𐝁,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,1; 0.3333; 0.3333,,A 350; A 381; VASE 2; VASE 3; VASE 8,,
+VASE 2,47,HT35,14,𐝁,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,*308,,𐙜,1; 0.3333; 0.3333; 5,,A 350; A 381; VASE 2; VASE 3; VASE 8,,
+VASE 2,47,HT35,16,𐝁,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),*308,,𐙜,,0.3333; 0.3333; 5; 5; 0.0625,,A 350; A 381; VASE 2; VASE 3; VASE 8,,
+A 350,47,HT35,21,𐚻,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ 5 
+",,𐝫 𐘡 𐄋,,0.3333; 5; 5; 0.2,,A 350; A 381; VASE 2; VASE 3; VASE 8,,
+VASE 8,47,HT35,22,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,¹⁄₅,,𐙍,5; 5; 0.0625; 0.2,,A 350; A 381; VASE 2; VASE 3; VASE 8,,
+VASE 3,47,HT35,24,𐝂,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),¹⁄₅,,𐙍,,5; 5; 0.0625; 0.2,,A 350; A 381; VASE 2; VASE 3; VASE 8,,
+A 503,48,HT36,2,𐜠,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),JE DI,,𐘧 𐘆,,20; 40; 4,A 702,A 503; VASE 7,,
+VASE 7,48,HT36,7,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"64 ¹⁄₂ 
+","WA 7 ¹⁄₂ 
+",𐄑 𐄓 𐄊,𐘬 𐙀 𐘮 𐄍,20; 40; 4; 7; 0.5; 7,A 702,A 503; VASE 7,,
+VASE 7,48,HT36,12,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"WA 7 ¹⁄₂ 
+",6 𐄌,𐘬 𐙀 𐘮 𐄍,𐝫 𐄌,7; 0.5; 7; 6; 6,,A 503; VASE 7,,
+A 382,49,HT37,0,𐛛,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,𐄁 KA KI 𐄁 𐄁,,𐄁 𐘾 𐘸 𐄁 𐄁,,,A 382,,
+A 326,50,HT38,5,𐚣,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐝫 𐝫 DA RO PA,"VS 
+ AU 
+ CAP",𐝫 𐝫 𐘀 𐘁 𐘂,𐄇 𐙄 𐄇 𐘒 𐄉,1; 1; 3,,A 326; A 369; A 370; A 385,,
+A 385,50,HT38,11,𐛞,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"VS 
+ AU 
+ CAP",*554 *118,𐄇 𐙄 𐄇 𐘒 𐄉,𐙈 𐄉,1; 1; 3; 3; 2,,A 326; A 369; A 370; A 385,,
+A 369,50,HT38,14,𐛎,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),*554 *118,TELA+KU,𐙈 𐄉,𐄈,3; 3; 2; 1,,A 326; A 369; A 370; A 385,,
+A 370,50,HT38,16,𐛏,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),TELA+KU,TELA+*312,𐄈,𐄇,3; 2; 1,,A 326; A 369; A 370; A 385,,
+A 391,51,HT39,26,𐛤,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"] 2 DU+[ 
+",𐄈 𐝫,𐙂 𐘁 𐄙 𐝫,𐄈 𐝫,2; 100; 2,,A 368; A 391,,
+A 368,51,HT39,29,𐛍,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐄈 𐝫,𐝫 𐝫,𐄈 𐝫,𐝫 𐝫,100; 2,,A 368; A 391,,
+VASE 3,53,HT41a,21,𐝂,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐄁 PA JA 2 double,,𐘝 𐄁 𐘂 𐘱 𐄈,,2; 2,,VASE 3,,
+VASE 3,53,HT41a,22,𐝂,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,2; 2,,VASE 3,,
+A 364,55,HT42+59,3,𐛉,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),TA 𐄁 SI+SE,"TE 𐄁 OLE+KI 
+",𐝫 𐘳 𐄁,𐄁 𐘃 𐄁 𐄎,8; 8,,A 364; A 568,,
+A 568,55,HT42+59,37,𐝕,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐝫 ne ja 𐝫,,𐝫 𐘙 𐘹 𐝫,,,A 728,A 364; A 568,,
+A 400,56,HT43,10,𐛭,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),*342 I 𐄁 I 𐄁,5 𐝫,𐚂 𐘚 𐄁 𐘚 𐄁,𐄋 𐝫,5,,A 400,,
+VASE 10,59,HT45a,2,𐝉,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐝫 𐝫𐝉,"
+ *86 *305 2 
+",𐝫 𐝫,𐘂 𐝫 𐝫 𐙅 𐄁,2,,VASE 10,,
+VASE 3,60,HT45b,4,𐝂,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐝫 — 8 double,,𐝫 — 𐝫 𐄎,,8; 8; 0.25,,A 349; VASE 10; VASE 2; VASE 3; VASE 4,,
+VASE 3,60,HT45b,5,𐝂,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,8; 8; 0.25,,A 349; VASE 10; VASE 2; VASE 3; VASE 4,,
+A 349,60,HT45b,6,𐚺,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,8; 8; 0.25,,A 349; VASE 10; VASE 2; VASE 3; VASE 4,,
+VASE 10,60,HT45b,7,𐝉,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"¹⁄₄ 
+",,𐝫 𐙂,8; 8; 0.25,,A 349; VASE 10; VASE 2; VASE 3; VASE 4,,
+VASE 4,60,HT45b,10,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"¹⁄₄ 
+","*318 *305 7 
+ QA2+[?]+RE+PU",𐝫 𐙂,— 𐙪 𐄁 𐙙 𐄍,0.25; 7; 7,,A 349; VASE 10; VASE 2; VASE 3; VASE 4,,
+A 349,60,HT45b,16,𐚺,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"*318 *305 7 
+ QA2+[?]+RE+PU",,— 𐙪 𐄁 𐙙 𐄍,,7; 7; 20; 0.3333,,A 349; VASE 10; VASE 2; VASE 3; VASE 4,,
+VASE 10,60,HT45b,17,𐝉,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"A 20 ¹⁄₃ 
+ 𐄁",,𐘂 𐝫 𐄁 𐝫 𐘇,7; 7; 20; 0.3333,,A 349; VASE 10; VASE 2; VASE 3; VASE 4,,
+VASE 2,60,HT45b,24,𐝁,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"20 ¹⁄₃ 
+ 𐄁 KU",KU ¹⁄₄,𐝫 𐄁 𐝫 𐘇 𐄑,𐄁 𐙂,20; 0.3333; 20; 0.25,,A 349; VASE 10; VASE 2; VASE 3; VASE 4,,
+VASE 4,60,HT45b,27,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),KU ¹⁄₄,ta?,𐄁 𐙂,𐙂,20; 0.25; 0.25,,A 349; VASE 10; VASE 2; VASE 3; VASE 4,,
+VASE 4,60,HT45b,29,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),ta?,,𐙂,,0.25; 0.25,,A 349; VASE 10; VASE 2; VASE 3; VASE 4,,
+VASE 7,61,HT46a,11,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),43 ¹⁄₂ ro 𐄓 𐄉,,𐝫 𐙂 𐘁 𐄓 𐄉,,43; 0.5; 40; 3,,VASE 7,,
+VASE 7,62,HT46b,5,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"𐝫 𐝫 16 ¹⁄₂ 
+",𐝫 𐄈 𐄊,𐝫 𐝫 𐝫 𐄐 𐄌,𐝫 𐄈 𐄊,16; 10; 6; 2; 4,,VASE 7,,
+A 378,63,HT47a,3,𐛗,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),KA ]TU+RO 𐄁,"KU NA TU 20 
+",𐘾 𐝫 𐝫,𐄁 𐙂 𐘰 𐘅 𐘹,20,,A 378,,
+A 321,65,HT49a,35,𐚞,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"1 
+ 1 
+ KU","1 TU SU 1 
+",𐘴 𐄇 𐘇 𐘘 𐄇,𐄇 𐙢 𐄇 𐙂 𐘰,1; 1; 1; 1; 1; 1; 1,,A 321,,
+VASE 4,67,HT50a,6,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"— GRA 
+ ¹⁄₄ OLE+KI",,— 𐝫 𐙉 𐝫 𐝫,,0.25; 0.5,,VASE 4; VASE 5; VASE 7,,
+VASE 4,67,HT50a,8,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.25; 0.25; 0.5; 1,,VASE 4; VASE 5; VASE 7,,
+VASE 7,67,HT50a,10,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.25; 1; 1; 3,,VASE 4; VASE 5; VASE 7,,
+VASE 7,67,HT50a,12,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"
+ OLIV",,𐙘 𐄇,0.5; 1; 3; 0.375,,VASE 4; VASE 5; VASE 7,,
+VASE 7,67,HT50a,15,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ OLIV","
+ ³⁄₈ ? 𐄉",𐙘 𐄇,𐝫 𐝫 𐙋 𐄉,0.5; 1; 1; 0.375; 3,A 711,VASE 4; VASE 5; VASE 7,,
+VASE 4,67,HT50a,21,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.375; 3,A 711,VASE 4; VASE 5; VASE 7,,
+VASE 5,67,HT50a,22,𐝄,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.375; 3,A 711,VASE 4; VASE 5; VASE 7,,
+VASE 7,70,HT51b,10,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"ZU DU 
+ SI 
+",,𐄈 𐝫 𐝫 𐙀 𐘬,,2,,VASE 5; VASE 7,,
+VASE 5,70,HT51b,11,𐝄,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,jo 𐝫 𐝫 𐝫,,𐘤 𐝫 𐝫 𐝫,,,VASE 5; VASE 7,,
+VASE 7,79,HT56a,7,𐝆,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"SA 
+ ¹⁄₂ 
+ U",u 𐝫 𐝫,𐘞 𐝫 𐝫 𐄐 𐄇,𐘉 𐝫 𐝫,0.5; 10; 1,,VASE 7,,
+VASE 5,81,HT57a,9,𐝄,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ A ¹⁄₈ 
+ 𐝫",𐝫 𐝫,𐝫 𐄇 𐘇 𐝫 𐝫,𐝫 𐝫,1; 0.125,,VASE 5,,
+VASE 8,84,HT60,3,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,,,,0.0625; 0.0625; 0.0625,,A 348; A 350; A 380; VASE 10; VASE 4; VASE 8,,
+A 380,84,HT60,4,𐛙,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,¹⁄₁₆,,𐝫,0.0625; 0.0625; 0.0625; 5,,A 348; A 350; A 380; VASE 10; VASE 4; VASE 8,,
+VASE 8,84,HT60,6,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),¹⁄₁₆,¹⁄₁₆,𐝫,𐙍,0.0625; 0.0625; 0.0625; 5; 5,,A 348; A 350; A 380; VASE 10; VASE 4; VASE 8,,
+VASE 8,84,HT60,8,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),¹⁄₁₆,,𐙍,,0.0625; 0.0625; 5; 5,,A 348; A 350; A 380; VASE 10; VASE 4; VASE 8,,
+VASE 4,84,HT60,9,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,"
+",,𐄋,0.0625; 0.0625; 5,,A 348; A 350; A 380; VASE 10; VASE 4; VASE 8,,
+A 348,84,HT60,11,𐚹,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+",QA2+[?]+PU 𐝫,𐄋,𐝫 𐝫,0.0625; 5; 5,,A 348; A 350; A 380; VASE 10; VASE 4; VASE 8,,
+A 350,84,HT60,14,𐚻,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),QA2+[?]+PU 𐝫,,𐝫 𐝫,,5; 5,,A 348; A 350; A 380; VASE 10; VASE 4; VASE 8,,
+VASE 10,84,HT60,15,𐝉,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,𐝫,,𐝫,5,,A 348; A 350; A 380; VASE 10; VASE 4; VASE 8,,
+VASE 4,86,HT62+73,14,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"15 ¹⁄₄ 
+ KA KU","18 
+ *28B TI 6",𐝫 𐘅 𐙉 𐄐 𐄋,𐘾 𐙂 𐄊 𐝫 𐝫,15; 0.25; 10; 5; 18; 4; 6,,VASE 4,,
+VASE 4,86,HT62+73,31,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"
+ 4 
+ 
+ NU","25 
+ 
+ KU 
+",𐄌 𐘆 𐝫 𐝫 𐄊,𐘾 𐝫 𐝫 𐙇 𐝫,6; 4; 4; 25,,VASE 4,,
+A 507,89,HT65,1,𐜤,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐝫,,𐝫,,0.0625,,A 507; VASE 8,,
+VASE 8,89,HT65,2,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,𐝫,,𐝫,,,A 507; VASE 8,,
+VASE 4,94,HT70,11,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),"SA 2 ¹⁄₄ 
+ I","
+ 
+ 𐝫 𐄉 𐝫",𐝫 𐘌 𐙈 𐘞 𐄈,𐝫 𐝫 𐘚 𐄉 𐝫,2; 0.25; 2; 3,,VASE 4,,
+A 381,101,HT81,3,𐛚,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),A SE 𐄁,𐄁,𐘇 𐘈 𐄁,𐄁,0.1667,,A 381; VASE 12; VASE 6,,
+VASE 6,101,HT81,5,𐝅,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐄁,¹⁄₆ RI SU MA 𐝋,𐄁,𐝫 𐝫 𐘭 𐘲 𐙁,0.1667,,A 381; VASE 12; VASE 6,,
+VASE 12,101,HT81,11,𐝋,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),¹⁄₆ RI SU MA 𐝋,"
+ 𐝫 𐝫",𐝫 𐝫 𐘭 𐘲 𐙁,𐘸 𐝫 𐝫,0.1667,,A 381; VASE 12; VASE 6,,
+A 401,102,HT82,2,𐛮,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),𐝫 GRA+QIf,,𐝫 𐝫,,0.25,,A 401; VASE 4; VASE 8,,
+VASE 8,102,HT82,3,𐝇,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),,*304+[,,𐝫,0.0625; 0.25,,A 401; VASE 4; VASE 8,,
+VASE 4,102,HT82,6,𐝃,Haghia Triada - Villa Magazine,LM IB,tablet (page-shaped),*304+[,𐝫 𐝫,𐝫,𐝫 𐝫,0.0625; 0.25,,A 401; VASE 4; VASE 8,,
+A 503,104,HT85a,3,𐜠,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),A DU 𐄁,𐄁 VIR+[?] 𐄁 DA RI,𐘇 𐘬 𐄁,𐄁 𐙇 𐄁 𐘀 𐘭,,,A 503,,
+A 394,109,HT88,2,𐛧,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),A DU,20 RE ZA 6 NI,𐘇 𐘬,𐄑 𐘙 𐘍 𐄌 𐘝,20; 6,,A 394,,
+A 376,110,HT89,9,𐛕,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"*307 𐄁 *305 23 
+","
+ MA MI 24 
+",𐙛 𐄁 𐙙 𐄑 𐄉,𐄑 𐄈 𐙁 𐘚 𐘻,20; 3; 20; 2; 24,,A 376; A 396; A 568; VASE 4,,
+A 396,110,HT89,17,𐛩,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"MI 24 
+ VIR+*313a 13",RA 5 KU RO 87,𐙁 𐘚 𐘻 𐄑 𐄊,𐄐 𐄉 𐘳 𐘴 𐄋,24; 20; 4; 10; 3; 5,,A 376; A 396; A 568; VASE 4,,
+A 568,110,HT89,29,𐝕,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"2 ³⁄₄ 
+ 2 ¹⁄₄",6 𐄈,𐘁 𐄗 𐄍 𐙗 𐄈,𐘝 𐄈,2; 80; 7; 2; 2; 6; 2; 6,,A 376; A 396; A 568; VASE 4,,
+VASE 4,110,HT89,32,𐝃,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),6 𐄈,ka 𐄌 𐝫,𐘝 𐄈,𐙍 𐄌 𐝫,2; 2; 6; 2; 6,,A 376; A 396; A 568; VASE 4,,
+A 561,112,HT91,6,𐝎,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),KA 𐄁 *326 𐄁 GRA,*304,𐘾 𐄁 𐙲 𐄁 𐙉,𐙘,,,A 561; VASE 1,,
+VASE 1,112,HT91,8,𐝀,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),*304,"
+",𐙘,𐄁,0.1667,A 728,A 561; VASE 1,,
+VASE 1,112,HT91,11,𐝀,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+",,𐄁,,0.1667; 0.1667,A 728,A 561; VASE 1,,
+VASE 1,112,HT91,13,𐝀,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),,,,,0.1667; 0.1667,A 728,A 561; VASE 1,,
+VASE 1,112,HT91,15,𐝀,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),,OLE+MI,,𐙋,0.1667; 0.1667,A 728,A 561; VASE 1,,
+VASE 1,112,HT91,17,𐝀,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),OLE+MI,"
+",𐙋,𐘝,0.1667; 0.1667; 0.1667,A 728,A 561; VASE 1,,
+VASE 1,112,HT91,19,𐝀,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+",¹⁄₆,𐘝,𐙍,0.1667; 0.1667; 5,,A 561; VASE 1,,
+VASE 1,112,HT91,21,𐝀,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),¹⁄₆,≈ ¹⁄₆ VIN ≈ ¹⁄₆,𐙍,𐘡 𐄋 𐘃 𐘭 𐄁,0.1667; 5; 0.1667,,A 561; VASE 1,,
+VASE 1,112,HT91,28,𐝀,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),¹⁄₆ VIN ≈ ¹⁄₆,"
+ TE RI OLE+MI",𐄋 𐘃 𐘭 𐄁,𐘡 𐄉 𐝫 𐝫,5; 0.1667; 3,,A 561; VASE 1,,
+A 354,114,HT93a,7,𐚿,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),NA 𐄁 GRA PA₃ 𐄁,"12 
+ RI NA 𐄁",𐘅 𐄁 𐙉 𐘰 𐄁,𐄐 𐄈 𐘆 𐘭 𐘅,10; 2,,A 329; A 343; A 354; A 400; A 568; VASE 5; VASE 6; VASE 7,,
+A 343,114,HT93a,14,𐚴,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+ RI NA 𐄁 DA+RE+SE","¹⁄₂ 
+",𐄈 𐘆 𐘭 𐘅 𐄁,𐄓 𐄉,2; 40; 3; 5,,A 329; A 343; A 354; A 400; A 568; VASE 5; VASE 6; VASE 7,,
+VASE 7,114,HT93a,17,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"¹⁄₂ 
+","NI 5 𐝆𐝅 
+",𐄓 𐄉,𐘸 𐘆 𐘝 𐄋,43; 40; 3; 5; 5,,A 329; A 343; A 354; A 400; A 568; VASE 5; VASE 6; VASE 7,,
+VASE 7,114,HT93a,22,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"NI 5 𐝆𐝅 
+",,𐘸 𐘆 𐘝 𐄋,,5; 5; 26; 0.75,,A 329; A 343; A 354; A 400; A 568; VASE 5; VASE 6; VASE 7,,
+VASE 6,114,HT93a,23,𐝅,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),,I GRA+PA 26 ³⁄₄,,𐘇 𐘈 𐄁 𐘚,5; 5; 26; 0.75,,A 329; A 343; A 354; A 400; A 568; VASE 5; VASE 6; VASE 7,,
+A 400,114,HT93a,28,𐛭,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),I GRA+PA 26 ³⁄₄,SA RA₂,𐘇 𐘈 𐄁 𐘚,𐄑 𐄌,26; 0.75; 20; 6; 20,,A 329; A 343; A 354; A 400; A 568; VASE 5; VASE 6; VASE 7,,
+A 568,114,HT93a,31,𐝕,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),SA RA₂,QA QA RU I GRA+PA,𐄑 𐄌,𐘞 𐘽 𐄑 𐘌 𐘌,26; 0.75; 20; 6; 20,,A 329; A 343; A 354; A 400; A 568; VASE 5; VASE 6; VASE 7,,
+A 400,114,HT93a,40,𐛭,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"I GRA+PA 5 
+ VIR+[?]",6 DE JU KU ¹⁄₂,𐘌 𐘌 𐘘 𐄁 𐘚,𐄋 𐙇 𐘚 𐄌 𐘦,5; 5; 6; 0.5,,A 329; A 343; A 354; A 400; A 568; VASE 5; VASE 6; VASE 7,,
+VASE 7,114,HT93a,49,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"KU ¹⁄₂ 
+ O TI","
+ DA RI DA *406",𐄌 𐘦 𐘶 𐙂 𐄇,𐘵 𐘠 𐝫 𐄁 𐄉,6; 0.5; 1; 3,,A 329; A 343; A 354; A 400; A 568; VASE 5; VASE 6; VASE 7,,
+A 329,114,HT93a,58,𐚦,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"DA *406 2 
+ *343","
+ NI NA PA SE",𐄁 𐄉 𐘀 𐘭 𐘀,𐄈 𐚃 𐄈 𐘰 𐘝,3; 2; 2; 2,,A 329; A 343; A 354; A 400; A 568; VASE 5; VASE 6; VASE 7,,
+VASE 5,114,HT93a,73,𐝄,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"¹⁄₈ 
+ KA ? 𐄐","𐝫 𐝫 ?,pte? 𐄊",𐘈 𐘱 𐄑 𐙇 𐄐,𐝫 𐝫 𐘾 𐄊,0.125; 20; 10; 4,,A 329; A 343; A 354; A 400; A 568; VASE 5; VASE 6; VASE 7,,
+VASE 6,115,HT93b,4,𐝅,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"165 ≈ ¹⁄₆ 
+",? ro 𐝫,𐝫 𐄙 𐄕 𐄋,𐘸 𐘁 𐝫,165; 100; 60; 5,,VASE 6,,
+A 358,116,HT94a,7,𐛃,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"VIR+[?] 62 
+ 20 
+","
+",𐙇 𐄕 𐄈 𐙅 𐄑,𐄍,60; 2; 20; 20; 7; 18; 10; 8,,A 358; A 397; VASE 3; VASE 6; VASE 7,,
+A 397,116,HT94a,9,𐛪,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+","
+ TA 
+ KU 110",𐄍,𐄐 𐄎 𐘳 𐄊 𐙂,2; 20; 20; 7; 7; 10; 8; 4; 110,,A 358; A 397; VASE 3; VASE 6; VASE 7,,
+VASE 6,116,HT94a,24,𐝅,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+ NI 3 ¹⁄₆ 
+","*318 *306 
+ CYP double",𐘽 𐙗 𐄋 𐘝 𐄉,𐝫 𐄈 𐙪 𐙚 𐄐,5; 0.1667; 3; 2; 10,,A 358; A 397; VASE 3; VASE 6; VASE 7,,
+VASE 3,116,HT94a,32,𐝂,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+ CYP double mina NI",,𐙪 𐙚 𐄐 𐄇 𐙗,,10; 1; 14; 0.5; 0.2,,A 358; A 397; VASE 3; VASE 6; VASE 7,,
+VASE 3,116,HT94a,33,𐝂,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),,14,,𐘝,10; 1; 14; 0.5; 0.2; 10,,A 358; A 397; VASE 3; VASE 6; VASE 7,,
+VASE 3,116,HT94a,35,𐝂,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),14,,𐘝,,1; 14; 0.2; 10; 4,,A 358; A 397; VASE 3; VASE 6; VASE 7,,
+VASE 3,116,HT94a,36,𐝂,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),,¹⁄₅ 𐄐 𐄊,,𐝫 𐄐 𐄊,14; 0.5; 0.2; 10; 4,,A 358; A 397; VASE 3; VASE 6; VASE 7,,
+VASE 7,116,HT94a,40,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),¹⁄₅ 𐄐 𐄊,pu,𐝫 𐄐 𐄊,𐘝,0.5; 0.2; 10; 4,,A 358; A 397; VASE 3; VASE 6; VASE 7,,
+VASE 3,116,HT94a,42,𐝂,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),pu,,𐘝,,0.2; 10; 4,,A 358; A 397; VASE 3; VASE 6; VASE 7,,
+A 355,121,HT96b,10,𐛀,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),QA *118 RA RE 𐄁,𐄁 GRA 𐄁 40,𐘌 𐙈 𐘴 𐘙 𐄁,𐄁 𐙉 𐄁 𐄓,40; 0.75,,A 355; A 568; VASE 8,,
+A 568,121,HT96b,15,𐝕,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),𐄁 GRA 𐄁 40,,𐄁 𐙉 𐄁 𐄓,,40; 4; 2; 0.0625,A 728,A 355; A 568; VASE 8,,
+VASE 8,121,HT96b,20,𐝇,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),4 NI 2,𐝫,𐄊 𐘝 𐄈,𐝫,0.75; 4; 2,A 728,A 355; A 568; VASE 8,,
+A 503,122,HT97a,3,𐜠,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),KA RU 𐄁,𐄁,𐘾 𐘘 𐄁,𐄁,80; 2; 33,,A 394; A 503,,
+A 394,122,HT97a,5,𐛧,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),𐄁,"82 
+ 33 
+ KA",𐄁,𐄗 𐄈 𐙳 𐄒 𐄉,80; 2; 33; 30; 3,,A 394; A 503,,
+A 568,124,HT98a,11,𐝕,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"TA NA ³⁄₄ 
+ DI","NA ¹⁄₂ 
+ TE",𐘹 𐄇 𐘳 𐘅 𐘠,𐘆 𐘙 𐘆 𐘅,1; 0.75; 0.5,,A 568; VASE 4; VASE 7,,
+VASE 7,124,HT98a,16,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"NA ¹⁄₂ 
+ TE","
+ RO",𐘆 𐘙 𐘆 𐘅,𐘃 𐙕,0.5,,A 568; VASE 4; VASE 7,,
+A 568,124,HT98a,19,𐝕,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+ RO","
+ KA",𐘃 𐙕,𐘁 𐘥,0.25,,A 568; VASE 4; VASE 7,,
+VASE 7,124,HT98a,22,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+ KA",I ¹⁄₄ ? ru,𐘁 𐘥,𐘾 𐘭 𐙠 𐘚,0.25,,A 568; VASE 4; VASE 7,,
+VASE 4,124,HT98a,27,𐝃,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),I ¹⁄₄ ? ru,,𐘾 𐘭 𐙠 𐘚,,0.25,,A 568; VASE 4; VASE 7,,
+A 568,125,HT98b,6,𐝕,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"*188 
+ VIN 
+ DA",TE ¹⁄₁₆ pi? te,𐝫 𐙓 𐝫 𐝫 𐙍,𐘀 𐘘 𐘗 𐘃,0.0625,,A 568; VASE 8,,
+VASE 8,125,HT98b,11,𐝇,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),TE ¹⁄₁₆ pi? te,,𐘀 𐘘 𐘗 𐘃,,0.0625,,A 568; VASE 8,,
+VASE 6,126,HT99a,13,𐝅,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"4 
+ VIN ≈ ¹⁄₆",,𐘝 𐄊 𐝫 𐙍 𐄇,,4; 4; 1,A 702,VASE 6,,
+A 364,127,HT99b,0,𐛉,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),,NI 6 DA SI *118,,𐘝 𐄌 𐘀 𐘤 𐙈,6,,A 364,,
+A 394,128,HT100,1,𐛧,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),VIR+KA,"
+ *304+PA",𐝫,𐄔 𐄎,50; 8; 12,,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,,
+A 500,128,HT100,4,𐜝,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+ *304+PA",TI+A 12,𐄔 𐄎,𐝫 𐝫,58; 50; 8; 12; 10; 2,,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,,
+A 358,128,HT100,7,𐛃,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),TI+A 12,"2 
+ 5 
+ 16",𐝫 𐝫,𐄐 𐄈 𐘸 𐄈 𐙙,50; 8; 12; 10; 2; 5; 2; 16,,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,,
+A 396,128,HT100,14,𐛩,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+ 5 
+ 16 
+","97 
+ RA₂ CYP 5",𐄈 𐘸 𐄈 𐙙 𐄋,𐄐 𐄌 𐙂 𐘁 𐄘,2; 5; 2; 16; 5; 10; 6; 90,,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,,
+VASE 4,128,HT100,25,𐝃,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),¹⁄₄ NI 2 double mina,2 ¹⁄₂,𐄍 𐘞 𐘽 𐙗 𐄋,𐘝 𐄈,7; 2; 5; 2; 2,,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,,
+VASE 3,128,HT100,28,𐝂,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),2 ¹⁄₂,,𐘝 𐄈,,5; 2; 2; 2; 3,A 728,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,,
+VASE 3,128,HT100,29,𐝂,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),,≈ ¹⁄₆,,𐙍 𐄈,5; 2; 2; 2; 3; 2,A 728,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,,
+VASE 7,128,HT100,32,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),≈ ¹⁄₆,,𐙍 𐄈,,2; 2; 3; 2; 3,A 728,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,,
+VASE 6,128,HT100,35,𐝅,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+",𐄉,𐄈,𐄉,2; 3; 2; 3,A 728; A 730,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,,
+A 568,128,HT100,39,𐝕,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),,,,,2; 3,A 730,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,,
+A 347,129,HT101,18,𐚸,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"GRA 41 
+ 10 
+","
+ PA₃ OLE+U 2 
+",𐙉 𐄓 𐄇 𐙖 𐄐,𐄉 𐙂 𐘰 𐝫 𐝫,40; 1; 10; 10; 3; 2,,A 347; VASE 4,,
+VASE 4,129,HT101,38,𐝃,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"1 
+ *OLIV+TU ? 𐄇",,𐝫 𐝫 𐄉 𐙋 𐄇,,1; 3; 1; 1,A 711,A 347; VASE 4,,
+A 400,130,HT102,10,𐛭,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"976 
+ PA₃ GRA+PA 33",VIR+[?] GRA+PA 33 DI RI,𐄡 𐄖 𐄌 𐘰 𐘝,𐄒 𐄉 𐝫 𐝫 𐙇,900; 70; 6; 33; 30; 3; 33,,A 400,,
+A 400,130,HT102,16,𐛭,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),VIR+[?] GRA+PA 33 DI RI,"10 
+ ZU 3 
+",𐄒 𐄉 𐝫 𐝫 𐙇,𐄒 𐄉 𐘆 𐘭 𐘅,30; 3; 33; 30; 3; 3,,A 400,,
+VASE 7,131,HT103,13,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"SE NE 6 ¹⁄₂ 
+","
+ DA KU 1 
+",𐘈 𐘗 𐝫 𐝫 𐄌,𐙓 𐄐 𐄉 𐘀 𐙂,6; 0.5; 6; 10; 3; 1,,VASE 7,,
+VASE 7,131,HT103,29,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),KI RA ¹⁄₂ ? 𐄋,,𐘗 𐄇 𐘸 𐘴 𐄋,,1; 0.5; 5,,VASE 7,,
+A 346,132,HT104,3,𐚷,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),TA PA 𐄁,𐄁 DA KU SE NE,𐘳 𐘂 𐄁,𐄁 𐘀 𐙂 𐘈 𐘗,,,A 346; VASE 7,,
+VASE 7,132,HT104,12,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),SE NE TI 45 ¹⁄₂,DU TI 20 ¹⁄₂,𐘈 𐘗 𐘠 𐄓 𐄋,𐘚 𐘬 𐘠 𐄑,40; 5; 20; 20,,A 346; VASE 7,,
+VASE 7,132,HT104,17,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),DU TI 20 ¹⁄₂,"DA SU TI 29 
+",𐘚 𐘬 𐘠 𐄑,𐘂 𐘀 𐘲 𐘠 𐄑,20; 20; 29; 20,,A 346; VASE 7,,
+VASE 7,134,HT106,8,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"CYP 6 
+ 5 ¹⁄₂","1 
+ 
+ 𐄁 
+",𐙗 𐄌 𐝫 𐘤 𐄋,𐘤 𐄇 — 𐘀 𐝫,6; 5; 5; 1; 1,,VASE 7,,
+A 510,139,HT110b,5,𐜧,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"GRA 
+ 20 
+ *648","1 
+ 5 ¹⁄₂ 2",𐙉 𐝫 𐝫 𐘁 𐄑,𐄉 𐝫 𐝫 𐄇 𐙁,20; 20; 3; 5; 1; 2,,A 510; A 568; VASE 7,,
+VASE 7,139,HT110b,12,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"
+ 5 ¹⁄₂ 2 
+","¹⁄₂ 
+ 
+ MA",𐝫 𐝫 𐄇 𐙁 𐄋,𐝫 𐄈 𐘝 𐄇,5; 1; 2; 5; 0.5; 2; 1; 2,,A 510; A 568; VASE 7,,
+VASE 7,139,HT110b,17,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),"¹⁄₂ 
+ 
+ MA","
+ ³⁄₄ 𐄇 ju? 𐄈",𐝫 𐄈 𐘝 𐄇,𐝫 𐝫 𐄇 𐙁 𐄈,0.5; 2; 1; 0.75; 1; 2,,A 510; A 568; VASE 7,,
+A 568,139,HT110b,24,𐝕,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),³⁄₄ 𐄇 ju? 𐄈 ?,,𐝫 𐄇 𐙁 𐄈 𐙕,,0.75; 1; 2,,A 510; A 568; VASE 7,,
+VASE 7,144,HT113,14,𐝆,Haghia Triada - Casa Room 7,LM IB,tablet (page-shaped),¹⁄₂ 𐝫 𐄐 ri 𐄈,𐝫,𐄐 𐄐 𐄐 𐘵 𐄈,𐝫,10; 10; 10; 2,,VASE 7,,
+A 402,148,HT115a,7,𐛯,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),RA JA 𐄁 I 𐄁,RI TA MA NU WI,𐘴 𐘱 𐄁 𐘚 𐄁,𐘭 𐘳 𐙁 𐘯 𐘣,,,A 402; VASE 3; VASE 7,,
+VASE 7,148,HT115a,26,𐝆,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),NA 1 SE KU TU,PA RA NE 1 A,𐘅 𐄇 𐘈 𐙂 𐘹,𐘂 𐘴 𐘗 𐄇 𐘇,1; 1,,A 402; VASE 3; VASE 7,,
+VASE 3,148,HT115a,34,𐝂,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),NE 1 A SE JA,,𐘗 𐄇 𐘇 𐘈 𐘱,,1; 1,,A 402; VASE 3; VASE 7,,
+VASE 3,148,HT115a,35,𐝂,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),,,,,1; 1,,A 402; VASE 3; VASE 7,,
+VASE 3,148,HT115a,36,𐝂,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),,,,,1; 1,,A 402; VASE 3; VASE 7,,
+VASE 3,148,HT115a,37,𐝂,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),,"1 
+ RI SU 
+",,𐘾 𐘊 𐘘 𐄇 𐘭,1; 1,,A 402; VASE 3; VASE 7,,
+VASE 3,148,HT115a,48,𐝂,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),SU 2 ¹⁄₅ 𐝫 𐄈,𐝫 𐝫,𐘲 𐙁 𐝫 𐘲 𐄈,𐝫 𐝫,2; 0.2; 2,,A 402; VASE 3; VASE 7,,
+VASE 7,149,HT115b,6,𐝆,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),𐄁 PA RA NE ¹⁄₂,NU JA 𐄁 NU WI,𐘘 𐄁 𐘂 𐘴 𐘗,𐘠 𐘯 𐘱 𐄁 𐘯,0.5,,A 501; VASE 7,,
+VASE 7,149,HT115b,15,𐝆,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),NU WI 𐄁 GRA ¹⁄₂,"PA₃ NA 1 
+ RU",𐄁 𐘯 𐘣 𐄁 𐙉,𐘬 𐘰 𐘅 𐄇 𐙂,0.5; 1; 1,,A 501; VASE 7,,
+VASE 7,149,HT115b,25,𐝆,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),RU MA 𐄁 I ¹⁄₂,"TU JA 1 
+ I",𐙂 𐘘 𐙁 𐄁 𐘚,𐙚 𐘹 𐘱 𐄇 𐘇,0.5; 1; 1,,A 501; VASE 7,,
+A 501,149,HT115b,34,𐜞,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),"
+ I 1 
+ *306+MI",KU ta? du? 𐝫,𐄇 𐘇 𐘚 𐝫 𐄇,𐄇 𐙂 𐘳 𐝫,1; 1; 1; 1,,A 501; VASE 7,,
+A 364,150,HT116a,19,𐛉,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),"
+","16 
+ OLE+KI OLE+MI",𐄋,𐙉 𐄐 𐄌 𐄇,40; 40; 5; 5; 16; 10; 6; 1,A 726,A 364,,
+A 355,154,HT118,2,𐛀,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),AU 𐄁,"𐄁 MA DI 15 
+",𐙄 𐄁,𐄁 𐙁 𐘆 𐄐 𐄋,10; 5,,A 355,,
+A 400,156,HT120,9,𐛭,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),"74 
+","𐝆𐝀 
+",𐄖 𐄊,𐄕 𐄈,70; 4; 60; 2,A 708,A 400; VASE 1; VASE 3; VASE 7,,
+VASE 7,156,HT120,12,𐝆,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),"𐝆𐝀 
+",,𐄕 𐄈,,70; 4; 62; 60; 2; 20,,A 400; VASE 1; VASE 3; VASE 7,,
+VASE 1,156,HT120,13,𐝀,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),,"𐄁 I GRA+PA 20 
+",,𐘀 𐘉 𐘪 𐄁 𐘚,4; 62; 60; 2; 20,,A 400; VASE 1; VASE 3; VASE 7,,
+A 400,156,HT120,19,𐛭,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),"𐄁 I GRA+PA 20 
+","RE NA GRA+B 60 
+",𐘀 𐘉 𐘪 𐄁 𐘚,𐄑 𐘸 𐘙 𐘳 𐘅,20; 20; 60,,A 400; VASE 1; VASE 3; VASE 7,,
+A 400,156,HT120,27,𐛭,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),48,I TO ¹⁄₅ ru to,𐄕,𐄓 𐄎 𐘂 𐘚 𐘄,60; 60; 40; 8; 0.2,A 704,A 400; VASE 1; VASE 3; VASE 7,,
+VASE 3,156,HT120,34,𐝂,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),TO ¹⁄₅ ru to 𐄉,,𐄎 𐘂 𐘚 𐘄 𐄉,,8; 0.2; 3,,A 400; VASE 1; VASE 3; VASE 7,,
+VASE 4,160,HT123+124a,9,𐝃,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"OLIV 31 
+ 8 ¹⁄₄",RO 1 .3,𐙋 𐄒 𐄇 𐙜 𐄎,𐘸 𐘁 𐄇,30; 1; 8; 8; 1; 1,,A 561; A 568; VASE 1; VASE 4; VASE 6; VASE 7,,
+A 561,160,HT123+124a,13,𐝎,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),RO 1 .3,"VIN OLIV 31 ¹⁄₂ 
+",𐘸 𐘁 𐄇,𐘫 𐙍 𐙋 𐄒 𐄇,8; 1; 1; 31; 30; 1,,A 561; A 568; VASE 1; VASE 4; VASE 6; VASE 7,,
+VASE 7,160,HT123+124a,19,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"VIN OLIV 31 ¹⁄₂ 
+","³⁄₄ 
+",𐘫 𐙍 𐙋 𐄒 𐄇,𐙜 𐄎,31; 30; 1; 0.75; 8,,A 561; A 568; VASE 1; VASE 4; VASE 6; VASE 7,,
+A 568,160,HT123+124a,22,𐝕,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"³⁄₄ 
+",".3 
+",𐙜 𐄎,𐘸 𐘁,30; 1; 0.75; 8; 16,,A 561; A 568; VASE 1; VASE 4; VASE 6; VASE 7,,
+A 561,160,HT123+124a,25,𐝎,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),".3 
+","OLIV 16 
+ *308 4",𐘸 𐘁,𐘞 𐘘 𐙋 𐄐 𐄌,0.75; 8; 16; 10; 6,,A 561; A 568; VASE 1; VASE 4; VASE 6; VASE 7,,
+VASE 1,160,HT123+124a,33,𐝀,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"
+ *308 4 ¹⁄₆ 
+","RO 
+ DA TU",𐙋 𐄐 𐄌 𐙜 𐄊,𐝫 𐝫 𐘸 𐘁,10; 6; 0.1667; 4,,A 561; A 568; VASE 1; VASE 4; VASE 6; VASE 7,,
+A 568,160,HT123+124a,38,𐝕,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"RO 
+ DA TU","
+ *308 4 ¹⁄₄ 
+",𐝫 𐝫 𐘸 𐘁,𐘀 𐘹 𐙋 𐄐 𐄋,4; 10; 5,,A 561; A 568; VASE 1; VASE 4; VASE 6; VASE 7,,
+VASE 4,160,HT123+124a,46,𐝃,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"4 ¹⁄₄ 
+ RO ³⁄₄",RO OLIV,𐙋 𐄐 𐄋 𐙜 𐄊,𐘸 𐘁,4; 10; 5; 4; 93,,A 561; A 568; VASE 1; VASE 4; VASE 6; VASE 7,,
+A 568,160,HT123+124a,49,𐝕,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),RO OLIV,"
+ *308 𐄁 
+ KU",𐘸 𐘁,𐙂 𐘁 𐙋 𐄘 𐄉,4; 90; 3,,A 561; A 568; VASE 1; VASE 4; VASE 6; VASE 7,,
+VASE 7,160,HT123+124a,55,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"
+ *308 𐄁 
+ KU",≈ ¹⁄₆ KI RO 6,𐙂 𐘁 𐙋 𐄘 𐄉,𐙜 𐄁 𐙂 𐘁 𐝫,90; 3; 0.1667; 6,,A 561; A 568; VASE 1; VASE 4; VASE 6; VASE 7,,
+VASE 6,160,HT123+124a,63,𐝅,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),KI RO 6 𐄑 𐄋,? ro 𐄌 𐝫,𐙂 𐘁 𐝫 𐄑 𐄋,𐘸 𐘁 𐄌 𐝫,6; 20; 5; 6,,A 561; A 568; VASE 1; VASE 4; VASE 6; VASE 7,,
+A 568,161,HT123+124b,6,𐝕,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"*308 11 
+ 1 ³⁄₄","DA TA 𐄁 
+ SA",𐙜 𐄐 𐄇 𐙢 𐄇,𐘠 𐘀 𐘳 𐄁 𐘢,10; 1; 1; 1,,A 568; VASE 1; VASE 10; VASE 4; VASE 5; VASE 7,,
+VASE 7,161,HT123+124b,24,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"
+ PA DI DA 13/20",,𐄐 𐘹 𐘂 𐘆 𐘀,,10; 0.1667,,A 568; VASE 1; VASE 10; VASE 4; VASE 5; VASE 7,,
+VASE 10,161,HT123+124b,25,𐝉,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),,"
+ SI DU ¹⁄₆ 
+",,𐘾 𐘅 𐝫 𐝫 𐘤,0.1667,,A 568; VASE 1; VASE 10; VASE 4; VASE 5; VASE 7,,
+VASE 1,161,HT123+124b,32,𐝀,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"SI DU ¹⁄₆ 
+ DU","NA ³⁄₈ 
+ KU",𐘅 𐝫 𐝫 𐘤 𐘬,𐘬 𐙁 𐘚 𐘅,0.1667; 0.375,,A 568; VASE 1; VASE 10; VASE 4; VASE 5; VASE 7,,
+VASE 4,161,HT123+124b,37,𐝃,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"NA ³⁄₈ 
+ KU",,𐘬 𐙁 𐘚 𐘅,,0.375; 20; 20,,A 568; VASE 1; VASE 10; VASE 4; VASE 5; VASE 7,,
+VASE 5,161,HT123+124b,38,𐝄,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),,KI RO 5 ? ro,,𐙂 𐘁 𐄑 𐘸 𐘁,0.375; 20,,A 568; VASE 1; VASE 10; VASE 4; VASE 5; VASE 7,,
+VASE 3,162,HT125a,7,𐝂,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"
+ OLE+KI ¹⁄₅ OLE+U",,𐘽 𐝫 𐝫 𐄇,,0.2; 1; 1; 0.5; 1,A 728,VASE 3; VASE 7,,
+VASE 7,162,HT125a,13,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),¹⁄₂ SA GRA,"
+ 1 ni ? ?",𐝫 𐝫 𐄇,𐝫 𐝫 𐘞 𐘽 𐙉,1; 0.5; 1; 1,A 728,VASE 3; VASE 7,,
+A 400,163,HT125b,7,𐛭,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"20 
+ TA₂ GRA+PA 20",GRA+F,𐝫 𐄑 𐝫 𐘙 𐘷,𐄑,20; 20; 20; 20; 0.5; 7,A 706,A 400; VASE 7,,
+VASE 7,163,HT125b,11,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"
+","
+ NI pu 𐄑 𐄉",𐄍,𐙘 𐄐 𐘝 𐄑 𐄉,20; 20; 0.5; 7; 10; 20; 3,A 706,A 400; VASE 7,,
+VASE 7,164,HT126a,15,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"
+ U ¹⁄₂ 
+ DI","
+ U *49 1 
+",𐝫 𐄇 𐘉 𐝫 𐝫,𐘤 𐘆 𐘱 𐄇 𐝫,1; 0.5; 1,,VASE 7,,
+A 500,166,HT127a,8,𐜝,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"MI 1 
+ *304+PA *47",1 wi ta? 𐄇,𐘗 𐘻 𐄇 𐝫 𐝫,𐘀 𐘨 𐙂 𐄇,1; 1; 1; 1,,A 500,,
+A 398,167,HT127b,16,𐛫,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"
+ VIR+*313c 
+ KI+MU 15","11 
+",𐄔 𐄌 𐙂 𐄖 𐄈,𐄑 𐄊,50; 6; 70; 2; 20; 4; 14; 10; 5,,A 377; A 398,,
+A 377,167,HT127b,19,𐛖,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"11 
+","
+ KU 291 𐄐 𐄇",𐄑 𐄊,𐄐 𐄋 𐙕 𐄐 𐄇,70; 2; 20; 4; 10; 5; 291; 10; 1,,A 377; A 398,,
+A 377,167,HT127b,25,𐛖,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"
+ KU 291 𐄐 𐄇",𐄐 𐄊 ta? ro 𐄚,𐄐 𐄋 𐙕 𐄐 𐄇,𐄐 𐄊 𐙂 𐘁 𐄚,10; 5; 291; 10; 1; 10; 4; 200,,A 377; A 398,,
+A 400,168,HT128a,23,𐛭,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"MI TA ¹⁄₂ 
+ GRA+KU",,𐄈 𐝫 𐝫 𐘻 𐘳,,2; 0.5; 6,A 703,A 400; VASE 7,,
+VASE 7,168,HT128a,24,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),,DI,,𐝫,0.5; 6; 6,A 703,A 400; VASE 7,,
+VASE 7,170,HT129,6,𐝆,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),RE TA₂ GRA 33 𐝆𐝁,,𐘙 𐘷 𐙉 𐄒 𐄉,,30; 3; 10; 20,,VASE 2; VASE 7,,
+VASE 2,170,HT129,7,𐝁,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),,"
+ NI 
+ TU *21F",,𐙘 𐄐 𐘝 𐄑 𐄈,30; 3; 10; 20; 2,,VASE 2; VASE 7,,
+VASE 7,170,HT129,19,𐝆,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),"GRA 40 ¹⁄₂ 
+ OLE+DI",,𐘐 𐘭 𐘅 𐙉 𐄓,,40; 0.5; 40; 1,A 726,VASE 2; VASE 7,,
+VASE 7,172,HT131a,22,𐝆,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),³⁄₄ 𐝫 ? 𐄐 𐄈,? 𐄐 𐄈,𐝫 𐝫 𐙖 𐄐 𐄈,𐙘 𐄐 𐄈,0.75; 10; 2; 10; 2,,A 568; VASE 7,,
+A 568,172,HT131a,26,𐝕,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),? 𐄐 𐄈,,𐙘 𐄐 𐄈,,2; 10; 2,,A 568; VASE 7,,
+VASE 7,173,HT131b,19,𐝆,Haghia Triada - Casa Room 9,LM IB,tablet (page-shaped),ro 𐝫 𐄜 𐄔 𐄈,𐝫,𐘁 𐝫 𐄜 𐄔 𐄈,𐝫,400; 50; 2,,VASE 7,,
+A 399,175,HT133,4,𐛬,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),A DU 𐄁 TE,55 𐄋,𐘇 𐘬 𐄁 𐘃,𐄔 𐄋,50; 5,,A 399,,
+VASE 7,181,HT139,10,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"
+ OLE ¹⁄₂ 
+ RA₂","𐝫 ?,pte? ? 𐝫 𐝫",𐝫 𐙉 𐝫 𐄇 𐙖,𐝫 𐘾 𐘽 𐝫 𐝫,0.5; 1,,VASE 7,,
+VASE 7,182,HT140,15,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),DI 𐄁 OLE+KI ¹⁄₂,"
+ *34 SI 𐄁 
+",𐘧 𐘆 𐄁 𐄇,𐄁 𐘉 𐘟 𐘤 𐝫,1; 1,,VASE 7,,
+VASE 7,182,HT140,50,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"𐄈 ?,pte? pa",𐝫,𐄈 𐘾 𐘂,𐝫,1; 0.5; 2; 6,A 728; A 728,VASE 7,,
+VASE 7,182,HT140,54,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),𐄌,,𐄌,,6,A 728,VASE 7,,
+VASE 6,187,HT147,3,𐝅,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),𐝫 RA ≈,¹⁄₂,𐝫 𐝫 𐘴,𐝫,0.5,,VASE 6; VASE 7,,
+VASE 7,187,HT147,5,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),¹⁄₂,"
+ 𐝫 𐝫 𐝫",𐝫,𐝫 𐘝 𐝫 𐝫,0.1667; 0.5,,VASE 6; VASE 7,,
+A 355,188,HT154.,0,𐛀,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),,"𐄁 TI 
+ 
+ 7",,𐄁 𐘠 𐝫 𐝫 𐄙,100,,A 355,,
+VASE 7,191,HT154c,6,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"NA 
+ 2 𐝫 𐄈",𐝫,𐝫 𐘅 𐝫 𐝫 𐄈,𐝫,2; 2,,VASE 7,,
+VASE 4,192,HT154e,8,𐝃,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),"
+ 3 ¹⁄₄ 𐝫 𐄉",,𐄐 𐄊 𐝫 𐝫 𐄉,,10; 4; 0.25; 3,,VASE 4,,
+VASE 7,193,HT154g,3,𐝆,Haghia Triada - Casa del Lebete,LM IB,tablet (page-shaped),𐝫 6 ¹⁄₂,𐝫,𐝫 𐝫 𐄌,𐝫,6; 6,,VASE 7,,
+A 500,223,HTWa1020,0,𐜝,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,KU PA,,𐙂 𐘂,0.25,,A 500; VASE 4,,
+VASE 4,223,HTWa1020,3,𐝃,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,KU PA,JE TA NA,𐙂 𐘂,𐘧 𐘳 𐘅,,,A 500; VASE 4,,
+A 568,224,HTWa1021,3,𐝕,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,*188 DU 𐄁,,𐙓 𐘬 𐄁,,,,A 364; A 375; A 568,,
+A 364,224,HTWa1021,4,𐛉,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,,,,0.75,,A 364; A 375; A 568,,
+A 375,224,HTWa1021,5,𐛔,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,,,,0.75,,A 364; A 375; A 568,,
+A 500,225,HTWa1021bis,0,𐜝,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,3,,𐄉,3,,A 500,,
+A 356,226,HTWa1022,0,𐛁,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,,,,,,A 356,,
+VASE 4,227,HTWa1023,0,𐝃,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,,,,,,VASE 4,,
+VASE 4,228,HTWa1024,0,𐝃,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,,,,,,VASE 4,,
+VASE 7,229,HTWa1025,0,𐝆,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,*301,,𐙕,,,VASE 7,,
+VASE 4,230,HTWa1026,0,𐝃,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,*301,,𐙕,,,VASE 4,,
+A 316,1049,HTWa1849,0,𐚙,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,,,,,,A 316,,
+A 317,1050,HTWa1850,0,𐚚,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,,,,,,A 317,,
+A 318,1051,HTWa1851,0,𐚛,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,,,,,,A 318,,
+A 319,1052,HTWa1852,0,𐚜,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,,,,,,A 319,,
+A 320,1053,HTWa1853,0,𐚝,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,,,,,,A 320,,
+A 321,1054,HTWa1854,0,𐚞,Haghia Triada - Portico 11 and Room 13,LM IB,Nodule,,,,,,,A 321,,
+VASE 7,1065,HTWc3001,3,𐝆,Haghia Triada,LM IB,roundel,PA SE JA,,𐘂 𐘈 𐘱,,,,VASE 7,,
+A 500,1080,HTWc3016,3,𐜝,Haghia Triada,LM IB,roundel,KA KU PA,,𐘾 𐙂 𐘂,,,,A 500,,
+A 500,1081,HTWc3017,8,𐜝,Haghia Triada,LM IB,roundel,𐄁 DI *306 𐄁,,𐄁 𐘆 𐙚 𐄁,,,,A 500,,
+VASE 4,1083,HTWc3019,1,𐝃,Haghia Triada,LM IB,roundel,WA,,𐘮,,,,VASE 4,,
+A 500,1090,HTWeWc3020,2,𐜝,Haghia Triada,LM IB,roundel,*188 DU,,𐙓 𐘬,,,,A 500,,
+VASE 7,1099,HTZd157+156,10,𐝆,Haghia Triada,LM IB,Graffito,TI *904 1 *904 1,*904 2,𐘠 𐙫 𐄇 𐙫 𐄇,𐙫 𐄈,1; 1; 2; 0.25; 3,,VASE 4; VASE 5; VASE 7; VASE 8,,
+VASE 4,1099,HTZd157+156,13,𐝃,Haghia Triada,LM IB,Graffito,*904 2,*904 3,𐙫 𐄈,𐙫 𐄉,1; 0.5; 2; 3; 0.375,,VASE 4; VASE 5; VASE 7; VASE 8,,
+VASE 4,1099,HTZd157+156,16,𐝃,Haghia Triada,LM IB,Graffito,*904 3,,𐙫 𐄉,,2; 0.25; 3; 0.0625,,VASE 4; VASE 5; VASE 7; VASE 8,,
+VASE 5,1099,HTZd157+156,17,𐝄,Haghia Triada,LM IB,Graffito,,JA ¹⁄₁₆,,𐘳 𐘱,2; 0.25; 3; 0.375; 0.0625,,VASE 4; VASE 5; VASE 7; VASE 8,,
+VASE 8,1099,HTZd157+156,20,𐝇,Haghia Triada,LM IB,Graffito,JA ¹⁄₁₆,𐝫,𐘳 𐘱,𐝫,3; 0.375; 0.0625,,VASE 4; VASE 5; VASE 7; VASE 8,,
+VASE 5,1107,HTZg163,0,𐝄,Haghia Triada,LM IB,Stone object,,,,,,,VASE 5,,
+VASE 3,1128,KEWc2,0,𐝂,Kea,MM III,roundel,,,,,,,VASE 2; VASE 3,,
+VASE 2,1128,KEWc2,1,𐝁,Kea,MM III,roundel,,,,,0.2,,VASE 2; VASE 3,,
+VASE 2,1128,KEWc2,2,𐝁,Kea,MM III,roundel,,,,,0.2,,VASE 2; VASE 3,,
+VASE 7,1134,KH1,7,𐝆,Khania,Uncertain,tablet (page-shaped),"
+ 3 
+",𐝫 𐝫 𐝫,𐄖 𐝫 𐄉,𐘝 𐝫 𐝫,70; 70; 3; 3,A 706,VASE 7,,
+VASE 4,1135,KH2,7,𐝃,Khania,Uncertain,tablet (page-shaped),"
+ 
+ CYP 
+ *306",𐝫 𐝫 𐝫,𐄑 𐘹 𐝫 𐙗 𐝫,𐙚 𐝫 𐝫,20,,VASE 4,,
+VASE 2,1137,KH4,8,𐝁,Khania,Uncertain,tablet (page-shaped),"
+ 4 
+ CYP 
+","
+ 𐝫 𐝫",𐝫 𐝫 𐙚 𐄊 𐙗,𐝫 𐝫 𐝫,4; 4,,VASE 2,,
+VASE 1,1138,KH5,33,𐝀,Khania,LM IB,tablet (page-shaped),ZU CYP 3 ≈ ¹⁄₆,2 𐝆𐝁,𐙀 𐙗 𐝫 𐄉 𐝫,𐘝 𐄈,3; 3; 0.1667; 2; 2,,VASE 1; VASE 2; VASE 7,,
+VASE 7,1138,KH5,36,𐝆,Khania,LM IB,tablet (page-shaped),2 𐝆𐝁,,𐘝 𐄈,,3; 0.1667; 2; 2,,VASE 1; VASE 2; VASE 7,,
+VASE 2,1138,KH5,37,𐝁,Khania,LM IB,tablet (page-shaped),,,,,0.1667; 2; 2,,VASE 1; VASE 2; VASE 7,,
+VASE 7,1139,KH6,2,𐝆,Khania,LM IB,tablet (page-shaped),CYP+D,"SI 
+ TE RE 
+",𐝫,𐘆 𐘤 𐝫 𐝫 𐘃,0.5,,VASE 2; VASE 7,,
+VASE 7,1139,KH6,16,𐝆,Khania,LM IB,tablet (page-shaped),"¹⁄₂ 
+ *347 
+","RI TA CYP+D 
+ *21M",𐝫 𐘸 𐘞 𐘗,𐚇 𐝫 𐝫 𐙗 𐝫,0.5,,VASE 2; VASE 7,,
+VASE 7,1139,KH6,22,𐝆,Khania,LM IB,tablet (page-shaped),"RI TA CYP+D 
+ *21M","CYP+D ¹⁄₂ 
+ 1",𐚇 𐝫 𐝫 𐙗 𐝫,𐘭 𐘳 𐘧 𐝫,0.5; 1,,VASE 2; VASE 7,,
+VASE 7,1139,KH6,32,𐝆,Khania,LM IB,tablet (page-shaped),"1 PA 
+ RE",CYP+D ¹⁄₂ PI SA CYP+D,𐝫 𐝫 𐘑 𐄇,𐘕 𐄇 𐘂 𐝫 𐝫,1; 1; 1,,VASE 2; VASE 7,,
+VASE 7,1139,KH6,43,𐝆,Khania,LM IB,tablet (page-shaped),"¹⁄₂ 
+ AU RE","
+ 8 
+ 2",𐘙 𐄁 𐙺 𐄇,𐘢 𐘞 𐝫 𐝫,0.5; 1; 8; 2,,VASE 2; VASE 7,,
+VASE 7,1139,KH6,49,𐝆,Khania,LM IB,tablet (page-shaped),"
+ 8 
+ 2",ro2? ne te 𐄁 ?,𐘢 𐘞 𐝫 𐝫,𐙄 𐘙 𐘃 𐄁 𐙚,8; 2,,VASE 2; VASE 7,,
+VASE 7,1139,KH6,60,𐝆,Khania,LM IB,tablet (page-shaped),𐄇 𐝫 𐄎 ? 𐄈,,𐄇 𐝫 𐄎 𐙗 𐄈,,1; 8; 2,,VASE 2; VASE 7,,
+VASE 2,1139,KH6,61,𐝁,Khania,LM IB,tablet (page-shaped),,,,,8; 2,,VASE 2; VASE 7,,
+VASE 8,1140,KH7a,14,𐝇,Khania,Uncertain,tablet (page-shaped),CYP+E ¹⁄₁₆ E NA,"10 
+ CYP+D ¹⁄₂",𐄇 𐝫 𐝫 𐘚,𐘡 𐘅 𐘤 𐄁,1; 0.0625; 10; 0.5,,A 397; A 568; VASE 10; VASE 13; VASE 2; VASE 7; VASE 8,,
+A 397,1140,KH7a,19,𐛪,Khania,Uncertain,tablet (page-shaped),"10 
+ CYP+D ¹⁄₂",I,𐘡 𐘅 𐘤 𐄁,𐄐,10; 0.5; 10,,A 397; A 568; VASE 10; VASE 13; VASE 2; VASE 7; VASE 8,,
+VASE 7,1140,KH7a,22,𐝆,Khania,Uncertain,tablet (page-shaped),I,"TA TA 𐄁 
+ QA",𐄐,𐘚 𐘱 𐘂 𐘋 𐄁,0.5; 10,,A 397; A 568; VASE 10; VASE 13; VASE 2; VASE 7; VASE 8,,
+A 397,1140,KH7a,34,𐛪,Khania,Uncertain,tablet (page-shaped),"KI VIR+*313b 
+ CYP+D ¹⁄₃",SE,𐘳 𐄁 𐘌 𐘠 𐘸,𐄊,0.3333; 4,,A 397; A 568; VASE 10; VASE 13; VASE 2; VASE 7; VASE 8,,
+VASE 2,1140,KH7a,37,𐝁,Khania,Uncertain,tablet (page-shaped),SE,"𐄁 KO E 18 
+",𐄊,𐘈 𐙙 𐄁 𐙂 𐝫,0.3333; 4; 18,,A 397; A 568; VASE 10; VASE 13; VASE 2; VASE 7; VASE 8,,
+A 397,1140,KH7a,47,𐛪,Khania,Uncertain,tablet (page-shaped),"
+ CYP+D 1 𐝕𐝉𐝫 
+","
+ 𐝫 𐄎 𐄇",𐝫 𐄁 𐝫 𐘺 𐘡,𐝫 𐄐 𐄎 𐄇,1; 10; 8; 1,,A 397; A 568; VASE 10; VASE 13; VASE 2; VASE 7; VASE 8,,
+A 568,1140,KH7a,53,𐝕,Khania,Uncertain,tablet (page-shaped),"
+ 𐝫 𐄎 𐄇",,𐝫 𐄐 𐄎 𐄇,,10; 8; 1,,A 397; A 568; VASE 10; VASE 13; VASE 2; VASE 7; VASE 8,,
+VASE 10,1140,KH7a,54,𐝉,Khania,Uncertain,tablet (page-shaped),,𐝫 𐝫,,𐝫 𐝫,10; 8; 1,,A 397; A 568; VASE 10; VASE 13; VASE 2; VASE 7; VASE 8,,
+VASE 2,1140,KH7a,57,𐝁,Khania,Uncertain,tablet (page-shaped),𐝫 𐝫,,𐝫 𐝫,,1,,A 397; A 568; VASE 10; VASE 13; VASE 2; VASE 7; VASE 8,,
+VASE 13,1140,KH7a,58,𐝌,Khania,Uncertain,tablet (page-shaped),,𐝫,,𐝫,,,A 397; A 568; VASE 10; VASE 13; VASE 2; VASE 7; VASE 8,,
+VASE 7,1141,KH7b,7,𐝆,Khania,Uncertain,tablet (page-shaped),U TA I SE,"
+ NA TU CYP+D ¹⁄₂",𐘉 𐘳 𐘚 𐘈,𐝫 𐝫 𐘂 𐘅 𐘹,0.5,,A 500; VASE 7,,
+VASE 7,1141,KH7b,14,𐝆,Khania,Uncertain,tablet (page-shaped),NA TU CYP+D ¹⁄₂,,𐝫 𐘂 𐘅 𐘹,,0.5; 1; 10; 4,,A 500; VASE 7,,
+A 500,1141,KH7b,15,𐜝,Khania,Uncertain,tablet (page-shaped),,"SI 
+ CYP+K 2",,𐄇 𐘤 𐄐 𐄊,0.5; 1; 10; 4,,A 500; VASE 7,,
+VASE 7,1142,KH8,8,𐝆,Khania,LM IB,tablet (page-shaped),"TA 
+ CYP+D ¹⁄₂",GRA,𐝫 𐝫 𐘳 𐄈,𐘝,2; 0.5; 0.25,,A 350; VASE 4; VASE 7,,
+VASE 7,1142,KH8,10,𐝆,Khania,LM IB,tablet (page-shaped),GRA,*304 ¹⁄₄,𐘝,𐝫 𐙉,2; 0.5; 0.25; 0.25,,A 350; VASE 4; VASE 7,,
+VASE 7,1142,KH8,13,𐝆,Khania,LM IB,tablet (page-shaped),*304 ¹⁄₄,¹⁄₄,𐝫 𐙉,𐙘,0.5; 0.5; 0.25; 0.25,,A 350; VASE 4; VASE 7,,
+VASE 4,1142,KH8,15,𐝃,Khania,LM IB,tablet (page-shaped),¹⁄₄,"
+",𐙘,𐙗,0.5; 0.25; 0.25,,A 350; VASE 4; VASE 7,,
+VASE 4,1142,KH8,17,𐝃,Khania,LM IB,tablet (page-shaped),"
+","
+ *312 
+ QA2+[?]+PU",𐙗,𐙇 𐝫 𐝫 𐘝,0.25; 0.25; 1,,A 350; VASE 4; VASE 7,,
+VASE 4,1142,KH8,22,𐝃,Khania,LM IB,tablet (page-shaped),"
+ *312 
+ QA2+[?]+PU",? 𐄇,𐙇 𐝫 𐝫 𐘝,𐙢 𐄇,1; 1,,A 350; VASE 4; VASE 7,,
+A 350,1142,KH8,25,𐚻,Khania,LM IB,tablet (page-shaped),? 𐄇,𐄇,𐙢 𐄇,𐄇,1; 1; 1,,A 350; VASE 4; VASE 7,,
+A 395,1143,KH9,6,𐛨,Khania,LM IB,tablet (page-shaped),SI SU PO A 𐄁,"
+ 
+",𐘤 𐘲 𐘊 𐘇 𐄁,𐝫 𐝫,,,A 367; A 395; A 561; VASE 10; VASE 2; VASE 4; VASE 7; VASE 8,,
+VASE 8,1143,KH9,9,𐝇,Khania,LM IB,tablet (page-shaped),"
+ 
+","
+",𐝫 𐝫,𐘝,,,A 367; A 395; A 561; VASE 10; VASE 2; VASE 4; VASE 7; VASE 8,,
+VASE 4,1143,KH9,11,𐝃,Khania,LM IB,tablet (page-shaped),"
+",,𐘝,,0.5,,A 367; A 395; A 561; VASE 10; VASE 2; VASE 4; VASE 7; VASE 8,,
+VASE 2,1143,KH9,12,𐝁,Khania,LM IB,tablet (page-shaped),,"SI 𐄁 ¹⁄₂ 
+ 2",,𐘻 𐝫 𐝫 𐘚 𐘤,0.5; 2,,A 367; A 395; A 561; VASE 10; VASE 2; VASE 4; VASE 7; VASE 8,,
+VASE 7,1143,KH9,20,𐝆,Khania,LM IB,tablet (page-shaped),"¹⁄₂ 
+ 2 
+","
+ 
+ CYP 
+",𐝫 𐘚 𐘤 𐄁,𐝫 𐝫 𐄈 𐙗,0.5; 2; 2,,A 367; A 395; A 561; VASE 10; VASE 2; VASE 4; VASE 7; VASE 8,,
+VASE 4,1143,KH9,25,𐝃,Khania,LM IB,tablet (page-shaped),"
+ 
+ CYP 
+",SI+TA2 *304 𐝫 ?,𐝫 𐝫 𐄈 𐙗,𐙍 𐝫 𐝫 𐙗,0.25; 2,,A 367; A 395; A 561; VASE 10; VASE 2; VASE 4; VASE 7; VASE 8,,
+VASE 4,1143,KH9,30,𐝃,Khania,LM IB,tablet (page-shaped),SI+TA2 *304 𐝫 ?,,𐙍 𐝫 𐝫 𐙗,,,,A 367; A 395; A 561; VASE 10; VASE 2; VASE 4; VASE 7; VASE 8,,
+VASE 10,1143,KH9,31,𐝉,Khania,LM IB,tablet (page-shaped),,𐝫 𐝫,,𐝫 𐝫,,,A 367; A 395; A 561; VASE 10; VASE 2; VASE 4; VASE 7; VASE 8,,
+A 561,1143,KH9,34,𐝎,Khania,LM IB,tablet (page-shaped),𐝫 𐝫,,𐝫 𐝫,,1,,A 367; A 395; A 561; VASE 10; VASE 2; VASE 4; VASE 7; VASE 8,,
+A 367,1143,KH9,35,𐛌,Khania,LM IB,tablet (page-shaped),,? 𐄇 𐝫,,𐙘 𐄇 𐝫,1,,A 367; A 395; A 561; VASE 10; VASE 2; VASE 4; VASE 7; VASE 8,,
+VASE 7,1144,KH10,4,𐝆,Khania,LM IB,tablet (page-shaped),"𐝫 2 
+ ¹⁄₂","10 
+ PA SA JA",𐝫 𐝫 𐄈 𐝫,𐙉 𐄐 𐘚 𐘂 𐘞,2; 2; 0.5; 10; 10,,VASE 7,,
+VASE 8,1145,KH11,7,𐝇,Khania,LM IB,tablet (page-shaped),"𐄁 ZA CYP ¹⁄₁₆ 
+","
+ CYP+E",𐝫 𐄁 𐝫 𐘍 𐙗,𐘲 𐄉,0.0625; 3,,A 301; VASE 1; VASE 10; VASE 2; VASE 8,,
+VASE 8,1145,KH11,11,𐝇,Khania,LM IB,tablet (page-shaped),"
+ CYP+E",,𐘲 𐄉,,3; 4,,A 301; VASE 1; VASE 10; VASE 2; VASE 8,,
+VASE 10,1145,KH11,12,𐝉,Khania,LM IB,tablet (page-shaped),,"
+",,𐙍,3; 4,,A 301; VASE 1; VASE 10; VASE 2; VASE 8,,
+VASE 1,1145,KH11,14,𐝀,Khania,LM IB,tablet (page-shaped),"
+","
+ CYP 
+",𐙍,𐙚 𐄊 𐙗,3; 4,,A 301; VASE 1; VASE 10; VASE 2; VASE 8,,
+VASE 2,1145,KH11,18,𐝁,Khania,LM IB,tablet (page-shaped),"
+ CYP 
+","𐝇𐝉 
+",𐙚 𐄊 𐙗,𐚈 𐙗,4,,A 301; VASE 1; VASE 10; VASE 2; VASE 8,,
+VASE 8,1145,KH11,21,𐝇,Khania,LM IB,tablet (page-shaped),"𐝇𐝉 
+",,𐚈 𐙗,,4; 3,,A 301; VASE 1; VASE 10; VASE 2; VASE 8,,
+VASE 10,1145,KH11,22,𐝉,Khania,LM IB,tablet (page-shaped),,"TO I CYP+E 3 
+",,𐘇 𐘄 𐚉 𐘄 𐘚,3,,A 301; VASE 1; VASE 10; VASE 2; VASE 8,,
+A 301,1145,KH11,36,𐚊,Khania,LM IB,tablet (page-shaped),3 A TA *301 1,*306 1 SI CYP jo,𐄇 𐙍 𐄉 𐘇 𐘳,𐙕 𐄇 𐙚 𐄇 𐘤,1; 3; 1; 1; 1,,A 301; VASE 1; VASE 10; VASE 2; VASE 8,,
+VASE 8,1145,KH11,43,𐝇,Khania,LM IB,tablet (page-shaped),1 SI CYP jo ?,,𐄇 𐙚 𐄇 𐘤 𐙗,,1; 1,,A 301; VASE 1; VASE 10; VASE 2; VASE 8,,
+VASE 10,1145,KH11,44,𐝉,Khania,LM IB,tablet (page-shaped),,,,,1,,A 301; VASE 1; VASE 10; VASE 2; VASE 8,,
+VASE 7,1146,KH12,5,𐝆,Khania,LM IB,tablet (page-shaped),"CYP 2 
+ *308 
+",,𐝫 𐙗 𐝫 𐄈 𐙜,,2; 2; 0.3333; 0.3333,,A 355; A 381; A 560; VASE 2; VASE 3; VASE 7; VASE 8,,
+A 381,1146,KH12,6,𐛚,Khania,LM IB,tablet (page-shaped),,,,,2; 2; 0.3333; 0.3333,,A 355; A 381; A 560; VASE 2; VASE 3; VASE 7; VASE 8,,
+VASE 7,1146,KH12,7,𐝆,Khania,LM IB,tablet (page-shaped),,*335,,𐝫,2; 0.3333; 0.0625,,A 355; A 381; A 560; VASE 2; VASE 3; VASE 7; VASE 8,,
+VASE 2,1146,KH12,9,𐝁,Khania,LM IB,tablet (page-shaped),*335,"*516 
+ ¹⁄₁₆",𐝫,𐙻 𐝫 𐝫,0.3333; 0.0625; 0.2,,A 355; A 381; A 560; VASE 2; VASE 3; VASE 7; VASE 8,,
+VASE 2,1146,KH12,13,𐝁,Khania,LM IB,tablet (page-shaped),"*516 
+ ¹⁄₁₆",,𐙻 𐝫 𐝫,,0.3333; 0.0625; 0.2,,A 355; A 381; A 560; VASE 2; VASE 3; VASE 7; VASE 8,,
+A 355,1146,KH12,14,𐛀,Khania,LM IB,tablet (page-shaped),,*401+RU,,𐝫,0.3333; 0.0625,,A 355; A 381; A 560; VASE 2; VASE 3; VASE 7; VASE 8,,
+VASE 8,1146,KH12,16,𐝇,Khania,LM IB,tablet (page-shaped),*401+RU,,𐝫,,0.0625; 0.2,,A 355; A 381; A 560; VASE 2; VASE 3; VASE 7; VASE 8,,
+VASE 3,1146,KH12,18,𐝂,Khania,LM IB,tablet (page-shaped),,,,,0.2,,A 355; A 381; A 560; VASE 2; VASE 3; VASE 7; VASE 8,,
+A 560,1146,KH12,20,𐝍,Khania,LM IB,tablet (page-shaped),,𐝫 𐝫,,𐝫 𐝫,,,A 355; A 381; A 560; VASE 2; VASE 3; VASE 7; VASE 8,,
+A 560,1146,KH12,24,𐝍,Khania,LM IB,tablet (page-shaped),𐝫 𐝫,𐝫 𐝫,𐝫 𐝫,𐝫 𐝫,,,A 355; A 381; A 560; VASE 2; VASE 3; VASE 7; VASE 8,,
+VASE 7,1147,KH13,3,𐝆,Khania,LM IB,tablet (page-shaped),𐝫 2 ¹⁄₂,"A RE ZA 
+ 𐝫𐝃𐝉",𐝫 𐝫 𐄈,𐝫 𐝫 𐘇 𐘈 𐘙,2; 2,,VASE 10; VASE 2; VASE 4; VASE 7,,
+VASE 4,1147,KH13,12,𐝃,Khania,LM IB,tablet (page-shaped),"
+ 𐝫𐝃𐝉 
+ *304 ¹⁄₃",,𐘈 𐘙 𐘍 𐝫 𐝫,,0.3333; 3,,VASE 10; VASE 2; VASE 4; VASE 7,,
+VASE 10,1147,KH13,13,𐝉,Khania,LM IB,tablet (page-shaped),,"DA I 
+",,𐙘 𐝫 𐙗,0.3333; 3,,VASE 10; VASE 2; VASE 4; VASE 7,,
+VASE 2,1147,KH13,17,𐝁,Khania,LM IB,tablet (page-shaped),"DA I 
+","
+ 𐝫 𐝫 da ru",𐙘 𐝫 𐙗,𐝫 𐝫 𐝫 𐘀 𐘚,,,VASE 10; VASE 2; VASE 4; VASE 7,,
+VASE 4,1148,KH14,12,𐝃,Khania,LM IB,tablet (page-shaped),"6 
+ CYP 
+ *336",CYP ¹⁄₁₆ NI,𐙗 𐄌 𐝫 𐝫 𐙗,𐙼 𐄈 𐙗,6; 6; 2; 0.25,,A 395; VASE 4; VASE 8,,
+VASE 8,1148,KH14,16,𐝇,Khania,LM IB,tablet (page-shaped),CYP ¹⁄₁₆ NI,"
+ 2 
+",𐙼 𐄈 𐙗,𐝫 𐝫 𐘝,2; 2; 2,,A 395; VASE 4; VASE 8,,
+VASE 4,1148,KH14,20,𐝃,Khania,LM IB,tablet (page-shaped),"
+ 2 
+",,𐝫 𐝫 𐘝,,0.25; 2; 2,,A 395; VASE 4; VASE 8,,
+A 395,1148,KH14,21,𐛨,Khania,LM IB,tablet (page-shaped),,𐄈 𐝫 ? 𐝫 𐝫,,𐄈 𐝫 𐙗 𐝫 𐝫,0.25; 2; 2,,A 395; VASE 4; VASE 8,,
+VASE 7,1149,KH15,3,𐝆,Khania,LM IB,tablet (page-shaped),"CYP ¹⁄₂ 
+","
+",𐝫 𐙗 𐝫,𐘝,0.5,,VASE 4; VASE 7,,
+VASE 7,1149,KH15,5,𐝆,Khania,LM IB,tablet (page-shaped),"
+",𐝫 pu,𐘝,𐝫 𐘝,0.5,,VASE 4; VASE 7,,
+VASE 4,1149,KH15,8,𐝃,Khania,LM IB,tablet (page-shaped),𐝫 pu,,𐝫 𐘝,,,,VASE 4; VASE 7,,
+VASE 8,1150,KH16,4,𐝇,Khania,LM IB,tablet (page-shaped),"22 
+ CYP 
+",,𐝫 𐄑 𐄈 𐙗,,22; 20; 2; 0.5,,VASE 10; VASE 7; VASE 8,,
+VASE 10,1150,KH16,5,𐝉,Khania,LM IB,tablet (page-shaped),,"I CYP+D 
+ ¹⁄₂ 
+",,𐝫 𐝫 𐘉 𐘳 𐘚,22; 20; 2; 0.5,,VASE 10; VASE 7; VASE 8,,
+VASE 7,1150,KH16,15,𐝆,Khania,LM IB,tablet (page-shaped),"
+ TA 𐝫 𐝫",du? 𐝫 𐝫,𐘚 𐘤 𐝫 𐝫,𐘳 𐝫 𐝫,,,VASE 10; VASE 7; VASE 8,,
+VASE 7,1151,KH17,4,𐝆,Khania,LM IB,tablet (page-shaped),𐝫 𐝫 4 𐝆𐝁,,𐝫 𐝫 𐝫 𐄊,,4; 4; 1,,VASE 2; VASE 7,,
+VASE 2,1151,KH17,5,𐝁,Khania,LM IB,tablet (page-shaped),,"NI 1 A 
+ 𐝫",,𐘝 𐝫 𐝫 𐘝 𐄇,4; 4; 1; 1,,VASE 2; VASE 7,,
+A 344,1152,KH18,18,𐚵,Khania,LM IB,tablet (page-shaped),"
+ DA+*301 1 
+ 𐝫",zo? 𐄇,𐄑 𐄈 𐘤 𐝫 𐝫,𐙏 𐄇,20; 2; 1; 1,,A 344; A 345,,
+A 345,1152,KH18,21,𐚶,Khania,LM IB,tablet (page-shaped),zo? 𐄇,𐝫,𐙏 𐄇,𐝫,1,,A 344; A 345,,
+A 395,1153,KH19,2,𐛨,Khania,LM IB,tablet (page-shaped),*306 VIR+*307,"
+ 2 
+ ¹⁄₃ 𐄈",𐝫 𐙚,𐄐 𐄉 𐝫 𐝫 𐄈,10; 3; 0.3333; 2,,A 395; VASE 2,,
+VASE 2,1153,KH19,9,𐝁,Khania,LM IB,tablet (page-shaped),,𐝫,,𐝫,3; 0.3333; 2; 100,,A 395; VASE 2,,
+VASE 2,1154,KH20,10,𐝁,Khania,LM IB,tablet (page-shaped),"RA 𐄁 
+ 
+","ZA 𐄁 CYP+E ¹⁄₂ 
+",𐘴 𐄁 𐝫 𐝫,𐝫 𐘬 𐘙 𐘍 𐄁,0.5,,VASE 2; VASE 4; VASE 7,,
+VASE 7,1154,KH20,17,𐝆,Khania,LM IB,tablet (page-shaped),"𐄁 CYP+E ¹⁄₂ 
+",pu,𐘬 𐘙 𐘍 𐄁,𐘝,0.5,,VASE 2; VASE 4; VASE 7,,
+VASE 4,1154,KH20,19,𐝃,Khania,LM IB,tablet (page-shaped),pu,,𐘝,,0.5; 0.25,,VASE 2; VASE 4; VASE 7,,
+A 560,1155,KH21,3,𐝍,Khania,LM IB,tablet (page-shaped),𐝫 CYP 𐝍,"
+",𐝫 𐝫 𐙗,𐝫,2,,A 560; VASE 3,,
+VASE 3,1155,KH21,5,𐝂,Khania,LM IB,tablet (page-shaped),"
+","
+ *306 QE ? ?",𐝫,𐘝 𐄈 𐝫 𐙚 𐘿,2,,A 560; VASE 3,,
+VASE 10,1158,KH24,6,𐝉,Khania,LM IB,tablet (page-shaped),"12 
+ 𐝫𐝉 
+ 𐝫",𐝫,𐘲 𐄐 𐄈 𐝫 𐝫,𐝫,12; 10; 2,,VASE 10,,
+VASE 4,1160,KH26,8,𐝃,Khania,LM IB,tablet (page-shaped),"
+ NI 𐝃𐝋 
+ 𐝫",,𐄕 𐝫 𐝫 𐘝 𐄈,,60; 2,,VASE 12; VASE 4,,
+VASE 12,1160,KH26,9,𐝋,Khania,LM IB,tablet (page-shaped),,𐝫 𐝫 𐝫,,𐝫 𐝫 𐝫,2,,VASE 12; VASE 4,,
+A 400,1161,KH27,5,𐛭,Khania,LM IB,tablet (page-shaped),"𐝫 NI 
+ GRA+PA 𐝫",𐄊 𐝫,𐝫 𐝫 𐘝 𐝫 𐝫,𐄊 𐝫,4,,A 400,,
+VASE 7,1163,KH29,13,𐝆,Khania,LM IB,tablet (page-shaped),"
+ CYP 
+ 𐝫 𐝫",𐝫 𐝫 𐝫,𐘂 𐝫 𐝫 𐄈 𐙗,𐝫 𐝫 𐝫,2,,VASE 7,,
+VASE 10,1164,KH30,2,𐝉,Khania,LM IB,tablet (page-shaped),𐝫 𐝫𐝉𐝫,NI 𐝫 pu 𐄏,𐝫 𐝫,𐝫 𐝫 𐘝 𐄏,9,,VASE 10,,
+VASE 7,1165,KH31,5,𐝆,Khania,LM IB,tablet (page-shaped),𐝫 *401+[ — ¹⁄₂,1 𐝫 𐄇 𐝫,𐝫 𐝫 — 𐝫,𐝫 𐝫 𐄇 𐝫,0.5; 1; 1,,VASE 7,,
+A 381,1170,KH36,3,𐛚,Khania,LM IB,tablet (page-shaped),KA 𐄁 MI+JA+RU,"
+ NA 𐝫 na 𐝫",𐝫 𐘾 𐄁,𐄊 𐝫 𐝫 𐘅 𐝫,4,,A 381,,
+VASE 7,1172,KH38,3,𐝆,Khania,LM IB,tablet (page-shaped),𐝫 𐝫,"
+ 
+ 𐝫",𐝫 𐝫,𐝫 𐝫 𐝫,,,VASE 7,,
+A 502,1176,KH42,2,𐜟,Khania,LM IB,tablet (page-shaped),𐝫 *307+*301[,𐝫 𐝫,𐝫 𐝫,𐝫 𐝫,,,A 502,,
+A 389,1177,KH43,1,𐛢,Khania,LM IB,tablet (page-shaped),*560,"2 
+",𐝫,𐘙 𐄈,2; 2,,A 362; A 389,,
+A 362,1177,KH43,4,𐛇,Khania,LM IB,tablet (page-shaped),"2 
+",𐝫 𐝫,𐘙 𐄈,𐝫 𐝫,2; 2,,A 362; A 389,,
+VASE 12,1180,KH46,3,𐝋,Khania,LM IB,tablet (page-shaped),𐝫 𐝫 𐝫𐝋,"
+ 𐝫 𐝫",𐝫 𐝫 𐝫,𐙍 𐝫 𐝫,,,VASE 12,,
+VASE 2,1188,KH55,3,𐝁,Khania,LM IB,tablet (page-shaped),,"
+ 
+ NI 𐝫 𐝫",,𐝫 𐄉 𐝫 𐘝 𐝫,3,,VASE 2,,
+A 568,1189,KH56,1,𐝕,Khania,LM IB,tablet (page-shaped),𐝫𐝕𐝉𐝫,,𐝫,,,,A 568; VASE 10,,
+VASE 10,1189,KH56,2,𐝉,Khania,LM IB,tablet (page-shaped),,"
+ 𐝫 𐝫",,𐝫 𐝫 𐝫,,,A 568; VASE 10,,
+VASE 4,1190,KH57,11,𐝃,Khania,LM IB,tablet (page-shaped),"¹⁄₄ 
+ 𐝫 ? 𐝫",𐝫 𐝫,𐄇 𐝫 𐝫 𐙗 𐝫,𐝫 𐝫,1,,VASE 4,,
+VASE 4,1191,KH58,11,𐝃,Khania,LM IB,tablet (page-shaped),"CYP+E 1 
+ 
+","
+ CYP 
+ *301",𐘝 𐝫 𐝫 𐄇,𐘇 𐝫 𐝫 𐄊,1; 1; 4,,VASE 4; VASE 7,,
+VASE 7,1191,KH58,21,𐝆,Khania,LM IB,tablet (page-shaped),*301 𐝫 𐝫 ? 𐝫,a ? 𐝫,𐄊 𐝫 𐝫 𐙗 𐝫,𐘇 𐙕 𐝫,4,,VASE 4; VASE 7,,
+A 560,1193,KH60,9,𐝍,Khania,LM IB,tablet (page-shaped),"SI 
+ *131C 
+ TA₂","¹⁄₅ 
+ MI+JA+RU 
+",𐘅 𐘤 𐝫 𐝫 𐙏,𐘷 𐙗 𐝫 𐝫,0.2,,A 381; A 560; VASE 3,,
+VASE 3,1193,KH60,14,𐝂,Khania,LM IB,tablet (page-shaped),"¹⁄₅ 
+ MI+JA+RU 
+",,𐘷 𐙗 𐝫 𐝫,,0.2,,A 381; A 560; VASE 3,,
+A 381,1193,KH60,15,𐛚,Khania,LM IB,tablet (page-shaped),,,,,0.2,,A 381; A 560; VASE 3,,
+VASE 3,1193,KH60,16,𐝂,Khania,LM IB,tablet (page-shaped),,𐝫 𐝫 𐝫,,𐝫 𐝫 𐝫,,,A 381; A 560; VASE 3,,
+VASE 2,1194,KH61,9,𐝁,Khania,LM IB,tablet (page-shaped),"MA 
+ 
+ OLE+TA 
+",,𐝫 𐄇 𐙁 𐝫 𐝫,,1; 1,,A 560; VASE 10; VASE 2,,
+VASE 10,1194,KH61,11,𐝉,Khania,LM IB,tablet (page-shaped),,1 𐝫 ? 𐝫 𐄈,,𐝫 𐝫 𐙗 𐝫 𐄈,1; 2,,A 560; VASE 10; VASE 2,,
+A 560,1194,KH61,19,𐝍,Khania,LM IB,tablet (page-shaped),? 𐝫 𐄈 ? 𐄇,,𐙗 𐝫 𐄈 𐙉 𐄇,,2; 1,,A 560; VASE 10; VASE 2,,
+VASE 10,1196,KH63,7,𐝉,Khania,LM IB,tablet (page-shaped),"10 
+ *401+RU 
+",𐝫 𐝫,𐘲 𐄐 𐝫 𐝫,𐝫 𐝫,10; 10,,VASE 10,,
+VASE 10,1201,KH68+71,3,𐝉,Khania,LM IB,tablet (page-shaped),𐝫 *401+[,"
+ 
+ 𐝫",𐝫 𐝫,𐝫 𐝫 𐝫,,,VASE 10,,
+VASE 10,1205,KH73,2,𐝉,Khania,LM IB,tablet (page-shaped),𐝫 𐝫𐝉,"
+ 1 NI 1 *304+PA",𐝫 𐝫,𐘇 𐝫 𐝫 𐄇 𐘝,1; 1,,A 500; VASE 10; VASE 8,,
+A 500,1205,KH73,9,𐜝,Khania,LM IB,tablet (page-shaped),1 NI 1 *304+PA 1,"
+ A 𐝫",𐝫 𐝫 𐄇 𐘝 𐄇,𐄇 𐝫 𐝫,1; 1; 1; 1,,A 500; VASE 10; VASE 8,,
+VASE 8,1205,KH73,13,𐝇,Khania,LM IB,tablet (page-shaped),"
+ A 𐝫",a 𐝫 𐝫,𐄇 𐝫 𐝫,𐘇 𐝫 𐝫,1; 0.0625; 1,,A 500; VASE 10; VASE 8,,
+VASE 7,1207,KH75,2,𐝆,Khania,LM IB,tablet (page-shaped),𐝫 ¹⁄₂,"CYP 
+ NI ¹⁄₃",𐝫 𐝫,𐝫 𐝫 𐙗 𐝫,0.5; 0.3333,,VASE 10; VASE 2; VASE 7; VASE 8,,
+VASE 8,1207,KH75,7,𐝇,Khania,LM IB,tablet (page-shaped),"CYP 
+ NI ¹⁄₃",,𐝫 𐝫 𐙗 𐝫,,0.3333,,VASE 10; VASE 2; VASE 7; VASE 8,,
+VASE 10,1207,KH75,8,𐝉,Khania,LM IB,tablet (page-shaped),,pu,,𐘝,0.3333,,VASE 10; VASE 2; VASE 7; VASE 8,,
+VASE 2,1207,KH75,10,𐝁,Khania,LM IB,tablet (page-shaped),pu,𐝫,𐘝,𐝫,0.3333,,VASE 10; VASE 2; VASE 7; VASE 8,,
+VASE 4,1208,KH76,8,𐝃,Khania,LM IB,tablet (page-shaped),"
+ CYP 
+ 𐝫 𐝫",,𐄊 𐝫 𐝫 𐙗 𐝫,,4,,VASE 13; VASE 4,,
+VASE 13,1208,KH76,9,𐝌,Khania,LM IB,tablet (page-shaped),,𐝫,,𐝫,,,VASE 13; VASE 4,,
+A 560,1209,KH77,3,𐝍,Khania,LM IB,tablet (page-shaped),"CYP 𐝍 
+",𐝫,𐝫 𐙗 𐝫,𐝫,,,A 560,,
+VASE 3,1213,KH80,1,𐝂,Khania,LM IB,tablet (page-shaped),¹⁄₅,"
+ 𐝫 𐝫",𐝫,𐙖 𐝫 𐝫,0.2,,VASE 3,,
+A 382,1214,KH81,4,𐛛,Khania,LM IB,tablet (page-shaped),"𐝫 𐝫 5 
+","
+ 3 𐝫 𐄉 𐝫",𐝫 𐝫 𐄋 𐝫,𐄢 𐝫 𐝫 𐄉 𐝫,5; 1000; 3; 3,,A 382,,
+VASE 10,1215,KH82,4,𐝉,Khania,LM IB,tablet (page-shaped),,"*315 
+ *336 
+ 𐝫",,𐝫 𐝫 𐙧 𐄇 𐝫,1,,VASE 10,,
+VASE 7,1217,KH84,3,𐝆,Khania,LM IB,tablet (page-shaped),𐝫 CYP ¹⁄₂,"*301 
+ *306 
+ 
+",𐝫 𐝫 𐙗,𐝫 𐝫 𐙕 𐄇 𐙚,0.5; 1,,VASE 7,,
+VASE 7,1218,KH85,3,𐝆,Khania,LM IB,tablet (page-shaped),,"
+ *401+RU 
+",,𐙜 𐝫 𐝫,0.5,,VASE 3; VASE 7; VASE 8,,
+VASE 8,1218,KH85,8,𐝇,Khania,LM IB,tablet (page-shaped),"
+ *401+RU 
+","
+ CYP 
+ 𐝫 𐝫",𐙜 𐝫 𐝫,𐙏 𐝫 𐝫 𐙘 𐝫,,,VASE 3; VASE 7; VASE 8,,
+VASE 3,1218,KH85,17,𐝂,Khania,LM IB,tablet (page-shaped),𐝫 𐝫 𐝫 ? 𐝫,𐝫 𐝫,𐙘 𐝫 𐝫 𐙗 𐝫,𐝫 𐝫,,,VASE 3; VASE 7; VASE 8,,
+VASE 1,1219,KH86,8,𐝀,Khania,LM IB,tablet (page-shaped),"
+ CYP 
+ PI NU",,𐙗 𐝫 𐝫 𐙗 𐝫,,3; 0.75,,A 568; VASE 1; VASE 2,,
+VASE 2,1219,KH86,9,𐝁,Khania,LM IB,tablet (page-shaped),,,,,0.75,,A 568; VASE 1; VASE 2,,
+VASE 2,1219,KH86,10,𐝁,Khania,LM IB,tablet (page-shaped),,"³⁄₄ 
+ 𐝫 𐝫 𐄉",,𐘢 𐘯 𐝫 𐝫 𐄉,3; 0.75; 3,,A 568; VASE 1; VASE 2,,
+A 568,1219,KH86,20,𐝕,Khania,LM IB,tablet (page-shaped),𐄉 𐝫 𐝫 ? 𐝫,𐝫 𐝫,𐄉 𐝫 𐝫 𐙗 𐝫,𐝫 𐝫,3,,A 568; VASE 1; VASE 2,,
+VASE 10,1220,KH87,3,𐝉,Khania,LM IB,tablet (page-shaped),𐝫 𐝫 𐝫𐝉,"
+ ¹⁄₂ *23M",𐝫 𐝫 𐝫,𐙚 𐝫 𐝫,0.5; 1,,VASE 10; VASE 7,,
+VASE 7,1220,KH87,7,𐝆,Khania,LM IB,tablet (page-shaped),"
+ ¹⁄₂ *23M",pi 𐄇,𐙚 𐝫 𐝫,𐘖 𐄇,0.5; 1,,VASE 10; VASE 7,,
+VASE 7,1223,KH91,11,𐝆,Khania,LM IB,tablet (page-shaped),"VIN 
+ 1 13/20 
+",,𐙍 𐝫 𐝫 𐙨 𐄇,,1; 1; 0.1667; 0.0625,,VASE 1; VASE 10; VASE 7; VASE 8,,
+VASE 10,1223,KH91,12,𐝉,Khania,LM IB,tablet (page-shaped),,"¹⁄₆ 
+ ¹⁄₁₆",,𐙀 𐝫 𐝫,1; 1; 0.1667; 0.0625,,VASE 1; VASE 10; VASE 7; VASE 8,,
+VASE 1,1223,KH91,16,𐝀,Khania,LM IB,tablet (page-shaped),"¹⁄₆ 
+ ¹⁄₁₆","
+",𐙀 𐝫 𐝫,𐘹,0.1667; 0.0625,,VASE 1; VASE 10; VASE 7; VASE 8,,
+VASE 8,1223,KH91,18,𐝇,Khania,LM IB,tablet (page-shaped),"
+","
+ *401+RO 𐝫",𐘹,𐘝 𐝫 𐝫,0.1667; 0.0625,,VASE 1; VASE 10; VASE 7; VASE 8,,
+VASE 8,1223,KH91,23,𐝇,Khania,LM IB,tablet (page-shaped),"
+ *401+RO 𐝫",𐝫 𐝫,𐘝 𐝫 𐝫,𐝫 𐝫,,,VASE 1; VASE 10; VASE 7; VASE 8,,
+VASE 9,1228,KH96,3,𐝈,Khania,Uncertain,tablet (page-shaped),𐝫 𐝫 𐝫𐝈𐝀𐝀,,𐝫 𐝫 𐝫,,,,VASE 1; VASE 9,,
+VASE 1,1228,KH96,4,𐝀,Khania,Uncertain,tablet (page-shaped),,,,,,,VASE 1; VASE 9,,
+VASE 1,1228,KH96,5,𐝀,Khania,Uncertain,tablet (page-shaped),,,,,,,VASE 1; VASE 9,,
+A 303,1232,KH100,0,𐚌,Khania,LMIIIA,tablet (page-shaped),,"*306 
+ VIN 
+ KE",,𐙚 𐝫 𐝫 𐘁 𐙍,,,A 303; VASE 4,,
+VASE 4,1232,KH100,9,𐝃,Khania,LMIIIA,tablet (page-shaped),"
+ KE ¹⁄₄ 𐝫 ?",𐝫 𐝫,𐘁 𐙍 𐝫 𐝫 𐘥,𐝫 𐝫,0.25,,A 303; VASE 4,,
+A 504,1234,KHWa1001,0,𐜡,Khania,LM IB,Nodule,,,,,,,A 342; A 504,,
+A 342,1234,KHWa1001,1,𐚳,Khania,LM IB,Nodule,,,,,,,A 342; A 504,,
+A 504,1235,KHWa1002,0,𐜡,Khania,Uncertain,Nodule,,,,,,,A 342; A 504,,
+A 342,1235,KHWa1002,1,𐚳,Khania,Uncertain,Nodule,,,,,,,A 342; A 504,,
+A 322,1251,KHWa1018,0,𐚟,Khania,LM IB,Nodule,,,,,,,A 322,,
+VASE 4,1252,KHWa1019,0,𐝃,Khania,LM IB,Nodule,,,,,,,VASE 4,,
+A 340,1259,KHWc2006,0,𐚱,Khania,LM IB,roundel,,,,,,,A 340,,
+A 340,1260,KHWc2007,0,𐚱,Khania,LM IB,roundel,,,,,,,A 340,,
+A 334,1261,KHWc2008,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 334,1262,KHWc2009,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 332,1263,KHWc2010,0,𐚩,Khania,LM IB,roundel,,,,,,,A 332,,
+A 334,1264,KHWc2011,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 334,1265,KHWc2012,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 334,1266,KHWc2013,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 334,1267,KHWc2014,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 334,1268,KHWc2015,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 334,1269,KHWc2016,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 334,1270,KHWc2017,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 334,1271,KHWc2018,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 334,1272,KHWc2019,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 332,1273,KHWc2020,0,𐚩,Khania,LM IB,roundel,,,,,,,A 332,,
+A 332,1274,KHWc2021,0,𐚩,Khania,LM IB,roundel,,,,,,,A 332,,
+A 334,1275,KHWc2022,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 334,1276,KHWc2023,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 334,1277,KHWc2024,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 332,1278,KHWc2025,0,𐚩,Khania,LM IB,roundel,,VS,,𐝫,,,A 332,,
+A 394,1282,KHWc2029,0,𐛧,Khania,LM IB,roundel,,,,,,,A 394,,
+A 394,1283,KHWc2030,0,𐛧,Khania,Uncertain,roundel,,,,,,,A 394,,
+A 394,1284,KHWc2031,0,𐛧,Khania,LM IB,roundel,,,,,,,A 394,,
+A 394,1285,KHWc2032,0,𐛧,Khania,LM IB,roundel,,,,,,,A 394,,
+A 508,1309,KHWc2056,0,𐜥,Khania,LM IB,roundel,,,,,,,A 508,,
+A 508,1310,KHWc2057,0,𐜥,Khania,LM IB,roundel,,,,,,,A 508,,
+A 393,1311,KHWc2058,0,𐛦,Khania,LM IB,roundel,,,,,,,A 393,,
+A 393,1312,KHWc2092,0,𐛦,Khania,Uncertain,roundel,,,,,,,A 393,,
+A 393,1313,KHWc2091,0,𐛦,Khania,Uncertain,roundel,,,,,,,A 393,,
+A 393,1314,KHWc2059,0,𐛦,Khania,Uncertain,roundel,,,,,,,A 393,,
+A 393,1315,KHWc2060,0,𐛦,Khania,LM IB,roundel,,,,,,,A 393,,
+A 393,1316,KHWc2061,0,𐛦,Khania,LM IB,roundel,,,,,,,A 393,,
+A 393,1317,KHWc2062,0,𐛦,Khania,LM IB,roundel,,,,,,,A 393,,
+A 384,1319,KHWc2064,0,𐛝,Khania,LM IB,roundel,,,,,,,A 384,,
+A 302,1320,KHWc2065,1,𐚋,Khania,LM IB,roundel,*805,,𐝥,,,,A 302,,
+A 355,1321,KHWc2066,0,𐛀,Khania,LM IB,roundel,,,,,,,A 355,,
+A 355,1325,KHWc2070,0,𐛀,Khania,LM IB,roundel,,,,,,,A 355,,
+A 334,1327,KHWc2079,0,𐚫,Khania,LM IB,roundel,,,,,,,A 334,,
+A 331,1328,KHWc2084,0,𐚨,Khania,LM IB,roundel,,,,,,,A 331,,
+A 392,1332,KHWc2097,0,𐛥,Khania,LM IB,roundel,,,,,,,A 392,,
+A 384,1335,KHWc2099,0,𐛝,Khania,LM IB,roundel,,,,,,,A 384,,
+A 303,1336,KHWc2100,1,𐚌,Khania,LM IB,roundel,VIR+[?],JA,𐙇,𐘱,,,A 303,,
+A 331,1339,KHWc2103,0,𐚨,Khania,LM IB,roundel,,,,,,,A 331,,
+A 394,1342,KHWc2106,0,𐛧,Khania,LM IB,roundel,,,,,,,A 394,,
+A 393,1343,KHWc2109,0,𐛦,Khania,LM IB,roundel,,,,,,,A 393,,
+A 331,1347,KHWc2114,0,𐚨,Khania,LM IB,roundel,,VS,,𐝫,,,A 331,,
+A 392,1349,KHWc2117,2,𐛥,Khania,LMIIIA,roundel,"VIR+[?] 
+",,𐙇 𐝫,,,,A 392,,
+A 331,1352,KHWc2122,0,𐚨,Khania,LM IB,roundel,,,,,,,A 331,,
+A 356,1358,KN2,6,𐛁,Knossos,Uncertain,tablet (page-shaped),"NA 2 
+ 3 
+","
+ 𐝫 𐝫",𐘘 𐘅 𐄈 𐙈 𐄉,𐄋 𐝫 𐝫,2; 2; 3; 3; 5,,A 356,,
+VASE 11,1363,KN28b,4,𐝊,Knossos,Uncertain,tablet (page-shaped),𐝫 𐝫 TE 𐝊𐝫,3 SU+MI 𐝊𐝫,𐝫 𐝫 𐝫 𐘃,𐝫 𐝫 𐄉,3; 3,,A 374; VASE 11,,
+A 374,1363,KN28b,8,𐛓,Knossos,Uncertain,tablet (page-shaped),3 SU+MI 𐝊𐝫,,𐝫 𐝫 𐄉,,3; 3,,A 374; VASE 11,,
+VASE 11,1363,KN28b,9,𐝊,Knossos,Uncertain,tablet (page-shaped),,𐝫 𐝫,,𐝫 𐝫,3; 3,,A 374; VASE 11,,
+VASE 8,1366,KN54,7,𐝇,Knossos,Uncertain,tablet (page-shaped),"RA 
+ *131C 
+ 𐝫",𐝫 𐝫,𐘫 𐘴 𐝫 𐝫 𐙏,𐝫 𐝫,,,VASE 8,,
+VASE 9,1367,KN49,1,𐝈,Knossos,Uncertain,tablet (page-shaped),𐄁,𐝫,𐄁,𐝫,,,VASE 9,,
+A 394,1396,KNZb56,1,𐛧,Knossos,Uncertain,Clay vessel,RO,,𐘁,,,,A 394,,
+A 363,1408,KNZg<21>,0,𐛈,Knossos,LM IA,Stone object,,,,,,,A 363,,
+A 359,1429,MA10b,14,𐛄,Malia,Uncertain,4-sided bar,"
+ 
+ *402+A TI+*412VAS",𐄈,𐄉 𐝫 𐄊 𐄈,𐄈,3; 4; 2; 2,,A 359,,
+A 327,1430,MA10c,5,𐚤,Malia,Uncertain,4-sided bar,"*412+E 
+ 
+",𐝫,𐝫 𐄈 𐄉,𐝫,2; 2; 3; 3,,A 327,,
+A 328,1434,MAZb15,0,𐚥,Malia,Uncertain,Clay vessel,,,,,,,A 328; VASE 8,,
+VASE 8,1434,MAZb15,1,𐝇,Malia,Uncertain,Clay vessel,,,,,,,A 328; VASE 8,,
+A 364,1445,MYZf1,0,𐛉,Mycenae,Uncertain,metal object,,,,,,,A 364,,
+A 400,1450,PE1,13,𐛭,Petras,Uncertain,tablet (page-shaped),"PA RI VIR+[?] 50 
+","¹⁄₂ 
+",𐘂 𐘭 𐙇 𐄔 𐝫,𐄑 𐄌,50; 20; 6; 72,,A 400; VASE 7,,
+VASE 7,1450,PE1,16,𐝆,Petras,Uncertain,tablet (page-shaped),"¹⁄₂ 
+","VIR+[?] 72 
+ GRA+PA 36",𐄑 𐄌,𐘡 𐘾 𐝫 𐙇 𐄖,50; 26; 20; 6; 72; 70,,A 400; VASE 7,,
+A 400,1450,PE1,23,𐛭,Petras,Uncertain,tablet (page-shaped),"72 
+ GRA+PA 36 𐄈",𐄒 𐄌,𐘾 𐝫 𐙇 𐄖 𐄈,𐄒 𐄌,72; 70; 2; 30; 6,,A 400; VASE 7,,
+VASE 2,1451,PE2,2,𐝁,Petras,Uncertain,tablet (page-shaped),𐝫 3,RU PI *305 MI 1,𐝫 𐄉,𐘘 𐘢 𐝫 𐙙 𐘻,3; 1,,VASE 2; VASE 4; VASE 5; VASE 7,,
+VASE 5,1451,PE2,9,𐝄,Petras,Uncertain,tablet (page-shaped),PI *305 MI 1 ¹⁄₈,*325 ZA ¹⁄₄,𐘢 𐝫 𐙙 𐘻 𐄇,𐘇 𐙱 𐘍,1; 1; 0.25,,VASE 2; VASE 4; VASE 5; VASE 7,,
+VASE 4,1451,PE2,13,𐝃,Petras,Uncertain,tablet (page-shaped),*325 ZA ¹⁄₄,RI PA ¹⁄₄,𐘇 𐙱 𐘍,𐘇 𐘭 𐘂,1; 0.25; 0.25,,VASE 2; VASE 4; VASE 5; VASE 7,,
+VASE 4,1451,PE2,17,𐝃,Petras,Uncertain,tablet (page-shaped),RI PA ¹⁄₄,QA DA ¹⁄₂,𐘇 𐘭 𐘂,𐘌 𐘌 𐘀,0.25; 0.25; 0.5,,VASE 2; VASE 4; VASE 5; VASE 7,,
+VASE 7,1451,PE2,21,𐝆,Petras,Uncertain,tablet (page-shaped),QA DA ¹⁄₂,ME ¹⁄₃,𐘌 𐘌 𐘀,𐘄 𐘋,0.25; 0.5; 0.3333,,VASE 2; VASE 4; VASE 5; VASE 7,,
+VASE 2,1451,PE2,24,𐝁,Petras,Uncertain,tablet (page-shaped),ME ¹⁄₃,"*49 RE 1 
+ 𐝫",𐘄 𐘋,𐘄 𐘪 𐘙 𐄇 𐝫,0.5; 0.3333; 1; 1,,VASE 2; VASE 4; VASE 5; VASE 7,,
+VASE 7,1453,PEWy5,3,𐝆,Petras,Uncertain,tablet (page-shaped),OLE *307 1,,𐙖 𐙛 𐄇,,1,,VASE 7,,
+VASE 7,1459,PEZg5,3,𐝆,Petras,LM IB,Stone object,OLE *307 1,,𐙖 𐙛 𐄇,,1,,VASE 7,,
+VASE 10,1462,PH1a,7,𐝉,Phaistos,Uncertain,tablet (page-shaped),DI NA *316 𐄁 𐝉,"𐄁 *316 1 
+ CYP",𐘴 𐘆 𐘅 𐙨 𐄁,𐝫 𐘱 𐄁 𐙨 𐄇,1; 1,,VASE 10; VASE 6,,
+VASE 6,1462,PH1a,14,𐝅,Phaistos,Uncertain,tablet (page-shaped),"*316 1 
+ CYP ¹⁄₆",𐝫,𐘱 𐄁 𐙨 𐄇 𐙗,𐝫,1; 1; 0.1667,,VASE 10; VASE 6,,
+VASE 5,1463,PH1b,9,𐝄,Phaistos,Uncertain,tablet (page-shaped),"
+ NI 𐝄𐝇 pu 𐄈",,𐘂 𐝫 𐝫 𐘝 𐄈,,2,,VASE 5; VASE 8,,
+VASE 8,1463,PH1b,10,𐝇,Phaistos,Uncertain,tablet (page-shaped),,,,,2,,VASE 5; VASE 8,,
+A 387,1465,PH3a,1,𐛠,Phaistos,Uncertain,tablet (page-shaped),*556,"
+ 
+ 1",𐝫,𐄇 𐘳 𐝫,1; 1; 1,,A 387; A 388; A 389; A 390; A 566,,
+A 388,1465,PH3a,5,𐛡,Phaistos,Uncertain,tablet (page-shaped),"
+ 
+ 1",*563,𐄇 𐘳 𐝫,𐄇,1; 1; 1; 1,,A 387; A 388; A 389; A 390; A 566,,
+A 390,1465,PH3a,7,𐛣,Phaistos,Uncertain,tablet (page-shaped),*563,,𐄇,,1; 1; 1,,A 387; A 388; A 389; A 390; A 566,,
+A 566,1465,PH3a,8,𐝓,Phaistos,Uncertain,tablet (page-shaped),,"
+",,𐝫,1; 1,,A 387; A 388; A 389; A 390; A 566,,
+A 389,1465,PH3a,10,𐛢,Phaistos,Uncertain,tablet (page-shaped),"
+",,𐝫,,1,,A 387; A 388; A 389; A 390; A 566,,
+A 566,1465,PH3a,11,𐝓,Phaistos,Uncertain,tablet (page-shaped),,"
+ PA",,𐘂 𐘴,1,,A 387; A 388; A 389; A 390; A 566,,
+A 566,1465,PH3a,14,𐝓,Phaistos,Uncertain,tablet (page-shaped),"
+ PA","
+ 𐝫 𐝫 𐝫 𐄇",𐘂 𐘴,𐝫 𐘂 𐝫 𐝫 𐄇,1,,A 387; A 388; A 389; A 390; A 566,,
+A 379,1466,PH3b,1,𐛘,Phaistos,Uncertain,tablet (page-shaped),]MI+JA,,𐝫,,,,A 379; A 568; VASE 4,,
+A 568,1466,PH3b,2,𐝕,Phaistos,Uncertain,tablet (page-shaped),,"SI 
+ 𐝫",,𐝫 𐝫 𐘤,0.75,,A 379; A 568; VASE 4,,
+VASE 4,1466,PH3b,6,𐝃,Phaistos,Uncertain,tablet (page-shaped),"SI 
+ 𐝫",SI ¹⁄₄ 𐝫 jo 𐄇,𐝫 𐝫 𐘤,𐝫 𐝫 𐝫 𐘤 𐄇,0.75; 0.25; 1,,A 379; A 568; VASE 4,,
+VASE 4,1466,PH3b,12,𐝃,Phaistos,Uncertain,tablet (page-shaped),SI ¹⁄₄ 𐝫 jo 𐄇,𐝫 𐝫,𐝫 𐝫 𐝫 𐘤 𐄇,𐝫 𐝫,0.25; 1,,A 379; A 568; VASE 4,,
+VASE 9,1469,PH7b,4,𐝈,Phaistos,Uncertain,tablet (page-shaped),𐝫 TA 1 L,"DA L 
+ *131C",𐝫 𐝫 𐘳 𐄇,𐝫 𐝫 𐘀 𐘴,1; 1,,VASE 4; VASE 9,,
+VASE 9,1469,PH7b,9,𐝈,Phaistos,Uncertain,tablet (page-shaped),"DA L 
+ *131C","
+ 𐝫 zo?",𐝫 𐝫 𐘀 𐘴,𐝫 𐝫 𐙏,,,VASE 4; VASE 9,,
+VASE 9,1469,PH7b,13,𐝈,Phaistos,Uncertain,tablet (page-shaped),"
+ 𐝫 zo?",,𐝫 𐝫 𐙏,,,,VASE 4; VASE 9,,
+VASE 4,1469,PH7b,14,𐝃,Phaistos,Uncertain,tablet (page-shaped),,𐝫,,𐝫,,,VASE 4; VASE 9,,
+A 505,1471,PH8b,4,𐜢,Phaistos,Uncertain,tablet (page-shaped),"𐝫 *316 1 
+","
+ 𐝫",𐝫 𐝫 𐙨 𐄇,𐝫 𐝫,1; 1,,A 505,,
+A 304,1472,PH9a,2,𐚍,Phaistos,Uncertain,tablet (page-shaped),*317 QE,,𐙩 𐘿,,,,A 304; A 562,,
+A 562,1472,PH9a,3,𐝏,Phaistos,Uncertain,tablet (page-shaped),,,,,,,A 304; A 562,,
+A 335,1473,PH9b,1,𐚬,Phaistos,Uncertain,tablet (page-shaped),*412,VIN 1,𐝫,𐙍 𐄇,1,,A 335; VASE 7,,
+VASE 7,1473,PH9b,4,𐝆,Phaistos,Uncertain,tablet (page-shaped),VIN 1,,𐙍 𐄇,,1,,A 335; VASE 7,,
+VASE 7,1473,PH9b,5,𐝆,Phaistos,Uncertain,tablet (page-shaped),,,,,1,,A 335; VASE 7,,
+A 306,1474,PH10,0,𐚏,Phaistos,MM II,Label,,E,,𐘡,,,A 305; A 306; VASE 9,,
+A 305,1474,PH10,2,𐚎,Phaistos,MM II,Label,E,HIDE+[?],𐘡,𐙒,,,A 305; A 306; VASE 9,,
+VASE 9,1474,PH10,4,𐝈,Phaistos,MM II,Label,HIDE+[?],,𐙒,,,,A 305; A 306; VASE 9,,
+VASE 9,1474,PH10,5,𐝈,Phaistos,MM II,Label,,,,,,,A 305; A 306; VASE 9,,
+VASE 9,1476,PH12a,5,𐝈,Phaistos,Uncertain,Lames (short thin tablet),VIR+[?] *339 HIDE+[?] 10 𐝈𐝈,,𐙇 𐙿 𐙒 𐄐 𐝫,,10,,VASE 9,,
+VASE 9,1476,PH12a,6,𐝈,Phaistos,Uncertain,Lames (short thin tablet),,,,,10,,VASE 9,,
+VASE 4,1477,PH12b,0,𐝃,Phaistos,Uncertain,Lames (short thin tablet),,"
+ 𐝫",,𐝫 𐝫,,,VASE 4,,
+VASE 4,1477,PH12b,3,𐝃,Phaistos,Uncertain,Lames (short thin tablet),"
+ 𐝫",,𐝫 𐝫,,0.25,,VASE 4,,
+VASE 4,1477,PH12b,4,𐝃,Phaistos,Uncertain,Lames (short thin tablet),,𐝫,,𐝫,0.25,,VASE 4,,
+VASE 4,1479,PH13a,4,𐝃,Phaistos,Uncertain,Lames (short thin tablet),HIDE+[?] *328 𐝫𐝃𐝃 𐝫,,𐝫 𐙒 𐙴 𐝫,,,,VASE 4,,
+VASE 4,1479,PH13a,5,𐝃,Phaistos,Uncertain,Lames (short thin tablet),,,,,,,VASE 4,,
+A 307,1480,PH13b,1,𐚐,Phaistos,Uncertain,Lames (short thin tablet),*356,,𐝫,,,,A 307,,
+VASE 4,1481,PH13c,3,𐝃,Phaistos,Uncertain,Lames (short thin tablet),TE ZU 𐝃𐝃𐝫,,𐝫 𐘃 𐙀,,,,VASE 4,,
+VASE 4,1481,PH13c,4,𐝃,Phaistos,Uncertain,Lames (short thin tablet),,𐝫,,𐝫,,,VASE 4,,
+A 308,1485,PH15b,1,𐚑,Phaistos,Uncertain,Lames (short thin tablet),*357,? 𐝫,𐝫,𐙒 𐝫,,,A 308,,
+A 309,1486,PH16a,6,𐚒,Phaistos,Uncertain,Lames (short thin tablet),"NA 
+ — *358 𐝫",pu 𐝫,𐘠 𐘅 𐝫 — 𐝫,𐘝 𐝫,,,A 309,,
+A 310,1488,PH17a,1,𐚓,Phaistos,Uncertain,Lames (short thin tablet),*359,𐝫,𐝫,𐝫,,,A 310,,
+A 311,1489,PH17b,1,𐚔,Phaistos,Uncertain,Lames (short thin tablet),*360,𐝫,𐝫,𐝫,,,A 311,,
+VASE 7,1493,PH22a,1,𐝆,Phaistos,Uncertain,tablet (page-shaped),𐝫𐝆𐝆,,𐝫,,,,VASE 7,,
+VASE 7,1493,PH22a,2,𐝆,Phaistos,Uncertain,tablet (page-shaped),,,,,,,VASE 7,,
+VASE 4,1497,PH26,2,𐝃,Phaistos,MM II,tablet (page-shaped),*314 𐝃𐝏𐝏𐝏𐝫,,𐝫 𐙦,,,,A 562; VASE 4,,
+A 562,1497,PH26,3,𐝏,Phaistos,MM II,tablet (page-shaped),,,,,,,A 562; VASE 4,,
+A 562,1497,PH26,4,𐝏,Phaistos,MM II,tablet (page-shaped),,,,,,,A 562; VASE 4,,
+A 562,1497,PH26,5,𐝏,Phaistos,MM II,tablet (page-shaped),,𐝫,,𐝫,,,A 562; VASE 4,,
+VASE 4,1503,PH30,3,𐝃,Phaistos,MM II,tablet (page-shaped),𐝫 TI ¹⁄₄,"MA RI MI DE ?,de?",𐝫 𐝫 𐘠,𐝫 𐝫 𐙁 𐘙 𐘭,0.25,,VASE 4,,
+A 353,1504,PH(?)31a,6,𐚾,Phaistos,Uncertain,tablet (page-shaped),"A 
+ RU 1 
+","DI 1 
+ *22F 
+",𐝫 𐘇 𐝫 𐝫 𐘘,𐄇 𐙁 𐘆 𐘑 𐄇,1; 1; 1; 1,,A 353,,
+A 353,1504,PH(?)31a,33,𐚾,Phaistos,Uncertain,tablet (page-shaped),"1 
+ *21M 
+ *21F",𐄇 zo 𐄋 za 𐄉,𐝫 𐝫 𐄇 𐙂 𐘁,𐄇 𐘑 𐄋 𐘐 𐄉,1; 1; 1; 5; 3,,A 353,,
+VASE 7,1516,PHWc41,2,𐝆,Phaistos,MM II,roundel,VIN 1,,𐙍 𐄇,,1,,VASE 7,,
+VASE 2,1540,PKZb?,5,𐝁,Palaikastro,Uncertain,Clay vessel,"A PA₃ DI 
+ ¹⁄₃",,𐘇 𐘰 𐘆 𐝫 𐘙,,0.3333,,VASE 2,,
+VASE 7,1555,PYR2,2,𐝆,Pyrgos,Uncertain,Lames (short thin tablet),*304 ¹⁄₂,,𐝫 𐙘,,0.5,,VASE 7,,
+VASE 8,1558,SAMWa1,6,𐝇,Samothrace,MM II,Nodule,SA SA RA TE 10,,𐘞 𐘞 𐘴 𐘃 𐄐,,10,,VASE 8,,
+VASE 4,1598,TY3a,6,𐝃,Tylissos,Uncertain,tablet (page-shaped),"*321 OLE+KI ¹⁄₄ 
+",,𐘍 𐙭 𐄐 𐄋,,15; 10; 5; 20; 2,A 728,A 312; VASE 3; VASE 4; VASE 7,,
+VASE 7,1598,TY3a,15,𐝆,Tylissos,Uncertain,tablet (page-shaped),OLE+MI,¹⁄₂,𐄉,𐝫,5; 3; 7; 0.5; 7,A 729; A 728,A 312; VASE 3; VASE 4; VASE 7,,
+VASE 7,1598,TY3a,20,𐝆,Tylissos,Uncertain,tablet (page-shaped),"
+","𐄁 OLE+KI 51 
+ OLE+KI+U",𐄍,— 𐘇 𐘬 𐝫 𐄁,7; 0.5; 7; 51,A 728,A 312; VASE 3; VASE 4; VASE 7,,
+VASE 3,1598,TY3a,32,𐝂,Tylissos,Uncertain,tablet (page-shaped),"
+ OLE+KI+ME OLE+QIf",OLIV,𐄔 𐄇 𐄈,𐄇,0.2; 50; 1; 2; 1; 4,A 729,A 312; VASE 3; VASE 4; VASE 7,,
+VASE 7,1598,TY3a,37,𐝆,Tylissos,Uncertain,tablet (page-shaped),—,"DA OLE+U 21 
+ OLE+MI",𐄊,𐝫 𐙋 𐝫 𐄊 𐝫,4; 1; 4; 21; 4,A 729,A 312; VASE 3; VASE 4; VASE 7,,
+VASE 3,1598,TY3a,60,𐝂,Tylissos,Uncertain,tablet (page-shaped),"
+ KI 5 
+ OLE+TU",— a ta? ja,𐘬 𐘮 𐙖 𐝫 𐄍,— 𐘇 𐙂 𐘹,5; 7,,A 312; VASE 3; VASE 4; VASE 7,,
+A 312,1598,TY3a,65,𐚕,Tylissos,Uncertain,tablet (page-shaped),— a ta? ja,𐝫 𐝫 ? 𐄋,— 𐘇 𐙂 𐘹,𐝫 𐝫 𐘸 𐄋,1; 5,,A 312; VASE 3; VASE 4; VASE 7,,
+A 355,1604,ZA1a,0,𐛀,Zakros,Uncertain,stone vessel,,𐄁 KI RE ZA 𐄁,,𐄁 𐘸 𐘙 𐘍 𐄁,,,A 355; VASE 7,,
+VASE 7,1604,ZA1a,9,𐝆,Zakros,Uncertain,stone vessel,ZA 𐄁 NI 42 ¹⁄₂,"5 
+ 𐝫",𐘍 𐄁 𐘝 𐄓 𐄈,𐘍 𐄋 𐝫,40; 2; 5; 5,,A 355; VASE 7,,
+VASE 7,1609,ZA5b,9,𐝆,Zakros,Uncertain,stone vessel,20 SI PI KI 1,MA KA I TA 3,𐄑 𐘤 𐘢 𐘸 𐄇,𐙁 𐘾 𐘚 𐘳 𐄉,20; 1; 3,,VASE 7,,
+A 400,1610,ZA6a,31,𐛭,Zakros,Uncertain,stone vessel,"
+ 
+ 𐄁 OLIV 25",20 SE 𐄑 𐝫 𐄁,𐝫 𐄈 𐝫 𐘜 𐘽,𐝫 𐝫 𐄑 𐝫 𐄁,2; 25; 20; 20,,A 400,,
+A 400,1611,ZA6b,5,𐛭,Zakros,Uncertain,stone vessel,I KU JU TI *28B,50,𐘚 𐙂 𐘶 𐘠 𐘛,𐄔,50; 0.25; 40,A 716; A 718,A 400; VASE 4,,
+VASE 4,1611,ZA6b,7,𐝃,Zakros,Uncertain,stone vessel,50,,𐄔,,50; 40; 10,A 716; A 718,A 400; VASE 4,,
+A 400,1611,ZA6b,14,𐛭,Zakros,Uncertain,stone vessel,10 *312 TA₂,"40 
+ 
+ — PA",𐄐 𐙢 𐘷,𐄓 𐝫 𐝫 𐄑 —,40; 10; 40; 20,A 718,A 400; VASE 4,,
+VASE 5,1613,ZA7b,4,𐝄,Zakros,Uncertain,stone vessel,"A MA 
+ 
+",,𐘇 𐙁 𐝫 𐝫,,,,VASE 10; VASE 5,,
+VASE 10,1613,ZA7b,5,𐝉,Zakros,Uncertain,stone vessel,,𐝫 𐝫,,𐝫 𐝫,,,VASE 10; VASE 5,,
+VASE 7,1614,ZA8,8,𐝆,Zakros,LM IB,stone vessel,A TA RE 𐄁 NI,KU TU KO RE,𐘇 𐘳 𐘙 𐄁 𐘝,𐙂 𐘹 𐘺 𐘙,,,VASE 2; VASE 3; VASE 4; VASE 7,,
+VASE 3,1614,ZA8,13,𐝂,Zakros,LM IB,stone vessel,KU TU KO RE,,𐙂 𐘹 𐘺 𐘙,,0.5,,VASE 2; VASE 3; VASE 4; VASE 7,,
+VASE 3,1614,ZA8,14,𐝂,Zakros,LM IB,stone vessel,,A RI NI TA 1,,𐘇 𐘭 𐘝 𐘳 𐄇,1,,VASE 2; VASE 3; VASE 4; VASE 7,,
+VASE 2,1614,ZA8,21,𐝁,Zakros,LM IB,stone vessel,RI NI TA 1 ?,,𐘭 𐘝 𐘳 𐄇 𐝫,,1; 0.5,,VASE 2; VASE 3; VASE 4; VASE 7,,
+VASE 2,1614,ZA8,22,𐝁,Zakros,LM IB,stone vessel,,"NU MA PA ¹⁄₂ 
+",,𐘳 𐘚 𐘯 𐙁 𐘂,1; 0.5,,VASE 2; VASE 3; VASE 4; VASE 7,,
+VASE 7,1614,ZA8,28,𐝆,Zakros,LM IB,stone vessel,"NU MA PA ¹⁄₂ 
+","I SE 2 𐝃𐝆 
+",𐘳 𐘚 𐘯 𐙁 𐘂,𐙁 𐘾 𐘚 𐘈 𐄈,0.5; 2; 2,,VASE 2; VASE 3; VASE 4; VASE 7,,
+VASE 4,1614,ZA8,34,𐝃,Zakros,LM IB,stone vessel,"I SE 2 𐝃𐝆 
+",,𐙁 𐘾 𐘚 𐘈 𐄈,,2; 2; 2; 0.5,,VASE 2; VASE 3; VASE 4; VASE 7,,
+VASE 7,1614,ZA8,35,𐝆,Zakros,LM IB,stone vessel,,"TA 2 ¹⁄₂ 
+ KA",,𐘀 𐘚 𐘢 𐘳 𐄈,2; 2; 2; 0.5; 2,,VASE 2; VASE 3; VASE 4; VASE 7,,
+VASE 7,1614,ZA8,41,𐝆,Zakros,LM IB,stone vessel,"TA 2 ¹⁄₂ 
+ KA",4 ? ro 𐄊,𐘀 𐘚 𐘢 𐘳 𐄈,𐘾 𐘚 𐘁 𐄊,2; 0.5; 2; 4; 4,,VASE 2; VASE 3; VASE 4; VASE 7,,
+VASE 2,1614,ZA8,46,𐝁,Zakros,LM IB,stone vessel,4 ? ro 𐄊,,𐘾 𐘚 𐘁 𐄊,,4; 4,,VASE 2; VASE 3; VASE 4; VASE 7,,
+VASE 2,1614,ZA8,47,𐝁,Zakros,LM IB,stone vessel,,,,,4; 4,,VASE 2; VASE 3; VASE 4; VASE 7,,
+A 352,1615,ZA9,8,𐚽,Zakros,LM IB,stone vessel,"
+ 
+ RA 5 
+","
+ SI QI+SI 4 
+",𐄁 𐘍 𐝫 𐝫 𐘴,𐄋 𐝫 𐝫 𐘁 𐘤,5; 5; 4,,A 352,,
+A 352,1615,ZA9,16,𐚽,Zakros,LM IB,stone vessel,"QI+SI 4 
+ A TA","𐄁 QI+SI 2 
+ 𐄁",𐝫 𐘁 𐘤 𐘴 𐝫,𐄊 𐘇 𐘳 𐘅 𐝫,4; 4; 2,,A 352,,
+A 352,1615,ZA9,24,𐚽,Zakros,LM IB,stone vessel,"2 
+ 𐄁 MA JU",2 WI RA RE MI,𐘳 𐘅 𐝫 𐄁 𐝫,𐄈 𐄁 𐝫 𐙁 𐘶,2; 2,,A 352,,
+A 313,1617,ZA10b,1,𐚖,Zakros,Uncertain,stone vessel,WA,2 DU RE ZA SE,𐘮,𐄈 𐘬 𐘙 𐘍 𐘈,2,,A 313; VASE 7,,
+VASE 7,1617,ZA10b,42,𐝆,Zakros,Uncertain,stone vessel,1 KA KU NE TE,TA 2 DU 1 𐝫,𐄇 𐘾 𐙂 𐘗 𐘃,𐘳 𐄈 𐘬 𐄇 𐝫,1; 2; 1,,A 313; VASE 7,,
+A 355,1618,ZA11a,8,𐛀,Zakros,Uncertain,stone vessel,RA ME TA₂ 𐄁 *516,"
+",𐘴 𐘋 𐝫 𐘷 𐄁,𐄁,,,A 355; A 386; A 400; VASE 10; VASE 4; VASE 7; VASE 9,,
+A 400,1618,ZA11a,10,𐛭,Zakros,Uncertain,stone vessel,"
+","RA SI VIN ¹⁄₂ 
+",𐄁,𐝫 𐝫 𐘴 𐙁 𐘤,0.5,,A 355; A 386; A 400; VASE 10; VASE 4; VASE 7; VASE 9,,
+VASE 7,1618,ZA11a,17,𐝆,Zakros,Uncertain,stone vessel,"SI VIN ¹⁄₂ 
+ E","RU ¹⁄₄ 
+ JU 𐝈𐝉",𐝫 𐘴 𐙁 𐘤 𐙍,𐝫 𐝫 𐘡 𐙂 𐘘,0.5; 0.25,,A 355; A 386; A 400; VASE 10; VASE 4; VASE 7; VASE 9,,
+VASE 4,1618,ZA11a,24,𐝃,Zakros,Uncertain,stone vessel,"¹⁄₄ 
+ JU 𐝈𐝉 
+","
+",𐝫 𐘡 𐙂 𐘘 𐄈,𐘶,0.25; 2; 4,,A 355; A 386; A 400; VASE 10; VASE 4; VASE 7; VASE 9,,
+VASE 9,1618,ZA11a,26,𐝈,Zakros,Uncertain,stone vessel,"
+",,𐘶,,2; 4; 4,,A 355; A 386; A 400; VASE 10; VASE 4; VASE 7; VASE 9,,
+VASE 10,1618,ZA11a,27,𐝉,Zakros,Uncertain,stone vessel,,KU,,𐙍,2; 4,,A 355; A 386; A 400; VASE 10; VASE 4; VASE 7; VASE 9,,
+VASE 7,1618,ZA11a,29,𐝆,Zakros,Uncertain,stone vessel,KU,,𐙍,,4; 4,,A 355; A 386; A 400; VASE 10; VASE 4; VASE 7; VASE 9,,
+A 386,1618,ZA11a,30,𐛟,Zakros,Uncertain,stone vessel,,1 PI *310 A,,𐄊 𐙂 𐘂 𐄁,4; 4,,A 355; A 386; A 400; VASE 10; VASE 4; VASE 7; VASE 9,,
+A 400,1618,ZA11a,35,𐛭,Zakros,Uncertain,stone vessel,1 PI *310 A,OLIV 2 𐝫 ? a,𐄊 𐙂 𐘂 𐄁,𐄇 𐝫 𐘢 𐙠 𐘇,4; 1; 2,,A 355; A 386; A 400; VASE 10; VASE 4; VASE 7; VASE 9,,
+A 355,1619,ZA11b,3,𐛀,Zakros,Uncertain,stone vessel,E TO RI,𐄁 SA *301 RI 𐄁,𐘡 𐘄 𐘭,𐄁 𐘞 𐙕 𐘭 𐄁,,,A 355; A 400,,
+A 400,1619,ZA11b,9,𐛭,Zakros,Uncertain,stone vessel,𐄁 SA *301 RI 𐄁,"1 
+ OLIV 1 
+",𐄁 𐘞 𐙕 𐘭 𐄁,𐄇 𐝫 𐘚 𐙋 𐄇,1; 1; 1,,A 355; A 400,,
+A 400,1619,ZA11b,26,𐛭,Zakros,Uncertain,stone vessel,"𐄁 GRA+PA 
+ 𐝫 𐄁",𐄉 𐝫,𐘴 𐄈 𐙂 𐘂 𐄁,𐄉 𐝫,2; 3,,A 355; A 400,,
+A 314,1623,ZA14,10,𐚗,Zakros,LM IB,stone vessel,*118 1 PU NI KA,3 QA TI JU 8,𐙈 𐄇 𐘫 𐘝 𐘾,𐄉 𐘌 𐘠 𐘶 𐄎,1; 3; 8,,A 314,,
+VASE 7,1624,ZA15a,31,𐝆,Zakros,Uncertain,stone vessel,"
+ PI KI 2 ¹⁄₂","SA MU 5 
+ MI",𐄌 𐘤 𐘢 𐘸 𐄈,𐘱 𐘞 𐘕 𐄋 𐘞,6; 2; 2; 5; 5,,A 314; VASE 7,,
+A 314,1624,ZA15a,41,𐚗,Zakros,Uncertain,stone vessel,"MI DA E 4 
+",MA SE 5 𐄋,𐘞 𐘻 𐘀 𐘡 𐄊,𐘥 𐙁 𐘈 𐄋,4; 4; 5; 5,,A 314; VASE 7,,
+A 400,1628,ZA18a,8,𐛭,Zakros,Uncertain,stone vessel,"𐄁 
+ *321 𐄁 GRA+PA",double,𐝫 𐄁 𐙂 𐙭 𐄁,𐄈,2; 2,,A 400; VASE 2; VASE 3; VASE 4,,
+VASE 3,1628,ZA18a,10,𐝂,Zakros,Uncertain,stone vessel,double,,𐄈,,2; 2; 2; 2,,A 400; VASE 2; VASE 3; VASE 4,,
+VASE 3,1628,ZA18a,11,𐝂,Zakros,Uncertain,stone vessel,,2 double mina,,𐙉 𐝫 𐄈,2; 2; 2; 2,,A 400; VASE 2; VASE 3; VASE 4,,
+VASE 3,1628,ZA18a,15,𐝂,Zakros,Uncertain,stone vessel,2 double mina,,𐙉 𐝫 𐄈,,2; 2; 0.25,,A 400; VASE 2; VASE 3; VASE 4,,
+VASE 3,1628,ZA18a,16,𐝂,Zakros,Uncertain,stone vessel,,,,,2; 2; 0.25,,A 400; VASE 2; VASE 3; VASE 4,,
+VASE 2,1628,ZA18a,18,𐝁,Zakros,Uncertain,stone vessel,,,,,2; 0.25,,A 400; VASE 2; VASE 3; VASE 4,,
+VASE 2,1628,ZA18a,19,𐝁,Zakros,Uncertain,stone vessel,,𐝫,,𐙋,2,,A 400; VASE 2; VASE 3; VASE 4,,
+VASE 4,1628,ZA18a,21,𐝃,Zakros,Uncertain,stone vessel,𐝫,𐝫,𐙋,𐝫,0.25,,A 400; VASE 2; VASE 3; VASE 4,,
+A 568,1629,ZA18b,2,𐝕,Zakros,Uncertain,stone vessel,𐝫 2,,𐝫 𐄈,,2,,A 568; VASE 10,,
+VASE 10,1629,ZA18b,3,𐝉,Zakros,Uncertain,stone vessel,,𐝫 𐝫,,𐝫 𐝫,2,,A 568; VASE 10,,
+A 400,1642,ZA28,2,𐛭,Zakros,Uncertain,stone vessel,𐝫 GRA+PA,"
+ 𐝫 𐝫",𐝫 𐝫,𐄇 𐝫 𐝫,1,,A 400,,
+VASE 7,1663,ARKH1a,24,𐝆,Arkhalkhori,Uncertain,tablet (page-shaped),A PA MI KI SA,a pa 𐝫 𐝫 ?,𐙈 𐝫 𐝫 𐘗 𐄈,𐘇 𐘂 𐝫 𐝫 𐘻,2,,VASE 7,,
+VASE 3,1666,ARKH3a,6,𐝂,Arkhalkhori,Uncertain,tablet (page-shaped),"NE GRA 
+ ¹⁄₅ OLIV","
+ *131B",𐘾 𐘗 𐙉 𐝫 𐝫,𐙋 𐄉,0.2; 3; 2; 2; 2,,VASE 3,,
+VASE 3,1666,ARKH3a,9,𐝂,Arkhalkhori,Uncertain,tablet (page-shaped),"
+ *131B","2 
+ *317 
+ 𐝫",𐙋 𐄉,𐙎 𐄈 𐝫 𐝫 𐄈,0.2; 3; 3; 2; 2; 2,,VASE 3,,
+VASE 3,1672,ARKH7,3,𐝂,Arkhalkhori,LM IB,tablet (page-shaped),𐝫 — *308,𐝫,𐝫 — 𐙜,𐝫,,,VASE 3,,
+VASE 5,1681,GO2r,4,𐝄,Gournia,Uncertain,tablet (page-shaped),"𐝫 SI 
+ ¹⁄₈","2 
+ 
+ SI RO",𐝫 𐘤 𐝫 𐘾,𐘤 𐄈 𐘀 𐝫 𐘤,0.125; 2; 2,,VASE 4; VASE 5,,
+VASE 4,1681,GO2r,12,𐝃,Gournia,Uncertain,tablet (page-shaped),"
+ SI RO ¹⁄₄ 
+","
+ 𐝫 se 𐝫 𐝫",𐘀 𐝫 𐘤 𐘀 𐘁,𐝫 𐝫 𐘈 𐝫 𐝫,0.25,,VASE 4; VASE 5,,
+VASE 5,1682,GO2v,2,𐝄,Gournia,Uncertain,tablet (page-shaped),𐝫 1,DA RE 1 SE SI,𐝫 𐄇,𐘀 𐝫 𐘙 𐄇 𐝫,1; 1; 1,,VASE 5,,
+A 568,1697,KH101,5,𐝕,Khania,Uncertain,tablet (page-shaped),"32 CYP 
+ ³⁄₄ 𐝫",𐝫,𐝫 𐄒 𐄈 𐙗 𐝫,𐝫,32; 30; 2; 0.75,,A 568,,
+A 332,1706,ZO1,0,𐚩,Zominthos,Uncertain,tablet (page-shaped),,VS 217 𐄍,,𐄚 𐄐 𐄍,200; 10; 7,,A 332,,
+A 568,1708,LACHZa1,7,𐝕,Larani,Uncertain,stone vessel,RI DA U 𐄁 SE,,𐘭 𐘀 𐘉 𐄁 𐘈,,,,A 568,,
+VASE 7,1712,KH104,1,𐝆,Khania,Uncertain,tablet (page-shaped),GRA,𐝫 DA RE GRA,𐙉,𐝫 𐘀 𐘙 𐙉,,,VASE 7,,
+A 333,1718,KNZg57a,14,𐚪,Knossos,Uncertain,ivory object,NI 𐝫 𐝫 𐝫 𐝫,𐝫 𐝫,𐘝 𐝫 𐝫 𐝫 𐝫,𐝫 𐝫,,,A 333,,
+SUMMARY:A 334,,,,,,,PATTERN_SUMMARY,,,,,,,,15,
+SUMMARY:VASE 4,,,,,,,PATTERN_SUMMARY,,,,,,,,9,"𐝫~𐘇𐘳𐝫𐘚𐙕𐘮𐘱 (fuzzy morph, count=3)"
+SUMMARY:VASE 4,,,,,,,PATTERN_SUMMARY,,𐝫,,,,,,3,"𐝫~𐘇𐘳𐝫𐘚𐙕𐘮𐘱 (fuzzy morph, count=3)"
+SUMMARY:VASE 4,,,,,,,PATTERN_SUMMARY,WA,,,,,,,2,"𐝫~𐘇𐘳𐝫𐘚𐙕𐘮𐘱 (fuzzy morph, count=3)"
+SUMMARY:VASE 2,,,,,,,PATTERN_SUMMARY,,,,,,,,8,"𐝫~𐘇𐘳𐝫𐘚𐙕𐘮𐘱 (fuzzy morph, count=2)"
+SUMMARY:VASE 2,,,,,,,PATTERN_SUMMARY,,𐝫,,,,,,2,"𐝫~𐘇𐘳𐝫𐘚𐙕𐘮𐘱 (fuzzy morph, count=2)"
+SUMMARY:A 393,,,,,,,PATTERN_SUMMARY,,,,,,,,8,
+SUMMARY:VASE 7,,,,,,,PATTERN_SUMMARY,,,,,,,,7,
+SUMMARY:VASE 7,,,,,,,PATTERN_SUMMARY,OLE *307 1,,,,,,,2,
+SUMMARY:VASE 7,,,,,,,PATTERN_SUMMARY,VIN 1,,,,,,,2,
+SUMMARY:VASE 3,,,,,,,PATTERN_SUMMARY,,,,,,,,7,
+SUMMARY:VASE 8,,,,,,,PATTERN_SUMMARY,,,,,,,,5,
+SUMMARY:VASE 8,,,,,,,PATTERN_SUMMARY,¹⁄₁₆,,,,,,,2,
+SUMMARY:A 394,,,,,,,PATTERN_SUMMARY,,,,,,,,5,
+SUMMARY:VASE 1,,,,,,,PATTERN_SUMMARY,,,,,,,,4,
+SUMMARY:VASE 10,,,,,,,PATTERN_SUMMARY,,𐝫 𐝫,,,,,,4,
+SUMMARY:VASE 10,,,,,,,PATTERN_SUMMARY,,,,,,,,3,
+SUMMARY:VASE 6,,,,,,,PATTERN_SUMMARY,,,,,,,,3,
+SUMMARY:A 381,,,,,,,PATTERN_SUMMARY,,,,,,,,3,
+SUMMARY:A 332,,,,,,,PATTERN_SUMMARY,,,,,,,,3,
+SUMMARY:A 331,,,,,,,PATTERN_SUMMARY,,,,,,,,3,
+SUMMARY:A 562,,,,,,,PATTERN_SUMMARY,,,,,,,,3,
+SUMMARY:A 392,,,,,,,PATTERN_SUMMARY,,,,,,,,2,
+SUMMARY:A 350,,,,,,,PATTERN_SUMMARY,,,,,,,,2,
+SUMMARY:A 348,,,,,,,PATTERN_SUMMARY,,,,,,,,2,
+SUMMARY:VASE 5,,,,,,,PATTERN_SUMMARY,,,,,,,,2,
+SUMMARY:A 364,,,,,,,PATTERN_SUMMARY,,,,,,,,2,
+SUMMARY:VASE 13,,,,,,,PATTERN_SUMMARY,,𐝫,,,,,,2,"𐝫~𐘇𐘳𐝫𐘚𐙕𐘮𐘱 (fuzzy morph, count=2)"
+SUMMARY:A 504,,,,,,,PATTERN_SUMMARY,,,,,,,,2,
+SUMMARY:A 342,,,,,,,PATTERN_SUMMARY,,,,,,,,2,
+SUMMARY:A 340,,,,,,,PATTERN_SUMMARY,,,,,,,,2,
+SUMMARY:A 508,,,,,,,PATTERN_SUMMARY,,,,,,,,2,
+SUMMARY:A 384,,,,,,,PATTERN_SUMMARY,,,,,,,,2,
+SUMMARY:A 355,,,,,,,PATTERN_SUMMARY,,,,,,,,2,
+SUMMARY:VASE 9,,,,,,,PATTERN_SUMMARY,,,,,,,,2,

@@ -1,0 +1,139 @@
+bennett_id,conventional_value,lb_proposed_value,cm_suggested_value,refined_value,decision,confidence_score,lb_composite_score,cm_triangular_confidence,grid_confidence_score,positional_anomaly_rank,positional_flags,ngram_disruption_score,ngram_rank,phase2_misvalued_flag,phase2_revaluation_supported,conflict_note,evidence_summary
+AB 01,da,da,ta,da,UNCERTAIN,73.5,82.8,HIGH,65.0,27,,0.447,3,YES,,HIGH CM=/ta/ vs LB=/da/ — genuine conflict,LB=83; CM=HIGH; GC=65; Pos#27; Ng#3
+AB 02,ro,ro,,ro,UNCERTAIN,42.8,76.2,,45.0,6,ANOMALOUS: CV sign in final position,0.375,17,YES,,Conflict: LB=/ro/; GC=/i/,LB=76; GC=45; Pos#6; Ng#17
+AB 03,pa,pa,pa,pa,CONFIRM,74.5,79.8,HIGH,61.0,21,,0.412,9,YES,,,LB=80; CM=HIGH; GC=61; Pos#21; Ng#9
+AB 04,te,te,te,te,CONFIRM,57.6,70.5,HIGH,28.0,32,,0.445,4,YES,,Conflict: LB=/te/; CM=/te/; GC=/i/,LB=70; CM=HIGH; GC=28; Pos#32; Ng#4
+AB 05,to,to,to,to,CONFIRM,65.5,73.8,HIGH,35.0,18,,0.138,39,,,Conflict: LB=/to/; CM=/to/; GC=/i/,LB=74; CM=HIGH; GC=35; Pos#18; Ng#39
+AB 06,na,na,na,na,CONFIRM,65.6,75.2,HIGH,43.0,13,,0.429,7,YES,,Conflict: LB=/na/; CM=/na/; GC=/pa/,LB=75; CM=HIGH; GC=43; Pos#13; Ng#7
+AB 07,di,di,ti,di,UNCERTAIN,69.2,76.2,HIGH,55.0,20,,0.432,6,YES,,HIGH CM=/ti/ vs LB=/di/ — genuine conflict,LB=76; CM=HIGH; GC=55; Pos#20; Ng#6
+AB 08,a,a,a,a,CONFIRM,65.1,75.0,HIGH,32.0,19,,0.339,20,,,Conflict: LB=/a/; CM=/a/; GC=/i/,LB=75; CM=HIGH; GC=32; Pos#19; Ng#20
+AB 09,se,se,se,se,CONFIRM,68.3,75.5,HIGH,42.0,24,,0.364,19,,,Conflict: LB=/se/; CM=/se/; GC=/i/,LB=76; CM=HIGH; GC=42; Pos#24; Ng#19
+AB 10,u,u,u,u,CONFIRM,67.3,76.0,HIGH,38.0,35,,0.23,31,,,Conflict: LB=/u/; CM=/u/; GC=/pa/,LB=76; CM=HIGH; GC=38; Pos#35; Ng#31
+AB 11,si,si,si,si,CONFIRM,73.7,77.8,HIGH,57.0,10,,0.217,32,,,Conflict: LB=/si/; CM=/si/; GC=/pa/,LB=78; CM=HIGH; GC=57; Pos#10; Ng#32
+AB 12,so,so,so,so,CONFIRM,65.3,72.5,HIGH,36.0,22,,0.212,35,,,Conflict: LB=/so/; CM=/so/; GC=/pa/,LB=72; CM=HIGH; GC=36; Pos#22; Ng#35
+AB 13,me,me,me,me,CONFIRM,57.5,74.0,MEDIUM,38.0,29,,0.214,34,,,Conflict: LB=/me/; CM=/me/; GC=/i/,LB=74; CM=MEDIUM; GC=38; Pos#29; Ng#34
+AB 14,do,do,to,do,UNCERTAIN,61.9,74.5,MEDIUM,52.0,17,,0.236,30,,,Conflict: LB=/do/; CM=/to/; GC=/i/,LB=74; CM=MEDIUM; GC=52; Pos#17; Ng#30
+AB 15,mo,mo,mo,mo,CONFIRM,59.3,62.5,MEDIUM,,,,0.306,24,,,,LB=62; CM=MEDIUM; Ng#24
+AB 16,qa,qa,ka,qa,UNCERTAIN,48.1,68.0,MEDIUM,,1,initial-biased; prefix-like CV sign,0.408,11,YES,,Conflict: LB=/qa/; CM=/ka/,LB=68; CM=MEDIUM; Pos#1; Ng#11
+AB 17,za,za,za,za,CONFIRM,78.1,73.0,HIGH,,31,,0.104,43,,,,LB=73; CM=HIGH; Pos#31; Ng#43
+AB 18,zo,zo,zo,zo,CONFIRM,61.6,66.5,MEDIUM,,34,,0.308,23,,,,LB=66; CM=MEDIUM; Pos#34; Ng#23
+AB 19,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 20,zo?,,,zo?,UNCERTAIN,0.0,,,,,,,,,,Insufficient comparative evidence; retaining conventional value,no evidence
+AB 21,mi,mi,mi,mi,CONFIRM,60.4,64.5,MEDIUM,,,,0.325,21,,,,LB=64; CM=MEDIUM; Ng#21
+AB 21F,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 22,pi,pi,pi,pi,CONFIRM,54.7,68.0,HIGH,,4,final-biased; ANOMALOUS: CV sign in final position,0.406,14,YES,,,LB=68; CM=HIGH; Pos#4; Ng#14
+AB 22F,?,,,pa,CONFIRM,57.0,,,57.0,,,,,,,,GC=57
+AB 23,mu,mu,ma,mu,UNCERTAIN,61.5,69.0,HIGH,28.0,16,,0.372,18,,,HIGH CM=/ma/ vs LB=/mu/ — genuine conflict,LB=69; CM=HIGH; GC=28; Pos#16; Ng#18
+AB 24,ne,ne,ne,ne,CONFIRM,71.3,77.5,HIGH,52.0,28,,0.408,13,YES,,Conflict: LB=/ne/; CM=/ne/; GC=/pa/,LB=78; CM=HIGH; GC=52; Pos#28; Ng#13
+AB 26,ru,ru,ru,ru,CONFIRM,72.2,78.0,HIGH,58.0,38,,0.419,8,YES,,Conflict: LB=/ru/; CM=/ru/; GC=/i/,LB=78; CM=HIGH; GC=58; Pos#38; Ng#8
+AB 27,re,re,re,re,CONFIRM,64.9,65.0,HIGH,,9,,0.487,2,YES,,,LB=65; CM=HIGH; Pos#9; Ng#2
+AB 28,i,i,i,i,CONFIRM,78.7,74.0,HIGH,,39,,0.255,29,,,,LB=74; CM=HIGH; Pos#39; Ng#29
+AB 29,pu,pu,,pu,UNCERTAIN,63.2,75.0,,50.0,37,,0.411,10,YES,,Conflict: LB=/pu/; GC=/i/,LB=75; GC=50; Pos#37; Ng#10
+AB 30,ni,ni,ni,ni,CONFIRM,62.7,70.5,HIGH,30.0,11,,0.305,25,,,Conflict: LB=/ni/; CM=/ni/; GC=/i/,LB=70; CM=HIGH; GC=30; Pos#11; Ng#25
+AB 31,sa,sa,sa,sa,CONFIRM,75.3,68.0,HIGH,,8,,0.217,33,,,,LB=68; CM=HIGH; Pos#8; Ng#33
+AB 32,?,,,i,CONFIRM,67.0,,,67.0,,,,,,,,GC=67
+AB 33,?,,,pa,CONFIRM,57.0,,,57.0,,,,,,,,GC=57
+AB 34,ti,,ti,ti,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
+AB 35,ti,ti,ti,ti,CONFIRM,54.7,77.0,LOW,,30,,0.115,40,,,,LB=77; CM=LOW; Pos#30; Ng#40
+AB 36,jo,jo,za,jo,UNCERTAIN,59.0,67.2,HIGH,35.0,14,,0.439,5,YES,,HIGH CM=/za/ vs LB=/jo/ — genuine conflict,LB=67; CM=HIGH; GC=35; Pos#14; Ng#5
+AB 37,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 38,e,e,pa,e,UNCERTAIN,73.5,81.0,HIGH,52.0,26,,0.166,38,,,HIGH CM=/pa/ vs LB=/e/ — genuine conflict,LB=81; CM=HIGH; GC=52; Pos#26; Ng#38
+AB 39,?,,pe,pe,UNCERTAIN,41.0,,LOW,57.0,,,,,,,Conflict: CM=/pe/; GC=/i/,CM=LOW; GC=57
+AB 40,wi,wi,wi,wi,CONFIRM,76.4,70.0,HIGH,,36,,0.177,37,,,,LB=70; CM=HIGH; Pos#36; Ng#37
+AB 41,?,,si,si,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 42,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 43,?,,,pa,CONFIRM,57.0,,,57.0,,,,,,,,GC=57
+AB 44,ke,,ke,ke,CONFIRM,85.0,,HIGH,,,,,,,,,CM=HIGH
+AB 45,ri,,de,de,UNCERTAIN,45.0,,LOW,65.0,,,,,,,Conflict: CM=/de/; GC=/ri/,CM=LOW; GC=65
+AB 46,?,,je,je,UNCERTAIN,33.5,,LOW,42.0,,,,,,,Conflict: CM=/je/; GC=/to/,CM=LOW; GC=42
+AB 47,nu,,ja,ja,UNCERTAIN,35.5,,LOW,46.0,,,,,,,Conflict: CM=/ja/; GC=/pa/,CM=LOW; GC=46
+AB 48,?,,wa,wa,UNCERTAIN,64.0,,HIGH,43.0,,,,,,,Conflict: CM=/wa/; GC=/pa/,CM=HIGH; GC=43
+AB 49,?,,we,we,UNCERTAIN,62.0,,HIGH,39.0,,,,,,,Conflict: CM=/we/; GC=/i/,CM=HIGH; GC=39
+AB 50,pu,,pu,pu,UNCERTAIN,71.0,,HIGH,57.0,,,,,,,Conflict: CM=/pu/; GC=/su/,CM=HIGH; GC=57
+AB 51,du,,du,du,UNCERTAIN,53.0,,MEDIUM,51.0,,,,,,,Conflict: CM=/du/; GC=/i/,CM=MEDIUM; GC=51
+AB 52,?,,no,no,UNCERTAIN,62.0,,HIGH,39.0,,,,,,,Conflict: CM=/no/; GC=/i/,CM=HIGH; GC=39
+AB 53,ri,ri,ri,ri,CONFIRM,58.7,74.0,HIGH,,7,ANOMALOUS: CV sign in final position,0.109,42,YES,,,LB=74; CM=HIGH; Pos#7; Ng#42
+AB 54,wa,wa,wa,wa,CONFIRM,50.7,70.0,LOW,,15,,0.313,22,,,,LB=70; CM=LOW; Pos#15; Ng#22
+AB 55,nu,nu,nu,nu,CONFIRM,78.1,73.0,HIGH,,12,,0.114,41,,,,LB=73; CM=HIGH; Pos#12; Ng#41
+AB 56,?,,pa,pa,UNCERTAIN,35.0,,LOW,45.0,,,,,,,Conflict: CM=/pa/; GC=/ki/,CM=LOW; GC=45
+AB 57,ja,ja,ja,ja,CONFIRM,47.0,72.5,LOW,36.0,25,,0.403,15,YES,,Conflict: LB=/ja/; CM=/ja/; GC=/pa/,LB=72; CM=LOW; GC=36; Pos#25; Ng#15
+AB 58,?,,su,su,UNCERTAIN,56.0,,MEDIUM,57.0,,,,,,,Conflict: CM=/su/; GC=/pa/,CM=MEDIUM; GC=57
+AB 59,?,,ta,ta,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 60,ra,ra,ma,ra,UNCERTAIN,57.9,72.5,HIGH,,2,final-biased; ANOMALOUS: CV sign in final position; prefix-like CV sign,0.4,16,YES,,HIGH CM=/ma/ vs LB=/ra/ — genuine conflict,LB=72; CM=HIGH; Pos#2; Ng#16
+AB 61,o,,o,o,CONFIRM,85.0,,HIGH,,,,,,,,,CM=HIGH
+AB 62,?,,,ta,UNCERTAIN,39.0,,,39.0,,,,,,,Low confidence (39/100) — insufficient for assignment,GC=39
+AB 63,?,,ke,ke,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
+AB 64,?,,o,o,UNCERTAIN,41.0,,LOW,57.0,,,,,,,Conflict: CM=/o/; GC=/i/,CM=LOW; GC=57
+AB 65,ju,,jo,jo,UNCERTAIN,47.5,,LOW,70.0,,,,,,,Conflict: CM=/jo/; GC=/i/,CM=LOW; GC=70
+AB 66,?,,ta,ta,UNCERTAIN,29.5,,LOW,34.0,,,,,,,Conflict: CM=/ta/; GC=/i/,CM=LOW; GC=34
+AB 67,ki,ki,ki,ki,CONFIRM,73.3,66.0,HIGH,,5,,0.408,12,YES,,,LB=66; CM=HIGH; Pos#5; Ng#12
+AB 68,ro₂,,ro,ro,UNCERTAIN,41.0,,LOW,57.0,,,,,,,Conflict: CM=/ro/; GC=/pa/,CM=LOW; GC=57
+AB 69,tu,tu,tu,tu,CONFIRM,65.9,74.0,MEDIUM,,33,,0.191,36,,,,LB=74; CM=MEDIUM; Pos#33; Ng#36
+AB 70,ko,,ko,ko,CONFIRM,85.0,,HIGH,,,,,,,,,CM=HIGH
+AB 71,?,,ke,ke,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 72,?,,pe,pe,UNCERTAIN,56.0,,MEDIUM,57.0,,,,,,,Conflict: CM=/pe/; GC=/pa/,CM=MEDIUM; GC=57
+AB 73,?,,mi,mi,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 74,?,,ze,ze,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
+AB 75,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 76,?,,pi,pi,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
+AB 77,ka,ka,ka,ka,CONFIRM,77.6,72.0,HIGH,,23,,0.284,28,,,,LB=72; CM=HIGH; Pos#23; Ng#28
+AB 78,qe,qe,ka,qe,UNCERTAIN,47.0,63.5,LOW,,,,0.302,26,,,Conflict: LB=/qe/; CM=/ka/,LB=64; CM=LOW; Ng#26
+AB 79,?,,ze,ze,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 80,ma,ma,pa,ma,UNCERTAIN,34.1,76.0,LOW,,3,ANOMALOUS: CV sign in final position; prefix-like CV sign,0.296,27,YES,,Conflict: LB=/ma/; CM=/pa/,LB=76; CM=LOW; Pos#3; Ng#27
+AB 81,ku,ku,ku,ku,CONFIRM,53.9,62.5,HIGH,,,,0.583,1,YES,,,LB=62; CM=HIGH; Ng#1
+AB 82,?,,o,o,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 83,?,,la,la,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
+AB 84,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 85,?,,au,au,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 86,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 87,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 88,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 89,?,,mi,mi,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 90,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 91,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 92,?,,je,je,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 93,?,,pi,pi,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 94,?,,re,re,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 95,?,,te,te,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 96,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 97,?,,o,o,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 98,?,,ke,ke,UNCERTAIN,41.0,,LOW,57.0,,,,,,,Conflict: CM=/ke/; GC=/tu/,CM=LOW; GC=57
+AB 99,?,,ma,ma,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 100,?,,to,to,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 101,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 102,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 103,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 104,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 105,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 106,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 107,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 108,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 109,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 110,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 111,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 112,?,,,pa,CONFIRM,57.0,,,57.0,,,,,,,,GC=57
+AB 113,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 114,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 115,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 116,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 117,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 118,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 119,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 120,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 121,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 122,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 123,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 124,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 125,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 126,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 127,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 128,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 129,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 130,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 131,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 132,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 133,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 134,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 135,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 136,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 137,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence

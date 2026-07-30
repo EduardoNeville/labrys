@@ -784,7 +784,7 @@ sign X likely also carried the value /to/.
 These have strong LA↔CM epigraphic parallels AND strong CM↔CG descent links.
 
 | LA | LA char | LB val | CM sign | CG val | Inferred LA | Notes |
-|----|---------|--------|---------|--------|-------------|-------|""")
+|----|---------|--------|---------|--------|-------------|-------|"""
 
     for r in comp_rows:
         ab = r["la_ab"]
