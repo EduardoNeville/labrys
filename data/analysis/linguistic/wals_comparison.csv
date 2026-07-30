@@ -1,0 +1,46 @@
+Family,WALS Feature,Expected Value,Linear A Evidence,Confidence
+Anatolian IE (Luwian/Hittite),Word Order,SOV,uncertain (mixed positional signals),0.50
+Anatolian IE (Luwian/Hittite),Adposition Type,postpositions,postpositions (suffixal morphology dominant),0.50
+Anatolian IE (Luwian/Hittite),Gender System,animate/inanimate,no clear evidence (no systematic gender-marking pattern detected),0.30
+Anatolian IE (Luwian/Hittite),Case Alignment,ergative,no clear evidence,0.30
+Anatolian IE (Luwian/Hittite),Verb Morphology Type,non-fusional,"non-fusional; agglutinative-like (high sign entropy, low repeat rate; consistent with agglutination)",0.40
+Anatolian IE (Luwian/Hittite),Distinctive Participle,-nt- participles,no specific NT-participle evidence,0.30
+Anatolian IE (Luwian/Hittite),Case Suffix Inventory,specific case suffixes,possible (19 signs with final bias > 0.3; consistent with case paradigm),0.40
+Anatolian IE (Luwian/Hittite),Grammatical Markers,suffixal (mostly),postpositions (suffixal morphology dominant),0.40
+Semitic (Akkadian/Ugaritic),Word Order,VSO,uncertain (mixed positional signals),0.50
+Semitic (Akkadian/Ugaritic),Adposition Type,prepositions,postpositions (suffixal morphology dominant),0.50
+Semitic (Akkadian/Ugaritic),Root System,tri-consonantal roots,limited (syllabary obscures consonantal root structure),0.20
+Semitic (Akkadian/Ugaritic),Gender System,masculine/feminine,no clear evidence (no systematic gender-marking pattern detected),0.30
+Semitic (Akkadian/Ugaritic),Plural Formation,broken plurals,cannot assess (syllabic script obscures internal vowel patterns),0.10
+Semitic (Akkadian/Ugaritic),Conjugation Type,prefix + suffix conjugation,uncertain,0.30
+Semitic (Akkadian/Ugaritic),Construct State,present,cannot assess (requires semantic understanding of inscriptions),0.10
+Semitic (Akkadian/Ugaritic),Definite Article,present,possible (a (44% initial)),0.30
+Tyrsenian (Etruscan),Word Order,SOV,uncertain (mixed positional signals),0.50
+Tyrsenian (Etruscan),Adposition Type,postpositions,postpositions (suffixal morphology dominant),0.50
+Tyrsenian (Etruscan),Morphological Type,agglutinative,"agglutinative-like (high sign entropy, low repeat rate; consistent with agglutination)",0.50
+Tyrsenian (Etruscan),Gender System,no grammatical gender,no clear evidence (no systematic gender-marking pattern detected),0.30
+Tyrsenian (Etruscan),Voice Distinction,no voice distinction,cannot assess (voice distinctions require morphological alternations not detectable without semantics),0.10
+Tyrsenian (Etruscan),Vowel System,4-vowel system (a e i u),"4-vowel system (a, u, i, e)",0.40
+Tyrsenian (Etruscan),Case System,suffixal (7-8 cases),possible (19 signs with final bias > 0.3; consistent with case paradigm),0.40
+Tyrsenian (Etruscan),Definite Article,absent,possible (a (44% initial)),0.30
+Hurro-Urartian (Hurrian),Word Order,SOV,uncertain (mixed positional signals),0.50
+Hurro-Urartian (Hurrian),Case Alignment,ergative-absolutive,no clear evidence,0.30
+Hurro-Urartian (Hurrian),Morphological Type,agglutinative,"agglutinative-like (high sign entropy, low repeat rate; consistent with agglutination)",0.50
+Hurro-Urartian (Hurrian),Gender System,no grammatical gender,no clear evidence (no systematic gender-marking pattern detected),0.30
+Hurro-Urartian (Hurrian),Vowel Harmony,present,cannot assess (requires phonetic decoding beyond current Linear A knowledge),0.10
+Hurro-Urartian (Hurrian),Morphological Strategy,suffixal,suffixal,0.50
+Pre-Greek Substrate,Word Order,unknown (non-IE),uncertain (mixed positional signals),0.50
+Pre-Greek Substrate,Distinctive Suffixes,"-nth-, -ss- suffixes","present (25 signs with final fraction > 0.25; candidate suffix signs: AB 02, AB 04, AB 110, AB 16, AB 19, AB 20, AB 22, AB 33)",0.60
+Pre-Greek Substrate,Known Morphology,no known productive morphology in cognate set,"agglutinative-like (high sign entropy, low repeat rate; consistent with agglutination)",0.40
+Pre-Greek Substrate,Gender System,uncertain,no clear evidence (no systematic gender-marking pattern detected),0.30
+Afroasiatic (Egyptian M.K.),Word Order,VSO/SVO,uncertain (mixed positional signals),0.50
+Afroasiatic (Egyptian M.K.),Conjugation Type,prefix conjugation,uncertain,0.30
+Afroasiatic (Egyptian M.K.),Gender System,masculine/feminine,no clear evidence (no systematic gender-marking pattern detected),0.30
+Afroasiatic (Egyptian M.K.),Construct State,present,cannot assess (requires semantic understanding of inscriptions),0.10
+Afroasiatic (Egyptian M.K.),Definite Article,late development (absent in O.K.),possible (a (44% initial)),0.30
+ALL (Internal Evidence),Grammatical Gender Marking,—,14 potential gender-related minimal pairs found,0.30
+ALL (Internal Evidence),Case Marking,—,Found 2 candidate suffix signs and 24 signs with final fraction > 0.25; consistent with case-marking paradigm,0.50
+ALL (Internal Evidence),Agglutination (Suffix Stacking),—,Detected 13 self-repeating sign pairs (potential suffix reduplication) and 7213 sequences of length ≥5 signs; consistent with agglutinative morphology,0.40
+ALL (Internal Evidence),Semantic Categories (Logograms),—,"Logogram inventory covers 124 commodity types including commodities/goods, vessels/containers; semantic categories are primarily economic/administrative",0.70
+ALL (Internal Evidence),"Toponymic Suffixes (-ss-, -nth-, -nd-)",—,"attested (-ss-, -nth-, -nd- patterns identified in Linear A toponyms by previous scholarship)",0.80
+ALL (Internal Evidence),Swadesh Lexical Matches (p-value),—,No family shows statistically significant lexical matches (all p-values > 0.05); Anatolian IE and Semitic have the most near-matches but not exceeding chance expectation,0.90

@@ -1,0 +1,223 @@
+{
+  "@context": "https://schema.lineara.org/context/linear-a-v1.jsonld",
+  "@id": "https://data.lineara.org/inscription/KH_1",
+  "@type": "linearA:Inscription",
+  "gorilaId": "KH 1",
+  "alternativeIds": ["GORILA 4.1", "Chania Museum 500"],
+
+  "findspot": {
+    "site": "Khania",
+    "siteCode": "KH",
+    "coordinates": { "lat": 35.5167, "lon": 24.0167 },
+    "context": "Greek-Swedish Excavations, Building 1, Room A, LM IB destruction layer"
+  },
+
+  "date": {
+    "minoanPeriod": "LM IB",
+    "bceRange": { "from": -1500, "to": -1450 }
+  },
+
+  "material": "clay",
+  "objectType": "page-shaped tablet",
+
+  "preservation": {
+    "state": "fragmentary",
+    "description": "Lower right corner missing. Surface abraded in central area. Approximately 60% preserved."
+  },
+
+  "dimensions": {
+    "height": 72,
+    "width": 95,
+    "depth": 12,
+    "unit": "mm"
+  },
+
+  "currentLocation": {
+    "institution": "Chania Archaeological Museum",
+    "collection": "Minoan Collection",
+    "inventoryNumber": "ChM 500"
+  },
+
+  "publication": {
+    "citation": "GORILA 4, pp. 1–5, pl. I",
+    "doi": "10.1234/gorila.v4"
+  },
+
+  "bibliography": [
+    {
+      "citation": "Hallager, E. & Vlasaki, M. (2000). The Linear A Inscriptions from Khania. Creta Antica."
+    }
+  ],
+
+  "language": "emn",
+
+  "paleography": {
+    "scribalHandId": "https://data.lineara.org/hand/KH_A",
+    "scribalHandCertainty": 0.85,
+    "ductusNotes": "Rapid cursive hand. Signs ligatured. AB 28 (i) shows distinctive flattened top, distinguishing this hand from HT hands. Signs AB 13 and AB 27 are frequently confused by this scribe.",
+    "writingMethod": "incised (pre-firing)"
+  },
+
+  "signs": [
+    {
+      "sequence": 1,
+      "bennettId": "AB 28",
+      "unicode": "U+1061C",
+      "character": "𐘜",
+      "transliteration": "i",
+      "confidence": 0.70,
+      "signType": "syllabogram",
+      "siglaVariantId": "https://sigla.phis.me/variant/AB28_v2",
+      "shapeClass": "variant_b",
+      "isLigatureComponent": false,
+      "erasure": false,
+      "boundingBox": {
+        "x": 45, "y": 22, "width": 6, "height": 9, "unit": "px"
+      }
+    },
+    {
+      "sequence": 2,
+      "bennettId": "AB 13",
+      "unicode": "U+1060D",
+      "character": "𐘍",
+      "transliteration": "me",
+      "confidence": 0.60,
+      "signType": "syllabogram",
+      "siglaVariantId": "https://sigla.phis.me/variant/AB13_v1",
+      "shapeClass": "standard",
+      "isLigatureComponent": false,
+      "erasure": true,
+      "correction": {
+        "original": "AB 13 (me)",
+        "correctedTo": "AB 27 (re)"
+      },
+      "boundingBox": {
+        "x": 52, "y": 21, "width": 7, "height": 10, "unit": "px"
+      }
+    },
+    {
+      "sequence": 3,
+      "bennettId": "AB 27",
+      "unicode": "U+1061B",
+      "character": "𐘛",
+      "transliteration": "re",
+      "confidence": 0.55,
+      "signType": "syllabogram",
+      "shapeClass": "cursive",
+      "boundingBox": {
+        "x": 52, "y": 21, "width": 7, "height": 10, "unit": "px"
+      }
+    },
+    {
+      "sequence": 4,
+      "bennettId": "AB 80",
+      "unicode": "U+10650",
+      "transliteration": "ma",
+      "confidence": 0.90,
+      "signType": "syllabogram",
+      "shapeClass": "standard",
+      "isLigatureComponent": true,
+      "ligatureOf": ["AB 80", "AB 28"],
+      "boundingBox": {
+        "x": 60, "y": 20, "width": 10, "height": 12, "unit": "px"
+      }
+    },
+    {
+      "sequence": 5,
+      "bennettId": "AB 28",
+      "unicode": "U+1061C",
+      "character": "𐘜",
+      "transliteration": "i",
+      "confidence": 0.85,
+      "signType": "syllabogram",
+      "shapeClass": "ligatured",
+      "isLigatureComponent": true,
+      "ligatureOf": ["AB 80", "AB 28"],
+      "boundingBox": {
+        "x": 68, "y": 22, "width": 5, "height": 8, "unit": "px"
+      }
+    },
+    {
+      "sequence": 6,
+      "bennettId": "AB 13",
+      "unicode": "U+1060D",
+      "character": "𐘍",
+      "transliteration": "me",
+      "confidence": 0.90,
+      "signType": "syllabogram",
+      "shapeClass": "cursive",
+      "boundingBox": {
+        "x": 75, "y": 22, "width": 7, "height": 10, "unit": "px"
+      }
+    }
+  ],
+
+  "structure": {
+    "side": "recto",
+    "lines": [
+      {
+        "number": 1,
+        "signSequences": [1, 2, 3, 4, 5, 6],
+        "ruling": false,
+        "damaged": false
+      }
+    ],
+    "wordDividers": [],
+    "words": [
+      {
+        "signSequences": [1, 2, 3],
+        "transliteration": "i-me-re"
+      },
+      {
+        "signSequences": [4, 5, 6],
+        "transliteration": "ma-i-me"
+      }
+    ],
+    "lacunae": [
+      {
+        "position": 7,
+        "estimatedSigns": 4,
+        "reason": "break (lower right corner missing)"
+      }
+    ]
+  },
+
+  "relations": {
+    "linearB": [
+      { "dmicId": "DMic 28", "phoneticValue": "i" },
+      { "dmicId": "DMic 13", "phoneticValue": "me" },
+      { "dmicId": "DMic 27", "phoneticValue": "re" },
+      { "dmicId": "DMic 80", "phoneticValue": "ma" }
+    ],
+    "scholarlyNotes": [
+      "Sequence i-me-re may be a personal name or theophoric element.",
+      "The ma-i sequence with ligatured AB 80+28 is a distinctive KH feature, not found at HT.",
+      "Erasure/correction on sign 2 suggests scribal uncertainty — characteristic of KH Hand A (Hallager & Vlasaki 2000)."
+    ]
+  },
+
+  "images": [
+    {
+      "iiifServiceUrl": "https://iiif.chaniamuseum.gr/iiif/2/ChM_500",
+      "credit": "Chania Archaeological Museum / Greek Ministry of Culture",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "type": "photograph",
+      "width": 3000,
+      "height": 2400
+    },
+    {
+      "iiifServiceUrl": "https://iiif.chaniamuseum.gr/iiif/2/ChM_500_IR",
+      "type": "MSI",
+      "msiBand": "infrared 940nm",
+      "credit": "Chania Archaeological Museum / FORTH-IMS",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "iiifServiceUrl": "https://iiif.chaniamuseum.gr/iiif/2/ChM_500_UV",
+      "type": "ultraviolet",
+      "msiBand": "UV 365nm",
+      "credit": "Chania Archaeological Museum / FORTH-IMS",
+      "license": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}

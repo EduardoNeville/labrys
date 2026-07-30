@@ -1,0 +1,102 @@
+fraction_id,inscription_id,sequence,nearby_logograms,all_inscription_logograms,nearby_numbers,text_type,site,period
+A 728,2,4,,,"20, 17, 10",administrative,Haghia Triada - Portico 11 and Room 13,LM IB
+A 727,2,8,,,"20, 17, 10, 7, 3",administrative,Haghia Triada - Portico 11 and Room 13,LM IB
+A 728,2,19,,,"54, 47, 50, 4",administrative,Haghia Triada - Portico 11 and Room 13,LM IB
+A 727,2,24,,,"50, 4, 40, 7, 1",administrative,Haghia Triada - Portico 11 and Room 13,LM IB
+A 726,18,5,,A 350; A 351; A 389; VASE 8,"5, 5",administrative,Haghia Triada - Villa Magazine,LM IB
+A 726,20,9,,,"30, 3, 3, 9, 10",administrative,Haghia Triada - Villa Magazine,LM IB
+A 726,20,25,,,"45, 40, 5, 5, 4, 6, 10",administrative,Haghia Triada - Villa Magazine,LM IB
+A 710,21,10,,,"600, 80, 4, 500, 70, 400",administrative,Haghia Triada - Villa Magazine,LM IB
+A 724,22,11,VASE 2; VASE 4; VASE 5,VASE 2; VASE 4; VASE 5; VASE 8,,administrative,Haghia Triada - Villa Magazine,LM IB
+A 702,24,2,,,"20, 2, 3",administrative,Haghia Triada - Villa Magazine,LM IB
+A 724,26,22,VASE 4; VASE 5; VASE 7,VASE 4; VASE 5; VASE 7,,administrative,Haghia Triada - Villa Magazine,LM IB
+A 728,27,11,A 568,A 568; VASE 4,"100, 60, 1, 10, 1, 3, 7",administrative,Haghia Triada - Villa Magazine,LM IB
+A 709,28,1,A 506,A 506,"200, 30, 113, 100",administrative,Haghia Triada - Villa Magazine,LM IB
+A 730,29,7,VASE 2; VASE 6,A 348; A 349; A 365; A 381; VASE 2; VASE 6; VASE 8,,administrative,Haghia Triada - Villa Magazine,LM IB
+A 715,38,4,,,"7, 7",administrative,Haghia Triada - Villa Magazine,LM IB
+A 714,38,26,,,"4, 4, 70",administrative,Haghia Triada - Villa Magazine,LM IB
+A 702,39,8,VASE 7,A 394; VASE 10; VASE 7,"5, 2",administrative,Haghia Triada - Villa Magazine,LM IB
+A 728,39,10,VASE 7,A 394; VASE 10; VASE 7,"5, 2, 1",administrative,Haghia Triada - Villa Magazine,LM IB
+A 726,39,20,VASE 10,A 394; VASE 10; VASE 7,"1, 1, 2, 3",administrative,Haghia Triada - Villa Magazine,LM IB
+A 726,39,37,,A 394; VASE 10; VASE 7,"5, 2, 3",administrative,Haghia Triada - Villa Magazine,LM IB
+A 726,39,42,,A 394; VASE 10; VASE 7,"3, 10",administrative,Haghia Triada - Villa Magazine,LM IB
+A 726,40,14,,VASE 4,"20, 5, 2, 4",administrative,Haghia Triada - Villa Magazine,LM IB
+A 726,40,31,VASE 4,VASE 4,"6, 3, 3",administrative,Haghia Triada - Villa Magazine,LM IB
+A 730,44,6,A 350; VASE 7; VASE 8,A 348; A 350; A 381; VASE 7; VASE 8,"1, 1",administrative,Haghia Triada - Villa Magazine,LM IB
+A 730,44,24,,A 348; A 350; A 381; VASE 7; VASE 8,"100, 8, 60, 5, 104, 53, 100, 4",administrative,Haghia Triada - Villa Magazine,LM IB
+A 702,48,3,A 503; VASE 7,A 503; VASE 7,"20, 40, 4",administrative,Haghia Triada - Villa Magazine,LM IB
+A 728,55,9,,A 364; A 568,"8, 8, 7, 7, 8",administrative,Haghia Triada - Villa Magazine,LM IB
+A 728,55,16,,A 364; A 568,"7, 8, 8, 2, 2",administrative,Haghia Triada - Villa Magazine,LM IB
+A 728,55,38,A 568,A 364; A 568,,administrative,Haghia Triada - Villa Magazine,LM IB
+A 728,57,8,,,"3, 3, 5, 5, 5",administrative,Haghia Triada - Villa Magazine,LM IB
+A 706,58,4,,,"5, 5, 75",administrative,Haghia Triada - Villa Magazine,LM IB
+A 711,67,20,VASE 4; VASE 5; VASE 7,VASE 4; VASE 5; VASE 7,"3, 3",administrative,Haghia Triada - Villa Magazine,LM IB
+A 726,68,5,,,"1, 1",administrative,Haghia Triada - Villa Magazine,LM IB
+A 728,83,7,,,"19, 10, 9, 3",administrative,Haghia Triada - Villa Magazine,LM IB
+A 703,85,5,,,"6, 6",administrative,Haghia Triada - Villa Magazine,LM IB
+A 708,106,7,,,"20, 20",administrative,Haghia Triada - Casa Room 7,LM IB
+A 704,106,26,,,"20, 20",administrative,Haghia Triada - Casa Room 7,LM IB
+A 708,107,7,,,"20, 20",administrative,Haghia Triada - Casa Room 7,LM IB
+A 726,111,10,,,"20, 10, 3",administrative,Haghia Triada - Casa Room 7,LM IB
+A 728,112,12,VASE 1,A 561; VASE 1,,administrative,Haghia Triada - Casa Room 7,LM IB
+A 728,121,16,A 568; VASE 8,A 355; A 568; VASE 8,"40, 4, 2",administrative,Haghia Triada - Casa Room 7,LM IB
+A 702,126,14,VASE 6,VASE 6,"4, 1",administrative,Haghia Triada - Casa Room 7,LM IB
+A 728,128,33,VASE 3; VASE 6; VASE 7,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,"2, 3, 2, 3",administrative,Haghia Triada - Casa Room 7,LM IB
+A 730,128,38,A 568; VASE 6,A 358; A 394; A 396; A 500; A 568; VASE 3; VASE 4; VASE 6; VASE 7,"3, 2, 3",administrative,Haghia Triada - Casa Room 7,LM IB
+A 702,129,3,,A 347; VASE 4,"40, 8, 8",administrative,Haghia Triada - Casa Room 7,LM IB
+A 728,129,5,,A 347; VASE 4,"40, 8, 8, 2",administrative,Haghia Triada - Casa Room 7,LM IB
+A 728,129,24,,A 347; VASE 4,"3, 2, 2, 3, 20, 2",administrative,Haghia Triada - Casa Room 7,LM IB
+A 711,129,39,VASE 4,A 347; VASE 4,"3, 1, 1",administrative,Haghia Triada - Casa Room 7,LM IB
+A 707,136,6,,,"1, 70",administrative,Haghia Triada - Casa Room 7,LM IB
+A 726,150,17,A 364,A 364,"40, 40, 5, 5, 16, 10, 6",administrative,Haghia Triada - Casa Room 9,LM IB
+A 711,150,39,,A 364,"5, 1, 2, 12",administrative,Haghia Triada - Casa Room 9,LM IB
+A 708,156,6,A 400,A 400; VASE 1; VASE 3; VASE 7,"70, 4, 62, 60, 2",administrative,Haghia Triada - Casa Room 9,LM IB
+A 704,156,25,A 400,A 400; VASE 1; VASE 3; VASE 7,"20, 60, 60, 40, 8",administrative,Haghia Triada - Casa Room 9,LM IB
+A 728,162,8,VASE 3; VASE 7,VASE 3; VASE 7,"1, 1, 1, 2",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 706,163,9,A 400; VASE 7,A 400; VASE 7,"20, 20, 7, 10",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 703,168,16,,A 400; VASE 7,"10, 12, 10, 2",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 703,168,26,A 400; VASE 7,A 400; VASE 7,"6, 6, 4",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 703,168,30,,A 400; VASE 7,"6, 4",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 703,169,0,,,"6, 1",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 703,169,4,,,"6, 1",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 703,169,10,,,"1, 6, 6",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 726,170,20,VASE 7,VASE 2; VASE 7,"40, 40, 1, 1, 6",administrative,Haghia Triada - Casa Room 9,LM IB
+A 713,173,8,,VASE 7,"30, 2, 451",administrative,Haghia Triada - Casa Room 9,LM IB
+A 728,182,37,,VASE 7,"3, 4, 3, 1, 1",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 728,182,41,,VASE 7,"4, 3, 1, 1, 1",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 728,182,46,VASE 7,VASE 7,"1, 1, 2",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 728,182,52,VASE 7,VASE 7,"2, 6",administrative,Haghia Triada - Casa del Lebete,LM IB
+A 717,1131,0,,,,administrative,Kea,LM IB
+A 706,1134,3,VASE 7,VASE 7,"70, 70, 3, 3",administrative,Khania,Uncertain
+A 719,1138,17,,VASE 1; VASE 2; VASE 7,"2, 2",administrative,Khania,LM IB
+A 706,1162,5,,,,administrative,Khania,LM IB
+A 725,1299,0,,,,administrative,Khania,LM IB
+A 725,1300,0,,,,administrative,Khania,LM IB
+A 725,1301,0,,,,administrative,Khania,LM IB
+A 725,1302,0,,,,administrative,Khania,LM IB
+A 725,1303,0,,,,administrative,Khania,LM IB
+A 725,1304,0,,,,administrative,Khania,LM IB
+A 725,1305,0,,,,administrative,Khania,LM IB
+A 725,1306,0,,,,administrative,Khania,LM IB
+A 725,1346,0,,,,administrative,Khania,LM IB
+A 712,1388,0,,,,administrative,Knossos,Uncertain
+A 705,1413,0,,,,religious/dedicatory,Kythera,LM IA
+A 722,1421,1,,,"10, 5, 120, 100, 20",administrative,Malia,Uncertain
+A 723,1421,4,,,"10, 5, 120, 100, 20, 50, 3",administrative,Malia,Uncertain
+A 721,1421,7,,,"10, 5, 120, 100, 20, 50, 3, 30",administrative,Malia,Uncertain
+A 720,1421,10,,,"100, 20, 50, 3, 30",administrative,Malia,Uncertain
+A 722,1423,6,,,"941, 900, 40, 1, 30, 5",administrative,Malia,Uncertain
+A 722,1425,1,,,"4, 4, 80",administrative,Malia,Uncertain
+A 705,1432,4,,,4,administrative,Malia,Uncertain
+A 712,1590,1,,,"100, 20",administrative,Thera,Uncertain
+A 728,1598,7,VASE 4,A 312; VASE 3; VASE 4; VASE 7,"15, 10, 5, 20, 2, 5",administrative,Tylissos,Uncertain
+A 729,1598,13,VASE 7,A 312; VASE 3; VASE 4; VASE 7,"20, 2, 5, 3, 7",administrative,Tylissos,Uncertain
+A 728,1598,18,VASE 7,A 312; VASE 3; VASE 4; VASE 7,"3, 7, 7, 51",administrative,Tylissos,Uncertain
+A 729,1598,35,VASE 3; VASE 7,A 312; VASE 3; VASE 4; VASE 7,"2, 4, 1, 4, 21",administrative,Tylissos,Uncertain
+A 728,1598,46,,A 312; VASE 3; VASE 4; VASE 7,"4, 20, 1, 2",administrative,Tylissos,Uncertain
+A 730,1599,17,,,"11, 10, 1, 2, 2, 220",administrative,Tylissos,Uncertain
+A 716,1611,8,A 400; VASE 4,A 400; VASE 4,"50, 40, 10",religious/dedicatory,Zakros,Uncertain
+A 718,1611,10,A 400; VASE 4,A 400; VASE 4,"50, 40, 10, 40",religious/dedicatory,Zakros,Uncertain
+A 716,1625,12,,,"70, 8, 17, 10, 7",religious/dedicatory,Zakros,Uncertain
+A 725,1675,0,,,,religious/dedicatory,Armenoi,MM II
+A 716,1678,5,,,,religious/dedicatory,Crete,Uncertain

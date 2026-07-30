@@ -1,0 +1,30 @@
+fraction_id,proposed_decimal_value,proposed_fraction,occurrences,avg_whole_numbers,linear_b_equivalent_value,linear_b_sign_name,notes
+A 702,0.0625,1/16,5,12.08,0.166667,V,"Top logos: VASE 7(2), VASE 10(1), A 394(1)"
+A 703,0.1667,1/6,7,5.5,0.25,Z,"Top logos: A 400(3), VASE 7(3)"
+A 704,0.25,1/4,2,32.57,0.333333,X,"Pairs with A 708 (0.7500) to sum ~1; Pairs with A 708 (0.7500) to sum ~1; Top logos: A 400(1), VASE 7(1), VASE 3(1)"
+A 705,0.3333,1/3,2,4.0,0.375,XX,
+A 706,0.166667,1/6,4,26.18,0.5,U,"Top logos: VASE 7(2), A 400(1)"
+A 707,0.6667,2/3,1,35.5,0.666667,XU,
+A 708,0.75,3/4,3,30.89,0.75,ZU,"Pairs with A 704 (0.2500) to sum ~1; Pairs with A 704 (0.2500) to sum ~1; Top logos: A 400(1), VASE 7(1), VASE 3(1)"
+A 709,0.8333,5/6,1,110.75,0.833333,VU,Top logos: A 506(1)
+A 710,0.6,0.6000,1,275.67,1,whole,
+A 711,0.875,7/8,3,3.44,,,"Pairs with A 726 (0.1250) to sum ~1; Pairs with A 726 (0.1250) to sum ~1; Top logos: VASE 4(2), VASE 5(1), VASE 7(1)"
+A 712,0.9375,0.9375,2,60.0,,,
+A 713,0.4,2/5,1,161.0,,,Top logos: VASE 7(1)
+A 714,0.75,3/4,1,26.0,,,Pairs with A 715 (0.2500) to sum ~1; Pairs with A 715 (0.2500) to sum ~1
+A 715,0.25,1/4,1,7.0,,,Pairs with A 714 (0.7500) to sum ~1; Pairs with A 714 (0.7500) to sum ~1
+A 716,0.2,1/5,3,26.5,,,"Pairs with A 718 (0.8000) to sum ~1; Pairs with A 718 (0.8000) to sum ~1; Top logos: A 400(1), VASE 4(1)"
+A 717,0.6667,2/3,1,0,,,
+A 718,0.8,4/5,1,35.0,,,"Pairs with A 716 (0.2000) to sum ~1; Pairs with A 716 (0.2000) to sum ~1; Top logos: A 400(1), VASE 4(1)"
+A 719,0.3125,0.3125,1,2.0,,,"Top logos: VASE 1(1), VASE 2(1), VASE 7(1)"
+A 720,0.1875,0.1875,1,40.6,,,Pairs with A 721 (0.8125) to sum ~1; Pairs with A 721 (0.8125) to sum ~1
+A 721,0.8125,0.8125,1,42.25,,,Pairs with A 720 (0.1875) to sum ~1; Pairs with A 720 (0.1875) to sum ~1
+A 722,0.4375,0.4375,3,161.43,,,Pairs with A 723 (0.5625) to sum ~1; Pairs with A 723 (0.5625) to sum ~1
+A 723,0.5625,0.5625,1,44.0,,,Pairs with A 722 (0.4375) to sum ~1; Pairs with A 722 (0.4375) to sum ~1
+A 724,0.6875,0.6875,2,0,,,"Top logos: VASE 5(2), VASE 4(2), VASE 2(1)"
+A 725,1.0,1,10,0,,,
+A 726,0.125,1/8,12,10.6,,,"Pairs with A 711 (0.8750) to sum ~1; Pairs with A 711 (0.8750) to sum ~1; Top logos: VASE 7(4), VASE 10(3), A 394(3)"
+A 727,0.8333,5/6,2,15.9,,,Pairs with A 728 (0.1667) to sum ~1; Pairs with A 728 (0.1667) to sum ~1
+A 728,0.1667,1/6,22,9.95,,,"Pairs with A 727 (0.8333) to sum ~1; Pairs with A 727 (0.8333) to sum ~1; Pairs with A 730 (0.8333) to sum ~1; Pairs with A 730 (0.8333) to sum ~1; Pairs with A 729 (0.8333) to sum ~1; Pairs with A 729 (0.8333) to sum ~1; Top logos: VASE 7(10), VASE 4(7), A 568(6)"
+A 729,0.8333,5/6,2,6.9,,,"Pairs with A 728 (0.1667) to sum ~1; Pairs with A 728 (0.1667) to sum ~1; Top logos: A 312(2), VASE 7(2), VASE 3(2)"
+A 730,0.8333,5/6,5,36.32,,,"Pairs with A 728 (0.1667) to sum ~1; Pairs with A 728 (0.1667) to sum ~1; Top logos: A 348(3), A 381(3), VASE 8(3)"

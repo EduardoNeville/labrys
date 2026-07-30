@@ -1,0 +1,24 @@
+[project]
+name = "labrys-pipeline"
+version = "1.0.0"
+description = "Linear A Digitization Pipeline — parse, store, analyse, and export Linear A inscriptions"
+authors = [
+    {name = "Labrys Project"},
+]
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.0",
+    "lxml>=4.9",
+    "Pillow>=9.0",
+]
+optional-dependencies = {
+    "networkx": ["networkx>=3.0"],
+    "all": ["networkx>=3.0"],
+}
+
+[project.scripts]
+labrys = "pipeline.cli:main"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"

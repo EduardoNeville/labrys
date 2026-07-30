@@ -1,0 +1,676 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schema.lineara.org/json-schema/linear-a-inscription-v1.json",
+  "title": "Linear A Inscription — JSON-LD Schema",
+  "description": "JSON Schema for validating JSON-LD representations of Linear A inscriptions. Covers all 7 tiers of metadata.",
+  "type": "object",
+  "required": ["@context", "@type", "gorilaId", "findspot", "date", "material", "objectType", "preservation", "publication", "signs"],
+  "properties": {
+    "@context": {
+      "description": "JSON-LD context URL. Must resolve to the standard Linear A JSON-LD context.",
+      "type": "string",
+      "format": "uri"
+    },
+    "@id": {
+      "description": "Canonical URI for this inscription record.",
+      "type": "string",
+      "format": "uri"
+    },
+    "@type": {
+      "description": "JSON-LD type. Must be 'linearA:Inscription'.",
+      "type": "string",
+      "enum": ["linearA:Inscription", "Inscription"]
+    },
+    "gorilaId": {
+      "description": "GORILA inscription identifier (e.g., HT 1, KH 3, ZA 15).",
+      "type": "string",
+      "pattern": "^[A-Z]{2,4}\\s?\\d+[a-z]?$",
+      "examples": ["HT 1", "KH 3", "ZA Zb 3", "AR Zf 1", "MA 10c"]
+    },
+    "alternativeIds": {
+      "description": "Alternative identifiers (e.g., GORILA volume/page references).",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "findspot": {
+      "description": "Provenance / findspot information.",
+      "type": "object",
+      "required": ["site"],
+      "properties": {
+        "site": {
+          "description": "Site name from the controlled vocabulary of Linear A findspots.",
+          "type": "string",
+          "enum": [
+            "Hagia Triada", "Khania", "Knossos", "Zakros", "Phaistos",
+            "Mallia", "Tylissos", "Arkhanes", "Palaikastro", "Petras",
+            "Gournia", "Mochlos", "Pseira", "Kato Syme",
+            "Akrotiri (Thera)", "Kea (Ayia Irini)", "Milos (Phylakopi)",
+            "Cythera", "Samothrace", "Troy", "Apodoulou", "Sklavokampos",
+            "Nirou Chani", "Prassa", "Syme", "Amnissos", "Poros",
+            "Unknown", "Uncertain"
+          ]
+        },
+        "siteCode": {
+          "description": "Standard GORILA site code abbreviation.",
+          "type": "string",
+          "pattern": "^[A-Z]{2,4}$",
+          "examples": ["HT", "KH", "KN", "ZA", "AR"]
+        },
+        "coordinates": {
+          "description": "Geographic coordinates of the findspot.",
+          "type": "object",
+          "properties": {
+            "lat": {
+              "type": "number",
+              "minimum": -90,
+              "maximum": 90
+            },
+            "lon": {
+              "type": "number",
+              "minimum": -180,
+              "maximum": 180
+            }
+          },
+          "required": ["lat", "lon"]
+        },
+        "context": {
+          "description": "Specific find context (e.g., 'Room 4, Villa Reale', 'Trench B2, Layer III').",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "date": {
+      "description": "Chronological information about the inscription.",
+      "type": "object",
+      "required": ["minoanPeriod"],
+      "properties": {
+        "minoanPeriod": {
+          "description": "Minoan chronological period.",
+          "type": "string",
+          "enum": [
+            "MM II", "MM III", "MM III/LM IA", "LM IA", "LM IB",
+            "LM II", "LM IIIA1", "LM IIIA2", "LM IIIB",
+            "Mixed", "Uncertain"
+          ]
+        },
+        "bceRange": {
+          "description": "Absolute date range in BCE years.",
+          "type": "object",
+          "properties": {
+            "from": {
+              "type": "integer",
+              "maximum": -1000,
+              "minimum": -2000
+            },
+            "to": {
+              "type": "integer",
+              "maximum": -1000,
+              "minimum": -2000
+            }
+          },
+          "required": ["from", "to"]
+        },
+        "notes": {
+          "description": "Free-text notes on dating (e.g., 'Based on stratigraphy of LM IB destruction horizon').",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "material": {
+      "description": "Material of the inscribed object.",
+      "type": "string",
+      "enum": [
+        "clay", "limestone", "sandstone", "marble", "steatite",
+        "serpentine", "gold", "silver", "bronze", "lead",
+        "ivory", "bone", "fresco/plaster", "pottery/ceramic",
+        "glass", "wood", "uncertain"
+      ]
+    },
+    "objectType": {
+      "description": "Type of object bearing the inscription.",
+      "type": "string",
+      "enum": [
+        "page-shaped tablet", "palm-leaf tablet", "long-and-thin tablet",
+        "roundel", "flat-based sealing", "nodule sealing", "prism sealing",
+        "lentoid seal", "amygdaloid seal", "cylinder seal", "signet ring",
+        "libation table", "altar (portable)", "pithos", "jar", "cup", "bowl",
+        "rhyton", "fresco (wall painting)", "metal axe (votive)",
+        "metal blade/knife", "metal vessel", "bone label/tag",
+        "ivory plaque", "stone vessel", "uncertain"
+      ]
+    },
+    "preservation": {
+      "description": "Physical preservation state of the inscription.",
+      "type": "object",
+      "required": ["state"],
+      "properties": {
+        "state": {
+          "type": "string",
+          "enum": [
+            "complete", "nearly complete", "incomplete",
+            "fragmentary", "severely damaged", "eroded", "reconstructed"
+          ]
+        },
+        "description": {
+          "description": "Free-text description of condition.",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "dimensions": {
+      "description": "Physical dimensions of the object.",
+      "type": "object",
+      "properties": {
+        "height": { "type": "number", "exclusiveMinimum": 0 },
+        "width": { "type": "number", "exclusiveMinimum": 0 },
+        "depth": { "type": "number", "exclusiveMinimum": 0 },
+        "diameter": { "type": "number", "exclusiveMinimum": 0 },
+        "unit": {
+          "type": "string",
+          "enum": ["mm", "cm", "m", "in", "ft"]
+        }
+      }
+    },
+    "currentLocation": {
+      "description": "Current institution and inventory information.",
+      "type": "object",
+      "properties": {
+        "institution": { "type": "string" },
+        "collection": { "type": "string" },
+        "inventoryNumber": { "type": "string" }
+      }
+    },
+    "publication": {
+      "description": "Primary publication reference (usually GORILA).",
+      "type": "object",
+      "required": ["citation"],
+      "properties": {
+        "citation": {
+          "description": "Standard bibliographic citation.",
+          "type": "string",
+          "examples": ["GORILA 1, pp. 10–15, pl. II–III"]
+        },
+        "doi": {
+          "description": "Digital Object Identifier for the publication.",
+          "type": "string",
+          "pattern": "^10\\..+/.+$"
+        },
+        "url": {
+          "description": "URL to the publication or online reference.",
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "additionalProperties": false
+    },
+    "bibliography": {
+      "description": "Secondary bibliography references.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "citation": { "type": "string" },
+          "pages": { "type": "string" },
+          "doi": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        },
+        "required": ["citation"]
+      }
+    },
+    "language": {
+      "description": "ISO 639-3 language code for the inscribed language.",
+      "type": "string",
+      "default": "emn",
+      "enum": ["emn", "grc", "xla", "ecr"],
+      "examples": ["emn (Minoan / Eteocretan)"]
+    },
+    "signs": {
+      "description": "Array of individual sign instances in reading order.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/SignInstance"
+      }
+    },
+    "structure": {
+      "description": "Structural information (lines, sides, word boundaries, lacunae).",
+      "type": "object",
+      "properties": {
+        "side": {
+          "type": "string",
+          "enum": ["recto", "verso", "edge", "side_a", "side_b", "both", "unknown"]
+        },
+        "lines": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Line"
+          }
+        },
+        "wordDividers": {
+          "description": "Positions of word dividers within the sign sequence.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "afterSignSequence": {
+                "description": "Index of sign sequence after which the divider appears.",
+                "type": "integer",
+                "minimum": 1
+              },
+              "type": {
+                "type": "string",
+                "enum": ["verticalStroke", "dot", "space", "filler", "uncertain"]
+              }
+            }
+          }
+        },
+        "words": {
+          "description": "Word-level grouping of sign sequences.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "signSequences": {
+                "type": "array",
+                "items": { "type": "integer" },
+                "minItems": 1
+              },
+              "transliteration": {
+                "type": "string"
+              }
+            },
+            "required": ["signSequences"]
+          }
+        },
+        "lacunae": {
+          "description": "Gaps and lacunae in the inscription.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "position": {
+                "description": "Position in sign sequence where gap occurs.",
+                "type": "integer"
+              },
+              "estimatedSigns": {
+                "description": "Estimated number of missing signs.",
+                "type": "integer",
+                "minimum": 0
+              },
+              "reason": {
+                "description": "Reason for lacuna (e.g., 'break', 'erasure', 'worn').",
+                "type": "string"
+              }
+            },
+            "required": ["position"]
+          }
+        }
+      }
+    },
+    "paleography": {
+      "description": "Paleographic analysis at the inscription level.",
+      "type": "object",
+      "properties": {
+        "scribalHandId": {
+          "description": "Identifier for the scribal hand.",
+          "type": "string"
+        },
+        "scribalHandCertainty": {
+          "description": "Confidence in hand identification, 0.0 to 1.0.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "ductusNotes": {
+          "description": "Notes on ductus, writing style, and paleographic features.",
+          "type": "string"
+        },
+        "writingMethod": {
+          "type": "string",
+          "enum": [
+            "incised (pre-firing)", "incised (post-firing)",
+            "painted (dipinto)", "stamped", "carved", "impressed",
+            "uncertain"
+          ]
+        }
+      }
+    },
+    "relations": {
+      "description": "Cross-script relational annotations.",
+      "type": "object",
+      "properties": {
+        "linearB": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dmicId": { "type": "string" },
+              "phoneticValue": { "type": "string" },
+              "notes": { "type": "string" }
+            }
+          }
+        },
+        "cyproMinoan": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "signId": { "type": "string" },
+              "notes": { "type": "string" }
+            }
+          }
+        },
+        "cretanHieroglyphic": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "signId": { "type": "string" },
+              "notes": { "type": "string" }
+            }
+          }
+        },
+        "eteocretan": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "textId": { "type": "string" },
+              "notes": { "type": "string" }
+            }
+          }
+        },
+        "scholarlyNotes": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "relatedInscriptions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2,4}\\s?\\d+"
+          }
+        }
+      }
+    },
+    "images": {
+      "description": "Image resources associated with this inscription.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ImageResource"
+      }
+    }
+  },
+  "additionalProperties": false,
+
+  "$defs": {
+    "SignInstance": {
+      "description": "A single sign occurrence on the inscription.",
+      "type": "object",
+      "required": ["sequence", "bennettId", "signType"],
+      "allOf": [
+        {
+          "if": {
+            "properties": { "signType": { "not": { "const": "uncertain" } } }
+          },
+          "then": {
+            "required": ["unicode"]
+          }
+        }
+      ],
+      "properties": {
+        "sequence": {
+          "description": "Ordinal position in reading order, starting from 1.",
+          "type": "integer",
+          "minimum": 1
+        },
+        "bennettId": {
+          "description": "Bennett AB/A catalog number.",
+          "type": "string",
+          "pattern": "^(AB|A)\\s?\\d{2,3}$",
+          "examples": ["AB 01", "AB 02", "A 338", "AB 28", "AB 80"]
+        },
+        "unicode": {
+          "description": "Unicode code point in the Aegean block (U+10600–U+1077F).",
+          "type": "string",
+          "pattern": "^U\\+106[0-7][0-9A-F]$",
+          "examples": ["U+10602", "U+1061A", "U+1065C"]
+        },
+        "character": {
+          "description": "The Unicode character literal (for rendering convenience).",
+          "type": "string",
+          "maxLength": 2
+        },
+        "transliteration": {
+          "description": "Transliteration character/string based on Linear B phonetic values.",
+          "type": "string",
+          "examples": ["ro", "da", "ku", "me", "i"]
+        },
+        "confidence": {
+          "description": "Confidence in sign identification, 0.0 to 1.0.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 1.0
+        },
+        "signType": {
+          "description": "Functional classification of the sign.",
+          "type": "string",
+          "enum": [
+            "syllabogram", "logogram", "fraction", "numeral",
+            "adjunct", "ligature", "wordDivider", "uncertain"
+          ]
+        },
+        "siglaVariantId": {
+          "description": "URI pointing to a SigLA variant record for paleographic comparison.",
+          "type": "string",
+          "format": "uri"
+        },
+        "shapeClass": {
+          "description": "Paleographic shape classification.",
+          "type": "string",
+          "enum": [
+            "standard", "cursive", "formal", "monumental",
+            "incised (careful)", "incised (casual)", "painted",
+            "variant_a", "variant_b", "ligatured", "simplified",
+            "archaizing"
+          ]
+        },
+        "isLigatureComponent": {
+          "description": "Whether this sign is part of a ligature group.",
+          "type": "boolean",
+          "default": false
+        },
+        "ligatureOf": {
+          "description": "Bennett IDs of signs that together form a ligature with this sign.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(AB|A)\\s?\\d{2,3}$"
+          }
+        },
+        "erasure": {
+          "description": "Whether this sign was written over an erasure.",
+          "type": "boolean",
+          "default": false
+        },
+        "correction": {
+          "description": "Correction/overwriting information.",
+          "type": "object",
+          "properties": {
+            "original": {
+              "description": "Original sign identification before correction.",
+              "type": "string"
+            },
+            "correctedTo": {
+              "description": "Sign identification after correction.",
+              "type": "string"
+            }
+          },
+          "required": ["original", "correctedTo"]
+        },
+        "boundingBox": {
+          "description": "Bounding box coordinates on the primary image.",
+          "type": "object",
+          "properties": {
+            "x": { "type": "number", "description": "X coordinate of top-left corner" },
+            "y": { "type": "number", "description": "Y coordinate of top-left corner" },
+            "width": { "type": "number", "exclusiveMinimum": 0 },
+            "height": { "type": "number", "exclusiveMinimum": 0 },
+            "unit": {
+              "type": "string",
+              "enum": ["mm", "px", "cm"],
+              "default": "px"
+            }
+          },
+          "required": ["x", "y", "width", "height"]
+        },
+        "semantics": {
+          "description": "Semantic annotation for logograms, fractions, and numerals.",
+          "type": "object",
+          "properties": {
+            "logogramOf": {
+              "description": "What the logogram represents (e.g., 'wheat', 'wine').",
+              "type": "string"
+            },
+            "fractionValue": {
+              "description": "Fraction value as a string (e.g., '1/2', '1/3', '2/3').",
+              "type": "string",
+              "examples": ["1/2", "1/3", "2/3", "1/4", "3/4", "1/10"]
+            },
+            "numericValue": {
+              "description": "Integer numeric value.",
+              "type": "integer",
+              "minimum": 0
+            },
+            "commodity": {
+              "description": "Commodity classification for logograms.",
+              "type": "string",
+              "enum": [
+                "grain (wheat)", "grain (barley)", "figs", "olives",
+                "olive oil", "wine", "grapes", "sheep", "goat",
+                "cow/ox", "pig", "horse/equid", "wool", "cloth/textile",
+                "bronze", "copper", "tin", "gold", "silver",
+                "spice/aromatics", "perfume/unguent", "dye/purple",
+                "honey", "wax", "resin", "timber/wood",
+                "unspecified", "religious/dedicatory"
+              ]
+            },
+            "unit": {
+              "description": "Unit of quantity (e.g., 'measures', 'shekels').",
+              "type": "string"
+            },
+            "metrologicalValue": {
+              "description": "Metrological interpretation.",
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "Line": {
+      "description": "A line of text on the inscription.",
+      "type": "object",
+      "required": ["number"],
+      "properties": {
+        "number": {
+          "description": "Line number (integer or string for complex numbering).",
+          "type": ["integer", "string"]
+        },
+        "signSequences": {
+          "description": "Sign sequence indices belonging to this line.",
+          "type": "array",
+          "items": { "type": "integer" }
+        },
+        "ruling": {
+          "description": "Whether this line has a ruling line above it.",
+          "type": "boolean",
+          "default": false
+        },
+        "damaged": {
+          "description": "Whether this line is damaged.",
+          "type": "boolean",
+          "default": false
+        },
+        "continuesFrom": {
+          "description": "Line number this line continues from (for overflow text).",
+          "type": ["integer", "string"]
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "ImageResource": {
+      "description": "An image resource associated with the inscription.",
+      "type": "object",
+      "required": ["license", "type"],
+      "properties": {
+        "iiifServiceUrl": {
+          "description": "IIIF Image API service URL.",
+          "type": "string",
+          "format": "uri",
+          "examples": [
+            "https://iiif.heraklion-museum.gr/iiif/2/HM_1234"
+          ]
+        },
+        "iiifManifestUrl": {
+          "description": "IIIF Presentation API manifest URL.",
+          "type": "string",
+          "format": "uri"
+        },
+        "url": {
+          "description": "Direct URL to the image (non-IIIF fallback).",
+          "type": "string",
+          "format": "uri"
+        },
+        "credit": {
+          "description": "Photographer/institution credit line.",
+          "type": "string"
+        },
+        "license": {
+          "description": "License URI for the image.",
+          "type": "string",
+          "format": "uri",
+          "examples": [
+            "https://creativecommons.org/licenses/by/4.0/",
+            "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+          ]
+        },
+        "type": {
+          "description": "Type of image.",
+          "type": "string",
+          "enum": [
+            "photograph", "drawing/facsimile", "MSI",
+            "infrared", "ultraviolet", "rakingLight",
+            "RTI", "3D (photogrammetry)", "3D (structured light)",
+            "X-ray", "CT scan", "uncertain"
+          ]
+        },
+        "msiBand": {
+          "description": "Specific multi-spectral band if type is MSI.",
+          "type": "string",
+          "examples": ["630nm", "850nm", "UV 365nm", "IR 940nm"]
+        },
+        "width": {
+          "description": "Image width in pixels.",
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "description": "Image height in pixels.",
+          "type": "integer",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

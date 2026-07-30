@@ -1,0 +1,5 @@
+strategy,num_inscriptions_with_gt,avg_precision,avg_recall,avg_f1,notes
+bigram_transition,233,0.8439,0.9528,0.8820,
+boundary_entropy,233,0.1877,0.9528,0.2941,
+positional_profile,233,0.9416,0.9528,0.9457,
+viterbi_hmm,233,0.6509,0.9528,0.7322,

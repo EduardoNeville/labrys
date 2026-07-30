@@ -1,0 +1,84 @@
+SECTION,KEY,VALUE
+CORPUS,sign_tokens,5733
+CORPUS,sign_types,129
+CORPUS,char_tokens,11018
+CORPUS,char_types,712
+CORPUS,sign_bigrams,4178
+NGRAM_SIGN_n=1,possible_ngrams,129
+NGRAM_SIGN_n=1,observed_ngrams,129
+NGRAM_SIGN_n=1,sparsity,0.000000
+NGRAM_SIGN_n=2,possible_ngrams,16641
+NGRAM_SIGN_n=2,observed_ngrams,1907
+NGRAM_SIGN_n=2,sparsity,0.885404
+NGRAM_SIGN_n=3,possible_ngrams,2146689
+NGRAM_SIGN_n=3,observed_ngrams,3073
+NGRAM_SIGN_n=3,sparsity,0.998568
+NGRAM_SIGN_n=4,possible_ngrams,276922881
+NGRAM_SIGN_n=4,observed_ngrams,2924
+NGRAM_SIGN_n=4,sparsity,0.999989
+NGRAM_SIGN_n=5,possible_ngrams,35723051649
+NGRAM_SIGN_n=5,observed_ngrams,2660
+NGRAM_SIGN_n=5,sparsity,1.000000
+
+SECTION,CONDITIONAL_ENTROPY,
+COND_ENT,k=1,"{""entropy"": 4.440580175393249, ""perplexity"": 21.714399862964992, ""unique_contexts"": 123, ""total_events"": 4178}"
+COND_ENT,k=2,"{""entropy"": 1.1659441990022383, ""perplexity"": 2.243800172996758, ""unique_contexts"": 1731, ""total_events"": 3605}"
+COND_ENT,k=3,"{""entropy"": 0.16490462440376302, ""perplexity"": 1.121091960945118, ""unique_contexts"": 2729, ""total_events"": 3157}"
+
+SECTION,TOP_BIGRAMS_BY_PMI,
+MI_PAIR,AB 107 -> AB 107,"{""pmi"": ""9.357"", ""count"": 3}"
+MI_PAIR,AB 113 -> AB 14,"{""pmi"": ""7.298"", ""count"": 4}"
+MI_PAIR,AB 75 -> AB 92,"{""pmi"": ""6.701"", ""count"": 5}"
+MI_PAIR,AB 10 -> AB 42,"{""pmi"": ""6.439"", ""count"": 3}"
+MI_PAIR,AB 27 -> AB 47,"{""pmi"": ""6.298"", ""count"": 3}"
+MI_PAIR,AB 112 -> AB 07,"{""pmi"": ""6.173"", ""count"": 3}"
+MI_PAIR,AB 13 -> AB 96,"{""pmi"": ""6.128"", ""count"": 4}"
+MI_PAIR,AB 10 -> AB 113,"{""pmi"": ""6.117"", ""count"": 3}"
+MI_PAIR,AB 88 -> AB 75,"{""pmi"": ""5.964"", ""count"": 6}"
+MI_PAIR,AB 17 -> AB 72,"{""pmi"": ""5.782"", ""count"": 4}"
+MI_PAIR,AB 77 -> AB 22,"{""pmi"": ""5.697"", ""count"": 3}"
+MI_PAIR,AB 73 -> AB 88,"{""pmi"": ""5.675"", ""count"": 12}"
+MI_PAIR,AB 73 -> AB 86,"{""pmi"": ""5.519"", ""count"": 10}"
+MI_PAIR,AB 10 -> AB 31,"{""pmi"": ""5.439"", ""count"": 3}"
+MI_PAIR,AB 13 -> AB 72,"{""pmi"": ""5.071"", ""count"": 5}"
+MI_PAIR,AB 50 -> AB 28,"{""pmi"": ""4.938"", ""count"": 3}"
+MI_PAIR,AB 87 -> AB 92,"{""pmi"": ""4.886"", ""count"": 3}"
+MI_PAIR,AB 28 -> AB 24,"{""pmi"": ""4.753"", ""count"": 6}"
+MI_PAIR,AB 90 -> AB 87,"{""pmi"": ""4.649"", ""count"": 4}"
+MI_PAIR,AB 17 -> AB 57,"{""pmi"": ""4.614"", ""count"": 5}"
+MI_PAIR,AB 90 -> AB 57,"{""pmi"": ""4.614"", ""count"": 5}"
+MI_PAIR,AB 83 -> AB 44,"{""pmi"": ""4.550"", ""count"": 4}"
+MI_PAIR,AB 30 -> AB 61,"{""pmi"": ""4.514"", ""count"": 21}"
+MI_PAIR,AB 48 -> AB 47,"{""pmi"": ""4.511"", ""count"": 8}"
+MI_PAIR,AB 73 -> AB 75,"{""pmi"": ""4.464"", ""count"": 5}"
+MI_PAIR,AB 52 -> AB 12,"{""pmi"": ""4.452"", ""count"": 14}"
+MI_PAIR,AB 55 -> AB 73,"{""pmi"": ""4.395"", ""count"": 3}"
+MI_PAIR,AB 61 -> AB 73,"{""pmi"": ""4.367"", ""count"": 9}"
+MI_PAIR,AB 96 -> AB 26,"{""pmi"": ""4.349"", ""count"": 5}"
+MI_PAIR,AB 39 -> AB 07,"{""pmi"": ""4.173"", ""count"": 4}"
+
+SECTION,TYPOLOGY,
+TYPOLOGY,all_entropy,4.905137
+TYPOLOGY,all_repeat_rate,0.160113
+TYPOLOGY,all_tokens,11018
+TYPOLOGY,all_ttr,0.028408
+TYPOLOGY,all_types,313
+TYPOLOGY,syllabogram_dis_count,11
+TYPOLOGY,syllabogram_entropy,5.867147
+TYPOLOGY,syllabogram_hapax_count,13
+TYPOLOGY,syllabogram_hapax_proportion,0.100775
+TYPOLOGY,syllabogram_max_seq_length,61
+TYPOLOGY,syllabogram_mean_seq_length,3.686817
+TYPOLOGY,syllabogram_min_seq_length,1
+TYPOLOGY,syllabogram_normalized_entropy,0.836822
+TYPOLOGY,syllabogram_repeat_rate,0.023770
+TYPOLOGY,syllabogram_tokens,5733
+TYPOLOGY,syllabogram_top1_frequency,308
+TYPOLOGY,syllabogram_top1_proportion,0.053724
+TYPOLOGY,syllabogram_top5_frequency,1309
+TYPOLOGY,syllabogram_top5_proportion,0.228327
+TYPOLOGY,syllabogram_ttr,0.022501
+TYPOLOGY,syllabogram_types,129
+TYPOLOGY,syllabogram_zipf_slope,1.179078
+
+TYPOLOGY_NOTES,"NOTE: These are sign-level statistics (sign inventory ~130 types), NOT word-level. Compare with caution. Agglutinative languages (word-level): TTR 0.6-0.8, repeat rate 0.05-0.15, entropy 4-6. Fusional: TTR 0.4-0.6, repeat rate 0.10-0.25, entropy 3-5. Isolating: TTR 0.3-0.5, repeat rate 0.15-0.30, entropy 2.5-4. Linear A sign-level: TTR=0.0225 (low because ~5.7K tokens use only 129 signs, typical for a syllabary of this size). Repeat rate=0.0238 is very low, indicating relatively even sign distribution. Entropy=5.8671 is moderately high. Zipf slope ~1.18 (ideal Zipf = -1.0; positive value indicates the distribution is flatter than canonical Zipf, suggesting a well-utilised sign inventory).",

@@ -1,0 +1,7 @@
+rank,family,family_label,rank_score,overall_verdict,overall_assessment,features_observed_pct,features_observed_n,swadesh_significant,swadesh_p_exact,loanword_support,phonetic_anchor_support,morphology_support,criteria_pass,criteria_warn,criteria_fail
+1,Anatolian_IE,Anatolian IE (Luwian/Hittite),8,⚠️,INCONCLUSIVE (tentative),50.0,✅ 4/8,False,0.948,✅,✅,✅,4,0,1
+2,Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),8,⚠️,INCONCLUSIVE (tentative),50.0,✅ 3/6,False,0.335,✅,✅,✅,4,0,1
+3,Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),7,⚠️,INCONCLUSIVE (tentative),62.5,✅ 5/8,False,1.0,⚠️,✅,✅,3,1,1
+4,Pre_Greek,Pre-Greek Substrate (Beekes 2014),6,⚠️,INCONCLUSIVE (tentative),50.0,⚠️ 2/4,False,1.0,✅,⚠️,✅,2,2,1
+5,Semitic,Semitic (Akkadian/Ugaritic/Phoenician),5,⚠️,WEAK (provisionally rejected),0.0,❌ 0/8,False,0.673,✅,✅,⚠️,2,1,2
+6,Afroasiatic,Afroasiatic (Egyptian M.K./Berber),5,⚠️,WEAK (provisionally rejected),0.0,❌ 0/5,False,0.573,✅,✅,⚠️,2,1,2

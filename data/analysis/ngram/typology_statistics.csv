@@ -1,0 +1,23 @@
+SECTION,LANGUAGE_TYPOLOGY_STATISTICS
+
+METRIC,SYLLABOGRAMS,ALL_SIGNS,NOTES
+Total Tokens,5733,11018,
+Total Types,129,313,
+Type-Token Ratio (TTR),0.022501,0.028408,
+Repeat Rate (Simpson's Index),0.023770,,
+Shannon Entropy,5.867147,4.905137,
+
+SYLLABOGRAM-ONLY METRICS,VALUE,DESCRIPTION
+Normalized Entropy,0.836822,"H / log2(N_types); 1 = uniform, 0 = maximally skewed"
+Hapax Count,13,Number of signs appearing exactly once
+Hapax Proportion,0.100775,Fraction of types that are hapax legomena
+Dis Legomena Count,11,Number of signs appearing exactly twice
+Mean Sequence Length,3.686817,Average number of signs per inscription
+Max Sequence Length,61,Longest inscription (signs)
+Min Sequence Length,1,Shortest inscription (signs)
+Zipf Slope (approx),1.179078,Log-log frequency rank slope; -1.0 is canonical Zipf
+Top-1 Frequency,308,Count of most frequent sign
+Top-1 Proportion,0.053724,Fraction of all tokens for most frequent sign
+Top-5 Proportion,0.228327,Fraction of all tokens for top 5 signs
+
+COMPARISON NOTES,"NOTE: These are sign-level statistics (sign inventory ~130 types), NOT word-level. Compare with caution. Agglutinative languages (word-level): TTR 0.6-0.8, repeat rate 0.05-0.15, entropy 4-6. Fusional: TTR 0.4-0.6, repeat rate 0.10-0.25, entropy 3-5. Isolating: TTR 0.3-0.5, repeat rate 0.15-0.30, entropy 2.5-4. Linear A sign-level: TTR=0.0225 (low because ~5.7K tokens use only 129 signs, typical for a syllabary of this size). Repeat rate=0.0238 is very low, indicating relatively even sign distribution. Entropy=5.8671 is moderately high. Zipf slope ~1.18 (ideal Zipf = -1.0; positive value indicates the distribution is flatter than canonical Zipf, suggesting a well-utilised sign inventory)."

@@ -1,0 +1,268 @@
+bennett_id,la_unicode,la_char,lb_unicode,lb_char,lb_value,la_hyp_value,visual_sim,attestation,sign_type,visual_score,positional_score,frequency_score,toponym_score,ngram_score,composite_score,notes
+AB 01,U+10600,𐘀,U+10000,𐀀,da,da,1.0,both,syllabogram,100.0,90.0,90.0,65.0,45.0,82.8,Nearly identical across LA and LB; the most securely transferred sign.
+AB 02,U+10601,𐘁,U+10001,𐀁,ro,ro,1.0,both,syllabogram,100.0,75.0,90.0,45.0,60.0,76.2,Identical shape in both scripts but may have had different values (LA /i/ in toponyms); debated.
+AB 03,U+10602,𐘂,U+10002,𐀂,pa,pa,1.0,both,syllabogram,100.0,80.0,90.0,61.0,45.0,79.8,Identical; securely transferred. High frequency in both corpora.
+AB 04,U+10603,𐘃,U+10003,𐀃,te,te,1.0,both,syllabogram,100.0,75.0,90.0,28.0,45.0,70.5,"Identical in LA and LB. Fits place-name evidence (e.g., Pylos place names)."
+AB 05,U+10604,𐘄,U+10004,𐀄,to,to,1.0,both,syllabogram,100.0,75.0,75.0,35.0,75.0,73.8,Shape identical. Possible LA value /i/ in some contexts (PHAISTOS = pa-i-to).
+AB 06,U+10605,𐘅,U+10005,𐀅,na,na,1.0,both,syllabogram,100.0,80.0,90.0,43.0,45.0,75.2,Identical; very common in both scripts.
+AB 07,U+10606,𐘆,U+10006,𐀆,di,di,1.0,both,syllabogram,100.0,80.0,70.0,55.0,45.0,76.2,Identical; DIKTE = di-ka-ta confirms LA /di/.
+AB 08,U+10607,𐘇,U+10007,𐀇,a,a,1.0,both,syllabogram,100.0,85.0,90.0,32.0,60.0,75.0,Vowel sign; high frequency in both scripts.
+AB 09,U+10608,𐘈,U+10008,𐀈,se,se,1.0,both,syllabogram,100.0,85.0,70.0,42.0,60.0,75.5,Identical. SETOIA = se-to-i-ja confirms.
+AB 10,U+10609,𐘉,U+10009,𐀉,u,u,1.0,both,syllabogram,100.0,85.0,70.0,38.0,75.0,76.0,Vowel; identical form.
+AB 11,U+1060A,𐘊,U+1000A,𐀊,si,si,1.0,both,syllabogram,100.0,65.0,90.0,57.0,65.0,77.8,Identical.
+AB 12,U+1060B,𐘋,U+1000B,𐀋,so,so,1.0,both,syllabogram,100.0,85.0,40.0,36.0,75.0,72.5,Identical; KNOSSOS = ko-no-so confirms.
+AB 13,U+1060C,𐘌,U+1000C,𐀌,me,me,1.0,both,syllabogram,100.0,85.0,60.0,38.0,65.0,74.0,Identical.
+AB 14,U+1060D,𐘍,U+1000D,𐀍,do,do,1.0,both,syllabogram,100.0,75.0,40.0,52.0,75.0,74.5,Identical; IDA = i-da confirms.
+AB 15,U+1060E,𐘎,U+1000E,𐀎,mo,mo,1.0,both,syllabogram,100.0,50.0,40.0,30.0,60.0,62.5,Identical.
+AB 16,U+1060F,𐘏,U+1000F,𐀏,qa,qa,1.0,both,syllabogram,100.0,75.0,60.0,30.0,45.0,68.0,"Identical; labiovelar, scarce in both scripts."
+AB 17,U+10610,𐘐,U+10010,𐀐,za,za,1.0,both,syllabogram,100.0,80.0,60.0,30.0,85.0,73.0,Identical.
+AB 18,U+10611,𐘑,U+10011,𐀑,zo,zo,1.0,both,syllabogram,100.0,70.0,50.0,30.0,50.0,66.5,Identical.
+AB 19,U+10612,𐘒,U+10012,𐀒,zo?,zo?,1.0,both,syllabogram,100.0,70.0,40.0,30.0,50.0,65.5,Rare; value uncertain in both scripts.
+AB 20,U+10613,𐘓,U+10013,𐀓,zo?,zo?,1.0,both,syllabogram,100.0,70.0,40.0,30.0,50.0,65.5,Rare; variant form of zo-series.
+AB 21,U+10614,𐘔,U+10014,𐀔,mi,mi,1.0,both,syllabogram,100.0,50.0,70.0,30.0,50.0,64.5,Identical; AMNISOS = a-mi-ni-so confirms.
+AB 21f,U+10615,𐘕,U+10015,𐀕,mi?,mi?,0.8,la_only,syllabogram,8.0,85.0,40.0,30.0,50.0,36.3,Variant of AB 21; only in LA (HT).
+AB 22,U+10616,𐘖,U+10016,𐀖,pi,pi,1.0,both,syllabogram,100.0,70.0,70.0,30.0,45.0,68.0,Identical.
+AB 22f,U+10617,𐘗,U+10017,𐀗,pi?,pi?,0.8,la_only,syllabogram,8.0,85.0,40.0,57.0,50.0,43.0,Variant form; mainly LA.
+AB 23,U+10618,𐘘,U+10018,𐀘,mu,mu,1.0,both,syllabogram,100.0,75.0,60.0,28.0,60.0,69.0,Identical.
+AB 24,U+10619,𐘙,U+10019,𐀙,ne,ne,1.0,both,syllabogram,100.0,90.0,70.0,52.0,45.0,77.5,Identical.
+AB 26,U+1061A,𐘚,U+1001A,𐀚,ru,ru,1.0,both,syllabogram,100.0,85.0,70.0,58.0,45.0,78.0,Identical in shape; TYLISSOS = tu-ri-so shows LA /i/ value.
+AB 27,U+1061B,𐘛,U+1001B,𐀛,re,re,1.0,both,syllabogram,100.0,65.0,70.0,30.0,25.0,65.0,Identical.
+AB 28,U+1061C,𐘜,U+1001C,𐀜,i,i,1.0,both,syllabogram,100.0,80.0,90.0,30.0,65.0,74.0,Vowel; identical in both scripts.
+AB 29,U+1061D,𐘝,U+1001D,𐀝,pu,pu,1.0,both,syllabogram,100.0,85.0,60.0,50.0,45.0,75.0,Identical.
+AB 30,U+1061E,𐘞,U+1001E,𐀞,ni,ni,1.0,both,syllabogram,100.0,65.0,90.0,30.0,60.0,70.5,Identical; AMNISOS = a-mi-ni-so confirms.
+AB 31,U+1061F,𐘟,U+1001F,𐀟,sa,sa,1.0,both,syllabogram,100.0,50.0,90.0,30.0,65.0,68.0,Identical.
+AB 32,U+10620,𐘠,U+10020,𐀠,?,?,1.0,both,syllabogram,100.0,90.0,50.0,67.0,50.0,79.8,Value unknown in LB; rare in both.
+AB 33,U+10621,𐘡,U+10021,𐀡,ra?,ra?,1.0,both,syllabogram,100.0,80.0,40.0,57.0,50.0,74.2,Rare; value uncertain.
+AB 34,U+10622,𐘢,U+10022,𐀢,pa2?,pa2?,1.0,both,syllabogram,100.0,85.0,40.0,30.0,50.0,68.5,Rare; value uncertain.
+AB 35,U+10623,𐘣,U+10023,𐀣,ti,ti,1.0,both,syllabogram,100.0,85.0,90.0,30.0,85.0,77.0,Identical; very common in both scripts.
+AB 36,U+10624,𐘤,U+10024,𐀤,jo,jo,1.0,both,syllabogram,100.0,75.0,40.0,35.0,45.0,67.2,Identical; possible LA /i/.
+AB 37,U+10625,𐘥,U+10025,𐀥,?,?,1.0,both,syllabogram,100.0,85.0,50.0,30.0,50.0,69.5,Rare; uncertain value.
+AB 38,U+10626,𐘦,U+10026,𐀦,e,e,1.0,both,syllabogram,100.0,85.0,75.0,52.0,85.0,81.0,Vowel; identical.
+AB 39,U+10627,𐘧,U+10027,𐀧,pi?,pi?,1.0,both,syllabogram,100.0,70.0,40.0,57.0,50.0,72.2,Rare; value uncertain.
+AB 40,U+10628,𐘨,U+10028,𐀨,wi,wi,1.0,both,syllabogram,100.0,70.0,60.0,30.0,75.0,70.0,Identical.
+AB 41,U+10629,𐘩,U+10029,𐀩,si?,si?,1.0,both,syllabogram,100.0,50.0,40.0,30.0,50.0,61.5,Rare.
+AB 42,U+1062A,𐘪,U+1002A,𐀪,ke?,ke?,1.0,both,syllabogram,100.0,50.0,40.0,30.0,50.0,61.5,Rare; uncertain value.
+AB 43,U+1062B,𐘫,U+1002B,𐀫,ai?,ai?,1.0,both,syllabogram,100.0,80.0,40.0,57.0,50.0,74.2,Rare.
+AB 44,U+1062C,𐘬,U+1002C,𐀬,?,?,1.0,both,syllabogram,100.0,75.0,50.0,30.0,50.0,67.5,Rare; uncertain value.
+AB 45,U+1062D,𐘭,U+1002D,𐀭,de?,de?,1.0,both,syllabogram,100.0,60.0,40.0,65.0,50.0,72.2,Rare.
+AB 46,U+1062E,𐘮,U+1002E,𐀮,je?,je?,1.0,both,syllabogram,100.0,80.0,40.0,42.0,50.0,70.5,Rare; SETOIA = se-to-i-ja may use this.
+AB 47,U+1062F,𐘯,U+1002F,𐀯,?,?,1.0,both,syllabogram,100.0,85.0,50.0,46.0,50.0,73.5,Rare; possibly /nwa/ or /nu/.
+AB 48,U+10630,𐘰,U+10030,𐀰,nwa?,nwa?,1.0,both,syllabogram,100.0,75.0,40.0,43.0,50.0,69.8,Rare.
+AB 49,U+10631,𐘱,U+10031,𐀱,?,?,1.0,both,syllabogram,100.0,90.0,50.0,39.0,50.0,72.8,Rare; possibly /ja/.
+AB 50,U+10632,𐘲,U+10032,𐀲,pu?,pu?,1.0,both,syllabogram,100.0,85.0,40.0,57.0,50.0,75.2,Rare.
+AB 51,U+10633,𐘳,U+10033,𐀳,du?,du?,1.0,both,syllabogram,100.0,85.0,40.0,51.0,50.0,73.8,Rare.
+AB 52,U+10634,𐘴,U+10034,𐀴,?,?,1.0,both,syllabogram,100.0,80.0,50.0,39.0,50.0,70.8,Rare; uncertain value.
+AB 53,U+10635,𐘵,U+10035,𐀵,ri,ri,1.0,both,syllabogram,100.0,70.0,90.0,30.0,85.0,74.0,Identical; TYLISSOS = tu-ri-so confirms LA /ri/.
+AB 54,U+10636,𐘶,U+10036,𐀶,wa,wa,1.0,both,syllabogram,100.0,75.0,75.0,30.0,50.0,70.0,Identical.
+AB 55,U+10637,𐘷,U+10037,𐀷,nu,nu,1.0,both,syllabogram,100.0,75.0,70.0,30.0,85.0,73.0,Identical.
+AB 56,U+10638,𐘸,U+10038,𐀸,?,?,1.0,both,syllabogram,100.0,90.0,50.0,45.0,50.0,74.2,Uncertain value; rare.
+AB 57,U+10639,𐘹,U+10039,𐀹,ja,ja,1.0,both,syllabogram,100.0,85.0,70.0,36.0,45.0,72.5,Identical; SETOIA = se-to-i-ja confirms.
+AB 58,U+1063A,𐘺,U+1003A,𐀺,?,?,1.0,both,syllabogram,100.0,60.0,50.0,57.0,50.0,71.2,Rare; uncertain value.
+AB 59,U+1063B,𐘻,U+1003B,𐀻,?,?,1.0,both,syllabogram,100.0,85.0,50.0,30.0,50.0,69.5,Rare; uncertain value.
+AB 60,U+1063C,𐘼,U+1003C,𐀼,ra,ra,1.0,both,syllabogram,100.0,85.0,70.0,30.0,60.0,72.5,Identical; common in both scripts.
+AB 61,U+1063D,𐘽,U+1003D,𐀽,?,?,1.0,both,syllabogram,100.0,85.0,50.0,30.0,50.0,69.5,Rare; uncertain.
+AB 62,U+1063E,𐘾,U+1003E,𐀾,pte?,pte?,1.0,both,syllabogram,100.0,75.0,40.0,39.0,50.0,68.8,Rare; possibly complex sign.
+AB 63,U+1063F,𐘿,U+1003F,𐀿,?,?,1.0,both,syllabogram,100.0,80.0,50.0,30.0,50.0,68.5,Rare.
+AB 64,U+10640,𐙀,U+10040,𐁀,swi?,swi?,1.0,both,syllabogram,100.0,80.0,40.0,57.0,50.0,74.2,Rare; possible complex value.
+AB 65,U+10641,𐙁,U+10041,𐁁,ju?,ju?,1.0,both,syllabogram,100.0,80.0,40.0,70.0,50.0,77.5,Rare.
+AB 66,U+10642,𐙂,U+10042,𐁂,ta?,ta?,1.0,both,syllabogram,100.0,75.0,40.0,34.0,50.0,67.5,Rare; value uncertain.
+AB 67,U+10643,𐙃,U+10043,𐁃,ki,ki,1.0,both,syllabogram,100.0,60.0,70.0,30.0,45.0,66.0,Identical; SU-KI-RI-TA confirms LA /ki/.
+AB 68,U+10644,𐙄,U+10044,𐁄,ro2?,ro2?,1.0,both,syllabogram,100.0,75.0,40.0,57.0,50.0,73.2,Rare; possibly a variant of AB 02.
+AB 69,U+10645,𐙅,U+10045,𐁅,tu,tu,1.0,both,syllabogram,100.0,80.0,70.0,30.0,85.0,74.0,Identical; TYLISSOS = tu-ri-so confirms LA /tu/.
+AB 70,U+10646,𐙆,U+10046,𐁆,ko?,ko?,1.0,both,syllabogram,100.0,50.0,40.0,30.0,50.0,61.5,Rare; KNOSSOS = ko-no-so expected but sign not always used.
+AB 71,U+10647,𐙇,U+10047,𐁇,?,?,1.0,both,syllabogram,100.0,80.0,50.0,30.0,50.0,68.5,Uncertain.
+AB 72,U+10648,𐙈,U+10048,𐁈,?,?,1.0,both,syllabogram,100.0,85.0,50.0,57.0,50.0,76.2,Uncertain.
+AB 73,U+10649,𐙉,U+10049,𐁉,?,?,1.0,both,syllabogram,100.0,85.0,50.0,30.0,50.0,69.5,Uncertain.
+AB 74,U+1064A,𐙊,U+1004A,𐁊,ze?,ze?,1.0,both,syllabogram,100.0,50.0,40.0,30.0,50.0,61.5,Rare.
+AB 75,U+1064B,𐙋,U+1004B,𐁋,?,?,1.0,both,syllabogram,100.0,85.0,50.0,30.0,50.0,69.5,Rare.
+AB 76,U+1064C,𐙌,U+1004C,𐁌,ra2?,ra2?,1.0,both,syllabogram,100.0,50.0,40.0,30.0,50.0,61.5,Rare.
+AB 77,U+1064D,𐙍,U+1004D,𐁍,ka,ka,1.0,both,syllabogram,100.0,70.0,90.0,30.0,65.0,72.0,Identical; DIKTE = di-ka-ta confirms LA /ka/.
+AB 78,U+1064E,𐙎,U+1004E,𐁎,qe,qe,1.0,both,syllabogram,100.0,50.0,60.0,30.0,50.0,63.5,Identical; labiovelar.
+AB 79,U+1064F,𐙏,U+1004F,𐁏,zo?,zo?,1.0,both,syllabogram,100.0,75.0,40.0,30.0,50.0,66.5,Rare.
+AB 80,U+10650,𐙐,U+10050,𐁐,ma,ma,1.0,both,syllabogram,100.0,85.0,90.0,30.0,75.0,76.0,Identical; very common.
+AB 81,U+10651,𐙑,U+10051,𐁑,ku,ku,1.0,both,syllabogram,100.0,50.0,90.0,30.0,10.0,62.5,Identical; SU-KI-RI-TA = su-ki-ri-ta confirms LA /ku/.
+AB 82,U+10652,𐙒,U+10052,𐁒,?,?,1.0,both,syllabogram,100.0,85.0,50.0,30.0,50.0,69.5,Rare; uncertain.
+AB 83,U+10653,𐙓,U+10053,𐁓,?,?,1.0,both,syllabogram,100.0,70.0,50.0,30.0,50.0,66.5,Rare.
+AB 84,U+10654,𐙔,U+10054,𐁔,?,?,1.0,both,syllabogram,100.0,50.0,50.0,30.0,50.0,62.5,Rare.
+AB 85,U+10655,𐙕,U+10055,𐁕,?,?,1.0,both,syllabogram,100.0,85.0,50.0,30.0,50.0,69.5,Rare.
+AB 86,U+10656,𐙖,—,—,—,?,0.0,la_only,syllabogram,0.0,80.0,50.0,30.0,50.0,33.5,LA-only sign; no LB counterpart.
+AB 87,U+10657,𐙗,—,—,—,?,0.0,la_only,syllabogram,0.0,80.0,50.0,30.0,50.0,33.5,LA-only sign.
+AB 88,U+10658,𐙘,—,—,—,?,0.0,la_only,syllabogram,0.0,85.0,50.0,30.0,50.0,34.5,LA-only sign.
+AB 89,U+10659,𐙙,—,—,—,?,0.0,la_only,syllabogram,0.0,80.0,50.0,30.0,50.0,33.5,LA-only sign.
+AB 90,U+1065A,𐙚,—,—,—,?,0.0,la_only,syllabogram,0.0,80.0,50.0,30.0,50.0,33.5,LA-only sign.
+AB 91,U+1065B,𐙛,—,—,—,?,0.0,la_only,syllabogram,0.0,60.0,50.0,30.0,50.0,29.5,LA-only sign.
+AB 92,U+1065C,𐙜,—,—,—,?,0.0,la_only,syllabogram,0.0,85.0,50.0,30.0,50.0,34.5,LA-only sign.
+AB 93,U+1065D,𐙝,—,—,—,?,0.0,la_only,syllabogram,0.0,30.0,50.0,30.0,50.0,23.5,LA-only sign.
+AB 94,U+1065E,𐙞,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 95,U+1065F,𐙟,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 96,U+10660,𐙠,—,—,—,?,0.0,la_only,syllabogram,0.0,40.0,50.0,30.0,50.0,25.5,LA-only sign.
+AB 97,U+10661,𐙡,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 98,U+10662,𐙢,—,—,—,?,0.0,la_only,syllabogram,0.0,70.0,50.0,57.0,50.0,38.2,LA-only sign.
+AB 99,U+10663,𐙣,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 100,U+10664,𐙤,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 101,U+10665,𐙥,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 102,U+10666,𐙦,—,—,—,?,0.0,la_only,syllabogram,0.0,70.0,50.0,30.0,50.0,31.5,LA-only sign.
+AB 103,U+10667,𐙧,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 104,U+10668,𐙨,—,—,—,?,0.0,la_only,syllabogram,0.0,70.0,50.0,30.0,50.0,31.5,LA-only sign.
+AB 105,U+10669,𐙩,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 106,U+1066A,𐙪,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 107,U+1066B,𐙫,—,—,—,?,0.0,la_only,syllabogram,0.0,65.0,50.0,30.0,50.0,30.5,LA-only sign.
+AB 108,U+1066C,𐙬,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 109,U+1066D,𐙭,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 110,U+1066E,𐙮,—,—,—,?,0.0,la_only,syllabogram,0.0,70.0,50.0,30.0,50.0,31.5,LA-only sign.
+AB 111,U+1066F,𐙯,—,—,—,?,0.0,la_only,syllabogram,0.0,70.0,50.0,30.0,50.0,31.5,LA-only sign.
+AB 112,U+10670,𐙰,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,57.0,50.0,34.2,LA-only sign.
+AB 113,U+10671,𐙱,—,—,—,?,0.0,la_only,syllabogram,0.0,65.0,50.0,30.0,50.0,30.5,LA-only sign.
+AB 114,U+10672,𐙲,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 115,U+10673,𐙳,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 116,U+10674,𐙴,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 117,U+10675,𐙵,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 118,U+10676,𐙶,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 119,U+10677,𐙷,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 120,U+10678,𐙸,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 121,U+10679,𐙹,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 122,U+1067A,𐙺,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 123,U+1067B,𐙻,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 124,U+1067C,𐙼,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 125,U+1067D,𐙽,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 126,U+1067E,𐙾,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 127,U+1067F,𐙿,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 128,U+10680,𐚀,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 129,U+10681,𐚁,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 130,U+10682,𐚂,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 131,U+10683,𐚃,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 132,U+10684,𐚄,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 133,U+10685,𐚅,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 134,U+10686,𐚆,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 135,U+10687,𐚇,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 136,U+10688,𐚈,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+AB 137,U+10689,𐚉,—,—,—,?,0.0,la_only,syllabogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only sign.
+A 301,U+1068A,𐚊,—,—,siliqua?,siliqua?,0.8,both,logogram,80.0,50.0,40.0,30.0,50.0,54.5,Dry measure; LB counterpart is *301 (siliqua).
+A 302,U+1068B,𐚋,—,—,[sheep?],[sheep?],0.8,both,logogram,80.0,50.0,40.0,30.0,50.0,54.5,Ovis (sheep) ideogram in both.
+A 303,U+1068C,𐚌,—,—,[cattle?],[cattle?],0.8,both,logogram,80.0,50.0,40.0,30.0,50.0,54.5,Bos (cattle) ideogram in both.
+A 304,U+1068D,𐚍,—,—,[vessel?],[vessel?],0.8,both,logogram,80.0,50.0,40.0,30.0,50.0,54.5,Vessel/stirrup jar in both.
+A 305,U+1068E,𐚎,—,—,[fig?],[fig?],0.8,both,logogram,80.0,50.0,40.0,30.0,50.0,54.5,Ficus (fig) in both.
+A 306,U+1068F,𐚏,—,—,[?],[?],0.8,both,logogram,80.0,50.0,50.0,30.0,50.0,55.5,Unknown commodity.
+A 307,U+10690,𐚐,—,—,[?],[?],0.8,both,logogram,80.0,50.0,50.0,30.0,50.0,55.5,Unknown commodity.
+A 308,U+10691,𐚑,—,—,[wheat?],[wheat?],0.8,both,logogram,80.0,50.0,40.0,30.0,50.0,54.5,Wheat ideogram.
+A 309,U+10692,𐚒,—,—,[barley?],[barley?],0.8,both,logogram,80.0,50.0,40.0,30.0,50.0,54.5,Barley ideogram.
+A 310,U+10693,𐚓,—,—,[wine?],[wine?],0.8,both,logogram,80.0,50.0,40.0,30.0,50.0,54.5,Vinum (wine) ideogram.
+A 311,U+10694,𐚔,—,—,[oil?],[oil?],0.8,both,logogram,80.0,50.0,40.0,30.0,50.0,54.5,Oleum (oil) ideogram.
+A 312,U+10695,𐚕,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain commodity.
+A 313,U+10696,𐚖,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 314,U+10697,𐚗,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 315,U+10698,𐚘,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 316,U+10699,𐚙,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 317,U+1069A,𐚚,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 318,U+1069B,𐚛,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 319,U+1069C,𐚜,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 320,U+1069D,𐚝,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 321,U+1069E,𐚞,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 322,U+1069F,𐚟,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 323,U+106A0,𐚠,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 324,U+106A1,𐚡,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 325,U+106A2,𐚢,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 326,U+106A3,𐚣,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,"LA-only, uncertain."
+A 327,U+106A4,𐚤,—,—,[?],[?],0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 328,U+106A5,𐚥,—,—,[?],[?],0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 329,U+106A6,𐚦,—,—,[?],[?],0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 330,U+106A7,𐚧,—,—,[?],[?],0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 331,U+106A8,𐚨,—,—,[?],[?],0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 332,U+106A9,𐚩,—,—,[?],[?],0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 333,U+106AA,𐚪,—,—,[?],[?],0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 334,U+106AB,𐚫,—,—,[?],[?],0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 335,U+106AC,𐚬,—,—,[?],[?],0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 336,U+106AD,𐚭,—,—,[?],[?],0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 337,U+106AE,𐚮,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Possibly a type of commodity.
+A 338,U+106AF,𐚯,—,—,[wheat],[wheat],0.8,both,logogram,80.0,50.0,40.0,30.0,50.0,54.5,Wheat/grain ideogram.
+A 339,U+106B0,𐚰,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Uncertain.
+A 340,U+106B1,𐚱,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 341,U+106B2,𐚲,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 342,U+106B3,𐚳,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 343,U+106B4,𐚴,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 344,U+106B5,𐚵,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 345,U+106B6,𐚶,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 346,U+106B7,𐚷,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 347,U+106B8,𐚸,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 348,U+106B9,𐚹,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 349,U+106BA,𐚺,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 350,U+106BB,𐚻,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Possibly shared.
+A 351,U+106BC,𐚼,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 352,U+106BD,𐚽,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 353,U+106BE,𐚾,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 354,U+106BF,𐚿,—,—,[?],[?],0.5,la_only,logogram,5.0,50.0,50.0,30.0,50.0,29.2,LA-only.
+A 355,U+106C0,𐛀,—,—,[?],[?],0.5,both,logogram,50.0,50.0,50.0,30.0,50.0,45.0,Possibly shared.
+A 356,U+106C1,𐛁,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 357,U+106C2,𐛂,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 358,U+106C3,𐛃,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 359,U+106C4,𐛄,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 360,U+106C5,𐛅,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 361,U+106C6,𐛆,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 362,U+106C7,𐛇,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 363,U+106C8,𐛈,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 364,U+106C9,𐛉,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 365,U+106CA,𐛊,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 366,U+106CB,𐛋,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 367,U+106CC,𐛌,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 368,U+106CD,𐛍,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 369,U+106CE,𐛎,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 370,U+106CF,𐛏,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 371,U+106D0,𐛐,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 372,U+106D1,𐛑,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 373,U+106D2,𐛒,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 374,U+106D3,𐛓,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 375,U+106D4,𐛔,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 376,U+106D5,𐛕,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 377,U+106D6,𐛖,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 378,U+106D7,𐛗,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 379,U+106D8,𐛘,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 380,U+106D9,𐛙,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 381,U+106DA,𐛚,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 382,U+106DB,𐛛,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 383,U+106DC,𐛜,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 384,U+106DD,𐛝,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 385,U+106DE,𐛞,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 386,U+106DF,𐛟,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 387,U+106E0,𐛠,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 388,U+106E1,𐛡,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 389,U+106E2,𐛢,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 390,U+106E3,𐛣,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 391,U+106E4,𐛤,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 392,U+106E5,𐛥,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 393,U+106E6,𐛦,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 394,U+106E7,𐛧,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 395,U+106E8,𐛨,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 396,U+106E9,𐛩,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 397,U+106EA,𐛪,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 398,U+106EB,𐛫,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 399,U+106EC,𐛬,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 400,U+106ED,𐛭,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 401,U+106EE,𐛮,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 402,U+106EF,𐛯,—,—,—,?,0.0,la_only,logogram,0.0,50.0,50.0,30.0,50.0,27.5,LA-only.
+A 701,U+106F0,𐛰,—,—,J (1/2?),1/2,0.8,both,fraction,80.0,50.0,50.0,30.0,50.0,55.5,"Fraction sign, likely 1/2 or similar."
+A 702,U+106F1,𐛱,—,—,K (1/4?),1/4,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 703,U+106F2,𐛲,—,—,L (1/3?),1/3,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 704,U+106F3,𐛳,—,—,M (2/3?),2/3,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 705,U+106F4,𐛴,—,—,N (3/4?),3/4,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 706,U+106F5,𐛵,—,—,O (1/6?),1/6,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 707,U+106F6,𐛶,—,—,P (5/6?),5/6,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 708,U+106F7,𐛷,—,—,Q (1/8?),1/8,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 709,U+106F8,𐛸,—,—,R (3/8?),3/8,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 710,U+106F9,𐛹,—,—,S (5/8?),5/8,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 711,U+106FA,𐛺,—,—,T (7/8?),7/8,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 712,U+106FB,𐛻,—,—,U (1/10?),1/10,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 713,U+106FC,𐛼,—,—,V (3/10?),3/10,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 714,U+106FD,𐛽,—,—,W (7/10?),7/10,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 715,U+106FE,𐛾,—,—,X (9/10?),9/10,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 716,U+106FF,𐛿,—,—,Y (1/5?),1/5,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 717,U+10700,𐜀,—,—,Z (2/5?),2/5,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 718,U+10701,𐜁,—,—,AA (4/5?),4/5,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 719,U+10702,𐜂,—,—,BB (1/16?),1/16,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 720,U+10703,𐜃,—,—,CC (3/16?),3/16,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 721,U+10704,𐜄,—,—,DD (5/16?),5/16,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+A 722,U+10705,𐜅,—,—,EE (7/16?),7/16,0.8,both,fraction,80.0,50.0,40.0,30.0,50.0,54.5,Fraction sign.
+NUM 1,U+1070E,𐜎,—,—,1,1,1.0,both,numeral,100.0,50.0,50.0,30.0,50.0,62.5,Vertical stroke for unit.
+NUM 10,U+1070F,𐜏,—,—,10,10,1.0,both,numeral,100.0,50.0,50.0,30.0,50.0,62.5,Horizontal stroke for ten.
+NUM 100,U+10710,𐜐,—,—,100,100,1.0,both,numeral,100.0,50.0,50.0,30.0,50.0,62.5,Circle for hundred.
+NUM 1000,U+10711,𐜑,—,—,1000,1000,1.0,both,numeral,100.0,50.0,50.0,30.0,50.0,62.5,Circle with rays for thousand.
+NUM 10000,U+10712,𐜒,—,—,10000,10000,1.0,both,numeral,100.0,50.0,40.0,30.0,50.0,61.5,Circle with cross for ten-thousand.

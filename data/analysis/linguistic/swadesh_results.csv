@@ -1,0 +1,7 @@
+family,family_name,n_lexicon,n_mappable,n_3plus,obs_dist0,exp_dist0,p_dist0,obs_dist1,exp_dist1,p_dist1
+Anatolian_IE,Anatolian IE (Luwian/Hittite),129,129,81,1,3.37,0.948,378,518.87,1.0
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),129,129,64,2,2.67,0.673,298,431.15,1.0
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),129,127,18,0,0.71,1.0,83,112.28,0.924
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),127,126,30,2,1.37,0.335,113,216.11,1.0
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),129,128,64,0,2.05,1.0,199,323.76,1.0
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),129,129,47,2,2.34,0.573,172,343.87,1.0

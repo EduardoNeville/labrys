@@ -1,0 +1,76 @@
+pattern_type,word,phonetic_sequence,frequency,description
+adjacent_cv_cv,𐝫𐘦𐘯𐘘𐘽𐙅𐘾𐄓𐘾𐄒𐘾𐄔𐘘𐙀𐘅𐘾𐄒𐘞𐘿𐘭,𐘦𐘯𐘘𐘽𐙅𐘾𐘾𐘾𐘘𐙀𐘅𐘾𐘞𐘿𐘭,1,"Adjacent CV-CV reduplication (e.g., a-sa-sa)"
+adjacent_cv_cv,𐙅𐘤𐙈𐘾𐄉𐘾𐝫𐝫𐙁𐝫𐝫𐘾𐝫𐝫𐄊𐜋𐄉𐘾𐄇𐜋𐄇𐝫𐘾𐄇𐜋𐄈𐘾𐘂𐝆𐝫𐜋𐄌𐝆,𐙅𐘤𐙈𐘾𐘾𐙁𐘾𐘾𐘾𐘾𐘂,1,"Adjacent CV-CV reduplication (e.g., a-sa-sa)"
+initial_sign_reduplication,𐙂𐙂𐘀𐘴𐄇𐘺𐘞𐘚𐘠𐄇𐘀𐘻𐘯𐄇𐘀𐘗𐙂𐘠𐄇𐘸𐘀𐘁𐄇,𐙂𐙂𐘀𐘴𐘺𐘞𐘚𐘠𐘀𐘻𐘯𐘀𐘗𐙂𐘠𐘸𐘀𐘁,1,First sign immediately repeated (C1-C1-...)
+initial_sign_reduplication,𐘠𐘠𐙂,𐘠𐘠𐙂,2,First sign immediately repeated (C1-C1-...)
+initial_sign_reduplication,𐘸𐘸𐘴𐘱,𐘸𐘸𐘴𐘱,1,First sign immediately repeated (C1-C1-...)
+initial_sign_reduplication,𐘸𐘸𐘅𐄍𐘸𐘁,𐘸𐘸𐘅𐘸𐘁,1,First sign immediately repeated (C1-C1-...)
+initial_sign_reduplication,𐙗𐄌𐝫𐝫𐙗𐝃𐙼𐄈𐙗𐝇𐝫𐝫𐘝𐝃𐛨𐄈𐝫𐙗𐝫𐝫,𐙗𐙗𐙼𐙗𐘝𐛨𐙗,1,First sign immediately repeated (C1-C1-...)
+initial_sign_reduplication,𐝫𐘤𐝫𐘤𐘍𐘗𐙠,𐘤𐘤𐘍𐘗𐙠,1,First sign immediately repeated (C1-C1-...)
+initial_sign_reduplication,𐘆𐘆𐘺𐘴𐘋𐝫𐘷,𐘆𐘆𐘺𐘴𐘋𐘷,1,First sign immediately repeated (C1-C1-...)
+initial_sign_reduplication,𐘆𐘆𐝫𐝫𐘓𐄐𐄉𐘱𐘸𐝫𐝫𐘸𐝫𐝫,𐘆𐘆𐘓𐘱𐘸𐘸,1,First sign immediately repeated (C1-C1-...)
+initial_sign_repeated,𐘱𐘳𐘚𐙕𐘉𐘱,𐘱𐘳𐘚𐙕𐘉𐘱,1,First sign repeated later in word
+initial_sign_repeated,𐘇𐘴𐝫𐝫𐝫𐘇𐘲𐘻𐙈𐝫𐝫𐘗𐄈𐝆𐘇𐘂𐝫𐝫𐘻𐘸𐘞𐘗𐝫,𐘇𐘴𐘇𐘲𐘻𐙈𐘗𐘇𐘂𐘻𐘸𐘞𐘗,1,First sign repeated later in word
+initial_sign_repeated,𐝫𐘤𐝫𐘾𐝄𐘤𐄈𐘀𐝫𐘤𐘀𐘁𐝃𐝫𐝫𐘈𐝫𐝫,𐘤𐘾𐘤𐘀𐘤𐘀𐘁𐘈,1,First sign repeated later in word
+initial_sign_repeated,𐘀𐙂𐘈𐘗𐘠𐄓𐄋𐝆𐘚𐘬𐘠𐄑𐝆𐘂𐘀𐘲𐘠𐄑𐄏𐙂𐘁𐄘𐄋,𐘀𐙂𐘈𐘗𐘠𐘚𐘬𐘠𐘂𐘀𐘲𐘠𐙂𐘁,1,First sign repeated later in word
+initial_sign_repeated,𐘀𐘙𐄐𐄌𐝆𐘉𐙱𐘍𐄊𐙕𐄌𐘉𐙱𐘍𐄐𐄊𐝫𐙙𐘘𐄈𐝆𐘀𐘭𐘀𐄎𐘋𐘍𐄉,𐘀𐘙𐘉𐙱𐘍𐙕𐘉𐙱𐘍𐙙𐘘𐘀𐘭𐘀𐘋𐘍,1,First sign repeated later in word
+initial_sign_repeated,𐘚𐝆𐙚𐘹𐘱𐄇𐘇𐘚𐝫𐄇𐜞𐄇𐙂𐘳𐝫,𐘚𐙚𐘹𐘱𐘇𐘚𐙂𐘳,1,First sign repeated later in word
+initial_sign_repeated,𐙉𐄓𐜉𐄋𐛉𐙉𐄐𐄌𐜓𐄇𐜗𐄌𐙋𐄉𐘢𐘟𐘃𐙉𐄋𐙖𐝫𐄋𐜗𐄇𐛺𐄈𐘤𐘸𐘗𐙉𐄐𐄈𐙘𐄐𐄈𐘌𐘯𐙁𐙉𐄑𐙘𐄉,𐙉𐛉𐙉𐙋𐘢𐘟𐘃𐙉𐙖𐛺𐘤𐘸𐘗𐙉𐙘𐘌𐘯𐙁𐙉𐙘,1,First sign repeated later in word
+initial_sign_repeated,𐘉𐘲𐄇𐘻𐘹𐄇𐙂𐘴𐘕𐄇𐙁𐘘𐄇𐙂𐘰𐘯𐄇𐘹𐘶𐙁𐄇𐘉𐘆𐘻𐄇𐘻𐘘𐘳𐘴𐘙𐄇𐘃𐘱𐘙𐄇𐘅𐘀𐘙𐄇𐙂𐘁𐄐—𐘞𐘳,𐘉𐘲𐘻𐘹𐙂𐘴𐘕𐙁𐘘𐙂𐘰𐘯𐘹𐘶𐙁𐘉𐘆𐘻𐘻𐘘𐘳𐘴𐘙𐘃𐘱𐘙𐘅𐘀𐘙𐙂𐘁𐘞𐘳,1,First sign repeated later in word
+initial_sign_repeated,𐙂𐙂𐘀𐘴𐄇𐘺𐘞𐘚𐘠𐄇𐘀𐘻𐘯𐄇𐘀𐘗𐙂𐘠𐄇𐘸𐘀𐘁𐄇,𐙂𐙂𐘀𐘴𐘺𐘞𐘚𐘠𐘀𐘻𐘯𐘀𐘗𐙂𐘠𐘸𐘀𐘁,1,First sign repeated later in word
+initial_sign_repeated,𐙁𐘆𐄐𐄋𐘸𐄐𐘌𐘌𐘘𐄌𐘸𐄊𐘇𐘭𐘲𐄊𐘸𐄇𐘭𐘘𐙁𐄐𐙂𐘁𐄒𐘸𐄐𐄋𐝫,𐙁𐘆𐘸𐘌𐘌𐘘𐘸𐘇𐘭𐘲𐘸𐘭𐘘𐙁𐙂𐘁𐘸,1,First sign repeated later in word
+initial_sign_repeated,𐘀𐘋𐛷𐄖𐄊𐛭𐄕𐄈𐝆𐝀𐘀𐘉𐘪,𐘀𐘋𐛷𐛭𐘀𐘉𐘪,1,First sign repeated later in word
+initial_sign_repeated,𐘚𐛭𐄑𐘸𐘙𐘳𐘅𐛳𐄕𐛭𐄓𐄎𐘂𐘚𐘄𐄉𐝂,𐘚𐛭𐘸𐘙𐘳𐘅𐛳𐛭𐘂𐘚𐘄,1,First sign repeated later in word
+initial_sign_repeated,𐝫𐘆𐄇𐘃𐘸𐄈𐘌𐙠𐘚𐄉𐘱𐘻𐘀𐘙𐄇𐘤𐘀𐘙𐄇𐙰𐘆𐘴𐄇𐘂𐘦𐄇𐙂𐘰𐘯𐄇𐘂𐘳𐘗𐄇𐙚𐘹𐄇𐝫𐘬𐄇𐙂𐘰𐘯𐄇𐘀𐘭𐘀𐄇𐙂𐘁𐄒𐄇𐙂𐘀𐄇,𐘆𐘃𐘸𐘌𐙠𐘚𐘱𐘻𐘀𐘙𐘤𐘀𐘙𐙰𐘆𐘴𐘂𐘦𐙂𐘰𐘯𐘂𐘳𐘗𐙚𐘹𐘬𐙂𐘰𐘯𐘀𐘭𐘀𐙂𐘁𐙂𐘀,1,First sign repeated later in word
+initial_sign_repeated,𐙋𐄒𐄇𐙜𐄎𐝃𐘸𐘁𐄇𐝎𐘫𐙍𐙋𐄒𐄇𐝆𐙜𐄎𐝕𐘸𐘁𐝎𐘞𐘘𐙋𐄐𐄌𐙜𐄊𐝀𐝫𐝫𐘸𐘁𐝕𐘀𐘹𐙋𐄐𐄋𐙜𐄊𐝃𐘸𐘁𐝕𐙂𐘁𐙋𐄘𐄉𐝆𐙜,𐙋𐙜𐘸𐘁𐘫𐙍𐙋𐙜𐘸𐘁𐘞𐘘𐙋𐙜𐘸𐘁𐘀𐘹𐙋𐙜𐘸𐘁𐙂𐘁𐙋𐙜,1,First sign repeated later in word
+initial_sign_repeated,𐝫𐄇𐘉𐝫𐝫𐝆𐘤𐘆𐘱𐄇𐝫𐝫𐘉𐘪𐄇𐘢𐝫𐝫𐄕𐄈𐝫𐝫𐄈𐝫𐝫,𐘉𐘤𐘆𐘱𐘉𐘪𐘢,1,First sign repeated later in word
+initial_sign_repeated,𐛲𐄌𐙇𐙵𐛲𐄇𐘘𐝫,𐛲𐙇𐙵𐛲𐘘,1,First sign repeated later in word
+initial_sign_repeated,𐘻𐘾𐝫𐝫𐄇𐘅𐘐𐘗𐝫𐝫𐘻𐄈,𐘻𐘾𐘅𐘐𐘗𐘻,1,First sign repeated later in word
+initial_sign_repeated,𐙉𐄒𐜗𐄉𐜉𐄉𐙘𐄏𐙋𐄐𐄉𐘇𐘜𐘅𐘬𐙉𐄓𐄋𐜗𐄋𐜉𐄊𐙘𐄌𐙋𐄐𐄊,𐙉𐙘𐙋𐘇𐘜𐘅𐘬𐙉𐙘𐙋,1,First sign repeated later in word
+initial_sign_repeated,𐙂𐙁𐘶𐝃𐘿𐙂𐘙,𐙂𐙁𐘶𐘿𐙂𐘙,1,First sign repeated later in word
+initial_sign_repeated,𐙂𐙙𐝫𐝫𐘞𐘴𐘆𐄋𐙇𐄓𐄈𐙂𐘁𐄛𐄒𐄋𐙗𐄏𐝕𐝁𐘝𐄐𐝁𐙍𐄍,𐙂𐙙𐘞𐘴𐘆𐙇𐙂𐘁𐙗𐘝𐙍,1,First sign repeated later in word
+initial_sign_repeated,𐝫𐝫𐙁𐝫𐝫𐘆𐘅𐝫𐄈𐘿𐘽𐘱𐝫𐝫𐄈𐘆𐄈𐝫𐝫𐄊𐘕𐘘𐄇𐘘𐝫𐝫𐘤𐘹𐘽𐘙𐄋𐘆𐝫𐝫𐙂𐘰𐘯𐄉𐝫𐝫𐙁𐘆𐄈𐝫𐘀𐝫,𐙁𐘆𐘅𐘿𐘽𐘱𐘆𐘕𐘘𐘘𐘤𐘹𐘽𐘙𐘆𐙂𐘰𐘯𐙁𐘆𐘀,1,First sign repeated later in word
+initial_sign_repeated,𐘲𐝫𐝫𐘙𐘲𐝫𐝫𐝫𐄌𐝫𐘸𐙠𐘙𐄇𐘸𐘁,𐘲𐘙𐘲𐘸𐙠𐘙𐘸𐘁,1,First sign repeated later in word
+initial_sign_repeated,𐘀𐘭𐘀𐄐𐄈𐘰𐘝𐄐𐄈𐘉𐙱𐘍𐄌𐘀𐘤𐙈𐄑𐄊𐙂𐙀𐘝𐄋𐘃𐘥𐄉𐘀𐘙𐄊𐙂𐘁𐝫𐝫𐄕𐄌,𐘀𐘭𐘀𐘰𐘝𐘉𐙱𐘍𐘀𐘤𐙈𐙂𐙀𐘝𐘃𐘥𐘀𐘙𐙂𐘁,1,First sign repeated later in word
+initial_sign_repeated,𐘸𐘸𐘅𐄍𐘸𐘁,𐘸𐘸𐘅𐘸𐘁,1,First sign repeated later in word
+initial_sign_repeated,𐙂𐘰𐘰𐄇𐘾𐘶𐄇𐙂𐘰𐘯𐄇𐘂𐘱𐘙𐄇𐘞𐙁𐘁𐄇𐘀𐘳𐘙𐄇𐙂𐘁𐄌,𐙂𐘰𐘰𐘾𐘶𐙂𐘰𐘯𐘂𐘱𐘙𐘞𐙁𐘁𐘀𐘳𐘙𐙂𐘁,1,First sign repeated later in word
+initial_sign_repeated,𐘚𐛭𐄋𐙇𐘚𐄌𐘦𐘶𐙂𐄇𐝆𐘵𐘠𐝫,𐘚𐛭𐙇𐘚𐘦𐘶𐙂𐘵𐘠,1,First sign repeated later in word
+initial_sign_repeated,𐄉𐘀𐘭𐘀𐚦𐄈𐚃𐄈𐘰𐘝𐘅𐝫𐝫𐘂𐘈𐘱𐄑𐙇𐄐𐝄𐝫𐝫𐘾𐄊,𐘀𐘭𐘀𐚦𐚃𐘰𐘝𐘅𐘂𐘈𐘱𐙇𐘾,1,First sign repeated later in word
+initial_sign_repeated,𐘚𐘅𐘚𐘀𐝫,𐘚𐘅𐘚𐘀,1,First sign repeated later in word
+initial_sign_repeated,𐘚𐘅𐘳𐘚𐙀𐘆𐘤𐘾,𐘚𐘅𐘳𐘚𐙀𐘆𐘤𐘾,1,First sign repeated later in word
+initial_sign_repeated,𐙗𐄌𐝫𐝫𐙗𐝃𐙼𐄈𐙗𐝇𐝫𐝫𐘝𐝃𐛨𐄈𐝫𐙗𐝫𐝫,𐙗𐙗𐙼𐙗𐘝𐛨𐙗,1,First sign repeated later in word
+initial_sign_repeated,𐘣𐘞𐘞𐘗𐜚𐄈𐜂𐄈𐘣𐘅𐘬,𐘣𐘞𐘞𐘗𐘣𐘅𐘬,1,First sign repeated later in word
+initial_sign_repeated,𐝫𐘤𐘚𐘤𐄉𐝫𐄊𐘹𐝫𐝫,𐘤𐘚𐘤𐘹,1,First sign repeated later in word
+initial_sign_repeated,𐘇𐘤𐘲𐘊𐘇,𐘇𐘤𐘲𐘊𐘇,1,First sign repeated later in word
+initial_sign_repeated,𐜙𐝆𐝫𐝫𐄈𐙗𐝃𐙍𐝫𐝫𐙗𐝃𐝉𐝫𐝫𐝎𐛌𐙘𐄇𐝫,𐙗𐙍𐙗𐛌𐙘,1,First sign repeated later in word
+initial_sign_repeated,𐝫𐝫𐘇𐘂𐝫𐘇𐘾𐘳𐝫𐝫,𐘇𐘂𐘇𐘾𐘳,1,First sign repeated later in word
+initial_sign_repeated,𐘇𐘙𐘗𐘤𐘆𐙕𐘢𐘥𐘂𐘱𐘳𐘭𐘈𐘃𐘭𐘕𐘇𐘱𐙂,𐘇𐘙𐘗𐘤𐘆𐙕𐘢𐘥𐘂𐘱𐘳𐘭𐘈𐘃𐘭𐘕𐘇𐘱𐙂,1,First sign repeated later in word
+initial_sign_repeated,𐘠𐘆𐘃𐘌𐘠,𐘠𐘆𐘃𐘌𐘠,1,First sign repeated later in word
+initial_sign_repeated,𐝫𐘉𐘅𐘅𐄉𐝫𐘱𐙁𐘉𐘠𐄌,𐘉𐘅𐘅𐘱𐙁𐘉𐘠,1,First sign repeated later in word
+initial_sign_repeated,𐝫𐝫𐘓𐄈𐘐𐄇𐝫𐝫𐘬𐘭𐘔𐄇𐘹𐝫𐝫𐘗𐘔𐄇𐘓𐄋𐘃𐘭𐘑𐝫𐝫𐄇𐘭𐘘𐙁𐘠𐘑𐙄𐘤𐘙𐘇𐘻𐘀𐘵𐘔𐄇𐝫,𐘓𐘐𐘬𐘭𐘔𐘹𐘗𐘔𐘓𐘃𐘭𐘑𐘭𐘘𐙁𐘠𐘑𐙄𐘤𐘙𐘇𐘻𐘀𐘵𐘔,1,First sign repeated later in word
+initial_sign_repeated,𐝫𐘆𐘴𐘆𐘅𐙨,𐘆𐘴𐘆𐘅𐙨,1,First sign repeated later in word
+initial_sign_repeated,𐘇𐘭𐘚𐙀𐘭𐘝𐘳𐘇𐘭𐘚𐘀𐘰𐘚𐘞𐘭,𐘇𐘭𐘚𐙀𐘭𐘝𐘳𐘇𐘭𐘚𐘀𐘰𐘚𐘞𐘭,1,First sign repeated later in word
+initial_sign_repeated,𐝫𐝫𐘆𐘂𐘱𐝫𐝫𐘉𐘆𐘭𐘸𐝫𐝫𐘱𐘘𐙁𐘗𐝫𐝫𐘱𐘤𐘀𐘴𐝫,𐘆𐘂𐘱𐘉𐘆𐘭𐘸𐘱𐘘𐙁𐘗𐘱𐘤𐘀𐘴,1,First sign repeated later in word
+initial_sign_repeated,𐘇𐘺𐘇𐘗,𐘇𐘺𐘇𐘗,1,First sign repeated later in word
+initial_sign_repeated,𐘱𐘲𐙁𐘹𐙋𐄇𐘉𐘅𐘾𐘅𐘤𐙖𐘇𐘱,𐘱𐘲𐙁𐘹𐙋𐘉𐘅𐘾𐘅𐘤𐙖𐘇𐘱,1,First sign repeated later in word
+initial_sign_repeated,𐘇𐙕𐘸𐘳𐘇,𐘇𐙕𐘸𐘳𐘇,1,First sign repeated later in word
+initial_sign_repeated,𐄊𐘤𐘃𐘹𐄇𐘤𐘹𐄌𐘃𐙌𐄐𐄈𐘘𐙁𐘳𐘈𐄉𐙂𐘴𐄙𐄒𐝫,𐘤𐘃𐘹𐘤𐘹𐘃𐙌𐘘𐙁𐘳𐘈𐙂𐘴,1,First sign repeated later in word
+initial_sign_repeated,𐝫𐘓𐄇𐝫𐝫𐄌𐘬𐘶𐝫𐘓𐄙𐝫,𐘓𐘬𐘶𐘓,1,First sign repeated later in word
+initial_sign_repeated,𐘝𐝆𐙂𐘹𐘺𐘙𐝂𐝂𐘇𐘭𐘝𐘳𐄇𐝫𐝁𐝁𐘳𐘚𐘯𐙁𐘂𐝆𐙁𐘾𐘚𐘈𐄈𐝃𐝆𐘀𐘚𐘢𐘳𐄈𐝆𐘾𐘚𐘁𐄊𐝁𐝁,𐘝𐙂𐘹𐘺𐘙𐘇𐘭𐘝𐘳𐘳𐘚𐘯𐙁𐘂𐙁𐘾𐘚𐘈𐘀𐘚𐘢𐘳𐘾𐘚𐘁,1,First sign repeated later in word
+internal_disyllabic_redup,𐝫𐘚𐙂𐘰𐘅𐘹𐘅𐘃𐝫𐝫𐘢𐘻𐘅𐘃,𐘚𐙂𐘰𐘅𐘹𐘅𐘃𐘢𐘻𐘅𐘃,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐝫𐘤𐝫𐘾𐝄𐘤𐄈𐘀𐝫𐘤𐘀𐘁𐝃𐝫𐝫𐘈𐝫𐝫,𐘤𐘾𐘤𐘀𐘤𐘀𐘁𐘈,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐘝𐄓𐘰𐘀𐙂𐘈𐘗𐝫𐝫𐄌𐝆𐙓𐄐𐄉𐘀𐙂𐘅𐄇𐘀𐙂𐘈𐘗𐄇𐘸𐘴𐄋𐝆,𐘝𐘰𐘀𐙂𐘈𐘗𐙓𐘀𐙂𐘅𐘀𐙂𐘈𐘗𐘸𐘴,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐘀𐘙𐄐𐄌𐝆𐘉𐙱𐘍𐄊𐙕𐄌𐘉𐙱𐘍𐄐𐄊𐝫𐙙𐘘𐄈𐝆𐘀𐘭𐘀𐄎𐘋𐘍𐄉,𐘀𐘙𐘉𐙱𐘍𐙕𐘉𐙱𐘍𐙙𐘘𐘀𐘭𐘀𐘋𐘍,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐙉𐄓𐜉𐄋𐛉𐙉𐄐𐄌𐜓𐄇𐜗𐄌𐙋𐄉𐘢𐘟𐘃𐙉𐄋𐙖𐝫𐄋𐜗𐄇𐛺𐄈𐘤𐘸𐘗𐙉𐄐𐄈𐙘𐄐𐄈𐘌𐘯𐙁𐙉𐄑𐙘𐄉,𐙉𐛉𐙉𐙋𐘢𐘟𐘃𐙉𐙖𐛺𐘤𐘸𐘗𐙉𐙘𐘌𐘯𐙁𐙉𐙘,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐝫𐘆𐄇𐘃𐘸𐄈𐘌𐙠𐘚𐄉𐘱𐘻𐘀𐘙𐄇𐘤𐘀𐘙𐄇𐙰𐘆𐘴𐄇𐘂𐘦𐄇𐙂𐘰𐘯𐄇𐘂𐘳𐘗𐄇𐙚𐘹𐄇𐝫𐘬𐄇𐙂𐘰𐘯𐄇𐘀𐘭𐘀𐄇𐙂𐘁𐄒𐄇𐙂𐘀𐄇,𐘆𐘃𐘸𐘌𐙠𐘚𐘱𐘻𐘀𐘙𐘤𐘀𐘙𐙰𐘆𐘴𐘂𐘦𐙂𐘰𐘯𐘂𐘳𐘗𐙚𐘹𐘬𐙂𐘰𐘯𐘀𐘭𐘀𐙂𐘁𐙂𐘀,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐙇𐝫𐝫𐙚𐘸𐘷𐄍𐝫𐝫𐘇𐘴𐘶𐘉𐘦𐘍𐄈𐘌𐘌𐘘𐄈𐘆𐄈𐘀𐘙𐄈𐙂𐘁𐄕𐄋𐘊𐘄𐙂𐘁𐄘𐄍,𐙇𐙚𐘸𐘷𐘇𐘴𐘶𐘉𐘦𐘍𐘌𐘌𐘘𐘆𐘀𐘙𐙂𐘁𐘊𐘄𐙂𐘁,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐙋𐄒𐄇𐙜𐄎𐝃𐘸𐘁𐄇𐝎𐘫𐙍𐙋𐄒𐄇𐝆𐙜𐄎𐝕𐘸𐘁𐝎𐘞𐘘𐙋𐄐𐄌𐙜𐄊𐝀𐝫𐝫𐘸𐘁𐝕𐘀𐘹𐙋𐄐𐄋𐙜𐄊𐝃𐘸𐘁𐝕𐙂𐘁𐙋𐄘𐄉𐝆𐙜,𐙋𐙜𐘸𐘁𐘫𐙍𐙋𐙜𐘸𐘁𐘞𐘘𐙋𐙜𐘸𐘁𐘀𐘹𐙋𐙜𐘸𐘁𐙂𐘁𐙋𐙜,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐙉𐄒𐜗𐄉𐜉𐄉𐙘𐄏𐙋𐄐𐄉𐘇𐘜𐘅𐘬𐙉𐄓𐄋𐜗𐄋𐜉𐄊𐙘𐄌𐙋𐄐𐄊,𐙉𐙘𐙋𐘇𐘜𐘅𐘬𐙉𐙘𐙋,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐙅𐘤𐙈𐘾𐄉𐘾𐝫𐝫𐙁𐝫𐝫𐘾𐝫𐝫𐄊𐜋𐄉𐘾𐄇𐜋𐄇𐝫𐘾𐄇𐜋𐄈𐘾𐘂𐝆𐝫𐜋𐄌𐝆,𐙅𐘤𐙈𐘾𐘾𐙁𐘾𐘾𐘾𐘾𐘂,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐝫𐝫𐙁𐝫𐝫𐘆𐘅𐝫𐄈𐘿𐘽𐘱𐝫𐝫𐄈𐘆𐄈𐝫𐝫𐄊𐘕𐘘𐄇𐘘𐝫𐝫𐘤𐘹𐘽𐘙𐄋𐘆𐝫𐝫𐙂𐘰𐘯𐄉𐝫𐝫𐙁𐘆𐄈𐝫𐘀𐝫,𐙁𐘆𐘅𐘿𐘽𐘱𐘆𐘕𐘘𐘘𐘤𐘹𐘽𐘙𐘆𐙂𐘰𐘯𐙁𐘆𐘀,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐙂𐘰𐘰𐄇𐘾𐘶𐄇𐙂𐘰𐘯𐄇𐘂𐘱𐘙𐄇𐘞𐙁𐘁𐄇𐘀𐘳𐘙𐄇𐙂𐘁𐄌,𐙂𐘰𐘰𐘾𐘶𐙂𐘰𐘯𐘂𐘱𐘙𐘞𐙁𐘁𐘀𐘳𐘙𐙂𐘁,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐘇𐘭𐘚𐙀𐘭𐘝𐘳𐘇𐘭𐘚𐘀𐘰𐘚𐘞𐘭,𐘇𐘭𐘚𐙀𐘭𐘝𐘳𐘇𐘭𐘚𐘀𐘰𐘚𐘞𐘭,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐝫𐘗𐘠𐄇𐘾𐘌𐄈—𐘇𐘬𐘍𐄇𐘷𐘳𐘙𐄇—𐘷𐘠𐘃𐄇𐘵𐘾𐘻𐘍𐘤𐘚𐘅𐄇—𐘵𐘃𐘱𐄇—𐘴𐘅𐘹𐘲𐄇𐘝𐘻𐄇—𐘹𐘲𐄇𐙁𐘠𐘍𐘚𐘃𐄇—𐙁𐘃𐘠𐄇𐙁𐘾𐘚𐘳𐄇,𐘗𐘠𐘾𐘌𐘇𐘬𐘍𐘷𐘳𐘙𐘷𐘠𐘃𐘵𐘾𐘻𐘍𐘤𐘚𐘅𐘵𐘃𐘱𐘴𐘅𐘹𐘲𐘝𐘻𐘹𐘲𐙁𐘠𐘍𐘚𐘃𐙁𐘃𐘠𐙁𐘾𐘚𐘳,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐘝𐝆𐙂𐘹𐘺𐘙𐝂𐝂𐘇𐘭𐘝𐘳𐄇𐝫𐝁𐝁𐘳𐘚𐘯𐙁𐘂𐝆𐙁𐘾𐘚𐘈𐄈𐝃𐝆𐘀𐘚𐘢𐘳𐄈𐝆𐘾𐘚𐘁𐄊𐝁𐝁,𐘝𐙂𐘹𐘺𐘙𐘇𐘭𐘝𐘳𐘳𐘚𐘯𐙁𐘂𐙁𐘾𐘚𐘈𐘀𐘚𐘢𐘳𐘾𐘚𐘁,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐘍𐝫𐝫𐘴𐚽𐄋𐝫𐝫𐘁𐘤𐘴𐝫𐚽𐄊𐘇𐘳𐘅𐝫,𐘍𐘴𐚽𐘁𐘤𐘴𐚽𐘇𐘳𐘅,1,Internal disyllabic reduplication (non-adjacent)
+internal_disyllabic_redup,𐙍𐄒𐄈𐘆𐘆𐘾𐘈𐘇𐘞𐘕𐘗𐘇𐘈𐘇𐘳𐘚𐙕𐘦𐘾,𐙍𐘆𐘆𐘾𐘈𐘇𐘞𐘕𐘗𐘇𐘈𐘇𐘳𐘚𐙕𐘦𐘾,1,Internal disyllabic reduplication (non-adjacent)

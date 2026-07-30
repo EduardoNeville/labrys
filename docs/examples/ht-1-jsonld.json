@@ -1,0 +1,194 @@
+{
+  "@context": "https://schema.lineara.org/context/linear-a-v1.jsonld",
+  "@id": "https://data.lineara.org/inscription/HT_1",
+  "@type": "linearA:Inscription",
+  "gorilaId": "HT 1",
+  "alternativeIds": ["GORILA 1.1", "HM 1234"],
+
+  "findspot": {
+    "site": "Hagia Triada",
+    "siteCode": "HT",
+    "coordinates": { "lat": 35.0589, "lon": 24.7894 },
+    "context": "Villa Reale, Room 4, LM IB destruction layer"
+  },
+
+  "date": {
+    "minoanPeriod": "LM IB",
+    "bceRange": { "from": -1500, "to": -1450 },
+    "notes": "Late Minoan IB destruction horizon"
+  },
+
+  "material": "clay",
+  "objectType": "page-shaped tablet",
+
+  "preservation": {
+    "state": "nearly complete",
+    "description": "Left edge chipped, surface worn on lines 4–5. Most signs legible."
+  },
+
+  "dimensions": {
+    "height": 85,
+    "width": 120,
+    "depth": 15,
+    "unit": "mm"
+  },
+
+  "currentLocation": {
+    "institution": "Heraklion Archaeological Museum",
+    "collection": "Minoan Collection",
+    "inventoryNumber": "HM 1234"
+  },
+
+  "publication": {
+    "citation": "GORILA 1, pp. 10–15, pl. II–III",
+    "doi": "10.1234/gorila.v1"
+  },
+
+  "bibliography": [
+    {
+      "citation": "Palaima, T.G. (1988). The Scribes of Pylos. Edizioni dell'Ateneo.",
+      "pages": "45–48"
+    },
+    {
+      "citation": "Salgarella, E. (2020). Aegean Linear Script(s). Cambridge University Press.",
+      "pages": "102–105"
+    }
+  ],
+
+  "language": "emn",
+
+  "paleography": {
+    "scribalHandId": "https://data.lineara.org/hand/HT_Hand_1",
+    "scribalHandCertainty": 0.9,
+    "ductusNotes": "Standard HT administrative hand. Signs well-formed, consistent ductus. Same scribe as HT 2–8.",
+    "writingMethod": "incised (pre-firing)"
+  },
+
+  "signs": [
+    {
+      "sequence": 1,
+      "bennettId": "AB 02",
+      "unicode": "U+10602",
+      "character": "𐘂",
+      "transliteration": "ro",
+      "confidence": 1.0,
+      "signType": "syllabogram",
+      "siglaVariantId": "https://sigla.phis.me/variant/AB02_v1",
+      "shapeClass": "standard",
+      "isLigatureComponent": false,
+      "erasure": false,
+      "boundingBox": {
+        "x": 10, "y": 5, "width": 8, "height": 12, "unit": "px"
+      }
+    },
+    {
+      "sequence": 2,
+      "bennettId": "AB 26",
+      "unicode": "U+1061A",
+      "character": "𐘚",
+      "transliteration": "ru",
+      "confidence": 0.95,
+      "signType": "syllabogram",
+      "shapeClass": "standard",
+      "boundingBox": {
+        "x": 20, "y": 5, "width": 8, "height": 12, "unit": "px"
+      }
+    },
+    {
+      "sequence": 3,
+      "bennettId": "A 338",
+      "unicode": "U+1065C",
+      "character": "𐙜",
+      "confidence": 1.0,
+      "signType": "logogram",
+      "semantics": {
+        "logogramOf": "wheat",
+        "commodity": "grain (wheat)",
+        "numericValue": 12,
+        "unit": "measures"
+      },
+      "boundingBox": {
+        "x": 32, "y": 3, "width": 16, "height": 15, "unit": "px"
+      }
+    },
+    {
+      "sequence": 4,
+      "bennettId": "AB 01",
+      "unicode": "U+10601",
+      "transliteration": "da",
+      "confidence": 0.80,
+      "signType": "syllabogram",
+      "shapeClass": "standard"
+    },
+    {
+      "sequence": 5,
+      "bennettId": "AB 80",
+      "unicode": "U+10650",
+      "transliteration": "ma",
+      "confidence": 0.70,
+      "signType": "syllabogram",
+      "shapeClass": "variant_a"
+    },
+    {
+      "sequence": 6,
+      "bennettId": "AB ??",
+      "confidence": 0.15,
+      "signType": "uncertain",
+      "transliteration": "[?]"
+    }
+  ],
+
+  "structure": {
+    "side": "recto",
+    "lines": [
+      { "number": 1, "signSequences": [1, 2, 3], "ruling": true, "damaged": false },
+      { "number": 2, "signSequences": [4, 5, 6], "ruling": false, "damaged": true }
+    ],
+    "wordDividers": [
+      { "afterSignSequence": 2, "type": "verticalStroke" }
+    ],
+    "words": [
+      { "signSequences": [1, 2], "transliteration": "ro-ru" },
+      { "signSequences": [3], "transliteration": "GRAIN" },
+      { "signSequences": [4, 5], "transliteration": "da-ma" }
+    ],
+    "lacunae": [
+      { "position": 6, "estimatedSigns": 2, "reason": "surface lost" }
+    ]
+  },
+
+  "relations": {
+    "linearB": [
+      { "dmicId": "DMic 02", "phoneticValue": "ro", "notes": "Same graphic form as Linear B 02 (ro)" },
+      { "dmicId": "DMic 26", "phoneticValue": "ru", "notes": "Same graphic form as Linear B 26 (ru)" }
+    ],
+    "cretanHieroglyphic": [
+      { "signId": "CH 002", "notes": "Possible hieroglyphic prototype for AB 02" }
+    ],
+    "relatedInscriptions": ["HT 2", "HT 3", "HT 4"],
+    "scholarlyNotes": [
+      "The sequence ro-ru likely represents a personal name or toponym.",
+      "A 338 is a grain logogram, possibly for wheat."
+    ]
+  },
+
+  "images": [
+    {
+      "iiifServiceUrl": "https://iiif.heraklion-museum.gr/iiif/2/HM_1234",
+      "iiifManifestUrl": "https://iiif.heraklion-museum.gr/iiif/HM_1234/manifest",
+      "credit": "Heraklion Archaeological Museum / École Française d'Athènes",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "type": "photograph",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "iiifServiceUrl": "https://iiif.heraklion-museum.gr/iiif/2/HM_1234_IR",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "type": "MSI",
+      "msiBand": "infrared 940nm",
+      "width": 4000,
+      "height": 3000
+    }
+  ]
+}

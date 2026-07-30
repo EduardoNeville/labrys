@@ -1,0 +1,246 @@
+{
+  "survey_title": "Digital Resources for Linear A - Comprehensive Survey",
+  "date": "2026-07-30",
+  "resources": [
+    {
+      "id": 1,
+      "name": "SigLA (The Signs of Linear A: a Palaeographical Database)",
+      "url": "https://sigla.phis.me/",
+      "what_it_offers": "Interactive web database of all Linear A inscriptions with paleographical analysis. Browse by document, sign, sequence. Interactive images with highlighted sign attestations, word views. Quick search by site, document type, sign, word. Complex search with grouping/sorting criteria.",
+      "api": "No documented REST API. The entire dataset is shipped client-side as a 2.5MB JavaScript file (database.js). All functionality is client-side JS (sigilWeb.bc.js). No public API endpoints.",
+      "download": "No direct bulk download link. The dataset is embedded in the website's database.js file, which can be scraped. The raw data is accessible only through the browser JS bundle.",
+      "data_format": "Custom JS object serialization in database.js. Data is structured internally but not in a standard interchange format (no XML/JSON download).",
+      "license": "CC BY-NC-SA 4.0",
+      "coverage": "All tablets from GORILA at: Arkhanes, Khania, Mallia, Phaistos, Knossos, Tylissos, Zakros, Hagia Triada (HT 1-133+). As of Jan 2021: HT 64-133 added. Continuously growing.",
+      "last_updated": "Beta - ongoing updates (last visible news entry: January 2021). Actively maintained (site accessed 2026).",
+      "machine_readable": "Partially. The database.js file is JavaScript, not a standard data interchange format. Programmatic extraction is possible but requires parsing the custom JS format. No CSV/JSON/XML export.",
+      "contact": "Ester Salgarella (es636@cam.ac.uk), Simon Castellan (simon@phis.me)"
+    },
+    {
+      "id": 2,
+      "name": "Winterstein et al. 2015 - Linear A Digital Corpus (TEI/XML)",
+      "url_paper": "https://aclanthology.org/W15-3715/",
+      "url_data": "http://hdl.handle.net/10220/40744 (NTU repository - behind WAF challenge)",
+      "what_it_offers": "XML-TEI EpiDoc corpus of 1,427 Linear A documents (7,362-7,396 signs). Converted from John Younger's HTML transcriptions to Unicode Linear A characters. Uses EpiDoc (TEI DTD for Epigraphy).",
+      "data_format": "XML/TEI-EpiDoc",
+      "license": "Not explicitly stated. The paper is published by ACL (CC-BY likely for the paper). Dataset license unclear.",
+      "coverage": "1,427 Linear A documents (75.5% of GORILA corpus). Based on Younger's 1,077 transcriptions plus supplements.",
+      "last_updated": "2015 (paper published). Dataset likely frozen since then.",
+      "machine_readable": "Yes - XML/TEI-EpiDoc is fully machine-readable and well-structured. Unicode characters used.",
+      "downloadable": "Dataset hosted at NTU repository (handle.net/10220/40744) but currently behind AWS WAF CAPTCHA challenge. Not easily downloadable without browser interaction.",
+      "authors": "Tommaso Petrolito, Ruggero Petrolito, Grégoire Winterstein, Francesco Perono Cacciafoco",
+      "note": "The dataset appears to have been taken offline or is difficult to access. The paper describes it thoroughly but the actual XML files may no longer be publicly accessible."
+    },
+    {
+      "id": 3,
+      "name": "GORILA (Recueil des inscriptions en Linéaire A) - Digitization Status",
+      "url_reference": "https://en.wikipedia.org/wiki/GORILA",
+      "what_it_offers": "GORILA by Louis Godart and Jean-Pierre Olivier (5 volumes, published 1976-1985) is the standard corpus of all known Linear A inscriptions. Contains catalog of symbols/numeric codes, document indexes, photos, drawings, and handmade transcriptions.",
+      "digitization_status": {
+        "fully_digitized_via": [
+          "John G. Younger's website (1,077 transcriptions - 75.5% of GORILA)",
+          "SigLA database (all tablets from major sites, growing)",
+          "mwenge/lineara.xyz (1,720 entries derived from GORILA)",
+          "Winterstein et al. 2015 TEI corpus (1,427 documents)"
+        ],
+        "still_only_in_print": "Approximately 25% of GORILA's 1,427 documents are not yet in any digital transcription. These include some fragmentary texts and lesser-known documents.",
+        "images": "GORILA photos and facsimiles are used in SigLA and lineara.xyz under rights from École Française d'Athènes. Full GORILA PDFs exist but are not openly licensed."
+      },
+      "data_format": "Print (paper). Digital derivatives in JSON, XML/TEI, JS, HTML.",
+      "license": "GORILA itself is copyright École Française d'Athènes. Derivative works have varying licenses.",
+      "last_updated": "1985 (final volume). Digital derivatives updated through 2026."
+    },
+    {
+      "id": 4,
+      "name": "Unicode Aegean Block (U+10600–U+1077F)",
+      "url": "https://www.unicode.org/charts/PDF/U10600.pdf",
+      "what_it_offers": "Unicode block encoding Linear A characters. 341 assigned characters out of 384 available code points. Includes simple signs (AB001-AB074+), complex signs, logograms, fractions, and ligatures.",
+      "character_inventory": {
+        "total_assigned": 341,
+        "total_block_size": 384,
+        "range": "U+10600 – U+10767",
+        "unassigned": 43,
+        "categories": [
+          "Simple syllabic signs (shared with Linear B)",
+          "Linear A-only syllabograms",
+          "Logograms / ideograms",
+          "Fraction signs (simple and compound)",
+          "Ligatures",
+          "Vase shapes"
+        ],
+        "unicode_version": "Unicode 7.0 (June 2014) first included Linear A. Latest: Unicode 17.0 (2025)."
+      },
+      "font_support": {
+        "fonts_available": [
+          "Aegean (George Douros) - free Unicode font",
+          "Noto Sans Linear A (Google) - SIL Open Font License",
+          "LA.ttf (Linear A Font) - available on CTAN",
+          "Symbola",
+          "ScriptSource, Google Fonts, etc."
+        ],
+        "coverage_gaps": "Not all 341 characters are covered by all fonts. Noto Sans Linear A has the best coverage. Some complex ligatures may not render in older fonts.",
+        "os_support": "Major OSes (Windows 10+, macOS 10.13+, Linux with appropriate fonts) support Linear A through Unicode."
+      }
+    },
+    {
+      "id": 5,
+      "name": "John G. Younger's Linear A Online Resources",
+      "url": "https://web.archive.org/web/20231222205430/http://www.people.ku.edu/~jyounger/LinearA/",
+      "original_url": "http://people.ku.edu/~jyounger/LinearA/ (currently offline/DNS resolution failure)",
+      "what_it_offers": "Comprehensive website with phonetic transcriptions of Linear A texts, commentary, vocabulary, sign lists, palaeographic charts, and a Linear A Lexicon.",
+      "data_format": "HTML pages with inline text. Sign charts as JPEG images. No structured data formats.",
+      "sections": [
+        "Linear A texts from Haghia Triada in phonetic transcription",
+        "Linear A texts from other sites in phonetic transcription",
+        "Linear A religious texts grouped separately",
+        "A Linear A Lexicon (forward and reverse)",
+        "Phonetic grids for Linear A & B",
+        "Common Linear A Ideograms / GORILA's sign charts and palaeographic sign charts",
+        "Vocabulary, grammar notes, numerals, fractions, metrology"
+      ],
+      "license": "Not explicitly stated. Original site was freely accessible.",
+      "coverage": "1,077 transcriptions (75.5% of GORILA), continuously updated from November 2000 to July 2023.",
+      "last_updated": "July 3, 2023 (via Wayback Machine snapshot)",
+      "machine_readable": "No. Data is in plain HTML tables and text. No structured exports. However, it has been programmatically scraped (e.g., by Winterstein et al. 2015 and mwenge/lineara.xyz).",
+      "status": "Site unavailable due to DNS resolution failure for people.ku.edu. Only accessible via Wayback Machine."
+    },
+    {
+      "id": 6,
+      "name": "GitHub Repositories and Open Datasets for Linear A",
+      "repos": [
+        {
+          "name": "mwenge/lineara.xyz",
+          "url": "https://github.com/mwenge/lineara.xyz",
+          "size": "38 stars, active (latest push July 2026)",
+          "description": "Explorer/viz tool for the Linear A corpus. Web-based (HTML/JS/CSS). Includes full dataset as JSON.",
+          "data_format": "JSON (inscriptions.json with 1,720 documents), includes images (GORILA facsimiles under ÉFA copyright)",
+          "license": "None (code). Images © École Française d'Athènes.",
+          "coverage": "1,720 entries covering all major sites (52 sites). Uses GORILA transcription data."
+        },
+        {
+          "name": "ryanpavlicek/linearaworkbench",
+          "url": "https://github.com/ryanpavlicek/linearaworkbench",
+          "size": "3 stars, active (latest push July 2026)",
+          "description": "Linear A Research Workbench - 50 interactive modules for corpus analysis. Browser SPA.",
+          "data_format": "JavaScript/TypeScript (React SPA). Uses lineara.xyz data upstream.",
+          "license": "Apache-2.0",
+          "coverage": "1,720+ entries (follows mwenge/lineara.xyz normalization)"
+        },
+        {
+          "name": "ryanpavlicek/pyaegean",
+          "url": "https://github.com/ryanpavlicek/pyaegean",
+          "size": "1 star, active (latest push July 2026)",
+          "description": "Python toolkit for Ancient Greek NLP and Aegean syllabic scripts (Linear A/B, Cypriot, Cypro-Minoan)",
+          "data_format": "Python library",
+          "license": "Apache-2.0"
+        },
+        {
+          "name": "sakamoto6000-png/linear-a-structural-analysis",
+          "url": "https://github.com/sakamoto6000-png/linear-a-structural-analysis",
+          "size": "2 stars, active (latest push April 2026)",
+          "description": "Structural/quantitative analysis of Linear A using non-phonetic methodology based on GORILA.",
+          "data_format": "Python/notebooks",
+          "license": "MIT"
+        },
+        {
+          "name": "elliottbolzan/Ariadne",
+          "url": "https://github.com/elliottbolzan/Ariadne",
+          "size": "1 star, last push July 2021",
+          "description": "Tool to construct the GORILA corpus of Linear A texts in PDF form.",
+          "data_format": "Python - generates PDFs",
+          "license": "None"
+        },
+        {
+          "name": "deemkeen/linear-a-arithmetic",
+          "url": "https://github.com/deemkeen/linear-a-arithmetic",
+          "size": "0 stars, active (latest push July 2026)",
+          "description": "Machine-checked arithmetic, hypothesis testing & apparatus mining over the Linear A corpus.",
+          "data_format": "Not specified",
+          "license": "NOASSERTION"
+        },
+        {
+          "name": "Astreocclu/linear-a-structural-analysis",
+          "url": "https://github.com/Astreocclu/linear-a-structural-analysis",
+          "description": "Information Density and Functional Structure analysis of Linear A corpus."
+        },
+        {
+          "name": "TJRoch/proto-minoan-grammar-model",
+          "url": "https://github.com/TJRoch/proto-minoan-grammar-model",
+          "description": "Predictive grammatical model of Proto-Minoan reconstructed from Linear A inscriptions."
+        },
+        {
+          "name": "pblerner18/minoann",
+          "url": "https://github.com/pblerner18/minoann",
+          "description": "c-GAN neural network for language recognition from transliterated fragments."
+        }
+      ],
+      "note": "Total 10+ repos. The ecosystem centers around mwenge/lineara.xyz JSON dataset which is the most comprehensive freely available structured corpus."
+    },
+    {
+      "id": 7,
+      "name": "INSCRIBE Project (Minoan Language Research Group, Bologna)",
+      "url": "https://site.unibo.it/inscribe/en",
+      "what_it_offers": "ERC-funded project 'Invention of Scripts and Their Beginnings' at University of Bologna. Comparative study of writing invention, including Aegean and Cypriot Bronze Age scripts. Research group working on Linear A among other scripts.",
+      "data_format": "Academic publications, conference presentations. No downloadable datasets found on the public site.",
+      "coverage": "Multi-script comparative research (not exclusively Linear A). Includes Linear A, Linear B, Cretan Hieroglyphic, Cypro-Minoan.",
+      "license": "Academic output, varying licenses.",
+      "last_updated": "Active project (ERC Consolidator Grant)",
+      "machine_readable": "No. Publications and project descriptions only.",
+      "publications": "Output includes books, articles, and conference papers on INSCRIBE site.",
+      "note": "The older name 'Minoan Language Research Group' may have been superseded by the INSCRIBE project. The direct URL site.unibo.it/minoan-language-research-group returns 404."
+    },
+    {
+      "id": 8,
+      "name": "Thesaurus of the Minoan Language (TML) Project",
+      "url": "No active website found. No publicly accessible online resource identified.",
+      "what_it_offers": "The Thesaurus of the Minoan Language project was referenced in some academic works but no active digital presence was found through searches. It may refer to a planned or discontinued project.",
+      "status": "Unable to locate a current website, repository, or dataset. May refer to an earlier proposal or a small academic project that is no longer publicly accessible. Could possibly be related to the work at Pisa or Bologna, but no direct evidence found.",
+      "data_format": "Unknown",
+      "license": "Unknown",
+      "coverage": "Unknown",
+      "last_updated": "Unknown",
+      "machine_readable": "Unknown"
+    },
+    {
+      "id": 9,
+      "name": "Image Databases: CMS (Corpus der Minoischen und Mykenischen Siegel), iDAI.objects/Arachne",
+      "url_cms": "https://www.cms.mainz.org/ (DNS resolution failure)",
+      "url_idai_objects": "https://arachne.dainst.org (redirects to https://idai.world/objects - SPA, anti-bot protected)",
+      "what_it_offers": "CMS is the comprehensive corpus of Minoan and Mycenaean seal stones, which often bear Linear A inscriptions. iDAI.objects (formerly Arachne) hosts the CMS image database with high-resolution photos of seals and other archaeological objects.",
+      "data_format": "Web interface (SPA). Images with metadata. No downloadable structured data for Linear A specifically.",
+      "api": "iDAI.world has an API but requires authentication. No public IIIF endpoint readily discoverable for Linear A objects.",
+      "license": "Academic use. Specific licensing per image.",
+      "coverage": "Thousands of Minoan/Mycenaean seals, including those with Linear A inscriptions. Not a Linear A text corpus per se.",
+      "last_updated": "Actively maintained.",
+      "machine_readable": "Partially. Images with metadata via iDAI.world API, but Linear A-specific extraction would require targeted querying.",
+      "iiif": "No dedicated IIIF endpoint for Linear A found. iDAI.world is a JavaScript SPA."
+    },
+    {
+      "id": 10,
+      "name": "IIIF Endpoints and API-Accessible Image Repositories",
+      "iiif_endpoints": {
+        "idai_world": "https://idai.world/ - SPA, no public IIIF manifest discovered for Linear A objects",
+        "arachne_dainst": "https://arachne.dainst.org - migrated to iDAI.objects, no direct IIIF for Linear A",
+        "cambridge_digital_library": "Potentially hosts Linear A images but no dedicated IIIF collection found",
+        "efa_ecole_francaise": "École Française d'Athènes holds GORILA rights; images used in SigLA and lineara.xyz under license",
+        "mfa_boston": "https://collections.mfa.org/ - holds Linear A objects (e.g., votive double axe) with images",
+        "british_museum": "British Museum has Linear A objects in their collection with IIIF support",
+        "heraklion_archaeological_museum": "Holds the bulk of Linear A tablets; no public IIIF endpoint"
+      },
+      "note": "No comprehensive, dedicated IIIF endpoint specifically for Linear A inscriptions was found. Individual museum collection management systems (CMS, MFA, British Museum) may serve IIIF images of individual Linear A-objects, but there is no aggregated IIIF corpus. The SigLA project uses its own image viewer, not IIIF."
+    }
+  ],
+  "summary": {
+    "most_machine_readable": "mwenge/lineara.xyz (JSON, 1,720 entries) - the best structured open dataset",
+    "most_comprehensive_web_app": "SigLA (https://sigla.phis.me/) - interactive paleographical database with images",
+    "best_academic_corpus": "Winterstein et al. 2015 TEI/XML corpus (1,427 documents) - but dataset difficult to access",
+    "key_finding": "The core bottleneck is the lack of an easily downloadable, open-licensed, comprehensive digital corpus of Linear A. The mwenge/lineara.xyz JSON dataset is the closest to this, but it lacks explicit open licensing for the transcription data and uses copyrighted GORILA images. SigLA is excellent for interactive exploration but offers no data export. The Winterstein corpus uses proper TEI-EpiDoc XML but may no longer be accessible. John Younger's site - the foundational digital resource - is currently offline."
+  },
+  "recommendations": {
+    "priority_1": "Archive and mirror mwenge/lineara.xyz data (with license clarification)",
+    "priority_2": "Obtain access to Winterstein et al. 2015 TEI corpus from NTU repository or authors",
+    "priority_3": "Scrape SigLA's client-side database for the latest paleographical data",
+    "priority_4": "Check if Cambridge Digital Library or École Française d'Athènes provide IIIF access to Linear A tablets",
+    "priority_5": "Contact INSCRIBE project at Bologna for any unpublished datasets"
+  }
+}

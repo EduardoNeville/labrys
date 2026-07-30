@@ -1,0 +1,25 @@
+shared_root,alternation_type,alternation_length,num_variants,total_attestations,alternating_sequences,num_text_contexts,text_contexts,variant_words,variant_frequencies,variant_alternating_seqs,variant_phonetic,variant_texts
+𐘇𐘳𐘚𐙕𐘮,suffix,1,4,10,"𐘡, 𐘱",10,IOZa2; IOZa3; IOZa7; PKZa11; PKZa12; SYZa1; SYZa2; SYZa4; SYZa8; TLZa1,𐘇𐘳𐘚𐙕𐘮𐘱; 𐘇𐘳𐘚𐙕𐘮𐘡; 𐝫𐘇𐘳𐘚𐙕𐘮𐘱; 𐘇𐘳𐝫𐘚𐙕𐘮𐘱,7; 1; 1; 1,𐘱; 𐘡; 𐘱; 𐘱,𐘇𐘳𐘚𐙕𐘮𐘱; 𐘇𐘳𐘚𐙕𐘮𐘡; 𐘇𐘳𐘚𐙕𐘮𐘱; 𐘇𐘳𐘚𐙕𐘮𐘱,IOZa2; IOZa3; IOZa7; PKZa12; SYZa2; SYZa4; TLZa1; PKZa11; SYZa1; SYZa8
+𐘇𐘳𐘚𐙕,suffix,2,4,10,"𐘮𐘡, 𐘮𐘱",10,IOZa2; IOZa3; IOZa7; PKZa11; PKZa12; SYZa1; SYZa2; SYZa4; SYZa8; TLZa1,𐘇𐘳𐘚𐙕𐘮𐘱; 𐘇𐘳𐘚𐙕𐘮𐘡; 𐝫𐘇𐘳𐘚𐙕𐘮𐘱; 𐘇𐘳𐝫𐘚𐙕𐘮𐘱,7; 1; 1; 1,𐘮𐘱; 𐘮𐘡; 𐘮𐘱; 𐘮𐘱,𐘇𐘳𐘚𐙕𐘮𐘱; 𐘇𐘳𐘚𐙕𐘮𐘡; 𐘇𐘳𐘚𐙕𐘮𐘱; 𐘇𐘳𐘚𐙕𐘮𐘱,IOZa2; IOZa3; IOZa7; PKZa12; SYZa2; SYZa4; TLZa1; PKZa11; SYZa1; SYZa8
+𐘞𐘞𐘴𐘋,prefix,1,4,9,"𐘇, 𐘱",9,IOZa12; IOZa16; IOZa2; IOZa6; IOZa9; PKZa11; PLZf1; PSZa2; TLZa1,𐘱𐘞𐘞𐘴𐘋; 𐘱𐘞𐘞𐘴𐝫𐘋; 𐘱𐘞𐘞𐝫𐘴𐘋; 𐘇𐘞𐘞𐘴𐘋,6; 1; 1; 1,𐘱; 𐘱; 𐘱; 𐘇,𐘱𐘞𐘞𐘴𐘋; 𐘱𐘞𐘞𐘴𐘋; 𐘱𐘞𐘞𐘴𐘋; 𐘇𐘞𐘞𐘴𐘋,IOZa12; IOZa16; IOZa6; PLZf1; PSZa2; TLZa1; IOZa2; IOZa9; PKZa11
+𐘞𐘴𐘋,prefix,2,4,9,"𐘇𐘞, 𐘱𐘞",9,IOZa12; IOZa16; IOZa2; IOZa6; IOZa9; PKZa11; PLZf1; PSZa2; TLZa1,𐘱𐘞𐘞𐘴𐘋; 𐘱𐘞𐘞𐘴𐝫𐘋; 𐘱𐘞𐘞𐝫𐘴𐘋; 𐘇𐘞𐘞𐘴𐘋,6; 1; 1; 1,𐘱𐘞; 𐘱𐘞; 𐘱𐘞; 𐘇𐘞,𐘱𐘞𐘞𐘴𐘋; 𐘱𐘞𐘞𐘴𐘋; 𐘱𐘞𐘞𐘴𐘋; 𐘇𐘞𐘞𐘴𐘋,IOZa12; IOZa16; IOZa6; PLZf1; PSZa2; TLZa1; IOZa2; IOZa9; PKZa11
+𐘇𐘤,suffix,2,2,3,"𐘱𐘾, 𐘸𐘴",3,HT28a; HT28b; KH20,𐘇𐘤𐘱𐘾; 𐝫𐝫𐘇𐘤𐘸𐘴,2; 1,𐘱𐘾; 𐘸𐘴,𐘇𐘤𐘱𐘾; 𐘇𐘤𐘸𐘴,HT28a; HT28b; KH20
+𐘚𐘅𐘱,suffix,2,2,2,"𐘂𐘌, 𐘙𐘳",2,APZa2; PKZa11,𐘚𐘅𐘱𐘙𐘳𐝫; 𐘚𐘅𐘱𐘂𐘌,1; 1,𐘙𐘳; 𐘂𐘌,𐘚𐘅𐘱𐘙𐘳; 𐘚𐘅𐘱𐘂𐘌,APZa2; PKZa11
+𐘀𐘅,suffix,1,2,2,"𐘤, 𐘹",2,ARKH6; HT126a,𐘀𐘅𐘹; 𐘀𐘅𐘤,1; 1,𐘹; 𐘤,𐘀𐘅𐘹; 𐘀𐘅𐘤,ARKH6; HT126a
+𐘇𐘳,suffix,1,2,2,"𐘙, 𐘦",2,CR(?)Zf1; ZA8,𐘇𐘳𐘦; 𐘇𐘳𐘙,1; 1,𐘦; 𐘙,𐘇𐘳𐘦; 𐘇𐘳𐘙,CR(?)Zf1; ZA8
+𐙂𐘝,suffix,1,2,2,"𐘲, 𐙀",2,HT10a; HT79+83,𐙂𐘝𐘲; 𐝫𐄉𐝫𐙂𐘝𐝫𐝫𐙀𐄉𐝫,1; 1,𐘲; 𐙀,𐙂𐘝𐘲; 𐙂𐘝𐙀,HT10a; HT79+83
+𐘾𐙂,suffix,1,2,2,"𐘁, 𐘂",2,HT11b; HT16,𐘾𐄒𐙂𐘁𐄙𐄗; 𐘾𐙂𐘂,1; 1,𐘁; 𐘂,𐘾𐙂𐘁; 𐘾𐙂𐘂,HT11b; HT16
+𐘰𐘝,suffix,1,2,2,"𐘅, 𐘣",2,HT93a; SYZa4,𐘰𐘝𐘅; 𐘰𐘝𐘣,1; 1,𐘅; 𐘣,𐘰𐘝𐘅; 𐘰𐘝𐘣,HT93a; SYZa4
+𐘀𐘬,suffix,2,2,2,"𐘻𐘗, 𐙁𐘳",2,HT95a; KNZf31,𐘀𐘬𐙁𐘳; 𐘀𐘬𐘻𐘗,1; 1,𐙁𐘳; 𐘻𐘗,𐘀𐘬𐙁𐘳; 𐘀𐘬𐘻𐘗,HT95a; KNZf31
+𐘉𐘅𐘘𐘾𐘅,suffix,1,2,2,"𐘠, 𐘤",2,IOZa16; PKZa11,𐘉𐘅𐘘𐘾𐝫𐘅𐘤; 𐘉𐘅𐘘𐘾𐘅𐘠,1; 1,𐘤; 𐘠,𐘉𐘅𐘘𐘾𐘅𐘤; 𐘉𐘅𐘘𐘾𐘅𐘠,IOZa16; PKZa11
+𐘉𐘅𐘘𐘾,suffix,2,2,2,"𐘅𐘠, 𐘅𐘤",2,IOZa16; PKZa11,𐘉𐘅𐘘𐘾𐝫𐘅𐘤; 𐘉𐘅𐘘𐘾𐘅𐘠,1; 1,𐘅𐘤; 𐘅𐘠,𐘉𐘅𐘘𐘾𐘅𐘤; 𐘉𐘅𐘘𐘾𐘅𐘠,IOZa16; PKZa11
+𐘚𐘱,suffix,1,2,2,"𐘂, 𐘃",2,IOZa5; PHZb4,𐘚𐘱𐘂𐝫; 𐘚𐘱𐘃,1; 1,𐘂; 𐘃,𐘚𐘱𐘂; 𐘚𐘱𐘃,IOZa5; PHZb4
+𐘚𐘀,suffix,1,2,2,"𐘇, 𐘻",2,KOZa1; SYZa1,𐘚𐘀𐘇; 𐘚𐘀𐘻,1; 1,𐘇; 𐘻,𐘚𐘀𐘇; 𐘚𐘀𐘻,KOZa1; SYZa1
+𐘇𐘆𐘸𐘃,suffix,1,2,2,"𐘃, 𐘤",2,PKZa11; PKZa12,𐘇𐘆𐘸𐘃𐘃𐝫; 𐘇𐘆𐘸𐘃𐝫𐝫𐘤𐝫,1; 1,𐘃; 𐘤,𐘇𐘆𐘸𐘃𐘃; 𐘇𐘆𐘸𐘃𐘤,PKZa11; PKZa12
+𐘇𐘆𐘸,suffix,2,2,2,"𐘃𐘃, 𐘃𐘤",2,PKZa11; PKZa12,𐘇𐘆𐘸𐘃𐘃𐝫; 𐘇𐘆𐘸𐘃𐝫𐝫𐘤𐝫,1; 1,𐘃𐘃; 𐘃𐘤,𐘇𐘆𐘸𐘃𐘃; 𐘇𐘆𐘸𐘃𐘤,PKZa11; PKZa12
+𐘃𐘭,prefix,1,2,2,"𐘢, 𐙂",2,ARKH6; PKZa11,𐙂𐝫𐝫𐘃𐘭𐝫𐝫; 𐘢𐘃𐘭,1; 1,𐙂; 𐘢,𐙂𐘃𐘭; 𐘢𐘃𐘭,ARKH6; PKZa11
+𐘴𐘱,prefix,2,2,2,"𐘨𐘯, 𐘸𐘸",2,HT115a; HT85b,𐘨𐘯𐘴𐘱; 𐘸𐘸𐘴𐘱,1; 1,𐘨𐘯; 𐘸𐘸,𐘨𐘯𐘴𐘱; 𐘸𐘸𐘴𐘱,HT115a; HT85b
+𐙂𐘁,prefix,1,2,2,"𐘾, 𐙍",2,HT11b; ZA15b,𐘾𐄒𐙂𐘁𐄙𐄗; 𐙍𐄉—𐙂𐘁,1; 1,𐘾; 𐙍,𐘾𐙂𐘁; 𐙍𐙂𐘁,HT11b; ZA15b
+𐘞𐘽,prefix,1,2,2,"𐘇, 𐙛",2,HT32; HT89,𐙛𐘞𐘽; 𐘇𐘞𐘽,1; 1,𐙛; 𐘇,𐙛𐘞𐘽; 𐘇𐘞𐘽,HT32; HT89
+𐘝𐙍,prefix,2,2,2,"𐘃𐛵, 𐙉𐙋",2,HT44a; HT44b,𐙉𐝫𐜒𐄉𐜋𐄋𐝫𐜑𐄋𐙋𐄇𐝫𐝫𐘝𐄇𐙍𐝫𐝫; 𐘃𐛵𐝫𐝫𐄋𐘝𐝫𐝫𐙍𐄖𐄋𐝫𐄐𐄎𐝫𐄐𐝫,1; 1,𐙉𐙋; 𐘃𐛵,𐙉𐙋𐘝𐙍; 𐘃𐛵𐘝𐙍,HT44a; HT44b
+𐘙𐘍,prefix,1,2,2,"𐘬, 𐘸",2,KH20; ZA1a,𐜚𐝫𐝫𐝁𐝫𐘬𐘙𐘍; 𐘸𐘙𐘍,1; 1,𐘬; 𐘸,𐘬𐘙𐘍; 𐘸𐘙𐘍,KH20; ZA1a

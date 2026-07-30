@@ -1,0 +1,1244 @@
+family,family_name,concept,phonetic,query,matched,distance,distance_threshold,inscription_id,gorila_id,site,material,period
+Anatolian_IE,Anatolian IE (Luwian/Hittite),liver,lišš,RISUSU,RISUSU,0,0,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),who,kuiš,KUISU,KUIKU,1,1,47,HT35,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),who,kuiš,KUISU,KUNISU,1,1,14,HT10a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),who,kuiš,KUISU,KUNISU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),who,kuiš,KUISU,KUNISU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),who,kuiš,KUISU,KUNISU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),who,kuiš,KUISU,KUNISU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),who,kuiš,KUISU,KUTUSU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),who,kuiš,KUISU,KUITA,1,1,66,HT49b,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),what,kuit,KUITU,MAITU,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),what,kuit,KUITU,KUIKU,1,1,47,HT35,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),what,kuit,KUITU,KUTU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),what,kuit,KUITU,KUTU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),what,kuit,KUITU,KUTU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),what,kuit,KUITU,KUTU,1,1,1614,ZA8,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),what,kuit,KUITU,KUPA₃TU,1,1,155,HT119,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),what,kuit,KUITU,KUPITU,1,1,1623,ZA14,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),what,kuit,KUITU,KUNATU,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),what,kuit,KUITU,KUITA,1,1,66,HT49b,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),not,natta,NATUTA,NATUDU,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),not,natta,NATUTA,NATUNE,1,1,1563,SKOZc1,Skoteino Cave,,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),not,natta,NATUTA,DETUTA,1,1,124,HT98a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),not,natta,NATUTA,NATU,1,1,1141,KH7b,Khania,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),not,natta,NATUTA,NATU,1,1,1659,APZa2,Apodoulou,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),not,natta,NATUTA,NATU,1,1,1671,ARKH6,Arkhalkhori,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),not,natta,NATUTA,NAITA,1,1,1140,KH7a,Khania,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),not,natta,NATUTA,NATETA,1,1,1460,PEZg6,Petras,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),not,natta,NATUTA,NATA,1,1,15,HT10b,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),not,natta,NATUTA,NATA,1,1,1113,IOZa6,Iouktas,stone,LM IA
+Anatolian_IE,Anatolian IE (Luwian/Hittite),not,natta,NATUTA,NATA,1,1,1616,ZA10a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),many,mekk,MEKUKU,ROKUKU,1,1,167,HT127b,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),many,mekk,MEKUKU,KUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),many,mekk,MEKUKU,KUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),three,tri,TURUI,TUJAI,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),three,tri,TURUI,TURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),three,tri,TURUI,TURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),three,tri,TURUI,QARUI,1,1,114,HT93a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),three,tri,TURUI,SIRUI,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),three,tri,TURUI,TUMEI,1,1,1529,PKZa8,Palaikastro,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),three,tri,TURUI,RUI,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),four,meyaw,MEJAWA,MEJASA,1,1,1534,PKZa14,Palaikastro,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),four,meyaw,MEJAWA,JAWA,1,1,1382,KNZa18,Knossos,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),four,meyaw,MEJAWA,JAWA,1,1,1568,SYZa5,Syme,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),big,šall,SARURU,RURU,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),big,šall,SARURU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),big,šall,SARURU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),big,šall,SARURU,SARUDA,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),big,šall,SARURU,SARU,1,1,15,HT10b,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),big,šall,SARURU,SARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),big,šall,SARURU,SARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DARU,1,1,9,HT7b,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DARU,1,1,1597,TY2,Tylissos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,RUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,RUKU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,RUKU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,RUKU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,RUKU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,RUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,RUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,RUKU,1,1,1182,KH49,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DARIKU,1,1,1224,KH92,Khania,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DAROKU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DAKU,1,1,104,HT85a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DAKU,1,1,131,HT103,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DAKU,1,1,132,HT104,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DAKU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DAKU,1,1,1560,SEZf1,Selakanos,metal,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DAKIKU,1,1,37,HT27a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DATEKU,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DAREKU,1,1,1628,ZA18a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),long,daluk,DARUKU,DATAKU,1,1,52,HT40,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,PAJAKU,1,1,189,HT154a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,RUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,RUKU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,RUKU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,RUKU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,RUKU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,RUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,RUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,RUKU,1,1,1182,KH49,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,PAKU,1,1,138,HT110a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,PAKU,1,1,1398,KNZc6,Knossos,,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,PAKU,1,1,1616,ZA10a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,PATAKU,1,1,116,HT94a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),thick,park,PARUKU,PADAKU,1,1,132,HT104,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mother,anna,ANUNA,ANA,1,1,164,HT126a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mother,anna,ANUNA,ANA,1,1,1093,HTZb159,Haghia Triada,pottery/ceramic,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mother,anna,ANUNA,ANA,1,1,1115,IOZa8,Iouktas,stone,LMI
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mother,anna,ANUNA,ANA,1,1,1399,KNZc7,Knossos,,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mother,anna,ANUNA,ATANA,1,1,1700,THEZb6,Thera,pottery/ceramic,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mother,anna,ANUNA,ARANA,1,1,1,HT1,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mother,anna,ANUNA,AJANA,1,1,1229,KH97a,Khania,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mother,anna,ANUNA,AUNA,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mother,anna,ANUNA,ANU,1,1,1454,PEZb,Petras,pottery/ceramic,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mother,anna,ANUNA,AJUNA,1,1,1098,HTZd155,Haghia Triada,,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1110,IOZa3,Iouktas,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1114,IOZa7,Iouktas,stone,LMI
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1145,KH11,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1173,KH39,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1364,KN32a,Knossos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1533,PKZa12,Palaikastro,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1564,SYZa1,Syme,stone,MMIIIB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1565,SYZa2,Syme,stone,LMI
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1566,SYZa3,Syme,stone,LM IA
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1567,SYZa4,Syme,stone,LM IA
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1571,SYZa8,Syme,stone,LM IA
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1592,TLZa1,Troullos,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1614,ZA8,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1615,ZA9,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1676,CR(?)Zf1,Crete,metal,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATA,1,1,1700,THEZb6,Thera,pottery/ceramic,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,DETUTA,1,1,124,HT98a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,AMITA,1,1,1617,ZA10b,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATURI,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ARITA,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,ASETA,1,1,1652,ZAZb3,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),father,atta,ATUTA,AKITA,1,1,1601,TYZb4,Tylissos,pottery/ceramic,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),animal,ħuit,UITU,MAITU,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),animal,ħuit,UITU,UIZU,1,1,1398,KNZc6,Knossos,,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fish,pint,PINUTU,NUTU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fish,pint,PINUTU,PINU,1,1,1219,KH86,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fish,pint,PINUTU,PITU,1,1,1623,ZA14,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),dog,fint,PINUTU,NUTU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),dog,fint,PINUTU,PINU,1,1,1219,KH86,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),dog,fint,PINUTU,PITU,1,1,1623,ZA14,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),louse,kint,KINUTU,NUTU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),louse,kint,KINUTU,KINUMA,1,1,150,HT116a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),louse,kint,KINUTU,KINUTE,1,1,1666,ARKH3a,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),louse,kint,KINUTU,KINUMI,1,1,1674,ARKHZf9,Arkhalkhori,metal,LMI
+Anatolian_IE,Anatolian IE (Luwian/Hittite),louse,kint,KINUTU,KITU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),louse,kint,KINUTU,KITU,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),louse,kint,KINUTU,KIROTU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),snake,illu,IRURU,RURU,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),snake,illu,IRURU,IRUJA,1,1,8,HT7a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),snake,illu,IRURU,IARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),snake,illu,IRURU,IKIRU,1,1,1715,THEZg16,Thera,,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),worm,kunk,KUNUKU,KUMIKU,1,1,138,HT110a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),worm,kunk,KUNUKU,NUKU,1,1,86,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),worm,kunk,KUNUKU,KUROKU,1,1,167,HT127b,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),worm,kunk,KUNUKU,KUNUU,1,1,1398,KNZc6,Knossos,,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),worm,kunk,KUNUKU,KUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),worm,kunk,KUNUKU,KUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),worm,kunk,KUNUKU,KUIKU,1,1,47,HT35,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),worm,kunk,KUNUKU,KUPIKU,1,1,1152,KH18,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),worm,kunk,KUNUKU,KUNURI,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),worm,kunk,KUNUKU,KURUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),worm,kunk,KUNUKU,KUDAKU,1,1,131,HT103,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fruit,šamd,SAMUDU,SARODU,1,1,25,HT19,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fruit,šamd,SAMUDU,SADU,1,1,161,HT123+124b,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fruit,šamd,SAMUDU,SADU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fruit,šamd,SAMUDU,SAMUNE,1,1,1652,ZAZb3,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fruit,šamd,SAMUDU,SAMUMI,1,1,1624,ZA15a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fruit,šamd,SAMUDU,SAMU,1,1,1444,MOZf1,Mokhilos,metal,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),seed,šunt,SUNUTU,SUMITU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),seed,šunt,SUNUTU,SUKITU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),seed,šunt,SUNUTU,SUNITU,1,1,1526,PK1,Palaikastro,clay,LMI
+Anatolian_IE,Anatolian IE (Luwian/Hittite),seed,šunt,SUNUTU,SUMATU,1,1,1565,SYZa2,Syme,stone,LMI
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bark,kurš,KURUSU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bark,kurš,KURUSU,KUNISU,1,1,14,HT10a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bark,kurš,KURUSU,KUNISU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bark,kurš,KURUSU,KUNISU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bark,kurš,KURUSU,KUNISU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bark,kurš,KURUSU,KUNISU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bark,kurš,KURUSU,KUTUSU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,AREDA,1,1,41,HT29,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARESA,1,1,1584,THEZb2,Thera,pottery/ceramic,LM IA
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARE,1,1,4,HT4,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARE,1,1,1147,KH13,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARE,1,1,1406,KNZf13,Knossos,metal,LM IA
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARE,1,1,1586,THEZb4,Thera,pottery/ceramic,LM IA
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARE,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARE,1,1,1652,ZAZb3,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARE,1,1,1664,ARKH1b,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,AKARU,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,AKARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),flower,alel,ARERU,AKARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),skin,kurš,KURUSU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),skin,kurš,KURUSU,KUNISU,1,1,14,HT10a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),skin,kurš,KURUSU,KUNISU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),skin,kurš,KURUSU,KUNISU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),skin,kurš,KURUSU,KUNISU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),skin,kurš,KURUSU,KUNISU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),skin,kurš,KURUSU,KUTUSU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),meat,šupp,SUPUPU,SUPUKA,1,1,43,HT31,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),meat,šupp,SUPUPU,SUPUWA,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),meat,šupp,SUPUPU,SUPUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bone,ħast,ASUTU,ASETU,1,1,1464,PH2,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bone,ħast,ASUTU,ASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bone,ħast,ASUTU,ARETU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bone,ħast,ASUTU,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bone,ħast,ASUTU,ATU,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),bone,ħast,ASUTU,ARATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),egg,awat,AWATU,AWAPI,1,1,1407,KNZf31,Knossos,metal,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),egg,awat,AWATU,AWAPI,1,1,1456,PEZb7,Petras,pottery/ceramic,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),egg,awat,AWATU,ASETU,1,1,1464,PH2,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),egg,awat,AWATU,ARETU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),egg,awat,AWATU,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),egg,awat,AWATU,ATU,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),egg,awat,AWATU,ARATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),tail,tepš,TEPUSU,TESASU,1,1,55,HT42+59,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),tail,tepš,TEPUSU,TESU,1,1,1407,KNZf31,Knossos,metal,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),feather,patt,PATUTU,PARITU,1,1,99,HT79+83,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),feather,patt,PATUTU,PATETU,1,1,105,HT85b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),feather,patt,PATUTU,PATU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),feather,patt,PATUTU,PADETU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),feather,patt,PATUTU,PARATU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hair,tuzz,TUZUZU,TUQEZU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hair,tuzz,TUZUZU,TUKUZU,1,1,99,HT79+83,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),head,ħarš,ARUSU,ADESU,1,1,1668,ARKH4a,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),head,ħarš,ARUSU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),head,ħarš,ARUSU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),head,ħarš,ARUSU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),head,ħarš,ARUSU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),head,ħarš,ARUSU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),head,ħarš,ARUSU,ASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),head,ħarš,ARUSU,ASASU,1,1,1683,GOWc1a,Gournia,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),head,ħarš,ARUSU,ASISU,1,1,1143,KH9,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),nose,tirt,TIRUTU,TIJATU,1,1,155,HT119,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),nose,tirt,TIRUTU,TIRU,1,1,1620,ZA12a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),nose,tirt,TIRUTU,TIRU,1,1,1621,ZA12b,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),nose,tirt,TIRUTU,TITU,1,1,1414,LAZb1(bis),Larani,pottery/ceramic,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mouth,aiš,AISU,ADESU,1,1,1668,ARKH4a,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mouth,aiš,AISU,AI,1,1,1126,KANZa1,Kannia,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mouth,aiš,AISU,ASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mouth,aiš,AISU,ASASU,1,1,1683,GOWc1a,Gournia,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),mouth,aiš,AISU,ASISU,1,1,1143,KH9,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),tooth,gant,KANUTU,NUTU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),tooth,gant,KANUTU,KANU,1,1,86,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),tooth,gant,KANUTU,KANU,1,1,1399,KNZc7,Knossos,,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),tongue,lapl,RAPURU,RARU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),tongue,lapl,RAPURU,RAPU,1,1,13,HT9b,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),tongue,lapl,RAPURU,RATURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hand,kešš,KESUSU,RISUSU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hand,kešš,KESUSU,KISUSU,1,1,49,HT37,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),wing,patt,PATUTU,PARITU,1,1,99,HT79+83,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),wing,patt,PATUTU,PATETU,1,1,105,HT85b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),wing,patt,PATUTU,PATU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),wing,patt,PATUTU,PADETU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),wing,patt,PATUTU,PARATU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),neck,kunt,KUNUTU,NUTU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),neck,kunt,KUNUTU,KUNUU,1,1,1398,KNZc6,Knossos,,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),neck,kunt,KUNUTU,KUTU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),neck,kunt,KUNUTU,KUTU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),neck,kunt,KUNUTU,KUTU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),neck,kunt,KUNUTU,KUTU,1,1,1614,ZA8,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),neck,kunt,KUNUTU,KUPA₃TU,1,1,155,HT119,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),neck,kunt,KUNUTU,KUNURI,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),neck,kunt,KUNUTU,KUPITU,1,1,1623,ZA14,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),neck,kunt,KUNUTU,KUNATU,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),breast,teat,TEATU,TEA,1,1,113,HT92,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),breast,teat,TEATU,TEA,1,1,1498,PH27,Phaistos,clay,MM II
+Anatolian_IE,Anatolian IE (Luwian/Hittite),breast,teat,TEATU,TEQETU,1,1,18,HT12,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),breast,teat,TEATU,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),breast,teat,TEATU,ATU,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),breast,teat,TEATU,TETU,1,1,8,HT7a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),breast,teat,TEATU,TETU,1,1,105,HT85b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),breast,teat,TEATU,TETU,1,1,1631,ZA20,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),liver,lišš,RISUSU,RISU,1,1,101,HT81,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),liver,lišš,RISUSU,RISU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),liver,lišš,RISUSU,KISUSU,1,1,49,HT37,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),see,auš,AUSU,ADESU,1,1,1668,ARKH4a,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),see,auš,AUSU,USU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),see,auš,AUSU,ASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),see,auš,AUSU,ASASU,1,1,1683,GOWc1a,Gournia,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),see,auš,AUSU,AU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),see,auš,AUSU,ASISU,1,1,1143,KH9,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),know,šekk,SEKUKU,SEKURA,1,1,1631,ZA20,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),know,šekk,SEKUKU,ROKUKU,1,1,167,HT127b,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),know,šekk,SEKUKU,KUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),know,šekk,SEKUKU,KUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),know,šekk,SEKUKU,SEKUTU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sleep,šupp,SUPUPU,SUPUKA,1,1,43,HT31,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sleep,šupp,SUPUPU,SUPUWA,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sleep,šupp,SUPUPU,SUPUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),kill,kuen,KUENU,ENU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),kill,kuen,KUENU,KUNU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),kill,kuen,KUENU,KUNU,1,1,1398,KNZc6,Knossos,,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),kill,kuen,KUENU,KUPA₃NU,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),kill,kuen,KUENU,KUPA₃NU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),kill,kuen,KUENU,KUPA₃NU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fly,patt,PATUTU,PARITU,1,1,99,HT79+83,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fly,patt,PATUTU,PATETU,1,1,105,HT85b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fly,patt,PATUTU,PATU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fly,patt,PATUTU,PADETU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fly,patt,PATUTU,PARATU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),lie,kitt,KITUTU,KITUKI,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),lie,kitt,KITUTU,KITUJA,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),lie,kitt,KITUTU,KIROTU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),stand,art,ARUTU,ASETU,1,1,1464,PH2,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),stand,art,ARUTU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),stand,art,ARUTU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),stand,art,ARUTU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),stand,art,ARUTU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),stand,art,ARUTU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),stand,art,ARUTU,ARETU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),stand,art,ARUTU,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),stand,art,ARUTU,ATU,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),stand,art,ARUTU,ARATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sun,šiwat,SIWATU,SITU,1,1,13,HT9b,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sun,šiwat,SIWATU,SITU,1,1,222,HTWa1019,Haghia Triada - Portico 11 and Room 13,,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sun,šiwat,SIWATU,SITU,1,1,1184,KH51,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sun,šiwat,SIWATU,SITU,1,1,1631,ZA20,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),moon,armā,ARUMU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),moon,armā,ARUMU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),moon,armā,ARUMU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),moon,armā,ARUMU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),moon,armā,ARUMU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),moon,armā,ARUMU,ASAMU,1,1,1652,ZAZb3,Zakros,stone,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),star,ħast,ASUTU,ASETU,1,1,1464,PH2,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),star,ħast,ASUTU,ASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),star,ħast,ASUTU,ARETU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),star,ħast,ASUTU,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),star,ħast,ASUTU,ATU,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),star,ħast,ASUTU,ARATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),water,wadar,WADARU,DARU,1,1,9,HT7b,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),water,wadar,WADARU,DARU,1,1,1597,TY2,Tylissos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sand,ħarp,ARUPU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sand,ħarp,ARUPU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sand,ħarp,ARUPU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sand,ħarp,ARUPU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),sand,ħarp,ARUPU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),earth,tekan,TEKANU,KANU,1,1,86,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),earth,tekan,TEKANU,KANU,1,1,1399,KNZc7,Knossos,,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),earth,tekan,TEKANU,TEKAKI,1,1,71,HT52a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),earth,tekan,TEKANU,TEKATI,1,1,87,HT63,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),earth,tekan,TEKANU,TEKINU,1,1,150,HT116a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fire,paħħur,PAURU,NAURU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fire,paħħur,PAURU,PATIRU,1,1,1620,ZA12a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fire,paħħur,PAURU,PATIRU,1,1,1621,ZA12b,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),fire,paħħur,PAURU,PADARU,1,1,1597,TY2,Tylissos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),red,dašš,DASUSU,DASU,1,1,132,HT104,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),red,dašš,DASUSU,DASU,1,1,1206,KH74,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),red,dašš,DASUSU,RISUSU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),red,dašš,DASUSU,KISUSU,1,1,49,HT37,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),yellow,ħarki,ARUKUI,ARUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),white,ħarki,ARUKUI,ARUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,NUDU,1,1,52,HT40,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,104,HT85a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,113,HT92,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,126,HT99a,Haghia Triada - Casa Room 7,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,175,HT133,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,1137,KH4,Khania,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,1145,KH11,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,1157,KH23,Khania,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,1651,ZAWc2,Zakros,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ADU,1,1,1670,ARKH5,Arkhalkhori,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,APADU,1,1,1533,PKZa12,Palaikastro,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,ANU,1,1,1454,PEZb,Petras,pottery/ceramic,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),hot,ħand,ANUDU,AREDU,1,1,4,HT4,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),cold,ekun,EKUNU,PAKUNU,1,1,1398,KNZc6,Knossos,,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),cold,ekun,EKUNU,ENU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),cold,ekun,EKUNU,TUKUNU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),full,ħarš,ARUSU,ADESU,1,1,1668,ARKH4a,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),full,ħarš,ARUSU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),full,ħarš,ARUSU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),full,ħarš,ARUSU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Anatolian_IE,Anatolian IE (Luwian/Hittite),full,ħarš,ARUSU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),full,ħarš,ARUSU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),full,ħarš,ARUSU,ASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),full,ħarš,ARUSU,ASASU,1,1,1683,GOWc1a,Gournia,clay,Uncertain
+Anatolian_IE,Anatolian IE (Luwian/Hittite),full,ħarš,ARUSU,ASISU,1,1,1143,KH9,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,ARUKU,0,0,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,ARUKU,0,0,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,ANANE,1,1,1399,KNZc7,Knossos,,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,ANANU,1,1,1093,HTZb159,Haghia Triada,pottery/ceramic,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,NAKU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,NAKU,1,1,161,HT123+124b,Haghia Triada - Casa del Lebete,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,NAKU,1,1,1138,KH5,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,NAKU,1,1,1450,PE1,Petras,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,ARUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,AKUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,AKU,1,1,1231,KH99,Khania,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,AKU,1,1,1449,PA1,Papourou,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,AJAKU,1,1,1406,KNZf13,Knossos,metal,LM IA
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,ANA,1,1,164,HT126a,Haghia Triada - Casa del Lebete,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,ANA,1,1,1115,IOZa8,Iouktas,stone,LMI
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),I,anaku,ANAKU,ADUKU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1110,IOZa3,Iouktas,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1114,IOZa7,Iouktas,stone,LMI
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1145,KH11,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1173,KH39,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1364,KN32a,Knossos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1533,PKZa12,Palaikastro,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1564,SYZa1,Syme,stone,MMIIIB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1565,SYZa2,Syme,stone,LMI
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1566,SYZa3,Syme,stone,LM IA
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1567,SYZa4,Syme,stone,LM IA
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1571,SYZa8,Syme,stone,LM IA
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1592,TLZa1,Troullos,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1614,ZA8,Zakros,stone,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1615,ZA9,Zakros,stone,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1676,CR(?)Zf1,Crete,metal,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATA,1,1,1700,THEZb6,Thera,pottery/ceramic,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,DETUTA,1,1,124,HT98a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,AMITA,1,1,1617,ZA10b,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATURI,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ARITA,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,ASETA,1,1,1652,ZAZb3,Zakros,stone,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),you,atta,ATUTA,AKITA,1,1,1601,TYZb4,Tylissos,pottery/ceramic,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),this,annū,ANUNU,ANANU,1,1,1093,HTZb159,Haghia Triada,pottery/ceramic,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),this,annū,ANUNU,AKANU,1,1,1399,KNZc7,Knossos,,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),this,annū,ANUNU,ANU,1,1,1454,PEZb,Petras,pottery/ceramic,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),who,mannu,MANUNU,MANU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),three,šalāš,SARUSU,SASU,1,1,55,HT42+59,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),three,šalāš,SARUSU,SASU,1,1,1683,GOWc1a,Gournia,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),three,šalāš,SARUSU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),three,šalāš,SARUSU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),three,šalāš,SARUSU,SARUDA,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),three,šalāš,SARUSU,SARU,1,1,15,HT10b,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),three,šalāš,SARUSU,SARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),three,šalāš,SARUSU,SARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),three,šalāš,SARUSU,SAPASU,1,1,1365,KN32b,Knossos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),four,erb,ERUPU,ERUJU,1,1,1618,ZA11a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),five,ħamiš,AMISU,ADESU,1,1,1668,ARKH4a,Arkhalkhori,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),five,ħamiš,AMISU,ASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),five,ħamiš,AMISU,AMI,1,1,1483,PH14b,Phaistos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),five,ħamiš,AMISU,AMI,1,1,1505,PH(?)31b,Phaistos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),five,ħamiš,AMISU,AMI,1,1,1617,ZA10b,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),five,ħamiš,AMISU,AMI,1,1,1632,ZA21a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),five,ħamiš,AMISU,AMI,1,1,1690,KH102,Khania,clay,LMIIIA
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),five,ħamiš,AMISU,ASASU,1,1,1683,GOWc1a,Gournia,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),five,ħamiš,AMISU,ASISU,1,1,1143,KH9,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,RUKU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,RUKU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,RUKU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,RUKU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,RUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,RUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,RUKU,1,1,1182,KH49,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,AKUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,AKU,1,1,1231,KH99,Khania,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,AKU,1,1,1449,PA1,Papourou,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,AJAKU,1,1,1406,KNZf13,Knossos,metal,LM IA
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),long,ark,ARUKU,ADUKU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),wide,rapš,RAPUSU,RATUSU,1,1,1526,PK1,Palaikastro,clay,LMI
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),wide,rapš,RAPUSU,RAASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),wide,rapš,RAPUSU,RAPU,1,1,13,HT9b,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),narrow,ʕikk,IKUKU,IKUTA,1,1,47,HT35,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),narrow,ʕikk,IKUKU,IKURI,1,1,111,HT90,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),narrow,ʕikk,IKUKU,ROKUKU,1,1,167,HT127b,Haghia Triada - Casa del Lebete,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),narrow,ʕikk,IKUKU,KUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),narrow,ʕikk,IKUKU,KUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),narrow,ʕikk,IKUKU,IKUPA₃,1,1,1659,APZa2,Apodoulou,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),narrow,ʕikk,IKUKU,IKU,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),narrow,ʕikk,IKUKU,IKU,1,1,1611,ZA6b,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),narrow,ʕikk,IKUKU,IKAKU,1,1,130,HT102,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),narrow,ʕikk,IKUKU,ITIKU,1,1,34,HT25b,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),man,awīl,AWARU,AWAPI,1,1,1407,KNZf31,Knossos,metal,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),man,awīl,AWARU,AWAPI,1,1,1456,PEZb7,Petras,pottery/ceramic,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),man,awīl,AWARU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),man,awīl,AWARU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),man,awīl,AWARU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),man,awīl,AWARU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),man,awīl,AWARU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),man,awīl,AWARU,AKARU,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),man,awīl,AWARU,AKARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),man,awīl,AWARU,AKARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),child,šerr,SERURU,RURU,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),dog,kalb,KARUPU,KARU,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),dog,kalb,KARUPU,KARU,1,1,97,HT75,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),dog,kalb,KARUPU,KARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),dog,kalb,KARUPU,KARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),dog,kalb,KARUPU,KARU,1,1,122,HT97a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),forest,kišt,KISUTU,KISU,1,1,49,HT37,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),forest,kišt,KISUTU,KITU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),forest,kišt,KISUTU,KITU,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),forest,kišt,KISUTU,KIROTU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),leaf,art,ARUTU,ASETU,1,1,1464,PH2,Phaistos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),leaf,art,ARUTU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),leaf,art,ARUTU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),leaf,art,ARUTU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),leaf,art,ARUTU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),leaf,art,ARUTU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),leaf,art,ARUTU,ARETU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),leaf,art,ARUTU,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),leaf,art,ARUTU,ATU,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),leaf,art,ARUTU,ARATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),root,šurš,SURUSU,SURU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),root,šurš,SURUSU,SUSU,1,1,49,HT37,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),root,šurš,SURUSU,SUSU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),skin,mašk,MASUKU,MASU,1,1,1361,KN22c,Knossos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),skin,mašk,MASUKU,ROSUKU,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),skin,mašk,MASUKU,MAKU,1,1,51,HT39,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),skin,mašk,MASUKU,MAKU,1,1,181,HT139,Haghia Triada - Casa del Lebete,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),skin,mašk,MASUKU,MARUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),skin,mašk,MASUKU,MAIKU,1,1,1659,APZa2,Apodoulou,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),fat,šamn,SAMUNU,SAMUNE,1,1,1652,ZAZb3,Zakros,stone,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),fat,šamn,SAMUNU,SAMUMI,1,1,1624,ZA15a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),fat,šamn,SAMUNU,SAMU,1,1,1444,MOZf1,Mokhilos,metal,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),horn,qarn,QARUNU,QARUI,1,1,114,HT93a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),horn,qarn,QARUNU,QARUDI,1,1,159,HT122b,Haghia Triada - Casa del Lebete,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),horn,qarn,QARUNU,QANU,1,1,1221,KH88,Khania,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),horn,qarn,QARUNU,QARU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),horn,qarn,QARUNU,RUNU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),hair,šārt,SURUTU,SURU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),hair,šārt,SURUTU,SUMITU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),hair,šārt,SURUTU,SUKITU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),hair,šārt,SURUTU,SUNITU,1,1,1526,PK1,Palaikastro,clay,LMI
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),hair,šārt,SURUTU,SUMATU,1,1,1565,SYZa2,Syme,stone,LMI
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),ear,uzn,UZUNU,UZUNI,1,1,36,HT26b,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),ear,uzn,UZUNU,UTINU,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),ear,uzn,UZUNU,UTINU,1,1,1113,IOZa6,Iouktas,stone,LM IA
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),ear,uzn,UZUNU,UTINU,1,1,1118,IOZa11,Iouktas,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),tooth,šinn,SINUNU,SIKINU,1,1,1674,ARKHZf9,Arkhalkhori,metal,LMI
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),tongue,lišān,RISUNU,RISUSU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),tongue,lišān,RISUNU,RISU,1,1,101,HT81,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),tongue,lišān,RISUNU,RISU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),knee,burk,PURUKU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),knee,burk,PURUKU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),knee,burk,PURUKU,RUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),knee,burk,PURUKU,RUKU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),knee,burk,PURUKU,RUKU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),knee,burk,PURUKU,RUKU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),knee,burk,PURUKU,RUKU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),knee,burk,PURUKU,RUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),knee,burk,PURUKU,RUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),knee,burk,PURUKU,RUKU,1,1,1182,KH49,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),knee,burk,PURUKU,PUMAKU,1,1,181,HT139,Haghia Triada - Casa del Lebete,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),belly,karš,KARUSU,KARU,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),belly,karš,KARUSU,KARU,1,1,97,HT75,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),belly,karš,KARUSU,KARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),belly,karš,KARUSU,KARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),belly,karš,KARUSU,KARU,1,1,122,HT97a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),belly,karš,KARUSU,KAKISU,1,1,49,HT37,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),belly,karš,KARUSU,KATISU,1,1,87,HT63,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),neck,kišād,KISUDU,KITIDU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),neck,kišād,KISUDU,KISU,1,1,49,HT37,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),liver,kabid,KAPIDU,KAADU,1,1,1651,ZAWc2,Zakros,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),liver,kabid,KAPIDU,KADU,1,1,41,HT29,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,AKARU,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,AKARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,AKARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,AKUKA,1,1,1231,KH99,Khania,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,AKUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),eat,akāl,AKURU,AKU,1,1,1449,PA1,Papourou,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),bite,našāk,NASUKU,NAKU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),bite,našāk,NASUKU,NAKU,1,1,161,HT123+124b,Haghia Triada - Casa del Lebete,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),bite,našāk,NASUKU,NAKU,1,1,1138,KH5,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),bite,našāk,NASUKU,NAKU,1,1,1450,PE1,Petras,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),bite,našāk,NASUKU,ROSUKU,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),bite,našāk,NASUKU,NAPAKU,1,1,1398,KNZc6,Knossos,,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),bite,našāk,NASUKU,NATUKU,1,1,1671,ARKH6,Arkhalkhori,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),bite,našāk,NASUKU,NASEKU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),bite,našāk,NASUKU,NASUTE,1,1,1550,PRZa1,Prassa,stone,LM IA
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),bite,našāk,NASUKU,NASU,1,1,1074,HTWc3010,Haghia Triada,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NAURU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NATUDU,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NATUNE,1,1,1563,SKOZc1,Skoteino Cave,,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,TURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,TURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NAMARU,1,1,1603,VRYZa1,Vrysinas,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NATU,1,1,1141,KH7b,Khania,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NATU,1,1,1659,APZa2,Apodoulou,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NATU,1,1,1671,ARKH6,Arkhalkhori,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NASIRU,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NARU,1,1,88,HT64,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NARU,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NARU,1,1,1123,IOZa16,Iouktas,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),see,naṭāl,NATURU,NARU,1,1,1533,PKZa12,Palaikastro,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sleep,salāl,SARURU,RURU,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sleep,salāl,SARURU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sleep,salāl,SARURU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sleep,salāl,SARURU,SARUDA,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sleep,salāl,SARURU,SARU,1,1,15,HT10b,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sleep,salāl,SARURU,SARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sleep,salāl,SARURU,SARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,RUKU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,RUKU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,RUKU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,RUKU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,RUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,RUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,RUKU,1,1,1182,KH49,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,AKUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,AKU,1,1,1231,KH99,Khania,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,AKU,1,1,1449,PA1,Papourou,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,AJAKU,1,1,1406,KNZf13,Knossos,metal,LM IA
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),walk,alāk,ARUKU,ADUKU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sit,wašāb,WASUPU,DESUPU,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sit,wašāb,WASUPU,SUPU,1,1,43,HT31,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sit,wašāb,WASUPU,SUPU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),give,nadān,NADUNU,NADU,1,1,20,HT14,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),give,nadān,NADUNU,NADU,1,1,1138,KH5,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),give,nadān,NADUNU,NANINU,1,1,1548,PLZf1,Platanos,metal,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),give,nadān,NADUNU,NANU,1,1,1093,HTZb159,Haghia Triada,pottery/ceramic,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),hold,ṣabāt,SAPUTU,SAPUKO,1,1,43,HT31,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),pull,mašāk,MASUKU,MASU,1,1,1361,KN22c,Knossos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),pull,mašāk,MASUKU,ROSUKU,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),pull,mašāk,MASUKU,MAKU,1,1,51,HT39,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),pull,mašāk,MASUKU,MAKU,1,1,181,HT139,Haghia Triada - Casa del Lebete,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),pull,mašāk,MASUKU,MARUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),pull,mašāk,MASUKU,MAIKU,1,1,1659,APZa2,Apodoulou,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),tie,rakās,RAKUSU,RAKURO,1,1,110,HT89,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),tie,rakās,RAKUSU,RAKUMA,1,1,120,HT96a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),tie,rakās,RAKUSU,RAKU,1,1,1573,SYZa10,Syme,stone,LM IA
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),tie,rakās,RAKUSU,RATUSU,1,1,1526,PK1,Palaikastro,clay,LMI
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),tie,rakās,RAKUSU,RAASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sing,zamār,ZAMURU,KOMURU,1,1,1653,ZAZb34,Zakros,stone,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sing,zamār,ZAMURU,ZARU,1,1,14,HT10a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sing,zamār,ZAMURU,MURU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sun,šamš,SAMUSU,SASU,1,1,55,HT42+59,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sun,šamš,SAMUSU,SASU,1,1,1683,GOWc1a,Gournia,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sun,šamš,SAMUSU,SAMUNE,1,1,1652,ZAZb3,Zakros,stone,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sun,šamš,SAMUSU,SAMUMI,1,1,1624,ZA15a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sun,šamš,SAMUSU,SAPASU,1,1,1365,KN32b,Knossos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),sun,šamš,SAMUSU,SAMU,1,1,1444,MOZf1,Mokhilos,metal,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),rain,zunn,ZUNUNU,ZUENU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),stone,abn,APUNU,ANANU,1,1,1093,HTZb159,Haghia Triada,pottery/ceramic,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),stone,abn,APUNU,AKANU,1,1,1399,KNZc7,Knossos,,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),stone,abn,APUNU,ANU,1,1,1454,PEZb,Petras,pottery/ceramic,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),fire,išāt,ISUTU,ISITU,1,1,1184,KH51,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),fire,išāt,ISUTU,ITU,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),green,wark,WARUKU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),green,wark,WARUKU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),green,wark,WARUKU,RUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),green,wark,WARUKU,RUKU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),green,wark,WARUKU,RUKU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),green,wark,WARUKU,RUKU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),green,wark,WARUKU,RUKU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),green,wark,WARUKU,RUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),green,wark,WARUKU,RUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),green,wark,WARUKU,RUKU,1,1,1182,KH49,Khania,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),black,salm,SARUMU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),black,salm,SARUMU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),black,salm,SARUMU,SARUDA,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),black,salm,SARUMU,SARU,1,1,15,HT10b,Haghia Triada - Villa Magazine,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),black,salm,SARUMU,SARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),black,salm,SARUMU,SARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),black,salm,SARUMU,SAMU,1,1,1444,MOZf1,Mokhilos,metal,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),black,salm,SARUMU,SAMU,1,1,1624,ZA15a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),black,salm,SARUMU,SAMU,1,1,1652,ZAZb3,Zakros,stone,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),hot,ħamṭ,AMUTU,ASETU,1,1,1464,PH2,Phaistos,clay,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),hot,ħamṭ,AMUTU,ARETU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),hot,ħamṭ,AMUTU,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),hot,ħamṭ,AMUTU,ATU,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),hot,ħamṭ,AMUTU,ARATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB
+Semitic,Semitic (Akkadian/Ugaritic/Phoenician),new,edš,EDUSU,RODUSU,1,1,136,HT108,Haghia Triada - Casa Room 7,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),snake,ain,AINU,ANANU,1,1,1093,HTZb159,Haghia Triada,pottery/ceramic,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),snake,ain,AINU,AI,1,1,1126,KANZa1,Kannia,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),snake,ain,AINU,AKANU,1,1,1399,KNZc7,Knossos,,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),snake,ain,AINU,ANU,1,1,1454,PEZb,Petras,pottery/ceramic,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),forest,laut,RAUTU,RAUNA,1,1,1123,IOZa16,Iouktas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),forest,laut,RAUTU,RAUDE,1,1,159,HT122b,Haghia Triada - Casa del Lebete,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),forest,laut,RAUTU,RATU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),forest,laut,RAUTU,RATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),forest,laut,RAUTU,RATU,1,1,1526,PK1,Palaikastro,clay,LMI
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),forest,laut,RAUTU,RATU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),forest,laut,RAUTU,RAU,1,1,1138,KH5,Khania,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),forest,laut,RAUTU,RAATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),bark,fler,PURERU,PUKURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),skin,fler,PURERU,PUKURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),egg,tru,TURUU,TUDUU,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),egg,tru,TURUU,TURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),egg,tru,TURUU,TURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),egg,tru,TURUU,RUU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),egg,tru,TURUU,TUU,1,1,1565,SYZa2,Syme,stone,LMI
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),horn,tru,TURUU,TUDUU,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),horn,tru,TURUU,TURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),horn,tru,TURUU,TURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),horn,tru,TURUU,RUU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),horn,tru,TURUU,TUU,1,1,1565,SYZa2,Syme,stone,LMI
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),throw,pru,PURUU,RUU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,USI,1,1,21,HT15,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,USI,1,1,182,HT140,Haghia Triada - Casa del Lebete,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,RESIRU,1,1,77,HT55a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,UNARU,1,1,1123,IOZa16,Iouktas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,UNARU,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,UNARU,1,1,1533,PKZa12,Palaikastro,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,MASIRU,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,MASIRU,1,1,1122,IOZa15,Iouktas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,MASIRU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,MASIRU,1,1,1592,TLZa1,Troullos,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,URU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,SISIRU,1,1,1566,SYZa3,Syme,stone,LM IA
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,SIRU,1,1,111,HT90,Haghia Triada - Casa Room 7,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),sun,usil,USIRU,SIRU,1,1,1121,IOZa14,Iouktas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),moon,tiur,TIURU,NAURU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),moon,tiur,TIURU,TIRU,1,1,1620,ZA12a,Zakros,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),moon,tiur,TIURU,TIRU,1,1,1621,ZA12b,Zakros,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),moon,tiur,TIURU,TIMARU,1,1,1554,PYR1,Pyrgos,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),moon,tiur,TIURU,TIIRU,1,1,8,HT7a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),stone,tular,TURARU,TURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),stone,tular,TURARU,TURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),stone,tular,TURARU,RARU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),stone,tular,TURARU,TUTERU,1,1,1631,ZA20,Zakros,stone,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),stone,tular,TURARU,TURAO,1,1,1464,PH2,Phaistos,clay,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),wind,tins,TINUSU,TINUI,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),wind,tins,TINUSU,TINUI,1,1,1113,IOZa6,Iouktas,stone,LM IA
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),wind,tins,TINUSU,TINUI,1,1,1118,IOZa11,Iouktas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),wind,tins,TINUSU,TISU,1,1,87,HT63,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),wind,tins,TINUSU,TIDASU,1,1,132,HT104,Haghia Triada - Casa Room 7,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,RAI,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,RAAWA,1,1,1407,KNZf31,Knossos,metal,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1110,IOZa3,Iouktas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1114,IOZa7,Iouktas,stone,LMI
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1533,PKZa12,Palaikastro,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1564,SYZa1,Syme,stone,MMIIIB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1565,SYZa2,Syme,stone,LMI
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1566,SYZa3,Syme,stone,LM IA
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1567,SYZa4,Syme,stone,LM IA
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1571,SYZa8,Syme,stone,LM IA
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,TAIWA,1,1,1592,TLZa1,Troullos,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),green,laiv,RAIWA,IWA,1,1,1402,KNZe44,Knossos,,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),night,tiur,TIURU,NAURU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),night,tiur,TIURU,TIRU,1,1,1620,ZA12a,Zakros,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),night,tiur,TIURU,TIRU,1,1,1621,ZA12b,Zakros,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),night,tiur,TIURU,TIMARU,1,1,1554,PYR1,Pyrgos,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),night,tiur,TIURU,TIIRU,1,1,8,HT7a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),year,avil,AWIRU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),year,avil,AWIRU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),year,avil,AWIRU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),year,avil,AWIRU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),year,avil,AWIRU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),year,avil,AWIRU,AKARU,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),year,avil,AWIRU,AKARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),year,avil,AWIRU,AKARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Tyrsenian,Tyrsenian (Etruscan/Lemnian/Rhaetic),good,spur,SUPUURU,SUPUKURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),belly,takk,TAKUKU,TAKUKU,0,0,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),smoke,takk,TAKUKU,TAKUKU,0,0,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),this,ann,ANUNU,ANANU,1,1,1093,HTZb159,Haghia Triada,pottery/ceramic,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),this,ann,ANUNU,AKANU,1,1,1399,KNZc7,Knossos,,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),this,ann,ANUNU,ANU,1,1,1454,PEZb,Petras,pottery/ceramic,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,ASIKI,1,1,1154,KH20,Khania,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,AKI,1,1,1601,TYZb4,Tylissos,pottery/ceramic,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,AKI,1,1,1669,ARKH4b,Arkhalkhori,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,ADAKI,1,1,1138,KH5,Khania,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,APAKI,1,1,1394,KNZb40,Knossos,pottery/ceramic,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,AKUKA,1,1,1231,KH99,Khania,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,AKUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,ADIKI,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,ADIKI,1,1,1533,PKZa12,Palaikastro,stone,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,AKU,1,1,1449,PA1,Papourou,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,NAKUKI,1,1,161,HT123+124b,Haghia Triada - Casa del Lebete,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),that,akki,AKUKI,ROKUKI,1,1,160,HT123+124a,Haghia Triada - Casa del Lebete,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),four,tunn,TUNUNU,TUNU,1,1,1124,KAZf1,Kardamoutsa,metal,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),four,tunn,TUNUNU,TUKUNU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),four,tunn,TUNUNU,TURUNU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),big,kazz,KAZUZU,KAZU,1,1,17,HT11b,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),thick,pitt,PITUTU,PITUMI,1,1,1623,ZA14,Zakros,stone,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),short,tunn,TUNUNU,TUNU,1,1,1124,KAZf1,Kardamoutsa,metal,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),short,tunn,TUNUNU,TUKUNU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),short,tunn,TUNUNU,TURUNU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),man,puram,PURAMU,PURA,1,1,1366,KN54,Knossos,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),man,puram,PURAMU,KURAMU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),husband,puram,PURAMU,PURA,1,1,1366,KN54,Knossos,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),husband,puram,PURAMU,KURAMU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),father,atti,ATUTI,ATI,1,1,1651,ZAWc2,Zakros,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),father,atti,ATUTI,ATURI,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),father,atti,ATUTI,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),father,atti,ATUTI,PA₃TUTI,1,1,155,HT119,Haghia Triada - Casa Room 9,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),father,atti,ATUTI,ANATI,1,1,1115,IOZa8,Iouktas,stone,LMI
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),dog,erw,ERUWA,ERUJU,1,1,1618,ZA11a,Zakros,stone,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),louse,kint,KINUTU,NUTU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),louse,kint,KINUTU,KINUMA,1,1,150,HT116a,Haghia Triada - Casa Room 9,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),louse,kint,KINUTU,KINUTE,1,1,1666,ARKH3a,Arkhalkhori,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),louse,kint,KINUTU,KINUMI,1,1,1674,ARKHZf9,Arkhalkhori,metal,LMI
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),louse,kint,KINUTU,KITU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),louse,kint,KINUTU,KITU,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),louse,kint,KINUTU,KIROTU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),tree,šint,SINUTU,SITU,1,1,13,HT9b,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),tree,šint,SINUTU,SITU,1,1,222,HTWa1019,Haghia Triada - Portico 11 and Room 13,,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),tree,šint,SINUTU,SITU,1,1,1184,KH51,Khania,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),tree,šint,SINUTU,SITU,1,1,1631,ZA20,Zakros,stone,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),tree,šint,SINUTU,NUTU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),bark,ašk,ASUKU,ROSUKU,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),bark,ašk,ASUKU,ASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),bark,ašk,ASUKU,ARUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),bark,ašk,ASUKU,AKUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),bark,ašk,ASUKU,AKU,1,1,1231,KH99,Khania,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),bark,ašk,ASUKU,AKU,1,1,1449,PA1,Papourou,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),bark,ašk,ASUKU,AJAKU,1,1,1406,KNZf13,Knossos,metal,LM IA
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),bark,ašk,ASUKU,ADUKU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),skin,ašk,ASUKU,ROSUKU,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),skin,ašk,ASUKU,ASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),skin,ašk,ASUKU,ARUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),skin,ašk,ASUKU,AKUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),skin,ašk,ASUKU,AKU,1,1,1231,KH99,Khania,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),skin,ašk,ASUKU,AKU,1,1,1449,PA1,Papourou,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),skin,ašk,ASUKU,AJAKU,1,1,1406,KNZf13,Knossos,metal,LM IA
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),skin,ašk,ASUKU,ADUKU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),bone,šašt,SASUTU,SASU,1,1,55,HT42+59,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),bone,šašt,SASUTU,SASU,1,1,1683,GOWc1a,Gournia,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),knee,pazz,PAZUZU,PAZU,1,1,1138,KH5,Khania,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),belly,takk,TAKUKU,ROKUKU,1,1,167,HT127b,Haghia Triada - Casa del Lebete,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),belly,takk,TAKUKU,KUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),belly,takk,TAKUKU,TADAKU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),belly,takk,TAKUKU,TAKURO,1,1,52,HT40,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),belly,takk,TAKUKU,TAKURO,1,1,137,HT109,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),belly,takk,TAKUKU,TAKU,1,1,116,HT94a,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),belly,takk,TAKUKU,TASEKU,1,1,1631,ZA20,Zakros,stone,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),belly,takk,TAKUKU,TAREKU,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),belly,takk,TAKUKU,TARAKU,1,1,120,HT96a,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),neck,pitt,PITUTU,PITUMI,1,1,1623,ZA14,Zakros,stone,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),come,end,ENUDU,NUDU,1,1,52,HT40,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),come,end,ENUDU,ENU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),sun,šimigi,SIMIKI,SIMI,1,1,120,HT96a,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),sun,šimigi,SIMIKI,SIMI,1,1,1206,KH74,Khania,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),sun,šimigi,SIMIKI,SIPIKI,1,1,1609,ZA5b,Zakros,stone,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),sun,šimigi,SIMIKI,MIKI,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),sun,šimigi,SIMIKI,SIKI,1,1,10,HT8a,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),sun,šimigi,SIMIKI,SIKI,1,1,1154,KH20,Khania,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),sun,šimigi,SIMIKI,SIKI,1,1,1674,ARKHZf9,Arkhalkhori,metal,LMI
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),fire,tekk,TEKUKU,TEKIKU,1,1,19,HT13,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),fire,tekk,TEKUKU,ROKUKU,1,1,167,HT127b,Haghia Triada - Casa del Lebete,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),fire,tekk,TEKUKU,KUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),fire,tekk,TEKUKU,KUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),fire,tekk,TEKUKU,TEKUPA,1,1,150,HT116a,Haghia Triada - Casa Room 9,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),fire,tekk,TEKUKU,TEKU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),fire,tekk,TEKUKU,TEKU,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),fire,tekk,TEKUKU,TEKU,1,1,1666,ARKH3a,Arkhalkhori,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),fire,tekk,TEKUKU,TEPAKU,1,1,1616,ZA10a,Zakros,stone,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),fire,tekk,TEKUKU,TEKAKU,1,1,86,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),smoke,takk,TAKUKU,ROKUKU,1,1,167,HT127b,Haghia Triada - Casa del Lebete,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),smoke,takk,TAKUKU,KUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),smoke,takk,TAKUKU,TADAKU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),smoke,takk,TAKUKU,TAKURO,1,1,52,HT40,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),smoke,takk,TAKUKU,TAKURO,1,1,137,HT109,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),smoke,takk,TAKUKU,TAKU,1,1,116,HT94a,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),smoke,takk,TAKUKU,TASEKU,1,1,1631,ZA20,Zakros,stone,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),smoke,takk,TAKUKU,TAREKU,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),smoke,takk,TAKUKU,TARAKU,1,1,120,HT96a,Haghia Triada - Casa Room 7,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),black,timr,TIMURU,TIRU,1,1,1620,ZA12a,Zakros,stone,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),black,timr,TIMURU,TIRU,1,1,1621,ZA12b,Zakros,stone,Uncertain
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),black,timr,TIMURU,TIMARU,1,1,1554,PYR1,Pyrgos,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),black,timr,TIMURU,KOMURU,1,1,1653,ZAZb34,Zakros,stone,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),black,timr,TIMURU,MURU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),black,timr,TIMURU,TIIRU,1,1,8,HT7a,Haghia Triada - Villa Magazine,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),night,išt,ISUTU,ISITU,1,1,1184,KH51,Khania,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),night,išt,ISUTU,ITU,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB
+Hurro_Urartian,Hurro-Urartian (Hurrian/Urartian),cold,tamm,TAMUMU,TANUMU,1,1,1380,KNZa10,Knossos,stone,LM IA
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),three,tri,TURUI,TUJAI,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),three,tri,TURUI,TURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),three,tri,TURUI,TURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),three,tri,TURUI,QARUI,1,1,114,HT93a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),three,tri,TURUI,SIRUI,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),three,tri,TURUI,TUMEI,1,1,1529,PKZa8,Palaikastro,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),three,tri,TURUI,RUI,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),wide,plat,PURATU,PURA,1,1,1366,KN54,Knossos,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),wide,plat,PURATU,RATU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),wide,plat,PURATU,RATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),wide,plat,PURATU,RATU,1,1,1526,PK1,Palaikastro,clay,LMI
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),wide,plat,PURATU,RATU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),small,mikr,MIKURU,MIMIRU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),small,mikr,MIKURU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),small,mikr,MIKURU,MIKUPA,1,1,138,HT110a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),small,mikr,MIKURU,MITARU,1,1,120,HT96a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),small,mikr,MIKURU,MIJARU,1,1,1655,ZAZg35,Zakros,,LM IA
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),thin,lept,REPUTU,RETETU,1,1,8,HT7a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),thin,lept,REPUTU,RETU,1,1,1529,PKZa8,Palaikastro,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),thin,lept,REPUTU,RETU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),man,anēr,ANURU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),man,anēr,ANURU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),man,anēr,ANURU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),man,anēr,ANURU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),man,anēr,ANURU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),man,anēr,ANURU,AKARU,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),man,anēr,ANURU,AKARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),man,anēr,ANURU,AKARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),man,anēr,ANURU,ANU,1,1,1454,PEZb,Petras,pottery/ceramic,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),child,pais,PAISU,PASU,1,1,1365,KN32b,Knossos,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),child,pais,PAISU,PASU,1,1,1626,ZA16,Zakros,stone,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),child,pais,PAISU,PAISA,1,1,86,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),child,pais,PAISU,PAI,1,1,56,HT43,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),child,pais,PAISU,PAI,1,1,122,HT97a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),child,pais,PAISU,PAI,1,1,1611,ZA6b,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),child,pais,PAISU,PAI,1,1,1614,ZA8,Zakros,stone,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),child,pais,PAISU,PAROSU,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),husband,anēr,ANURU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),husband,anēr,ANURU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),husband,anēr,ANURU,ARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),husband,anēr,ANURU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),husband,anēr,ANURU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),husband,anēr,ANURU,AKARU,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),husband,anēr,ANURU,AKARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),husband,anēr,ANURU,AKARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),husband,anēr,ANURU,ANU,1,1,1454,PEZb,Petras,pottery/ceramic,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),mother,mātēr,MUTURU,TURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),mother,mātēr,MUTURU,TURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),mother,mātēr,MUTURU,MURU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),mother,mātēr,MUTURU,MURU,1,1,1653,ZAZb34,Zakros,stone,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),mother,mātēr,MUTURU,MUMARU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),father,patēr,PATURU,PATIRU,1,1,1620,ZA12a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),father,patēr,PATURU,PATIRU,1,1,1621,ZA12b,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),father,patēr,PATURU,TURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),father,patēr,PATURU,TURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),father,patēr,PATURU,PATU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),father,patēr,PATURU,PADARU,1,1,1597,TY2,Tylissos,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),bird,ornī,ORUNU,RUNU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),worm,skōl,SUKURU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),worm,skōl,SUKURU,SURU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),worm,skōl,SUKURU,SUSARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),worm,skōl,SUKURU,SUSARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),worm,skōl,SUKURU,SUKUMA,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),tree,dru,DURUU,DURUWI,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),tree,dru,DURUU,DURU,1,1,127,HT99b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),tree,dru,DURUU,DUU,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,NIKUTU,1,1,1614,ZA8,Zakros,stone,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,PAKUNU,1,1,1398,KNZc6,Knossos,,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,PAKURO,1,1,138,HT110a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,KUTU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,KUTU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,KUTU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,PARITU,1,1,99,HT79+83,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,PAKU,1,1,1616,ZA10a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,PATETU,1,1,105,HT85b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,PATU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,PADETU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stick,bakt,PAKUTU,PARATU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),bark,pʰloi,PUROI,ROI,1,1,34,HT25b,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),bark,pʰloi,PUROI,PUI,1,1,13,HT9b,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),bark,pʰloi,PUROI,PUI,1,1,1226,KH94,Khania,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),flower,ant,ANUTU,NUTU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),flower,ant,ANUTU,ASETU,1,1,1464,PH2,Phaistos,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),flower,ant,ANUTU,ARETU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),flower,ant,ANUTU,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),flower,ant,ANUTU,ATU,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),flower,ant,ANUTU,ARATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),flower,ant,ANUTU,ANU,1,1,1454,PEZb,Petras,pottery/ceramic,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),skin,derm,DERUMU,DERU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),skin,derm,DERUMU,DERU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),skin,derm,DERUMU,DERU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),bone,ost,OSUTU,OSUQA,1,1,1592,TLZa1,Troullos,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),hair,trikʰ,TURUIKU,TUJAIKU,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),head,kefal,KEPARU,KEPA,1,1,1406,KNZf13,Knossos,metal,LM IA
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),head,kefal,KEPARU,KEKIRU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),tongue,glōt,KURUTU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),tongue,glōt,KURUTU,KUTU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),tongue,glōt,KURUTU,KUTU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),tongue,glōt,KURUTU,KUTU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),tongue,glōt,KURUTU,KUTU,1,1,1614,ZA8,Zakros,stone,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),tongue,glōt,KURUTU,KUPA₃TU,1,1,155,HT119,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),tongue,glōt,KURUTU,KUPITU,1,1,1623,ZA14,Zakros,stone,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),tongue,glōt,KURUTU,KUNATU,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),breast,stēt,SUTUTU,SUMITU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),breast,stēt,SUTUTU,SUKITU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),breast,stēt,SUTUTU,SUNITU,1,1,1526,PK1,Palaikastro,clay,LMI
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),breast,stēt,SUTUTU,SUMATU,1,1,1565,SYZa2,Syme,stone,LMI
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),hear,akou,AKOU,AKO,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),hear,akou,AKOU,AU,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),hear,akou,AKOU,ARAU,1,1,159,HT122b,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),hear,akou,AKOU,ARAU,1,1,1138,KH5,Khania,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),hear,akou,AKOU,ANAU,1,1,164,HT126a,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),sleep,hypn,JUPUNA,JUMINA,1,1,1383,KNZa19,Knossos,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),sleep,hypn,JUPUNA,JUKUNA,1,1,1398,KNZc6,Knossos,,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),sleep,hypn,JUPUNA,JUNA,1,1,1098,HTZd155,Haghia Triada,,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),die,tʰan,TUANU,TUNU,1,1,1124,KAZf1,Kardamoutsa,metal,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),die,tʰan,TUANU,TUKUNU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),die,tʰan,TUANU,TUA,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),die,tʰan,TUANU,TURUNU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),die,tʰan,TUANU,ANU,1,1,1454,PEZb,Petras,pottery/ceramic,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),walk,bain,PAINU,PAISA,1,1,86,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),walk,bain,PAINU,PAI,1,1,56,HT43,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),walk,bain,PAINU,PAI,1,1,122,HT97a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),walk,bain,PAINU,PAI,1,1,1611,ZA6b,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),walk,bain,PAINU,PAI,1,1,1614,ZA8,Zakros,stone,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),walk,bain,PAINU,PAKUNU,1,1,1398,KNZc6,Knossos,,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),come,elθ,ERUTU,ERUJU,1,1,1618,ZA11a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),come,elθ,ERUTU,ETU,1,1,29,HT23a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stand,sta,SUTUA,SUNEA,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stand,sta,SUTUA,SUPOA,1,1,1143,KH9,Khania,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),stand,sta,SUTUA,TUA,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),pull,helk,ERUKU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),pull,helk,ERUKU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),pull,helk,ERUKU,ERUJUKU,1,1,1618,ZA11a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),pull,helk,ERUKU,RUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),pull,helk,ERUKU,RUKU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),pull,helk,ERUKU,RUKU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),pull,helk,ERUKU,RUKU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),pull,helk,ERUKU,RUKU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),pull,helk,ERUKU,RUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),pull,helk,ERUKU,RUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),pull,helk,ERUKU,RUKU,1,1,1182,KH49,Khania,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),wind,anem,ANEMU,ANE,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),wind,anem,ANEMU,ANE,1,1,1585,THEZb3,Thera,pottery/ceramic,LM IA
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),wind,anem,ANEMU,ASAMU,1,1,1652,ZAZb3,Zakros,stone,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KAKUNA,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,29,HT23a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,176,HT135a,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1116,IOZa9,Iouktas,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1123,IOZa16,Iouktas,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1170,KH36,Khania,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1258,KHWc2005,Khania,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1529,PKZa8,Palaikastro,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1565,SYZa2,Syme,stone,LMI
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1566,SYZa3,Syme,stone,LM IA
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1592,TLZa1,Troullos,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KANA,1,1,1704,PKZa27,Palaikastro,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),smoke,kapn,KAPUNA,KAZUNA,1,1,17,HT11b,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),mountain,oros,OROSU,ROSU,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),mountain,oros,OROSU,OSU,1,1,1592,TLZa1,Troullos,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),green,kʰlōr,KURURU,RURU,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),green,kʰlōr,KURURU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),yellow,kʰrūs,KURUSU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),yellow,kʰrūs,KURUSU,KUNISU,1,1,14,HT10a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),yellow,kʰrūs,KURUSU,KUNISU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),yellow,kʰrūs,KURUSU,KUNISU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),yellow,kʰrūs,KURUSU,KUNISU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),yellow,kʰrūs,KURUSU,KUNISU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),yellow,kʰrūs,KURUSU,KUTUSU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),white,leuk,REUKU,REKAKU,1,1,1617,ZA10b,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),white,leuk,REUKU,RETAKU,1,1,137,HT109,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),white,leuk,REUKU,REJUKU,1,1,51,HT39,Haghia Triada - Villa Magazine,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),white,leuk,REUKU,REKU,1,1,104,HT85a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),white,leuk,REUKU,REKU,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),white,leuk,REUKU,REKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),white,leuk,REUKU,REKU,1,1,159,HT122b,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),white,leuk,REUKU,REKU,1,1,1628,ZA18a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),white,leuk,REUKU,RENIKU,1,1,1614,ZA8,Zakros,stone,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),black,melān,MERUNU,METANU,1,1,1548,PLZf1,Platanos,metal,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),black,melān,MERUNU,MEMINU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),black,melān,MERUNU,MEMINU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),black,melān,MERUNU,MEMINU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),black,melān,MERUNU,RUNU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),full,plēr,PURURU,RURU,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),full,plēr,PURURU,PUKURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),good,agatʰ,AKATU,ASETU,1,1,1464,PH2,Phaistos,clay,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),good,agatʰ,AKATU,AKANU,1,1,1399,KNZc7,Knossos,,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),good,agatʰ,AKATU,AKARU,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),good,agatʰ,AKATU,AKARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),good,agatʰ,AKATU,AKARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),good,agatʰ,AKATU,ARETU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),good,agatʰ,AKATU,AKA,1,1,1455,PEZb3,Petras,pottery/ceramic,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),good,agatʰ,AKATU,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),good,agatʰ,AKATU,ATU,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Pre_Greek,Pre-Greek Substrate (Beekes 2014),good,agatʰ,AKATU,ARATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bark,iꜣr,IARU,IARU,0,0,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,WAADU,0,0,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),I,ink,INUKU,NUKU,1,1,86,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),I,ink,INUKU,IKU,1,1,47,HT35,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),I,ink,INUKU,IKU,1,1,111,HT90,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),I,ink,INUKU,IKU,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),I,ink,INUKU,IKU,1,1,1611,ZA6b,Zakros,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),I,ink,INUKU,IKU,1,1,1659,APZa2,Apodoulou,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),I,ink,INUKU,IKAKU,1,1,130,HT102,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),I,ink,INUKU,ITIKU,1,1,34,HT25b,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),you,ntk,NUTUKU,NUKU,1,1,86,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),you,ntk,NUTUKU,NETUKU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),you,ntk,NUTUKU,MITUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),you,ntk,NUTUKU,TUKU,1,1,99,HT79+83,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),you,ntk,NUTUKU,TUKU,1,1,1414,LAZb1(bis),Larani,pottery/ceramic,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),you,ntk,NUTUKU,TUKU,1,1,1671,ARKH6,Arkhalkhori,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),you,ntk,NUTUKU,NUTEKU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),you,ntk,NUTUKU,NUTEKU,1,1,1666,ARKH3a,Arkhalkhori,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),you,ntk,NUTUKU,NUJUKU,1,1,1398,KNZc6,Knossos,,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),three,ḫmt,KUMUTU,KUTU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),three,ḫmt,KUMUTU,KUTU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),three,ḫmt,KUMUTU,KUTU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),three,ḫmt,KUMUTU,KUTU,1,1,1614,ZA8,Zakros,stone,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),three,ḫmt,KUMUTU,KUPA₃TU,1,1,155,HT119,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),three,ḫmt,KUMUTU,KUPITU,1,1,1623,ZA14,Zakros,stone,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),three,ḫmt,KUMUTU,KUNATU,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),person,rmt,RUMUTU,RUKUTU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),child,ẖrd,KURUDU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),mother,mwt,MUWATU,MUWA,1,1,1576,TELZb1,Tel Haror,pottery/ceramic,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),animal,ꜣbw,APUWA,SUPUWA,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),animal,ꜣbw,APUWA,AWA,1,1,1407,KNZf31,Knossos,metal,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),animal,ꜣbw,APUWA,AWA,1,1,1456,PEZb7,Petras,pottery/ceramic,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),animal,ꜣbw,APUWA,AMAWA,1,1,1676,CR(?)Zf1,Crete,metal,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,104,HT85a,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,113,HT92,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,126,HT99a,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,175,HT133,Haghia Triada - Casa del Lebete,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,1137,KH4,Khania,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,1145,KH11,Khania,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,1157,KH23,Khania,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,1651,ZAWc2,Zakros,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,ADU,1,1,1670,ARKH5,Arkhalkhori,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,APADU,1,1,1533,PKZa12,Palaikastro,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bird,ꜣpd,APUDU,AREDU,1,1,4,HT4,Haghia Triada - Portico 11 and Room 13,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),louse,snt,SUNUTU,SUMITU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),louse,snt,SUNUTU,SUKITU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),louse,snt,SUNUTU,SUNITU,1,1,1526,PK1,Palaikastro,clay,LMI
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),louse,snt,SUNUTU,SUMATU,1,1,1565,SYZa2,Syme,stone,LMI
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),worm,srr,SURURU,RURU,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),worm,srr,SURURU,SURU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),worm,srr,SURURU,SUSARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),worm,srr,SURURU,SUSARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),stick,mdw,MUDUWA,MUWA,1,1,1576,TELZb1,Tel Haror,pottery/ceramic,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),stick,mdw,MUDUWA,WADUWA,1,1,1380,KNZa10,Knossos,stone,LM IA
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),fruit,ḫpr,KUPURU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bark,iꜣr,IARU,NIARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bark,iꜣr,IARU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bark,iꜣr,IARU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bark,iꜣr,IARU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bark,iꜣr,IARU,IRU,1,1,8,HT7a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bark,iꜣr,IARU,IATA,1,1,1145,KH11,Khania,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bark,iꜣr,IARU,IAKI,1,1,1669,ARKH4b,Arkhalkhori,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bark,iꜣr,IARU,IKIRU,1,1,1715,THEZg16,Thera,,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),bark,iꜣr,IARU,IADA,1,1,1407,KNZf31,Knossos,metal,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1109,IOZa2,Iouktas,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1110,IOZa3,Iouktas,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1114,IOZa7,Iouktas,stone,LMI
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1402,KNZe44,Knossos,,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1410,KOZa1,Kophinas,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1533,PKZa12,Palaikastro,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1564,SYZa1,Syme,stone,MMIIIB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1565,SYZa2,Syme,stone,LMI
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1566,SYZa3,Syme,stone,LM IA
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1567,SYZa4,Syme,stone,LM IA
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1571,SYZa8,Syme,stone,LM IA
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWAJA,1,1,1592,TLZa1,Troullos,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),meat,iwf,IWAPU,IWA,1,1,1532,PKZa11,Palaikastro,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),blood,snf,SUNUPU,SUPU,1,1,43,HT31,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),blood,snf,SUNUPU,SUPU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),blood,snf,SUNUPU,SUPU,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),eye,irt,IRUTU,IRUJA,1,1,8,HT7a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),eye,irt,IRUTU,ISITU,1,1,1184,KH51,Khania,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),eye,irt,IRUTU,ITU,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),nose,fnd,PUNUDU,NUDU,1,1,52,HT40,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),knee,pgs,PUKUSU,PUKURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),hand,drt,DURUTU,DURUWI,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),hand,drt,DURUTU,DURU,1,1,127,HT99b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),hand,drt,DURUTU,DUKUTU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),hand,drt,DURUTU,DUTU,1,1,1505,PH(?)31b,Phaistos,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),neck,nḥbt,NUPUTU,NUTU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),breast,mnd,MUNUDU,NUDU,1,1,52,HT40,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),liver,mꜣꜣ,MUAA,MUA,1,1,1406,KNZf13,Knossos,metal,LM IA
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),liver,mꜣꜣ,MUAA,MUNEA,1,1,1652,ZAZb3,Zakros,stone,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),drink,swr,SUWARU,SURU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),drink,swr,SUWARU,SUSARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),drink,swr,SUWARU,SUSARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),eat,wnm,WANUMU,TANUMU,1,1,1380,KNZa10,Knossos,stone,LM IA
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),see,mꜣꜣ,MUAA,MUA,1,1,1406,KNZf13,Knossos,metal,LM IA
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),see,mꜣꜣ,MUAA,MUNEA,1,1,1652,ZAZb3,Zakros,stone,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),sleep,sdr,SUDURU,SURU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),sleep,sdr,SUDURU,ZUDURU,1,1,127,HT99b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),sleep,sdr,SUDURU,DURU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),sleep,sdr,SUDURU,SUSARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),sleep,sdr,SUDURU,SUSARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),lie,sḏr,SUDURU,SURU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),lie,sḏr,SUDURU,ZUDURU,1,1,127,HT99b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),lie,sḏr,SUDURU,DURU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),lie,sḏr,SUDURU,SUSARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),lie,sḏr,SUDURU,SUSARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),pull,ḫꜣr,KUARU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),pull,ḫꜣr,KUARU,KUAJA,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),pull,ḫꜣr,KUARU,NIARU,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),pull,ḫꜣr,KUARU,ARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),pull,ḫꜣr,KUARU,ARU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),pull,ḫꜣr,KUARU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),star,sbꜣ,SUPUA,SUNEA,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),star,sbꜣ,SUPUA,SUPUKA,1,1,43,HT31,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),star,sbꜣ,SUPUA,SUPUWA,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),star,sbꜣ,SUPUA,SUPUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),star,sbꜣ,SUPUA,SUPOA,1,1,1143,KH9,Khania,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),rain,ḥꜣyt,AJUTU,AJU,1,1,1098,HTZd155,Haghia Triada,,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),rain,ḥꜣyt,AJUTU,ASETU,1,1,1464,PH2,Phaistos,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),rain,ḥꜣyt,AJUTU,ARETU,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),rain,ḥꜣyt,AJUTU,ATU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),rain,ḥꜣyt,AJUTU,ATU,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),rain,ḥꜣyt,AJUTU,ARATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),stone,inr,INURU,IRU,1,1,8,HT7a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),stone,inr,INURU,IARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),stone,inr,INURU,IKIRU,1,1,1715,THEZg16,Thera,,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),sand,šʕy,SUAJU,AJU,1,1,1098,HTZd155,Haghia Triada,,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),sand,šʕy,SUAJU,SUJU,1,1,1359,KN22a,Knossos,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),wind,ṯꜣw,TUAWA,RAAWA,1,1,1407,KNZf31,Knossos,metal,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),wind,ṯꜣw,TUAWA,AWA,1,1,1456,PEZb7,Petras,pottery/ceramic,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),wind,ṯꜣw,TUAWA,TUA,1,1,1612,ZA7a,Zakros,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),fire,sḏt,SUDUTU,SUMITU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),fire,sḏt,SUDUTU,SUKITU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),fire,sḏt,SUDUTU,SUNITU,1,1,1526,PK1,Palaikastro,clay,LMI
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),fire,sḏt,SUDUTU,DUTU,1,1,1505,PH(?)31b,Phaistos,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),fire,sḏt,SUDUTU,SUMATU,1,1,1565,SYZa2,Syme,stone,LMI
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),red,dšr,DUSURU,SURU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),red,dšr,DUSURU,DUSARU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),red,dšr,DUSURU,DURU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),red,dšr,DUSURU,DURU,1,1,127,HT99b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),red,dšr,DUSURU,DUSU,1,1,136,HT108,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,WADU,1,1,7,HT6b,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,WADU,1,1,1380,KNZa10,Knossos,stone,LM IA
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,WADU,1,1,1617,ZA10b,Zakros,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,104,HT85a,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,113,HT92,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,126,HT99a,Haghia Triada - Casa Room 7,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,175,HT133,Haghia Triada - Casa del Lebete,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,1137,KH4,Khania,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,1145,KH11,Khania,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,1157,KH23,Khania,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,1598,TY3a,Tylissos,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,1651,ZAWc2,Zakros,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,ADU,1,1,1670,ARKH5,Arkhalkhori,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),green,wꜣḏ,WAADU,WAA,1,1,1467,PH6,Phaistos,clay,MM II
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),yellow,kny,KUNUJU,KUREJU,1,1,153,HT117b,Haghia Triada - Casa Room 9,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),yellow,kny,KUNUJU,KUNUU,1,1,1398,KNZc6,Knossos,,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),yellow,kny,KUNUJU,KUMAJU,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),yellow,kny,KUNUJU,KUJU,1,1,1449,PA1,Papourou,clay,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),yellow,kny,KUNUJU,KUJU,1,1,1611,ZA6b,Zakros,stone,Uncertain
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),yellow,kny,KUNUJU,KUNURI,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),new,mꜣʕ,MUAA,MUA,1,1,1406,KNZf13,Knossos,metal,LM IA
+Afroasiatic,Afroasiatic (Egyptian M.K./Berber),new,mꜣʕ,MUAA,MUNEA,1,1,1652,ZAZb3,Zakros,stone,LM IB

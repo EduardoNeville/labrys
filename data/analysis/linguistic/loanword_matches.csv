@@ -1,0 +1,472 @@
+greek,transliteration,english_gloss,minoan_form,category,query,matched,distance,distance_threshold,inscription_id,gorila_id,site,material,period,semantic_score,confidence_score,found_commodities,context_syllabograms
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,ARUKU,0,0,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,58.0,,DINAU
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RUKUTU,0,0,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,58.0,,𐝫RI
+Τύλισος,Tylisos,Tylissos,tulis,place_name,TURISU,RURISU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB,0.1,43.0,,𐄁MADI
+Τύλισος,Tylisos,Tylissos,tulis,place_name,TURISU,JARISU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB,0.1,43.0,,SEKUTU
+Τύλισος,Tylisos,Tylissos,tulis,place_name,TURISU,TURISI,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB,0.1,43.0,,TURISI
+Τύλισος,Tylisos,Tylissos,tulis,place_name,TURISU,TUSU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,RIKI
+Τύλισος,Tylisos,Tylissos,tulis,place_name,TURISU,TUSU,1,1,1526,PK1,Palaikastro,clay,LMI,0.1,43.0,,TA₂TE1
+Τύλισος,Tylisos,Tylissos,tulis,place_name,TURISU,RISU,1,1,101,HT81,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,𐄁𐄁
+Τύλισος,Tylisos,Tylissos,tulis,place_name,TURISU,TUSESU,1,1,1091,HTZb158a,Haghia Triada - Villa Magazine Room 5,pottery/ceramic,LM IB,0.1,43.0,,𐄁TUSE
+Ἀσίνη,Asinē,Asine,asin,place_name,ASINU,ASITE,1,1,1590,THEZb13,Thera,pottery/ceramic,Uncertain,0.15,39.5,VIN,120KAA
+Ἀσίνη,Asinē,Asine,asin,place_name,ASINU,ASI,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,38.0,,ASIJA
+Ἀσίνη,Asinē,Asine,asin,place_name,ASINU,ASI,1,1,40,HT28b,Haghia Triada - Villa Magazine,clay,LM IB,0.1,38.0,,ASIJA
+Ἀσίνη,Asinē,Asine,asin,place_name,ASINU,ASI,1,1,1143,KH9,Khania,clay,LM IB,0.15,39.5,VIR,ASISU
+Ἀσίνη,Asinē,Asine,asin,place_name,ASINU,ASI,1,1,1154,KH20,Khania,clay,LM IB,0.1,38.0,,𐝫𐝫A
+Ἀσίνη,Asinē,Asine,asin,place_name,ASINU,ASI,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB,0.1,38.0,,*131B5A
+Ἀσίνη,Asinē,Asine,asin,place_name,ASINU,ANANU,1,1,1093,HTZb159,Haghia Triada,pottery/ceramic,LM IB,0.1,38.0,,ANANU
+Ἀσίνη,Asinē,Asine,asin,place_name,ASINU,AKANU,1,1,1399,KNZc7,Knossos,,Uncertain,0.1,38.0,,AKANU
+Ἀσίνη,Asinē,Asine,asin,place_name,ASINU,ANU,1,1,1454,PEZb,Petras,pottery/ceramic,Uncertain,0.1,38.0,,ANU?
+Ἴαλυσος,Ialysos,Ialysos,ialus,place_name,IARUSU,IARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,38.0,,10DINAU
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,ARUKU,0,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,58.0,,DINAU
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,AKUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,𐝫—8
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,AKU,1,1,1231,KH99,Khania,clay,Uncertain,0.1,43.0,,A*118
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,AKU,1,1,1449,PA1,Papourou,clay,Uncertain,0.1,43.0,,AKUJU
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,ADUKU,1,1,1598,TY3a,Tylissos,clay,Uncertain,0.2,46.0,"OLE+U,OLE",¹⁄₄
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,ARUKURO,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,DINAU
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,MURUKU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,𐝫MURU
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,KARUKU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,KARU𐄁
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,KARUKU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,KARU𐄁
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,ARUDA,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB,0.25,47.5,"OLE+U,GRA,OLE",5
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,1KEKI
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,MINUTE
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,ARUDI,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain,0.1,43.0,,𐝫A
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,MARUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.1,43.0,,TU1KU
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,ARU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,ARURA
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,ARU,1,1,1606,ZA4a,Zakros,stone,Uncertain,0.1,43.0,,5JA
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,RARUKU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,𐝫
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,RUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,SE1QE
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,RUKU,1,1,1182,KH49,Khania,clay,LM IB,0.1,43.0,,𐝫RU
+Ἄργος,Argos,Argos,arg,place_name,ARUKU,AJAKU,1,1,1406,KNZf13,Knossos,metal,LM IA,0.1,43.0,,MUAJA
+Πύργος,Pyrgos,Pyrgos (place/tower),purg,place_name,PURUKU,PUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,DIKISE
+Πύργος,Pyrgos,Pyrgos (place/tower),purg,place_name,PURUKU,MURUKU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,𐝫MURU
+Πύργος,Pyrgos,Pyrgos (place/tower),purg,place_name,PURUKU,KARUKU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,KARU𐄁
+Πύργος,Pyrgos,Pyrgos (place/tower),purg,place_name,PURUKU,KARUKU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,KARU𐄁
+Πύργος,Pyrgos,Pyrgos (place/tower),purg,place_name,PURUKU,PUMAKU,1,1,181,HT139,Haghia Triada - Casa del Lebete,clay,LM IB,0.1,43.0,,PUMAKU
+Πύργος,Pyrgos,Pyrgos (place/tower),purg,place_name,PURUKU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,1KEKI
+Πύργος,Pyrgos,Pyrgos (place/tower),purg,place_name,PURUKU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,MINUTE
+Πύργος,Pyrgos,Pyrgos (place/tower),purg,place_name,PURUKU,ARUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,DINAU
+Πύργος,Pyrgos,Pyrgos (place/tower),purg,place_name,PURUKU,MARUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.1,43.0,,TU1KU
+Πύργος,Pyrgos,Pyrgos (place/tower),purg,place_name,PURUKU,RARUKU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,𐝫
+Πύργος,Pyrgos,Pyrgos (place/tower),purg,place_name,PURUKU,RUKU,1,1,1182,KH49,Khania,clay,LM IB,0.1,43.0,,𐝫RU
+Πακτύη,Paktyē,Paktye,paktu,place_name,PAKUTUU,PAKUNUU,1,1,1398,KNZc6,Knossos,,Uncertain,0.1,43.0,,JUKUNAPA
+Σηπιάς,Sēpias,Sepias,sepia,place_name,SEPIA,SEA,1,1,1652,ZAZb3,Zakros,stone,LM IB,0.1,38.0,,DIKA
+Σηπιάς,Sēpias,Sepias,sepia,place_name,SEPIA,PIA,1,1,1618,ZA11a,Zakros,stone,Uncertain,0.1,38.0,,SIVIN¹⁄₂
+Σηπιάς,Sēpias,Sepias,sepia,place_name,SEPIA,PIA,1,1,1632,ZA21a,Zakros,stone,Uncertain,0.1,38.0,,MATE
+Θήρα,Thēra,Thera,tʰer,place_name,TUERU,SIERU,1,1,1618,ZA11a,Zakros,stone,Uncertain,0.1,43.0,,*516
+Θήρα,Thēra,Thera,tʰer,place_name,TUERU,TURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.1,43.0,,PARATU
+Θήρα,Thēra,Thera,tʰer,place_name,TUERU,TURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain,0.1,43.0,,JATURU
+Θήρα,Thēra,Thera,tʰer,place_name,TUERU,TUTERU,1,1,1631,ZA20,Zakros,stone,LM IB,0.1,43.0,,4TE
+Περγαμός,Pergamos,Pergamon,pergam,place_name,RUKUAMU,RUKUARA,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,SE1QESU
+Λακωνία,Lakōnia,Laconia,lakon,place_name,RAKONU,RAKO,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.1,43.0,,RE1NA
+Λακωνία,Lakōnia,Laconia,lakon,place_name,RAKONU,RAKO,1,1,1411,KO(?)Zf2,Kophinas,metal,Uncertain,0.1,43.0,,RAKOKU
+Λακωνία,Lakōnia,Laconia,lakon,place_name,RAKONU,RANENU,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB,0.1,43.0,,PARANE
+Μίλητος,Milētos,Miletus,milet,place_name,MIRETU,MITU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.1,43.0,,𐄁USU
+Μίλητος,Milētos,Miletus,milet,place_name,MIRETU,RETU,1,1,1529,PKZa8,Palaikastro,stone,Uncertain,0.1,43.0,,TE*307PU₂
+Μίλητος,Milētos,Miletus,milet,place_name,MIRETU,RETU,1,1,1612,ZA7a,Zakros,stone,Uncertain,0.1,43.0,,4ARE
+Μίλητος,Milētos,Miletus,milet,place_name,MIRETU,MITETU,1,1,1631,ZA20,Zakros,stone,LM IB,0.1,43.0,,SEMI
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RUKUTU,0,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,58.0,,𐝫RI
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RUKURO,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,NAU4
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RUKURO,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,KEKIRU
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,NIKUTU,1,1,1614,ZA8,Zakros,stone,LM IB,0.1,43.0,,RE𐄁NI
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RUKUNI,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.15,44.5,GRA,RU𐄁KU
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RUKUNI,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB,0.15,44.5,GRA,RU𐄁KU
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RUKUNI,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,NUTE10
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,SEKUTU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB,0.1,43.0,,URANA
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RARUKUTU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,𐝫
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RUKUA,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,SE1QE
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RUKUPA₃,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.1,43.0,,1KURA
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,KUTU,1,1,1598,TY3a,Tylissos,clay,Uncertain,0.2,46.0,"OLE+U,OLE",NE
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RUKU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,MURU1
+Λύκτος,Lyktos,Lyctus,lukt,place_name,RUKUTU,RUKU,1,1,1182,KH49,Khania,clay,LM IB,0.1,43.0,,𐝫RU
+Ἔλυρος,Elyros,Elyrus,elur,place_name,ERURU,ERUJU,1,1,1618,ZA11a,Zakros,stone,Uncertain,0.1,43.0,,
+Ἔλυρος,Elyros,Elyrus,elur,place_name,ERURU,MARURU,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB,0.1,43.0,,9MA
+Ἀξός,Axos,Axos,aks,place_name,AKUSU,AKUKU,1,1,60,HT45b,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,𐝫—8
+Ἀξός,Axos,Axos,aks,place_name,AKUSU,AKU,1,1,1231,KH99,Khania,clay,Uncertain,0.1,43.0,,A*118
+Ἀξός,Axos,Axos,aks,place_name,AKUSU,AKU,1,1,1449,PA1,Papourou,clay,Uncertain,0.1,43.0,,AKUJU
+Ἀξός,Axos,Axos,aks,place_name,AKUSU,ASASU,1,1,1683,GOWc1a,Gournia,clay,Uncertain,0.1,43.0,,ASASU
+Ἀξός,Axos,Axos,aks,place_name,AKUSU,ASISU,1,1,1143,KH9,Khania,clay,LM IB,0.15,44.5,VIR,ASISU
+Ἀξός,Axos,Axos,aks,place_name,AKUSU,ADESU,1,1,1668,ARKH4a,Arkhalkhori,clay,Uncertain,0.1,43.0,,TARE5
+Ἀξός,Axos,Axos,aks,place_name,AKUSU,ASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain,0.1,43.0,,KI𐝫
+Παισός,Paisos,Paisus,pais,place_name,PAISU,PAISA,1,1,86,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB,0.1,38.0,,¹⁄₄KA
+Παισός,Paisos,Paisus,pais,place_name,PAISU,PAIMA,1,1,1611,ZA6b,Zakros,stone,Uncertain,0.25,42.5,"GRA,GRA+PA,VIN",50
+Παισός,Paisos,Paisus,pais,place_name,PAISU,PAROSU,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB,0.1,38.0,,PAROSU
+Παισός,Paisos,Paisus,pais,place_name,PAISU,PAIDI,1,1,122,HT97a,Haghia Triada - Casa Room 7,clay,LM IB,0.15,39.5,VIR,𐄁82
+Παισός,Paisos,Paisus,pais,place_name,PAISU,PASU,1,1,1365,KN32b,Knossos,clay,Uncertain,0.1,38.0,,SA
+Παισός,Paisos,Paisus,pais,place_name,PAISU,PASU,1,1,1626,ZA16,Zakros,stone,LM IB,0.1,38.0,,SI𐝫
+Παισός,Paisos,Paisus,pais,place_name,PAISU,PAII,1,1,56,HT43,Haghia Triada - Villa Magazine,clay,LM IB,0.2,41.0,"GRA,GRA+PA",𐄁PA*342
+Παισός,Paisos,Paisus,pais,place_name,PAISU,PAI,1,1,1614,ZA8,Zakros,stone,LM IB,0.1,38.0,,RINITA
+Λέσβος,Lesbos,Lesbos,lesb,place_name,RESUPU,SUPU,1,1,43,HT31,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,KO𐄁*410
+Λέσβος,Lesbos,Lesbos,lesb,place_name,RESUPU,SUPU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,1DIKI
+Λέσβος,Lesbos,Lesbos,lesb,place_name,RESUPU,SUPU,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB,0.1,43.0,,12*301
+Νάξος,Naxos,Naxos,naks,place_name,NAKUSU,NAKUPA,1,1,1138,KH5,Khania,clay,LM IB,0.15,44.5,VIN,22
+Νάξος,Naxos,Naxos,naks,place_name,NAKUSU,NAKUPA,1,1,1450,PE1,Petras,clay,Uncertain,0.1,43.0,,NAKUPA
+Νάξος,Naxos,Naxos,naks,place_name,NAKUSU,NASU,1,1,1074,HTWc3010,Haghia Triada,clay,LM IB,0.1,43.0,,DINASU
+Νάξος,Naxos,Naxos,naks,place_name,NAKUSU,NASU,1,1,1550,PRZa1,Prassa,stone,LM IA,0.1,43.0,,NASUTE
+Νάξος,Naxos,Naxos,naks,place_name,NAKUSU,NAKU,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,3KA
+Νάξος,Naxos,Naxos,naks,place_name,NAKUSU,NAKU,1,1,161,HT123+124b,Haghia Triada - Casa del Lebete,clay,LM IB,0.1,43.0,,SA4
+Μόχλος,Mochlos,Mochlos,mokʰl,place_name,MOKURU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,KISE1
+Ζάκρος,Zakros,Zakros,zakr,place_name,ZAKURU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,,KISE1
+Ζάκρος,Zakros,Zakros,zakr,place_name,ZAKURU,ZARU,1,1,14,HT10a,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,,𐄁DARE
+νήριτον,neriton,sea-plant,nerit,nature,NERITU,PARITU,1,1,99,HT79+83,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,DAPA₃
+νήριτον,neriton,sea-plant,nerit,nature,NERITU,NESITU,1,1,222,HTWa1019,Haghia Triada - Portico 11 and Room 13,,LM IB,0.05,41.5,,NESITU
+νήριτον,neriton,sea-plant,nerit,nature,NERITU,NERITA,1,1,1139,KH6,Khania,clay,LM IB,0.05,41.5,,TERE
+νήριτον,neriton,sea-plant,nerit,nature,NERITU,NETU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,DARE
+μίνθη,minthē,mint,mintʰ,nature,MINUTU,MITU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,𐄁USU
+μίνθη,minthē,mint,mintʰ,nature,MINUTU,MINU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,WA10—
+μίνθη,minthē,mint,mintʰ,nature,MINUTU,MINU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,DAME10
+μίνθη,minthē,mint,mintʰ,nature,MINUTU,MINU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,𐝫𐄁𐝫
+μίνθη,minthē,mint,mintʰ,nature,MINUTU,MINU,1,1,134,HT106,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,MINUTE
+μίνθη,minthē,mint,mintʰ,nature,MINUTU,MINU,1,1,1415,MA1a,Malia,,Uncertain,0.05,41.5,,QEDEMI
+μίνθη,minthē,mint,mintʰ,nature,MINUTU,MINU,1,1,1416,MA1b,Malia,,Uncertain,0.05,41.5,,QEDEMI
+μίνθη,minthē,mint,mintʰ,nature,MINUTU,MITETU,1,1,1631,ZA20,Zakros,stone,LM IB,0.05,41.5,,SEMI
+σίναπι,sinapi,mustard,sinap,nature,SINAPU,SINA,1,1,1174,KH40,Khania,clay,LM IB,0.05,36.5,,𐝫SINA
+σίναπι,sinapi,mustard,sinap,nature,SINAPU,SINA,1,1,1450,PE1,Petras,clay,Uncertain,0.05,36.5,,SINAKU
+σίναπι,sinapi,mustard,sinap,nature,SINAPU,SIPU,1,1,1095,HTZb161,Haghia Triada,pottery/ceramic,LM IB,0.05,36.5,,SIPUai?
+κρόκος,krokos,saffron,krok,nature,KURUOKU,KURUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KISE1QE
+ῥόδον,rhodon,rose,wrod,nature,WARODU,SARODU,1,1,25,HT19,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐄁TE𐄁
+ῥόδον,rhodon,rose,wrod,nature,WARODU,WADU,1,1,7,HT6b,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,WADUNI
+ῥόδον,rhodon,rose,wrod,nature,WARODU,WADU,1,1,1380,KNZa10,Knossos,stone,LM IA,0.05,41.5,,𐄁DA
+ῥόδον,rhodon,rose,wrod,nature,WARODU,WADU,1,1,1617,ZA10b,Zakros,stone,Uncertain,0.05,41.5,,WA2
+ῥόδον,rhodon,rose,wrod,nature,WARODU,WAADU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,DERU20
+ῥόδον,rhodon,rose,wrod,nature,WARODU,RODU,1,1,136,HT108,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,GRA,70—
+δάφνη,daphnē,laurel,dapʰn,nature,DAPUNU,DANU,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,DU20
+δάφνη,daphnē,laurel,dapʰn,nature,DAPUNU,DAMINU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,1KURO
+κυπάρισσος,kyparissos,cypress,kuparis,nature,KUPARISU,KUPARI,1,1,1450,PE1,Petras,clay,Uncertain,0.05,36.5,,KUPARIVIR+[?]
+ἐλαία,elaia,olive (tree),elai,nature,ERAI,DARAI,1,1,39,HT28a,Haghia Triada - Villa Magazine,clay,LM IB,0.467,39.0,"OLE+U,GRA,OLE",2
+ἐλαία,elaia,olive (tree),elai,nature,ERAI,ENAI,1,1,1140,KH7a,Khania,clay,Uncertain,0.05,26.5,,KI*3344
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,KUARA,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,1QESU
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,MINARA,1,1,1407,KNZf31,Knossos,metal,Uncertain,0.05,36.5,,NE𐄁QA
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,MANARA,1,1,43,HT31,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,10
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,KUNA,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,]TU+RO𐄁
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,KUNA,1,1,1398,KNZc6,Knossos,,Uncertain,0.05,36.5,,NU𐄁JU
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,KUNA,1,1,1624,ZA15a,Zakros,stone,Uncertain,0.05,36.5,,*47KUNA
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,KURA,1,1,37,HT27a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,51RE
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,KURA,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,36.5,,SU1MI
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,KURA,1,1,1631,ZA20,Zakros,stone,LM IB,0.05,36.5,,TU6TE
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,KURA,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB,0.05,36.5,,KURA*131B
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,NARA,1,1,1109,IOZa2,Iouktas,stone,Uncertain,0.05,36.5,,MA𐄁
+κυνάρα,kynara,artichoke,kunara,nature,KUNARA,KURORA,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,KIRU1
+λαύρα,laurada,lane/alley,laur,nature,RAURU,RAUNARU,1,1,1123,IOZa16,Iouktas,stone,Uncertain,0.05,41.5,,SASARA
+λαύρα,laurada,lane/alley,laur,nature,RAURU,RAUDE,1,1,159,HT122b,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,VIR+[?]KI
+λαύρα,laurada,lane/alley,laur,nature,RAURU,RAUDA,1,1,1138,KH5,Khania,clay,LM IB,0.05,41.5,,ARAU
+λαύρα,laurada,lane/alley,laur,nature,RAURU,RATURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,𐄁PARA
+λαύρα,laurada,lane/alley,laur,nature,RAURU,URU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,1NA
+λαύρα,laurada,lane/alley,laur,nature,RAURU,RARU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐝫
+λίμνη,limnē,lake/marsh,limn,nature,RIMUNU,RIMU,1,1,1406,KNZf13,Knossos,metal,LM IA,0.05,41.5,,TERIMU
+πύργος,pyrgos,tower,purg,architecture,PURUKU,PUKU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,DIKISE
+πύργος,pyrgos,tower,purg,architecture,PURUKU,MURUKU,1,1,61,HT46a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐝫MURU
+πύργος,pyrgos,tower,purg,architecture,PURUKU,KARUKU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KARU𐄁
+πύργος,pyrgos,tower,purg,architecture,PURUKU,KARUKU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KARU𐄁
+πύργος,pyrgos,tower,purg,architecture,PURUKU,PUMAKU,1,1,181,HT139,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,PUMAKU
+πύργος,pyrgos,tower,purg,architecture,PURUKU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,1KEKI
+πύργος,pyrgos,tower,purg,architecture,PURUKU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,MINUTE
+πύργος,pyrgos,tower,purg,architecture,PURUKU,ARUKU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,DINAU
+πύργος,pyrgos,tower,purg,architecture,PURUKU,MARUKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,TU1KU
+πύργος,pyrgos,tower,purg,architecture,PURUKU,RARUKU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐝫
+πύργος,pyrgos,tower,purg,architecture,PURUKU,RUKU,1,1,1182,KH49,Khania,clay,LM IB,0.05,41.5,,𐝫RU
+οἶκος,oikos,house,oik,architecture,OIKU,KUIKU,1,1,47,HT35,Haghia Triada - Villa Magazine,clay,LM IB,0.05,31.5,,KU𐄁*326
+οἶκος,oikos,house,oik,architecture,OIKU,MAIKU,1,1,1659,APZa2,Apodoulou,stone,Uncertain,0.05,31.5,,NAMA𐄁
+οἶκος,oikos,house,oik,architecture,OIKU,IKU,1,1,111,HT90,Haghia Triada - Casa Room 7,clay,LM IB,0.05,31.5,,IKURI
+οἶκος,oikos,house,oik,architecture,OIKU,IKU,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB,0.05,31.5,,PA₃NA
+οἶκος,oikos,house,oik,architecture,OIKU,IKU,1,1,1611,ZA6b,Zakros,stone,Uncertain,0.1,33.0,"GRA,GRA+PA",IKUJU
+θύρα,thyra,door,tʰur,architecture,TUURU,TUUNA,1,1,1565,SYZa2,Syme,stone,LMI,0.05,41.5,,SUMATU
+θύρα,thyra,door,tʰur,architecture,TUURU,TURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,PARATU
+θύρα,thyra,door,tʰur,architecture,TUURU,TURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain,0.05,41.5,,JATURU
+θύρα,thyra,door,tʰur,architecture,TUURU,TUTERU,1,1,1631,ZA20,Zakros,stone,LM IB,0.05,41.5,,4TE
+θύρα,thyra,door,tʰur,architecture,TUURU,URU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,1NA
+σκοτίη,skotiē,darkness/dark chamber,skoti,architecture,SUKUOTI,KUOTI,1,1,114,HT93a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,NI5
+κλίνη,klinē,bed/couch,klin,architecture,KURINU,KURI,1,1,111,HT90,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KURINA
+κλίνη,klinē,bed/couch,klin,architecture,KURINU,KURI,1,1,1671,ARKH6,Arkhalkhori,clay,LM IB,0.05,41.5,,𐄁KU
+κλίνη,klinē,bed/couch,klin,architecture,KURINU,KUPA₃NU,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,𐄁KUPA₃
+κλίνη,klinē,bed/couch,klin,architecture,KURINU,KUPA₃NU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,KURAMU
+κλίνη,klinē,bed/couch,klin,architecture,KURINU,KUPA₃NU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain,0.05,41.5,,1
+κλίνη,klinē,bed/couch,klin,architecture,KURINU,KUNU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,SIDA
+κλίνη,klinē,bed/couch,klin,architecture,KURINU,KUNU,1,1,1398,KNZc6,Knossos,,Uncertain,0.05,41.5,,KUNAPA
+θρόνος,thronos,throne,tʰron,architecture,TURUONU,TURUNU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,PARATURU
+βάθρον,bathron,base/pedestal,batʰr,architecture,PATURU,PATU,1,1,1606,ZA4a,Zakros,stone,Uncertain,0.05,41.5,,TOJA3
+βάθρον,bathron,base/pedestal,batʰr,architecture,PATURU,JATURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain,0.05,41.5,,WAJATU
+βάθρον,bathron,base/pedestal,batʰr,architecture,PATURU,PATIRU,1,1,1620,ZA12a,Zakros,stone,Uncertain,0.05,41.5,,𐝫PA64
+βάθρον,bathron,base/pedestal,batʰr,architecture,PATURU,PATIRU,1,1,1621,ZA12b,Zakros,stone,Uncertain,0.05,41.5,,TU6
+βάθρον,bathron,base/pedestal,batʰr,architecture,PATURU,RATURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,𐄁PARA
+βάθρον,bathron,base/pedestal,batʰr,architecture,PATURU,PADARU,1,1,1597,TY2,Tylissos,clay,Uncertain,0.05,41.5,,500290
+κύαθος,kyathos,ladle/cup,kuatʰ,domestic,KUATU,KUARA,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,1QESU
+κύαθος,kyathos,ladle/cup,kuatʰ,domestic,KUATU,KUAJA,1,1,16,HT11a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,KANA
+κύαθος,kyathos,ladle/cup,kuatʰ,domestic,KUATU,KUPITU,1,1,1623,ZA14,Zakros,stone,LM IB,0.05,41.5,,KA3
+κύαθος,kyathos,ladle/cup,kuatʰ,domestic,KUATU,ATU,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB,0.05,41.5,,ATURI
+κύαθος,kyathos,ladle/cup,kuatʰ,domestic,KUATU,KUTU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,RI
+κύαθος,kyathos,ladle/cup,kuatʰ,domestic,KUATU,KUTU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,RANA*21F
+κύαθος,kyathos,ladle/cup,kuatʰ,domestic,KUATU,KUTU,1,1,1598,TY3a,Tylissos,clay,Uncertain,0.1,43.0,"OLE+U,OLE",NE
+κύαθος,kyathos,ladle/cup,kuatʰ,domestic,KUATU,KUTU,1,1,1614,ZA8,Zakros,stone,LM IB,0.05,41.5,,𐄁NI
+κύαθος,kyathos,ladle/cup,kuatʰ,domestic,KUATU,KUNATU,1,1,63,HT47a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,]TU+RO𐄁
+κύαθος,kyathos,ladle/cup,kuatʰ,domestic,KUATU,KUPA₃TU,1,1,155,HT119,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,RISI
+φιάλη,phialē,bowl,pʰial,domestic,PUIARU,TAIARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,TU10DINA
+κέραμος,keramos,pottery/clay,keram,domestic,KERAMU,RAMU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,1MITU
+θῆλυς,thēlys,container/vessel,tʰelu,domestic,TUERU,SIERU,1,1,1618,ZA11a,Zakros,stone,Uncertain,0.05,41.5,,*516
+θῆλυς,thēlys,container/vessel,tʰelu,domestic,TUERU,TURU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,PARATU
+θῆλυς,thēlys,container/vessel,tʰelu,domestic,TUERU,TURU,1,1,1410,KOZa1,Kophinas,stone,Uncertain,0.05,41.5,,JATURU
+θῆλυς,thēlys,container/vessel,tʰelu,domestic,TUERU,TUTERU,1,1,1631,ZA20,Zakros,stone,LM IB,0.05,41.5,,4TE
+κισσύβιον,kissybion,ivy-wood cup,kisub,domestic,KISUPU,SUPU,1,1,43,HT31,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,KO𐄁*410
+κισσύβιον,kissybion,ivy-wood cup,kisub,domestic,KISUPU,SUPU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,1DIKI
+κισσύβιον,kissybion,ivy-wood cup,kisub,domestic,KISUPU,SUPU,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB,0.05,41.5,,12*301
+κισσύβιον,kissybion,ivy-wood cup,kisub,domestic,KISUPU,KIPU,1,1,46,HT34,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,SARA₂𐄁
+κισσύβιον,kissybion,ivy-wood cup,kisub,domestic,KISUPU,KISU,1,1,49,HT37,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐄁KAKI
+κισσύβιον,kissybion,ivy-wood cup,kisub,domestic,KISUPU,KIDIPU,1,1,1623,ZA14,Zakros,stone,LM IB,0.05,41.5,,KIDI1
+κυβερνάω,kybernaō,to steer (ship),kubern,domestic,KURUNU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KISE1
+κυβερνάω,kybernaō,to steer (ship),kubern,domestic,KURUNU,TURUNU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,PARATU
+κυβερνάω,kybernaō,to steer (ship),kubern,domestic,KURUNU,KUPA₃NU,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,𐄁KUPA₃
+κυβερνάω,kybernaō,to steer (ship),kubern,domestic,KURUNU,KUPA₃NU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,KURAMU
+κυβερνάω,kybernaō,to steer (ship),kubern,domestic,KURUNU,KUPA₃NU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain,0.05,41.5,,1
+κυβερνάω,kybernaō,to steer (ship),kubern,domestic,KURUNU,KUNU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,SIDA
+κυβερνάω,kybernaō,to steer (ship),kubern,domestic,KURUNU,KUNU,1,1,1398,KNZc6,Knossos,,Uncertain,0.05,41.5,,KUNAPA
+θύμος,thymos,thyme,tʰum,flora,TUUMU,TUUNA,1,1,1565,SYZa2,Syme,stone,LMI,0.05,41.5,,SUMATU
+ὀρίγανον,origanon,oregano,orig,flora,ORIKU,DARIKU,1,1,1224,KH92,Khania,clay,Uncertain,0.05,41.5,,DA*21FRI
+σέλινον,selinon,celery,selin,flora,SERINU,SERI,1,1,101,HT81,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,SE𐄁
+σέλινον,selinon,celery,selin,flora,SERINU,SENU,1,1,1624,ZA15a,Zakros,stone,Uncertain,0.05,41.5,,TINISA
+σέλινον,selinon,celery,selin,flora,SERINU,SENU,1,1,1676,CR(?)Zf1,Crete,metal,Uncertain,0.05,41.5,,𐄁QAKI
+ῥάκος,rhakos,rag/leaf,wrak,flora,WARAKU,RAKU,1,1,110,HT89,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,𐄁*30523
+ῥάκος,rhakos,rag/leaf,wrak,flora,WARAKU,RAKU,1,1,120,HT96a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,GRA5RU
+ῥάκος,rhakos,rag/leaf,wrak,flora,WARAKU,RAKU,1,1,1573,SYZa10,Syme,stone,LM IA,0.05,36.5,,RAKU
+βαλάνιον,balanion,acorn,balani,flora,PARANI,PARAJA,1,1,1572,SYZa9,Syme,stone,LM IA,0.05,36.5,,PARAJA
+βαλάνιον,balanion,acorn,balani,flora,PARANI,PAKUNI,1,1,1398,KNZc6,Knossos,,Uncertain,0.05,36.5,,TIPAKU
+βαλάνιον,balanion,acorn,balani,flora,PARANI,PARATU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,36.5,,*326𐄁PA
+βαλάνιον,balanion,acorn,balani,flora,PARANI,PARANE,1,1,120,HT96a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,APARA
+βαλάνιον,balanion,acorn,balani,flora,PARANI,PARANE,1,1,121,HT96b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,PARANE
+βαλάνιον,balanion,acorn,balani,flora,PARANI,PARANE,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,36.5,,*21FNEMI
+βαλάνιον,balanion,acorn,balani,flora,PARANI,PARANE,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB,0.05,36.5,,𐄁PARA
+βαλάνιον,balanion,acorn,balani,flora,PARANI,PADANI,1,1,1212,KH79+89,Khania,clay,Uncertain,0.05,36.5,,ARA
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAUDU,1,1,1616,ZA10a,Zakros,stone,Uncertain,0.05,41.5,,TANA
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAROKU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,RE1*324
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DARIKU,1,1,1224,KH92,Khania,clay,Uncertain,0.05,41.5,,DA*21FRI
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAREKU,1,1,104,HT85a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,12U
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAREKU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,1MIRU
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAREKU,1,1,1628,ZA18a,Zakros,stone,Uncertain,0.05,41.5,,DAREKU
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAKU,1,1,131,HT103,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,40PA₃DA
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAKU,1,1,132,HT104,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,𐄁𐄁
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAKU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain,0.05,41.5,,*22FNE
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAKU,1,1,1560,SEZf1,Selakanos,metal,Uncertain,0.05,41.5,,DAKU
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAUTI,1,1,1118,IOZa11,Iouktas,stone,Uncertain,0.05,41.5,,DADA𐄁
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAUSE,1,1,1708,LACHZa1,Larani,stone,Uncertain,0.05,41.5,,RIDAU
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DAKIKU,1,1,37,HT27a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,5051
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DATEKU,1,1,1665,ARKH2,Arkhalkhori,clay,LM IB,0.05,41.5,,DATEKU
+δαῦκον,daukon,carrot,dauk,flora,DAUKU,DATAKU,1,1,52,HT40,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐄁TE𐄁
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,KUMI,1,1,75,HT54a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐝫𐝫KU
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,KUMI,1,1,138,HT110a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,*34KUMI
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,KUMI,1,1,1078,HTWc3014,Haghia Triada,clay,LM IB,0.05,41.5,,KUMINA
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,KUMI,1,1,1616,ZA10a,Zakros,stone,Uncertain,0.05,41.5,,PA1
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,KUPA₃NU,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,𐄁KUPA₃
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,KUPA₃NU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,KURAMU
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,KUPA₃NU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain,0.05,41.5,,1
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,MEMINU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,RA₂WA10
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,MEMINU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,GRADAME
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,MEMINU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,10𐝫𐄁
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,MINU,1,1,134,HT106,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,MINUTE
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,MINU,1,1,1415,MA1a,Malia,,Uncertain,0.05,41.5,,QEDEMI
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,MINU,1,1,1416,MA1b,Malia,,Uncertain,0.05,41.5,,QEDEMI
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,KUNU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,SIDA
+κύμινον,kyminon,cumin,kumin,flora,KUMINU,KUNU,1,1,1398,KNZc6,Knossos,,Uncertain,0.05,41.5,,KUNAPA
+βύβλος,byblos,papyrus,bubl,flora,PUPURU,PUKURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,DIKISE
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,AKARU,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB,0.1,38.0,"OLE+U,OLE",AKARU
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,AKARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,AKARU
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,AKARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,AKARU
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,MAKARI,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,NE𐄁MA
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,MAKARI,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,36.5,,MAKARI
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,ASERI,1,1,101,HT81,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,ASE𐄁
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,ADARI,1,1,1224,KH92,Khania,clay,Uncertain,0.05,36.5,,ADA*21F
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,ATURI,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB,0.05,36.5,,ATURI
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,AKARA,1,1,1455,PEZb3,Petras,pottery/ceramic,LM IB,0.05,36.5,,AKARA
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,AKANU,1,1,1399,KNZc7,Knossos,,Uncertain,0.05,36.5,,AKANU
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,ARI,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,1U
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,ARI,1,1,1467,PH6,Phaistos,clay,MM II,0.05,36.5,,𐄁ARI
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,ARI,1,1,1499,PH28a,Phaistos,clay,Uncertain,0.05,36.5,,JAPA₃
+ἄκαριον,akarion,mite/tick (plant),akari,flora,AKARI,ARI,1,1,1614,ZA8,Zakros,stone,LM IB,0.05,36.5,,TUKORE
+ἄννησον,annēson,anise,anes,flora,ANESU,ANEA,1,1,1532,PKZa11,Palaikastro,stone,Uncertain,0.05,41.5,,PITERI
+ἄννησον,annēson,anise,anes,flora,ANESU,ASASU,1,1,1683,GOWc1a,Gournia,clay,Uncertain,0.05,41.5,,ASASU
+ἄννησον,annēson,anise,anes,flora,ANESU,ASISU,1,1,1143,KH9,Khania,clay,LM IB,0.1,43.0,VIR,ASISU
+ἄννησον,annēson,anise,anes,flora,ANESU,ANE,1,1,1585,THEZb3,Thera,pottery/ceramic,LM IA,0.05,41.5,,ANE𐝫
+ἄννησον,annēson,anise,anes,flora,ANESU,ADESU,1,1,1668,ARKH4a,Arkhalkhori,clay,Uncertain,0.05,41.5,,TARE5
+ἄννησον,annēson,anise,anes,flora,ANESU,ASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain,0.05,41.5,,KI𐝫
+ἔλαφος,elaphos,deer,elar,animal,ERARU,SIRARU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,1𐝫
+ἔλαφος,elaphos,deer,elar,animal,ERARU,ERU,1,1,1618,ZA11a,Zakros,stone,Uncertain,0.05,41.5,,
+κάπρος,kapros,wild boar,kapr,animal,KAPURU,KARU,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB,0.1,43.0,"OLE+U,OLE",KARU𐄁
+κάπρος,kapros,wild boar,kapr,animal,KAPURU,KARU,1,1,97,HT75,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,KARU
+κάπρος,kapros,wild boar,kapr,animal,KAPURU,KARU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KARU𐄁
+κάπρος,kapros,wild boar,kapr,animal,KAPURU,KARU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KARU𐄁
+κάπρος,kapros,wild boar,kapr,animal,KAPURU,KARU,1,1,122,HT97a,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,VIR,KARU𐄁
+θύννος,thynnos,tuna,tʰun,animal,TUUNU,TUUNA,1,1,1565,SYZa2,Syme,stone,LMI,0.05,41.5,,SUMATU
+θύννος,thynnos,tuna,tʰun,animal,TUUNU,TURUNU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,PARATU
+θύννος,thynnos,tuna,tʰun,animal,TUUNU,TUKUNU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,RESI
+θύννος,thynnos,tuna,tʰun,animal,TUUNU,TUNU,1,1,1124,KAZf1,Kardamoutsa,metal,Uncertain,0.05,41.5,,TUNU𐄁
+σπάρος,sparos,sea-bream,spar,animal,SUPUARU,SUPUKURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,1DIKISE
+κάραβος,karabos,beetle/crayfish,karab,animal,KARAPU,KARAKI,1,1,1455,PEZb3,Petras,pottery/ceramic,LM IB,0.05,36.5,,KARAKI
+κάραβος,karabos,beetle/crayfish,karab,animal,KARAPU,DIRAPU,1,1,13,HT9b,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,*305𐄁
+κάραβος,karabos,beetle/crayfish,karab,animal,KARAPU,KARA,1,1,10,HT8a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,10PA₃KA
+νεβρός,nebros,fawn,nebr,animal,NEPURU,NEDARU,1,1,9,HT7b,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,TUNE1
+βδέλλα,bdella,leech,bdel,animal,PUDERU,DIDERU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,GRA,20SARU
+βδέλλα,bdella,leech,bdel,animal,PUDERU,DIDERU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,RU20KU
+βδέλλα,bdella,leech,bdel,animal,PUDERU,DIDERU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,MINUTE
+βδέλλα,bdella,leech,bdel,animal,PUDERU,PUKURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,DIKISE
+βδέλλα,bdella,leech,bdel,animal,PUDERU,PUDE,1,1,1221,KH88,Khania,clay,Uncertain,0.05,41.5,,*21F*118𐄁
+κίχλη,kichlē,thrush,kikʰl,animal,KIKURU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KISE1
+κίχλη,kichlē,thrush,kikʰl,animal,KIKURU,KIKURA,1,1,37,HT27a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,51
+κίχλη,kichlē,thrush,kikʰl,animal,KIKURU,KIRU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,DEDI1
+κίχλη,kichlē,thrush,kikʰl,animal,KIKURU,KIRU,1,1,1439,MIZb1,Milos,pottery/ceramic,Uncertain,0.05,41.5,,KIRU
+κίχλη,kichlē,thrush,kikʰl,animal,KIKURU,KIRU,1,1,1715,THEZg16,Thera,,Uncertain,0.05,41.5,,KIRUQE
+κίχλη,kichlē,thrush,kikʰl,animal,KIKURU,KIPIRU,1,1,1464,PH2,Phaistos,clay,Uncertain,0.05,41.5,,ODIKI
+κίχλη,kichlē,thrush,kikʰl,animal,KIKURU,KIMARU,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB,0.05,41.5,,KIMARU
+κίχλη,kichlē,thrush,kikʰl,animal,KIKURU,KIKUZU,1,1,19,HT13,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,ZA5¹⁄₂
+κίχλη,kichlē,thrush,kikʰl,animal,KIKURU,KIJARU,1,1,1468,PH7a,Phaistos,clay,Uncertain,0.05,41.5,,URIKI
+σάρξ,sarx,flesh,sarks,body,SARUKUSU,SARUKU,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,1KEKIRU
+σάρξ,sarx,flesh,sarks,body,SARUKUSU,SARUKU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,MINUTE10
+ἄκανθα,akantha,thorn/spine,akant,body,AKANUTU,AKANU,1,1,1399,KNZc7,Knossos,,Uncertain,0.05,36.5,,AKANUZA
+Ἰκάριος,Ikarios,Icarius,ikari,culture,IKARI,IKA,1,1,99,HT79+83,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,I𐄁*305
+Ἰκάριος,Ikarios,Icarius,ikari,culture,IKARI,IKA,1,1,112,HT91,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,IKA𐄁
+Ἰκάριος,Ikarios,Icarius,ikari,culture,IKARI,IKA,1,1,130,HT102,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,33VIR+[?]
+Ἰκάριος,Ikarios,Icarius,ikari,culture,IKARI,IKA,1,1,1372,KNWc3,Knossos,clay,MMIIIB,0.05,36.5,,"IKA?,pte?"
+Ἰκάριος,Ikarios,Icarius,ikari,culture,IKARI,IDARI,1,1,1633,ZA21b,Zakros,stone,Uncertain,0.05,36.5,,IDA
+Ἰκάριος,Ikarios,Icarius,ikari,culture,IKARI,MAKARI,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,NE𐄁MA
+Ἰκάριος,Ikarios,Icarius,ikari,culture,IKARI,MAKARI,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,36.5,,MAKARI
+Ἰκάριος,Ikarios,Icarius,ikari,culture,IKARI,IZURI,1,1,1467,PH6,Phaistos,clay,MM II,0.05,36.5,,RIIZU
+Ἰκάριος,Ikarios,Icarius,ikari,culture,IKARI,IRI,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB,0.1,38.0,"GRA,BOS",JA𐄁I
+Ἰκάριος,Ikarios,Icarius,ikari,culture,IKARI,ISARI,1,1,1709,PH54,Phaistos,clay,Uncertain,0.05,36.5,,ISARI
+Ἰκάριος,Ikarios,Icarius,ikari,culture,IKARI,IKURI,1,1,111,HT90,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,IKURI
+Δαίδαλος,Daidalos,Daedalus,daidal,culture,DAIDARU,DAPADARU,1,1,1597,TY2,Tylissos,clay,Uncertain,0.05,36.5,,PI500290
+Κάρνος,Karnos,Carnus (seer),karn,culture,KARUNU,KARURE,1,1,2,HT2,Haghia Triada - Portico 11 and Room 13,clay,LM IB,0.1,43.0,"OLE+U,OLE",KARU𐄁
+Κάρνος,Karnos,Carnus (seer),karn,culture,KARUNU,TURUNU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,PARATU
+Κάρνος,Karnos,Carnus (seer),karn,culture,KARUNU,KARUKU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KARU𐄁
+Κάρνος,Karnos,Carnus (seer),karn,culture,KARUNU,KARUKU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KARU𐄁
+Κάρνος,Karnos,Carnus (seer),karn,culture,KARUNU,KARU,1,1,97,HT75,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,KARU
+Κάρνος,Karnos,Carnus (seer),karn,culture,KARUNU,KARU,1,1,122,HT97a,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,VIR,KARU𐄁
+Κάρνος,Karnos,Carnus (seer),karn,culture,KARUNU,KANU,1,1,86,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐄁GRA15
+Κάρνος,Karnos,Carnus (seer),karn,culture,KARUNU,KANU,1,1,1399,KNZc7,Knossos,,Uncertain,0.05,41.5,,KANUZA
+Περσεύς,Perseus,Perseus,perseu,culture,RUSEU,SEU,1,1,1617,ZA10b,Zakros,stone,Uncertain,0.05,41.5,,REZASE
+Περσεύς,Perseus,Perseus,perseu,culture,RUSEU,RUSE,1,1,1655,ZAZg35,Zakros,,LM IA,0.05,41.5,,RU𐄁SE
+Περσεύς,Perseus,Perseus,perseu,culture,RUSEU,RUU,1,1,33,HT25a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,NAU
+Δημήτηρ,Dēmētēr,Demeter,dēmētēr,culture,DEMETERU,DEMETE,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,SARU1KU
+Τιτάν,Titān,Titan,titan,culture,TITANU,TINU,1,1,1109,IOZa2,Iouktas,stone,Uncertain,0.05,36.5,,RUTETA
+Τιτάν,Titān,Titan,titan,culture,TITANU,TINU,1,1,1113,IOZa6,Iouktas,stone,LM IA,0.05,36.5,,UTINU
+Τιτάν,Titān,Titan,titan,culture,TITANU,TINU,1,1,1118,IOZa11,Iouktas,stone,Uncertain,0.05,36.5,,𐄁U
+Τιτάν,Titān,Titan,titan,culture,TITANU,TITA,1,1,1407,KNZf31,Knossos,metal,Uncertain,0.05,36.5,,ADARA
+Τιτάν,Titān,Titan,titan,culture,TITANU,METANU,1,1,1548,PLZf1,Platanos,metal,Uncertain,0.05,36.5,,SASARA
+Τιτάν,Titān,Titan,titan,culture,TITANU,TANU,1,1,1380,KNZa10,Knossos,stone,LM IA,0.05,36.5,,TANUMU
+Τιτάν,Titān,Titan,titan,culture,TITANU,TANU,1,1,1614,ZA8,Zakros,stone,LM IB,0.05,36.5,,A
+Λύκαιον,Lykaion,Lycaeum,lukai,culture,RUKAI,RUKA,1,1,122,HT97a,Haghia Triada - Casa Room 7,clay,LM IB,0.1,38.0,VIR,RU𐄁
+Λύκαιον,Lykaion,Lycaeum,lukai,culture,RUKAI,RUKA,1,1,1123,IOZa16,Iouktas,stone,Uncertain,0.05,36.5,,𐄁U
+Λύκαιον,Lykaion,Lycaeum,lukai,culture,RUKAI,RUKA,1,1,1532,PKZa11,Palaikastro,stone,Uncertain,0.05,36.5,,𐄁A
+Λύκαιον,Lykaion,Lycaeum,lukai,culture,RUKAI,RUKA,1,1,1533,PKZa12,Palaikastro,stone,Uncertain,0.05,36.5,,𐄁RAME
+Λύκαιον,Lykaion,Lycaeum,lukai,culture,RUKAI,RUI,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB,0.05,36.5,,MA6
+Λύκαιον,Lykaion,Lycaeum,lukai,culture,RUKAI,RUI,1,1,114,HT93a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,𐄁DA+RE+SE
+Λύκαιον,Lykaion,Lycaeum,lukai,culture,RUKAI,ROKAI,1,1,124,HT98a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,NA³⁄₄
+Λύκαιον,Lykaion,Lycaeum,lukai,culture,RUKAI,RUMAI,1,1,149,HT115b,Haghia Triada - Casa Room 9,clay,LM IB,0.05,36.5,,NUWI𐄁
+Λύκαιον,Lykaion,Lycaeum,lukai,culture,RUKAI,MAKAI,1,1,1609,ZA5b,Zakros,stone,Uncertain,0.05,36.5,,PIKI1
+Λύκαιον,Lykaion,Lycaeum,lukai,culture,RUKAI,KAI,1,1,1372,KNWc3,Knossos,clay,MMIIIB,0.05,36.5,,KAIKA
+Λύκαιον,Lykaion,Lycaeum,lukai,culture,RUKAI,RUTEI,1,1,1121,IOZa14,Iouktas,stone,Uncertain,0.05,36.5,,RUTE𐄁
+Ἱμέρα,Himera,Himera,imer,culture,IMERU,IKIRU,1,1,1715,THEZg16,Thera,,Uncertain,0.05,41.5,,IKIRU
+Ἱμέρα,Himera,Himera,imer,culture,IMERU,IRU,1,1,8,HT7a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐄁VIR+[?]I
+Ἱμέρα,Himera,Himera,imer,culture,IMERU,IARU,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,10DINA
+κύριος,kyrios,lord,kurio,abstract,KURIO,KURI,1,1,111,HT90,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KURINA
+κύριος,kyrios,lord,kurio,abstract,KURIO,KURI,1,1,1671,ARKH6,Arkhalkhori,clay,LM IB,0.05,41.5,,𐄁KU
+κύριος,kyrios,lord,kurio,abstract,KURIO,KUO,1,1,114,HT93a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,NI
+τέμενος,temenos,sacred precinct,temen,abstract,TEMENU,TEMEDA,1,1,1581,THEtab.5,Thera,clay,Uncertain,0.05,41.5,,𐄁TEME
+τέμενος,temenos,sacred precinct,temen,abstract,TEMENU,TEKINU,1,1,150,HT116a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,GRA16
+κλίμα,klima,region/incline,klim,abstract,KURIMU,RIMU,1,1,1406,KNZf13,Knossos,metal,LM IA,0.05,41.5,,TERIMU
+κλίμα,klima,region/incline,klim,abstract,KURIMU,KURI,1,1,111,HT90,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KURINA
+κλίμα,klima,region/incline,klim,abstract,KURIMU,KURI,1,1,1671,ARKH6,Arkhalkhori,clay,LM IB,0.05,41.5,,𐄁KU
+κλίμα,klima,region/incline,klim,abstract,KURIMU,KURAMU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,SU1MI
+χορός,choros,dance/dancing place,kʰor,abstract,KUORU,KURU,1,1,108,HT87,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KISE1
+χορός,choros,dance/dancing place,kʰor,abstract,KUORU,KUOTI,1,1,114,HT93a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,NI
+τύραννος,tyrannos,tyrant,turan,abstract,TURANU,TURUNU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,PARATU
+τύραννος,tyrannos,tyrant,turan,abstract,TURANU,TURAO,1,1,1464,PH2,Phaistos,clay,Uncertain,0.05,41.5,,TU*21F1
+τύραννος,tyrannos,tyrant,turan,abstract,TURANU,TUKUNU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,RESI
+τύραννος,tyrannos,tyrant,turan,abstract,TURANU,TUNU,1,1,1124,KAZf1,Kardamoutsa,metal,Uncertain,0.05,41.5,,TUNU𐄁
+θάνατος,thanatos,death,tʰanat,abstract,TUANATU,TUARETU,1,1,1612,ZA7a,Zakros,stone,Uncertain,0.05,36.5,,RATU4A
+λοιμός,loimos,plague,loim,abstract,ROIMU,ROITI,1,1,34,HT25b,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,RO16
+θυσία,thysia,sacrifice,tʰusi,abstract,TUUSI,TUUNA,1,1,1565,SYZa2,Syme,stone,LMI,0.05,41.5,,SUMATU
+θυσία,thysia,sacrifice,tʰusi,abstract,TUUSI,TUSI,1,1,1141,KH7b,Khania,clay,Uncertain,0.05,41.5,,SE
+θυσία,thysia,sacrifice,tʰusi,abstract,TUUSI,TUSI,1,1,1631,ZA20,Zakros,stone,LM IB,0.05,41.5,,𐄁4
+θυσία,thysia,sacrifice,tʰusi,abstract,TUUSI,USI,1,1,21,HT15,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,U*34SI
+θυσία,thysia,sacrifice,tʰusi,abstract,TUUSI,USI,1,1,182,HT140,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,U*34SI
+θυσία,thysia,sacrifice,tʰusi,abstract,TUUSI,TURISI,1,1,1385,KNZb5,Knossos,pottery/ceramic,MMIIIB,0.05,41.5,,TURISI
+δελφίς,delphis,dolphin,delρi,abstract,DERUI,RUI,1,1,31,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB,0.05,41.5,,MA6
+δελφίς,delphis,dolphin,delρi,abstract,DERUI,RUI,1,1,114,HT93a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,𐄁DA+RE+SE
+δελφίς,delphis,dolphin,delρi,abstract,DERUI,RUI,1,1,1532,PKZa11,Palaikastro,stone,Uncertain,0.05,41.5,,RUKANA
+δελφίς,delphis,dolphin,delρi,abstract,DERUI,DEI,1,1,1669,ARKH4b,Arkhalkhori,clay,Uncertain,0.05,41.5,,𐝫RE10
+δελφίς,delphis,dolphin,delρi,abstract,DERUI,DERUQA,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,GRA,SARU20
+δελφίς,delphis,dolphin,delρi,abstract,DERUI,DERUQE,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,20KUNI
+δελφίς,delphis,dolphin,delρi,abstract,DERUI,DERUQE,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,NUTE10
+ἄκανθος,akanthos,acanthus,akantʰ,suffix_nth,AKANUTU,AKANU,1,1,1399,KNZc7,Knossos,,Uncertain,0.05,36.5,,AKANUZA
+κάλαθος,kalathos,basket,kalatʰ,suffix_nth,KARATU,KARAKI,1,1,1455,PEZb3,Petras,pottery/ceramic,LM IB,0.05,36.5,,KARAKI
+κάλαθος,kalathos,basket,kalatʰ,suffix_nth,KARATU,RATU,1,1,168,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,36.5,,𐄁PARA
+κάλαθος,kalathos,basket,kalatʰ,suffix_nth,KARATU,RATU,1,1,1087,HTWc3024,Haghia Triada,clay,LM IB,0.05,36.5,,RATUME
+κάλαθος,kalathos,basket,kalatʰ,suffix_nth,KARATU,RATU,1,1,1526,PK1,Palaikastro,clay,LMI,0.05,36.5,,—TA₂TE
+κάλαθος,kalathos,basket,kalatʰ,suffix_nth,KARATU,RATU,1,1,1612,ZA7a,Zakros,stone,Uncertain,0.05,36.5,,ARATU
+κάλαθος,kalathos,basket,kalatʰ,suffix_nth,KARATU,KARA,1,1,10,HT8a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,10PA₃KA
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KUROSI,1,1,171,HT130,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,RA₂CYP
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KUROSA,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,RUTARA
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,PAROSU,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,PAROSU
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURONI,1,1,91,HT67,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐝫𐝫KU
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KUROTE,1,1,34,HT25b,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐝫𐝫KU
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KUNISU,1,1,14,HT10a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,KUNISU
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KUNISU,1,1,106,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,GRA,𐄁KUNI
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KUNISU,1,1,107,HT86b,Haghia Triada - Casa Room 7,clay,LM IB,0.1,43.0,GRA,𐄁KUNI
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KUNISU,1,1,118,HT95a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,TE10SA
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KUNISU,1,1,119,HT95b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,DAME10
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KUROKU,1,1,167,HT127b,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,𐝫NE13
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KUROA,1,1,137,HT109,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,4𐝫
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,12,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,U4QE
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,19,HT13,Haghia Triada - Villa Magazine,clay,LM IB,0.1,43.0,NI,¹⁄₂KU
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,52,HT40,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐄁GRA207
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,96,HT74,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐝫𐝫KU
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,104,HT85a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,UZA6
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,PAJARE
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,110,HT89,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,*30523
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,117,HT94b,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,KIRU1
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,138,HT110a,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,20KUPA
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,151,HT116b,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,KUROGRA
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,155,HT119,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,KUPA₃
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,159,HT122b,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,DEZA2
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain,0.05,41.5,,NE1
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KURO,1,1,1625,ZA15b,Zakros,stone,Uncertain,0.05,41.5,,𐄁VIN3
+γλῶσσα,glōssa,tongue,glos,suffix_ss,KUROSU,KUTUSU,1,1,65,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,RI
+Λαρίσα,Larisa,Larissa,laris,suffix_ss,RARISU,RARI,1,1,144,HT113,Haghia Triada - Casa Room 7,clay,LM IB,0.05,36.5,,RARIDE
+Λαρίσα,Larisa,Larissa,laris,suffix_ss,RARISU,RARI,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,36.5,,RARI𐄁
+Λαρίσα,Larisa,Larissa,laris,suffix_ss,RARISU,RURISU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB,0.05,36.5,,𐄁MADI
+Λαρίσα,Larisa,Larissa,laris,suffix_ss,RARISU,JARISU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,36.5,,SEKUTU
+Λαρίσα,Larisa,Larissa,laris,suffix_ss,RARISU,RATUSU,1,1,1526,PK1,Palaikastro,clay,LMI,0.05,36.5,,—TA₂TE
+Λαρίσα,Larisa,Larissa,laris,suffix_ss,RARISU,RISU,1,1,101,HT81,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,𐄁𐄁
+Λαρίσα,Larisa,Larissa,laris,suffix_ss,RARISU,RAASU,1,1,1663,ARKH1a,Arkhalkhori,clay,Uncertain,0.05,36.5,,KI
+Μέλισσα,Melissa,Melissa (nymph/bee),melis,suffix_ss,MERISU,RURISU,1,1,154,HT118,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,𐄁MADI
+Μέλισσα,Melissa,Melissa (nymph/bee),melis,suffix_ss,MERISU,JARISU,1,1,148,HT115a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,SEKUTU
+Μέλισσα,Melissa,Melissa (nymph/bee),melis,suffix_ss,MERISU,RISU,1,1,101,HT81,Haghia Triada - Villa Magazine,clay,LM IB,0.05,41.5,,𐄁𐄁
+Παγασαί,Pagasai,Pagasae,pagas,suffix_ss,PAKASU,PAROSU,1,1,26,HT20,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,PAROSU
+Παγασαί,Pagasai,Pagasae,pagas,suffix_ss,PAKASU,PASU,1,1,1365,KN32b,Knossos,clay,Uncertain,0.05,36.5,,SA
+Παγασαί,Pagasai,Pagasae,pagas,suffix_ss,PAKASU,PASU,1,1,1626,ZA16,Zakros,stone,LM IB,0.05,36.5,,SI𐝫
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARAKU,1,1,1573,SYZa10,Syme,stone,LM IA,0.05,36.5,,SARAKU
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARAA,1,1,1399,KNZc7,Knossos,,Uncertain,0.05,36.5,,RA𐄁JA
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,37,HT27a,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,𐄁VIR+[?]90
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,86,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB,0.05,36.5,,SARA𐄁
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1109,IOZa2,Iouktas,stone,Uncertain,0.05,36.5,,𐄁JASA
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1113,IOZa6,Iouktas,stone,LM IA,0.05,36.5,,𐄁JASA
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1116,IOZa9,Iouktas,stone,Uncertain,0.05,36.5,,SARAME
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1117,IOZb10,Iouktas,pottery/ceramic,LMI,0.05,36.5,,SARAME
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1119,IOZa12,Iouktas,stone,LMI,0.05,36.5,,JASASA
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1123,IOZa16,Iouktas,stone,Uncertain,0.05,36.5,,JASASA
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1380,KNZa10,Knossos,stone,LM IA,0.05,36.5,,SASARA
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1397,KHZc106,Knossos,,Uncertain,0.05,36.5,,SARAME
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1528,PKZa4,Palaikastro,stone,Uncertain,0.05,36.5,,SARA𐝫
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1532,PKZa11,Palaikastro,stone,Uncertain,0.05,36.5,,𐄁AKO
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1548,PLZf1,Platanos,metal,Uncertain,0.05,36.5,,𐄁JASA
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1549,POZc1,Poros Herakleiou,,LMIIIA,0.05,36.5,,SARA*325
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1551,PSZa2,Psykhro,stone,Uncertain,0.05,36.5,,JATI𐄁
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1558,SAMWa1,Samothrace,,MM II,0.05,36.5,,SARATE
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1592,TLZa1,Troullos,stone,Uncertain,0.05,36.5,,𐄁JASA
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SARA,1,1,1704,PKZa27,Palaikastro,stone,Uncertain,0.05,36.5,,SARAME
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,RAMU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,36.5,,1MITU
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SAMU,1,1,1444,MOZf1,Mokhilos,metal,Uncertain,0.05,36.5,,*333SAMU
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SAMU,1,1,1624,ZA15a,Zakros,stone,Uncertain,0.05,36.5,,ZASE
+Σαλαμίς,Salamis,Salamis,salam,suffix_ss,SARAMU,SAMU,1,1,1652,ZAZb3,Zakros,stone,LM IB,0.05,36.5,,KASEA
+Γυμνούς,Gymnous,Gymnous,gumn,suffix_ss,KUMUNU,KUPA₃NU,1,1,109,HT88,Haghia Triada - Casa Room 7,clay,LM IB,0.05,41.5,,𐄁KUPA₃
+Γυμνούς,Gymnous,Gymnous,gumn,suffix_ss,KUMUNU,KUPA₃NU,1,1,152,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,0.05,41.5,,KURAMU
+Γυμνούς,Gymnous,Gymnous,gumn,suffix_ss,KUMUNU,KUPA₃NU,1,1,1504,PH(?)31a,Phaistos,clay,Uncertain,0.05,41.5,,1
+Γυμνούς,Gymnous,Gymnous,gumn,suffix_ss,KUMUNU,KUNU,1,1,158,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,0.05,41.5,,SIDA
+Γυμνούς,Gymnous,Gymnous,gumn,suffix_ss,KUMUNU,KUNU,1,1,1398,KNZc6,Knossos,,Uncertain,0.05,41.5,,KUNAPA

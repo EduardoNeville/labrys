@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tei-odd/linear-a-odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Linear A Inscription HT 1</title>
+        <idno type="GORILA">HT 1</idno>
+        <idno type="alternative">GORILA 1.1</idno>
+        <idno type="alternative">HM 1234</idno>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Heraklion Archaeological Museum</publisher>
+        <date>1976</date>
+        <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <p>CC BY-NC-SA 4.0</p>
+        </licence>
+      </publicationStmt>
+      <sourceDesc>
+        <origPlace type="findspot">
+          <placeName ref="https://schema.lineara.org/vocab/sites#HT">Hagia Triada</placeName>
+          <geo>35.0589 24.7894</geo>
+          <desc>Villa Reale, Room 4, LM IB destruction layer</desc>
+        </origPlace>
+        <biblStruct>
+          <monogr>
+            <title>Recueil des inscriptions en Linéaire A</title>
+            <editor>Louis Godart</editor>
+            <editor>Jean-Pierre Olivier</editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <publisher>École Française d'Athènes</publisher>
+              <date>1976</date>
+            </imprint>
+            <biblScope unit="vol">1</biblScope>
+            <biblScope unit="pp">10–15</biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+
+    <profileDesc>
+      <creation>
+        <date type="minoanPeriod" period="LM IB">
+          <desc>Late Minoan IB, ca. 1500–1450 BCE</desc>
+        </date>
+        <date type="bceRange" from="-1500" to="-1450"/>
+      </creation>
+      <langUsage>
+        <language ident="emn">Minoan (Eteocretan)</language>
+      </langUsage>
+      <handNote xml:id="HT_Hand_1" handId="HT_Hand_1" certainty="0.9" scope="entire">
+        <desc>Standard HT administrative hand. Signs well-formed, consistent ductus. Likely same scribe as HT 2–8.</desc>
+      </handNote>
+    </profileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>TEI encoding following the Linear A ODD customization v1.0. Signs transcribed using Unicode Aegean block.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+
+  <facsimile>
+    <graphic url="https://iiif.heraklion-museum.gr/iiif/2/HM_1234/full/full/0/default.jpg"
+             mimeType="image/jpeg"
+             width="4000" height="3000">
+      <desc>Photograph of HT 1, recto. Credit: Heraklion Archaeological Museum / EFA.</desc>
+      <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+    </graphic>
+    <surface xml:id="HT_1_recto" lrx="4000" lry="3000">
+      <zone xml:id="zone_s1" ulx="10" uly="5" lrx="18" lry="17"/>
+      <zone xml:id="zone_s2" ulx="20" uly="5" lrx="28" lry="17"/>
+      <zone xml:id="zone_s3" ulx="32" uly="3" lrx="48" lry="18"/>
+    </surface>
+  </facsimile>
+
+  <text>
+    <body>
+      <div type="inscription">
+        <head>HT 1 — Economic tally</head>
+        <ab n="1">
+          <!-- Line 1 -->
+          <lb n="1"/>
+
+          <!-- Sign 1: AB 02 = ro -->
+          <g ref="https://unicode.org/charts/PDF/U10600.pdf#U+10602"
+             bennett="AB 02"
+             signType="syllabogram"
+             siglaVariant="https://sigla.phis.me/variant/AB02_v1"
+             confidence="1.0">
+            <seg type="translit">ro</seg>
+          </g>
+
+          <!-- Sign 2: AB 26 = ru -->
+          <g ref="https://unicode.org/charts/PDF/U10600.pdf#U+1061A"
+             bennett="AB 26"
+             signType="syllabogram"
+             confidence="0.95">
+            <seg type="translit">ru</seg>
+          </g>
+
+          <!-- Word divider -->
+          <pc type="wordDivider"/>
+
+          <!-- Sign 3: A 338 = GRAIN logogram -->
+          <g ref="https://unicode.org/charts/PDF/U10600.pdf#U+1065C"
+             bennett="A 338"
+             signType="logogram"
+             confidence="1.0">
+            <seg type="translit">GRAIN</seg>
+          </g>
+
+          <!-- Numeral: 12 -->
+          <num value="12">12</num>
+
+          <!-- Line 2 -->
+          <lb n="2"/>
+
+          <!-- Sign 4: AB 01 = da -->
+          <g bennett="AB 01"
+             signType="syllabogram"
+             confidence="0.80">
+            <seg type="translit">da</seg>
+          </g>
+
+          <!-- Sign 5: AB 80 = ma -->
+          <g bennett="AB 80"
+             signType="syllabogram"
+             confidence="0.70">
+            <seg type="translit">ma</seg>
+          </g>
+
+          <!-- Damage and gap -->
+          <damage/>
+          <gap extent="2" unit="chars" reason="surface lost"/>
+
+          <!-- Sign 6 (partial): AB ? -->
+          <g bennett="AB ??"
+             signType="syllabogram"
+             confidence="0.15">
+            <seg type="translit">[?]</seg>
+          </g>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,125 @@
+logogram_id,cluster_id,cluster_size,occurrences,top_site,top_period,co_occurring_logograms,avg_numeric_value
+VASE 4,1,2,57,Haghia Triada - Villa Magazine,LM IB,VASE 7,14.2112
+VASE 7,1,2,89,Khania,LM IB,VASE 4,14.0628
+VASE 2,2,2,28,Khania,LM IB,VASE 8,20.3113
+VASE 8,2,2,26,Khania,LM IB,VASE 2,21.0673
+VASE 10,3,1,26,Khania,LM IB,,10.1792
+A 568,4,1,25,Haghia Triada - Casa Room 7,LM IB,,18.0644
+VASE 3,5,1,21,Haghia Triada - Villa Magazine,LM IB,,14.3832
+VASE 5,6,1,16,Haghia Triada - Villa Magazine,LM IB,,19.3293
+A 334,7,1,15,Khania,LM IB,,
+A 400,8,1,14,Zakros,LM IB,,42.4344
+A 358,9,2,2,Haghia Triada - Casa Room 7,LM IB,VASE 6,16.3111
+VASE 6,9,2,12,Haghia Triada - Casa Room 7,LM IB,A 358,22.6475
+A 394,10,1,10,Khania,LM IB,,9.9242
+A 355,11,1,10,Khania,LM IB,,29.0179
+A 561,12,2,3,Haghia Triada - Casa Room 7,LM IB,VASE 1,13.8
+VASE 1,12,2,10,Khania,LM IB,A 561,24.8214
+A 500,13,1,9,Haghia Triada,LM IB,,9.4286
+A 348,14,3,6,Haghia Triada - Villa Magazine,LM IB,A 350; A 381,46.0
+A 350,14,3,8,Haghia Triada - Villa Magazine,LM IB,A 348; A 381,32.381
+A 381,14,3,8,Haghia Triada - Villa Magazine,LM IB,A 348; A 350,19.6757
+A 393,15,1,8,Khania,LM IB,,
+VASE 9,16,1,6,Phaistos,Uncertain,,3.0
+A 364,17,1,5,Haghia Triada - Villa Magazine,LM IB,,7.4872
+A 560,18,1,5,Khania,LM IB,,5.2
+A 332,19,1,5,Khania,LM IB,,72.3333
+A 389,20,1,4,Haghia Triada - Villa Magazine,LM IB,,7.4286
+VASE 12,21,1,4,Haghia Triada - Villa Magazine,LM IB,,59.0833
+A 331,22,1,4,Khania,LM IB,,
+A 566,23,1,3,Haghia Triada - Villa Magazine,LM IB,,9.5556
+A 392,24,1,3,Khania,LM IB,,1.8333
+A 349,25,1,3,Haghia Triada - Villa Magazine,LM IB,,30.08
+A 382,26,1,3,Haghia Triada - Villa Magazine,LM IB,,115.7143
+A 503,27,1,3,Haghia Triada - Casa Room 7,LM IB,,11.6739
+A 395,28,1,3,Khania,LM IB,,10.9286
+A 377,29,1,2,Haghia Triada - Villa Magazine,LM IB,,34.2121
+A 333,30,1,2,Haghia Triada - Villa Magazine,LM IB,,545.3846
+A 361,31,2,2,Haghia Triada - Villa Magazine,LM IB,A 383,82.0476
+A 383,31,2,2,Haghia Triada - Villa Magazine,LM IB,A 361,82.0476
+A 321,32,1,2,Haghia Triada - Villa Magazine,LM IB,,1.3684
+A 396,33,1,2,Haghia Triada - Casa Room 7,LM IB,,13.2195
+A 397,34,1,2,Haghia Triada - Casa Room 7,LM IB,,14.7941
+A 356,35,1,2,Haghia Triada - Portico 11 and Room 13,LM IB,,3.3333
+VASE 13,36,1,2,Khania,Uncertain,,6.0769
+A 303,37,1,2,Khania,LMIIIA,,
+A 342,38,2,2,Khania,LM IB,A 504,
+A 504,38,2,2,Khania,LM IB,A 342,
+A 340,39,1,2,Khania,LM IB,,
+A 508,40,1,2,Khania,LM IB,,
+A 384,41,1,2,Khania,LM IB,,
+A 562,42,1,2,Phaistos,Uncertain,,
+A 314,43,1,2,Zakros,LM IB,,7.6
+A 372,44,1,1,Haghia Triada - Villa Magazine,LM IB,,10.0588
+A 351,45,1,1,Haghia Triada - Villa Magazine,LM IB,,12.5
+A 506,46,1,1,Haghia Triada - Villa Magazine,LM IB,,76.0
+A 365,47,1,1,Haghia Triada - Villa Magazine,LM IB,,9.5
+A 373,48,1,1,Haghia Triada - Corridor 9 and Vestibule 26,LM IB,,1.0
+A 366,49,1,1,Haghia Triada - Corridor 9 and Vestibule 26,LM IB,,1.0
+A 339,50,1,1,Haghia Triada - Villa Magazine,LM IB,,545.3846
+A 325,51,1,1,Haghia Triada - Villa Magazine,LM IB,,545.3846
+A 338,52,1,1,Haghia Triada - Villa Magazine,LM IB,,545.3846
+A 371,53,1,1,Haghia Triada - Villa Magazine,LM IB,,65.2222
+A 509,54,1,1,Haghia Triada - Villa Magazine,LM IB,,65.2222
+A 360,55,1,1,Haghia Triada - Villa Magazine,LM IB,,94.6667
+A 357,56,1,1,Haghia Triada - Villa Magazine,LM IB,,94.6667
+A 370,57,1,1,Haghia Triada - Villa Magazine,LM IB,,1.8333
+A 326,58,1,1,Haghia Triada - Villa Magazine,LM IB,,1.8333
+A 385,59,1,1,Haghia Triada - Villa Magazine,LM IB,,1.8333
+A 369,60,1,1,Haghia Triada - Villa Magazine,LM IB,,1.8333
+A 391,61,1,1,Haghia Triada - Villa Magazine,LM IB,,27.7778
+A 368,62,1,1,Haghia Triada - Villa Magazine,LM IB,,27.7778
+A 378,63,1,1,Haghia Triada - Villa Magazine,LM IB,,13.75
+A 380,64,1,1,Haghia Triada - Villa Magazine,LM IB,,5.0
+A 507,65,1,1,Haghia Triada - Villa Magazine,LM IB,,
+A 401,66,1,1,Haghia Triada - Villa Magazine,LM IB,,
+A 376,67,1,1,Haghia Triada - Casa Room 7,LM IB,,12.6316
+A 329,68,1,1,Haghia Triada - Casa Room 7,LM IB,,11.2308
+A 354,69,1,1,Haghia Triada - Casa Room 7,LM IB,,11.2308
+A 343,70,1,1,Haghia Triada - Casa Room 7,LM IB,,11.2308
+A 347,71,1,1,Haghia Triada - Casa Room 7,LM IB,,7.8571
+A 346,72,1,1,Haghia Triada - Casa Room 7,LM IB,,33.3
+A 510,73,1,1,Haghia Triada - Casa Room 7,LM IB,,5.3333
+A 402,74,1,1,Haghia Triada - Casa Room 9,LM IB,,1.4286
+A 501,75,1,1,Haghia Triada - Casa Room 9,LM IB,,1.0
+A 398,76,1,1,Haghia Triada - Casa del Lebete,LM IB,,48.6818
+A 399,77,1,1,Haghia Triada - Casa del Lebete,LM IB,,27.5
+A 375,78,1,1,Haghia Triada - Portico 11 and Room 13,LM IB,,
+A 316,79,1,1,Haghia Triada - Portico 11 and Room 13,LM IB,,
+A 317,80,1,1,Haghia Triada - Portico 11 and Room 13,LM IB,,
+A 318,81,1,1,Haghia Triada - Portico 11 and Room 13,LM IB,,
+A 319,82,1,1,Haghia Triada - Portico 11 and Room 13,LM IB,,
+A 320,83,1,1,Haghia Triada - Portico 11 and Room 13,LM IB,,
+A 367,84,1,1,Khania,LM IB,,1.6667
+A 301,85,1,1,Khania,LM IB,,2.2222
+A 345,86,1,1,Khania,LM IB,,5.0
+A 344,87,1,1,Khania,LM IB,,5.0
+A 502,88,1,1,Khania,LM IB,,
+A 362,89,1,1,Khania,LM IB,,2.0
+A 322,90,1,1,Khania,LM IB,,
+A 302,91,1,1,Khania,LM IB,,
+VASE 11,92,1,1,Knossos,Uncertain,,3.0
+A 374,93,1,1,Knossos,Uncertain,,3.0
+A 363,94,1,1,Knossos,LM IA,,
+A 359,95,1,1,Malia,Uncertain,,2.2857
+A 327,96,1,1,Malia,Uncertain,,2.5
+A 328,97,1,1,Malia,Uncertain,,
+A 387,98,1,1,Phaistos,Uncertain,,1.0
+A 390,99,1,1,Phaistos,Uncertain,,1.0
+A 388,100,1,1,Phaistos,Uncertain,,1.0
+A 379,101,1,1,Phaistos,Uncertain,,1.0
+A 505,102,1,1,Phaistos,Uncertain,,1.0
+A 304,103,1,1,Phaistos,Uncertain,,
+A 335,104,1,1,Phaistos,Uncertain,,1.0
+A 306,105,1,1,Phaistos,MM II,,
+A 305,106,1,1,Phaistos,MM II,,
+A 307,107,1,1,Phaistos,Uncertain,,
+A 308,108,1,1,Phaistos,Uncertain,,
+A 309,109,1,1,Phaistos,Uncertain,,
+A 310,110,1,1,Phaistos,Uncertain,,
+A 311,111,1,1,Phaistos,Uncertain,,
+A 353,112,1,1,Phaistos,Uncertain,,1.5714
+A 312,113,1,1,Tylissos,Uncertain,,9.4815
+A 352,114,1,1,Zakros,LM IB,,3.125
+A 313,115,1,1,Zakros,Uncertain,,3.4167
+A 386,116,1,1,Zakros,Uncertain,,2.5

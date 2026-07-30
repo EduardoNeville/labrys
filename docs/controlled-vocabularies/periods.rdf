@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="https://schema.lineara.org/vocab/periods">
+    <dcterms:title>Minoan Chronological Periods</dcterms:title>
+    <dcterms:description>Controlled vocabulary of Minoan chronological periods for dating Linear A inscriptions.</dcterms:description>
+    <dcterms:date>2026-07-30</dcterms:date>
+    <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/periods#MM_II">
+    <skos:prefLabel xml:lang="en">MM II</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">MM II</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/periods"/>
+    <skos:scopeNote xml:lang="en">Middle Minoan II (1800–1700 BCE). Earliest Linear A signs; coexists with Cretan Hieroglyphic.</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="https://schema.lineara.org/vocab/periods"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/periods#MM_III">
+    <skos:prefLabel xml:lang="en">MM III</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/periods"/>
+    <skos:scopeNote xml:lang="en">Middle Minoan III (1700–1600 BCE). Early standardization; first stone libation tables.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/periods#MM_III_LM_IA">
+    <skos:prefLabel xml:lang="en">MM III/LM IA</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/periods"/>
+    <skos:scopeNote xml:lang="en">Transitional period between MM III and LM IA.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/periods#LM_IA">
+    <skos:prefLabel xml:lang="en">LM IA</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/periods"/>
+    <skos:scopeNote xml:lang="en">Late Minoan IA (1600–1500 BCE). Mature phase; administrative use at palatial centers; spread to Aegean.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/periods#LM_IB">
+    <skos:prefLabel xml:lang="en">LM IB</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/periods"/>
+    <skos:scopeNote xml:lang="en">Late Minoan IB (1500–1450 BCE). Peak / major archives; bulk of extant tablets from destruction deposits. The most frequently attested period.</skos:scopeNote>
+    <skos:note xml:lang="en">This is the period of the LM IB destructions that preserved the bulk of the corpus.</skos:note>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/periods#LM_II">
+    <skos:prefLabel xml:lang="en">LM II</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/periods"/>
+    <skos:scopeNote xml:lang="en">Late Minoan II (1450–1400 BCE). Decline; Linear B appears at Knossos; Linear A continues on stone vessels.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/periods#LM_IIIA1">
+    <skos:prefLabel xml:lang="en">LM IIIA1</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/periods"/>
+    <skos:scopeNote xml:lang="en">Late Minoan IIIA1 (1400–1350 BCE). Residual Linear A; Linear B dominates at Knossos.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/periods#LM_IIIA2">
+    <skos:prefLabel xml:lang="en">LM IIIA2</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/periods"/>
+    <skos:scopeNote xml:lang="en">Late Minoan IIIA2 (1350–1300 BCE).</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/periods#LM_IIIB">
+    <skos:prefLabel xml:lang="en">LM IIIB</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/periods"/>
+    <skos:scopeNote xml:lang="en">Late Minoan IIIB (1300–1200 BCE). Very few Linear A inscriptions; Linear B dominates.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/periods#MIXED">
+    <skos:prefLabel xml:lang="en">Mixed</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/periods"/>
+    <skos:scopeNote xml:lang="en">Mixed or uncertain stratigraphy — inscription cannot be assigned to a single period.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/periods#UNCERTAIN">
+    <skos:prefLabel xml:lang="en">Uncertain</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/periods"/>
+    <skos:scopeNote xml:lang="en">Insufficient contextual information to assign a period.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

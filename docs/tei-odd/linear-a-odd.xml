@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TEI ODD for Linear A Inscriptions</title>
+        <respStmt>
+          <resp>Schema designer</resp>
+          <name>Agent 2 — Schema Design Task</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Linear A Digital Corpus Project</publisher>
+        <date>2026-07-30</date>
+        <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Derived from TEI P5 / EpiDoc guidelines; custom elements and attributes for Linear A epigraphy.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="part">
+        <head>ODD Customization for Linear A</head>
+        <p>This ODD document defines a TEI customization for encoding Linear A inscriptions. It extends the EpiDoc subset of TEI with Linear A-specific elements, attributes, and controlled vocabularies.</p>
+      </div>
+
+      <!-- ========================================================= -->
+      <!-- MODULE DECLARATIONS                                        -->
+      <!-- ========================================================= -->
+      <div type="part">
+        <head>Module Inclusion</head>
+        <schemaSpec ident="linear-a" prefix="LA" xml:lang="en"
+          docLang="en" targetLang="en"
+          start="TEI">
+          <moduleRef key="tei"/>
+          <moduleRef key="core"/>
+          <moduleRef key="teiheader"/>
+          <moduleRef key="textstructure"/>
+          <moduleRef key="transcr"/>
+          <moduleRef key="linking"/>
+          <moduleRef key="analysis"/>
+          <moduleRef key="figures"/>
+          <moduleRef key="gajji"/>
+          <moduleRef key="drama"/>
+          <moduleRef key="spoken"/>
+          <moduleRef key="header"/>
+          <moduleRef key="msdescription"/>
+        </schemaSpec>
+      </div>
+
+      <!-- ========================================================= -->
+      <!-- MACRO / CLASS DECLARATIONS                                 -->
+      <!-- ========================================================= -->
+      <div type="part">
+        <head>Class Declarations</head>
+
+        <classSpec type="model" ident="model.inscriptionPart" module="tei">
+          <desc>Groups elements that can appear within a Linear A inscription transcription.</desc>
+          <classes>
+            <memberOf key="model.linePart"/>
+          </classes>
+        </classSpec>
+
+        <classSpec type="attributable" ident="att.linearA" module="tei">
+          <desc>Attributes specific to Linear A epigraphy.</desc>
+          <attList>
+            <attDef ident="bennett" usage="req">
+              <desc>The Bennett AB/A number for this sign (e.g., "AB 01", "A 338").</desc>
+              <datatype>
+                <dataRef key="tei.enumerated"/>
+              </datatype>
+              <valList type="open">
+                <desc>Pattern: (AB|A)\s?\d{2,3}(\.\d+)?</desc>
+              </valList>
+            </attDef>
+            <attDef ident="signType" usage="req">
+              <desc>Classification of the sign's function.</desc>
+              <datatype>
+                <dataRef key="tei.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="syllabogram"/>
+                <valItem ident="logogram"/>
+                <valItem ident="fraction"/>
+                <valItem ident="numeral"/>
+                <valItem ident="adjunct"/>
+                <valItem ident="ligature"/>
+                <valItem ident="wordDivider"/>
+                <valItem ident="uncertain"/>
+              </valList>
+            </attDef>
+            <attDef ident="siglaVariant" usage="opt">
+              <desc>URI pointing to the SigLA variant record for this sign.</desc>
+              <datatype>
+                <dataRef key="tei.pointer"/>
+              </datatype>
+            </attDef>
+            <attDef ident="confidence" usage="opt">
+              <desc>Confidence in sign identification, from 0.0 to 1.0.</desc>
+              <datatype>
+                <dataRef key="tei.probability"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </classSpec>
+
+        <classSpec type="attributable" ident="att.dimensionsLA" module="tei">
+          <desc>Dimensions attributes for Linear A objects.</desc>
+          <attList>
+            <attDef ident="dimUnit" usage="opt">
+              <desc>Unit of measurement.</desc>
+              <datatype>
+                <dataRef key="tei.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="mm"/>
+                <valItem ident="cm"/>
+                <valItem ident="m"/>
+                <valItem ident="in"/>
+                <valItem ident="ft"/>
+              </valList>
+            </attDef>
+          </attList>
+        </classSpec>
+      </div>
+
+      <!-- ========================================================= -->
+      <!-- ELEMENT SPECIFICATIONS                                     -->
+      <!-- ========================================================= -->
+      <div type="part">
+        <head>Element Specifications</head>
+
+        <!-- Inscription Type -->
+        <elementSpec ident="inscriptionType" module="tei" mode="add">
+          <desc>Wraps the object type and material of a Linear A inscription.</desc>
+          <classes>
+            <memberOf key="model.inscriptionPart"/>
+          </classes>
+          <content>
+            <sequence>
+              <elementRef key="objectType" minOccurs="1" maxOccurs="1"/>
+              <elementRef key="material" minOccurs="0" maxOccurs="unbounded"/>
+            </sequence>
+          </content>
+        </elementSpec>
+
+        <elementSpec ident="objectType" module="tei" mode="change">
+          <desc>The type of object bearing the Linear A inscription.</desc>
+          <classes>
+            <memberOf key="model.inscriptionPart"/>
+          </classes>
+          <content>
+            <textNode/>
+          </content>
+          <attList>
+            <attDef ident="ref" usage="opt">
+              <desc>URI pointing to a controlled vocabulary term for object type.</desc>
+              <datatype>
+                <dataRef key="tei.pointer"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- Sign Instance (extends g) -->
+        <elementSpec ident="g" module="tei" mode="change">
+          <desc>A character or glyph representing a Linear A sign.</desc>
+          <classes>
+            <memberOf key="att.linearA"/>
+            <memberOf key="att.global"/>
+          </classes>
+          <content>
+            <sequence>
+              <elementRef key="seg" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="g" minOccurs="0" maxOccurs="unbounded"/>
+            </sequence>
+          </content>
+          <attList>
+            <attDef ident="ref" usage="opt">
+              <desc>URI pointing to the Unicode Aegean block character definition.</desc>
+              <datatype>
+                <dataRef key="tei.pointer"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- Ligature composition -->
+        <elementSpec ident="ligature" module="tei" mode="add">
+          <desc>An explicit ligature composition, grouping multiple signs that form a single graphic unit.</desc>
+          <classes>
+            <memberOf key="model.inscriptionPart"/>
+          </classes>
+          <content>
+            <sequence>
+              <elementRef key="g" minOccurs="2" maxOccurs="unbounded"/>
+            </sequence>
+          </content>
+        </elementSpec>
+
+        <!-- Word Divider punctuation -->
+        <elementSpec ident="pc" module="tei" mode="change">
+          <desc>Punctuation or word divider within the inscription.</desc>
+          <attList>
+            <attDef ident="type" usage="opt">
+              <valList type="closed">
+                <valItem ident="wordDivider"/>
+                <valItem ident="punctuation"/>
+                <valItem ident="filler"/>
+                <valItem ident="uncertain"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- Multi-spectral image band -->
+        <elementSpec ident="msiBand" module="figures" mode="add">
+          <desc>Reference to a specific multi-spectral imaging band of an inscription image.</desc>
+          <classes>
+            <memberOf key="att.global"/>
+          </classes>
+          <content>
+            <sequence>
+              <elementRef key="graphic" minOccurs="1" maxOccurs="1"/>
+              <elementRef key="desc" minOccurs="0" maxOccurs="1"/>
+            </sequence>
+          </content>
+          <attList>
+            <attDef ident="band" usage="req">
+              <desc>Type of multi-spectral band.</desc>
+              <datatype>
+                <dataRef key="tei.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="infrared"/>
+                <valItem ident="ultraviolet"/>
+                <valItem ident="rakingLight"/>
+                <valItem ident="rti"/>
+                <valItem ident="visibleLight"/>
+                <valItem ident="xray"/>
+                <valItem ident="ct"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- Scribal hand note -->
+        <elementSpec ident="handNote" module="tei" mode="change">
+          <desc>Description of a scribal hand.</desc>
+          <attList>
+            <attDef ident="handId" usage="req">
+              <desc>Unique identifier for this hand.</desc>
+              <datatype>
+                <dataRef key="tei.enumerated"/>
+              </datatype>
+            </attDef>
+            <attDef ident="certainty" usage="opt">
+              <desc>Confidence in the hand identification.</desc>
+              <datatype>
+                <dataRef key="tei.probability"/>
+              </datatype>
+            </attDef>
+            <attDef ident="scope" usage="opt">
+              <desc>Scope of this hand across the inscription.</desc>
+              <datatype>
+                <dataRef key="tei.enumerated"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="entire"/>
+                <valItem ident="partial"/>
+                <valItem ident="side"/>
+                <valItem ident="line"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- Origin/Findspot with coordinate support -->
+        <elementSpec ident="origPlace" module="tei" mode="change">
+          <desc>The findspot (provenance) of the inscription.</desc>
+          <attList>
+            <attDef ident="type" usage="opt">
+              <valList type="closed">
+                <valItem ident="findspot"/>
+                <valItem ident="allegedFindspot"/>
+                <valItem ident="uncertainFindspot"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- Date with Minoan period support -->
+        <elementSpec ident="date" module="tei" mode="change">
+          <desc>Date of the inscription, with support for Minoan chronological periods.</desc>
+          <attList>
+            <attDef ident="period" usage="opt">
+              <desc>Minoan period designation.</desc>
+              <datatype>
+                <dataRef key="tei.enumerated"/>
+              </datatype>
+              <valList type="open">
+                <desc>Values from CV:periods (MM II, MM III, LM IA, LM IB, etc.)</desc>
+              </valList>
+            </attDef>
+            <attDef ident="type" usage="opt">
+              <valList type="closed">
+                <valItem ident="minoanPeriod"/>
+                <valItem ident="bceRange"/>
+                <valItem ident="absolute"/>
+                <valItem ident="relative"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <!-- Metadata for Linear B cross-reference -->
+        <elementSpec ident="relation" module="tei" mode="change">
+          <desc>Cross-reference to related signs in other scripts.</desc>
+          <attList>
+            <attDef ident="type" usage="req">
+              <valList type="closed">
+                <valItem ident="linearB"/>
+                <valItem ident="cyproMinoan"/>
+                <valItem ident="cretanHieroglyphic"/>
+                <valItem ident="eteocretan"/>
+                <valItem ident="sameInscription"/>
+              </valList>
+            </attDef>
+            <attDef ident="target" usage="req">
+              <desc>URI or identifier of the related sign/text.</desc>
+              <datatype>
+                <dataRef key="tei.pointer"/>
+              </datatype>
+            </attDef>
+            <attDef ident="notes" usage="opt">
+              <desc>Scholarly notes about the relationship.</desc>
+              <datatype>
+                <dataRef key="tei.text"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+      </div>
+
+      <!-- ========================================================= -->
+      <!-- TAXONOMIES (Controlled Vocabularies)                       -->
+      <!-- ========================================================= -->
+      <div type="part">
+        <head>Controlled Vocabularies</head>
+        <p>Definitions for all controlled values used in Linear A inscription encoding.</p>
+
+        <taxonomy xml:id="cv_sites">
+          <category xml:id="site_HT">
+            <catDesc>Hagia Triada</catDesc>
+          </category>
+          <category xml:id="site_KH">
+            <catDesc>Khania (Kydonia)</catDesc>
+          </category>
+          <category xml:id="site_KN">
+            <catDesc>Knossos</catDesc>
+          </category>
+          <category xml:id="site_ZA">
+            <catDesc>Zakros</catDesc>
+          </category>
+          <category xml:id="site_PH">
+            <catDesc>Phaistos</catDesc>
+          </category>
+          <category xml:id="site_MA">
+            <catDesc>Mallia</catDesc>
+          </category>
+          <category xml:id="site_TY">
+            <catDesc>Tylissos</catDesc>
+          </category>
+          <category xml:id="site_AR">
+            <catDesc>Arkhanes</catDesc>
+          </category>
+          <category xml:id="site_PK">
+            <catDesc>Palaikastro</catDesc>
+          </category>
+          <category xml:id="site_PE">
+            <catDesc>Petras</catDesc>
+          </category>
+          <category xml:id="site_GO">
+            <catDesc>Gournia</catDesc>
+          </category>
+          <category xml:id="site_MO">
+            <catDesc>Mochlos</catDesc>
+          </category>
+          <category xml:id="site_PS">
+            <catDesc>Pseira</catDesc>
+          </category>
+          <category xml:id="site_AK">
+            <catDesc>Akrotiri (Thera)</catDesc>
+          </category>
+          <category xml:id="site_KE">
+            <catDesc>Kea (Ayia Irini)</catDesc>
+          </category>
+          <category xml:id="site_MI">
+            <catDesc>Milos (Phylakopi)</catDesc>
+          </category>
+          <category xml:id="site_KY">
+            <catDesc>Cythera</catDesc>
+          </category>
+          <category xml:id="site_SM">
+            <catDesc>Samothrace</catDesc>
+          </category>
+          <category xml:id="site_TRO">
+            <catDesc>Troy</catDesc>
+          </category>
+          <category xml:id="site_AP">
+            <catDesc>Apodoulou</catDesc>
+          </category>
+          <category xml:id="site_SK">
+            <catDesc>Sklavokampos</catDesc>
+          </category>
+          <category xml:id="site_NI">
+            <catDesc>Nirou Chani</catDesc>
+          </category>
+          <category xml:id="site_PR">
+            <catDesc>Prassa</catDesc>
+          </category>
+          <category xml:id="site_SY">
+            <catDesc>Syme</catDesc>
+          </category>
+          <category xml:id="site_AM">
+            <catDesc>Amnissos</catDesc>
+          </category>
+          <category xml:id="site_PO">
+            <catDesc>Poros</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="cv_periods">
+          <category xml:id="period_MM_II">
+            <catDesc>Middle Minoan II (1800–1700 BCE)</catDesc>
+          </category>
+          <category xml:id="period_MM_III">
+            <catDesc>Middle Minoan III (1700–1600 BCE)</catDesc>
+          </category>
+          <category xml:id="period_LM_IA">
+            <catDesc>Late Minoan IA (1600–1500 BCE)</catDesc>
+          </category>
+          <category xml:id="period_LM_IB">
+            <catDesc>Late Minoan IB (1500–1450 BCE)</catDesc>
+          </category>
+          <category xml:id="period_LM_II">
+            <catDesc>Late Minoan II (1450–1400 BCE)</catDesc>
+          </category>
+          <category xml:id="period_LM_IIIA1">
+            <catDesc>Late Minoan IIIA1 (1400–1350 BCE)</catDesc>
+          </category>
+          <category xml:id="period_LM_IIIA2">
+            <catDesc>Late Minoan IIIA2 (1350–1300 BCE)</catDesc>
+          </category>
+          <category xml:id="period_LM_IIIB">
+            <catDesc>Late Minoan IIIB (1300–1200 BCE)</catDesc>
+          </category>
+          <category xml:id="period_MIXED">
+            <catDesc>Mixed or uncertain stratigraphy</catDesc>
+          </category>
+          <category xml:id="period_UNCERTAIN">
+            <catDesc>Uncertain chronological attribution</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="cv_materials">
+          <category xml:id="mat_clay">
+            <catDesc>Clay (baked or unbaked)</catDesc>
+          </category>
+          <category xml:id="mat_limestone">
+            <catDesc>Limestone</catDesc>
+          </category>
+          <category xml:id="mat_sandstone">
+            <catDesc>Sandstone</catDesc>
+          </category>
+          <category xml:id="mat_marble">
+            <catDesc>Marble</catDesc>
+          </category>
+          <category xml:id="mat_steatite">
+            <catDesc>Steatite</catDesc>
+          </category>
+          <category xml:id="mat_serpentine">
+            <catDesc>Serpentine</catDesc>
+          </category>
+          <category xml:id="mat_gold">
+            <catDesc>Gold</catDesc>
+          </category>
+          <category xml:id="mat_silver">
+            <catDesc>Silver</catDesc>
+          </category>
+          <category xml:id="mat_bronze">
+            <catDesc>Bronze</catDesc>
+          </category>
+          <category xml:id="mat_lead">
+            <catDesc>Lead</catDesc>
+          </category>
+          <category xml:id="mat_ivory">
+            <catDesc>Ivory</catDesc>
+          </category>
+          <category xml:id="mat_bone">
+            <catDesc>Bone</catDesc>
+          </category>
+          <category xml:id="mat_fresco">
+            <catDesc>Fresco / Plaster</catDesc>
+          </category>
+          <category xml:id="mat_ceramic">
+            <catDesc>Pottery / Ceramic</catDesc>
+          </category>
+          <category xml:id="mat_glass">
+            <catDesc>Glass</catDesc>
+          </category>
+          <category xml:id="mat_wood">
+            <catDesc>Wood</catDesc>
+          </category>
+          <category xml:id="mat_uncertain">
+            <catDesc>Uncertain / Unidentified</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="cv_objectTypes">
+          <category xml:id="obj_tablet_page">
+            <catDesc>Page-shaped tablet</catDesc>
+          </category>
+          <category xml:id="obj_tablet_palm">
+            <catDesc>Palm-leaf tablet</catDesc>
+          </category>
+          <category xml:id="obj_tablet_long">
+            <catDesc>Long-and-thin tablet</catDesc>
+          </category>
+          <category xml:id="obj_roundel">
+            <catDesc>Roundel</catDesc>
+          </category>
+          <category xml:id="obj_sealing_flat">
+            <catDesc>Flat-based sealing</catDesc>
+          </category>
+          <category xml:id="obj_sealing_nodule">
+            <catDesc>Nodule (sealing)</catDesc>
+          </category>
+          <category xml:id="obj_sealing_prism">
+            <catDesc>Prism sealing</catDesc>
+          </category>
+          <category xml:id="obj_seal_lentoid">
+            <catDesc>Lentoid seal</catDesc>
+          </category>
+          <category xml:id="obj_seal_amygdaloid">
+            <catDesc>Amygdaloid seal</catDesc>
+          </category>
+          <category xml:id="obj_seal_cylinder">
+            <catDesc>Cylinder seal</catDesc>
+          </category>
+          <category xml:id="obj_ring">
+            <catDesc>Signet ring</catDesc>
+          </category>
+          <category xml:id="obj_libation_table">
+            <catDesc>Libation table / offering table</catDesc>
+          </category>
+          <category xml:id="obj_altar">
+            <catDesc>Altar (portable)</catDesc>
+          </category>
+          <category xml:id="obj_pithos">
+            <catDesc>Pithos (storage jar)</catDesc>
+          </category>
+          <category xml:id="obj_jar">
+            <catDesc>Jar</catDesc>
+          </category>
+          <category xml:id="obj_cup">
+            <catDesc>Cup / goblet</catDesc>
+          </category>
+          <category xml:id="obj_bowl">
+            <catDesc>Bowl</catDesc>
+          </category>
+          <category xml:id="obj_rhyton">
+            <catDesc>Rhyton (libation vessel)</catDesc>
+          </category>
+          <category xml:id="obj_fresco">
+            <catDesc>Fresco / wall painting</catDesc>
+          </category>
+          <category xml:id="obj_axe">
+            <catDesc>Metal axe (votive)</catDesc>
+          </category>
+          <category xml:id="obj_blade">
+            <catDesc>Metal blade / knife</catDesc>
+          </category>
+          <category xml:id="obj_vessel">
+            <catDesc>Metal vessel</catDesc>
+          </category>
+          <category xml:id="obj_bone_label">
+            <catDesc>Bone label / tag</catDesc>
+          </category>
+          <category xml:id="obj_ivory_plaque">
+            <catDesc>Ivory plaque</catDesc>
+          </category>
+          <category xml:id="obj_stone_vessel">
+            <catDesc>Stone vessel (other)</catDesc>
+          </category>
+          <category xml:id="obj_uncertain">
+            <catDesc>Uncertain / fragmentary object</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="cv_preservationStates">
+          <category xml:id="pres_complete">
+            <catDesc>Complete (fully intact)</catDesc>
+          </category>
+          <category xml:id="pres_nearly_complete">
+            <catDesc>Nearly complete (minor chips/abrasion)</catDesc>
+          </category>
+          <category xml:id="pres_incomplete">
+            <catDesc>Incomplete (partially missing)</catDesc>
+          </category>
+          <category xml:id="pres_fragmentary">
+            <catDesc>Fragmentary (substantial portion missing)</catDesc>
+          </category>
+          <category xml:id="pres_severely_damaged">
+            <catDesc>Severely damaged (barely legible)</catDesc>
+          </category>
+          <category xml:id="pres_eroded">
+            <catDesc>Eroded (surface worn, signs unclear)</catDesc>
+          </category>
+          <category xml:id="pres_reconstructed">
+            <catDesc>Reconstructed from fragments</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="cv_signTypes">
+          <category xml:id="st_syllabogram">
+            <catDesc>Syllabogram (phonetic sign)</catDesc>
+          </category>
+          <category xml:id="st_logogram">
+            <catDesc>Logogram / Ideogram (semantic sign)</catDesc>
+          </category>
+          <category xml:id="st_fraction_simple">
+            <catDesc>Simple fraction sign</catDesc>
+          </category>
+          <category xml:id="st_fraction_compound">
+            <catDesc>Compound fraction sign (ligatured)</catDesc>
+          </category>
+          <category xml:id="st_numeral_unit">
+            <catDesc>Numeral — units (horizontal strokes)</catDesc>
+          </category>
+          <category xml:id="st_numeral_tens">
+            <catDesc>Numeral — tens (circles/dots)</catDesc>
+          </category>
+          <category xml:id="st_numeral_hundreds">
+            <catDesc>Numeral — hundreds (circles with strokes)</catDesc>
+          </category>
+          <category xml:id="st_numeral_thousands">
+            <catDesc>Numeral — thousands</catDesc>
+          </category>
+          <category xml:id="st_adjunct">
+            <catDesc>Adjunct sign (modifier)</catDesc>
+          </category>
+          <category xml:id="st_ligature">
+            <catDesc>Ligature (multiple signs combined graphic unit)</catDesc>
+          </category>
+          <category xml:id="st_wordDivider">
+            <catDesc>Word divider / punctuation</catDesc>
+          </category>
+          <category xml:id="st_uncertain">
+            <catDesc>Uncertain sign type</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="cv_commodities">
+          <category xml:id="com_grain_wheat">
+            <catDesc>Wheat</catDesc>
+          </category>
+          <category xml:id="com_grain_barley">
+            <catDesc>Barley</catDesc>
+          </category>
+          <category xml:id="com_figs">
+            <catDesc>Figs</catDesc>
+          </category>
+          <category xml:id="com_olives">
+            <catDesc>Olives</catDesc>
+          </category>
+          <category xml:id="com_olive_oil">
+            <catDesc>Olive oil</catDesc>
+          </category>
+          <category xml:id="com_wine">
+            <catDesc>Wine</catDesc>
+          </category>
+          <category xml:id="com_grapes">
+            <catDesc>Grapes</catDesc>
+          </category>
+          <category xml:id="com_livestock_sheep">
+            <catDesc>Sheep</catDesc>
+          </category>
+          <category xml:id="com_livestock_goat">
+            <catDesc>Goat</catDesc>
+          </category>
+          <category xml:id="com_livestock_cow">
+            <catDesc>Cow / ox</catDesc>
+          </category>
+          <category xml:id="com_livestock_pig">
+            <catDesc>Pig</catDesc>
+          </category>
+          <category xml:id="com_livestock_horse">
+            <catDesc>Horse / equid</catDesc>
+          </category>
+          <category xml:id="com_wool">
+            <catDesc>Wool</catDesc>
+          </category>
+          <category xml:id="com_textile">
+            <catDesc>Cloth / textile</catDesc>
+          </category>
+          <category xml:id="com_bronze">
+            <catDesc>Bronze</catDesc>
+          </category>
+          <category xml:id="com_copper">
+            <catDesc>Copper</catDesc>
+          </category>
+          <category xml:id="com_tin">
+            <catDesc>Tin</catDesc>
+          </category>
+          <category xml:id="com_gold">
+            <catDesc>Gold (commodity)</catDesc>
+          </category>
+          <category xml:id="com_silver">
+            <catDesc>Silver (commodity)</catDesc>
+          </category>
+          <category xml:id="com_spice">
+            <catDesc>Spice / aromatics</catDesc>
+          </category>
+          <category xml:id="com_perfume">
+            <catDesc>Perfume / unguent</catDesc>
+          </category>
+          <category xml:id="com_dye">
+            <catDesc>Dye / purple</catDesc>
+          </category>
+          <category xml:id="com_honey">
+            <catDesc>Honey</catDesc>
+          </category>
+          <category xml:id="com_wax">
+            <catDesc>Wax</catDesc>
+          </category>
+          <category xml:id="com_resin">
+            <catDesc>Resin</catDesc>
+          </category>
+          <category xml:id="com_timber">
+            <catDesc>Timber / wood</catDesc>
+          </category>
+          <category xml:id="com_unspecified">
+            <catDesc>Unspecified commodity</catDesc>
+          </category>
+          <category xml:id="com_religious">
+            <catDesc>Religious / dedicatory (not a commodity)</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="cv_imageTypes">
+          <category xml:id="img_photo">
+            <catDesc>Photograph (visible light)</catDesc>
+          </category>
+          <category xml:id="img_drawing">
+            <catDesc>Drawing / facsimile</catDesc>
+          </category>
+          <category xml:id="img_msi">
+            <catDesc>Multi-spectral image</catDesc>
+          </category>
+          <category xml:id="img_infrared">
+            <catDesc>Infrared photography</catDesc>
+          </category>
+          <category xml:id="img_ultraviolet">
+            <catDesc>Ultraviolet photography</catDesc>
+          </category>
+          <category xml:id="img_rakingLight">
+            <catDesc>Raking light photography</catDesc>
+          </category>
+          <category xml:id="img_rti">
+            <catDesc>Reflectance Transformation Imaging</catDesc>
+          </category>
+          <category xml:id="img_3d_photogrammetry">
+            <catDesc>3D model (photogrammetry)</catDesc>
+          </category>
+          <category xml:id="img_3d_structuredLight">
+            <catDesc>3D model (structured light scan)</catDesc>
+          </category>
+          <category xml:id="img_xray">
+            <catDesc>X-ray</catDesc>
+          </category>
+          <category xml:id="img_ct">
+            <catDesc>CT scan</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="cv_shapeClasses">
+          <category xml:id="shape_standard">
+            <catDesc>Standard form — matches canonical sign shape</catDesc>
+          </category>
+          <category xml:id="shape_cursive">
+            <catDesc>Cursive form (rapid handwriting)</catDesc>
+          </category>
+          <category xml:id="shape_formal">
+            <catDesc>Formal / monumental form</catDesc>
+          </category>
+          <category xml:id="shape_variant_a">
+            <catDesc>Variant A (non-standard ductus)</catDesc>
+          </category>
+          <category xml:id="shape_variant_b">
+            <catDesc>Variant B (non-standard ductus)</catDesc>
+          </category>
+          <category xml:id="shape_ligatured">
+            <catDesc>Ligatured form (combined with adjacent sign)</catDesc>
+          </category>
+          <category xml:id="shape_simplified">
+            <catDesc>Simplified form (late or rapid)</catDesc>
+          </category>
+          <category xml:id="shape_archaizing">
+            <catDesc>Archaizing form (conscious revival)</catDesc>
+          </category>
+        </taxonomy>
+
+        <taxonomy xml:id="cv_writingMethods">
+          <category xml:id="wm_incised_prefire">
+            <catDesc>Incised before firing (clay)</catDesc>
+          </category>
+          <category xml:id="wm_incised_postfire">
+            <catDesc>Incised after firing (clay, stone, metal)</catDesc>
+          </category>
+          <category xml:id="wm_painted">
+            <catDesc>Painted (dipinto)</catDesc>
+          </category>
+          <category xml:id="wm_stamped">
+            <catDesc>Stamped (seal impression)</catDesc>
+          </category>
+          <category xml:id="wm_carved">
+            <catDesc>Carved (stone)</catDesc>
+          </category>
+          <category xml:id="wm_impressed">
+            <catDesc>Impressed (seal)</catDesc>
+          </category>
+        </taxonomy>
+      </div>
+
+      <!-- ========================================================= -->
+      <!-- EXAMPLE ENCODING                                           -->
+      <!-- ========================================================= -->
+      <div type="part">
+        <head>Example Encoding</head>
+        <p>The following example shows a complete Linear A inscription encoded with this schema.</p>
+
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="en">
+          <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader>
+              <fileDesc>
+                <titleStmt>
+                  <title>Linear A Inscription HT 1</title>
+                  <idno type="GORILA">HT 1</idno>
+                  <idno type="alternative">GORILA 1.1</idno>
+                </titleStmt>
+                <publicationStmt>
+                  <publisher>Heraklion Archaeological Museum</publisher>
+                  <date>1976</date>
+                </publicationStmt>
+                <sourceDesc>
+                  <origPlace type="findspot">
+                    <placeName ref="#site_HT">Hagia Triada</placeName>
+                    <geo>35.0589 24.7894</geo>
+                    <desc>Room 4, Villa Reale</desc>
+                  </origPlace>
+                </sourceDesc>
+              </fileDesc>
+              <profileDesc>
+                <creation>
+                  <date type="minoanPeriod" period="LM IB"/>
+                  <date type="bceRange" from="-1500" to="-1450"/>
+                </creation>
+                <langUsage>
+                  <language ident="emn">Minoan (Eteocretan)</language>
+                </langUsage>
+                <handNote handId="HT_Hand_1" certainty="0.9" scope="entire">
+                  <desc>Standard HT administrative hand. Signs well-formed, consistent ductus.</desc>
+                </handNote>
+              </profileDesc>
+              <encodingDesc>
+                <projectDesc>
+                  <p>TEI encoding following the Linear A ODD customization v1.0.</p>
+                </projectDesc>
+              </encodingDesc>
+            </teiHeader>
+            <text>
+              <body>
+                <ab n="1">
+                  <lb n="1"/>
+                  <g ref="https://unicode.org/charts/PDF/U10600.pdf#U+10602"
+                     bennett="AB 02" signType="syllabogram"
+                     siglaVariant="https://sigla.phis.me/variant/AB02_v1"
+                     confidence="1.0">
+                    <seg type="translit">ro</seg>
+                  </g>
+                  <g ref="https://unicode.org/charts/PDF/U10600.pdf#U+1061A"
+                     bennett="AB 26" signType="syllabogram"
+                     confidence="0.95">
+                    <seg type="translit">ru</seg>
+                  </g>
+                  <pc type="wordDivider"/>
+                  <g ref="https://unicode.org/charts/PDF/U10600.pdf#U+1065C"
+                     bennett="A 338" signType="logogram">
+                    <seg type="translit">GRAIN</seg>
+                  </g>
+                  <num value="12">12</num>
+                  <lb n="2"/>
+                  <g bennett="AB 01" signType="syllabogram" confidence="0.8">
+                    <seg type="translit">da</seg>
+                  </g>
+                  <g bennett="AB 80" signType="syllabogram" confidence="0.7">
+                    <seg type="translit">ma</seg>
+                  </g>
+                  <damage/>
+                  <gap extent="2" unit="chars" reason="lost"/>
+                </ab>
+              </body>
+            </text>
+          </TEI>
+        </egXML>
+      </div>
+    </body>
+  </text>
+</TEI>

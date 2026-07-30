@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:ConceptScheme rdf:about="https://schema.lineara.org/vocab/sites">
+    <dcterms:title>Linear A Findspot Sites</dcterms:title>
+    <dcterms:description>Controlled vocabulary of known findspots for Linear A inscriptions.</dcterms:description>
+    <dcterms:creator>Agent 2 — Schema Design Task</dcterms:creator>
+    <dcterms:date>2026-07-30</dcterms:date>
+    <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>
+  </skos:ConceptScheme>
+
+  <!-- Crete sites -->
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#HT">
+    <skos:prefLabel xml:lang="en">Hagia Triada</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Haghia Triada</skos:altLabel>
+    <skos:notation>HT</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+    <skos:scopeNote xml:lang="en">Primary Linear A archive site: ~500 inscriptions, Villa Reale, LM IB destruction deposit.</skos:scopeNote>
+    <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">35.0589</geo:lat>
+    <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">24.7894</geo:long>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#KH">
+    <skos:prefLabel xml:lang="en">Khania</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Kydonia</skos:altLabel>
+    <skos:notation>KH</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+    <skos:scopeNote xml:lang="en">Second-largest Linear A archive (~200 texts). Distinctive sign variants.</skos:scopeNote>
+    <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">35.5167</geo:lat>
+    <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">24.0167</geo:long>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#KN">
+    <skos:prefLabel xml:lang="en">Knossos</skos:prefLabel>
+    <skos:notation>KN</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+    <skos:scopeNote xml:lang="en">~150 inscriptions, mostly stone vessels and sealings; mixed Linear A/B contexts.</skos:scopeNote>
+    <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">35.2982</geo:lat>
+    <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">25.1632</geo:long>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#ZA">
+    <skos:prefLabel xml:lang="en">Zakros</skos:prefLabel>
+    <skos:notation>ZA</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+    <skos:scopeNote xml:lang="en">~60 inscriptions including fine stone libation tables with long texts.</skos:scopeNote>
+    <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">35.0997</geo:lat>
+    <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">26.2611</geo:long>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#PH">
+    <skos:prefLabel xml:lang="en">Phaistos</skos:prefLabel>
+    <skos:notation>PH</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+    <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">35.0514</geo:lat>
+    <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">24.8128</geo:long>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#MA">
+    <skos:prefLabel xml:lang="en">Mallia</skos:prefLabel>
+    <skos:notation>MA</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+    <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">35.2853</geo:lat>
+    <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">25.4931</geo:long>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#TY">
+    <skos:prefLabel xml:lang="en">Tylissos</skos:prefLabel>
+    <skos:notation>TY</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#AR">
+    <skos:prefLabel xml:lang="en">Arkhanes</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Archanes</skos:altLabel>
+    <skos:notation>AR</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+    <skos:scopeNote xml:lang="en">~20 inscriptions, stone tables with formulae, peak sanctuary (Iouktas).</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#PK">
+    <skos:prefLabel xml:lang="en">Palaikastro</skos:prefLabel>
+    <skos:notation>PK</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#PE">
+    <skos:prefLabel xml:lang="en">Petras</skos:prefLabel>
+    <skos:notation>PE</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#GO">
+    <skos:prefLabel xml:lang="en">Gournia</skos:prefLabel>
+    <skos:notation>GO</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#MO">
+    <skos:prefLabel xml:lang="en">Mochlos</skos:prefLabel>
+    <skos:notation>MO</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+  </skos:Concept>
+
+  <!-- Aegean / Non-Cretan sites -->
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#AK">
+    <skos:prefLabel xml:lang="en">Akrotiri (Thera)</skos:prefLabel>
+    <skos:notation>AK</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+    <skos:scopeNote xml:lang="en">~20 inscriptions on pottery and fresco. Destroyed by Theran eruption (~1600 BCE).</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#KE">
+    <skos:prefLabel xml:lang="en">Kea (Ayia Irini)</skos:prefLabel>
+    <skos:notation>KE</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#MI">
+    <skos:prefLabel xml:lang="en">Milos (Phylakopi)</skos:prefLabel>
+    <skos:notation>MI</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#KY">
+    <skos:prefLabel xml:lang="en">Cythera</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Kythira</skos:altLabel>
+    <skos:notation>KY</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#SM">
+    <skos:prefLabel xml:lang="en">Samothrace</skos:prefLabel>
+    <skos:notation>SM</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="https://schema.lineara.org/vocab/sites#TRO">
+    <skos:prefLabel xml:lang="en">Troy</skos:prefLabel>
+    <skos:notation>TRO</skos:notation>
+    <skos:inScheme rdf:resource="https://schema.lineara.org/vocab/sites"/>
+    <skos:scopeNote xml:lang="en">Contested attribution; 2 possible Linear A inscriptions.</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,57 @@
+bennett_id,lb_value,la_hypothesized,likely_la_value,composite_score,severity,visual_sim,notes
+A 327,[?],[?],?,27.5,HIGH,0.0,Low visual sim (0.0) but conventionally assigned [?]; LA-only sign assumed = /[?]/ with no LA verification
+A 328,[?],[?],?,27.5,HIGH,0.0,Low visual sim (0.0) but conventionally assigned [?]; LA-only sign assumed = /[?]/ with no LA verification
+A 329,[?],[?],?,27.5,HIGH,0.0,Low visual sim (0.0) but conventionally assigned [?]; LA-only sign assumed = /[?]/ with no LA verification
+A 330,[?],[?],?,27.5,HIGH,0.0,Low visual sim (0.0) but conventionally assigned [?]; LA-only sign assumed = /[?]/ with no LA verification
+A 331,[?],[?],?,27.5,HIGH,0.0,Low visual sim (0.0) but conventionally assigned [?]; LA-only sign assumed = /[?]/ with no LA verification
+A 332,[?],[?],?,27.5,HIGH,0.0,Low visual sim (0.0) but conventionally assigned [?]; LA-only sign assumed = /[?]/ with no LA verification
+A 333,[?],[?],?,27.5,HIGH,0.0,Low visual sim (0.0) but conventionally assigned [?]; LA-only sign assumed = /[?]/ with no LA verification
+A 334,[?],[?],?,27.5,HIGH,0.0,Low visual sim (0.0) but conventionally assigned [?]; LA-only sign assumed = /[?]/ with no LA verification
+A 335,[?],[?],?,27.5,HIGH,0.0,Low visual sim (0.0) but conventionally assigned [?]; LA-only sign assumed = /[?]/ with no LA verification
+A 336,[?],[?],?,27.5,HIGH,0.0,Low visual sim (0.0) but conventionally assigned [?]; LA-only sign assumed = /[?]/ with no LA verification
+A 326,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 340,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 341,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 342,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 343,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 344,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 345,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 346,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 347,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 348,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 349,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 351,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 352,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 353,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+A 354,[?],[?],?,29.2,HIGH,0.5,LA-only sign assumed = /[?]/ with no LA verification
+AB 21f,mi?,mi?,?,36.3,MODERATE,0.8,LA-only sign assumed = /mi?/ with no LA verification
+AB 22f,pi?,pi?,pa,43.0,MODERATE,0.8,LA-only sign assumed = /pi?/ with no LA verification
+AB 81,ku,ku,?,62.5,LOW,1.0,N-gram disruption score (10.0) suggests misvaluation
+AB 27,re,re,?,65.0,LOW,1.0,N-gram disruption score (25.0) suggests misvaluation
+AB 36,jo,jo,i,67.2,LOW,1.0,"Toponym evidence: proposed=i, conv=jo (LOW)"
+AB 66,ta?,ta?,i,67.5,LOW,1.0,"Toponym evidence: proposed=i, conv=ku (LOW)"
+AB 62,pte?,pte?,ta,68.8,LOW,1.0,"Toponym evidence: proposed=ta, conv=ka (LOW)"
+AB 23,mu,mu,i,69.0,LOW,1.0,"Toponym evidence: proposed=i, conv=mu (LOW)"
+AB 04,te,te,i,70.5,LOW,1.0,"Toponym evidence: proposed=i, conv=te (LOW)"
+AB 30,ni,ni,i,70.5,LOW,1.0,"Toponym evidence: proposed=i, conv=ni (LOW)"
+AB 46,je?,je?,to,70.5,LOW,1.0,"Toponym evidence: proposed=to, conv=je (MODERATE)"
+AB 52,?,?,i,70.8,LOW,1.0,"Toponym evidence: proposed=i, conv=ra (LOW)"
+AB 12,so,so,pa,72.5,LOW,1.0,"Toponym evidence: proposed=pa, conv=so (LOW)"
+AB 57,ja,ja,pa,72.5,LOW,1.0,"Toponym evidence: proposed=pa, conv=tu (LOW)"
+AB 49,?,?,i,72.8,LOW,1.0,"Toponym evidence: proposed=i, conv=ja (LOW)"
+AB 47,?,?,pa,73.5,LOW,1.0,"Toponym evidence: proposed=pa, conv=nu (MODERATE)"
+AB 05,to,to,i,73.8,LOW,1.0,"Toponym evidence: proposed=i, conv=to (LOW)"
+AB 51,du?,du?,i,73.8,LOW,1.0,"Toponym evidence: proposed=i, conv=du (MODERATE)"
+AB 13,me,me,i,74.0,LOW,1.0,"Toponym evidence: proposed=i, conv=me (LOW)"
+AB 14,do,do,i,74.5,LOW,1.0,"Toponym evidence: proposed=i, conv=do (MODERATE)"
+AB 08,a,a,i,75.0,LOW,1.0,"Toponym evidence: proposed=i, conv=a (LOW)"
+AB 29,pu,pu,i,75.0,LOW,1.0,"Toponym evidence: proposed=i, conv=pu (MODERATE)"
+AB 06,na,na,pa,75.2,LOW,1.0,"Toponym evidence: proposed=pa, conv=na (MODERATE)"
+AB 50,pu?,pu?,su,75.2,LOW,1.0,"Toponym evidence: proposed=su, conv=pu (MODERATE)"
+AB 09,se,se,i,75.5,LOW,1.0,"Toponym evidence: proposed=i, conv=se (MODERATE)"
+AB 10,u,u,pa,76.0,LOW,1.0,"Toponym evidence: proposed=pa, conv=u (LOW)"
+AB 02,ro,ro,i,76.2,LOW,1.0,"Toponym evidence: proposed=i, conv=ro (MODERATE)"
+AB 24,ne,ne,pa,77.5,LOW,1.0,"Toponym evidence: proposed=pa, conv=ne (MODERATE)"
+AB 65,ju?,ju?,i,77.5,LOW,1.0,"Toponym evidence: proposed=i, conv=ju (HIGH)"
+AB 26,ru,ru,i,78.0,LOW,1.0,"Toponym evidence: proposed=i, conv=ru (MODERATE)"
+AB 38,e,e,i,81.0,LOW,1.0,"Toponym evidence: proposed=i, conv=e (MODERATE)"
