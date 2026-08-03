@@ -27,3 +27,4 @@ tmp/
 *.tmp
 *.log
 .pi/
+.pi*/
