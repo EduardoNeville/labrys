@@ -1,0 +1,89 @@
+id,english,category,subcategory,era,egyptian_transliteration,consonant_skeleton,la_cv_sequence,la_flat,sign_count,notes
+jt,barley/grain,agriculture,grain,Middle,jt,t,TU,TU,1,i.t; basic grain term; e(iōt) in Coptic
+bdt,emmer wheat,agriculture,grain,Middle,bdt,bdt,PU+TU+TU,PUTUTU,3,bōte in Coptic; common wheat variety
+swt,wheat (swt),agriculture,grain,Middle,swt,swt,SU+WA+TU,SUWATU,3,sūt; generic wheat
+nHH,oil (sesame/vegetable),agriculture,oil,Middle,nHH,nHH,NU+A+A,NUAA,3,nḥḥ; vegetable oil; neḥ in Coptic
+mrHt,oil/fat/ointment,agriculture,oil,Middle,mrHt,mrHt,MU+RU+A+TU,MURUATU,4,mrḥt; fat/ointment; merḥ in Coptic
+bjt,honey,agriculture,food,Middle,bjt,bjt,PU+TU,PUTU,2,bj.t; ebiō in Coptic; beekeeping product
+jrp,wine,beverages,wine,Middle,jrp,rp,RU+PU,RUPU,2,jrp; ērp in Coptic; standard wine term
+SDr,wine (šdḥ type),beverages,wine,Middle,SDr,SDr,SU+DU+RU,SUDURU,3,šdḥ; a type of wine; Coptic śōre
+Hnqt,beer,beverages,beer,Middle,Hnqt,HnQt,A+NU+QA+TU,ANUQATU,4,ḥnḳt; barley beer; ḥenḳe in Coptic
+jrtt,milk,agriculture,food,Middle,jrtt,rtt,RU+TU+TU,RUTUTU,3,jrtt; erōte in Coptic
+nbw,gold,metals,precious,Middle,nbw,nbw,NU+PU+WA,NUPUWA,3,nbw; nūb in Coptic (ⲛⲟⲩⲃ)
+HD,silver,metals,precious,Middle,HD,HD,A+DU,ADU,2,ḥḏ; ḥat in Coptic (ϩⲁⲧ)
+Hmt,copper/bronze,metals,base,Middle,Hmt,Hmt,A+MU+TU,AMUTU,3,ḥmt; ḥomt in Coptic
+bj^,copper/ore (bjꜣ),metals,base,Middle,bj^,b,PU,PU,1,bjꜣ; copper ore; ba in later form
+D'm,electrum,metals,precious,Middle,D'm,Dm,DU+MU,DUMU,2,ḏꜥm; gold-silver alloy; ḏam
+Hsbd,lapis lazuli,metals,stones,Middle,Hsbd,Hsbd,A+SU+PU+TU,ASUPUTU,4,"ḥsbḏ; lapis lazuli, major trade commodity"
+mfk^t,turquoise,metals,stones,Middle,mfk^t,mfkt,MU+PU+KU+TU,MUPUKUTU,4,mfkꜣt; turquoise from Sinai mines; mefkat
+Ss,alabaster/travertine,materials,stone,Middle,Ss,Ss,SU+SU,SUSU,2,šs; alabaster from Hatnub quarries
+jnr,stone (generic),materials,stone,Middle,jnr,nr,NU+RU,NURU,2,jnr; generic stone; ōne in Coptic
+Xt,wood/timber,materials,wood,Middle,Xt,Xt,KU+TU,KUTU,2,ḫt; wood; ḫe in Coptic
+'S,cedar (wood),materials,wood,Middle,'S,S,SU,SU,1,ꜥš; cedar imported from Levant
+Sndt,acacia wood,materials,wood,Middle,Sndt,Sndt,SU+NU+TU+TU,SUNUTUTU,4,šnḏt; native Egyptian hardwood
+Sndt2,acacia (alt. form),materials,wood,Middle,Sndt2,Sndt,SU+NU+TU+TU,SUNUTUTU,4,Variant writing of acacia
+hnw,jar/vessel (hnw-measure),commodities,vessel,Middle,hnw,hnw,A+NU+WA,ANUWA,3,hnw; standard liquid measure (~0.48L); hin
+Ds,jar (for wine/oil),commodities,vessel,Middle,Ds,Ds,DU+SU,DUSU,2,ḏs; storage jar; ḏes
+nmst,jar/vessel (nemset),commodities,vessel,Middle,nmst,nmst,NU+MU+SU+TU,NUMUSUTU,4,nmst; libation vessel; nemśet
+ds,jar/pot,commodities,vessel,Middle,ds,ds,TU+SU,TUSU,2,ds; generic pot/jar
+mns^,jar/amphora (Canaanite),commodities,vessel,New,mns^,mns,MU+NU+SU,MUNUSU,3,mnsꜣ; Canaanite amphora; menes
+'bt,offering vessel,commodities,vessel,Middle,'bt,bt,PU+TU,PUTU,2,ꜥbt; offering jar
+Ssr,linen (fine),commodities,textile,Middle,Ssr,Ssr,SU+SU+RU,SUSURU,3,šsr; fine royal linen; šeser
+jdmj,red linen/cloth,commodities,textile,Middle,jdmj,dm,TU+MU,TUMU,2,jdmj; red cloth; idmi — trade cloth
+mHt,linen (generic)/cloth,commodities,textile,Middle,mHt,mHt,MU+A+TU,MUATU,3,mḥt; generic flax/linen
+H^tjw,linen cloth (specific),commodities,textile,Middle,H^tjw,Ht,A+TU,ATU,2,ḥꜣtjw; cloth from fine linen
+Ss2,scribe/writing,administrative,scribal,Middle,Ss2,Ss,SU+SU,SUSU,2,šs; scribe or writing; saḫ in Coptic
+md't,document/papyrus roll,administrative,scribal,Middle,md't,mDt,MU+DU+TU,MUDUTU,3,mḏꜣt; papyrus document
+Xtm,seal/seal-bearer,administrative,scribal,Middle,Xtm,Xtm,KU+TU+MU,KUTUMU,3,ḫtm; seal; ḫtem in Coptic
+dbn,deben (weight ~91g),administrative,metrology,Middle,dbn,dbn,TU+PU+NU,TUPUNU,3,dbn; standard weight unit; teben in Coptic
+Hq^t,heqat (grain measure),administrative,metrology,Middle,Hq^t,HQt,A+QA+TU,AQATU,3,ḥḳꜣt; grain measure (~4.8L); ḥeḳat
+X^r,khar (sack measure),administrative,metrology,Middle,X^r,Xr,KU+RU,KURU,2,ḫꜣr; sack/grain unit (~76.8L); ḫar
+jp,count/assess,administrative,scribal,Middle,jp,p,PU,PU,1,jp; to count; ōp in Coptic
+Hsb,count/calculate,administrative,scribal,Middle,Hsb,Hsb,A+SU+PU,ASUPU,3,ḥsb; to reckon; ḥeseb
+tp,head/best/first,administrative,scribal,Middle,tp,tp,TU+PU,TUPU,2,tp; quality marker: first/best quality
+wD,command/decree,administrative,scribal,Middle,wD,wD,WA+DU,WADU,2,wḏ; official command; uḏa
+jmj-r,overseer/supervisor,administrative,titles,Middle,jmj-r,mr,MU+RU,MURU,2,jm.j-rꜣ; overseer; imi-r
+nswt,king,administrative,titles,Middle,nswt,nswt,NU+SU+WA+TU,NUSUWATU,4,nswt; king; nesu in Coptic (ⲛⲏⲥⲟⲩ)
+pr-^,pharaoh (palace),administrative,titles,New,pr-^,pr,PU+RU,PURU,2,pr-ꜥꜣ 'Great House' — pharaoh
+H^tj-',mayor/nomarch,administrative,titles,Middle,H^tj-',Ht,A+TU,ATU,2,ḥꜣtj-ꜥ 'foremost' — local governor
+wpwtj,messenger/envoy,administrative,titles,Middle,wpwtj,wpwt,WA+PU+WA+TU,WAPUWATU,4,wpwtj; envoy; uput in cuneiform
+Smsw,follower/retainer,administrative,titles,Middle,Smsw,Smsw,SU+MU+SU+WA,SUMUSUWA,4,šmsw; retainer; šemes
+jnw,tribute/products/imports,trade,goods,Middle,jnw,nw,NU+WA,NUWA,2,jnw; imported products; inu in Coptic
+sDf^,provision/supply,trade,goods,Middle,sDf^,sDf,SU+DU+PU,SUDUPU,3,sḏfꜣ; to provision; seḏefa
+D^j,ferry/transport (water),trade,transport,Middle,D^j,D,DU,DU,1,ḏꜣj; to ferry; ḏai
+'Q,enter/import,trade,transport,Middle,'Q,Q,QA,QA,1,ꜥḳ; to enter; ꜥeḳ in Coptic
+prj,go out/export,trade,transport,Middle,prj,pr,PU+RU,PURU,2,prj; to exit; pōre in Coptic
+rDj,give/hand over,trade,action,Middle,rDj,rD,RU+DU,RUDU,2,rḏj; to give; tū/ti in Coptic
+Ssp,receive,trade,action,Middle,Ssp,Ssp,SU+SU+PU,SUSUPU,3,šsp; to receive; šep in Coptic
+swD,transmit/hand over,trade,action,Middle,swD,swD,SU+WA+DU,SUWADU,3,swḏ; to hand over (causative)
+jH,ox/cattle,agriculture,livestock,Middle,jH,H,A,A,1,jḥ; ox; ehe in Coptic
+'wt,small cattle (sheep/goats),agriculture,livestock,Middle,'wt,wt,WA+TU,WATU,2,ꜥwt; small livestock; ꜥawet
+mnmnt,herd (of cattle),agriculture,livestock,Middle,mnmnt,mnmnt,MU+NU+MU+NU+TU,MUNUMUNUTU,5,mnmnt; herd; menement
+pr-HD,treasury,administrative,institution,Middle,pr-HD,prHD,PU+RU+A+DU,PURUADU,4,pr-ḥḏ 'House of Silver' — treasury
+wd^,storehouse,administrative,institution,Middle,wd^,wd,WA+TU,WATU,2,wdꜣ; storehouse/granary; uḏa
+Snwtj,granary/silo,administrative,institution,Middle,Snwtj,Snwt,SU+NU+WA+TU,SUNUWATU,4,šnwtj; granary; šenut in Coptic
+sntr,incense (frankincense),commodities,incense,Middle,sntr,sntr,SU+NU+TU+RU,SUNUTURU,4,sntr; incense; sonte in Coptic (ⲥⲟⲛⲧⲉ)
+Hsmn,natron,commodities,mineral,Middle,Hsmn,Hsmn,A+SU+MU+NU,ASUMUNU,4,ḥsmn; natron (sodium carbonate); ḥesmen
+kmt,Egypt (Kemet),administrative,placename,Middle,kmt,kmt,KU+MU+TU,KUMUTU,3,kmt; Black Land — Egypt; Kēme in Coptic (ⲭⲏⲙⲉ)
+TmHw,Libya (Tjehenu),administrative,placename,Middle,TmHw,TmHw,TU+MU+A+WA,TUMUAWA,4,ṯmḥw; Libya; land west of Egypt
+kftjw,Crete/Caphtor (Minoans),administrative,placename,Middle,kftjw,kft,KU+PU+TU,KUPUTU,3,kftjw; Keftiu — Egyptian name for Crete/Minoans
+jwnw,Heliopolis,administrative,placename,Middle,jwnw,nw,NU+WA,NUWA,2,jwnw; On (Heliopolis); Ōn in Coptic
+mn-nfr,Memphis,administrative,placename,Middle,mn-nfr,mnnfr,MU+NU+NU+PU+RU,MUNUNUPURU,5,mn-nfr; Memphis; Menfe in Coptic
+mrHt2,unguent/ointment,commodities,cosmetic,Middle,mrHt2,mrHt,MU+RU+A+TU,MURUATU,4,mrḥt; perfumed oil; merḥet
+TXnw,Libyan oil (specific),commodities,oil,New,TXnw,TXn,TU+KU+NU,TUKUNU,3,ṯḫnw; oil from Libya; ṯeḥen
+mnw,monument/gift (trade item),trade,goods,Middle,mnw,mnw,MU+NU+WA,MUNUWA,3,mnw; gift/monument in diplomatic exchange
+b^k,work/product/tribute,trade,goods,Middle,b^k,bk,PU+KU,PUKU,2,bꜣk; work-product; bāk in Coptic
+p^qt,fine linen (pq),commodities,textile,Middle,p^qt,pQt,PU+QA+TU,PUQATU,3,pꜣqt; a type of fine linen for trade
+nfr,good/beautiful (quality grade),administrative,quality,Middle,nfr,nfr,NU+PU+RU,NUPURU,3,nfr; quality descriptor; nofre in Coptic
+bjn,bad/poor (quality grade),administrative,quality,Middle,bjn,bn,PU+NU,PUNU,2,bjn; poor quality; converse of nfr
+w^H,endure/garrison (trade post),trade,transport,Middle,w^H,H,A,A,1,wꜣḥ; to endure/establish; Coptic ouoh
+sm^,unite/join (trade alliance),trade,action,Middle,sm^,sm,SU+MU,SUMU,2,smꜣ; to unite; šema/sema
+X^w,excess/surplus (trade),administrative,scribal,Middle,X^w,X,KU,KU,1,ḫꜣw; excess; ḫaw — surplus in accounts
+twt,statue/image (trade object),commodities,art,Middle,twt,twt,TU+WA+TU,TUWATU,3,twt; complete/statue; tout in Coptic
+Xn,chest/box (container),commodities,container,Middle,Xn,Xn,KU+NU,KUNU,2,ḫn; box for goods; ḫen
+Db^,compensation/replacement,trade,action,Middle,Db^,Db,DU+PU,DUPU,2,ḏbꜣ; to compensate; ḏeba
+Sb,food/meal (provisions),agriculture,food,Middle,Sb,Sb,SU+PU,SUPU,2,šb; food offering; šeb in later form
+'H',stand/quantity (admin.),administrative,scribal,Middle,'H',H,A,A,1,ꜥḥꜥ; standing quantity in accounts
+dHt,meal/grain offering,agriculture,food,Middle,dHt,dHt,TU+A+TU,TUATU,3,dḥt; grain-based meal offering
+zp,time/occasion (record keeping),administrative,scribal,Middle,zp,zp,ZU+PU,ZUPU,2,zp; time/occasion; sep in Coptic
+rnp,year (dating),administrative,scribal,Middle,rnp,rnp,RU+NU+PU,RUNUPU,3,rnp; year; rompe in Coptic

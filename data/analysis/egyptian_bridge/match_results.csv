@@ -1,0 +1,313 @@
+egyptian_id,egyptian_english,egyptian_category,egyptian_subcategory,egyptian_skeleton,egyptian_class_str,gorila_id,site,material,period,object_type,match_sign_start,match_sign_end,match_length,matched_signs,matched_classes,source,commodities_nearby,commodity_context,score
+sntr,incense (frankincense),commodities,incense,sntr,SNTR,HT96a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),11,14,4,si+mi+ta+ru,SNTR,conventional,"AROM,GRA",True,90.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),3,5,3,mu+nu+se,NNS,expanded,GRA,True,80.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT27b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),2,4,3,sa+sa+re,SSR,expanded,"GRA,VIN",True,80.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,ZAZg35,Zakros,,LM IA,Label,4,6,3,se+se+ro,SSR,expanded,AU,True,80.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,KH7a,Khania,clay,Uncertain,tablet (page-shaped),7,9,3,qa+du+du,PTT,expanded,"CYP,VIR",True,75.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,ZA11a,Zakros,stone,Uncertain,stone vessel,4,6,3,so+ta+ra,STR,expanded,VIN,True,75.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,ZA15a,Zakros,stone,Uncertain,stone vessel,10,12,3,za+do+re,STR,expanded,VIN,True,75.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT18,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),1,3,3,se+sa+ra,SSR,conventional,GRA,True,75.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT27b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),2,4,3,sa+sa+re,SSR,conventional,"GRA,VIN",True,75.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT27b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),5,7,3,se+sa+re,SSR,conventional,VIN,True,75.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT28b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),7,9,3,si+sa+ra,SSR,conventional,GRA,True,75.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT30,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,si+sa+ra,SSR,conventional,CYP,True,75.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,IOZa16,Iouktas,stone,Uncertain,stone vessel,1,3,3,sa+sa+ra,SSR,conventional,AROM,True,75.0
+swD,transmit/hand over,trade,action,swD,SWT,ZAZg35,Zakros,,LM IA,Label,4,6,3,se+wa+de,SWT,conventional,AU,True,75.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT116a,Haghia Triada - Casa Room 9,clay,LM IB,tablet (page-shaped),9,11,3,te+ki+nu,TKN,conventional,"GRA,OLE,OLIV",True,75.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),3,5,3,pa+de+tu,PTT,conventional,VIN,True,70.0
+swt,wheat (swt),agriculture,grain,swt,SWT,ZAZg35,Zakros,,LM IA,Label,4,6,3,se+wa+de,SWT,conventional,AU,True,70.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,KH6,Khania,clay,LM IB,tablet (page-shaped),0,2,3,si+te+re,STR,conventional,CYP,True,70.0
+jrtt,milk,agriculture,food,rtt,RTT,HT17,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,ra+ti+te,RTT,conventional,VIN,True,70.0
+jrtt,milk,agriculture,food,rtt,RTT,HT19,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,ra+ti+te,RTT,conventional,VIN,True,70.0
+jrtt,milk,agriculture,food,rtt,RTT,KO(?)Zf2,Kophinas,metal,Uncertain,metal object,9,11,3,ro+ta+de,RTT,conventional,AU,True,70.0
+nbw,gold,metals,precious,nbw,NPW,HT154a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),1,3,3,me+pa+ja,NPW,conventional,"GRA,OLIV",True,70.0
+Sndt,acacia wood,materials,wood,Sndt,SNTT,HT85b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),12,15,4,so+ne+di+du,SNTT,expanded,,False,70.0
+Sndt2,acacia (alt. form),materials,wood,Sndt,SNTT,HT85b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),12,15,4,so+ne+di+du,SNTT,expanded,,False,70.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT96a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),15,17,3,ni+ti+du,NTT,expanded,GRA,True,70.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),10,12,3,mi+ta+di,NTT,expanded,GRA,True,70.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,PYR1,Pyrgos,clay,LM IB,tablet (page-shaped),2,4,3,mu+ti+te,NTT,expanded,VIN,True,70.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,HT108,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),0,2,3,ki+ne+du,KNT,expanded,VIR,True,70.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT94a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),0,2,3,ka+pa+ta,KPT,expanded,VIR,True,70.0
+nfr,good/beautiful (quality grade),administrative,quality,nfr,NPR,HT30,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),3,5,3,ni+pi+ro,NPR,expanded,"CYP,OLE,VIN",True,70.0
+rnp,year (dating),administrative,scribal,rnp,RNP,HT90,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),10,12,3,ri+nu+pu,RNP,expanded,GRA,True,70.0
+rnp,year (dating),administrative,scribal,rnp,RNP,HT96b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),5,7,3,ra+ne+pu,RNP,expanded,GRA,True,70.0
+rnp,year (dating),administrative,scribal,rnp,RNP,KH86,Khania,clay,LM IB,tablet (page-shaped),0,2,3,re+ne+pi,RNP,expanded,CYP,True,70.0
+Sndt,acacia wood,materials,wood,Sndt,SNTT,HT104,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),4,7,4,se+ne+ti+du,SNTT,conventional,,False,65.0
+Sndt,acacia wood,materials,wood,Sndt,SNTT,HTZd157+156,Haghia Triada,,LM IB,Graffito,2,5,4,su+ma+ti+ti,SNTT,conventional,,False,65.0
+Sndt,acacia wood,materials,wood,Sndt,SNTT,KNZf31,Knossos,metal,Uncertain,metal object,2,5,4,za+ne+da+du,SNTT,conventional,,False,65.0
+Sndt,acacia wood,materials,wood,Sndt,SNTT,ZA20,Zakros,stone,LM IB,stone vessel,3,6,4,se+mi+te+tu,SNTT,conventional,,False,65.0
+Sndt2,acacia (alt. form),materials,wood,Sndt,SNTT,HT104,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),4,7,4,se+ne+ti+du,SNTT,conventional,,False,65.0
+Sndt2,acacia (alt. form),materials,wood,Sndt,SNTT,HTZd157+156,Haghia Triada,,LM IB,Graffito,2,5,4,su+ma+ti+ti,SNTT,conventional,,False,65.0
+Sndt2,acacia (alt. form),materials,wood,Sndt,SNTT,KNZf31,Knossos,metal,Uncertain,metal object,2,5,4,za+ne+da+du,SNTT,conventional,,False,65.0
+Sndt2,acacia (alt. form),materials,wood,Sndt,SNTT,ZA20,Zakros,stone,LM IB,stone vessel,3,6,4,se+mi+te+tu,SNTT,conventional,,False,65.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT40,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,nu+du+te,NTT,conventional,GRA,True,65.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT95a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),2,4,3,ma+ta+da,NTT,conventional,GRA,True,65.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT128a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),10,12,3,mi+ta+di,NTT,conventional,GRA,True,65.0
+dbn,deben (weight ~91g),administrative,metrology,dbn,TPN,HT14,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),1,3,3,te+pu+na,TPN,conventional,"GRA,OLIV,VIN",True,65.0
+dbn,deben (weight ~91g),administrative,metrology,dbn,TPN,KO(?)Zf2,Kophinas,metal,Uncertain,metal object,11,13,3,de+po+ni,TPN,conventional,AU,True,65.0
+nswt,king,administrative,titles,nswt,NSWT,ZA6a,Zakros,stone,Uncertain,stone vessel,1,4,4,na+sa+wa+te,NSWT,expanded,,False,65.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT94a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),0,2,3,ka+pa+ta,KPT,conventional,VIR,True,65.0
+nfr,good/beautiful (quality grade),administrative,quality,nfr,NPR,HT28b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),10,12,3,ni+pu+ra,NPR,conventional,VIN,True,65.0
+nfr,good/beautiful (quality grade),administrative,quality,nfr,NPR,HT93a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),2,4,3,na+pa+ri,NPR,conventional,GRA,True,65.0
+rnp,year (dating),administrative,scribal,rnp,RNP,HT28b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),9,11,3,ra+ni+pu,RNP,conventional,"GRA,VIN",True,65.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,HT115a,Haghia Triada - Casa Room 9,clay,LM IB,tablet (page-shaped),13,15,3,mi+na+se,NNS,expanded,,False,60.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,IOZa9,Iouktas,stone,Uncertain,stone vessel,7,9,3,na+na+si,NNS,expanded,,False,60.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,IOZa16,Iouktas,stone,Uncertain,stone vessel,7,9,3,mu+na+si,NNS,expanded,,False,60.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,PKZa10,Palaikastro,stone,Uncertain,stone vessel,4,6,3,na+na+si,NNS,expanded,,False,60.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,PKZa11,Palaikastro,stone,Uncertain,stone vessel,20,22,3,ni+ni+so,NNS,expanded,,False,60.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT6b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),5,7,3,se+se+ri,SSR,expanded,,False,60.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT10a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),8,10,3,za+za+ru,SSR,expanded,,False,60.0
+sDf^,provision/supply,trade,goods,sDf,STP,HT13,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),11,13,3,zu+da+pu,STP,expanded,,False,60.0
+sDf^,provision/supply,trade,goods,sDf,STP,KNZf31,Knossos,metal,Uncertain,metal object,16,18,3,su+te+pu,STP,expanded,,False,60.0
+sDf^,provision/supply,trade,goods,sDf,STP,SYZa4,Syme,stone,LM IA,stone vessel,7,9,3,si+do+pa,STP,expanded,,False,60.0
+Ssp,receive,trade,action,Ssp,SSP,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB,tablet (page-shaped),10,12,3,so+sa+pa,SSP,expanded,,False,60.0
+swD,transmit/hand over,trade,action,swD,SWT,KH74,Khania,clay,LM IB,tablet (page-shaped),0,2,3,si+ja+da,SWT,expanded,,False,60.0
+swD,transmit/hand over,trade,action,swD,SWT,KNZf31,Knossos,metal,Uncertain,metal object,2,4,3,za+jo+da,SWT,expanded,,False,60.0
+swD,transmit/hand over,trade,action,swD,SWT,PKZb19,Palaikastro,pottery/ceramic,Uncertain,Clay vessel,0,2,3,se+jo+du,SWT,expanded,,False,60.0
+swD,transmit/hand over,trade,action,swD,SWT,ZA4a,Zakros,stone,Uncertain,stone vessel,2,4,3,se+ja+to,SWT,expanded,,False,60.0
+swD,transmit/hand over,trade,action,swD,SWT,ZA6a,Zakros,stone,Uncertain,stone vessel,2,4,3,sa+wa+te,SWT,expanded,,False,60.0
+swD,transmit/hand over,trade,action,swD,SWT,ZA20,Zakros,stone,LM IB,stone vessel,13,15,3,se+ju+du,SWT,expanded,,False,60.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT6b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),14,16,3,da+ki+ni,TKN,expanded,,False,60.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),6,8,3,di+ka+nu,TKN,expanded,,False,60.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT103,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),8,10,3,da+ku+na,TKN,expanded,,False,60.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),27,29,3,du+ku+nu,TKN,expanded,,False,60.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT127a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),0,2,3,du+ke+mi,TKN,expanded,,False,60.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,ZA10a,Zakros,stone,Uncertain,stone vessel,19,21,3,ti+ke+ne,TKN,expanded,,False,60.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,ZA20,Zakros,stone,LM IB,stone vessel,0,2,3,du+ke+ne,TKN,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,HT20,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),10,12,3,ni+ne+wa,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,HT24a,Haghia Triada - Corridor 9 and Vestibule 26,clay,LM IB,tablet (page-shaped),6,8,3,mu+ma+ju,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,HT28b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),5,7,3,mi+na+jo,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,HT88,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),20,22,3,ne+ni+ju,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,tablet (page-shaped),7,9,3,mi+na+jo,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,HT135a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),2,4,3,na+mi+ja,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,HTZb159,Haghia Triada,pottery/ceramic,LM IB,Clay vessel,1,3,3,na+nu+jo,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,IOZa2,Iouktas,stone,Uncertain,stone vessel,17,19,3,na+na+jo,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,IOZa2,Iouktas,stone,Uncertain,stone vessel,22,24,3,ma+na+ju,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,KH88,Khania,clay,Uncertain,tablet (page-shaped),0,2,3,me+nu+ju,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,KNZf13,Knossos,metal,LM IA,metal object,1,3,3,ne+ne+jo,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,KNZf31,Knossos,metal,Uncertain,metal object,9,11,3,mi+na+wi,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,PKZa12,Palaikastro,stone,Uncertain,stone vessel,21,23,3,na+mu+ja,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,SYZa3,Syme,stone,LM IA,stone vessel,7,9,3,na+na+jo,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,TLZa1,Troullos,stone,Uncertain,stone vessel,7,9,3,me+ne+ja,NNW,expanded,,False,60.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,TLZa1,Troullos,stone,Uncertain,stone vessel,21,23,3,ma+na+ju,NNW,expanded,,False,60.0
+p^qt,fine linen (pq),commodities,textile,pQt,PKT,HT41a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,qe+ke+da,PKT,expanded,,False,60.0
+p^qt,fine linen (pq),commodities,textile,pQt,PKT,HT85a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),11,13,3,pu+ke+da,PKT,expanded,,False,60.0
+p^qt,fine linen (pq),commodities,textile,pQt,PKT,TY2,Tylissos,clay,Uncertain,tablet (page-shaped),1,3,3,pa+ki+da,PKT,expanded,,False,60.0
+twt,statue/image (trade object),commodities,art,twt,TWT,HT34,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,da+wa+te,TWT,expanded,,False,60.0
+twt,statue/image (trade object),commodities,art,twt,TWT,HT97a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),11,13,3,di+wa+ti,TWT,expanded,,False,60.0
+twt,statue/image (trade object),commodities,art,twt,TWT,KNZa10,Knossos,stone,LM IA,stone vessel,11,13,3,du+wa+to,TWT,expanded,,False,60.0
+twt,statue/image (trade object),commodities,art,twt,TWT,KYZa2,Kythera,stone,Uncertain,stone vessel,0,2,3,da+ju+te,TWT,expanded,,False,60.0
+twt,statue/image (trade object),commodities,art,twt,TWT,PLZf1,Platanos,metal,Uncertain,metal object,0,2,3,ta+wi+ti,TWT,expanded,,False,60.0
+twt,statue/image (trade object),commodities,art,twt,TWT,PSZa2,Psykhro,stone,Uncertain,stone vessel,5,7,3,ti+ja+ti,TWT,expanded,,False,60.0
+twt,statue/image (trade object),commodities,art,twt,TWT,ZA21a,Zakros,stone,Uncertain,stone vessel,3,5,3,te+ju+ta,TWT,expanded,,False,60.0
+twt,statue/image (trade object),commodities,art,twt,TWT,ARZf1,Arkhalkhori,metal,Uncertain,metal object,1,3,3,da+ju+te,TWT,expanded,,False,60.0
+twt,statue/image (trade object),commodities,art,twt,TWT,ARZf2,Arkhalkhori,metal,Uncertain,metal object,1,3,3,da+ju+te,TWT,expanded,,False,60.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,HT6a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),1,3,3,pa+da+du,PTT,expanded,,False,55.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,HT6a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),6,8,3,pu+ti+du,PTT,expanded,,False,55.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,HTZb160,Haghia Triada,pottery/ceramic,LM IB,Clay vessel,0,2,3,pa+du+da,PTT,expanded,,False,55.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,ZA8,Zakros,stone,LM IB,stone vessel,12,14,3,pu+du+du,PTT,expanded,,False,55.0
+swt,wheat (swt),agriculture,grain,swt,SWT,KH74,Khania,clay,LM IB,tablet (page-shaped),0,2,3,si+ja+da,SWT,expanded,,False,55.0
+swt,wheat (swt),agriculture,grain,swt,SWT,KNZf31,Knossos,metal,Uncertain,metal object,2,4,3,za+jo+da,SWT,expanded,,False,55.0
+swt,wheat (swt),agriculture,grain,swt,SWT,PKZb19,Palaikastro,pottery/ceramic,Uncertain,Clay vessel,0,2,3,se+jo+du,SWT,expanded,,False,55.0
+swt,wheat (swt),agriculture,grain,swt,SWT,ZA4a,Zakros,stone,Uncertain,stone vessel,2,4,3,se+ja+to,SWT,expanded,,False,55.0
+swt,wheat (swt),agriculture,grain,swt,SWT,ZA6a,Zakros,stone,Uncertain,stone vessel,2,4,3,sa+wa+te,SWT,expanded,,False,55.0
+swt,wheat (swt),agriculture,grain,swt,SWT,ZA20,Zakros,stone,LM IB,stone vessel,13,15,3,se+ju+du,SWT,expanded,,False,55.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,HTWc3011,Haghia Triada,clay,LM IB,roundel,0,2,3,zu+di+ra,STR,expanded,,False,55.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,HTWc3012,Haghia Triada,clay,LM IB,roundel,0,2,3,zu+di+ra,STR,expanded,,False,55.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,KNZf13,Knossos,metal,LM IA,metal object,11,13,3,se+te+ri,STR,expanded,,False,55.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,PRZa1,Prassa,stone,LM IA,stone vessel,5,7,3,se+to+ru,STR,expanded,,False,55.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,THEtab.5,Thera,clay,Uncertain,tablet (page-shaped),1,3,3,so+da+ru,STR,expanded,,False,55.0
+jrtt,milk,agriculture,food,rtt,RTT,HT10a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),10,12,3,ru+da+da,RTT,expanded,,False,55.0
+jrtt,milk,agriculture,food,rtt,RTT,HT25b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),1,3,3,ro+ti+te,RTT,expanded,,False,55.0
+jrtt,milk,agriculture,food,rtt,RTT,HT87,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),4,6,3,ri+te+ti,RTT,expanded,,False,55.0
+jrtt,milk,agriculture,food,rtt,RTT,HT88,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),23,25,3,ro+da+du,RTT,expanded,,False,55.0
+jrtt,milk,agriculture,food,rtt,RTT,HT109,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),0,2,3,re+ta+du,RTT,expanded,,False,55.0
+jrtt,milk,agriculture,food,rtt,RTT,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),30,32,3,ri+da+da,RTT,expanded,,False,55.0
+jrtt,milk,agriculture,food,rtt,RTT,CRZg4,Crete,stone,Uncertain,Stone object,0,2,3,ru+da+da,RTT,expanded,,False,55.0
+nbw,gold,metals,precious,nbw,NPW,HT3,Haghia Triada - Portico 11 and Room 13,clay,LM IB,tablet (page-shaped),10,12,3,mu+pa+jo,NPW,expanded,,False,55.0
+nbw,gold,metals,precious,nbw,NPW,HT88,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),17,19,3,nu+pa+ja,NPW,expanded,,False,55.0
+nbw,gold,metals,precious,nbw,NPW,PH2,Phaistos,clay,Uncertain,tablet (page-shaped),8,10,3,mu+pa+wa,NPW,expanded,,False,55.0
+nbw,gold,metals,precious,nbw,NPW,ZA10b,Zakros,stone,Uncertain,stone vessel,21,23,3,ne+pa+ja,NPW,expanded,,False,55.0
+nbw,gold,metals,precious,nbw,NPW,GOWc1a,Gournia,clay,Uncertain,roundel,1,3,3,ni+pu+ju,NPW,expanded,,False,55.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,HT28b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),5,7,3,mi+na+si,NNS,conventional,,False,55.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,HT115a,Haghia Triada - Casa Room 9,clay,LM IB,tablet (page-shaped),13,15,3,mi+na+se,NNS,conventional,,False,55.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,HT117a,Haghia Triada - Casa Room 9,clay,LM IB,tablet (page-shaped),7,9,3,mi+na+si,NNS,conventional,,False,55.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,HTZb159,Haghia Triada,pottery/ceramic,LM IB,Clay vessel,1,3,3,na+nu+si,NNS,conventional,,False,55.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,IOZa2,Iouktas,stone,Uncertain,stone vessel,21,23,3,na+ma+si,NNS,conventional,,False,55.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,IOZa15,Iouktas,stone,Uncertain,stone vessel,2,4,3,na+ma+si,NNS,conventional,,False,55.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,KOZa1,Kophinas,stone,Uncertain,stone vessel,20,22,3,na+ma+si,NNS,conventional,,False,55.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,PKZa10,Palaikastro,stone,Uncertain,stone vessel,4,6,3,mi+na+si,NNS,conventional,,False,55.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,PKZa11,Palaikastro,stone,Uncertain,stone vessel,30,32,3,mi+na+si,NNS,conventional,,False,55.0
+mns^,jar/amphora (Canaanite),commodities,vessel,mns,NNS,TLZa1,Troullos,stone,Uncertain,stone vessel,20,22,3,na+ma+si,NNS,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT10a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),8,10,3,za+za+ru,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT34,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),3,5,3,si+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),5,7,3,su+sa+ru,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,HT86b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),5,7,3,su+sa+ru,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,IOZa2,Iouktas,stone,Uncertain,stone vessel,10,12,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,IOZa6,Iouktas,stone,LM IA,stone vessel,15,17,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,IOZa9,Iouktas,stone,Uncertain,stone vessel,1,3,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,IOZb10,Iouktas,pottery/ceramic,LMI,Clay vessel,1,3,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,IOZa12,Iouktas,stone,LMI,stone vessel,1,3,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,KNZa10,Knossos,stone,LM IA,stone vessel,5,7,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,KHZc106,Knossos,,Uncertain,Inked inscription,0,2,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,PKZa4,Palaikastro,stone,Uncertain,stone vessel,1,3,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,PLZf1,Platanos,metal,Uncertain,metal object,9,11,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,POZc1,Poros Herakleiou,,LMIIIA,Inked inscription,4,6,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,PSZa2,Psykhro,stone,Uncertain,stone vessel,9,11,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,SAMWa1,Samothrace,,MM II,Nodule,1,3,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,SYZa3,Syme,stone,LM IA,stone vessel,8,10,3,si+si+ru,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,TLZa1,Troullos,stone,Uncertain,stone vessel,10,12,3,sa+sa+ra,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,GO2r,Gournia,clay,Uncertain,tablet (page-shaped),0,2,3,si+si+ro,SSR,conventional,,False,55.0
+Ssr,linen (fine),commodities,textile,Ssr,SSR,PKZa27,Palaikastro,stone,Uncertain,stone vessel,1,3,3,sa+sa+ra,SSR,conventional,,False,55.0
+sDf^,provision/supply,trade,goods,sDf,STP,HT43,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),1,3,3,si+du+pa,STP,conventional,,False,55.0
+sDf^,provision/supply,trade,goods,sDf,STP,HT123+124b,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),2,4,3,sa+du+pa,STP,conventional,,False,55.0
+sDf^,provision/supply,trade,goods,sDf,STP,KNZf13,Knossos,metal,LM IA,metal object,3,5,3,si+di+pi,STP,conventional,,False,55.0
+Ssp,receive,trade,action,Ssp,SSP,KH9,Khania,clay,LM IB,tablet (page-shaped),1,3,3,si+su+po,SSP,conventional,,False,55.0
+Ssp,receive,trade,action,Ssp,SSP,PH2,Phaistos,clay,Uncertain,tablet (page-shaped),11,13,3,se+sa+pa,SSP,conventional,,False,55.0
+Ssp,receive,trade,action,Ssp,SSP,ZA14,Zakros,stone,LM IB,stone vessel,14,16,3,za+se+pa,SSP,conventional,,False,55.0
+swD,transmit/hand over,trade,action,swD,SWT,KH74,Khania,clay,LM IB,tablet (page-shaped),0,2,3,si+ja+da,SWT,conventional,,False,55.0
+swD,transmit/hand over,trade,action,swD,SWT,KN22a,Knossos,clay,Uncertain,Lames (short thin tablet),0,2,3,su+ju+ta,SWT,conventional,,False,55.0
+swD,transmit/hand over,trade,action,swD,SWT,ZA4a,Zakros,stone,Uncertain,stone vessel,2,4,3,se+ja+to,SWT,conventional,,False,55.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT62+73,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),6,8,3,di+ka+nu,TKN,conventional,,False,55.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT95b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),8,10,3,te+ku+ni,TKN,conventional,,False,55.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT96a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),2,4,3,ti+ku+ni,TKN,conventional,,False,55.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT103,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),10,12,3,da+ku+ne,TKN,conventional,,False,55.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT110a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),1,3,3,du+ku+mi,TKN,conventional,,False,55.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),27,29,3,tu+ku+nu,TKN,conventional,,False,55.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,ZA10a,Zakros,stone,Uncertain,stone vessel,13,15,3,du+ku+mi,TKN,conventional,,False,55.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,ZA27,Zakros,stone,Uncertain,stone vessel,0,2,3,di+ki+mi,TKN,conventional,,False,55.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,ZAWc2,Zakros,clay,LM IB,roundel,4,6,3,du+ko+mi,TKN,conventional,,False,55.0
+TXnw,Libyan oil (specific),commodities,oil,TXn,TKN,ZAWc2,Zakros,clay,LM IB,roundel,11,13,3,du+ko+mi,TKN,conventional,,False,55.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,HT115a,Haghia Triada - Casa Room 9,clay,LM IB,tablet (page-shaped),6,8,3,ma+nu+wi,NNW,conventional,,False,55.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,HT115b,Haghia Triada - Casa Room 9,clay,LM IB,tablet (page-shaped),3,5,3,ne+nu+ja,NNW,conventional,,False,55.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,KNZc7,Knossos,,Uncertain,Inked inscription,15,17,3,na+ne+wi,NNW,conventional,,False,55.0
+mnw,monument/gift (trade item),trade,goods,mnw,NNW,ZAZg35,Zakros,,LM IA,Label,0,2,3,me+mi+ja,NNW,conventional,,False,55.0
+p^qt,fine linen (pq),commodities,textile,pQt,PKT,HT47a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),6,8,3,pi+ki+da,PKT,conventional,,False,55.0
+p^qt,fine linen (pq),commodities,textile,pQt,PKT,TY2,Tylissos,clay,Uncertain,tablet (page-shaped),1,3,3,pi+ki+da,PKT,conventional,,False,55.0
+twt,statue/image (trade object),commodities,art,twt,TWT,HT7a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),5,7,3,du+ja+ta,TWT,conventional,,False,55.0
+twt,statue/image (trade object),commodities,art,twt,TWT,HT34,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,da+ju+te,TWT,conventional,,False,55.0
+twt,statue/image (trade object),commodities,art,twt,TWT,HT119,Haghia Triada - Casa Room 9,clay,LM IB,tablet (page-shaped),7,9,3,ti+ja+tu,TWT,conventional,,False,55.0
+twt,statue/image (trade object),commodities,art,twt,TWT,KNZa10,Knossos,stone,LM IA,stone vessel,9,11,3,da+wa+du,TWT,conventional,,False,55.0
+twt,statue/image (trade object),commodities,art,twt,TWT,KNZa10,Knossos,stone,LM IA,stone vessel,11,13,3,du+wa+to,TWT,conventional,,False,55.0
+twt,statue/image (trade object),commodities,art,twt,TWT,MA2b,Malia,,Uncertain,3-sided bar,1,3,3,ti+ja+ti,TWT,conventional,,False,55.0
+twt,statue/image (trade object),commodities,art,twt,TWT,PLZf1,Platanos,metal,Uncertain,metal object,0,2,3,ta+wi+te,TWT,conventional,,False,55.0
+twt,statue/image (trade object),commodities,art,twt,TWT,PSZa2,Psykhro,stone,Uncertain,stone vessel,5,7,3,ti+ja+ti,TWT,conventional,,False,55.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,HT6a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),1,3,3,pa+da+ta,PTT,conventional,,False,50.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,HT12,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,qa+ti+da,PTT,conventional,,False,50.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,HT41a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,qe+tu+da,PTT,conventional,,False,50.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,HT85b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),9,11,3,pa+te+tu,PTT,conventional,,False,50.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,HT119,Haghia Triada - Casa Room 9,clay,LM IB,tablet (page-shaped),5,7,3,pa+tu+ti,PTT,conventional,,False,50.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,HT123+124b,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),4,6,3,pa+di+da,PTT,conventional,,False,50.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,HTZb160,Haghia Triada,pottery/ceramic,LM IB,Clay vessel,0,2,3,pa+ta+da,PTT,conventional,,False,50.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,KNZf31,Knossos,metal,Uncertain,metal object,27,29,3,qa+ti+ta,PTT,conventional,,False,50.0
+bdt,emmer wheat,agriculture,grain,bdt,PTT,PH(?)31a,Phaistos,clay,Uncertain,tablet (page-shaped),8,10,3,pa+ta+da,PTT,conventional,,False,50.0
+swt,wheat (swt),agriculture,grain,swt,SWT,KH74,Khania,clay,LM IB,tablet (page-shaped),0,2,3,si+ja+da,SWT,conventional,,False,50.0
+swt,wheat (swt),agriculture,grain,swt,SWT,KN22a,Knossos,clay,Uncertain,Lames (short thin tablet),0,2,3,su+ju+ta,SWT,conventional,,False,50.0
+swt,wheat (swt),agriculture,grain,swt,SWT,ZA4a,Zakros,stone,Uncertain,stone vessel,2,4,3,se+ja+to,SWT,conventional,,False,50.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,HT99b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),3,5,3,zu+du+ru,STR,conventional,,False,50.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),15,17,3,si+da+re,STR,conventional,,False,50.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,HTWc3011,Haghia Triada,clay,LM IB,roundel,0,2,3,zu+di+ra,STR,conventional,,False,50.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,HTWc3012,Haghia Triada,clay,LM IB,roundel,0,2,3,zu+di+ra,STR,conventional,,False,50.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,KNZf13,Knossos,metal,LM IA,metal object,11,13,3,se+te+ri,STR,conventional,,False,50.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,KOZa1,Kophinas,stone,Uncertain,stone vessel,7,9,3,sa+du+re,STR,conventional,,False,50.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,PH2,Phaistos,clay,Uncertain,tablet (page-shaped),1,3,3,se+tu+ra,STR,conventional,,False,50.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,PH7a,Phaistos,clay,Uncertain,tablet (page-shaped),10,12,3,si+da+ra,STR,conventional,,False,50.0
+SDr,wine (šdḥ type),beverages,wine,SDr,STR,PK1,Palaikastro,clay,LMI,tablet (page-shaped),5,7,3,za+ta+re,STR,conventional,,False,50.0
+jrtt,milk,agriculture,food,rtt,RTT,HT4,Haghia Triada - Portico 11 and Room 13,clay,LM IB,tablet (page-shaped),3,5,3,re+du+te,RTT,conventional,,False,50.0
+jrtt,milk,agriculture,food,rtt,RTT,HT7a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),11,13,3,re+te+tu,RTT,conventional,,False,50.0
+jrtt,milk,agriculture,food,rtt,RTT,HT25a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),8,10,3,ri+ta+tu,RTT,conventional,,False,50.0
+jrtt,milk,agriculture,food,rtt,RTT,HT49a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,ra+du+ta,RTT,conventional,,False,50.0
+jrtt,milk,agriculture,food,rtt,RTT,HT86a,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),7,9,3,ru+di+de,RTT,conventional,,False,50.0
+jrtt,milk,agriculture,food,rtt,RTT,HT86b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),7,9,3,ru+di+de,RTT,conventional,,False,50.0
+jrtt,milk,agriculture,food,rtt,RTT,HT88,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),23,25,3,ro+da+ta,RTT,conventional,,False,50.0
+jrtt,milk,agriculture,food,rtt,RTT,HT123+124a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),4,6,3,ro+da+tu,RTT,conventional,,False,50.0
+jrtt,milk,agriculture,food,rtt,RTT,IOZa2,Iouktas,stone,Uncertain,stone vessel,24,26,3,ru+te+ta,RTT,conventional,,False,50.0
+jrtt,milk,agriculture,food,rtt,RTT,KNZf31,Knossos,metal,Uncertain,metal object,23,25,3,ra+ti+di,RTT,conventional,,False,50.0
+jrtt,milk,agriculture,food,rtt,RTT,PK1,Palaikastro,clay,LMI,tablet (page-shaped),7,9,3,re+ta+te,RTT,conventional,,False,50.0
+nbw,gold,metals,precious,nbw,NPW,HT41a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),3,5,3,ni+pa+ja,NPW,conventional,,False,50.0
+nbw,gold,metals,precious,nbw,NPW,HT88,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),17,19,3,nu+pa+ja,NPW,conventional,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT3,Haghia Triada - Portico 11 and Room 13,clay,LM IB,tablet (page-shaped),13,15,3,ne+di+da,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT13,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),5,7,3,ne+do+te,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT47a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),2,4,3,na+tu+du,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT85b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),13,15,3,ne+di+du,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT122b,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),12,14,3,me+di+da,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,IOZa2,Iouktas,stone,Uncertain,stone vessel,27,29,3,mu+te+te,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,IOZa11,Iouktas,stone,Uncertain,stone vessel,0,2,3,na+da+da,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,KNZa10,Knossos,stone,LM IA,stone vessel,8,10,3,ma+da+da,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,KNZc7,Knossos,,Uncertain,Inked inscription,16,18,3,ne+ti+ti,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,PEZg6,Petras,stone,Uncertain,Stone object,1,3,3,na+te+ta,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,PKZa11,Palaikastro,stone,Uncertain,stone vessel,11,13,3,ne+te+ti,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,PLZf1,Platanos,metal,Uncertain,metal object,12,14,3,me+ta+du,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,ZA10b,Zakros,stone,Uncertain,stone vessel,27,29,3,ne+te+du,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,ZA15a,Zakros,stone,Uncertain,stone vessel,19,21,3,ni+da+da,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,APZa2,Apodoulou,stone,Uncertain,stone vessel,18,20,3,na+te+ta,NTT,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,ARKH3a,Arkhalkhori,clay,Uncertain,tablet (page-shaped),3,5,3,nu+te+te,NTT,expanded,,False,50.0
+Xtm,seal/seal-bearer,administrative,scribal,Xtm,KTN,PEZb3,Petras,pottery/ceramic,LM IB,Clay vessel,3,5,3,ki+du+na,KTN,expanded,,False,50.0
+Xtm,seal/seal-bearer,administrative,scribal,Xtm,KTN,PH2,Phaistos,clay,Uncertain,tablet (page-shaped),6,8,3,ki+ti+mu,KTN,expanded,,False,50.0
+dbn,deben (weight ~91g),administrative,metrology,dbn,TPN,HTWc3008,Haghia Triada,clay,LM IB,roundel,1,3,3,di+pu+mu,TPN,expanded,,False,50.0
+dbn,deben (weight ~91g),administrative,metrology,dbn,TPN,PKZa16,Palaikastro,stone,Uncertain,stone vessel,1,3,3,to+pu+ne,TPN,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,HT8a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),13,15,3,ki+ne+du,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,HT20,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),7,9,3,ku+ne+di,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,HT47a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),1,3,3,ku+na+tu,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,HT88,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),1,3,3,ke+ne+do,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,HTWc3017,Haghia Triada,clay,LM IB,roundel,1,3,3,ku+ne+di,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,KNZc7,Knossos,,Uncertain,Inked inscription,1,3,3,ka+nu+do,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,TROZg2,Troy,stone,Uncertain,Stone object,0,2,3,ke+mi+du,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,ZA1a,Zakros,stone,Uncertain,stone vessel,0,2,3,ki+ne+do,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,ZA10a,Zakros,stone,Uncertain,stone vessel,20,22,3,ke+ne+do,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,ZA10b,Zakros,stone,Uncertain,stone vessel,1,3,3,ke+ne+do,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,ZA10b,Zakros,stone,Uncertain,stone vessel,26,28,3,ku+ne+te,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,ZA20,Zakros,stone,LM IB,stone vessel,1,3,3,ke+ne+do,KNT,expanded,,False,50.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,ARKH3a,Arkhalkhori,clay,Uncertain,tablet (page-shaped),2,4,3,ki+nu+te,KNT,expanded,,False,50.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT6a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,ka+pa+da,KPT,expanded,,False,50.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT6a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),12,14,3,ka+qe+da,KPT,expanded,,False,50.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT9a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),9,11,3,ke+pa+di,KPT,expanded,,False,50.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT16,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),1,3,3,ku+pa+di,KPT,expanded,,False,50.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT85b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),8,10,3,ka+pa+te,KPT,expanded,,False,50.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT104,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),8,10,3,ke+pa+da,KPT,expanded,,False,50.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT119,Haghia Triada - Casa Room 9,clay,LM IB,tablet (page-shaped),4,6,3,ku+pa+tu,KPT,expanded,,False,50.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,KH92,Khania,clay,Uncertain,tablet (page-shaped),3,5,3,ku+pu+te,KPT,expanded,,False,50.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,ARKH5,Arkhalkhori,clay,LM IB,tablet (page-shaped),1,3,3,ke+pu+du,KPT,expanded,,False,50.0
+nfr,good/beautiful (quality grade),administrative,quality,nfr,NPR,HT122b,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),15,17,3,ne+po+ro,NPR,expanded,,False,50.0
+rnp,year (dating),administrative,scribal,rnp,RNP,ZA10b,Zakros,stone,Uncertain,stone vessel,20,22,3,ro+ne+pa,RNP,expanded,,False,50.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT3,Haghia Triada - Portico 11 and Room 13,clay,LM IB,tablet (page-shaped),13,15,3,ma+di+da,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT7a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),8,10,3,na+ti+da,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT47a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),2,4,3,na+tu+du,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT94b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),6,8,3,ne+de+di,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HT104,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),5,7,3,ne+ti+du,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HTZd155,Haghia Triada,,LM IB,Graffito,4,6,3,ma+ti+ti,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,HTZd157+156,Haghia Triada,,LM IB,Graffito,3,5,3,ma+ti+ti,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,IOZa11,Iouktas,stone,Uncertain,stone vessel,0,2,3,na+da+da,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,KNZf31,Knossos,metal,Uncertain,metal object,3,5,3,ne+da+du,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,PEZg6,Petras,stone,Uncertain,Stone object,1,3,3,na+te+ta,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,TROZg1,Troy,stone,Uncertain,Stone object,1,3,3,mi+ta+ti,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,TROZg2,Troy,stone,Uncertain,Stone object,1,3,3,mi+ta+ti,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,ZA10b,Zakros,stone,Uncertain,stone vessel,27,29,3,ne+te+ta,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,ZA20,Zakros,stone,LM IB,stone vessel,4,6,3,mi+te+tu,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,ZA21a,Zakros,stone,Uncertain,stone vessel,2,4,3,ma+te+ta,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,ZAZb3,Zakros,stone,LM IB,stone vessel,17,19,3,na+ti+ti,NTT,conventional,,False,45.0
+md't,document/papyrus roll,administrative,scribal,mDt,NTT,ARKH4a,Arkhalkhori,clay,Uncertain,tablet (page-shaped),0,2,3,ni+ta+ta,NTT,conventional,,False,45.0
+Xtm,seal/seal-bearer,administrative,scribal,Xtm,KTN,HT29,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),12,14,3,ka+du+ma,KTN,conventional,,False,45.0
+Xtm,seal/seal-bearer,administrative,scribal,Xtm,KTN,HT47a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),7,9,3,ki+da+nu,KTN,conventional,,False,45.0
+Xtm,seal/seal-bearer,administrative,scribal,Xtm,KTN,KH60,Khania,clay,LM IB,tablet (page-shaped),1,3,3,ki+ta+na,KTN,conventional,,False,45.0
+Xtm,seal/seal-bearer,administrative,scribal,Xtm,KTN,PEZb3,Petras,pottery/ceramic,LM IB,Clay vessel,3,5,3,ki+ta+na,KTN,conventional,,False,45.0
+Xtm,seal/seal-bearer,administrative,scribal,Xtm,KTN,PKZb21,Palaikastro,pottery/ceramic,Uncertain,Clay vessel,0,2,3,ki+ta+ni,KTN,conventional,,False,45.0
+dbn,deben (weight ~91g),administrative,metrology,dbn,TPN,HT3,Haghia Triada - Portico 11 and Room 13,clay,LM IB,tablet (page-shaped),10,12,3,di+pa+nu,TPN,conventional,,False,45.0
+dbn,deben (weight ~91g),administrative,metrology,dbn,TPN,HT23a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),3,5,3,tu+qa+me,TPN,conventional,,False,45.0
+dbn,deben (weight ~91g),administrative,metrology,dbn,TPN,HT122a,Haghia Triada - Casa del Lebete,clay,LM IB,tablet (page-shaped),21,23,3,de+pa+nu,TPN,conventional,,False,45.0
+dbn,deben (weight ~91g),administrative,metrology,dbn,TPN,ZA14,Zakros,stone,LM IB,stone vessel,2,4,3,di+pu+ni,TPN,conventional,,False,45.0
+dbn,deben (weight ~91g),administrative,metrology,dbn,TPN,APZa2,Apodoulou,stone,Uncertain,stone vessel,12,14,3,te+pi+mi,TPN,conventional,,False,45.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,HT47a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),1,3,3,ku+na+tu,KNT,conventional,,False,45.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,HT51b,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,ku+me+ta,KNT,conventional,,False,45.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,KH92,Khania,clay,Uncertain,tablet (page-shaped),3,5,3,ku+ni+te,KNT,conventional,,False,45.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,PKZa11,Palaikastro,stone,Uncertain,stone vessel,25,27,3,ka+na+ti,KNT,conventional,,False,45.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,ZA10b,Zakros,stone,Uncertain,stone vessel,26,28,3,ku+ne+te,KNT,conventional,,False,45.0
+kmt,Egypt (Kemet),administrative,placename,kmt,KNT,ARKH3a,Arkhalkhori,clay,Uncertain,tablet (page-shaped),2,4,3,ki+nu+te,KNT,conventional,,False,45.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT6a,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),0,2,3,ka+pa+da,KPT,conventional,,False,45.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT16,Haghia Triada - Villa Magazine,clay,LM IB,tablet (page-shaped),1,3,3,ku+pa+di,KPT,conventional,,False,45.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT85b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),8,10,3,ka+pa+te,KPT,conventional,,False,45.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,HT119,Haghia Triada - Casa Room 9,clay,LM IB,tablet (page-shaped),4,6,3,ku+pa+tu,KPT,conventional,,False,45.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,ZA14,Zakros,stone,LM IB,stone vessel,5,7,3,ka+qa+ti,KPT,conventional,,False,45.0
+kftjw,Crete/Caphtor (Minoans),administrative,placename,kft,KPT,ZA14,Zakros,stone,LM IB,stone vessel,9,11,3,ku+pi+tu,KPT,conventional,,False,45.0
+nfr,good/beautiful (quality grade),administrative,quality,nfr,NPR,HT96b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),3,5,3,ne+qa+ra,NPR,conventional,,False,45.0
+rnp,year (dating),administrative,scribal,rnp,RNP,HT96b,Haghia Triada - Casa Room 7,clay,LM IB,tablet (page-shaped),2,4,3,ra+ne+qa,RNP,conventional,,False,45.0
