@@ -1,0 +1,18 @@
+term_type,canonical_form,ml_substituted_form,phonological_improvement,ml_reading_plausible,substituted_signs,notes
+toponym,pa-i-to,pa-i-to,0,1,0,"canonical=pa-i-to (dist=3); ML=pa-i-to (dist=3); no substitutions needed; canonical_assessment=good (dist=3, norm=0.38); ML_assessment=good (dist=3, norm=0.38)"
+toponym,i-da,i-da,0,1,0,"canonical=i-da (dist=0); ML=i-da (dist=0); no substitutions needed; canonical_assessment=excellent (dist=0, norm=0.00); ML_assessment=excellent (dist=0, norm=0.00)"
+toponym,di-ka-ta,di-ka-ta,0,1,0,"canonical=di-ka-ta (dist=2); ML=di-ka-ta (dist=2); no substitutions needed; canonical_assessment=good (dist=2, norm=0.33); ML_assessment=good (dist=2, norm=0.33)"
+toponym,su-ki-ri-ta,su-ki-ri-ta,0,1,0,"canonical=su-ki-ri-ta (dist=3); ML=su-ki-ri-ta (dist=3); no substitutions needed; canonical_assessment=good (dist=3, norm=0.38); ML_assessment=good (dist=3, norm=0.38)"
+toponym,tu-ru-sa,tu-ru-sa,0,1,0,"canonical=tu-ru-sa (dist=6); ML=tu-ru-sa (dist=6); no substitutions needed; canonical_assessment=poor (dist=6, norm=0.75); ML_assessment=poor (dist=6, norm=0.75)"
+toponym,se-to-i-ja,se-to-i-ja,0,1,0,"canonical=se-to-i-ja (dist=1); ML=se-to-i-ja (dist=1); no substitutions needed; canonical_assessment=excellent (dist=1, norm=0.14); ML_assessment=excellent (dist=1, norm=0.14)"
+toponym,ku-do-ni-ja,ku-do-ni-ja,0,1,0,"canonical=ku-do-ni-ja (dist=2); ML=ku-do-ni-ja (dist=2); no substitutions needed; canonical_assessment=excellent (dist=2, norm=0.25); ML_assessment=excellent (dist=2, norm=0.25)"
+formula,a-sa-sa-ra-me,a-sa-sa-ra-me,0,1,0,"canonical=a-sa-sa-ra-me (dist=0); ML=a-sa-sa-ra-me (dist=0); no substitutions needed; canonical_assessment=excellent (dist=0, norm=0.00); ML_assessment=excellent (dist=0, norm=0.00)"
+formula,ja-sa-sa-ra-me,ja-sa-sa-ra-me,0,1,0,"canonical=ja-sa-sa-ra-me (dist=0); ML=ja-sa-sa-ra-me (dist=0); no substitutions needed; canonical_assessment=excellent (dist=0, norm=0.00); ML_assessment=excellent (dist=0, norm=0.00)"
+accounting,ku-ro,ku-ro,0,1,0,"canonical=ku-ro (dist=0); ML=ku-ro (dist=0); no substitutions needed; canonical_assessment=excellent (dist=0, norm=0.00); ML_assessment=excellent (dist=0, norm=0.00)"
+accounting,pu-to-ku-ro,pu-to-ku-ro,0,1,0,"canonical=pu-to-ku-ro (dist=0); ML=pu-to-ku-ro (dist=0); no substitutions needed; canonical_assessment=excellent (dist=0, norm=0.00); ML_assessment=excellent (dist=0, norm=0.00)"
+accounting,ki-ro,ki-ro,0,1,0,"canonical=ki-ro (dist=0); ML=ki-ro (dist=0); no substitutions needed; canonical_assessment=excellent (dist=0, norm=0.00); ML_assessment=excellent (dist=0, norm=0.00)"
+loanword,SU-KI-RI-TA:su-ki-ri-ta,su-ki-de-ta,0,0,1,anchor=SU-KI-RI-TA; matched_string=SUKIRITA; inscription=1506; substitutions: AB 45: ri→de; ML DISRUPTS match
+loanword,IDA:it-a,it-a,1,1,0,anchor=IDA; matched_string=ITA; inscription=39; no uncertain signs in match; ML prediction did not disrupt exact match
+loanword,IDA:id-a,id-a,1,1,0,anchor=IDA; matched_string=IDA; inscription=1118; no uncertain signs in match; ML prediction did not disrupt exact match
+loanword,Ἄργος:ar-uk-u,ar-uk-u,1,1,0,loanword=Ἄργος→arg; matched=ARUKU; confidence=58.0; no uncertain signs in match; ML prediction did not disrupt exact match
+loanword,Λύκτος:ru-ku-tu,ru-ku-tu,1,1,0,loanword=Λύκτος→lukt; matched=RUKUTU; confidence=58.0; no uncertain signs in match; ML prediction did not disrupt exact match

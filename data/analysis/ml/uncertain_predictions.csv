@@ -1,0 +1,95 @@
+bennett_id,conventional_value,predicted_refined_value,confidence_score,top3_candidates,evidence_sources
+AB 01,da,da,0.525,AB 18=zo (0.192); AB 09=se (0.135); AB 57=ja (0.135),NN: AB 18=zo (cos=0.192); GC=65; LB=83; CM=HIGH; summary: LB=83; CM=HIGH; GC=65; Pos#27; Ng#3
+AB 02,ro,ro,0.3403,AB 22=pi (0.189); AB 67=ki (0.161); AB 05=to (0.157),NN: AB 22=pi (cos=0.189); GC=45; LB=76; summary: LB=76; GC=45; Pos#6; Ng#17
+AB 07,di,di,0.4855,AB 43=pa (0.189); AB 03=pa (0.177); AB 40=wi (0.167),NN: AB 43=pa (cos=0.189); GC=55; LB=76; CM=HIGH; summary: LB=76; CM=HIGH; GC=55; Pos#20; Ng#6
+AB 14,do,do,0.4233,AB 32=i (0.173); AB 53=ri (0.126); AB 43=pa (0.125),NN: AB 32=i (cos=0.173); GC=52; LB=74; CM=MEDIUM; summary: LB=74; CM=MEDIUM; GC=52; Pos#17; Ng#30
+AB 16,qa,qa,0.2839,AB 31=sa (0.182); AB 17=za (0.149); AB 04=te (0.125),NN: AB 31=sa (cos=0.182); LB=68; CM=MEDIUM; summary: LB=68; CM=MEDIUM; Pos#1; Ng#11
+AB 19,?,i,0.0808,AB 32=i (0.202); AB 22=pi (0.092); AB 112=pa (0.083),NN: AB 32=i (cos=0.202)
+AB 20,zo?,zo?,0.0835,AB 61=o (0.209); AB 69=tu (0.158); AB 77=ka (0.157),NN: AB 61=o (cos=0.209)
+AB 21F,?,?,0.0,?,NN: no embedding available
+AB 23,mu,mu,0.4072,AB 09=se (0.198); AB 24=ne (0.184); AB 05=to (0.149),NN: AB 09=se (cos=0.198); GC=28; LB=69; CM=HIGH; summary: LB=69; CM=HIGH; GC=28; Pos#16; Ng#18
+AB 29,pu,pu,0.3253,AB 28=i (0.126); AB 30=ni (0.122); AB 70=ko (0.109),NN: AB 28=i (cos=0.126); GC=50; LB=75; summary: LB=75; GC=50; Pos#37; Ng#10
+AB 36,jo,jo,0.3901,AB 35=ti (0.121); AB 06=na (0.117); AB 61=o (0.095),NN: AB 35=ti (cos=0.121); GC=35; LB=67; CM=HIGH; summary: LB=67; CM=HIGH; GC=35; Pos#14; Ng#5
+AB 37,?,ke,0.0757,AB 44=ke (0.189); AB 04=te (0.174); AB 57=ja (0.124),NN: AB 44=ke (cos=0.189)
+AB 38,e,e,0.4961,AB 22=pi (0.210); AB 67=ki (0.199); AB 63=ke (0.185),NN: AB 22=pi (cos=0.210); GC=52; LB=81; CM=HIGH; summary: LB=81; CM=HIGH; GC=52; Pos#26; Ng#38
+AB 39,?,pe,0.2407,AB 33=pa (0.152); AB 40=wi (0.130); AB 18=zo (0.118),NN: AB 33=pa (cos=0.152); GC=57; CM=LOW; summary: CM=LOW; GC=57
+AB 41,?,si,0.1221,AB 81=ku (0.212); AB 35=ti (0.199); AB 70=ko (0.089),NN: AB 81=ku (cos=0.212); CM=LOW; summary: CM=LOW
+AB 42,?,re,0.0737,AB 27=re (0.184); AB 76=pi (0.165); AB 03=pa (0.162),NN: AB 27=re (cos=0.184)
+AB 45,ri,de,0.3035,AB 26=ru (0.259); AB 30=ni (0.214); AB 32=i (0.151),NN: AB 26=ru (cos=0.259); GC=65; CM=LOW; summary: CM=LOW; GC=65
+AB 46,?,je,0.2109,AB 18=zo (0.171); AB 55=nu (0.165); AB 05=to (0.154),NN: AB 18=zo (cos=0.171); GC=42; CM=LOW; summary: CM=LOW; GC=42
+AB 47,nu,ja,0.2217,AB 13=me (0.173); AB 43=pa (0.112); AB 08=a (0.101),NN: AB 13=me (cos=0.173); GC=46; CM=LOW; summary: CM=LOW; GC=46
+AB 48,?,wa,0.3229,AB 40=wi (0.238); AB 33=pa (0.170); AB 24=ne (0.131),NN: AB 40=wi (cos=0.238); GC=43; CM=HIGH; summary: CM=HIGH; GC=43
+AB 49,?,we,0.2994,AB 70=ko (0.205); AB 31=sa (0.205); AB 11=si (0.155),NN: AB 70=ko (cos=0.205); GC=39; CM=HIGH; summary: CM=HIGH; GC=39
+AB 50,pu,pu,0.3216,AB 17=za (0.148); AB 12=so (0.110); AB 26=ru (0.104),NN: AB 17=za (cos=0.148); GC=57; CM=HIGH; summary: CM=HIGH; GC=57
+AB 51,du,du,0.2566,AB 30=ni (0.135); AB 24=ne (0.135); AB 03=pa (0.120),NN: AB 30=ni (cos=0.135); GC=51; CM=MEDIUM; summary: CM=MEDIUM; GC=51
+AB 52,?,no,0.2915,AB 77=ka (0.185); AB 28=i (0.135); AB 31=sa (0.114),NN: AB 77=ka (cos=0.185); GC=39; CM=HIGH; summary: CM=HIGH; GC=39
+AB 56,?,pa,0.2148,AB 10=u (0.162); AB 44=ke (0.122); AB 13=me (0.117),NN: AB 10=u (cos=0.162); GC=45; CM=LOW; summary: CM=LOW; GC=45
+AB 58,?,su,0.3193,AB 81=ku (0.255); AB 12=so (0.197); AB 10=u (0.170),NN: AB 81=ku (cos=0.255); GC=57; CM=MEDIUM; summary: CM=MEDIUM; GC=57
+AB 59,?,ta,0.0979,AB 12=so (0.151); AB 76=pi (0.137); AB 15=mo (0.133),NN: AB 12=so (cos=0.151); CM=LOW; summary: CM=LOW
+AB 60,ra,ra,0.3156,AB 69=tu (0.126); AB 57=ja (0.099); AB 54=wa (0.097),NN: AB 69=tu (cos=0.126); LB=72; CM=HIGH; summary: LB=72; CM=HIGH; Pos#2; Ng#16
+AB 62,?,ta,0.1386,AB 08=a (0.103); AB 09=se (0.103); AB 77=ka (0.093),NN: AB 08=a (cos=0.103); GC=39; summary: GC=39
+AB 64,?,o,0.276,AB 08=a (0.240); AB 28=i (0.166); AB 13=me (0.133),NN: AB 08=a (cos=0.240); GC=57; CM=LOW; summary: CM=LOW; GC=57
+AB 65,ju,jo,0.2831,AB 06=na (0.177); AB 24=ne (0.166); AB 05=to (0.150),NN: AB 06=na (cos=0.177); GC=70; CM=LOW; summary: CM=LOW; GC=70
+AB 66,?,ta,0.1687,AB 15=mo (0.116); AB 70=ko (0.090); AB 112=pa (0.087),NN: AB 15=mo (cos=0.116); GC=34; CM=LOW; summary: CM=LOW; GC=34
+AB 68,ro₂,ro,0.2545,AB 17=za (0.186); AB 53=ri (0.150); AB 26=ru (0.139),NN: AB 17=za (cos=0.186); GC=57; CM=LOW; summary: CM=LOW; GC=57
+AB 71,?,ke,0.1184,AB 22=pi (0.202); AB 17=za (0.173); AB 83=la (0.145),NN: AB 22=pi (cos=0.202); CM=LOW; summary: CM=LOW
+AB 72,?,pe,0.2709,AB 10=u (0.134); AB 13=me (0.130); AB 40=wi (0.107),NN: AB 10=u (cos=0.134); GC=57; CM=MEDIUM; summary: CM=MEDIUM; GC=57
+AB 73,?,mi,0.0979,AB 08=a (0.151); AB 04=te (0.134); AB 12=so (0.123),NN: AB 08=a (cos=0.151); CM=LOW; summary: CM=LOW
+AB 75,?,tu,0.0674,AB 69=tu (0.169); AB 09=se (0.167); AB 24=ne (0.125),NN: AB 69=tu (cos=0.169)
+AB 78,qe,qe,0.2239,AB 13=me (0.148); AB 10=u (0.133); AB 04=te (0.128),NN: AB 13=me (cos=0.148); LB=64; CM=LOW; summary: LB=64; CM=LOW; Ng#26
+AB 79,?,ze,0.0978,AB 26=ru (0.151); AB 76=pi (0.144); AB 55=nu (0.132),NN: AB 26=ru (cos=0.151); CM=LOW; summary: CM=LOW
+AB 80,ma,ma,0.2519,AB 76=pi (0.156); AB 21=mi (0.152); AB 35=ti (0.114),NN: AB 76=pi (cos=0.156); LB=76; CM=LOW; summary: LB=76; CM=LOW; Pos#3; Ng#27
+AB 82,?,o,0.143,AB 11=si (0.264); AB 28=i (0.153); AB 77=ka (0.148),NN: AB 11=si (cos=0.264); CM=LOW; summary: CM=LOW
+AB 84,?,sa,0.0787,AB 31=sa (0.197); AB 40=wi (0.170); AB 04=te (0.160),NN: AB 31=sa (cos=0.197)
+AB 85,?,au,0.1286,AB 06=na (0.228); AB 83=la (0.187); AB 34=ti (0.145),NN: AB 06=na (cos=0.228); CM=LOW; summary: CM=LOW
+AB 86,?,lo,0.1074,AB 55=nu (0.175); AB 17=za (0.167); AB 44=ke (0.147),NN: AB 55=nu (cos=0.175); CM=LOW; summary: CM=LOW
+AB 87,?,lo,0.1181,AB 40=wi (0.201); AB 21=mi (0.138); AB 30=ni (0.123),NN: AB 40=wi (cos=0.201); CM=LOW; summary: CM=LOW
+AB 88,?,pi,0.1598,AB 76=pi (0.306); AB 54=wa (0.230); AB 22=pi (0.149),NN: AB 76=pi (cos=0.306); CM=LOW; summary: CM=LOW
+AB 89,?,mi,0.1052,AB 44=ke (0.169); AB 24=ne (0.120); AB 10=u (0.079),NN: AB 44=ke (cos=0.169); CM=LOW; summary: CM=LOW
+AB 90,?,lo,0.1112,AB 81=ku (0.184); AB 09=se (0.156); AB 70=ko (0.134),NN: AB 81=ku (cos=0.184); CM=LOW; summary: CM=LOW
+AB 91,?,lo,0.1307,AB 44=ke (0.233); AB 12=so (0.175); AB 83=la (0.124),NN: AB 44=ke (cos=0.233); CM=LOW; summary: CM=LOW
+AB 92,?,je,0.0762,AB 83=la (0.097); AB 21=mi (0.091); AB 10=u (0.089),NN: AB 83=la (cos=0.097); CM=LOW; summary: CM=LOW
+AB 93,?,pi,0.1205,AB 09=se (0.207); AB 04=te (0.160); AB 24=ne (0.128),NN: AB 09=se (cos=0.207); CM=LOW; summary: CM=LOW
+AB 94,?,re,0.1053,AB 57=ja (0.169); AB 05=to (0.109); AB 43=pa (0.100),NN: AB 57=ja (cos=0.169); CM=LOW; summary: CM=LOW
+AB 95,?,te,0.1278,AB 22=pi (0.226); AB 06=na (0.150); AB 21=mi (0.113),NN: AB 22=pi (cos=0.226); CM=LOW; summary: CM=LOW
+AB 96,?,se,0.1703,AB 09=se (0.332); AB 30=ni (0.207); AB 43=pa (0.193),NN: AB 09=se (cos=0.332); CM=LOW; summary: CM=LOW
+AB 97,?,o,0.0625,?,NN: no embedding available; CM=LOW; summary: CM=LOW
+AB 98,?,ke,0.2639,AB 12=so (0.210); AB 28=i (0.182); AB 43=pa (0.146),NN: AB 12=so (cos=0.210); GC=57; CM=LOW; summary: CM=LOW; GC=57
+AB 99,?,ma,0.0625,?,NN: no embedding available; CM=LOW; summary: CM=LOW
+AB 100,?,to,0.0625,?,NN: no embedding available; CM=LOW; summary: CM=LOW
+AB 101,?,?,0.0,?,NN: no embedding available
+AB 102,?,pa,0.0737,AB 33=pa (0.184); AB 77=ka (0.170); AB 18=zo (0.159),NN: AB 33=pa (cos=0.184)
+AB 103,?,ri,0.0901,AB 53=ri (0.225); AB 55=nu (0.200); AB 57=ja (0.129),NN: AB 53=ri (cos=0.225)
+AB 104,?,ti,0.0614,AB 34=ti (0.153); AB 54=wa (0.136); AB 76=pi (0.118),NN: AB 34=ti (cos=0.153)
+AB 105,?,ku,0.0938,AB 81=ku (0.235); AB 04=te (0.200); AB 13=me (0.180),NN: AB 81=ku (cos=0.235)
+AB 106,?,wi,0.0745,AB 40=wi (0.186); AB 61=o (0.106); AB 76=pi (0.098),NN: AB 40=wi (cos=0.186)
+AB 107,?,pa,0.0643,AB 112=pa (0.161); AB 18=zo (0.156); AB 67=ki (0.141),NN: AB 112=pa (cos=0.161)
+AB 108,?,ku,0.101,AB 81=ku (0.253); AB 05=to (0.224); AB 03=pa (0.193),NN: AB 81=ku (cos=0.253)
+AB 109,?,me,0.0521,AB 13=me (0.130); AB 61=o (0.119); AB 27=re (0.113),NN: AB 13=me (cos=0.130)
+AB 110,?,za,0.0814,AB 17=za (0.203); AB 26=ru (0.150); AB 04=te (0.142),NN: AB 17=za (cos=0.203)
+AB 111,?,ki,0.0771,AB 67=ki (0.193); AB 77=ka (0.179); AB 31=sa (0.155),NN: AB 67=ki (cos=0.193)
+AB 113,?,i,0.08,AB 32=i (0.200); AB 22=pi (0.153); AB 53=ri (0.140),NN: AB 32=i (cos=0.200)
+AB 114,?,ke,0.071,AB 44=ke (0.177); AB 12=so (0.177); AB 06=na (0.171),NN: AB 44=ke (cos=0.177)
+AB 115,?,a,0.0859,AB 08=a (0.215); AB 09=se (0.157); AB 26=ru (0.133),NN: AB 08=a (cos=0.215)
+AB 116,?,i,0.0893,AB 32=i (0.223); AB 35=ti (0.165); AB 112=pa (0.140),NN: AB 32=i (cos=0.223)
+AB 117,?,so,0.0794,AB 12=so (0.199); AB 22=pi (0.147); AB 26=ru (0.126),NN: AB 12=so (cos=0.199)
+AB 118,?,?,0.0,?,NN: no embedding available
+AB 119,?,wa,0.0486,AB 54=wa (0.122); AB 31=sa (0.101); AB 32=i (0.094),NN: AB 54=wa (cos=0.122)
+AB 120,?,o,0.0582,AB 61=o (0.145); AB 30=ni (0.143); AB 77=ka (0.142),NN: AB 61=o (cos=0.145)
+AB 121,?,ru,0.0973,AB 26=ru (0.243); AB 22=pi (0.228); AB 32=i (0.174),NN: AB 26=ru (cos=0.243)
+AB 122,?,pa,0.0638,AB 33=pa (0.159); AB 57=ja (0.126); AB 22=pi (0.114),NN: AB 33=pa (cos=0.159)
+AB 123,?,to,0.0802,AB 05=to (0.201); AB 81=ku (0.143); AB 83=la (0.133),NN: AB 05=to (cos=0.201)
+AB 124,?,ku,0.0934,AB 81=ku (0.234); AB 32=i (0.190); AB 54=wa (0.187),NN: AB 81=ku (cos=0.234)
+AB 125,?,?,0.0,?,NN: no embedding available
+AB 126,?,wa,0.1037,AB 54=wa (0.259); AB 76=pi (0.120); AB 11=si (0.107),NN: AB 54=wa (cos=0.259)
+AB 127,?,ku,0.1105,AB 81=ku (0.276); AB 40=wi (0.170); AB 112=pa (0.128),NN: AB 81=ku (cos=0.276)
+AB 128,?,?,0.0,?,NN: no embedding available
+AB 129,?,?,0.0,?,NN: no embedding available
+AB 130,?,re,0.0837,AB 27=re (0.209); AB 63=ke (0.184); AB 67=ki (0.183),NN: AB 27=re (cos=0.209)
+AB 131,?,o,0.0779,AB 61=o (0.195); AB 03=pa (0.166); AB 06=na (0.099),NN: AB 61=o (cos=0.195)
+AB 132,?,sa,0.0798,AB 31=sa (0.200); AB 63=ke (0.181); AB 35=ti (0.168),NN: AB 31=sa (cos=0.200)
+AB 133,?,i,0.073,AB 32=i (0.183); AB 18=zo (0.178); AB 44=ke (0.152),NN: AB 32=i (cos=0.183)
+AB 134,?,to,0.0739,AB 05=to (0.185); AB 32=i (0.178); AB 54=wa (0.172),NN: AB 05=to (cos=0.185)
+AB 135,?,ti,0.0603,AB 35=ti (0.151); AB 26=ru (0.151); AB 61=o (0.109),NN: AB 35=ti (cos=0.151)
+AB 136,?,ka,0.1257,AB 77=ka (0.314); AB 70=ko (0.192); AB 67=ki (0.141),NN: AB 77=ka (cos=0.314)
+AB 137,?,pa,0.068,AB 43=pa (0.170); AB 63=ke (0.123); AB 09=se (0.116),NN: AB 43=pa (cos=0.170)

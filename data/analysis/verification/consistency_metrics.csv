@@ -1,0 +1,9 @@
+metric_name,before_ml,after_ml,delta,improved,notes
+cv_adherence_rate,0.753136,0.997014,0.243878,1,"Resolved=1063, Created=15, UNCERTAIN instances=2928"
+cv_anomalies_resolved,1240,15,1048,1,"Before=1240, After=15, Net=1048"
+word_boundary_agreement,0.926769,0.934128,0.007358,1,"Before=2645/2854, After=2666/2854"
+bigram_entropy,10.283890,9.668232,-0.615658,1,Lower entropy = more structured language
+trigram_entropy,11.408064,11.317852,-0.090213,1,Lower entropy = more structured language
+cooccurrence_phonetic_nearness,0.417755,0.763332,0.345578,1,All pairs=3254
+cooccurrence_uncertain_nearness,0.365741,0.763599,0.397858,1,UNCERTAIN-involving pairs=2657
+positional_entropy,1.044173,1.103063,0.058890,1,Higher entropy = more even positional distribution (more natural for syllabograms)

@@ -1,0 +1,10 @@
+metric,value
+classifier_final_loss,1.1503447910780629
+embedding_intra_sim,0.0034009366403673007
+embedding_inter_sim,-0.0028135066774363318
+embedding_ratio,1.0
+embedding_nn_acc,0.261904776096344
+lm_final_loss,0.9380415118342699
+lm_perplexity,3.017086995692254
+num_phonetic_classes,4
+output_dir,data/analysis/ml

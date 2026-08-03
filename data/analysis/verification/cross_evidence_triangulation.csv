@@ -1,0 +1,95 @@
+bennett_id,conventional_value,ml_predicted,ml_confidence,cm_agrees,lb_agrees,positional_consistency_improved,ngram_consistency,convergence_score,conflict_flag,notes
+AB 01,da,da,0.525,False,True,,False,1,cm_conflict; ngram_disruption,"CM=disagrees (HIGH, weight=1.00); LB=agrees; Ngram=0.447 (disrupted); Grid: HIGH CM=/ta/ vs LB=/da/ — genuine conflict"
+AB 02,ro,ro,0.3403,,True,False,False,1,positional_anomaly_unresolved; ngram_disruption,LB=agrees; Pos=unchanged; Ngram=0.375 (disrupted); Grid: Conflict: LB=/ro/; GC=/i/
+AB 07,di,di,0.4855,False,True,,False,1,cm_conflict; ngram_disruption,"CM=disagrees (HIGH, weight=1.00); LB=agrees; Ngram=0.432 (disrupted); Grid: HIGH CM=/ti/ vs LB=/di/ — genuine conflict"
+AB 14,do,do,0.4233,False,True,,True,2,cm_conflict,"CM=disagrees (MEDIUM, weight=0.50); LB=agrees; Ngram=0.236 (consistent); Grid: Conflict: LB=/do/; CM=/to/; GC=/i/"
+AB 16,qa,qa,0.2839,False,True,False,False,1,cm_conflict; positional_anomaly_unresolved; ngram_disruption,"CM=disagrees (MEDIUM, weight=0.50); LB=agrees; Pos=unchanged; Ngram=0.408 (disrupted); Grid: Conflict: LB=/qa/; CM=/ka/"
+AB 19,?,i,0.0808,,,,,0,no_evidence,Grid: No evidence available
+AB 20,zo?,zo?,0.0835,,True,,,1,no_conflict,LB=agrees; Grid: Insufficient comparative evidence; retaining conventional value
+AB 21F,?,?,0.0,,,,,0,no_evidence,Grid: No evidence available
+AB 23,mu,mu,0.4072,False,True,,False,1,cm_conflict; ngram_disruption,"CM=disagrees (HIGH, weight=1.00); LB=agrees; Ngram=0.372 (disrupted); Grid: HIGH CM=/ma/ vs LB=/mu/ — genuine conflict"
+AB 29,pu,pu,0.3253,,True,,False,1,ngram_disruption,LB=agrees; Ngram=0.411 (disrupted); Grid: Conflict: LB=/pu/; GC=/i/
+AB 36,jo,jo,0.3901,False,True,,False,1,cm_conflict; ngram_disruption,"CM=disagrees (HIGH, weight=1.00); LB=agrees; Ngram=0.439 (disrupted); Grid: HIGH CM=/za/ vs LB=/jo/ — genuine conflict"
+AB 37,?,ke,0.0757,,,,,0,no_evidence,Grid: No evidence available
+AB 38,e,e,0.4961,False,True,,True,2,cm_conflict,"CM=disagrees (HIGH, weight=1.00); LB=agrees; Ngram=0.166 (consistent); Grid: HIGH CM=/pa/ vs LB=/e/ — genuine conflict"
+AB 39,?,pe,0.2407,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Conflict: CM=/pe/; GC=/i/"
+AB 41,?,si,0.1221,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 42,?,re,0.0737,,,,,0,no_evidence,Grid: No evidence available
+AB 45,ri,de,0.3035,True,False,,,1,lb_conflict,"CM=agrees (LOW, weight=0.25); LB=disagrees; Grid: Conflict: CM=/de/; GC=/ri/"
+AB 46,?,je,0.2109,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Conflict: CM=/je/; GC=/to/"
+AB 47,nu,ja,0.2217,True,False,,,1,lb_conflict,"CM=agrees (LOW, weight=0.25); LB=disagrees; Grid: Conflict: CM=/ja/; GC=/pa/"
+AB 48,?,wa,0.3229,True,,,,1,no_conflict,"CM=agrees (HIGH, weight=1.00); Grid: Conflict: CM=/wa/; GC=/pa/"
+AB 49,?,we,0.2994,True,,,,1,no_conflict,"CM=agrees (HIGH, weight=1.00); Grid: Conflict: CM=/we/; GC=/i/"
+AB 50,pu,pu,0.3216,True,True,,,2,no_conflict,"CM=agrees (HIGH, weight=1.00); LB=agrees; Grid: Conflict: CM=/pu/; GC=/su/"
+AB 51,du,du,0.2566,True,True,,,2,no_conflict,"CM=agrees (MEDIUM, weight=0.50); LB=agrees; Grid: Conflict: CM=/du/; GC=/i/"
+AB 52,?,no,0.2915,True,,,,1,no_conflict,"CM=agrees (HIGH, weight=1.00); Grid: Conflict: CM=/no/; GC=/i/"
+AB 56,?,pa,0.2148,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Conflict: CM=/pa/; GC=/ki/"
+AB 58,?,su,0.3193,True,,,,1,no_conflict,"CM=agrees (MEDIUM, weight=0.50); Grid: Conflict: CM=/su/; GC=/pa/"
+AB 59,?,ta,0.0979,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 60,ra,ra,0.3156,False,True,False,False,1,cm_conflict; positional_anomaly_unresolved; ngram_disruption,"CM=disagrees (HIGH, weight=1.00); LB=agrees; Pos=unchanged; Ngram=0.400 (disrupted); Grid: HIGH CM=/ma/ vs LB=/ra/ — genuine conflict"
+AB 62,?,ta,0.1386,,,,,0,no_evidence,Grid: Low confidence (39/100) — insufficient for assignment
+AB 64,?,o,0.276,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Conflict: CM=/o/; GC=/i/"
+AB 65,ju,jo,0.2831,True,False,,,1,lb_conflict,"CM=agrees (LOW, weight=0.25); LB=disagrees; Grid: Conflict: CM=/jo/; GC=/i/"
+AB 66,?,ta,0.1687,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Conflict: CM=/ta/; GC=/i/"
+AB 68,ro₂,ro,0.2545,True,False,,,1,lb_conflict,"CM=agrees (LOW, weight=0.25); LB=disagrees; Grid: Conflict: CM=/ro/; GC=/pa/"
+AB 71,?,ke,0.1184,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 72,?,pe,0.2709,True,,,,1,no_conflict,"CM=agrees (MEDIUM, weight=0.50); Grid: Conflict: CM=/pe/; GC=/pa/"
+AB 73,?,mi,0.0979,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 75,?,tu,0.0674,,,,,0,no_evidence,Grid: No evidence available
+AB 78,qe,qe,0.2239,False,True,,False,1,cm_conflict; ngram_disruption,"CM=disagrees (LOW, weight=0.25); LB=agrees; Ngram=0.302 (disrupted); Grid: Conflict: LB=/qe/; CM=/ka/"
+AB 79,?,ze,0.0978,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 80,ma,ma,0.2519,False,True,False,True,2,cm_conflict; positional_anomaly_unresolved,"CM=disagrees (LOW, weight=0.25); LB=agrees; Pos=unchanged; Ngram=0.296 (consistent); Grid: Conflict: LB=/ma/; CM=/pa/"
+AB 82,?,o,0.143,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 84,?,sa,0.0787,,,,,0,no_evidence,Grid: No evidence available
+AB 85,?,au,0.1286,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 86,?,lo,0.1074,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 87,?,lo,0.1181,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 88,?,pi,0.1598,False,,,,0,cm_conflict,"CM=disagrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 89,?,mi,0.1052,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 90,?,lo,0.1112,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 91,?,lo,0.1307,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 92,?,je,0.0762,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 93,?,pi,0.1205,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 94,?,re,0.1053,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 95,?,te,0.1278,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 96,?,se,0.1703,False,,,,0,cm_conflict,"CM=disagrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 97,?,o,0.0625,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 98,?,ke,0.2639,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Conflict: CM=/ke/; GC=/tu/"
+AB 99,?,ma,0.0625,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 100,?,to,0.0625,True,,,,1,no_conflict,"CM=agrees (LOW, weight=0.25); Grid: Low confidence (25/100) — insufficient for assignment"
+AB 101,?,?,0.0,,,,,0,no_evidence,Grid: No evidence available
+AB 102,?,pa,0.0737,,,,,0,no_evidence,Grid: No evidence available
+AB 103,?,ri,0.0901,,,,,0,no_evidence,Grid: No evidence available
+AB 104,?,ti,0.0614,,,,,0,no_evidence,Grid: No evidence available
+AB 105,?,ku,0.0938,,,,,0,no_evidence,Grid: No evidence available
+AB 106,?,wi,0.0745,,,,,0,no_evidence,Grid: No evidence available
+AB 107,?,pa,0.0643,,,,,0,no_evidence,Grid: No evidence available
+AB 108,?,ku,0.101,,,,,0,no_evidence,Grid: No evidence available
+AB 109,?,me,0.0521,,,,,0,no_evidence,Grid: No evidence available
+AB 110,?,za,0.0814,,,,,0,no_evidence,Grid: No evidence available
+AB 111,?,ki,0.0771,,,,,0,no_evidence,Grid: No evidence available
+AB 113,?,i,0.08,,,,,0,no_evidence,Grid: No evidence available
+AB 114,?,ke,0.071,,,,,0,no_evidence,Grid: No evidence available
+AB 115,?,a,0.0859,,,,,0,no_evidence,Grid: No evidence available
+AB 116,?,i,0.0893,,,,,0,no_evidence,Grid: No evidence available
+AB 117,?,so,0.0794,,,,,0,no_evidence,Grid: No evidence available
+AB 118,?,?,0.0,,,,,0,no_evidence,Grid: No evidence available
+AB 119,?,wa,0.0486,,,,,0,no_evidence,Grid: No evidence available
+AB 120,?,o,0.0582,,,,,0,no_evidence,Grid: No evidence available
+AB 121,?,ru,0.0973,,,,,0,no_evidence,Grid: No evidence available
+AB 122,?,pa,0.0638,,,,,0,no_evidence,Grid: No evidence available
+AB 123,?,to,0.0802,,,,,0,no_evidence,Grid: No evidence available
+AB 124,?,ku,0.0934,,,,,0,no_evidence,Grid: No evidence available
+AB 125,?,?,0.0,,,,,0,no_evidence,Grid: No evidence available
+AB 126,?,wa,0.1037,,,,,0,no_evidence,Grid: No evidence available
+AB 127,?,ku,0.1105,,,,,0,no_evidence,Grid: No evidence available
+AB 128,?,?,0.0,,,,,0,no_evidence,Grid: No evidence available
+AB 129,?,?,0.0,,,,,0,no_evidence,Grid: No evidence available
+AB 130,?,re,0.0837,,,,,0,no_evidence,Grid: No evidence available
+AB 131,?,o,0.0779,,,,,0,no_evidence,Grid: No evidence available
+AB 132,?,sa,0.0798,,,,,0,no_evidence,Grid: No evidence available
+AB 133,?,i,0.073,,,,,0,no_evidence,Grid: No evidence available
+AB 134,?,to,0.0739,,,,,0,no_evidence,Grid: No evidence available
+AB 135,?,ti,0.0603,,,,,0,no_evidence,Grid: No evidence available
+AB 136,?,ka,0.1257,,,,,0,no_evidence,Grid: No evidence available
+AB 137,?,pa,0.068,,,,,0,no_evidence,Grid: No evidence available
