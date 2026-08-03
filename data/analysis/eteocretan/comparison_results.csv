@@ -1,0 +1,216 @@
+et_word,la_form,match_type,edit_distance,confidence,evidence
+eto,ETO,toponym,0,HIGH,Toponym match: PHAISTOS (pa-i-to). LA fragment: ETO. Edit distance 0.
+alo,aro,known_la_word,1,MEDIUM,Known LA word: aro = 'total (accounting term)'. Edit distance 1.
+at,ATU,loanword,1,MEDIUM,Loanword match: LA ATU matched to Gk κύαθος 'ladle/cup'. Edit distance 1.
+atho,aro,known_la_word,1,MEDIUM,Known LA word: aro = 'total (accounting term)'. Edit distance 1.
+atho,pato,known_la_word,1,MEDIUM,Known LA word: pato = 'perhaps related to PHAISTOS? or a unit'. Edit distance 1.
+atho,ATU,loanword,1,MEDIUM,Loanword match: LA ATU matched to Gk κύαθος 'ladle/cup'. Edit distance 1.
+atho,ITO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: ITO. Edit distance 1.
+atho,ZATO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: ZATO. Edit distance 1.
+atho,WATO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: WATO. Edit distance 1.
+atho,SATO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: SATO. Edit distance 1.
+atho,JATO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: JATO. Edit distance 1.
+atho,ETO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: ETO. Edit distance 1.
+atho,DATO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: DATO. Edit distance 1.
+da,IDA,toponym,1,MEDIUM,Toponym match: IDA (i-da). LA fragment: IDA. Edit distance 1.
+eo,ETO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: ETO. Edit distance 1.
+et,ETO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: ETO. Edit distance 1.
+eto,ITO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: ITO. Edit distance 1.
+eto,RETO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: RETO. Edit distance 1.
+eto,KETO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: KETO. Edit distance 1.
+ital,ITA,toponym,1,MEDIUM,Toponym match: IDA (i-da). LA fragment: ITA. Edit distance 1.
+kap,KAI,loanword,1,MEDIUM,Loanword match: LA KAI matched to Gk Λύκαιον 'Lycaeum'. Edit distance 1.
+oda,IDA,toponym,1,MEDIUM,Toponym match: IDA (i-da). LA fragment: IDA. Edit distance 1.
+phar,PAI,loanword,1,MEDIUM,Loanword match: LA PAI matched to Gk Παισός 'Paisus'. Edit distance 1.
+phar,PARE,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: PARE. Edit distance 1.
+phar,PARO,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: PARO. Edit distance 1.
+phar,PARU,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: PARU. Edit distance 1.
+phar,PARI,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: PARI. Edit distance 1.
+phar,PARA,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: PARA. Edit distance 1.
+phar,PAA,toponym,1,MEDIUM,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAA. Edit distance 1.
+rko,RAKO,loanword,1,MEDIUM,Loanword match: LA RAKO matched to Gk Λακωνία 'Laconia'. Edit distance 1.
+set,SEA,loanword,1,MEDIUM,Loanword match: LA SEA matched to Gk Σηπιάς 'Sepias'. Edit distance 1.
+set,SEU,loanword,1,MEDIUM,Loanword match: LA SEU matched to Gk Περσεύς 'Perseus'. Edit distance 1.
+alo,pato,known_la_word,2,LOW,Known LA word: pato = 'perhaps related to PHAISTOS? or a unit'. Edit distance 2.
+alo,RAKO,loanword,2,LOW,Loanword match: LA RAKO matched to Gk Λακωνία 'Laconia'. Edit distance 2.
+alo,PARO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PARO. Edit distance 2.
+alo,ZATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: ZATO. Edit distance 2.
+alo,WATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: WATO. Edit distance 2.
+alo,SATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: SATO. Edit distance 2.
+alo,JATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: JATO. Edit distance 2.
+alo,DATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: DATO. Edit distance 2.
+at,pato,known_la_word,2,LOW,Known LA word: pato = 'perhaps related to PHAISTOS? or a unit'. Edit distance 2.
+at,rate,known_la_word,2,LOW,Known LA word: rate = 'perhaps a measure'. Edit distance 2.
+at,PATU,loanword,2,LOW,Loanword match: LA PATU matched to Gk βάθρον 'base/pedestal'. Edit distance 2.
+at,RATU,loanword,2,LOW,Loanword match: LA RATU matched to Gk κάλαθος 'basket'. Edit distance 2.
+at,PATE,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATE. Edit distance 2.
+at,PATA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATA. Edit distance 2.
+at,ZATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: ZATO. Edit distance 2.
+at,WATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: WATO. Edit distance 2.
+at,SATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: SATO. Edit distance 2.
+at,JATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: JATO. Edit distance 2.
+at,PATU,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATU. Edit distance 2.
+at,PATI,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATI. Edit distance 2.
+at,DATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: DATO. Edit distance 2.
+atho,aroto,known_la_word,2,LOW,Known LA word: aroto = 'perhaps a commodity'. Edit distance 2.
+atho,rate,known_la_word,2,LOW,Known LA word: rate = 'perhaps a measure'. Edit distance 2.
+atho,RAKO,loanword,2,LOW,Loanword match: LA RAKO matched to Gk Λακωνία 'Laconia'. Edit distance 2.
+atho,PATU,loanword,2,LOW,Loanword match: LA PATU matched to Gk βάθρον 'base/pedestal'. Edit distance 2.
+atho,RATU,loanword,2,LOW,Loanword match: LA RATU matched to Gk κάλαθος 'basket'. Edit distance 2.
+atho,PATE,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATE. Edit distance 2.
+atho,PARO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PARO. Edit distance 2.
+atho,PATA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATA. Edit distance 2.
+atho,NAITO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: NAITO. Edit distance 2.
+atho,RUTO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: RUTO. Edit distance 2.
+atho,POTO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: POTO. Edit distance 2.
+atho,SITO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: SITO. Edit distance 2.
+atho,RETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: RETO. Edit distance 2.
+atho,KETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: KETO. Edit distance 2.
+atho,PATU,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATU. Edit distance 2.
+atho,PATI,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATI. Edit distance 2.
+barze,dare,known_la_word,2,LOW,Known LA word: dare = 'perhaps a commodity or measure'. Edit distance 2.
+barze,PARE,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PARE. Edit distance 2.
+da,dare,known_la_word,2,LOW,Known LA word: dare = 'perhaps a commodity or measure'. Edit distance 2.
+da,DANU,loanword,2,LOW,Loanword match: LA DANU matched to Gk δάφνη 'laurel'. Edit distance 2.
+da,DAKU,loanword,2,LOW,Loanword match: LA DAKU matched to Gk δαῦκον 'carrot'. Edit distance 2.
+da,PADA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PADA. Edit distance 2.
+da,DATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: DATO. Edit distance 2.
+da,DIDA,toponym,2,LOW,Toponym match: DIKTE (di-ka-ta). LA fragment: DIDA. Edit distance 2.
+da,DITA,toponym,2,LOW,Toponym match: DIKTE (di-ka-ta). LA fragment: DITA. Edit distance 2.
+da,KADA,toponym,2,LOW,Toponym match: DIKTE (di-ka-ta). LA fragment: KADA. Edit distance 2.
+eo,RETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: RETO. Edit distance 2.
+eo,KETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: KETO. Edit distance 2.
+ep,repa,known_la_word,2,LOW,Known LA word: repa = 'perhaps a commodity'. Edit distance 2.
+et,RETU,loanword,2,LOW,Loanword match: LA RETU matched to Gk Μίλητος 'Miletus'. Edit distance 2.
+et,NETU,loanword,2,LOW,Loanword match: LA NETU matched to Gk νήριτον 'sea-plant'. Edit distance 2.
+et,RETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: RETO. Edit distance 2.
+et,KETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: KETO. Edit distance 2.
+etap,ENAI,loanword,2,LOW,Loanword match: LA ENAI matched to Gk ἐλαία 'olive (tree)'. Edit distance 2.
+etap,ETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: ETO. Edit distance 2.
+etap,ITA,toponym,2,LOW,Toponym match: IDA (i-da). LA fragment: ITA. Edit distance 2.
+etes,ETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: ETO. Edit distance 2.
+etet,ETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: ETO. Edit distance 2.
+eto,pato,known_la_word,2,LOW,Known LA word: pato = 'perhaps related to PHAISTOS? or a unit'. Edit distance 2.
+eto,RETU,loanword,2,LOW,Loanword match: LA RETU matched to Gk Μίλητος 'Miletus'. Edit distance 2.
+eto,NETU,loanword,2,LOW,Loanword match: LA NETU matched to Gk νήριτον 'sea-plant'. Edit distance 2.
+eto,RUTO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: RUTO. Edit distance 2.
+eto,POTO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: POTO. Edit distance 2.
+eto,SITO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: SITO. Edit distance 2.
+eto,ZATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: ZATO. Edit distance 2.
+eto,WATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: WATO. Edit distance 2.
+eto,SATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: SATO. Edit distance 2.
+eto,JATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: JATO. Edit distance 2.
+eto,DATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: DATO. Edit distance 2.
+isal,ima,known_la_word,2,LOW,Known LA word: ima = 'perhaps grain? or measure'. Edit distance 2.
+isal,IKA,loanword,2,LOW,Loanword match: LA IKA matched to Gk Ἰκάριος 'Icarius'. Edit distance 2.
+isal,ISARI,loanword,2,LOW,Loanword match: LA ISARI matched to Gk Ἰκάριος 'Icarius'. Edit distance 2.
+isal,ITA,toponym,2,LOW,Toponym match: IDA (i-da). LA fragment: ITA. Edit distance 2.
+isal,IDA,toponym,2,LOW,Toponym match: IDA (i-da). LA fragment: IDA. Edit distance 2.
+ital,ima,known_la_word,2,LOW,Known LA word: ima = 'perhaps grain? or measure'. Edit distance 2.
+ital,itani,known_la_word,2,LOW,Known LA word: itani = 'perhaps a theonym or toponym element'. Edit distance 2.
+ital,IKA,loanword,2,LOW,Loanword match: LA IKA matched to Gk Ἰκάριος 'Icarius'. Edit distance 2.
+ital,TITA,loanword,2,LOW,Loanword match: LA TITA matched to Gk Τιτάν 'Titan'. Edit distance 2.
+ital,ITO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: ITO. Edit distance 2.
+ital,DITA,toponym,2,LOW,Toponym match: DIKTE (di-ka-ta). LA fragment: DITA. Edit distance 2.
+ital,IDA,toponym,2,LOW,Toponym match: IDA (i-da). LA fragment: IDA. Edit distance 2.
+kap,kane,known_la_word,2,LOW,Known LA word: kane = 'maybe: bronze? or a vessel?'. Edit distance 2.
+kap,KIPU,loanword,2,LOW,Loanword match: LA KIPU matched to Gk κισσύβιον 'ivy-wood cup'. Edit distance 2.
+kap,KARU,loanword,2,LOW,Loanword match: LA KARU matched to Gk κάπρος 'wild boar'. Edit distance 2.
+kap,KARA,loanword,2,LOW,Loanword match: LA KARA matched to Gk κάραβος 'beetle/crayfish'. Edit distance 2.
+kap,KANU,loanword,2,LOW,Loanword match: LA KANU matched to Gk Κάρνος 'Carnus (seer)'. Edit distance 2.
+kap,PAPA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAPA. Edit distance 2.
+kap,KADA,toponym,2,LOW,Toponym match: DIKTE (di-ka-ta). LA fragment: KADA. Edit distance 2.
+nos,NASU,loanword,2,LOW,Loanword match: LA NASU matched to Gk Νάξος 'Naxos'. Edit distance 2.
+oda,RODU,loanword,2,LOW,Loanword match: LA RODU matched to Gk ῥόδον 'rose'. Edit distance 2.
+oda,PADA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PADA. Edit distance 2.
+oda,TOJA,toponym,2,LOW,Toponym match: SETOIA (se-to-i-ja). LA fragment: TOJA. Edit distance 2.
+oda,DIDA,toponym,2,LOW,Toponym match: DIKTE (di-ka-ta). LA fragment: DIDA. Edit distance 2.
+oda,KADA,toponym,2,LOW,Toponym match: DIKTE (di-ka-ta). LA fragment: KADA. Edit distance 2.
+ois,RISU,loanword,2,LOW,Loanword match: LA RISU matched to Gk Τύλισος 'Tylissos'. Edit distance 2.
+ois,KISU,loanword,2,LOW,Loanword match: LA KISU matched to Gk κισσύβιον 'ivy-wood cup'. Edit distance 2.
+ois,RISU,toponym,2,LOW,Toponym match: TYLISSOS (tu-ri-so). LA fragment: RISU. Edit distance 2.
+ois,RISO,toponym,2,LOW,Toponym match: TYLISSOS (tu-ri-so). LA fragment: RISO. Edit distance 2.
+ois,TOJA,toponym,2,LOW,Toponym match: SETOIA (se-to-i-ja). LA fragment: TOJA. Edit distance 2.
+ono,POTO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: POTO. Edit distance 2.
+phar,mari,known_la_word,2,LOW,Known LA word: mari = 'wool? (commodity)'. Edit distance 2.
+phar,sara,known_la_word,2,LOW,Known LA word: sara = 'flax? (commodity)'. Edit distance 2.
+phar,pato,known_la_word,2,LOW,Known LA word: pato = 'perhaps related to PHAISTOS? or a unit'. Edit distance 2.
+phar,dare,known_la_word,2,LOW,Known LA word: dare = 'perhaps a commodity or measure'. Edit distance 2.
+phar,IARU,loanword,2,LOW,Loanword match: LA IARU matched to Gk Ἴαλυσος 'Ialysos'. Edit distance 2.
+phar,PASU,loanword,2,LOW,Loanword match: LA PASU matched to Gk Παισός 'Paisus'. Edit distance 2.
+phar,PAII,loanword,2,LOW,Loanword match: LA PAII matched to Gk Παισός 'Paisus'. Edit distance 2.
+phar,ZARU,loanword,2,LOW,Loanword match: LA ZARU matched to Gk Ζάκρος 'Zakros'. Edit distance 2.
+phar,NARA,loanword,2,LOW,Loanword match: LA NARA matched to Gk κυνάρα 'artichoke'. Edit distance 2.
+phar,RARU,loanword,2,LOW,Loanword match: LA RARU matched to Gk λαύρα 'lane/alley'. Edit distance 2.
+phar,PATU,loanword,2,LOW,Loanword match: LA PATU matched to Gk βάθρον 'base/pedestal'. Edit distance 2.
+phar,KARU,loanword,2,LOW,Loanword match: LA KARU matched to Gk κάπρος 'wild boar'. Edit distance 2.
+phar,KARA,loanword,2,LOW,Loanword match: LA KARA matched to Gk κάραβος 'beetle/crayfish'. Edit distance 2.
+phar,RARI,loanword,2,LOW,Loanword match: LA RARI matched to Gk Λαρίσα 'Larissa'. Edit distance 2.
+phar,SARA,loanword,2,LOW,Loanword match: LA SARA matched to Gk Σαλαμίς 'Salamis'. Edit distance 2.
+phar,PADA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PADA. Edit distance 2.
+phar,PATE,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATE. Edit distance 2.
+phar,PAJA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAJA. Edit distance 2.
+phar,PADE,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PADE. Edit distance 2.
+phar,PADI,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PADI. Edit distance 2.
+phar,PASE,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PASE. Edit distance 2.
+phar,PASA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PASA. Edit distance 2.
+phar,PAII,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAII. Edit distance 2.
+phar,PATA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATA. Edit distance 2.
+phar,PAKU,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAKU. Edit distance 2.
+phar,PAJE,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAJE. Edit distance 2.
+phar,PAPA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAPA. Edit distance 2.
+phar,PAZU,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAZU. Edit distance 2.
+phar,PASU,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PASU. Edit distance 2.
+phar,PAKI,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAKI. Edit distance 2.
+phar,PAQA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAQA. Edit distance 2.
+phar,PAMA,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAMA. Edit distance 2.
+phar,PAME,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAME. Edit distance 2.
+phar,PADU,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PADU. Edit distance 2.
+phar,PATU,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATU. Edit distance 2.
+phar,PATI,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATI. Edit distance 2.
+phar,PAQE,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAQE. Edit distance 2.
+phar,PAMI,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PAMI. Edit distance 2.
+phar,PANI,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PANI. Edit distance 2.
+phdeo,pato,known_la_word,2,LOW,Known LA word: pato = 'perhaps related to PHAISTOS? or a unit'. Edit distance 2.
+phdeo,PUDE,loanword,2,LOW,Loanword match: LA PUDE matched to Gk βδέλλα 'leech'. Edit distance 2.
+phdeo,DEI,loanword,2,LOW,Loanword match: LA DEI matched to Gk δελφίς 'dolphin'. Edit distance 2.
+phdeo,PADE,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PADE. Edit distance 2.
+phdeo,PARO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PARO. Edit distance 2.
+phdeo,POTO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: POTO. Edit distance 2.
+rko,RUKU,loanword,2,LOW,Loanword match: LA RUKU matched to Gk Ἄργος 'Argos'. Edit distance 2.
+rko,RAKU,loanword,2,LOW,Loanword match: LA RAKU matched to Gk ῥάκος 'rag/leaf'. Edit distance 2.
+rko,RUKA,loanword,2,LOW,Loanword match: LA RUKA matched to Gk Λύκαιον 'Lycaeum'. Edit distance 2.
+rko,RUTO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: RUTO. Edit distance 2.
+rko,RETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: RETO. Edit distance 2.
+rko,RISO,toponym,2,LOW,Toponym match: TYLISSOS (tu-ri-so). LA fragment: RISO. Edit distance 2.
+sardo,aro,known_la_word,2,LOW,Known LA word: aro = 'total (accounting term)'. Edit distance 2.
+sardo,sara,known_la_word,2,LOW,Known LA word: sara = 'flax? (commodity)'. Edit distance 2.
+sardo,SARODU,loanword,2,LOW,Loanword match: LA SARODU matched to Gk ῥόδον 'rose'. Edit distance 2.
+sardo,SARAA,loanword,2,LOW,Loanword match: LA SARAA matched to Gk Σαλαμίς 'Salamis'. Edit distance 2.
+sardo,SARA,loanword,2,LOW,Loanword match: LA SARA matched to Gk Σαλαμίς 'Salamis'. Edit distance 2.
+sardo,PARO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PARO. Edit distance 2.
+sardo,SATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: SATO. Edit distance 2.
+set,RETU,loanword,2,LOW,Loanword match: LA RETU matched to Gk Μίλητος 'Miletus'. Edit distance 2.
+set,NETU,loanword,2,LOW,Loanword match: LA NETU matched to Gk νήριτον 'sea-plant'. Edit distance 2.
+set,SERI,loanword,2,LOW,Loanword match: LA SERI matched to Gk σέλινον 'celery'. Edit distance 2.
+set,SENU,loanword,2,LOW,Loanword match: LA SENU matched to Gk σέλινον 'celery'. Edit distance 2.
+set,SITO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: SITO. Edit distance 2.
+set,RETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: RETO. Edit distance 2.
+set,SATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: SATO. Edit distance 2.
+set,KETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: KETO. Edit distance 2.
+set,SEJA,toponym,2,LOW,Toponym match: SETOIA (se-to-i-ja). LA fragment: SEJA. Edit distance 2.
+sete,rate,known_la_word,2,LOW,Known LA word: rate = 'perhaps a measure'. Edit distance 2.
+sete,ASITE,loanword,2,LOW,Loanword match: LA ASITE matched to Gk Ἀσίνη 'Asine'. Edit distance 2.
+sete,SEA,loanword,2,LOW,Loanword match: LA SEA matched to Gk Σηπιάς 'Sepias'. Edit distance 2.
+sete,RETU,loanword,2,LOW,Loanword match: LA RETU matched to Gk Μίλητος 'Miletus'. Edit distance 2.
+sete,NETU,loanword,2,LOW,Loanword match: LA NETU matched to Gk νήριτον 'sea-plant'. Edit distance 2.
+sete,SERI,loanword,2,LOW,Loanword match: LA SERI matched to Gk σέλινον 'celery'. Edit distance 2.
+sete,SENU,loanword,2,LOW,Loanword match: LA SENU matched to Gk σέλινον 'celery'. Edit distance 2.
+sete,SEU,loanword,2,LOW,Loanword match: LA SEU matched to Gk Περσεύς 'Perseus'. Edit distance 2.
+sete,PATE,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: PATE. Edit distance 2.
+sete,SITO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: SITO. Edit distance 2.
+sete,RETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: RETO. Edit distance 2.
+sete,SATO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: SATO. Edit distance 2.
+sete,KETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: KETO. Edit distance 2.
+sete,ETO,toponym,2,LOW,Toponym match: PHAISTOS (pa-i-to). LA fragment: ETO. Edit distance 2.
+sete,SEJA,toponym,2,LOW,Toponym match: SETOIA (se-to-i-ja). LA fragment: SEJA. Edit distance 2.

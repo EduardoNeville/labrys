@@ -1,0 +1,6 @@
+cluster_id,cluster_label,role,centroid_init,centroid_med,centroid_fin,member_count,top_members
+0,neutral,neutral-series,0.0691,0.6218,0.3091,5,"AB 88, AB 75, AB 98, AB 29, AB 79"
+1,medial-dominant,medial-series,0.1084,0.765,0.1265,23,"AB 73, AB 37, AB 68, AB 38, AB 59, AB 50, AB 56, AB 47, AB 01, AB 52"
+2,neutral,neutral-series,0.2308,0.5436,0.2255,10,"AB 71, AB 86, AB 90, AB 89, AB 91, AB 104, AB 87, AB 102, AB 46, AB 20"
+3,boundary-flexible,consonant-initial-series,0.4185,0.1434,0.4381,12,"AB 110, AB 62, AB 85, AB 19, AB 02, AB 80, AB 66, AB 60, AB 82, AB 39"
+4,medial-dominant,medial-series,0.0032,0.9703,0.0264,4,"AB 45, AB 93, AB 96, AB 58"

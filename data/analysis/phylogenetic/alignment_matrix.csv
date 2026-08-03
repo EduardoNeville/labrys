@@ -1,0 +1,139 @@
+bennett_id,la_char,lb_value,lb_visual_sim,cm_value,cm_confidence,cg_value,refined_value,decision,confidence_score,in_conflict,evidence_summary
+AB 01,𐘀,da,1.00,ta,HIGH,ta,da,UNCERTAIN,73.5,True,LB=83; CM=HIGH; GC=65; Pos#27; Ng#3
+AB 02,𐘁,ro,1.00,,,,ro,UNCERTAIN,42.8,False,LB=76; GC=45; Pos#6; Ng#17
+AB 03,𐘂,pa,1.00,pa,HIGH,pa,pa,CONFIRM,74.5,False,LB=80; CM=HIGH; GC=61; Pos#21; Ng#9
+AB 04,𐘃,te,1.00,te,HIGH,te,te,CONFIRM,57.6,False,LB=70; CM=HIGH; GC=28; Pos#32; Ng#4
+AB 05,𐘄,to,1.00,to,HIGH,to,to,CONFIRM,65.5,False,LB=74; CM=HIGH; GC=35; Pos#18; Ng#39
+AB 06,𐘅,na,1.00,na,HIGH,na,na,CONFIRM,65.6,False,LB=75; CM=HIGH; GC=43; Pos#13; Ng#7
+AB 07,𐘆,di,1.00,ti,HIGH,ti,di,UNCERTAIN,69.2,True,LB=76; CM=HIGH; GC=55; Pos#20; Ng#6
+AB 08,𐘇,a,1.00,a,HIGH,a,a,CONFIRM,65.1,False,LB=75; CM=HIGH; GC=32; Pos#19; Ng#20
+AB 09,𐘈,se,1.00,se,HIGH,se,se,CONFIRM,68.3,False,LB=76; CM=HIGH; GC=42; Pos#24; Ng#19
+AB 10,𐘉,u,1.00,u,HIGH,u,u,CONFIRM,67.3,False,LB=76; CM=HIGH; GC=38; Pos#35; Ng#31
+AB 11,𐘊,si,1.00,si,HIGH,si,si,CONFIRM,73.7,False,LB=78; CM=HIGH; GC=57; Pos#10; Ng#32
+AB 12,𐘋,so,1.00,so,HIGH,so,so,CONFIRM,65.3,False,LB=72; CM=HIGH; GC=36; Pos#22; Ng#35
+AB 13,𐘌,me,1.00,me,MEDIUM,me,me,CONFIRM,57.5,False,LB=74; CM=MEDIUM; GC=38; Pos#29; Ng#34
+AB 14,𐘍,do,1.00,to,MEDIUM,to,do,UNCERTAIN,61.9,False,LB=74; CM=MEDIUM; GC=52; Pos#17; Ng#30
+AB 15,𐘎,mo,1.00,mo,MEDIUM,mo,mo,CONFIRM,59.3,False,LB=62; CM=MEDIUM; Ng#24
+AB 16,𐘏,qa,1.00,ka,MEDIUM,ka,qa,UNCERTAIN,48.1,True,LB=68; CM=MEDIUM; Pos#1; Ng#11
+AB 17,𐘐,za,1.00,za,HIGH,za,za,CONFIRM,78.1,False,LB=73; CM=HIGH; Pos#31; Ng#43
+AB 18,𐘑,zo,1.00,zo,MEDIUM,zo,zo,CONFIRM,61.6,False,LB=66; CM=MEDIUM; Pos#34; Ng#23
+AB 19,𐘒,zo?,1.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 20,𐘓,zo?,1.00,,,,zo?,UNCERTAIN,0.0,False,no evidence
+AB 21,𐘔,mi,1.00,mi,MEDIUM,mi,mi,CONFIRM,60.4,False,LB=64; CM=MEDIUM; Ng#21
+AB 22,𐘖,pi,1.00,pi,HIGH,pi,pi,CONFIRM,54.7,False,LB=68; CM=HIGH; Pos#4; Ng#14
+AB 23,𐘘,mu,1.00,ma,HIGH,ma,mu,UNCERTAIN,61.5,True,LB=69; CM=HIGH; GC=28; Pos#16; Ng#18
+AB 24,𐘙,ne,1.00,ne,HIGH,ne,ne,CONFIRM,71.3,False,LB=78; CM=HIGH; GC=52; Pos#28; Ng#13
+AB 26,𐘚,ru,1.00,ru,HIGH,ru,ru,CONFIRM,72.2,False,LB=78; CM=HIGH; GC=58; Pos#38; Ng#8
+AB 27,𐘛,re,1.00,re,HIGH,re,re,CONFIRM,64.9,False,LB=65; CM=HIGH; Pos#9; Ng#2
+AB 28,𐘜,i,1.00,i,HIGH,i,i,CONFIRM,78.7,False,LB=74; CM=HIGH; Pos#39; Ng#29
+AB 29,𐘝,pu,1.00,,,,pu,UNCERTAIN,63.2,False,LB=75; GC=50; Pos#37; Ng#10
+AB 30,𐘞,ni,1.00,ni,HIGH,ni,ni,CONFIRM,62.7,False,LB=70; CM=HIGH; GC=30; Pos#11; Ng#25
+AB 31,𐘟,sa,1.00,sa,HIGH,sa,sa,CONFIRM,75.3,False,LB=68; CM=HIGH; Pos#8; Ng#33
+AB 32,𐘠,?,1.00,,,,i,CONFIRM,67.0,False,GC=67
+AB 33,𐘡,ra?,1.00,,,,pa,CONFIRM,57.0,False,GC=57
+AB 34,𐘢,pa2?,1.00,ti,MEDIUM,ti,ti,CONFIRM,55.0,False,CM=MEDIUM
+AB 35,𐘣,ti,1.00,ti,LOW,ti,ti,CONFIRM,54.7,False,LB=77; CM=LOW; Pos#30; Ng#40
+AB 36,𐘤,jo,1.00,za,HIGH,za,jo,UNCERTAIN,59.0,True,LB=67; CM=HIGH; GC=35; Pos#14; Ng#5
+AB 37,𐘥,?,1.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 38,𐘦,e,1.00,pa,HIGH,pa,e,UNCERTAIN,73.5,True,LB=81; CM=HIGH; GC=52; Pos#26; Ng#38
+AB 39,𐘧,pi?,1.00,pe,LOW,pe,pe,UNCERTAIN,41.0,False,CM=LOW; GC=57
+AB 40,𐘨,wi,1.00,wi,HIGH,wi,wi,CONFIRM,76.4,False,LB=70; CM=HIGH; Pos#36; Ng#37
+AB 41,𐘩,si?,1.00,si,LOW,si,si,UNCERTAIN,25.0,False,CM=LOW
+AB 42,𐘪,ke?,1.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 43,𐘫,ai?,1.00,,,,pa,CONFIRM,57.0,False,GC=57
+AB 44,𐘬,?,1.00,ke,HIGH,ke,ke,CONFIRM,85.0,False,CM=HIGH
+AB 45,𐘭,de?,1.00,de,LOW,de,de,UNCERTAIN,45.0,False,CM=LOW; GC=65
+AB 46,𐘮,je?,1.00,je,LOW,je,je,UNCERTAIN,33.5,False,CM=LOW; GC=42
+AB 47,𐘯,?,1.00,ja,LOW,ja,ja,UNCERTAIN,35.5,False,CM=LOW; GC=46
+AB 48,𐘰,nwa?,1.00,wa,HIGH,wa,wa,UNCERTAIN,64.0,False,CM=HIGH; GC=43
+AB 49,𐘱,?,1.00,we,HIGH,we,we,UNCERTAIN,62.0,False,CM=HIGH; GC=39
+AB 50,𐘲,pu?,1.00,pu,HIGH,pu,pu,UNCERTAIN,71.0,False,CM=HIGH; GC=57
+AB 51,𐘳,du?,1.00,du,MEDIUM,du,du,UNCERTAIN,53.0,False,CM=MEDIUM; GC=51
+AB 52,𐘴,?,1.00,no,HIGH,no,no,UNCERTAIN,62.0,False,CM=HIGH; GC=39
+AB 53,𐘵,ri,1.00,ri,HIGH,ri,ri,CONFIRM,58.7,False,LB=74; CM=HIGH; Pos#7; Ng#42
+AB 54,𐘶,wa,1.00,wa,LOW,wa,wa,CONFIRM,50.7,False,LB=70; CM=LOW; Pos#15; Ng#22
+AB 55,𐘷,nu,1.00,nu,HIGH,nu,nu,CONFIRM,78.1,False,LB=73; CM=HIGH; Pos#12; Ng#41
+AB 56,𐘸,?,1.00,pa,LOW,pa,pa,UNCERTAIN,35.0,False,CM=LOW; GC=45
+AB 57,𐘹,ja,1.00,ja,LOW,ja,ja,CONFIRM,47.0,False,LB=72; CM=LOW; GC=36; Pos#25; Ng#15
+AB 58,𐘺,?,1.00,su,MEDIUM,su,su,UNCERTAIN,56.0,False,CM=MEDIUM; GC=57
+AB 59,𐘻,?,1.00,ta,LOW,ta,ta,UNCERTAIN,25.0,False,CM=LOW
+AB 60,𐘼,ra,1.00,ma,HIGH,ma,ra,UNCERTAIN,57.9,True,LB=72; CM=HIGH; Pos#2; Ng#16
+AB 61,𐘽,?,1.00,o,HIGH,o,o,CONFIRM,85.0,False,CM=HIGH
+AB 62,𐘾,pte?,1.00,,,,ta,UNCERTAIN,39.0,False,GC=39
+AB 63,𐘿,?,1.00,ke,MEDIUM,ke,ke,CONFIRM,55.0,False,CM=MEDIUM
+AB 64,𐙀,swi?,1.00,o,LOW,o,o,UNCERTAIN,41.0,False,CM=LOW; GC=57
+AB 65,𐙁,ju?,1.00,jo,LOW,jo,jo,UNCERTAIN,47.5,True,CM=LOW; GC=70
+AB 66,𐙂,ta?,1.00,ta,LOW,ta,ta,UNCERTAIN,29.5,False,CM=LOW; GC=34
+AB 67,𐙃,ki,1.00,ki,HIGH,ki,ki,CONFIRM,73.3,False,LB=66; CM=HIGH; Pos#5; Ng#12
+AB 68,𐙄,ro2?,1.00,ro,LOW,ro,ro,UNCERTAIN,41.0,True,CM=LOW; GC=57
+AB 69,𐙅,tu,1.00,tu,MEDIUM,tu,tu,CONFIRM,65.9,False,LB=74; CM=MEDIUM; Pos#33; Ng#36
+AB 70,𐙆,ko?,1.00,ko,HIGH,ko,ko,CONFIRM,85.0,False,CM=HIGH
+AB 71,𐙇,?,1.00,ke,LOW,ke,ke,UNCERTAIN,25.0,False,CM=LOW
+AB 72,𐙈,?,1.00,pe,MEDIUM,pe,pe,UNCERTAIN,56.0,False,CM=MEDIUM; GC=57
+AB 73,𐙉,?,1.00,mi,LOW,mi,mi,UNCERTAIN,25.0,False,CM=LOW
+AB 74,𐙊,ze?,1.00,ze,MEDIUM,ze,ze,CONFIRM,55.0,False,CM=MEDIUM
+AB 75,𐙋,?,1.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 76,𐙌,ra2?,1.00,pi,MEDIUM,pi,pi,CONFIRM,55.0,False,CM=MEDIUM
+AB 77,𐙍,ka,1.00,ka,HIGH,ka,ka,CONFIRM,77.6,False,LB=72; CM=HIGH; Pos#23; Ng#28
+AB 78,𐙎,qe,1.00,ka,LOW,ka,qe,UNCERTAIN,47.0,False,LB=64; CM=LOW; Ng#26
+AB 79,𐙏,zo?,1.00,ze,LOW,ze,ze,UNCERTAIN,25.0,False,CM=LOW
+AB 80,𐙐,ma,1.00,pa,LOW,pa,ma,UNCERTAIN,34.1,True,LB=76; CM=LOW; Pos#3; Ng#27
+AB 81,𐙑,ku,1.00,ku,HIGH,ku,ku,CONFIRM,53.9,False,LB=62; CM=HIGH; Ng#1
+AB 82,𐙒,?,1.00,o,LOW,o,o,UNCERTAIN,25.0,False,CM=LOW
+AB 83,𐙓,?,1.00,la,MEDIUM,la,la,CONFIRM,55.0,False,CM=MEDIUM
+AB 84,𐙔,?,1.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 85,𐙕,?,1.00,au,LOW,au,au,UNCERTAIN,25.0,False,CM=LOW
+AB 86,𐙖,—,0.00,lo,LOW,lo,lo,UNCERTAIN,25.0,False,CM=LOW
+AB 87,𐙗,—,0.00,lo,LOW,lo,lo,UNCERTAIN,25.0,False,CM=LOW
+AB 88,𐙘,—,0.00,lo,LOW,lo,lo,UNCERTAIN,25.0,False,CM=LOW
+AB 89,𐙙,—,0.00,mi,LOW,mi,mi,UNCERTAIN,25.0,False,CM=LOW
+AB 90,𐙚,—,0.00,lo,LOW,lo,lo,UNCERTAIN,25.0,False,CM=LOW
+AB 91,𐙛,—,0.00,lo,LOW,lo,lo,UNCERTAIN,25.0,False,CM=LOW
+AB 92,𐙜,—,0.00,je,LOW,je,je,UNCERTAIN,25.0,False,CM=LOW
+AB 93,𐙝,—,0.00,pi,LOW,pi,pi,UNCERTAIN,25.0,False,CM=LOW
+AB 94,𐙞,—,0.00,re,LOW,re,re,UNCERTAIN,25.0,False,CM=LOW
+AB 95,𐙟,—,0.00,te,LOW,te,te,UNCERTAIN,25.0,False,CM=LOW
+AB 96,𐙠,—,0.00,lo,LOW,lo,lo,UNCERTAIN,25.0,False,CM=LOW
+AB 97,𐙡,—,0.00,o,LOW,o,o,UNCERTAIN,25.0,False,CM=LOW
+AB 98,𐙢,—,0.00,ke,LOW,ke,ke,UNCERTAIN,41.0,False,CM=LOW; GC=57
+AB 99,𐙣,—,0.00,ma,LOW,ma,ma,UNCERTAIN,25.0,False,CM=LOW
+AB 100,𐙤,—,0.00,to,LOW,to,to,UNCERTAIN,25.0,False,CM=LOW
+AB 101,𐙥,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 102,𐙦,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 103,𐙧,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 104,𐙨,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 105,𐙩,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 106,𐙪,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 107,𐙫,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 108,𐙬,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 109,𐙭,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 110,𐙮,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 111,𐙯,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 112,𐙰,—,0.00,,,,pa,CONFIRM,57.0,False,GC=57
+AB 113,𐙱,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 114,𐙲,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 115,𐙳,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 116,𐙴,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 117,𐙵,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 118,𐙶,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 119,𐙷,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 120,𐙸,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 121,𐙹,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 122,𐙺,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 123,𐙻,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 124,𐙼,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 125,𐙽,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 126,𐙾,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 127,𐙿,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 128,𐚀,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 129,𐚁,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 130,𐚂,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 131,𐚃,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 132,𐚄,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 133,𐚅,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 134,𐚆,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 135,𐚇,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 136,𐚈,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 137,𐚉,—,0.00,,,,?,UNCERTAIN,0.0,False,no evidence
+AB 21f,𐘕,mi?,0.80,,,,?,UNCERTAIN,0.0,False,
+AB 22f,𐘗,pi?,0.80,,,,?,UNCERTAIN,0.0,False,

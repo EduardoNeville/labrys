@@ -1,0 +1,42 @@
+et_word,tokens,segments,fully_mapped,mapped_signs
+alo,a-l-o,a-lo,True,"a→AB 08; lo→AB 86,AB 87,AB 88"
+at,a-t,a-t,False,a→AB 08; t→?
+atho,a-th-o,a-tho,False,a→AB 08; tho→?
+barze,b-a-r-z-e,ba-r-ze,False,"ba→?; r→?; ze→AB 74,AB 79"
+da,d-a,da,True,da→AB 01
+deode,d-e-o-d-e,de-o-de,True,"de→AB 45; o→AB 61,AB 64,AB 82; de→AB 45"
+ed,e-d,e-d,False,e→AB 38; d→?
+eo,e-o,e-o,True,"e→AB 38; o→AB 61,AB 64,AB 82"
+ep,e-p,e-p,False,e→AB 38; p→?
+epikles,e-p-i-k-l-e-s,e-pi-k-le-s,False,"e→AB 38; pi→AB 22,AB 76,AB 93; k→?; le→?; s→?"
+et,e-t,e-t,False,e→AB 38; t→?
+etap,e-t-a-p,e-ta-p,False,"e→AB 38; ta→AB 59,AB 62,AB 66; p→?"
+etes,e-t-e-s,e-te-s,False,"e→AB 38; te→AB 04,AB 95; s→?"
+etet,e-t-e-t,e-te-t,False,"e→AB 38; te→AB 04,AB 95; t→?"
+eto,e-t-o,e-to,True,"e→AB 38; to→AB 05,AB 100"
+isal,i-s-a-l,i-sa-l,False,"i→AB 28,AB 32; sa→AB 31; l→?"
+isalabre,i-s-a-l-a-b-r-e,i-sa-la-b-re,False,"i→AB 28,AB 32; sa→AB 31; la→AB 83; b→?; re→AB 27,AB 94"
+ital,i-t-a-l,i-ta-l,False,"i→AB 28,AB 32; ta→AB 59,AB 62,AB 66; l→?"
+kalmit,k-a-l-m-i-t,ka-l-mi-t,False,"ka→AB 77; l→?; mi→AB 21,AB 73,AB 89; t→?"
+kalmite,k-a-l-m-i-t-e,ka-l-mi-te,False,"ka→AB 77; l→?; mi→AB 21,AB 73,AB 89; te→AB 04,AB 95"
+kap,k-a-p,ka-p,False,ka→AB 77; p→?
+komnoda,k-o-m-n-o-d-a,ko-m-no-da,False,ko→AB 70; m→?; no→AB 52; da→AB 01
+meteso,m-e-t-e-s-o,me-te-so,True,"me→AB 13; te→AB 04,AB 95; so→AB 12"
+no,n-o,no,True,no→AB 52
+nonet,n-o-n-e-t,no-ne-t,False,no→AB 52; ne→AB 24; t→?
+nos,n-o-s,no-s,False,no→AB 52; s→?
+oda,o-d-a,o-da,True,"o→AB 61,AB 64,AB 82; da→AB 01"
+ois,o-i-s,o-i-s,False,"o→AB 61,AB 64,AB 82; i→AB 28,AB 32; s→?"
+on,o-n,o-n,False,"o→AB 61,AB 64,AB 82; n→?"
+onadesimet,o-n-a-d-e-s-i-m-e-t,o-na-de-si-me-t,False,"o→AB 61,AB 64,AB 82; na→AB 06; de→AB 45; si→AB 11,AB 41; me→AB 13; t→?"
+ono,o-n-o,o-no,True,"o→AB 61,AB 64,AB 82; no→AB 52"
+oph,o-ph,o-ph,False,"o→AB 61,AB 64,AB 82; ph→?"
+os,o-s,o-s,False,"o→AB 61,AB 64,AB 82; s→?"
+phar,ph-a-r,pha-r,False,pha→?; r→?
+phdeo,ph-d-e-o,ph-de-o,False,"ph→?; de→AB 45; o→AB 61,AB 64,AB 82"
+rko,r-k-o,r-ko,False,r→?; ko→AB 70
+sadore,s-a-d-o-r-e,sa-do-re,True,"sa→AB 31; do→AB 14; re→AB 27,AB 94"
+sardo,s-a-r-d-o,sa-r-do,False,sa→AB 31; r→?; do→AB 14
+set,s-e-t,se-t,False,se→AB 09; t→?
+sete,s-e-t-e,se-te,True,"se→AB 09; te→AB 04,AB 95"
+sstephe,s-s-t-e-ph-e,s-s-te-phe,False,"s→?; s→?; te→AB 04,AB 95; phe→?"

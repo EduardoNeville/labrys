@@ -1,0 +1,11 @@
+bennett_id,lb_value,cm_value,cm_confidence,winning_value,winning_source,confidence,lb_hypothesis_score,cm_hypothesis_score,phonetic_score,grid_score,attestation_score,corroboration_score,resolution_note
+AB 01,DA,ta,HIGH,da,LB,0.566,0.8069,0.7248,0.831,0.735,0.828,0.811,Moderately favour LB /da/ over CM /ta/ (HIGH): LB evidence is direct though narrow margin suggests CM value is phonetically plausible. Score margin: 8%.
+AB 07,DI,ti,HIGH,di,LB,0.554,0.7818,0.7144,0.831,0.692,0.762,0.811,Moderately favour LB /di/ over CM /ti/ (HIGH): LB evidence is direct though narrow margin suggests CM value is phonetically plausible. Score margin: 6%.
+AB 16,QA,ka,MEDIUM,qa,LB,0.577,0.6722,0.5756,0.876,0.481,0.680,0.496,Moderately favour LB /qa/ over CM /ka/ (MEDIUM): LB evidence is direct though narrow margin suggests CM value is phonetically plausible. Score margin: 9%.
+AB 23,MU,ma,HIGH,mu,LB,0.525,0.6962,0.6644,0.761,0.615,0.690,0.672,Moderately favour LB /mu/ over CM /ma/ (HIGH): LB evidence is direct though narrow margin suggests CM value is phonetically plausible. Score margin: 3%.
+AB 36,JO,za,HIGH,jo,LB,0.544,0.6993,0.6446,0.778,0.590,0.672,0.706,Moderately favour LB /jo/ over CM /za/ (HIGH): LB evidence is direct though narrow margin suggests CM value is phonetically plausible. Score margin: 5%.
+AB 38,E,pa,HIGH,e,LB,0.550,0.6726,0.6104,0.657,0.735,0.810,0.465,Moderately favour LB /e/ over CM /pa/ (HIGH): LB evidence is direct though narrow margin suggests CM value is phonetically plausible. Score margin: 6%.
+AB 60,RA,ma,HIGH,ra,LB,0.531,0.7298,0.6915,0.804,0.579,0.725,0.757,Moderately favour LB /ra/ over CM /ma/ (HIGH): LB evidence is direct though narrow margin suggests CM value is phonetically plausible. Score margin: 3%.
+AB 65,JU,jo,LOW,ju,LB,0.510,0.5915,0.5785,0.845,0.300,0.775,0.210,Moderately favour LB /ju/ over CM /jo/ (LOW): LB evidence is direct though narrow margin suggests CM value is phonetically plausible. Score margin: 1%.
+AB 68,RO2,ro,LOW,ro,CM,0.400,0.5830,0.5927,0.925,0.410,0.250,0.622,Moderately favour CM /ro/ over LB /ro2/ (LOW): Narrow advantage for CM value; both are plausible. Score margin: 0%.
+AB 80,MA,pa,LOW,ma,LB,0.536,0.5736,0.5286,0.795,0.341,0.760,0.185,Moderately favour LB /ma/ over CM /pa/ (LOW): LB evidence is direct though narrow margin suggests CM value is phonetically plausible. Score margin: 4%.

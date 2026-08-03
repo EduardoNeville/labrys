@@ -1,0 +1,56 @@
+word_id,inscription_id,text,cleaned,position,is_greek,greek_gloss,notes
+DR1_W01,DR 1,---s?adore,sadore,1,False,,lacunose at start
+DR1_W02,DR 1,de?ode?,deode,2,False,,uncertain vowels
+DR1_W03,DR 1,n?os,nos,3,False,,or ?nos
+DR1_W04,DR 1,komn?oda,komnoda,4,False,,
+DR1_W05,DR 1,---ētap,etap,5,False,,lacunose
+DR1_W06,DR 1,e?o,eo,6,False,,
+DR1_W07,DR 1,os,os,7,False,,or Greek relative pronoun?
+DR1_W08,DR 1,dā,da,8,False,,long alpha
+DR1_W09,DR 1,ital,ital,9,False,,
+DR1_W10,DR 1,a?th?o,atho,10,False,,
+DR1_W11,DR 1,?rko,rko,11,False,,
+DR1_W12,DR 1,isal,isal,12,False,,
+DR1_W13,DR 1,et?o,eto,13,False,,
+DR1_W14,DR 1,kal?mit,kalmit,14,False,,
+DR1_W15,DR 1,kap?,kap,15,False,,
+DR1_W16,DR 1,?etēs?,etes,16,False,,eta~long e
+DR1_W17,DR 1,sete,sete,17,False,,
+DR1_W18,DR 1,sar?do?,sardo,18,False,,
+DR2_W01,DR 2,onadesi?met?,onadesimet,1,False,,
+DR2_W02,DR 2,ep?ikles?,epikles,2,False,,cf. Greek epiklēs 'called upon'?
+DR2_W03,DR 2,met?e?so?,meteso,3,False,,
+DR2_W04,DR 2,oda,oda,4,False,,
+DR2_W05,DR 2,et?et,etet,5,False,,
+DR2_W06,DR 2,ō?ph,oph,6,False,,omega + phi
+DR2_W07,DR 2,alo,alo,7,False,,
+DR2_W08,DR 2,ono,ono,8,False,,
+DR2_W09,DR 2,et,et,9,False,,
+DR2_W10,DR 2,no,no,10,False,,
+DR2_W11,DR 2,on,on,11,False,,
+PR1_W01,PR 1,nōnēt,nonet,1,False,,eta=long e; omega=long o
+PR1_W02,PR 1,ō,o,2,False,,or interjection
+PR1_W03,PR 1,th,th,3,False,,abbreviation?
+PR1_W04,PR 1,s?st?eph?,sstephe,4,False,,highly uncertain
+PR1_W05,PR 1,kalmit?ē?,kalmite,5,False,,cf. DR1 kalmit
+PR1_W06,PR 1,kai?,kai,6,True,and (Greek καί),probable Greek conjunction
+PR1_W07,PR 1,at?,at,7,False,,
+PR1_W08,PR 1,ph?,ph,8,False,,fragment
+PR1_W09,PR 1,ois,ois,9,False,,
+PR1_W10,PR 1,ē?d,ed,10,False,,
+PR1_W11,PR 1,onadesi?met?,onadesimet,11,False,,cf. DR2 onadesimet
+PR1_W12,PR 1,ep,ep,12,False,,
+PR1_W13,PR 1,set,set,13,False,,
+PR2_W01,PR 2,onadesi?met?,onadesimet,1,False,,KEY: also in DR 2 and PR 1; near Greek dedication formula
+PR2_W02,PR 2,ep?ikles?,epikles,2,False,,also in DR 2; possibly 'called/invoked'
+PR2_W03,PR 2,et,et,3,False,,very frequent in Eteocretan
+PR2_W04,PR 2,phar?,phar,4,False,,near Greek dedication — could be 'offering' term
+PR2_W05,PR 2,is?al?,isal,5,False,,also in DR 1 (isal)
+PR2_W06,PR 2,set?,set,6,False,,also in DR 1 (sete) and PR 1 (set)
+PR3_W01,PR 3,ph?,ph,1,False,,
+PR3_W02,PR 3,is?al?abre?,isalabre,2,False,,isal + abre? cf. isal in DR1 and PR2
+PR3_W03,PR 3,et?,et,3,False,,
+PR4_W01,PR 4,ph?deo?,phdeo,1,False,,
+PR4_W02,PR 4,et?,et,2,False,,
+PR5_W01,PR 5,bar?ze?,barze,1,False,,
+PR5_W02,PR 5,et?,et,2,False,,

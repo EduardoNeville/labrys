@@ -1,0 +1,30 @@
+language,suffix_phonemic,suffix_ab,function,notes,total_occurrences,final_position_hits,texts_with_suffix,total_texts,coverage_fraction,num_sites,sites
+luwian,-a,A,dative singular,Dative case,724,191,466,1635,0.285,30,"Apodoulou,Arkhalkhori,Crete,Haghia Triada,Haghia Triada - Casa Room 7,Haghia Triada - Casa Room 9,Haghia Triada - Casa del Lebete,Haghia Triada - Corridor 9 and Vestibule 26,Haghia Triada - Portico 11 and Room 13,Haghia Triada - Villa Magazine"
+luwian,-ḫa,A,conjunction 'and',Enclitic conjunction,724,191,466,1635,0.285,30,"Apodoulou,Arkhalkhori,Crete,Haghia Triada,Haghia Triada - Casa Room 7,Haghia Triada - Casa Room 9,Haghia Triada - Casa del Lebete,Haghia Triada - Corridor 9 and Vestibule 26,Haghia Triada - Portico 11 and Room 13,Haghia Triada - Villa Magazine"
+luwian,-mi-,MI,my (1sg possessive),Possessive enclitic,78,10,67,1635,0.041,19,"Arkhalkhori,Crete,Haghia Triada,Haghia Triada - Casa Room 7,Haghia Triada - Casa Room 9,Haghia Triada - Casa del Lebete,Haghia Triada - Villa Magazine,Khania,Knossos,Larani"
+luwian,-ši-,SI,his/her (3sg possessive),Possessive enclitic,46,0,39,1635,0.0239,16,"Gournia,Haghia Triada,Haghia Triada - Casa Room 9,Haghia Triada - Casa del Lebete,Haghia Triada - Portico 11 and Room 13,Haghia Triada - Villa Magazine,Iouktas,Khania,Knossos,Palaikastro"
+luwian,-ti,TI,3sg present,Core verbal ending,25,2,23,1635,0.0141,11,"Arkhalkhori,Haghia Triada - Casa Room 7,Haghia Triada - Portico 11 and Room 13,Haghia Triada - Villa Magazine,Iouktas,Knossos,Malia,Palaikastro,Phaistos,Psykhro"
+luwian,-ti-,TI,your (2sg possessive),Possessive enclitic,25,2,23,1635,0.0141,11,"Arkhalkhori,Haghia Triada - Casa Room 7,Haghia Triada - Portico 11 and Room 13,Haghia Triada - Villa Magazine,Iouktas,Knossos,Malia,Palaikastro,Phaistos,Psykhro"
+luwian,-ati/-anti,ATI,3pl present / ablative-instrumental,Plural marker,6,0,6,1635,0.0037,4,"Haghia Triada - Casa Room 7,Haghia Triada - Villa Magazine,Malia,Psykhro"
+luwian,-an,ANA,accusative singular common,Core case marker,3,0,3,1635,0.0018,3,"Haghia Triada - Casa del Lebete,Haghia Triada - Portico 11 and Room 13,Haghia Triada - Villa Magazine"
+luwian,-aš,ASA,genitive singular,Very common case suffix,2,0,2,1635,0.0012,1,Haghia Triada - Villa Magazine
+luwian,-una,UNA,infinitive,Infinitive marker,2,0,2,1635,0.0012,2,"Haghia Triada - Villa Magazine,Khania"
+luwian,-izza-,IZA,causative,Causative verb suffix,1,0,1,1635,0.0006,1,Khania
+luwian,-nt-,NTA,participle,Anatolian diagnostic feature,0,0,0,1635,0.0,0,
+luwian,-šša-,SASA,iterative/durative,"Verbal suffix, also in toponyms",0,0,0,1635,0.0,0,
+luwian,-tari,TARI,middle voice 3sg,Mediopassive marker,0,0,0,1635,0.0,0,
+luwian,-war,WARA,verbal noun,Gerundive/verbal noun,0,0,0,1635,0.0,0,
+luwian,-alli-,ALI,agentive,Forms agent nouns,0,0,0,1635,0.0,0,
+luwian,-ašša-,ASASA,genitival adjective,Very important for toponyms: -assos/-assa,0,0,0,1635,0.0,0,
+luwian,-anda-,ANATA,gerundive/place,Very important for toponyms: -anda,0,0,0,1635,0.0,0,
+luwian,-wanza-,WANAZA,participle,Luwian participle,0,0,0,1635,0.0,0,
+lycian,-ẽ,E,accusative,Accusative case,275,20,172,1635,0.1052,28,"Arkhalkhori,Gournia,Haghia Triada,Haghia Triada - Casa Room 7,Haghia Triada - Casa Room 9,Haghia Triada - Casa del Lebete,Haghia Triada - Portico 11 and Room 13,Haghia Triada - Villa Magazine,Iouktas,Khania"
+lycian,-mi,MI,1sg present,First person,78,10,67,1635,0.041,19,"Arkhalkhori,Crete,Haghia Triada,Haghia Triada - Casa Room 7,Haghia Triada - Casa Room 9,Haghia Triada - Casa del Lebete,Haghia Triada - Villa Magazine,Khania,Knossos,Larani"
+lycian,-t-,TA,participle,Participle marker,69,8,63,1635,0.0385,15,"Apodoulou,Arkhalkhori,Haghia Triada - Casa Room 7,Haghia Triada - Casa Room 9,Haghia Triada - Casa del Lebete,Haghia Triada - Portico 11 and Room 13,Haghia Triada - Villa Magazine,Khania,Knossos,Palaikastro"
+lycian,-te,TE,3pl verbal ending,Plural verbal,47,7,44,1635,0.0269,14,"Arkhalkhori,Haghia Triada - Casa Room 7,Haghia Triada - Casa del Lebete,Haghia Triada - Portico 11 and Room 13,Haghia Triada - Villa Magazine,Iouktas,Khania,Knossos,Milos,Palaikastro"
+lycian,-na-,NA,adjectivizer,Forms adjectives,40,1,34,1635,0.0208,12,"Apodoulou,Haghia Triada - Casa Room 7,Haghia Triada - Casa del Lebete,Haghia Triada - Portico 11 and Room 13,Haghia Triada - Villa Magazine,Iouktas,Khania,Knossos,Palaikastro,Phaistos"
+lycian,-ti,TI,3sg verbal ending,Verbal person marker,25,2,23,1635,0.0141,11,"Arkhalkhori,Haghia Triada - Casa Room 7,Haghia Triada - Portico 11 and Room 13,Haghia Triada - Villa Magazine,Iouktas,Knossos,Malia,Palaikastro,Phaistos,Psykhro"
+lycian,-asa-,ASA,genitival adjective,Cognate with Luwian -ašša-; -ss- pattern,2,0,2,1635,0.0012,1,Haghia Triada - Villa Magazine
+lycian,-ehi,EI,genitive adjective,Very common suffix,0,0,0,1635,0.0,0,
+lycian,-ije-,IJE,passive,Passive marker,0,0,0,1635,0.0,0,
+lycian,-ãta-,ATA,gerundive,Gerundive/place suffix; -nd- pattern,0,0,0,1635,0.0,0,
