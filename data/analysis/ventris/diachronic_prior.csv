@@ -1,0 +1,22 @@
+bennett_id,refined_value,base_confidence,mm_attested,prior_factor,adjusted_confidence,lb_value,cm_value
+AB 16,qa,48.1,True,2.0,96.2,qa,ka
+AB 82,o,25.0,True,2.0,50.0,,o
+AB 89,mi,25.0,True,2.0,50.0,,mi
+AB 90,lo,25.0,True,2.0,50.0,,lo
+AB 60,ra,57.9,False,0.5,28.9,ra,ma
+AB 78,qe,47.0,False,0.5,23.5,qe,ka
+AB 98,ke,41.0,False,0.5,20.5,,ke
+AB 80,ma,34.1,False,0.5,17.1,ma,pa
+AB 41,si,25.0,False,0.5,12.5,,si
+AB 71,ke,25.0,False,0.5,12.5,,ke
+AB 79,ze,25.0,False,0.5,12.5,,ze
+AB 86,lo,25.0,False,0.5,12.5,,lo
+AB 88,lo,25.0,False,0.5,12.5,,lo
+AB 91,lo,25.0,False,0.5,12.5,,lo
+AB 93,pi,25.0,False,0.5,12.5,,pi
+AB 94,re,25.0,False,0.5,12.5,,re
+AB 95,te,25.0,False,0.5,12.5,,te
+AB 97,o,25.0,False,0.5,12.5,,o
+AB 99,ma,25.0,False,0.5,12.5,,ma
+AB 100,to,25.0,False,0.5,12.5,,to
+AB 20,zo?,0.0,False,0.5,0.0,,
