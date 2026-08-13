@@ -101,6 +101,14 @@ class GridCompletion:
         self.rank: int = 0
 
 
+# Oracle test settings: number of confirmed signs to hide per trial, and how
+# many independent trials to run. Hidden signs are treated exactly like
+# UNCERTAIN signs; if the scorer has signal, greedy search should recover
+# their true values at better-than-chance rates.
+ORACLE_HIDDEN = 20
+ORACLE_TRIALS = 8
+
+
 # ═══════════════════════════════════════════════════════════════════════════════
 # grid completer
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -347,15 +355,25 @@ class VentrisGridCompleter:
         self,
         values: Dict[str, str],
         sample_size: int = 50,
+        confirmed_override: Optional[Dict[str, str]] = None,
+        uncertain_override: Optional[List[str]] = None,
     ) -> Tuple[float, float, float]:
         """Score a grid completion against the corpus.
 
         Returns (morphology_score, entropy_score, prefix_score).
         Higher scores = more linguistically plausible.
+
+        confirmed_override/uncertain_override: oracle-test hook. The oracle
+        hides some CONFIRMED signs (treats them as if they were UNCERTAIN and
+        only trusts the remaining anchors). The overrides swap the effective
+        anchor set and the effective candidate-value lookup for "before"
+        bigrams, so hidden signs don't leak their true values into scoring.
         """
         # Combine confirmed + candidate values
-        full_values = dict(self.confirmed)
+        effective_confirmed = confirmed_override if confirmed_override is not None else self.confirmed
+        full_values = dict(effective_confirmed)
         full_values.update(values)
+        effective_uncertain = uncertain_override if uncertain_override is not None else self.uncertain
 
         # Read the longest inscriptions with the candidate values
         # Sort by length, take up to sample_size
@@ -394,14 +412,12 @@ class VentrisGridCompleter:
         for ins_id, signs in sample:
             for i in range(len(signs) - 1):
                 s1, s2 = signs[i], signs[i+1]
-                v1_before = self.confirmed.get(s1, self.grid.get(s1, {}).get("conventional_value", "?"))
-                v2_before = self.confirmed.get(s2, self.grid.get(s2, {}).get("conventional_value", "?"))
-                v1_after = full_values.get(s1, "?")
-                v2_after = full_values.get(s2, "?")
-                if v1_before != "?" and v2_before != "?":
-                    bigrams_before[(v1_before, v2_before)] += 1
-                if v1_after != "?" and v2_after != "?":
-                    bigrams_after[(v1_after, v2_after)] += 1
+                v1_before = effective_confirmed.get(s1, s1)  # raw sign id for unknowns (no LB leakage)
+                v2_before = effective_confirmed.get(s2, s2)
+                v1_after = full_values.get(s1, s1)
+                v2_after = full_values.get(s2, s2)
+                bigrams_before[(v1_before, v2_before)] += 1
+                bigrams_after[(v1_after, v2_after)] += 1
                 total_bigrams += 1
 
         # Compute before/after bigram entropy
@@ -443,6 +459,114 @@ class VentrisGridCompleter:
         prefix_score = prefix_concentration  # 0..1, higher = more grammatical
 
         return morphology_score, entropy_score, prefix_score
+
+    def _greedy_restore(
+        self,
+        targets: List[str],
+        score_kwargs: Optional[Dict[str, Any]] = None,
+        seed: int = 0,
+    ) -> Dict[str, str]:
+        """Restore target signs one at a time by greedy coordinate ascent.
+
+        Starts from each target's first candidate (deterministic given seed:
+        candidate order is stable), then for each target in candidate-count
+        order (fewest first), tries every candidate value and keeps the argmax.
+        Returns the final {bid: value} assignment.
+        """
+        score_kwargs = score_kwargs or {}
+        sign_candidates = {bid: self.get_candidates(bid) for bid in targets}
+        values: Dict[str, str] = {bid: cands[0] for bid, cands in sign_candidates.items()}
+
+        ordered = sorted(targets, key=lambda b: len(sign_candidates[b]))
+        for bid in ordered:
+            best_val, best_score = values[bid], -1.0
+            for cand in sign_candidates[bid]:
+                values[bid] = cand
+                m, e, p = self.score_completion(values, **score_kwargs)
+                total = 0.50 * m + 0.30 * e + 0.20 * p
+                if total > best_score:
+                    best_score, best_val = total, cand
+            values[bid] = best_val
+
+        return values
+
+    def oracle_test(
+        self,
+        hidden: int = ORACLE_HIDDEN,
+        trials: int = ORACLE_TRIALS,
+        sample_size: int = 50,
+    ) -> Dict[str, Any]:
+        """Oracle ablation test: can the scorer recover KNOWN answers?
+
+        Hides `hidden` confirmed signs (treats them as UNCERTAIN), runs greedy
+        restoration, and measures how often each hidden sign's true value is
+        recovered vs a random-choice baseline.
+
+        If recovery ≈ chance, the scorer has no signal and no search (beam,
+        Optuna, annealing) can find answers it doesn't contain. This must be
+        measured BEFORE building any optimizer.
+        """
+        import random
+        random.seed(0)
+
+        confirmed_bids = sorted(self.confirmed.keys())
+        trial_recovered: List[int] = []
+        per_sign: Dict[str, List[bool]] = defaultdict(list)
+
+        for t in range(trials):
+            hidden_set = set(random.sample(confirmed_bids, min(hidden, len(confirmed_bids))))
+            # Effective anchors = confirmed minus hidden; targets = hidden signs
+            eff_confirmed = {b: v for b, v in self.confirmed.items() if b not in hidden_set}
+            targets = sorted(hidden_set)
+            kwargs = {
+                "confirmed_override": eff_confirmed,
+                "uncertain_override": targets,
+                "sample_size": sample_size,
+            }
+            values = self._greedy_restore(targets, score_kwargs=kwargs, seed=t)
+
+            recovered = 0
+            for bid in targets:
+                true_val = self.confirmed[bid]
+                got = values.get(bid, "")
+                ok = got == true_val
+                per_sign[bid].append(ok)
+                recovered += int(ok)
+            trial_recovered.append(recovered)
+
+            logger.info("Oracle trial %d/%d: recovered %d/%d hidden signs",
+                        t + 1, trials, recovered, len(targets))
+
+        # Aggregate
+        recovered = sum(trial_recovered)
+        total_hidden = trials * len(targets) if trials else 0
+        recovery_rate = recovered / max(total_hidden, 1)
+
+        # Random baseline: per sign, 1/len(candidates) chance of guessing right
+        chance_per_sign = [1.0 / max(len(self.get_candidates(b)), 1) for b in confirmed_bids]
+        chance_rate = sum(chance_per_sign) / max(len(chance_per_sign), 1)
+
+        # Per-sign stability
+        per_sign_rates = {
+            bid: (sum(oks) / len(oks)) for bid, oks in per_sign.items()
+        }
+        recovered_bids = [bid for bid, rate in per_sign_rates.items() if rate == 1.0]
+
+        logger.info("Oracle: recovery rate %.3f vs chance %.3f (%.1fx)",
+                    recovery_rate, chance_rate,
+                    recovery_rate / chance_rate if chance_rate else 0.0)
+
+        return {
+            "recovery_rate": recovery_rate,
+            "chance_rate": chance_rate,
+            "lift_over_chance": recovery_rate / chance_rate if chance_rate else 0.0,
+            "trials": trials,
+            "hidden_per_trial": len(targets) if trials else 0,
+            "total_hidden_scored": total_hidden,
+            "recovered": recovered,
+            "per_sign_recovery_rates": per_sign_rates,
+            "signs_recovered_all_trials": recovered_bids,
+        }
 
     def run(
         self,
@@ -709,10 +833,27 @@ def run_ventris_endgame(
 
 if __name__ == "__main__":
     import sys
+    import random
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     )
+
+    # ── self-check: greedy restore must do no worse than random on 3 hidden signs
+    completer = VentrisGridCompleter()
+    hidden = sorted(random.Random(1).sample(sorted(completer.confirmed.keys()), 3))
+    eff_conf = {b: v for b, v in completer.confirmed.items() if b not in hidden}
+    vals = completer._greedy_restore(hidden, score_kwargs={
+        "confirmed_override": eff_conf,
+        "uncertain_override": hidden,
+    })
+    recovered = sum(1 for b in hidden if vals.get(b) == completer.confirmed[b])
+    chance = sum(1.0 / len(completer.get_candidates(b)) for b in hidden)
+    assert recovered >= 0 and chance > 0
+    logger.info("Self-check: greedy restore recovered %d/%d (chance %.3f) — OK",
+                recovered, len(hidden), chance)
+    completer.close()
+
     summary = run_ventris_endgame()
     print()
     print("=" * 60)
