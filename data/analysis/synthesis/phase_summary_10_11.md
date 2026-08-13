@@ -17,12 +17,14 @@
    - [Avenue 2 — Commodity semantics](#avenue-2--commodity-semantics)
    - [Avenue 3 — Statistical cryptanalysis](#avenue-3--statistical-cryptanalysis)
    - [Avenue 4 — Graph isomorphism](#avenue-4--graph-isomorphism)
-3. [Phase 11: The Diachronic Prior (the one positive finding)](#3-phase-11-the-diachronic-prior)
-4. [Verification Audit](#4-verification-audit)
-5. [What Survives — The Solid Core](#5-what-survives--the-solid-core)
-6. [What Was Retracted](#6-what-was-retracted)
-7. [The Honest State of the Decipherment](#7-the-honest-state-of-the-decipherment)
-8. [Path Forward](#8-path-forward)
+3. [Phase 11: The Diachronic Prior (INVALIDATED by correction)](#3-phase-11-the-diachronic-prior)
+4. [The Corpus Correction (the key event)](#4-the-corpus-correction-the-key-event)
+5. [The Libation Formula Recovery](#5-the-libation-formula-recovery)
+6. [Verification Audit](#6-verification-audit)
+7. [What Survives — The Solid Core](#7-what-survives--the-solid-core)
+8. [What Was Retracted](#8-what-was-retracted)
+9. [The Honest State of the Decipherment](#9-the-honest-state-of-the-decipherment)
+10. [Path Forward](#10-path-forward)
 
 ---
 
@@ -95,34 +97,63 @@ All three classic tests, with shuffle nulls:
 
 ---
 
-## 3. Phase 11: The Diachronic Prior (the one positive finding)
+## 3. Phase 11: The Diachronic Prior (INVALIDATED by the corpus correction)
 
-The one avenue that used a **data dimension** (time) rather than a scoring hypothesis — and the only positive finding that survived verification.
+This avenue used a **data dimension** (time) rather than a scoring hypothesis, and initially appeared to be the only positive finding. **It was invalidated by the corpus correction.**
 
-### Finding
+### The original finding (now known to be an artifact)
 
-Signs attested in BOTH MM (~1700 BCE) and LM (~1450 BCE) periods are 2× more likely CONFIRMED:
+Signs attested in BOTH MM (~1700 BCE) and LM (~1450 BCE) periods appeared 2× more likely CONFIRMED:
 
-| Sign set | % CONFIRMED |
-|----------|-------------|
-| Shared (MM→LM persistent) | **67%** (28/42) |
-| LM-only | **33%** (26/78) |
-| Fisher exact p | **0.0003** |
-| Oracle LOO | 67% vs 55% majority = **1.21× lift** |
+| Sign set | % CONFIRMED (old, corrupted corpus) | % CONFIRMED (corrected corpus) |
+|----------|--------------------------------------|--------------------------------|
+| Shared (MM→LM persistent) | **67%** (28/42) | 58% (22/38) |
+| LM-only | **33%** (26/78) | 55% (22/40) |
+| Fisher exact p | 0.0003 | **0.1748 (NOT significant)** |
+| Oracle LOO | 1.21× lift | **0.91× (below baseline)** |
 
-### Why it survives (unlike Avenues 1–2)
+### Why it failed
 
-1. **Not circular** — confirmation from phonetic evidence, persistence from period data (independent sources).
-2. **Significant** — Fisher p=0.0003, single test.
-3. **Not frequency-driven** — shared-confirmed median LM freq 2.5 vs 3.0.
-4. **Independent of phonetic evidence** — MM-attested mean confidence 51.0 vs LM-only 28.4 (1.8×), holds even when LB/CM components are empty.
+The gap between shared and LM-only confirmed rates **collapsed** on corrected data (58% vs 55%). The apparent 2× enrichment was inflated by the corrupted sign frequencies (AB 85, AB 26, AB 51 etc. were massively over-attributed, distorting which signs appeared "persistent"). On the corrected corpus, persistence does NOT predict confirmation.
 
-### Concrete consequences
+**Verdict: INVALIDATED — an artifact of the transcription bias, not a real signal.**
 
-- **AB 60 (ra/ma keystone) is LM-only** → the prior LOWERS its stakes. The project's most famous open question is less likely to resolve than assumed.
-- **AB 16 (qa/ka) is MM-attested** → the prior RAISES it. The conflict worth resolving.
-- **Highest-priority UNCERTAIN signs:** AB 16, AB 82, AB 89, AB 90 (the only MM-attested uncertain signs).
-- **Bayesian form:** `conf_adjusted = conf_base × (2.0 if MM else 0.5)` — a re-weighting layer for any future evidence.
+---
+
+## 4. The Corpus Correction (the key event)
+
+**144 Unicode→Bennett mapping errors** were found and fixed (verified against the Unicode standard names list and GORILA readings):
+
+| Sign | Old (corrupted) | Corrected |
+|------|-----------------|-----------|
+| AB 85 | 274 occurrences | **8** (was a mis-mapped A 301) |
+| A 301 | 1 | **274** (a logogram) |
+| AB 26 | 193 | → AB 28: 193 |
+| AB 51 | 165 | → AB 59: 165 |
+| AB 46 | 48 | → AB 54 |
+| AB 49 | 169 | → AB 57 |
+
+- Re-ingested all 1,720 inscriptions; DB now has correct sign types (10,084 syllabograms, 742 logograms, 101 fractions, 87 metrical, 4 numerals).
+- IOZa2 now reads AB 08 AB 59 AB 28 AB 54 AB 57 (= A-TA-I-*301-WA-JA, matching GORILA).
+
+**Invalidated by the correction:** diachronic prior, misvalued-sign flags (AB 16/60/80), AB 85 word-divider, V-link cohesion (2.2×→1.18×), AB 82↔LIVESTOCK.
+
+---
+
+## 5. The Libation Formula Recovery
+
+On the corrected corpus, the **real libation formula** became accessible:
+
+```
+A-TA-I-*301-WA-JA · JA-DI-KI-TU · JA-SA-SA-RA-ME · U-NA-KA-NA-SI ·
+I-PI-NA-MA · SI-RU-TE · TA-NA-RA-TE-U-TI-NU · I
+```
+
+- ja-sa-sa-ra-me: 9 inscriptions; u-na-ka-na-si: 6; si-ru-te: 7
+- IOZa9 = PKZa27 (identical 10-sign texts)
+- **di-ki-te-te** at Palaikastro (PKZa8/11/12/15) matches published JA-DI-KI-TE-TE-DU-PU; **di-ki-tu-ja** at Iouktas
+- **ja-** prefix 3.4× enriched in libations; **-me** suffix on ja-sa-sa-ra-me and i-da-ki-sa-ri-me (ZA21b)
+- **Phonetic test: the formula is phonetically inert** — fixed sign strings, values already known (LB-transfer). Cannot cascade into new values.
 
 ### Honest limits
 
@@ -141,44 +172,49 @@ Before synthesis, every finding was audited against source data (`verification_a
 | Avenue 4: untestable + no signal | ✅ Confirmed |
 | Avenue 6: diachronic prior | ✅ Confirmed (positive) |
 | Toponyms pa-i-to / i-da | ✅ Solid (95 Phaistos matches dist=1; 20 Ida matches, robust to da/ta) |
-| Misvalued signs AB 16/60/80 | ✅ Supported |
+| Misvalued signs AB 16/60/80 | ✅ Supported → ❌ INVALIDATED by correction (not anomalous on corrected data) |
 | Agglutinative morphology | ✅ Supported (weakly) |
-| Avenue 1: AB 85 word divider | ❌ Retracted (circular) |
+| Avenue 1: AB 85 word divider | ❌ Retracted (was mis-mapped A 301) |
 | Avenue 2: AB 82↔LIVESTOCK | ❌ Retracted (circular) |
 | "78 anchors" | ⚠️ Overstated → 77 CONFIRMED, 19 with value `?`, 17/77 ≥70, refined grid confirms 44 |
 | "Tyrsenian best fit" | ⚠️ Overstated → Anatolian IE #1, Hurro-Urartian #2, Tyrsenian #3, ALL inconclusive |
 | AB 01/38/50 high-confidence | ⚠️ Downgraded → UNCERTAIN in refined grid (LB/CM conflicts) |
+| **Diachronic prior** | ✅ → ❌ **INVALIDATED by correction** (p 0.0003→0.1748) |
 
 ---
 
 ## 5. What Survives — The Solid Core
 
-The verified, non-circular findings the project can stand on:
+The verified, non-circular findings after the correction:
 
-1. **Toponyms pa-i-to (Phaistos) and i-da (Ida) are real** — 95 and 20 matches, robust to the da/ta conflict. The only solid lexical anchors.
-2. **Misvalued signs AB 16, AB 60, AB 80 are positionally anomalous** — reproducible, phonetic-independent.
-3. **The diachronic prior** — MM-attested signs are 2× more likely to carry secure values (p=0.0003), independent of the phonetic evidence.
+1. **i-da (Ida) toponym** — 19 exact matches on corrected corpus. The strongest lexical anchor.
+2. **The corpus correction itself** — the mapping is now verified against the Unicode standard; the libation formula reads correctly.
+3. **The libation formula structure** — fixed recurring words (ja-sa-sa-ra-me, u-na-ka-na-si, si-ru-te) in fixed order; di-ki-te-te at Palaikastro matches published readings.
 4. **The oracle harness** — the correct gate for any future scorer or new evidence.
+5. **The negatives** — oracle (no scorer signal), cryptanalysis (frequency artifacts).
 
 ---
 
 ## 6. What Was Retracted
 
-1. "AB 85 is the word divider" — positional fact real, interpretation unsupported (logogram transliterations, empty word_dividers table).
+1. "AB 85 is the word divider" — AB 85 was a mis-mapped A 301 (274→8 occurrences); the interpretation is void.
 2. "AB 82 ↔ LIVESTOCK" — circular (HIDE ligature encoding in PH10).
 3. "Tyrsenian is the best structural fit" — no family distinguished (Anatolian and Hurro-Urartian rank higher).
 4. "78 anchors" — overstated; the reliable set is ~58 values, ~17 high-confidence.
 5. "Beam search is next" (10b report) — superseded by the oracle: no search can help an objective with no signal.
+6. "The diachronic prior" — INVALIDATED by the correction (was an artifact of corrupted frequencies).
+7. "Misvalued signs AB 16/60/80" — INVALIDATED by the correction (not anomalous on corrected data).
+8. "The libation formula 5-part structure" (first version) — was an artifact of the mis-transcription; the real formula is different and now recovered.
 
 ---
 
 ## 7. The Honest State of the Decipherment
 
-The computational avenues are **exhausted**. Every approach that produced a positive claim was either:
-- **Circular** (derived from LB transfer or corpus encoding), or
-- **Below the noise floor** (frequency artifacts, weak sequential signal)
+The computational avenues are **exhausted**, and the correction revealed that even the apparent positives were artifacts. After the correction:
 
-The one surviving positive — the diachronic prior — is a *prior*, not a value. It re-prioritizes which signs to investigate but cannot assign phonetic values.
+- **Every positive finding built on the corrupted corpus is invalidated** (diachronic prior, misvalued signs, AB 85, V-link cohesion, AB 82↔LIVESTOCK).
+- **What survives**: i-da, the negatives, and the formula structure.
+- **The libation formula is real but phonetically inert** — it confirms the corpus and gives fixed word anchors, but cannot cascade into new phonetic values.
 
 **The fundamental bottleneck is unchanged:** 11K tokens of formulaic administrative text, no bilingual anchor, no independent phonetic evidence. Every statistical and grammatical method is capped by this ceiling.
 
@@ -186,14 +222,14 @@ The one surviving positive — the diachronic prior — is a *prior*, not a valu
 
 ## 8. Path Forward
 
-1. **New data is the only known lever.** New inscriptions from ongoing Minoan excavations, better GORILA TEI coverage, or a bilingual find. The oracle harness + diachronic prior are the correct tools to apply to any new data.
-2. **The diachronic prior should be folded into any future evidence.** `conf_adjusted = conf_base × (2.0 if MM else 0.5)` — and re-oracle-tested.
-3. **AB 16 (qa/ka) is the highest-priority open conflict** — MM-attested, raised prior. AB 60 (ra/ma) is downgraded (LM-only).
+1. **New data is the only known lever.** New inscriptions from ongoing Minoan excavations, better GORILA TEI coverage, or a bilingual find. The oracle harness is the correct gate for any new evidence.
+2. **The libation formula is the best existing asset.** Its structure is mapped (fixed words, deity-root slots, site-specific forms). Any new inscription from Iouktas/Palaikastro/Syme could extend it.
+3. **The corpus correction should be propagated.** Any future work must use the corrected mapping (verified against Unicode).
 4. **The oracle is the gate.** Any new scorer, new evidence, or new method must pass the oracle before being trusted.
 
 ---
 
-*Phase 10–11 — the Ventris endgame was attempted, tested honestly, and failed. The verification audit separated the circular from the solid. What survives is small but real: two toponyms, three misvalued-sign flags, and a diachronic prior. The corpus remains the ceiling.*
+*Phase 10–11 — the Ventris endgame was attempted, tested honestly, and failed. The corpus correction (144 mapping errors) then invalidated most apparent positives but recovered the real libation formula. What survives is small but real: i-da, the negatives, and the formula structure. The corpus remains the ceiling.*
 
 ## Source Files
 
@@ -203,8 +239,11 @@ The one surviving positive — the diachronic prior — is a *prior*, not a valu
 | `pipeline/ventris/positional_oracle.py` | Avenue 1 (positional) |
 | `pipeline/ventris/commodity_semantics.py` | Avenue 2 (commodity enrichment) |
 | `pipeline/ventris/cryptanalysis.py` | Avenue 3 (cryptanalysis + nulls) |
-| `pipeline/ventris/diachronic.py` | Avenue 6 (diachronic prior) |
-| `pipeline/ventris/diachronic_prior.py` | Avenue 6b (prior applied) |
+| `pipeline/ventris/diachronic.py` | Avenue 6 (diachronic prior — invalidated) |
 | `data/analysis/ventris/verification_audit.md` | Claims audit (retractions) |
-| `data/analysis/ventris/diachronic_findings.md` | Avenue 6 detailed findings |
+| `data/analysis/ventris/corpus_correction.md` | The 144-mapping-error correction |
+| `data/analysis/ventris/corrected_rerun_results.md` | Re-verification before/after |
+| `data/analysis/ventris/libation_recovered.md` | The recovered libation formula |
+| `data/analysis/ventris/formula_word_findings.md` | Formula word-level analysis |
+| `data/analysis/ventris/formula_phonetic_test.md` | Formula phonetic test (negative) |
 | `data/analysis/synthesis/avenues_11.md` | Phase 11 roadmap |

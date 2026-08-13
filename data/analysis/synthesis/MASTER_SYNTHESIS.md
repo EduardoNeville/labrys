@@ -587,17 +587,17 @@ AB 46 substitutes for AB 38 (`/e/`) and AB 10 (`/u/`) at suffix positions in hig
 
 ### High-Confidence Knowledge (Multiple Convergent Sources)
 
-1. **~15–20 words with secure meanings**: ku-ro (total), po-to-ku-ro (grand total), ki-ro (owed), pa-i-to (Phaistos), i-da (Mt. Ida), su-ki-ri-ta (Sybrita), and others. pa-i-to and i-da are the most secure — verified 95 and 20 matches, robust to the da/ta conflict.
+1. **~15–20 words with secure meanings**: ku-ro (total), po-to-ku-ro (grand total), ki-ro (owed), pa-i-to (Phaistos), i-da (Mt. Ida), su-ki-ri-ta (Sybrita), and others. **Correction audit note:** on the corrected corpus, i-da has 19 exact matches (robust); pa-i-to's "95 matches" were loose fuzzy transliteration matches (PA-TO distance-1) — exact sign-sequence matches are only 2. The libation formula words (ja-sa-sa-ra-me, u-na-ka-na-si, si-ru-te, di-ki-te-te) are now verified recurring on the corrected corpus.
 
-2. **~58 syllabogram values confirmed or strongly supported** (audit-adjusted): 44 from Phase 5, 1 from Phase 7 (AB 68), 33 from Phase 8 bootstrapping (14 with real values). Audit note: of 77 "CONFIRM" signs in the bootstrap grid, 19 have value `?` (category-only), 20/77 low-confidence (<50), only 17/77 ≥70; the refined grid confirms only 44. The reliable working set is ~58 values.
+2. **~58 syllabogram values confirmed or strongly supported** (audit-adjusted): 44 from Phase 5, 1 from Phase 7 (AB 68), 33 from Phase 8 bootstrapping (14 with real values). Audit note: of 77 "CONFIRM" signs in the bootstrap grid, 19 have value `?` (category-only), 20/77 low-confidence (<50), only 17/77 ≥70; the refined grid confirms only 44. The reliable working set is ~58 values. (The corpus correction re-mapped the sign identities but did not change the grid values.)
 
 3. **4 conventional AB grid values are wrong**: AB 45 = /de/ (not /ri/), AB 47 = /ja/ (not /nu/), AB 65 = /jo/ (not /ju/), AB 68 = /ro/ (not /ro₂/) — these hold but see audit note on AB 01/38/50.
 
 4. **The morphological profile is agglutinative, suffixal, head-final, with no grammatical gender**: This constrains candidate language families and word formation patterns (supported, weakly attested).
 
-5. **AB 85 is positionally anomalous — NOT a normal medial CV syllable** (audit-adjusted): the positional fact is real and reproducible (medial_fraction 0.06, 508 occurrences, never medial). The Phase 10–11 audit RETRACTED the stronger claim "word divider" — AB 85's transliteration is `*301`/`*306` (logogram numbers), the `word_dividers` table is empty, and its grid status is CONFIRM-with-`?` at confidence 25/100. It may be a logogram, ligature, or functional sign; the interpretation is not independently established.
+5. **A 301 is a logogram, 85% inscription-initial at Haghia Triada** (correction-updated): the old "AB 85" (274 occurrences, positionally anomalous) was a MIS-MAPPED A 301. On the corrected corpus, AB 85 has 8 occurrences and is not anomalous; A 301 has 274 and is a heading/entry-opening logogram, and a fixed element (i-*301-54) in the libation formula.
 
-6. **AB 60 remains genuinely unresolved after 10 phases**: 7 evidence sources, 0 definitive resolutions. It appears alone on 46/47 inscriptions as a one-sign nodule, making Kober and formulaic analysis impossible. The Phase 11 diachronic audit adds: AB 60 is LM-only (not MM-attested), which LOWERS its prior of carrying a secure value.
+6. **AB 60 remains genuinely unresolved after 11 phases**: 7 evidence sources, 0 definitive resolutions. It appears alone on 46/47 inscriptions as a one-sign nodule, making Kober and formulaic analysis impossible. The Phase 11 diachronic prior (which would have lowered AB 60's prior as LM-only) was INVALIDATED by the corpus correction — so AB 60's status is unchanged: genuinely unresolved.
 
 7. **No language family has statistically significant lexical evidence**: Tyrsenian (Phase 3) and Anatolian (Phase 7) both fail. Minoan is an isolate by default.
 
@@ -665,17 +665,42 @@ Phase 10 was executed in three parts:
 
 **Conclusion:** The Ventris method requires *independent* phonetic evidence to test hypotheses against. The corpus contains none — every signal (LB transfer, Kober links, anchors) derives circularly from the same source. No optimizer (beam search, simulated annealing, Optuna) can recover answers an objective doesn't contain. **Grid completion is closed pending new data.**
 
-### Phase 11: Four Avenues + The Diachronic Prior
+### Phase 11: Four Avenues + The Diachronic Prior (INVALIDATED by correction)
 
 Phase 11 tested four phonetic-independent approaches after the oracle failure:
 
-- **Avenue 1 — Positional profiles**: vowel recovery failed (0.66× chance); anomaly detection flags real positional facts (AB 60, AB 80, AB 16, AB 82, AB 110). The "AB 85 word divider" interpretation was retracted (logogram transliterations, empty word_dividers table).
+- **Avenue 1 — Positional profiles**: vowel recovery failed (0.66× chance); anomaly detection flagged real positional facts — but these were later invalidated by the corpus correction (see below). The "AB 85 word divider" interpretation was retracted.
 - **Avenue 2 — Commodity semantics**: hypergeometric enrichment found AB 82↔LIVESTOCK (p=0.0002) but it was circular (HIDE ligature encoding) — retracted.
 - **Avenue 3 — Statistical cryptanalysis**: Zipf identical under shuffle, bigram ~7pp real, V-link cohesion circular — all frequency artifacts. No sequential structure beyond frequency.
 - **Avenue 4 — Graph isomorphism**: no LB corpus to compare; degenerate communities; centrality numeral-dominated. Negative.
-- **Avenue 6 — Diachronic prior (the one positive finding)**: signs attested in both MM (~1700 BCE) and LM (~1450 BCE) are 2× more likely CONFIRMED (67% vs 33%, Fisher p=0.0003). MM-attested mean confidence 51.0 vs LM-only 28.4 — independent of the phonetic evidence. Oracle LOO 1.21× lift.
+- **Avenue 6 — Diachronic prior (claimed the one positive)**: signs attested in both MM and LM periods appeared 2× more likely CONFIRMED (Fisher p=0.0003). **INVALIDATED by the corpus correction** — on corrected data p=0.1748 (not significant), LOO 0.91× (below baseline). It was an artifact of the corrupted frequencies.
 
-**Diachronic consequences:** AB 60 (ra/ma keystone) is LM-only → prior lowered. AB 16 (qa/ka) is MM-attested → prior raised. Highest-priority uncertain signs: AB 16, AB 82, AB 89, AB 90. Bayesian form: `conf_adjusted = conf_base × (2.0 if MM else 0.5)`.
+### The Corpus Correction (Phase 11 — the most important discovery)
+
+**144 Unicode→Bennett mapping errors** were found and fixed (verified against the Unicode standard and GORILA):
+- AB 85: 274 → 8 occurrences (the real sign was A 301, a logogram, now 274)
+- AB 26→AB 28, AB 51→AB 59, AB 46→AB 54, AB 49→AB 57 (systematic codepoint offsets)
+- Re-ingested all 1,720 inscriptions; the corrected DB now reads IOZa2 as
+  AB 08 AB 59 AB 28 AB 54 AB 57 (= A-TA-I-*301-WA-JA, matching GORILA)
+
+**Invalidated by the correction:** the diachronic prior, the misvalued-sign flags (AB 16/60/80), the AB 85 word-divider, the V-link cohesion (2.2×→1.18×), the AB 82↔LIVESTOCK association. They were all artifacts of the transcription bias.
+
+**Survives:** i-da (19 exact toponym matches), the negatives (oracle, cryptanalysis).
+
+### The Libation Formula Recovery (Phase 11 — the positive outcome)
+
+On the corrected corpus, the **real libation formula** became accessible:
+
+```
+A-TA-I-*301-WA-JA · JA-DI-KI-TU · JA-SA-SA-RA-ME · U-NA-KA-NA-SI ·
+I-PI-NA-MA · SI-RU-TE · TA-NA-RA-TE-U-TI-NU · I
+```
+
+- ja-sa-sa-ra-me: 9 inscriptions; u-na-ka-na-si: 6; si-ru-te: 7
+- IOZa9 = PKZa27 (identical 10-sign texts)
+- **di-ki-te-te** at Palaikastro (PKZa8/11/12/15) matches published JA-DI-KI-TE-TE-DU-PU; **di-ki-tu-ja** at Iouktas — site-specific deity-root forms
+- **ja-** prefix 3.4× enriched in libations; **-me** suffix on ja-sa-sa-ra-me and i-da-ki-sa-ri-me (ZA21b) — mountain-deity roots (Ida, Dikte)
+- **BUT: the formula is phonetically inert for value recovery** — its words are fixed sign strings whose values come from the (LB-transfer) grid. It cannot cascade into new phonetic values.
 
 See `data/analysis/synthesis/phase_summary_10_11.md` for the full consolidated synthesis.
 

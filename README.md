@@ -16,7 +16,7 @@ Systematic, multi-phase computational approach to deciphering Linear A, the unde
 | **8 — Kober Bootstrapping** | 78 CONFIRMED anchors from Kober triples + bootstrapped values | ✅ Complete |
 | **9 — Formulaic Parallelism** | Substitution frames, prefix/suffix system identification | ✅ Complete |
 | **10 — Ventris Endgame** | Grid completion via grammatical testing (10a Egyptian bridge, 10b grid completion, 10c oracle test) | ⬜ Concluded — negative |
-| **11 — Avenues** | Four phonetic-independent approaches (positional, commodity, cryptanalysis, graph) + diachronic prior | ⬜ Concluded — one positive (diachronic) |
+| **11 — Avenues + Correction** | Four phonetic-independent approaches + corpus correction (144 mapping errors) + libation formula recovery | ⬜ Concluded — correction recovered the real libation formula; diachronic prior invalidated |
 
 **Key finding (Phase 3):** No language family is distinguished — Anatolian IE, Hurro-Urartian, and Tyrsenian are all weakly compatible but inconclusive; none shows statistically significant lexical matches.
 
@@ -110,11 +110,13 @@ All 10 phases are complete, and Phase 11 (avenues after the oracle failure) is c
 - **10a** — Egyptian bridge: no detectable Egyptian loanwords (matches ≈ chance, null-model ratios 1.6–6.4×)
 - **10b** — Frequency-typology grid constraints: 28.2% of candidates eliminated, but random sampling of ~10¹⁴⁰ completions yields zero per-sign consensus
 - **10c** — Oracle ablation test: a greedy restore of hidden CONFIRMED signs recovered them at **0.6× chance** — the grammatical scorer (morphology/entropy/prefix + Kober-consistency + anchor words) has no signal to distinguish true phonetic values. No optimizer (beam, annealing, Optuna) can help an objective with no gradient.
-- **11** — Four phonetic-independent avenues (positional, commodity, cryptanalysis, graph): all negative or circular after proper controls. **One positive finding: the diachronic prior** — signs attested in both MM and LM periods are 2× more likely CONFIRMED (Fisher p=0.0003), independent of the phonetic evidence.
+- **11** — Four phonetic-independent avenues (positional, commodity, cryptanalysis, graph): all negative or circular after proper controls. **The diachronic prior (claimed positive) was INVALIDATED by the corpus correction.**
+
+**The corpus correction (the key event):** 144 Unicode→Bennett mapping errors were found and fixed (verified against the Unicode standard + GORILA). AB 85 was a mis-mapped A 301 (274→8 occurrences); the corrected DB reads the libation formula correctly. This invalidated several earlier findings (diachronic prior, misvalued signs, AB 85 word-divider, V-link cohesion, AB 82↔LIVESTOCK) — they were artifacts of the transcription bias. It also **recovered the real libation formula**: A-TA-I-*301-WA-JA · JA-DI-KI-TU · JA-SA-SA-RA-ME · U-NA-KA-NA-SI · I-PI-NA-MA · SI-RU-TE, with ja-sa-sa-ra-me (9 insns), u-na-ka-na-si (6), si-ru-te (7), and di-ki-te-te at Palaikastro. The formula is structurally real but phonetically inert for value recovery.
 
 The bottleneck is corpus size (11K tokens) and the absence of independent phonetic evidence — every signal derives circularly from Linear B transfer. **Grid completion is closed pending new data** (new inscriptions, a bilingual find, or confirmed Cypro-Minoan values).
 
-The oracle harness (`pipeline/ventris/complete.py`, `oracle_test`) remains the correct gate for any future scorer or new evidence. The diachronic prior (`pipeline/ventris/diachronic.py`) re-weights sign confidence by period attestation: `conf × (2.0 if MM else 0.5)`.
+The oracle harness (`pipeline/ventris/complete.py`, `oracle_test`) remains the correct gate for any future scorer or new evidence. The corpus correction (`data/analysis/ventris/corpus_correction.md`) is the project's most important recent event — see `data/analysis/ventris/corrected_rerun_results.md` and `data/analysis/ventris/libation_recovered.md`.
 
 ## For Agents
 
