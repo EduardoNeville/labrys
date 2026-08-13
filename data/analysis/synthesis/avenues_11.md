@@ -92,16 +92,34 @@ convergence with Avenue 1 makes AB 82 the strongest lead in the project.
 
 ## Avenue 3 — Statistical Cryptanalysis (the "cipher" framing)
 
-**Status:** ⬜ Not started
+**Status:** ✅ Concluded — negative (all signals are frequency artifacts)
 
-**Idea:** Linear A is a syllabary (each sign = one syllable), not a random
-cipher. Frequency distributions encode language structure. Zipf's law,
-mutual information, and character-level language models on *sign sequences*
-(not phonetic values) can identify:
-- Which signs are likely vowels (high frequency, high entropy neighbors)
-- Which signs are likely the same morpheme (consistent co-occurrence)
+**Method:** Three classic phonetic-independent cryptanalysis tests on raw sign
+sequences (311 sequences ≥5 syllabograms, 120 signs):
 
-Phonetic-independent, doesn't need the failed scorer.
+| Test | Real | Null (shuffled) | Verdict |
+|------|------|-----------------|---------|
+| Zipf alpha | 1.502 (R²=0.757) | **1.502 (identical)** | Pure frequency artifact — zero sequential info |
+| Bigram reduction | 26.7% | 18.1% (token-shuffle) | Mostly frequency artifact; ~7pp real, weak |
+| Kober V-link cohesion | 2.2× | — | **Circular** — V-links ARE shared-context links |
+
+**Key findings:**
+1. Zipf's law is identical under token shuffle — it measures the frequency
+   distribution (inventory usage), not sequential structure.
+2. Bigram reduction survives shuffle at ~18% — the frequency distribution
+   alone creates apparent structure (rare signs rarely follow rare signs).
+   Real sequential signal above baseline: only ~7pp, too weak to exploit.
+3. Kober V-links are *defined* as shared-following/preceding context
+   (`connections: C,V,both`), so high cohesion is circular by construction —
+   not vowel harmony, not phonological signal.
+
+**Conclusion:** The raw sign stream has almost no sequential structure beyond
+frequency. This independently confirms the oracle: no exploitable statistical
+signal in 11K tokens of formulaic administrative text. The corpus is too small
+and too repetitive for statistical or grammatical attack.
+
+**Deliverable:** `pipeline/ventris/cryptanalysis.py` (reusable tests +
+ shuffle null controls)
 
 ---
 
@@ -139,4 +157,4 @@ by the same ceiling.
 
 ---
 
-*Phase 11 — research roadmap. Avenue 1 concluded (anomaly detection works), Avenue 2 concluded (AB 82↔LIVESTOCK survives Bonferroni). Avenue 3 is next.*
+*Phase 11 — research roadmap. Avenues 1–3 concluded (1: anomaly works; 2: AB 82↔LIVESTOCK; 3: negative — all signals are frequency artifacts). Avenue 4 is next.*
