@@ -138,6 +138,15 @@ The gap between shared and LM-only confirmed rates **collapsed** on corrected da
 
 **Invalidated by the correction:** diachronic prior, misvalued-sign flags (AB 16/60/80), AB 85 word-divider, V-link cohesion (2.2×→1.18×), AB 82↔LIVESTOCK.
 
+### The Grid Purge (second correction layer)
+
+The grid itself contained **69 phantom entries** — signs with no valid codepoint:
+- 19 phantom CONFIRMED: AB 32 (i, 67), AB 68 (ro, 41 — the old "Phase 7 resolution", VOID), AB 36 (jo, 59), AB 12/14/15/18/22F/33/35/43/52/62/63/64/92/96/112/113
+- 50 phantom UNCERTAIN: all AB 100-137 (their codepoints are A 300+ logograms) + rare AB 19/21F/42/88-99
+
+The honest grid is **69 real signs: 58 CONFIRMED + 11 UNCERTAIN** (`expanded_grid_purged.csv`).
+**AB 41 (si)** is the most frequent UNCERTAIN sign (240 occurrences) and the key open target.
+
 ---
 
 ## 5. The Libation Formula Recovery
@@ -185,13 +194,15 @@ Before synthesis, every finding was audited against source data (`verification_a
 
 ## 5. What Survives — The Solid Core
 
-The verified, non-circular findings after the correction:
+The verified, non-circular findings after the correction + purge:
 
-1. **i-da (Ida) toponym** — 19 exact matches on corrected corpus. The strongest lexical anchor.
-2. **The corpus correction itself** — the mapping is now verified against the Unicode standard; the libation formula reads correctly.
+1. **The honest 69-sign grid** — 58 CONFIRMED + 11 UNCERTAIN, all with valid
+   codepoints and corpus presence (`expanded_grid_purged.csv`).
+2. **i-da (Ida) toponym** — 19 exact matches on corrected corpus. The strongest lexical anchor.
 3. **The libation formula structure** — fixed recurring words (ja-sa-sa-ra-me, u-na-ka-na-si, si-ru-te) in fixed order; di-ki-te-te at Palaikastro matches published readings.
-4. **The oracle harness** — the correct gate for any future scorer or new evidence.
-5. **The negatives** — oracle (no scorer signal), cryptanalysis (frequency artifacts).
+4. **Commodity associations** — AB 30↔LIVESTOCK and AB 28↔WINE survive Bonferroni (p=0.0001).
+5. **The oracle harness** — the correct gate for any future scorer or new evidence.
+6. **The negatives** — oracle (no scorer signal), cryptanalysis (frequency artifacts).
 
 ---
 

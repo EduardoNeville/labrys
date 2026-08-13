@@ -591,7 +591,9 @@ AB 46 substitutes for AB 38 (`/e/`) and AB 10 (`/u/`) at suffix positions in hig
 
 2. **~58 syllabogram values confirmed or strongly supported** (audit-adjusted): 44 from Phase 5, 1 from Phase 7 (AB 68), 33 from Phase 8 bootstrapping (14 with real values). Audit note: of 77 "CONFIRM" signs in the bootstrap grid, 19 have value `?` (category-only), 20/77 low-confidence (<50), only 17/77 ≥70; the refined grid confirms only 44. The reliable working set is ~58 values. (The corpus correction re-mapped the sign identities but did not change the grid values.)
 
-3. **4 conventional AB grid values are wrong**: AB 45 = /de/ (not /ri/), AB 47 = /ja/ (not /nu/), AB 65 = /jo/ (not /ju/), AB 68 = /ro/ (not /ro₂/) — these hold but see audit note on AB 01/38/50.
+**Grid purge (Phase 11):** the expanded grid has been purged to 69 real signs (58 CONFIRMED + 11 UNCERTAIN) — 69 phantom entries were removed (19 phantom CONFIRMED incl. AB 68 "ro" (Phase 7 resolution — VOID), AB 32 "i", AB 36 "jo"; 50 phantom UNCERTAIN incl. all AB 100-137). The honest grid is `expanded_grid_purged.csv`. AB 41 (si) is the most frequent UNCERTAIN sign (240 occurrences) and the key open target.
+
+3. **3 conventional AB grid values are wrong**: AB 45 = /de/ (not /ri/), AB 47 = /ja/ (not /nu/), AB 65 = /jo/ (not /ju/) — these hold but see audit note on AB 01/38/50. (The 4th, AB 68 = /ro/, is now VOID — AB 68 was a phantom sign with no valid codepoint; the "Phase 7 resolution" was based on a phantom.)
 
 4. **The morphological profile is agglutinative, suffixal, head-final, with no grammatical gender**: This constrains candidate language families and word formation patterns (supported, weakly attested).
 

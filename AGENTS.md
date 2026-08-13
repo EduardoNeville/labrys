@@ -139,8 +139,12 @@ pa-i-to (Phaistos), i-da (Mt. Ida) — HIGH confidence. di-ka-ta (Dikte), su-ki-
 
 ### Phase 10-11 Verified Findings
 - **Oracle (10c)**: the grammatical scorer has NO signal (recovery 0.6× chance, 4 runs). No optimizer can help. See `pipeline/ventris/complete.py` `oracle_test()`.
-- **Diachronic prior (11)**: signs attested in both MM and LM periods are 2× more likely CONFIRMED (Fisher p=0.0003), independent of phonetic evidence. Use `conf × (2.0 if MM-attested else 0.5)`. AB 60 is LM-only (prior lowered); AB 16 is MM-attested (prior raised). See `pipeline/ventris/diachronic.py`.
-- **Retracted**: "AB 85 word divider" (positional fact real, interpretation unsupported), "AB 82↔LIVESTOCK" (circular HIDE ligature), "Tyrsenian best fit" (no family distinguished), "78 anchors" (reliable set ~58, 17 high-conf). See `data/analysis/ventris/verification_audit.md`.
+- **Corpus correction (11)**: 144 Unicode→Bennett mapping errors + 29 phantom codepoints fixed. The corpus is now correct (IOZa2 reads A-TA-I-*301-WA-JA per GORILA). See `data/analysis/ventris/corpus_correction.md`.
+- **Grid purge (11)**: the expanded grid has 69 real signs (58 CONFIRMED + 11 UNCERTAIN). 69 phantom entries removed — including AB 68 (the old "Phase 7 ro resolution", VOID) and all AB 100-137. Use `data/analysis/bootstrapping/expanded_grid_purged.csv`, NOT the old 138-sign grid.
+- **Libation formula (11)**: recovered on the corrected corpus — ja-sa-sa-ra-me (9 insns), u-na-ka-na-si (6), si-ru-te (7); di-ki-te-te at Palaikastro. Structurally real but phonetically inert (cannot yield new values). See `data/analysis/ventris/libation_recovered.md`.
+- **Commodity (11, corrected)**: AB 30↔LIVESTOCK and AB 28↔WINE survive Bonferroni (p=0.0001).
+- **AB 41 (si)** is the most frequent UNCERTAIN sign (240 occ) and the key open target.
+- **Retracted**: "AB 85 word divider", "AB 82↔LIVESTOCK" (circular), "Tyrsenian best fit", "78 anchors", "diachronic prior" (all invalidated by correction). See `data/analysis/ventris/verification_audit.md` and `data/analysis/ventris/corrected_rerun_results.md`.
 
 ## Phase 4 ML Guidance
 

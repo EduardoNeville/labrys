@@ -16,7 +16,7 @@ Systematic, multi-phase computational approach to deciphering Linear A, the unde
 | **8 — Kober Bootstrapping** | 78 CONFIRMED anchors from Kober triples + bootstrapped values | ✅ Complete |
 | **9 — Formulaic Parallelism** | Substitution frames, prefix/suffix system identification | ✅ Complete |
 | **10 — Ventris Endgame** | Grid completion via grammatical testing (10a Egyptian bridge, 10b grid completion, 10c oracle test) | ⬜ Concluded — negative |
-| **11 — Avenues + Correction** | Four phonetic-independent approaches + corpus correction (144 mapping errors) + libation formula recovery | ⬜ Concluded — correction recovered the real libation formula; diachronic prior invalidated |
+| **11 — Avenues + Correction + Grid Purge** | Corpus correction (144 mapping errors + 29 phantoms) + libation formula recovery + grid purged to 69 real signs | ⬜ Concluded — honest 69-sign grid; formula recovered; positives were artifacts |
 
 **Key finding (Phase 3):** No language family is distinguished — Anatolian IE, Hurro-Urartian, and Tyrsenian are all weakly compatible but inconclusive; none shows statistically significant lexical matches.
 
@@ -116,7 +116,7 @@ All 10 phases are complete, and Phase 11 (avenues after the oracle failure) is c
 
 The bottleneck is corpus size (11K tokens) and the absence of independent phonetic evidence — every signal derives circularly from Linear B transfer. **Grid completion is closed pending new data** (new inscriptions, a bilingual find, or confirmed Cypro-Minoan values).
 
-The oracle harness (`pipeline/ventris/complete.py`, `oracle_test`) remains the correct gate for any future scorer or new evidence. The corpus correction (`data/analysis/ventris/corpus_correction.md`) is the project's most important recent event — see `data/analysis/ventris/corrected_rerun_results.md` and `data/analysis/ventris/libation_recovered.md`.
+The oracle harness (`pipeline/ventris/complete.py`, `oracle_test`) remains the correct gate for any future scorer or new evidence. The corpus correction (`data/analysis/ventris/corpus_correction.md`) and grid purge (`data/analysis/ventris/b1b2_phantom_finding.md`) are the key recent events — see `data/analysis/ventris/corrected_rerun_results.md`, `data/analysis/ventris/libation_recovered.md`, and the honest grid `data/analysis/bootstrapping/expanded_grid_purged.csv` (58 CONFIRMED + 11 UNCERTAIN).
 
 ## For Agents
 
