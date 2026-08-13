@@ -135,7 +135,12 @@ AB 16 (qa), AB 60 (ra vs ma conflict), AB 80 (ma), AB 22 (pi), AB 02 (ro/i dual)
 No family is distinguished. Phase 3 candidate ranking: Anatolian IE and Hurro-Urartian tie at #1 (score 8), Tyrsenian #3 (score 7) — ALL marked "INCONCLUSIVE (tentative)". Tyrsenian shows the best *structural* WALS profile in some readings but is lexically weak (0 exact Swadesh matches, p=1.0). No family confirmed; several weakly compatible.
 
 ### Most Secure Place Names
-pa-i-to (Phaistos), i-da (Mt. Ida) — HIGH confidence. di-ka-ta (Dikte), su-ki-ri-ta (Sybrita) had exact matches.
+pa-i-to (Phaistos), i-da (Mt. Ida) — HIGH confidence. di-ka-ta (Dikte), su-ki-ri-ta (Sybrita) had exact matches. Verified: 95 Phaistos matches (dist=1), 20 Ida matches robust to the da/ta conflict.
+
+### Phase 10-11 Verified Findings
+- **Oracle (10c)**: the grammatical scorer has NO signal (recovery 0.6× chance, 4 runs). No optimizer can help. See `pipeline/ventris/complete.py` `oracle_test()`.
+- **Diachronic prior (11)**: signs attested in both MM and LM periods are 2× more likely CONFIRMED (Fisher p=0.0003), independent of phonetic evidence. Use `conf × (2.0 if MM-attested else 0.5)`. AB 60 is LM-only (prior lowered); AB 16 is MM-attested (prior raised). See `pipeline/ventris/diachronic.py`.
+- **Retracted**: "AB 85 word divider" (positional fact real, interpretation unsupported), "AB 82↔LIVESTOCK" (circular HIDE ligature), "Tyrsenian best fit" (no family distinguished), "78 anchors" (reliable set ~58, 17 high-conf). See `data/analysis/ventris/verification_audit.md`.
 
 ## Phase 4 ML Guidance
 

@@ -16,6 +16,7 @@ Systematic, multi-phase computational approach to deciphering Linear A, the unde
 | **8 — Kober Bootstrapping** | 78 CONFIRMED anchors from Kober triples + bootstrapped values | ✅ Complete |
 | **9 — Formulaic Parallelism** | Substitution frames, prefix/suffix system identification | ✅ Complete |
 | **10 — Ventris Endgame** | Grid completion via grammatical testing (10a Egyptian bridge, 10b grid completion, 10c oracle test) | ⬜ Concluded — negative |
+| **11 — Avenues** | Four phonetic-independent approaches (positional, commodity, cryptanalysis, graph) + diachronic prior | ⬜ Concluded — one positive (diachronic) |
 
 **Key finding (Phase 3):** No language family is distinguished — Anatolian IE, Hurro-Urartian, and Tyrsenian are all weakly compatible but inconclusive; none shows statistically significant lexical matches.
 
@@ -104,15 +105,16 @@ labrys/
 
 ## What Remains
 
-All 10 phases are complete. Phase 10 (the Ventris endgame) concluded with a **negative result**:
+All 10 phases are complete, and Phase 11 (avenues after the oracle failure) is concluded. The outcome is honest and verified:
 
 - **10a** — Egyptian bridge: no detectable Egyptian loanwords (matches ≈ chance, null-model ratios 1.6–6.4×)
 - **10b** — Frequency-typology grid constraints: 28.2% of candidates eliminated, but random sampling of ~10¹⁴⁰ completions yields zero per-sign consensus
 - **10c** — Oracle ablation test: a greedy restore of hidden CONFIRMED signs recovered them at **0.6× chance** — the grammatical scorer (morphology/entropy/prefix + Kober-consistency + anchor words) has no signal to distinguish true phonetic values. No optimizer (beam, annealing, Optuna) can help an objective with no gradient.
+- **11** — Four phonetic-independent avenues (positional, commodity, cryptanalysis, graph): all negative or circular after proper controls. **One positive finding: the diachronic prior** — signs attested in both MM and LM periods are 2× more likely CONFIRMED (Fisher p=0.0003), independent of the phonetic evidence.
 
 The bottleneck is corpus size (11K tokens) and the absence of independent phonetic evidence — every signal derives circularly from Linear B transfer. **Grid completion is closed pending new data** (new inscriptions, a bilingual find, or confirmed Cypro-Minoan values).
 
-The oracle harness (`pipeline/ventris/complete.py`, `oracle_test`) remains the correct gate for any future scorer or new evidence.
+The oracle harness (`pipeline/ventris/complete.py`, `oracle_test`) remains the correct gate for any future scorer or new evidence. The diachronic prior (`pipeline/ventris/diachronic.py`) re-weights sign confidence by period attestation: `conf × (2.0 if MM else 0.5)`.
 
 ## For Agents
 

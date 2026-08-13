@@ -587,17 +587,17 @@ AB 46 substitutes for AB 38 (`/e/`) and AB 10 (`/u/`) at suffix positions in hig
 
 ### High-Confidence Knowledge (Multiple Convergent Sources)
 
-1. **15–20 words with secure meanings**: ku-ro (total), po-to-ku-ro (grand total), ki-ro (owed), pa-i-to (Phaistos), i-da (Mt. Ida), su-ki-ri-ta (Sybrita), and others
+1. **~15–20 words with secure meanings**: ku-ro (total), po-to-ku-ro (grand total), ki-ro (owed), pa-i-to (Phaistos), i-da (Mt. Ida), su-ki-ri-ta (Sybrita), and others. pa-i-to and i-da are the most secure — verified 95 and 20 matches, robust to the da/ta conflict.
 
-2. **78 of 138 syllabogram values confirmed or strongly supported**: 44 from Phase 5, 1 from Phase 7 (AB 68), 33 from Phase 8 bootstrapping (14 with real values)
+2. **~58 syllabogram values confirmed or strongly supported** (audit-adjusted): 44 from Phase 5, 1 from Phase 7 (AB 68), 33 from Phase 8 bootstrapping (14 with real values). Audit note: of 77 "CONFIRM" signs in the bootstrap grid, 19 have value `?` (category-only), 20/77 low-confidence (<50), only 17/77 ≥70; the refined grid confirms only 44. The reliable working set is ~58 values.
 
-3. **4 conventional AB grid values are wrong**: AB 45 = /de/ (not /ri/), AB 47 = /ja/ (not /nu/), AB 65 = /jo/ (not /ju/), AB 68 = /ro/ (not /ro₂/)
+3. **4 conventional AB grid values are wrong**: AB 45 = /de/ (not /ri/), AB 47 = /ja/ (not /nu/), AB 65 = /jo/ (not /ju/), AB 68 = /ro/ (not /ro₂/) — these hold but see audit note on AB 01/38/50.
 
-4. **The morphological profile is agglutinative, suffixal, head-final, with no grammatical gender**: This constrains candidate language families and word formation patterns
+4. **The morphological profile is agglutinative, suffixal, head-final, with no grammatical gender**: This constrains candidate language families and word formation patterns (supported, weakly attested).
 
-5. **AB 85 is a logogram or word divider, not a phonetic syllabogram**: Seven independent evidence streams converge — positional anomaly (Phase 2), CM evidence (Phase 5), Kober network position (Phase 7), formulaic substitution patterns (Phase 9)
+5. **AB 85 is positionally anomalous — NOT a normal medial CV syllable** (audit-adjusted): the positional fact is real and reproducible (medial_fraction 0.06, 508 occurrences, never medial). The Phase 10–11 audit RETRACTED the stronger claim "word divider" — AB 85's transliteration is `*301`/`*306` (logogram numbers), the `word_dividers` table is empty, and its grid status is CONFIRM-with-`?` at confidence 25/100. It may be a logogram, ligature, or functional sign; the interpretation is not independently established.
 
-6. **AB 60 remains genuinely unresolved after 9 phases**: 7 evidence sources, 0 definitive resolutions. It appears alone on 46/47 inscriptions as a one-sign nodule, making Kober and formulaic analysis impossible.
+6. **AB 60 remains genuinely unresolved after 10 phases**: 7 evidence sources, 0 definitive resolutions. It appears alone on 46/47 inscriptions as a one-sign nodule, making Kober and formulaic analysis impossible. The Phase 11 diachronic audit adds: AB 60 is LM-only (not MM-attested), which LOWERS its prior of carrying a secure value.
 
 7. **No language family has statistically significant lexical evidence**: Tyrsenian (Phase 3) and Anatolian (Phase 7) both fail. Minoan is an isolate by default.
 
@@ -664,6 +664,20 @@ Phase 10 was executed in three parts:
 - **10c — Oracle ablation test**: A greedy restore of hidden CONFIRMED signs recovered them at **0.6× chance** (0.6% vs 5.5% chance). Even in the ideal per-sign isolation case, the true value ranked 52nd/70, excluded, or 48th/70 — the argmax was never right. The scorer has **no signal**. Strengthening attempts (Kober-consistency term, held-out cross-entropy, known-word anchors) did not lift recovery above chance.
 
 **Conclusion:** The Ventris method requires *independent* phonetic evidence to test hypotheses against. The corpus contains none — every signal (LB transfer, Kober links, anchors) derives circularly from the same source. No optimizer (beam search, simulated annealing, Optuna) can recover answers an objective doesn't contain. **Grid completion is closed pending new data.**
+
+### Phase 11: Four Avenues + The Diachronic Prior
+
+Phase 11 tested four phonetic-independent approaches after the oracle failure:
+
+- **Avenue 1 — Positional profiles**: vowel recovery failed (0.66× chance); anomaly detection flags real positional facts (AB 60, AB 80, AB 16, AB 82, AB 110). The "AB 85 word divider" interpretation was retracted (logogram transliterations, empty word_dividers table).
+- **Avenue 2 — Commodity semantics**: hypergeometric enrichment found AB 82↔LIVESTOCK (p=0.0002) but it was circular (HIDE ligature encoding) — retracted.
+- **Avenue 3 — Statistical cryptanalysis**: Zipf identical under shuffle, bigram ~7pp real, V-link cohesion circular — all frequency artifacts. No sequential structure beyond frequency.
+- **Avenue 4 — Graph isomorphism**: no LB corpus to compare; degenerate communities; centrality numeral-dominated. Negative.
+- **Avenue 6 — Diachronic prior (the one positive finding)**: signs attested in both MM (~1700 BCE) and LM (~1450 BCE) are 2× more likely CONFIRMED (67% vs 33%, Fisher p=0.0003). MM-attested mean confidence 51.0 vs LM-only 28.4 — independent of the phonetic evidence. Oracle LOO 1.21× lift.
+
+**Diachronic consequences:** AB 60 (ra/ma keystone) is LM-only → prior lowered. AB 16 (qa/ka) is MM-attested → prior raised. Highest-priority uncertain signs: AB 16, AB 82, AB 89, AB 90. Bayesian form: `conf_adjusted = conf_base × (2.0 if MM else 0.5)`.
+
+See `data/analysis/synthesis/phase_summary_10_11.md` for the full consolidated synthesis.
 
 ### Why It Failed
 
@@ -747,6 +761,10 @@ labrys/
 | `data/analysis/synthesis/phase_summary_1_3.md` | Detailed Phase 1-3 summary |
 | `data/analysis/synthesis/phase_summary_4_6.md` | Detailed Phase 4-6 summary |
 | `data/analysis/synthesis/phase_summary_7_9.md` | Detailed Phase 7-9 summary |
+| `data/analysis/synthesis/phase_summary_10_11.md` | Detailed Phase 10-11 summary (Ventris endgame + avenues) |
+| `data/analysis/synthesis/avenues_11.md` | Phase 11 research roadmap |
+| `data/analysis/ventris/verification_audit.md` | Claims audit (retractions) |
+| `data/analysis/ventris/diachronic_findings.md` | Diachronic prior detailed findings |
 | `data/analysis/comparative/refined_phonetic_grid.csv` | Current state of all 138 signs |
 | `data/analysis/bootstrapping/expanded_grid.csv` | Post-Phase 8 grid (78 CONFIRMED) |
 | `data/analysis/kober/triple_patterns.csv` | 7,305 Kober triples |
