@@ -99,7 +99,8 @@ Total mapping entries: 160
 
 | Sign Type | Count |
 |-----------|-------|
-| syllabogram | 11018 |
+| syllabogram | 10389 |
+| logogram | 629 |
 
 ### Top 10 Sites
 
@@ -140,7 +141,8 @@ Total mapping entries: 160
 
 The built-in `BENNETT_TO_UNICODE` mapping table contains 160 entries covering:
 
-- **syllabogram**: 160 entries
+- **syllabogram**: 82 entries
+- **logogram**: 78 entries
 
 The validation checks:
 - No duplicate Bennett IDs

@@ -1,1344 +1,894 @@
-gorila_id,site,object_type,commodity_class,logogram_bennett,logogram_transliteration,logogram_sequence,before_-1_bennett,before_-1_translit,before_-1_type,before_-2_bennett,before_-2_translit,before_-2_type,before_-3_bennett,before_-3_translit,before_-3_type,after_1_bennett,after_1_translit,after_1_type,after_2_bennett,after_2_translit,after_2_type,after_3_bennett,after_3_translit,after_3_type
-HT6a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 372,"
-",17,AB 49,24,syllabogram,,"
-",syllabogram,,JA+RU,syllabogram,A 566,MA,logogram,AB 65,10,syllabogram,AB 109,"
+gorila_id,site,object_type,commodity_class,logogram_bennett,logogram_transliteration,logogram_sequence,before_-1_bennett,before_-1_translit,before_-1_type,before_-2_bennett,before_-2_translit,before_-2_type,after_1_bennett,after_1_translit,after_1_type,after_2_bennett,after_2_translit,after_2_type,after_3_bennett,after_3_translit,after_3_type
+HT4,Haghia Triada - Portico 11 and Room 13,tablet (page-shaped),LIVESTOCK,A 306,TI,2,,𐝫,syllabogram,,*306,syllabogram,AB 37,KA,syllabogram,AB 77,A,syllabogram,AB 08,RE,syllabogram
+HT5,Haghia Triada - Portico 11 and Room 13,tablet (page-shaped),LIVESTOCK,A 307,"
+",2,,𐝫,syllabogram,,*307,syllabogram,,MA,syllabogram,,30,syllabogram,AB 80,"
 ",syllabogram
-HT6a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,vase,45,AB 29,pu,syllabogram,,𐄐,syllabogram,,𐄋,syllabogram,,,,,,,,,
-HT6b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 6,≈,5,AB 29,NI,syllabogram,AB 59,MI,syllabogram,,3,syllabogram,AB 52,"
-",syllabogram,AB 32,RA,syllabogram,AB 09,TI,syllabogram
-HT6b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,¹⁄₄,23,AB 01,DA,syllabogram,AB 56,KI,syllabogram,,3,syllabogram,AB 30,SA,syllabogram,AB 65,MA,syllabogram,,35,syllabogram
-HT6b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,vase,33,AB 06,17,syllabogram,,¹⁄₂,syllabogram,,𐄍,syllabogram,,,,,,,,,
-HT8a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,9,AB 52,RA,syllabogram,AB 32,TI,syllabogram,,1,syllabogram,AB 03,PA,syllabogram,,3,syllabogram,VASE 7,¹⁄₂,logogram
-HT8a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,12,VASE 7,¹⁄₂,logogram,AB 03,PA,syllabogram,,3,syllabogram,AB 04,TE,syllabogram,AB 85,*301,syllabogram,,2,syllabogram
-HT8a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,¹⁄₄,23,AB 36,SI,syllabogram,AB 56,KI,syllabogram,AB 52,RA,syllabogram,AB 56,KI,syllabogram,AB 24,RE,syllabogram,AB 51,TA,syllabogram
-HT8a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,28,AB 24,RE,syllabogram,AB 51,TA,syllabogram,AB 06,NA,syllabogram,,,,,,,,,
-HT8b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,³⁄₈,13,AB 96,*310,syllabogram,AB 26,I,syllabogram,,1,syllabogram,VASE 5,"
-",logogram,AB 62,PA,syllabogram,AB 03,¹⁄₂,syllabogram
-HT8b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 5,"
-",14,AB 26,I,syllabogram,,1,syllabogram,VASE 4,³⁄₈,logogram,AB 62,PA,syllabogram,AB 03,¹⁄₂,syllabogram,VASE 7,"
-",logogram
-HT8b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,"
-",17,VASE 5,"
-",logogram,AB 62,PA,syllabogram,AB 03,¹⁄₂,syllabogram,AB 03,JA,syllabogram,AB 49,RE,syllabogram,AB 24,1,syllabogram
-HT8b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 5,"
-",22,AB 49,RE,syllabogram,AB 24,1,syllabogram,,¹⁄₈,syllabogram,A 392,¹⁄₂,logogram,VASE 7,"
-",logogram,VASE 7,vase,logogram
-HT8b,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 392,¹⁄₂,23,AB 24,1,syllabogram,,¹⁄₈,syllabogram,VASE 5,"
-",logogram,VASE 7,"
-",logogram,VASE 7,vase,logogram,,,
-HT8b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,"
-",24,,¹⁄₈,syllabogram,VASE 5,"
-",logogram,A 392,¹⁄₂,logogram,VASE 7,vase,logogram,,,,,,
-HT8b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,vase,25,VASE 5,"
-",logogram,A 392,¹⁄₂,logogram,VASE 7,"
-",logogram,,,,,,,,,
-HT9a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,26,AB 07,DI,syllabogram,AB 52,RA,syllabogram,,2,syllabogram,AB 51,TA,syllabogram,AB 26,I,syllabogram,AB 76,AROM,syllabogram
-HT9a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,31,AB 26,I,syllabogram,AB 76,AROM,syllabogram,,2,syllabogram,AB 08,A,syllabogram,AB 23,RU,syllabogram,,4,syllabogram
-HT9a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,¹⁄₄,35,AB 08,A,syllabogram,AB 23,RU,syllabogram,,4,syllabogram,AB 66,KU,syllabogram,AB 02,RO,syllabogram,,31,syllabogram
-HT10a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,"
-",14,AB 24,RE,syllabogram,,16,syllabogram,,¹⁄₂,syllabogram,AB 10,*325,syllabogram,AB 113,ZA,syllabogram,AB 14,4,syllabogram
-HT10a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,RI,30,AB 89,¹⁄₂,syllabogram,AB 23,"
-",syllabogram,,DA,syllabogram,AB 01,8,syllabogram,AB 45,"
-",syllabogram,AB 01,ME,syllabogram
-HT10b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,"
-",14,AB 98,TA,syllabogram,AB 51,6,syllabogram,,¹⁄₂,syllabogram,AB 62,SA,syllabogram,AB 30,RU,syllabogram,AB 23,6,syllabogram
-HT10b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,vase,23,AB 06,TI,syllabogram,AB 32,9,syllabogram,,¹⁄₄,syllabogram,,,,,,,,,
-HT12,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 350,QA2+[?]+PU,13,AB 57,TU,syllabogram,AB 22f,NE,syllabogram,,𐄁,syllabogram,,1,syllabogram,AB 33,E,syllabogram,,30,syllabogram
-HT12,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 389,*560,17,,1,syllabogram,AB 33,E,syllabogram,,30,syllabogram,,𐄁,syllabogram,AB 72,*118,syllabogram,,5,syllabogram
-HT12,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 351,QA2+[?]+PU+RE,25,,3,syllabogram,AB 29,NI,syllabogram,,1,syllabogram,VASE 8,¹⁄₁₆,logogram,AB 01,DA,syllabogram,AB 26,I,syllabogram
-HT12,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,¹⁄₁₆,26,AB 29,NI,syllabogram,,1,syllabogram,A 351,QA2+[?]+PU+RE,logogram,AB 01,DA,syllabogram,AB 26,I,syllabogram,,50,syllabogram
-HT13,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,"
-",12,AB 14,ZA,syllabogram,,5,syllabogram,,¹⁄₂,syllabogram,,TE,syllabogram,AB 04,56,syllabogram,AB 57,"
-",syllabogram
-HT13,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,NI,22,AB 56,"
-",syllabogram,,KU,syllabogram,,ZU,syllabogram,AB 66,"
-",syllabogram,AB 64,DA,syllabogram,AB 29,SI,syllabogram
-HT13,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,vase,42,AB 02,ro,syllabogram,,𐄙,syllabogram,,𐄒,syllabogram,,,,,,,,,
-HT16,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 5,¹⁄₈,7,AB 07,DI,syllabogram,AB 06,NA,syllabogram,AB 10,U,syllabogram,,𐄁,syllabogram,AB 46,WA,syllabogram,VASE 2,¹⁄₃,logogram
-HT16,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 2,¹⁄₃,10,VASE 5,¹⁄₈,logogram,,𐄁,syllabogram,AB 46,WA,syllabogram,A 724,*188+KU,fraction,VASE 4,³⁄₈,logogram,VASE 5,"
-",logogram
-HT16,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,³⁄₈,12,AB 46,WA,syllabogram,VASE 2,¹⁄₃,logogram,A 724,*188+KU,fraction,VASE 5,"
-",logogram,AB 30,PO,syllabogram,AB 11,ZE,syllabogram
-HT16,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 5,"
-",13,VASE 2,¹⁄₃,logogram,A 724,*188+KU,fraction,VASE 4,³⁄₈,logogram,AB 30,PO,syllabogram,AB 11,ZE,syllabogram,AB 60,¹⁄₁₆,syllabogram
-HT16,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,vase,17,AB 30,PO,syllabogram,AB 11,ZE,syllabogram,AB 60,¹⁄₁₆,syllabogram,,,,,,,,,
-HT19,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,11,AB 30,SA,syllabogram,AB 02,RO,syllabogram,,5,syllabogram,AB 44,DU,syllabogram,AB 12,ME,syllabogram,AB 07,DI,syllabogram
-HT19,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,vase,17,AB 07,DI,syllabogram,,43,syllabogram,,¹⁄₂,syllabogram,,,,,,,,,
-HT20,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,¹⁄₄,7,AB 66,KU,syllabogram,AB 65,MA,syllabogram,AB 54,JU,syllabogram,AB 63,QE,syllabogram,AB 66,KU,syllabogram,AB 24,RE,syllabogram
-HT20,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,13,AB 24,RE,syllabogram,,𐄁,syllabogram,AB 07,DI,syllabogram,AB 18,*21M,syllabogram,VASE 5,¹⁄₈,logogram,AB 30,SA,syllabogram
-HT20,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 5,¹⁄₈,15,AB 07,DI,syllabogram,VASE 7,¹⁄₂,logogram,AB 18,*21M,syllabogram,AB 30,SA,syllabogram,AB 24,RE,syllabogram,AB 54,JU,syllabogram
-HT20,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 5,¹⁄₈,19,AB 30,SA,syllabogram,AB 24,RE,syllabogram,AB 54,JU,syllabogram,AB 46,WA,syllabogram,VASE 4,¹⁄₄,logogram,A 724,*188+KU,fraction
-HT20,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,¹⁄₄,21,AB 54,JU,syllabogram,VASE 5,¹⁄₈,logogram,AB 46,WA,syllabogram,A 724,*188+KU,fraction,VASE 7,¹⁄₂,logogram,,,
-HT20,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,23,AB 46,WA,syllabogram,VASE 4,¹⁄₄,logogram,A 724,*188+KU,fraction,,,,,,,,,
-HT21,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,vase,22,A 568,1,logogram,AB 75,?,syllabogram,,𐄇,syllabogram,,,,,,,,,
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 2,¹⁄₃,4,AB 06,NA,syllabogram,,𐄁,syllabogram,AB 87,CYP,syllabogram,AB 92,*308,syllabogram,VASE 6,≈,logogram,A 730,"
-",fraction
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 6,≈,6,AB 87,CYP,syllabogram,VASE 2,¹⁄₃,logogram,AB 92,*308,syllabogram,A 730,"
-",fraction,VASE 6,OLE+NE,logogram,MET D,¹⁄₆,metrical
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),OLIVE_OIL,VASE 6,OLE+NE,8,AB 92,*308,syllabogram,VASE 6,≈,logogram,A 730,"
-",fraction,MET D,¹⁄₆,metrical,VASE 6,"
-",logogram,NUM 10,≈,numeral
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 6,"
-",10,A 730,"
-",fraction,VASE 6,OLE+NE,logogram,MET D,¹⁄₆,metrical,NUM 10,≈,numeral,VASE 6,¹⁄₆,logogram,A 381,OLE+RI,logogram
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 6,¹⁄₆,12,MET D,¹⁄₆,metrical,VASE 6,"
-",logogram,NUM 10,≈,numeral,A 381,OLE+RI,logogram,VASE 6,≈,logogram,AB 77,"
-",syllabogram
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),OLIVE_OIL,A 381,OLE+RI,13,VASE 6,"
-",logogram,NUM 10,≈,numeral,VASE 6,¹⁄₆,logogram,VASE 6,≈,logogram,AB 77,"
-",syllabogram,,MI+JA+RU,syllabogram
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 6,≈,14,NUM 10,≈,numeral,VASE 6,¹⁄₆,logogram,A 381,OLE+RI,logogram,AB 77,"
-",syllabogram,,MI+JA+RU,syllabogram,A 348,¹⁄₆,logogram
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 348,¹⁄₆,17,VASE 6,≈,logogram,AB 77,"
-",syllabogram,,MI+JA+RU,syllabogram,,"
-",syllabogram,A 349,10,logogram,,"
-",syllabogram
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 349,10,19,,MI+JA+RU,syllabogram,A 348,¹⁄₆,logogram,,"
-",syllabogram,,"
-",syllabogram,AB 33,10,syllabogram,,"
-",syllabogram
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,*21F,28,AB 45,E,syllabogram,AB 57,17,syllabogram,AB 13,"
-",syllabogram,AB 30,TU,syllabogram,AB 30,QA,syllabogram,AB 12,¹⁄₁₆,syllabogram
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,"
-",32,AB 30,TU,syllabogram,AB 30,QA,syllabogram,AB 12,¹⁄₁₆,syllabogram,A 365,SA,logogram,,ME,syllabogram,AB 58,"
-",syllabogram
-HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 365,SA,33,AB 30,QA,syllabogram,AB 12,¹⁄₁₆,syllabogram,VASE 8,"
-",logogram,,ME,syllabogram,AB 58,"
-",syllabogram,AB 23,SI+ME,syllabogram
-HT23b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 2,¹⁄₃,3,AB 29,NI,syllabogram,AB 52,RA,syllabogram,AB 87,CYP,syllabogram,AB 86,OLE,syllabogram,,¹⁄₃,syllabogram,VASE 2,"
-",logogram
-HT23b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 2,"
-",6,VASE 2,¹⁄₃,logogram,AB 86,OLE,syllabogram,,¹⁄₃,syllabogram,A 381,"
-",logogram,,"
-",syllabogram,AB 21f,QA2+[?]+PU,syllabogram
-HT23b,Haghia Triada - Villa Magazine,tablet (page-shaped),OLIVE_OIL,A 381,"
-",7,AB 86,OLE,syllabogram,,¹⁄₃,syllabogram,VASE 2,"
-",logogram,,"
-",syllabogram,AB 21f,QA2+[?]+PU,syllabogram,,"
-",syllabogram
-HT23b,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 350,1,11,,"
-",syllabogram,AB 21f,QA2+[?]+PU,syllabogram,,"
-",syllabogram,,"
-",syllabogram,A 348,"
-",logogram,,E,syllabogram
-HT23b,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 348,"
-",13,,"
-",syllabogram,A 350,1,logogram,,"
-",syllabogram,,E,syllabogram,,"
-",syllabogram,AB 33,ra?,syllabogram
-HT24a,Haghia Triada - Corridor 9 and Vestibule 26,tablet (page-shaped),VESSELS,VASE 7,RU,16,,9,syllabogram,,"
-",syllabogram,,MA,syllabogram,AB 65,6,syllabogram,AB 23,"
-",syllabogram,AB 12,PA,syllabogram
-HT24a,Haghia Triada - Corridor 9 and Vestibule 26,tablet (page-shaped),UNKNOWN_COMMODITY,A 389,[?],32,AB 23,mu,syllabogram,AB 26,ru,syllabogram,AB 58,?,syllabogram,,𐝫,syllabogram,,,,,,
-HT24b,Haghia Triada - Corridor 9 and Vestibule 26,tablet (page-shaped),UNKNOWN_COMMODITY,A 366,KI,4,AB 72,1,syllabogram,,³⁄₄,syllabogram,A 568,"
-",logogram,AB 72,*118,syllabogram,,1,syllabogram,A 568,³⁄₄,logogram
-HT24b,Haghia Triada - Corridor 9 and Vestibule 26,tablet (page-shaped),UNKNOWN_COMMODITY,A 373,*539,8,AB 72,*118,syllabogram,,1,syllabogram,A 568,³⁄₄,logogram,AB 72,*118,syllabogram,,1,syllabogram,,,
-HT26b,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 377,12,14,AB 64,NI,syllabogram,AB 29,4,syllabogram,,"
-",syllabogram,,"
-",syllabogram,,I,syllabogram,AB 26,2,syllabogram
-HT27a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 2,vase,52,AB 87,?,syllabogram,,𐄏,syllabogram,A 568,[?],logogram,AB 29,pu,syllabogram,,𐄐,syllabogram,VASE 2,vase,logogram
-HT27a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 2,vase,55,VASE 2,vase,logogram,AB 29,pu,syllabogram,,𐄐,syllabogram,AB 77,ka,syllabogram,,𐄍,syllabogram,,,
-HT28a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,13,A 728,OLE+U,fraction,,2,syllabogram,MET A,OLE+KI,metrical,MET E,OLE+MI,metrical,,1,syllabogram,MET D,OLE+TU,metrical
-HT28a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 10,𐝉,17,MET E,OLE+MI,metrical,,1,syllabogram,MET D,OLE+TU,metrical,AB 30,SA,syllabogram,AB 61,RA₂,syllabogram,A 726,OLE+DI,fraction
-HT28a,Haghia Triada - Villa Magazine,tablet (page-shaped),MANPOWER,A 394,VIR+KA,26,,2,syllabogram,AB 77,VIN,syllabogram,,3,syllabogram,AB 77,VIN,syllabogram,,6,syllabogram,AB 08,A,syllabogram
-HT28b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,¹⁄₄,35,,3,syllabogram,AB 77,VIN,syllabogram,,3,syllabogram,,,,,,,,,
-HT30,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,7,9,,¹⁄₂,syllabogram,,"
-",syllabogram,,NI,syllabogram,AB 29,"
-",syllabogram,,VIN,syllabogram,VASE 3,8,logogram
-HT30,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 3,8,12,VASE 7,7,logogram,AB 29,"
-",syllabogram,,VIN,syllabogram,AB 77,"
-",syllabogram,,OLE+TA,syllabogram,VASE 7,𐝓,logogram
-HT30,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,𐝓,15,VASE 3,8,logogram,AB 77,"
-",syllabogram,,OLE+TA,syllabogram,NUM 100,QA2+[?]+PU,numeral,A 566,¹⁄₅,logogram,A 350,SA,logogram
-HT30,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 350,SA,18,VASE 7,𐝓,logogram,NUM 100,QA2+[?]+PU,numeral,A 566,¹⁄₅,logogram,VASE 3,RA,logogram,AB 30,¹⁄₂,syllabogram,AB 52,"
-",syllabogram
-HT30,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 3,RA,19,NUM 100,QA2+[?]+PU,numeral,A 566,¹⁄₅,logogram,A 350,SA,logogram,AB 30,¹⁄₂,syllabogram,AB 52,"
-",syllabogram,AB 52,*23M,syllabogram
-HT30,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,1,23,AB 30,¹⁄₂,syllabogram,AB 52,"
-",syllabogram,AB 52,*23M,syllabogram,AB 22,KI,syllabogram,,RO,syllabogram,AB 56,CYP,syllabogram
-HT30,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,1,34,AB 29,VIN,syllabogram,A 566,¹⁄₂,logogram,AB 77,*23M,syllabogram,AB 22,¹⁄₅,syllabogram,,"
-",syllabogram,,OLE+TA,syllabogram
-HT30,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 3,𐝫,39,,"
-",syllabogram,,OLE+TA,syllabogram,,"
-",syllabogram,NUM 100,100,numeral,VASE 3,vase,logogram,,𐝫,syllabogram
-HT30,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 3,vase,41,,"
-",syllabogram,VASE 3,𐝫,logogram,NUM 100,100,numeral,,𐝫,syllabogram,,,,,,
-HT31,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,A 333,VS,8,AB 43,KO,syllabogram,AB 58,𐄁,syllabogram,,*410,syllabogram,,𐝫,syllabogram,,5,syllabogram,,"
-",syllabogram
-HT31,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 325,QA,12,,𐝫,syllabogram,,5,syllabogram,,"
-",syllabogram,AB 13,PA₃,syllabogram,AB 48,10,syllabogram,,"
-",syllabogram
-HT31,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,A 338,VS,16,AB 13,PA₃,syllabogram,AB 48,10,syllabogram,,"
-",syllabogram,AB 50,SU,syllabogram,AB 43,PU,syllabogram,,10,syllabogram
-HT31,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,A 339,VS,21,AB 43,PU,syllabogram,,10,syllabogram,,*416,syllabogram,AB 62,KA,syllabogram,AB 02,RO,syllabogram,AB 48,PA₃,syllabogram
-HT31,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 325,"
-",38,AB 65,NA,syllabogram,AB 111,"
-",syllabogram,AB 06,*815,syllabogram,,*815,syllabogram,A 325,PA₃,logogram,AB 50,RA,syllabogram
-HT31,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 325,PA₃,40,AB 06,*815,syllabogram,A 325,"
-",logogram,,*815,syllabogram,AB 50,RA,syllabogram,AB 48,300,syllabogram,AB 52,"
-",syllabogram
-HT31,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 325,TA,45,AB 48,300,syllabogram,AB 52,"
-",syllabogram,,*815,syllabogram,AB 03,QE,syllabogram,AB 51,3000,syllabogram,AB 63,?,syllabogram
-HT32,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,5,AB 61,RA₂,syllabogram,,𐄁,syllabogram,AB 92,*308,syllabogram,A 730,OLE+NE,fraction,VASE 7,𐝆𐝇,logogram,VASE 8,"
-",logogram
-HT32,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,𐝆𐝇,7,AB 92,*308,syllabogram,VASE 7,¹⁄₂,logogram,A 730,OLE+NE,fraction,VASE 8,"
-",logogram,A 350,1,logogram,,¹⁄₁₆,syllabogram
-HT32,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,"
-",8,VASE 7,¹⁄₂,logogram,A 730,OLE+NE,fraction,VASE 7,𐝆𐝇,logogram,A 350,1,logogram,,¹⁄₁₆,syllabogram,VASE 8,"
-",logogram
-HT32,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 350,1,9,A 730,OLE+NE,fraction,VASE 7,𐝆𐝇,logogram,VASE 8,"
-",logogram,,¹⁄₁₆,syllabogram,VASE 8,"
-",logogram,A 348,1,logogram
-HT32,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,"
-",11,VASE 8,"
-",logogram,A 350,1,logogram,,¹⁄₁₆,syllabogram,A 348,1,logogram,,"
-",syllabogram,A 381,1,logogram
-HT32,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 348,1,12,A 350,1,logogram,,¹⁄₁₆,syllabogram,VASE 8,"
-",logogram,,"
-",syllabogram,A 381,1,logogram,,"
-",syllabogram
-HT32,Haghia Triada - Villa Magazine,tablet (page-shaped),OLIVE_OIL,A 381,1,14,VASE 8,"
-",logogram,A 348,1,logogram,,"
-",syllabogram,,"
-",syllabogram,AB 50,RE,syllabogram,AB 24,𐄁,syllabogram
-HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 349,QA2+[?]+RE+PU,4,AB 61,RA₂,syllabogram,,𐄁,syllabogram,A 608,*401+*304,ligature,,1,syllabogram,VASE 4,¹⁄₄,logogram,A 348,QA2+[?]+RE,logogram
-HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,¹⁄₄,6,A 608,*401+*304,ligature,A 349,QA2+[?]+RE+PU,logogram,,1,syllabogram,A 348,QA2+[?]+RE,logogram,VASE 10,𐝉𐝋𐝫,logogram,VASE 12,"
-",logogram
-HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 348,QA2+[?]+RE,7,A 349,QA2+[?]+RE+PU,logogram,,1,syllabogram,VASE 4,¹⁄₄,logogram,VASE 10,𐝉𐝋𐝫,logogram,VASE 12,"
-",logogram,,3,syllabogram
-HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 10,𐝉𐝋𐝫,8,,1,syllabogram,VASE 4,¹⁄₄,logogram,A 348,QA2+[?]+RE,logogram,VASE 12,"
-",logogram,,3,syllabogram,,E+KA,syllabogram
-HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 12,"
-",9,VASE 4,¹⁄₄,logogram,A 348,QA2+[?]+RE,logogram,VASE 10,𐝉𐝋𐝫,logogram,,3,syllabogram,,E+KA,syllabogram,,𐝃𐝉,syllabogram
-HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 361,MI+JA+KA,13,,3,syllabogram,,E+KA,syllabogram,,𐝃𐝉,syllabogram,VASE 4,¹⁄₅,logogram,VASE 10,"
-",logogram,A 383,90,logogram
-HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,¹⁄₅,14,,E+KA,syllabogram,,𐝃𐝉,syllabogram,A 361,MI+JA+KA,logogram,VASE 10,"
-",logogram,A 383,90,logogram,VASE 3,"
-",logogram
-HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 10,"
-",15,,𐝃𐝉,syllabogram,A 361,MI+JA+KA,logogram,VASE 4,¹⁄₅,logogram,A 383,90,logogram,VASE 3,"
-",logogram,AB 89,100,syllabogram
-HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 383,90,16,A 361,MI+JA+KA,logogram,VASE 4,¹⁄₅,logogram,VASE 10,"
-",logogram,VASE 3,"
-",logogram,AB 89,100,syllabogram,,"
-",syllabogram
-HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 3,"
-",17,VASE 4,¹⁄₅,logogram,VASE 10,"
-",logogram,A 383,90,logogram,AB 89,100,syllabogram,,"
-",syllabogram,A 509,100,logogram
-HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 371,[?],22,,"
-",syllabogram,A 509,100,logogram,,𐄙,syllabogram,,𐄙,syllabogram,,,,,,
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 355,*516,5,AB 04,TE,syllabogram,,𐄁,syllabogram,AB 36,SI,syllabogram,,𐄁,syllabogram,AB 30,SA,syllabogram,AB 61,RA₂,syllabogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 383,MI+JA+KA,10,AB 30,SA,syllabogram,AB 61,RA₂,syllabogram,,𐄁,syllabogram,,"
+HT6a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 321,"
+",20,,"
+",syllabogram,,MA,syllabogram,,O,syllabogram,AB 61,DI,syllabogram,AB 76,NE,syllabogram
+HT7a,Haghia Triada - Villa Magazine,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],3,AB 78,QE,syllabogram,AB 37,TI,syllabogram,AB 28,I,syllabogram,AB 26,RU,syllabogram,AB 57,JA,syllabogram
+HT7b,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 329,*329,6,,1,syllabogram,AB 01,DA,syllabogram,,2,syllabogram,,,,,,
+HT8a,Haghia Triada - Villa Magazine,tablet (page-shaped),PERSONNEL,A 301,*301,14,,3,syllabogram,,¹⁄₂,syllabogram,,2,syllabogram,AB 16,QA,syllabogram,A 310,*310,logogram
+HT8a,Haghia Triada - Villa Magazine,tablet (page-shaped),WINE,A 310,*310,17,A 301,*301,logogram,,2,syllabogram,AB 28,I,syllabogram,,³⁄₄,syllabogram,AB 41,SI,syllabogram
+HT8b,Haghia Triada - Villa Magazine,tablet (page-shaped),WINE,A 310,*310,10,AB 188,*188,syllabogram,,2,syllabogram,AB 28,I,syllabogram,,1,syllabogram,,³⁄₈,syllabogram
+HT9a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 306,*306,12,,𐄁,syllabogram,,5,syllabogram,AB 69,TU,syllabogram,,10,syllabogram,AB 07,DI,syllabogram
+HT9a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 324,*324,22,AB 78,QE,syllabogram,AB 50,PU,syllabogram,AB 07,DI,syllabogram,AB 60,RA,syllabogram,,2,syllabogram
+HT9b,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 305,𐄁,8,,"
 ",syllabogram,,"
 ",syllabogram,,"
+",syllabogram,AB 03,DE,syllabogram,AB 45,3,syllabogram
+HT9b,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 306,TU,16,AB 08,SI,syllabogram,AB 41,3,syllabogram,AB 69,8,syllabogram,,"
+",syllabogram,A 324,DI,logogram
+HT9b,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 324,DI,19,A 306,TU,logogram,AB 69,8,syllabogram,AB 07,RA,syllabogram,AB 60,2,syllabogram,,"
 ",syllabogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 2,E,14,,"
-",syllabogram,,"
-",syllabogram,,"
-",syllabogram,AB 33,GRA,syllabogram,,200,syllabogram,AB 73,"
+HT10a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 325,ZA,16,,¹⁄₂,syllabogram,,"
+",syllabogram,AB 17,4,syllabogram,,"
+",syllabogram,A 301,6,logogram
+HT10a,Haghia Triada - Villa Magazine,tablet (page-shaped),PERSONNEL,A 301,6,19,A 325,ZA,logogram,AB 17,4,syllabogram,,"
+",syllabogram,AB 10,*325,syllabogram,A 325,ZA,logogram
+HT10a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 325,ZA,22,A 301,6,logogram,,"
+",syllabogram,AB 17,14,syllabogram,,"
+",syllabogram,,*305,syllabogram
+HT10a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 305,¹⁄₂,27,,"
+",syllabogram,,*305,syllabogram,AB 26,"
+",syllabogram,,DA,syllabogram,,RI,syllabogram
+HT10b,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 312,TA,11,AB 06,NA,syllabogram,,15,syllabogram,AB 59,6,syllabogram,,¹⁄₂,syllabogram,,"
 ",syllabogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 360,"
-",21,,E+[,syllabogram,,],syllabogram,,𐝅𐝇,syllabogram,,QA2+[?]+PU,syllabogram,VASE 6,≈,logogram,VASE 8,¹⁄₆,logogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 6,≈,23,,𐝅𐝇,syllabogram,A 360,"
-",logogram,,QA2+[?]+PU,syllabogram,VASE 8,¹⁄₆,logogram,A 350,QA2+[?]+RE,logogram,VASE 1,¹⁄₄,logogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,¹⁄₆,24,A 360,"
-",logogram,,QA2+[?]+PU,syllabogram,VASE 6,≈,logogram,A 350,QA2+[?]+RE,logogram,VASE 1,¹⁄₄,logogram,A 348,MI+JA+I,logogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 350,QA2+[?]+RE,25,,QA2+[?]+PU,syllabogram,VASE 6,≈,logogram,VASE 8,¹⁄₆,logogram,VASE 1,¹⁄₄,logogram,A 348,MI+JA+I,logogram,VASE 4,245,logogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 1,¹⁄₄,26,VASE 6,≈,logogram,VASE 8,¹⁄₆,logogram,A 350,QA2+[?]+RE,logogram,A 348,MI+JA+I,logogram,VASE 4,245,logogram,A 382,SA+MU+KU,logogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 348,MI+JA+I,27,VASE 8,¹⁄₆,logogram,A 350,QA2+[?]+RE,logogram,VASE 1,¹⁄₄,logogram,VASE 4,245,logogram,A 382,SA+MU+KU,logogram,,100,syllabogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,245,28,A 350,QA2+[?]+RE,logogram,VASE 1,¹⁄₄,logogram,A 348,MI+JA+I,logogram,A 382,SA+MU+KU,logogram,,100,syllabogram,,"
-",syllabogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 382,SA+MU+KU,29,VASE 1,¹⁄₄,logogram,A 348,MI+JA+I,logogram,VASE 4,245,logogram,,100,syllabogram,,"
-",syllabogram,,PA₃,syllabogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 357,"
-",33,,100,syllabogram,,"
-",syllabogram,,PA₃,syllabogram,,KI,syllabogram,AB 48,37,syllabogram,,"
-",syllabogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 361,[?],41,AB 02,"
-",syllabogram,,PU,syllabogram,,¹⁄₈,syllabogram,VASE 8,vase,logogram,AB 43,ai?,syllabogram,VASE 5,vase,logogram
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,vase,42,,PU,syllabogram,,¹⁄₈,syllabogram,A 361,[?],logogram,AB 43,ai?,syllabogram,VASE 5,vase,logogram,,,
-HT34,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 5,vase,44,A 361,[?],logogram,VASE 8,vase,logogram,AB 43,ai?,syllabogram,,,,,,,,,
-HT35,Haghia Triada - Villa Magazine,tablet (page-shaped),OLIVE_OIL,A 381,MI+JA+RU,11,AB 51,TA,syllabogram,AB 87,CYP,syllabogram,,1,syllabogram,VASE 2,¹⁄₃,logogram,NUM 10,OLE+RI,numeral,VASE 2,¹⁄₃,logogram
-HT35,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 2,¹⁄₃,12,AB 87,CYP,syllabogram,,1,syllabogram,A 381,MI+JA+RU,logogram,NUM 10,OLE+RI,numeral,VASE 2,¹⁄₃,logogram,AB 92,*308,syllabogram
-HT35,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 2,¹⁄₃,14,A 381,MI+JA+RU,logogram,VASE 2,¹⁄₃,logogram,NUM 10,OLE+RI,numeral,AB 92,*308,syllabogram,VASE 2,¹⁄₃,logogram,NUM 100,OLE+TA,numeral
-HT35,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 2,¹⁄₃,16,NUM 10,OLE+RI,numeral,VASE 2,¹⁄₃,logogram,AB 92,*308,syllabogram,NUM 100,OLE+TA,numeral,,"
-",syllabogram,AB 33,5,syllabogram
-HT35,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 350,¹⁄₁₆,21,,"
-",syllabogram,AB 33,5,syllabogram,,"
-",syllabogram,VASE 8,"
-",logogram,AB 77,¹⁄₅,syllabogram,VASE 3,vase,logogram
-HT35,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,"
-",22,AB 33,5,syllabogram,,"
-",syllabogram,A 350,¹⁄₁₆,logogram,AB 77,¹⁄₅,syllabogram,VASE 3,vase,logogram,,,
-HT35,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 3,vase,24,A 350,¹⁄₁₆,logogram,VASE 8,"
-",logogram,AB 77,¹⁄₅,syllabogram,,,,,,,,,
-HT36,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,DU,7,,64,syllabogram,,¹⁄₂,syllabogram,,"
-",syllabogram,AB 44,WA,syllabogram,AB 64,7,syllabogram,AB 46,¹⁄₂,syllabogram
-HT36,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,𐝫,12,AB 64,7,syllabogram,AB 46,¹⁄₂,syllabogram,,"
-",syllabogram,,6,syllabogram,,𐄌,syllabogram,,,
-HT37,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 382,MI+JA+I,0,,,,,,,,,,,𐄁,syllabogram,AB 62,KA,syllabogram,AB 56,KI,syllabogram
-HT38,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 326,*403,5,AB 01,DA,syllabogram,AB 02,RO,syllabogram,AB 03,PA,syllabogram,,VS,syllabogram,AB 68,"
-",syllabogram,,AU,syllabogram
-HT38,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 385,"
-",11,,AU,syllabogram,AB 19,"
-",syllabogram,,CAP,syllabogram,AB 72,*554,syllabogram,,*118,syllabogram,A 369,"
-",logogram
-HT38,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 369,"
-",14,A 385,"
-",logogram,AB 72,*554,syllabogram,,*118,syllabogram,,TELA+KU,syllabogram,A 370,"
-",logogram,,TELA+*312,syllabogram
-HT38,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 370,"
-",16,,*118,syllabogram,A 369,"
-",logogram,,TELA+KU,syllabogram,,TELA+*312,syllabogram,,,,,,
-HT39,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 391,𐝫,26,A 613,"
-",ligature,,DU+[,syllabogram,,"
-",syllabogram,,𐄈,syllabogram,,𐝫,syllabogram,A 368,[?],logogram
-HT39,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 368,[?],29,A 391,𐝫,logogram,,𐄈,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-HT41a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 3,mina,21,AB 03,JA,syllabogram,AB 49,2,syllabogram,,double,syllabogram,VASE 3,vase,logogram,,,,,,
-HT41a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 3,vase,22,AB 49,2,syllabogram,,double,syllabogram,VASE 3,mina,logogram,,,,,,,,,
-HT42+59,Haghia Triada - Villa Magazine,tablet (page-shaped),GRAIN,A 364,𐄁,3,,TA,syllabogram,AB 51,𐄁,syllabogram,,SI+SE,syllabogram,,TE,syllabogram,AB 04,𐄁,syllabogram,,OLE+KI,syllabogram
-HT43,Haghia Triada - Villa Magazine,tablet (page-shaped),GRAIN,A 400,GRA+PA,10,,𐄁,syllabogram,AB 26,I,syllabogram,,𐄁,syllabogram,,5,syllabogram,,𐝫,syllabogram,,,
-HT45a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 10,"
-",2,,𐝫,syllabogram,,𐝫𐝉,syllabogram,,,,AB 03,"
-",syllabogram,,*86,syllabogram,,*305,syllabogram
-HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 3,mina,4,,—,syllabogram,,8,syllabogram,,double,syllabogram,VASE 3,"
-",logogram,A 349,𐝉,logogram,VASE 10,"
-",logogram
-HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 3,"
-",5,,8,syllabogram,,double,syllabogram,VASE 3,mina,logogram,A 349,𐝉,logogram,VASE 10,"
-",logogram,,¹⁄₄,syllabogram
-HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 349,𐝉,6,,double,syllabogram,VASE 3,mina,logogram,VASE 3,"
-",logogram,VASE 10,"
-",logogram,,¹⁄₄,syllabogram,AB 66,"
-",syllabogram
-HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 10,"
-",7,VASE 3,mina,logogram,VASE 3,"
-",logogram,A 349,𐝉,logogram,,¹⁄₄,syllabogram,AB 66,"
-",syllabogram,VASE 4,—,logogram
-HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,—,10,VASE 10,"
-",logogram,,¹⁄₄,syllabogram,AB 66,"
-",syllabogram,,*318,syllabogram,AB 106,*305,syllabogram,,7,syllabogram
-HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 349,"
-",16,,7,syllabogram,AB 89,"
-",syllabogram,,QA2+[?]+RE+PU,syllabogram,VASE 10,PA,logogram,AB 03,A,syllabogram,,20,syllabogram
-HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 10,PA,17,AB 89,"
-",syllabogram,,QA2+[?]+RE+PU,syllabogram,A 349,"
-",logogram,AB 03,A,syllabogram,,20,syllabogram,,¹⁄₃,syllabogram
-HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 2,¹⁄₄,24,,"
-",syllabogram,AB 08,𐄁,syllabogram,,KU,syllabogram,,KU,syllabogram,AB 66,¹⁄₄,syllabogram,VASE 4,vase,logogram
-HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,vase,27,VASE 2,¹⁄₄,logogram,,KU,syllabogram,AB 66,¹⁄₄,syllabogram,AB 66,ta?,syllabogram,VASE 4,vase,logogram,,,
-HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,vase,29,AB 66,¹⁄₄,syllabogram,VASE 4,vase,logogram,AB 66,ta?,syllabogram,,,,,,,,,
-HT46a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,vase,11,AB 02,ro,syllabogram,,𐄓,syllabogram,,𐄉,syllabogram,,,,,,,,,
-HT46b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,6,5,,16,syllabogram,,¹⁄₂,syllabogram,,"
-",syllabogram,,𐝫,syllabogram,,𐄈,syllabogram,,𐄊,syllabogram
-HT47a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 378,"
-",3,AB 62,KA,syllabogram,,]TU+RO,syllabogram,,𐄁,syllabogram,,KU,syllabogram,AB 66,NA,syllabogram,AB 48,TU,syllabogram
-HT49a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 321,NU,35,AB 08,1,syllabogram,AB 23,"
-",syllabogram,,KU,syllabogram,,1,syllabogram,AB 98,TU,syllabogram,,SU,syllabogram
-HT50a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,¹⁄₄,6,AB 73,"
-",syllabogram,,¹⁄₄,syllabogram,,OLE+KI,syllabogram,MET A,OLE+MI,metrical,VASE 4,"
-",logogram,MET E,"
-",metrical
-HT50a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,"
-",8,,OLE+KI,syllabogram,VASE 4,¹⁄₄,logogram,MET A,OLE+MI,metrical,MET E,"
-",metrical,VASE 7,¹⁄₂,logogram,NUM 1,*304,numeral
-HT50a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,10,MET A,OLE+MI,metrical,VASE 4,"
-",logogram,MET E,"
-",metrical,NUM 1,*304,numeral,VASE 7,1,logogram,AB 88,"
-",syllabogram
-HT50a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,1,12,MET E,"
-",metrical,VASE 7,¹⁄₂,logogram,NUM 1,*304,numeral,AB 88,"
-",syllabogram,,OLIV,syllabogram,VASE 7,3,logogram
-HT50a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,3,15,VASE 7,1,logogram,AB 88,"
-",syllabogram,,OLIV,syllabogram,,"
-",syllabogram,,³⁄₈,syllabogram,AB 75,?,syllabogram
-HT50a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,vase,21,AB 75,?,syllabogram,,𐄉,syllabogram,A 711,T (7/8?),fraction,VASE 5,vase,logogram,,,,,,
-HT50a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 5,vase,22,,𐄉,syllabogram,A 711,T (7/8?),fraction,VASE 4,vase,logogram,,,,,,,,,
-HT51b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,𐝫,10,,"
-",syllabogram,AB 64,SI,syllabogram,AB 44,"
-",syllabogram,VASE 5,"
-",logogram,AB 36,jo,syllabogram,,𐝫,syllabogram
-HT51b,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 5,"
-",11,AB 64,SI,syllabogram,AB 44,"
-",syllabogram,VASE 7,𐝫,logogram,AB 36,jo,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-HT56a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 7,"
-",7,,¹⁄₂,syllabogram,,"
-",syllabogram,,U,syllabogram,AB 10,u,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-HT57a,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 5,vase,9,AB 08,¹⁄₈,syllabogram,,"
-",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-HT60,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,"
-",3,,𐝫,syllabogram,,OLE+RI,syllabogram,NUM 10,¹⁄₁₆,numeral,A 380,],logogram,,¹⁄₁₆,syllabogram,VASE 8,"
-",logogram
-HT60,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 380,],4,,OLE+RI,syllabogram,NUM 10,¹⁄₁₆,numeral,VASE 8,"
-",logogram,,¹⁄₁₆,syllabogram,VASE 8,"
-",logogram,AB 77,¹⁄₁₆,syllabogram
-HT60,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,"
-",6,VASE 8,"
-",logogram,A 380,],logogram,,¹⁄₁₆,syllabogram,AB 77,¹⁄₁₆,syllabogram,VASE 8,"
-",logogram,VASE 4,5,logogram
-HT60,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,"
-",8,,¹⁄₁₆,syllabogram,VASE 8,"
-",logogram,AB 77,¹⁄₁₆,syllabogram,VASE 4,5,logogram,,"
-",syllabogram,A 348,"
-",logogram
-HT60,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,5,9,VASE 8,"
-",logogram,AB 77,¹⁄₁₆,syllabogram,VASE 8,"
-",logogram,,"
-",syllabogram,A 348,"
-",logogram,,QA2+[?]+PU,syllabogram
-HT60,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 348,"
-",11,VASE 8,"
-",logogram,VASE 4,5,logogram,,"
-",syllabogram,,QA2+[?]+PU,syllabogram,,𐝫,syllabogram,A 350,[?],logogram
-HT60,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 350,[?],14,A 348,"
-",logogram,,QA2+[?]+PU,syllabogram,,𐝫,syllabogram,VASE 10,vase,logogram,,𐝫,syllabogram,,,
-HT60,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 10,vase,15,,QA2+[?]+PU,syllabogram,,𐝫,syllabogram,A 350,[?],logogram,,𐝫,syllabogram,,,,,,
-HT62+73,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,4,14,AB 73,"
-",syllabogram,,KA,syllabogram,,KU,syllabogram,AB 62,18,syllabogram,AB 66,"
-",syllabogram,,*28B,syllabogram
-HT62+73,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,17,31,,"
-",syllabogram,,"
-",syllabogram,,NU,syllabogram,AB 62,25,syllabogram,,"
+HT11a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 322,1,11,AB 02,2,syllabogram,AB 06,"
+",syllabogram,AB 53,"
+",syllabogram,,KU,syllabogram,AB 81,10,syllabogram
+HT12,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 304,*304,7,,𐄁,syllabogram,,OLE+DI,syllabogram,,5,syllabogram,AB 78,QE,syllabogram,AB 69,TU,syllabogram
+HT14,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 304,*304,11,,3,syllabogram,,OLE+DI,syllabogram,,9,syllabogram,AB 122,OLIV,syllabogram,,13,syllabogram
+HT14,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 304,"
+",27,,OLE+DI,syllabogram,,"
+",syllabogram,,OLIV,syllabogram,AB 122,,syllabogram,,𐄐,syllabogram
+HT18,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 304,*304,6,,20,syllabogram,,OLE+KI,syllabogram,,3,syllabogram,AB 31,SA,syllabogram,AB 76,RA₂,syllabogram
+HT21,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 304,"
+",17,,"
+",syllabogram,,*304,syllabogram,,OLIV,syllabogram,,1,syllabogram,AB 122,,syllabogram
+HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 303,CYP,3,AB 77,KA,syllabogram,AB 06,NA,syllabogram,,¹⁄₃,syllabogram,A 308,*308,logogram,,≈,syllabogram
+HT23a,Haghia Triada - Villa Magazine,tablet (page-shaped),HIDES,A 308,*308,5,,𐄁,syllabogram,A 303,CYP,logogram,,≈,syllabogram,,"
+",syllabogram,,OLE+NE,syllabogram
+HT23b,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 303,CYP,2,AB 30,NI,syllabogram,AB 60,RA,syllabogram,,¹⁄₃,syllabogram,A 302,OLE,logogram,,¹⁄₃,syllabogram
+HT23b,Haghia Triada - Villa Magazine,tablet (page-shaped),OLIVE_OIL,A 302,OLE,4,AB 60,RA,syllabogram,A 303,CYP,logogram,,¹⁄₃,syllabogram,,"
 ",syllabogram,,"
 ",syllabogram
-HT65,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,¹⁄₁₆,2,,𐝫,syllabogram,A 507,*330+SA,logogram,,,,,𐝫,syllabogram,,,,,,
-HT70,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,3,11,AB 72,¹⁄₄,syllabogram,AB 30,"
-",syllabogram,,I,syllabogram,,"
-",syllabogram,,"
-",syllabogram,AB 26,𐝫,syllabogram
-HT81,Haghia Triada - Villa Magazine,tablet (page-shaped),OLIVE_OIL,A 381,MI+JA+RU,3,AB 08,A,syllabogram,AB 09,SE,syllabogram,,𐄁,syllabogram,,𐄁,syllabogram,VASE 6,≈,logogram,,¹⁄₆,syllabogram
-HT81,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 6,≈,5,,𐄁,syllabogram,A 381,MI+JA+RU,logogram,,𐄁,syllabogram,,¹⁄₆,syllabogram,,RI,syllabogram,AB 45,SU,syllabogram
-HT81,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 12,"
-",11,AB 45,SU,syllabogram,AB 50,MA,syllabogram,AB 65,𐝋,syllabogram,AB 56,"
-",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-HT82,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 8,"
-",3,,𐝫,syllabogram,,GRA+QIf,syllabogram,A 401,¹⁄₁₆,logogram,,*304+[,syllabogram,MET J,¹⁄₄,metrical,VASE 4,"
-",logogram
-HT82,Haghia Triada - Villa Magazine,tablet (page-shaped),VESSELS,VASE 4,"
-",6,VASE 8,"
-",logogram,,*304+[,syllabogram,MET J,¹⁄₄,metrical,,𐝫,syllabogram,,𐝫,syllabogram,,,
-HT88,Haghia Triada - Casa Room 7,tablet (page-shaped),MANPOWER,A 394,VIR+KA,2,AB 08,A,syllabogram,AB 44,DU,syllabogram,,,,,20,syllabogram,AB 24,RE,syllabogram,AB 14,ZA,syllabogram
-HT89,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 376,22,9,AB 89,*305,syllabogram,,23,syllabogram,,"
-",syllabogram,,"
-",syllabogram,,MA,syllabogram,AB 65,MI,syllabogram
-HT89,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 396,TA,17,AB 59,"
-",syllabogram,,VIR+*313a,syllabogram,,13,syllabogram,,RA,syllabogram,,5,syllabogram,AB 51,KU,syllabogram
-HT89,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 4,vase,32,A 568,"
-",logogram,AB 29,6,syllabogram,,𐄈,syllabogram,AB 77,ka,syllabogram,,𐄌,syllabogram,,𐝫,syllabogram
-HT91,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 1,≈,8,AB 73,GRA,syllabogram,A 561,.3,logogram,AB 88,*304,syllabogram,,"
-",syllabogram,MET A,𐄁,metrical,VASE 1,OLE+KI,logogram
-HT91,Haghia Triada - Casa Room 7,tablet (page-shaped),OLIVE_OIL,VASE 1,OLE+KI,11,VASE 1,≈,logogram,,"
-",syllabogram,MET A,𐄁,metrical,A 728,¹⁄₆,fraction,VASE 1,"
-",logogram,MET E,≈,metrical
-HT91,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 1,"
-",13,MET A,𐄁,metrical,VASE 1,OLE+KI,logogram,A 728,¹⁄₆,fraction,MET E,≈,metrical,VASE 1,¹⁄₆,logogram,AB 75,OLE+MI,syllabogram
-HT91,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 1,¹⁄₆,15,A 728,¹⁄₆,fraction,VASE 1,"
-",logogram,MET E,≈,metrical,AB 75,OLE+MI,syllabogram,VASE 1,≈,logogram,AB 29,"
+HT26a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 312,*312,2,,*406VAS+KE,syllabogram,,𐄁,syllabogram,AB 04,TE,syllabogram,AB 04,TE,syllabogram,,𐄁,syllabogram
+HT26b,Haghia Triada - Villa Magazine,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],3,,𐄁,syllabogram,,*406VAS+KE,syllabogram,,9,syllabogram,,RO,syllabogram,AB 02,NI,syllabogram
+HT26b,Haghia Triada - Villa Magazine,tablet (page-shaped),HIDES,A 308,"
+",18,,"
+",syllabogram,,I,syllabogram,,*188,syllabogram,,*86,syllabogram,AB 188,"
 ",syllabogram
-HT91,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 1,≈,17,MET E,≈,metrical,VASE 1,¹⁄₆,logogram,AB 75,OLE+MI,syllabogram,AB 29,"
-",syllabogram,VASE 1,OLIV,logogram,AB 77,¹⁄₆,syllabogram
-HT91,Haghia Triada - Casa Room 7,tablet (page-shaped),OLIVES,VASE 1,OLIV,19,AB 75,OLE+MI,syllabogram,VASE 1,≈,logogram,AB 29,"
-",syllabogram,AB 77,¹⁄₆,syllabogram,VASE 1,"
-",logogram,AB 33,≈,syllabogram
-HT91,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 1,"
-",21,AB 29,"
-",syllabogram,VASE 1,OLIV,logogram,AB 77,¹⁄₆,syllabogram,AB 33,≈,syllabogram,,¹⁄₆,syllabogram,AB 04,VIN,syllabogram
-HT91,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 1,E,28,AB 45,≈,syllabogram,,¹⁄₆,syllabogram,MET E,"
-",metrical,AB 33,"
-",syllabogram,,TE,syllabogram,,RI,syllabogram
-HT93a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 354,RE+SE,7,AB 73,GRA,syllabogram,AB 48,PA₃,syllabogram,,𐄁,syllabogram,,12,syllabogram,,"
-",syllabogram,AB 07,RI,syllabogram
-HT93a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 343,43,14,AB 45,NA,syllabogram,AB 06,𐄁,syllabogram,,DA+RE+SE,syllabogram,,¹⁄₂,syllabogram,,"
-",syllabogram,VASE 7,KI,logogram
-HT93a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,KI,17,A 343,43,logogram,,¹⁄₂,syllabogram,,"
-",syllabogram,AB 56,NI,syllabogram,AB 07,5,syllabogram,AB 29,𐝆𐝅,syllabogram
-HT93a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,A,22,AB 07,5,syllabogram,AB 29,𐝆𐝅,syllabogram,,"
-",syllabogram,VASE 6,SE,logogram,AB 08,I,syllabogram,AB 09,GRA+PA,syllabogram
-HT93a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 6,SE,23,AB 29,𐝆𐝅,syllabogram,,"
-",syllabogram,VASE 7,A,logogram,AB 08,I,syllabogram,AB 09,GRA+PA,syllabogram,,26,syllabogram
-HT93a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,𐄁,49,AB 54,"
-",syllabogram,AB 66,O,syllabogram,,TI,syllabogram,AB 53,"
-",syllabogram,AB 32,DA,syllabogram,,RI,syllabogram
-HT93a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 329,2,58,AB 01,2,syllabogram,AB 45,"
-",syllabogram,AB 01,*343,syllabogram,,"
-",syllabogram,AB 131,NI,syllabogram,,NA,syllabogram
-HT93a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 5,vase,73,,KA,syllabogram,AB 71,?,syllabogram,,𐄐,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,AB 62,"?,pte?",syllabogram
-HT93b,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 6,KI,4,,≈,syllabogram,,¹⁄₆,syllabogram,,"
-",syllabogram,AB 56,?,syllabogram,AB 02,ro,syllabogram,,𐝫,syllabogram
-HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 358,7,7,,"
-",syllabogram,AB 69,20,syllabogram,,"
-",syllabogram,,"
-",syllabogram,A 397,18,logogram,,"
+HT27a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 307,*307,4,AB 30,NI,syllabogram,AB 59,TA,syllabogram,,𐄁,syllabogram,A 100-102,VIR+[?],logogram,,90,syllabogram
+HT27a,Haghia Triada - Villa Magazine,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],6,,𐄁,syllabogram,A 307,*307,logogram,,90,syllabogram,,50,syllabogram,,"
 ",syllabogram
-HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 397,18,9,,"
-",syllabogram,A 358,7,logogram,,"
+HT27a,Haghia Triada - Villa Magazine,tablet (page-shaped),WINE,A 310,5,31,,"
+",syllabogram,,RA,syllabogram,,"
+",syllabogram,AB 81,VIR+[?],syllabogram,A 305,42,logogram
+HT27a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 305,42,34,A 310,5,logogram,,"
 ",syllabogram,,"
-",syllabogram,,TA,syllabogram,AB 51,"
-",syllabogram
-HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 6,2,24,,3,syllabogram,AB 29,¹⁄₆,syllabogram,,"
-",syllabogram,,*318,syllabogram,,*306,syllabogram,AB 106,"
-",syllabogram
-HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 3,double,32,,double,syllabogram,,mina,syllabogram,AB 87,NI,syllabogram,VASE 3,mina,logogram,AB 29,14,syllabogram,VASE 3,¹⁄₂,logogram
-HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 3,mina,33,,mina,syllabogram,AB 87,NI,syllabogram,VASE 3,double,logogram,AB 29,14,syllabogram,VASE 3,¹⁄₂,logogram,VASE 3,"
-",logogram
-HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 3,¹⁄₂,35,VASE 3,double,logogram,VASE 3,mina,logogram,AB 29,14,syllabogram,VASE 3,"
-",logogram,,¹⁄₅,syllabogram,,𐄐,syllabogram
-HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 3,"
-",36,VASE 3,mina,logogram,AB 29,14,syllabogram,VASE 3,¹⁄₂,logogram,,¹⁄₅,syllabogram,,𐄐,syllabogram,,𐄊,syllabogram
-HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,vase,40,,¹⁄₅,syllabogram,,𐄐,syllabogram,,𐄊,syllabogram,AB 29,pu,syllabogram,VASE 3,vase,logogram,,,
-HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 3,vase,42,,𐄊,syllabogram,VASE 7,vase,logogram,AB 29,pu,syllabogram,,,,,,,,,
-HT96b,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 355,*516,10,AB 52,RA,syllabogram,AB 24,RE,syllabogram,,𐄁,syllabogram,,𐄁,syllabogram,AB 73,GRA,syllabogram,,𐄁,syllabogram
-HT96b,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 8,¹⁄₁₆,20,,4,syllabogram,AB 29,NI,syllabogram,,2,syllabogram,,𐝫,syllabogram,,,,,,
-HT97a,Haghia Triada - Casa Room 7,tablet (page-shaped),MANPOWER,A 394,VIR+KA,5,,𐄁,syllabogram,A 503,*307+*387,logogram,,𐄁,syllabogram,,82,syllabogram,,"
-",syllabogram,AB 115,33,syllabogram
-HT98a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,*301,16,AB 24,¹⁄₂,syllabogram,AB 07,"
-",syllabogram,AB 06,TE,syllabogram,AB 04,"
-",syllabogram,AB 85,RO,syllabogram,A 568,KE,logogram
-HT98a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,RI,22,A 568,KE,logogram,AB 02,"
-",syllabogram,AB 37,KA,syllabogram,AB 62,I,syllabogram,AB 45,¹⁄₄,syllabogram,AB 96,?,syllabogram
-HT98a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 4,vase,27,AB 45,¹⁄₄,syllabogram,AB 96,?,syllabogram,AB 26,ru,syllabogram,,,,,,,,,
-HT98b,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 8,vase,11,AB 23,¹⁄₁₆,syllabogram,AB 22f,pi?,syllabogram,AB 04,te,syllabogram,,,,,,,,,
-HT99a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 6,"
-",13,,VIN,syllabogram,AB 77,≈,syllabogram,,¹⁄₆,syllabogram,A 702,"
-",fraction,,𐝫,syllabogram,,,
-HT99b,Haghia Triada - Casa Room 7,tablet (page-shaped),GRAIN,A 364,SI+SE,0,,,,,,,,,,AB 29,NI,syllabogram,,6,syllabogram,AB 01,DA,syllabogram
-HT100,Haghia Triada - Casa Room 7,tablet (page-shaped),MANPOWER,A 394,58,1,,VIR+KA,syllabogram,,,,,,,,"
-",syllabogram,,*304+PA,syllabogram,A 500,"
-",logogram
-HT100,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 358,KI,7,A 500,"
-",logogram,,TI+A,syllabogram,,12,syllabogram,,2,syllabogram,,"
-",syllabogram,AB 56,5,syllabogram
-HT100,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 396,RO,14,,"
-",syllabogram,AB 89,16,syllabogram,,"
-",syllabogram,,97,syllabogram,,"
-",syllabogram,AB 66,RA₂,syllabogram
-HT100,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 4,"
-",25,AB 61,2,syllabogram,AB 87,double,syllabogram,,mina,syllabogram,AB 29,2,syllabogram,,¹⁄₂,syllabogram,VASE 3,"
-",logogram
-HT100,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 3,"
-",28,VASE 4,"
-",logogram,AB 29,2,syllabogram,,¹⁄₂,syllabogram,VASE 3,OLE+U,logogram,AB 77,≈,syllabogram,,¹⁄₆,syllabogram
-HT100,Haghia Triada - Casa Room 7,tablet (page-shaped),OLIVE_OIL,VASE 3,OLE+U,29,AB 29,2,syllabogram,,¹⁄₂,syllabogram,VASE 3,"
-",logogram,AB 77,≈,syllabogram,,¹⁄₆,syllabogram,VASE 7,"
-",logogram
-HT100,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,"
-",32,VASE 3,OLE+U,logogram,AB 77,≈,syllabogram,,¹⁄₆,syllabogram,A 728,3,fraction,,"
-",syllabogram,VASE 6,OLE+NE,logogram
-HT100,Haghia Triada - Casa Room 7,tablet (page-shaped),OLIVE_OIL,VASE 6,OLE+NE,35,VASE 7,"
-",logogram,A 728,3,fraction,,"
-",syllabogram,MET E,weigh E,metrical,,𐄉,syllabogram,A 730,??,fraction
-HT101,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 347,3,18,,"
-",syllabogram,AB 86,10,syllabogram,,"
-",syllabogram,,"
-",syllabogram,AB 66,PA₃,syllabogram,AB 48,OLE+U,syllabogram
-HT101,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 4,vase,38,,*OLIV+TU,syllabogram,AB 75,?,syllabogram,,𐄇,syllabogram,A 711,T (7/8?),fraction,,𐄇,syllabogram,,,
-HT103,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,*188,13,,6,syllabogram,,¹⁄₂,syllabogram,,"
-",syllabogram,AB 83,"
-",syllabogram,,DA,syllabogram,,KU,syllabogram
-HT103,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,vase,29,AB 56,¹⁄₂,syllabogram,AB 52,?,syllabogram,,𐄋,syllabogram,,,,,,,,,
-HT104,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 346,TE+RO[,3,AB 51,TA,syllabogram,AB 03,PA,syllabogram,,𐄁,syllabogram,,𐄁,syllabogram,AB 01,DA,syllabogram,AB 66,KU,syllabogram
-HT104,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,"
-",12,AB 32,TI,syllabogram,,45,syllabogram,,¹⁄₂,syllabogram,AB 26,DU,syllabogram,AB 44,TI,syllabogram,AB 32,20,syllabogram
-HT104,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,"
-",17,AB 44,TI,syllabogram,AB 32,20,syllabogram,,¹⁄₂,syllabogram,AB 03,DA,syllabogram,AB 01,SU,syllabogram,AB 50,TI,syllabogram
-HT106,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,"
-",8,,"
-",syllabogram,AB 36,5,syllabogram,,¹⁄₂,syllabogram,AB 36,1,syllabogram,,"
-",syllabogram,,"
-",syllabogram
-HT110b,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,NI,12,,¹⁄₂,syllabogram,AB 65,2,syllabogram,,"
+",syllabogram,,RO,syllabogram,AB 31,335,syllabogram
+HT27a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 303,,49,,7,syllabogram,,𐄒,syllabogram,,𐄏,syllabogram,,𐝕,syllabogram,,𐝁,syllabogram
+HT28a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 304,*304,35,AB 60,RA,syllabogram,AB 120,GRA,syllabogram,,2,syllabogram,,OLE+DI,syllabogram,,3,syllabogram
+HT29,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 323,"
+",18,AB 28,SA,syllabogram,,*323,syllabogram,AB 73,𐄁,syllabogram,,KI,syllabogram,,2,syllabogram
+HT30,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 303,CYP,4,,4,syllabogram,AB 31,SA,syllabogram,,"
 ",syllabogram,,¹⁄₂,syllabogram,,"
-",syllabogram,AB 29,"
 ",syllabogram
-HT110b,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,2,17,,"
-",syllabogram,AB 29,"
-",syllabogram,,MA,syllabogram,,"
-",syllabogram,,³⁄₄,syllabogram,,𐄇,syllabogram
-HT113,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,VASE 7,vase,14,,𐄐,syllabogram,AB 53,ri,syllabogram,,𐄈,syllabogram,,𐝫,syllabogram,,,,,,
-HT115a,Haghia Triada - Casa Room 9,tablet (page-shaped),GRAIN,A 402,GRA+BOSm,7,,𐄁,syllabogram,AB 26,I,syllabogram,,𐄁,syllabogram,AB 45,RI,syllabogram,AB 51,TA,syllabogram,AB 65,MA,syllabogram
-HT115a,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,26,AB 09,SE,syllabogram,AB 66,KU,syllabogram,AB 57,TU,syllabogram,AB 03,PA,syllabogram,AB 52,RA,syllabogram,AB 22f,NE,syllabogram
-HT115a,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 3,𐝂𐝂𐝂𐝂,34,AB 08,A,syllabogram,AB 09,SE,syllabogram,AB 49,JA,syllabogram,VASE 3,"
-",logogram,VASE 3,KA,logogram,VASE 3,PO,logogram
-HT115a,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 3,"
-",35,AB 09,SE,syllabogram,AB 49,JA,syllabogram,VASE 3,𐝂𐝂𐝂𐝂,logogram,VASE 3,KA,logogram,VASE 3,PO,logogram,AB 62,1,syllabogram
-HT115a,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 3,KA,36,AB 49,JA,syllabogram,VASE 3,𐝂𐝂𐝂𐝂,logogram,VASE 3,"
-",logogram,VASE 3,PO,logogram,AB 62,1,syllabogram,AB 11,"
+HT30,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 303,NI,29,AB 67,CYP,syllabogram,AB 02,8,syllabogram,,𐝓,syllabogram,AB 30,VIN,syllabogram,,¹⁄₂,syllabogram
+HT31,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 323,"
+",36,AB 67,MA,syllabogram,AB 45,*323,syllabogram,AB 06,*815,syllabogram,,"
+",syllabogram,,*815,syllabogram
+HT32,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 307,*307,0,,,,,,,AB 31,SA,syllabogram,AB 76,RA₂,syllabogram,,𐄁,syllabogram
+HT32,Haghia Triada - Villa Magazine,tablet (page-shaped),HIDES,A 308,*308,4,AB 31,SA,syllabogram,AB 76,RA₂,syllabogram,,¹⁄₂,syllabogram,,OLE+NE,syllabogram,,𐝆𐝇,syllabogram
+HT33,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 305,100,18,,"
+",syllabogram,,90,syllabogram,,"
+",syllabogram,,100,syllabogram,,𐄙,syllabogram
+HT35,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 326,*326,4,AB 37,TI,syllabogram,AB 81,KU,syllabogram,,𐄁,syllabogram,AB 28,I,syllabogram,AB 81,KU,syllabogram
+HT35,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 303,CYP,9,AB 28,I,syllabogram,AB 81,KU,syllabogram,,1,syllabogram,,MI+JA+RU,syllabogram,,¹⁄₃,syllabogram
+HT35,Haghia Triada - Villa Magazine,tablet (page-shaped),HIDES,A 308,*308,15,,¹⁄₃,syllabogram,,OLE+RI,syllabogram,,¹⁄₃,syllabogram,,OLE+TA,syllabogram,,"
 ",syllabogram
-HT115a,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 3,PO,37,VASE 3,𐝂𐝂𐝂𐝂,logogram,VASE 3,"
-",logogram,VASE 3,KA,logogram,AB 62,1,syllabogram,AB 11,"
-",syllabogram,AB 23,RI,syllabogram
-HT115a,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 3,vase,48,,¹⁄₅,syllabogram,AB 50,𐝫,syllabogram,,𐄈,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-HT115b,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 7,"
-",6,AB 03,RA,syllabogram,AB 52,NE,syllabogram,AB 22f,¹⁄₂,syllabogram,AB 32,NU,syllabogram,AB 47,JA,syllabogram,AB 49,𐄁,syllabogram
-HT115b,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 7,"
-",15,AB 35,𐄁,syllabogram,,GRA,syllabogram,AB 73,¹⁄₂,syllabogram,AB 44,PA₃,syllabogram,AB 48,NA,syllabogram,AB 06,1,syllabogram
-HT115b,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 7,"
-",25,AB 65,𐄁,syllabogram,,I,syllabogram,AB 26,¹⁄₂,syllabogram,AB 90,TU,syllabogram,AB 57,JA,syllabogram,AB 49,1,syllabogram
-HT116a,Haghia Triada - Casa Room 9,tablet (page-shaped),GRAIN,A 364,GRA,19,,"
-",syllabogram,A 726,5,fraction,,"
-",syllabogram,AB 73,16,syllabogram,,"
-",syllabogram,,OLE+KI,syllabogram
-HT118,Haghia Triada - Casa Room 9,tablet (page-shaped),UNKNOWN_COMMODITY,A 355,*516,2,AB 68,AU,syllabogram,,𐄁,syllabogram,,,,,𐄁,syllabogram,AB 65,MA,syllabogram,AB 07,DI,syllabogram
-HT120,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 7,DA,12,A 400,62,logogram,,𐝆𐝀,syllabogram,,"
-",syllabogram,VASE 1,U,logogram,AB 01,𐄁,syllabogram,AB 10,I,syllabogram
-HT120,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 1,U,13,,𐝆𐝀,syllabogram,,"
-",syllabogram,VASE 7,DA,logogram,AB 01,𐄁,syllabogram,AB 10,I,syllabogram,AB 42,GRA+PA,syllabogram
-HT120,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 3,vase,34,AB 26,ru,syllabogram,AB 05,to,syllabogram,,𐄉,syllabogram,,,,,,,,,
-HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 4,"
-",9,,"
-",syllabogram,AB 92,8,syllabogram,,¹⁄₄,syllabogram,AB 56,RO,syllabogram,AB 02,1,syllabogram,,.3,syllabogram
-HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,*308,19,AB 75,31,syllabogram,,¹⁄₂,syllabogram,,"
-",syllabogram,AB 92,³⁄₄,syllabogram,,"
-",syllabogram,A 568,KI,logogram
-HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 1,KI,33,,4,syllabogram,AB 92,¹⁄₆,syllabogram,,"
-",syllabogram,,RO,syllabogram,,"
-",syllabogram,AB 56,DA,syllabogram
-HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),OLIVES,A 568,OLIV,38,,"
-",syllabogram,AB 56,DA,syllabogram,AB 02,TU,syllabogram,AB 01,"
-",syllabogram,AB 57,*308,syllabogram,AB 75,4,syllabogram
-HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 4,"
-",46,,"
-",syllabogram,AB 92,RO,syllabogram,,³⁄₄,syllabogram,AB 56,RO,syllabogram,AB 02,OLIV,syllabogram,A 568,93,logogram
-HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,RO,55,AB 75,𐄁,syllabogram,,"
-",syllabogram,,KU,syllabogram,AB 92,≈,syllabogram,,¹⁄₆,syllabogram,AB 66,KI,syllabogram
-HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 6,vase,63,,6,syllabogram,,𐄑,syllabogram,,𐄋,syllabogram,AB 56,?,syllabogram,AB 02,ro,syllabogram,,𐄌,syllabogram
-HT123+124b,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,"
-",24,AB 03,DI,syllabogram,AB 07,DA,syllabogram,AB 01,13/20,syllabogram,VASE 10,KA,logogram,AB 62,"
-",syllabogram,AB 06,SI,syllabogram
-HT123+124b,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 10,KA,25,AB 07,DA,syllabogram,AB 01,13/20,syllabogram,VASE 7,"
-",logogram,AB 62,"
-",syllabogram,AB 06,SI,syllabogram,,DU,syllabogram
-HT123+124b,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 1,MA,32,,¹⁄₆,syllabogram,AB 36,"
-",syllabogram,AB 44,DU,syllabogram,AB 44,NA,syllabogram,AB 65,³⁄₈,syllabogram,AB 26,"
+HT37,Haghia Triada - Villa Magazine,tablet (page-shaped),WINE,A 310,KI,17,,KI,syllabogram,,RE,syllabogram,AB 27,RO,syllabogram,,𐄁,syllabogram,AB 67,KA,syllabogram
+HT40,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 331,*331,2,AB 55,NU,syllabogram,AB 51,DU,syllabogram,,𐄁,syllabogram,AB 04,TE,syllabogram,,𐄁,syllabogram
+HT41a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 305,𐄁,6,AB 78,TU,syllabogram,AB 69,10,syllabogram,,*304,syllabogram,A 304,10,logogram,,"
 ",syllabogram
-HT123+124b,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 4,RO,37,AB 65,³⁄₈,syllabogram,AB 26,"
-",syllabogram,AB 06,KU,syllabogram,VASE 5,20,logogram,AB 66,KI,syllabogram,AB 02,RO,syllabogram
-HT123+124b,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 5,20,38,AB 26,"
-",syllabogram,AB 06,KU,syllabogram,VASE 4,RO,logogram,AB 66,KI,syllabogram,AB 02,RO,syllabogram,,5,syllabogram
-HT125a,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 3,"
-",7,,¹⁄₅,syllabogram,MET A,"
-",metrical,,OLE+U,syllabogram,A 728,1,fraction,,¹⁄₂,syllabogram,,SA,syllabogram
-HT125a,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,2,13,,SA,syllabogram,MET E,RA₂,metrical,,GRA,syllabogram,,"
-",syllabogram,,1,syllabogram,AB 30,ni,syllabogram
-HT125b,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,*304,11,,GRA+F,syllabogram,A 706,¹⁄₂,fraction,,"
-",syllabogram,AB 88,"
-",syllabogram,,NI,syllabogram,AB 29,pu,syllabogram
-HT126a,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,JA,15,AB 10,¹⁄₂,syllabogram,,"
-",syllabogram,,DI,syllabogram,AB 36,"
-",syllabogram,AB 07,U,syllabogram,AB 49,*49,syllabogram
-HT127b,Haghia Triada - Casa del Lebete,tablet (page-shaped),UNKNOWN_COMMODITY,A 398,*301,16,AB 66,"
-",syllabogram,,KI+MU,syllabogram,,15,syllabogram,,11,syllabogram,,"
-",syllabogram,A 377,14,logogram
-HT127b,Haghia Triada - Casa del Lebete,tablet (page-shaped),UNKNOWN_COMMODITY,A 377,14,19,A 398,*301,logogram,,11,syllabogram,,"
+HT41a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 304,10,8,,"
+",syllabogram,A 305,𐄁,logogram,,"
+",syllabogram,AB 27,𐄁,syllabogram,,*304,syllabogram
+HT41a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 304,10,12,,"
+",syllabogram,AB 27,𐄁,syllabogram,,"
+",syllabogram,AB 73,DA,syllabogram,AB 01,NI,syllabogram
+HT42+59,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 302,"
+",24,AB 81,"
+",syllabogram,,OLE+MI,syllabogram,,SU,syllabogram,,"
+",syllabogram,,TU,syllabogram
+HT43,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 342,*342,5,AB 51,DU,syllabogram,,𐄁,syllabogram,AB 28,I,syllabogram,,𐄁,syllabogram,AB 28,I,syllabogram
+HT45a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 305,*318,8,,*305,syllabogram,AB 86,2,syllabogram,,𐄁,syllabogram,,*305,syllabogram,,𐝫,syllabogram
+HT45a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 318,,12,,𐄁,syllabogram,,*305,syllabogram,,𐄁,syllabogram,A 305,,logogram,,𐄈,syllabogram
+HT45a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 305,,14,,𐝫,syllabogram,A 318,,logogram,,𐄈,syllabogram,,,,,,
+HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 318,*305,12,AB 81,"
+",syllabogram,,—,syllabogram,,7,syllabogram,A 305,"
+",logogram,,QA2+[?]+RE+PU,syllabogram
+HT45b,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 305,"
+",14,,*318,syllabogram,A 318,*305,logogram,,QA2+[?]+RE+PU,syllabogram,,"
+",syllabogram,,PA,syllabogram
+HT49a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 370,NU,35,AB 08,1,syllabogram,AB 26,"
+",syllabogram,,1,syllabogram,A 312,TU,logogram,,SU,syllabogram
+HT49a,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 312,TU,37,,KU,syllabogram,A 370,NU,logogram,,SU,syllabogram,AB 81,1,syllabogram,AB 56,"
+",syllabogram
+HT50a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 304,"
+",13,,¹⁄₂,syllabogram,,*304,syllabogram,,OLIV,syllabogram,,3,syllabogram,,"
+",syllabogram
+HT53a,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 302,RA,9,,OLE,syllabogram,,"
 ",syllabogram,,"
-",syllabogram,,KU,syllabogram,AB 85,291,syllabogram
-HT127b,Haghia Triada - Casa del Lebete,tablet (page-shaped),UNKNOWN_COMMODITY,A 377,[?],25,AB 85,291,syllabogram,,𐄐,syllabogram,,𐄇,syllabogram,,𐄐,syllabogram,,𐄊,syllabogram,AB 66,ta?,syllabogram
-HT128a,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,"
-",24,AB 59,"
-",syllabogram,AB 51,GRA+KU,syllabogram,A 400,6,logogram,,DI,syllabogram,A 703,GRA+KU,fraction,,4,syllabogram
-HT129,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 7,"
-",6,AB 73,GRA,syllabogram,,33,syllabogram,,𐝆𐝁,syllabogram,VASE 2,*304,logogram,AB 88,"
-",syllabogram,,NI,syllabogram
-HT129,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 2,*304,7,,33,syllabogram,,𐝆𐝁,syllabogram,VASE 7,"
-",logogram,AB 88,"
-",syllabogram,,NI,syllabogram,AB 29,"
+",syllabogram,,𐝫,syllabogram,,𐄙,syllabogram
+HT55a,Haghia Triada - Villa Magazine,tablet (page-shaped),PERSONNEL,A 301,SI,9,,"
+",syllabogram,,*301,syllabogram,,RU,syllabogram,AB 41,"
+",syllabogram,AB 26,NE,syllabogram
+HT57b,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 305,8,1,,*305,syllabogram,,,,,"
+",syllabogram,,"
+",syllabogram,,𐝫,syllabogram
+HT58,Haghia Triada - Villa Magazine,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],5,AB 60,RA,syllabogram,AB 51,DU,syllabogram,,"
+",syllabogram,,19,syllabogram,,"
 ",syllabogram
-HT129,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 7,1,19,AB 06,¹⁄₂,syllabogram,AB 73,"
-",syllabogram,,OLE+DI,syllabogram,A 726,OLE+KI,fraction,,6,syllabogram,,"
+HT63,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 305,*305,0,,,,,,,,𐄁,syllabogram,AB 04,TE,syllabogram,,1,syllabogram
+HT66,Haghia Triada - Villa Magazine,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],2,AB 79,ZU,syllabogram,,𐄁,syllabogram,,𐄁,syllabogram,,DI,syllabogram,AB 07,2,syllabogram
+HT72,Haghia Triada - Villa Magazine,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],1,AB 41,SI,syllabogram,,,,,𐄁,syllabogram,,𐝫,syllabogram,,"
 ",syllabogram
-HT131a,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 7,vase,22,AB 86,?,syllabogram,,𐄐,syllabogram,,𐄈,syllabogram,AB 88,?,syllabogram,,𐄐,syllabogram,,𐄈,syllabogram
-HT131b,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,VASE 7,vase,19,,𐄜,syllabogram,,𐄔,syllabogram,,𐄈,syllabogram,,𐝫,syllabogram,,,,,,
-HT133,Haghia Triada - Casa del Lebete,tablet (page-shaped),GRAIN,A 399,GRA+DA,4,AB 44,DU,syllabogram,,𐄁,syllabogram,AB 04,TE,syllabogram,,55,syllabogram,,𐄋,syllabogram,,,
-HT139,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,"
-",10,,¹⁄₂,syllabogram,,"
-",syllabogram,AB 86,RA₂,syllabogram,,𐝫,syllabogram,AB 62,"?,pte?",syllabogram,AB 61,?,syllabogram
-HT140,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,"
-",15,,OLE+KI,syllabogram,MET A,1,metrical,,¹⁄₂,syllabogram,,"
-",syllabogram,AB 10,*34,syllabogram,AB 31,SI,syllabogram
-HT140,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,vase,50,,𐄈,syllabogram,AB 62,"?,pte?",syllabogram,AB 03,pa,syllabogram,,𐝫,syllabogram,A 728,??,fraction,,𐄌,syllabogram
-HT140,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,vase,54,,𐝫,syllabogram,A 728,??,fraction,,𐄌,syllabogram,,,,,,,,,
-HT147,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 6,¹⁄₆,3,,𐝫,syllabogram,,RA,syllabogram,AB 52,≈,syllabogram,,¹⁄₂,syllabogram,VASE 7,"
-",logogram,,"
+HT78,Haghia Triada - Villa Magazine,tablet (page-shaped),UNKNOWN_COMMODITY,A 312,"
+",4,,—,syllabogram,,MU,syllabogram,,—,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
+HT79+83,Haghia Triada - Villa Magazine,tablet (page-shaped),LIVESTOCK,A 305,"
+",3,,I,syllabogram,AB 28,𐄁,syllabogram,,KA,syllabogram,,"
+",syllabogram,AB 77,DA,syllabogram
+HT85a,Haghia Triada - Casa Room 7,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],5,,𐄁,syllabogram,,*307+*387,syllabogram,,𐄁,syllabogram,AB 01,DA,syllabogram,AB 53,RI,syllabogram
+HT85a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 325,6,17,,"
+",syllabogram,,U,syllabogram,AB 17,"
+",syllabogram,,DA,syllabogram,AB 01,*118,syllabogram
+HT85b,Haghia Triada - Casa Room 7,tablet (page-shaped),WINE,A 310,I,38,AB 07,1,syllabogram,,"
+",syllabogram,AB 28,1,syllabogram,,𐄇,syllabogram,,,
+HT89,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 307,*307,4,AB 31,SA,syllabogram,AB 76,RA₂,syllabogram,,𐄁,syllabogram,A 305,*305,logogram,,23,syllabogram
+HT89,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 305,*305,6,,𐄁,syllabogram,A 307,*307,logogram,,23,syllabogram,,"
+",syllabogram,,22,syllabogram
+HT89,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 303,2,27,AB 02,2,syllabogram,,³⁄₄,syllabogram,,¹⁄₄,syllabogram,,"
+",syllabogram,AB 30,6,syllabogram
+HT90,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 304,*304,23,,1,syllabogram,,OLE+MI,syllabogram,,1,syllabogram,,,,,,
+HT91,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 326,*326,3,AB 28,I,syllabogram,AB 77,KA,syllabogram,,𐄁,syllabogram,AB 120,GRA,syllabogram,,.3,syllabogram
+HT91,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 304,*304,7,,𐄁,syllabogram,AB 120,GRA,syllabogram,,≈,syllabogram,,"
+",syllabogram,,𐄁,syllabogram
+HT92,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 304,12,8,AB 120,GRA,syllabogram,,680,syllabogram,,𐄐,syllabogram,,𐄈,syllabogram,,,
+HT93a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 343,NI,60,AB 01,*343,syllabogram,,2,syllabogram,,NA,syllabogram,AB 56,PA,syllabogram,AB 30,SE,syllabogram
+HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],2,AB 77,KA,syllabogram,AB 03,PA,syllabogram,,62,syllabogram,,"
+",syllabogram,AB 86,20,syllabogram
+HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 303,NI,20,,RA₂,syllabogram,AB 31,5,syllabogram,,3,syllabogram,AB 30,¹⁄₆,syllabogram,,"
 ",syllabogram
-HT147,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,"
-",5,AB 52,≈,syllabogram,VASE 6,¹⁄₆,logogram,,¹⁄₂,syllabogram,,"
-",syllabogram,AB 29,𐝫,syllabogram,,𐝫,syllabogram
-HT154.,Haghia Triada - Casa del Lebete,tablet (page-shaped),UNKNOWN_COMMODITY,A 355,*516,0,,,,,,,,,,,𐄁,syllabogram,AB 32,TI,syllabogram,,"
-",syllabogram
-HT154c,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,vase,6,,2,syllabogram,,𐝫,syllabogram,,𐄈,syllabogram,,𐝫,syllabogram,,,,,,
-HT154e,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 4,vase,8,,¹⁄₄,syllabogram,,𐝫,syllabogram,,𐄉,syllabogram,,,,,,,,,
-HT154g,Haghia Triada - Casa del Lebete,tablet (page-shaped),VESSELS,VASE 7,vase,3,,𐝫,syllabogram,,6,syllabogram,,¹⁄₂,syllabogram,,𐝫,syllabogram,,,,,,
-HTWa1020,Haghia Triada - Portico 11 and Room 13,Nodule,VESSELS,VASE 4,¹⁄₄,3,A 500,*304+PA,logogram,AB 66,KU,syllabogram,AB 03,PA,syllabogram,AB 39,JE,syllabogram,AB 51,TA,syllabogram,AB 06,NA,syllabogram
-HTWa1021,Haghia Triada - Portico 11 and Room 13,Nodule,GRAIN,A 364,SI+SE,4,AB 44,DU,syllabogram,,𐄁,syllabogram,A 568,³⁄₄,logogram,A 375,RA+KA,logogram,,,,,,
-HTWa1021,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 375,RA+KA,5,,𐄁,syllabogram,A 568,³⁄₄,logogram,A 364,SI+SE,logogram,,,,,,,,,
-HTWa1022,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 356,I+*301,0,,,,,,,,,,,,,,,,,,
-HTWa1023,Haghia Triada - Portico 11 and Room 13,Nodule,VESSELS,VASE 4,¹⁄₄,0,,,,,,,,,,,,,,,,,,
-HTWa1024,Haghia Triada - Portico 11 and Room 13,Nodule,VESSELS,VASE 4,¹⁄₄,0,,,,,,,,,,,,,,,,,,
-HTWa1025,Haghia Triada - Portico 11 and Room 13,Nodule,VESSELS,VASE 7,*905,0,,,,,,,,,,AB 85,*301,syllabogram,,,,,,
-HTWa1026,Haghia Triada - Portico 11 and Room 13,Nodule,VESSELS,VASE 4,E,0,,,,,,,,,,AB 85,*301,syllabogram,,,,,,
-HTWa1849,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 316,*365,0,,,,,,,,,,,,,,,,,,
-HTWa1850,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 317,*366,0,,,,,,,,,,,,,,,,,,
-HTWa1851,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 318,*367,0,,,,,,,,,,,,,,,,,,
-HTWa1852,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 319,*368,0,,,,,,,,,,,,,,,,,,
-HTWa1853,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 320,*369,0,,,,,,,,,,,,,,,,,,
-HTWa1854,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 321,*370,0,,,,,,,,,,,,,,,,,,
-HTWc3001,Haghia Triada,roundel,VESSELS,VASE 7,¹⁄₂,3,AB 03,PA,syllabogram,AB 09,SE,syllabogram,AB 49,JA,syllabogram,,,,,,,,,
-HTWc3019,Haghia Triada,roundel,VESSELS,VASE 4,¹⁄₄,1,AB 46,WA,syllabogram,,,,,,,,,,,,,,,
-HTZd157+156,Haghia Triada,Graffito,VESSELS,VASE 7,¹⁄₂,10,,1,syllabogram,AB 107,*904,syllabogram,,1,syllabogram,AB 107,*904,syllabogram,,2,syllabogram,VASE 4,¹⁄₄,logogram
-HTZd157+156,Haghia Triada,Graffito,VESSELS,VASE 4,¹⁄₄,13,VASE 7,¹⁄₂,logogram,AB 107,*904,syllabogram,,2,syllabogram,AB 107,*904,syllabogram,,3,syllabogram,VASE 4,³⁄₈,logogram
-HTZd157+156,Haghia Triada,Graffito,VESSELS,VASE 4,³⁄₈,16,VASE 4,¹⁄₄,logogram,AB 107,*904,syllabogram,,3,syllabogram,VASE 5,"
-",logogram,AB 51,JA,syllabogram,AB 49,¹⁄₁₆,syllabogram
-HTZd157+156,Haghia Triada,Graffito,VESSELS,VASE 5,"
-",17,AB 107,*904,syllabogram,,3,syllabogram,VASE 4,³⁄₈,logogram,AB 51,JA,syllabogram,AB 49,¹⁄₁₆,syllabogram,VASE 8,vase,logogram
-HTZd157+156,Haghia Triada,Graffito,VESSELS,VASE 8,vase,20,VASE 5,"
-",logogram,AB 51,JA,syllabogram,AB 49,¹⁄₁₆,syllabogram,,𐝫,syllabogram,,,,,,
-HTZg163,Haghia Triada,Stone object,VESSELS,VASE 5,¹⁄₈,0,,,,,,,,,,,,,,,,,,
-KEWc2,Kea,roundel,VESSELS,VASE 3,¹⁄₅,0,,,,,,,,,,VASE 2,?,logogram,VASE 2,vase,logogram,,,
-KEWc2,Kea,roundel,VESSELS,VASE 2,?,1,VASE 3,¹⁄₅,logogram,,,,,,,VASE 2,vase,logogram,,,,,,
-KEWc2,Kea,roundel,VESSELS,VASE 2,vase,2,VASE 3,¹⁄₅,logogram,VASE 2,?,logogram,,,,,,,,,,,,
-KH1,Khania,tablet (page-shaped),VESSELS,VASE 7,NI,7,,"
+HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 318,"
+",27,,2,syllabogram,,*318,syllabogram,A 306,CYP,logogram,,double,syllabogram,,mina,syllabogram
+HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 306,CYP,28,,*318,syllabogram,,*306,syllabogram,,double,syllabogram,,mina,syllabogram,A 303,NI,logogram
+HT94a,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 303,NI,31,A 306,CYP,logogram,,double,syllabogram,,double,syllabogram,,mina,syllabogram,AB 30,14,syllabogram
+HT96a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 323,*323,23,AB 26,RU,syllabogram,AB 31,SA,syllabogram,A 317,*317,logogram,,1,syllabogram,AB 39,PI,syllabogram
+HT96a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 317,*317,24,AB 31,SA,syllabogram,,4,syllabogram,,1,syllabogram,AB 39,PI,syllabogram,AB 59,TA,syllabogram
+HT96a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 323,*323,31,AB 60,RA,syllabogram,,𐄁,syllabogram,A 344,*344,logogram,,1,syllabogram,,—,syllabogram
+HT96a,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 344,*344,32,,𐄁,syllabogram,,1,syllabogram,,1,syllabogram,,—,syllabogram,,KU,syllabogram
+HT97a,Haghia Triada - Casa Room 7,tablet (page-shaped),VESSELS,A 327,33,8,,VIR+KA,syllabogram,,82,syllabogram,,"
+",syllabogram,,KA,syllabogram,AB 77,TI,syllabogram
+HT98a,Haghia Triada - Casa Room 7,tablet (page-shaped),PERSONNEL,A 301,RO,18,AB 06,TE,syllabogram,,*301,syllabogram,,KE,syllabogram,AB 02,"
+",syllabogram,AB 44,KA,syllabogram
+HT98a,Haghia Triada - Casa Room 7,tablet (page-shaped),WINE,A 310,,25,,RI,syllabogram,AB 77,I,syllabogram,AB 28,,syllabogram,,𐝃,syllabogram,,,
+HT99a,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 303,CYP,5,,𐄁,syllabogram,AB 31,SA,syllabogram,,4,syllabogram,,"
+",syllabogram,AB 30,4,syllabogram
+HT100,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 305,16,12,,"
+",syllabogram,AB 67,5,syllabogram,,"
+",syllabogram,,RO,syllabogram,,97,syllabogram
+HT100,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 303,double,23,,¹⁄₄,syllabogram,AB 31,NI,syllabogram,,mina,syllabogram,,"
+",syllabogram,AB 30,2,syllabogram
+HT101,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 302,10,16,AB 120,GRA,syllabogram,,41,syllabogram,,"
 ",syllabogram,,3,syllabogram,,"
-",syllabogram,AB 29,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH2,Khania,tablet (page-shaped),VESSELS,VASE 4,CYP+E,7,,CYP,syllabogram,AB 87,"
-",syllabogram,,*306,syllabogram,AB 90,𐝫,syllabogram,MET H,weigh H,metrical,,𐝫,syllabogram
-KH4,Khania,tablet (page-shaped),VESSELS,VASE 2,𐝫,8,AB 90,"
-",syllabogram,,CYP,syllabogram,AB 87,"
+",syllabogram
+HT101,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 304,2,29,,"
+",syllabogram,,3,syllabogram,,"
 ",syllabogram,,"
+",syllabogram,,OLIV,syllabogram
+HT106,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 303,CYP,3,AB 73,MI,syllabogram,AB 55,NU,syllabogram,,6,syllabogram,,"
+",syllabogram,AB 41,5,syllabogram
+HT107,Haghia Triada - Casa Room 7,tablet (page-shaped),UNKNOWN_COMMODITY,A 332,,8,AB 04,"
+",syllabogram,,*332,syllabogram,,𐄍,syllabogram,,,,,,
+HT108,Haghia Triada - Casa Room 7,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],4,AB 27,RE,syllabogram,AB 59,TA,syllabogram,,1,syllabogram,,GRA+H,syllabogram,,70,syllabogram
+HT110b,Haghia Triada - Casa Room 7,tablet (page-shaped),PERSONNEL,A 301,,23,,𐄇,syllabogram,AB 80,,syllabogram,,𐝕,syllabogram,,,,,,
+HT112b,Haghia Triada - Casa Room 7,tablet (page-shaped),LIVESTOCK,A 303,6,1,,CYP,syllabogram,,,,,"
 ",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH5,Khania,tablet (page-shaped),VESSELS,VASE 1,"
-",33,,3,syllabogram,,≈,syllabogram,,¹⁄₆,syllabogram,AB 29,2,syllabogram,,𐝆𐝁,syllabogram,VASE 7,vase,logogram
-KH5,Khania,tablet (page-shaped),VESSELS,VASE 7,vase,36,VASE 1,"
-",logogram,AB 29,2,syllabogram,,𐝆𐝁,syllabogram,VASE 2,vase,logogram,,,,,,
-KH5,Khania,tablet (page-shaped),VESSELS,VASE 2,vase,37,AB 29,2,syllabogram,,𐝆𐝁,syllabogram,VASE 7,vase,logogram,,,,,,,,,
-KH6,Khania,tablet (page-shaped),VESSELS,VASE 7,"
-",2,,CYP+D,syllabogram,MET G,¹⁄₂,metrical,,,,AB 07,SI,syllabogram,AB 36,"
-",syllabogram,,TE,syllabogram
-KH6,Khania,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,16,AB 30,*347,syllabogram,AB 22f,"
-",syllabogram,MET G,CYP,metrical,AB 135,RI,syllabogram,,TA,syllabogram,,CYP+D,syllabogram
-KH6,Khania,tablet (page-shaped),VESSELS,VASE 7,1,22,,CYP+D,syllabogram,AB 87,"
-",syllabogram,,*21M,syllabogram,AB 45,CYP+D,syllabogram,AB 51,¹⁄₂,syllabogram,AB 39,"
+HT114a,Haghia Triada - Casa Room 9,tablet (page-shaped),OLIVE_OIL,A 302,OLE,7,AB 76,RA₂,syllabogram,AB 120,GRA,syllabogram,,7,syllabogram,AB 30,NI,syllabogram,,1,syllabogram
+HT115a,Haghia Triada - Casa Room 9,tablet (page-shaped),PERSONNEL,A 301,*301,14,AB 55,NU,syllabogram,AB 40,WI,syllabogram,AB 10,U,syllabogram,AB 60,RA,syllabogram,AB 06,NA,syllabogram
+HT115b,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 306,TU,26,,I,syllabogram,AB 28,¹⁄₂,syllabogram,AB 69,JA,syllabogram,AB 57,1,syllabogram,,"
 ",syllabogram
-KH6,Khania,tablet (page-shaped),VESSELS,VASE 7,1,32,AB 18,"
-",syllabogram,,RE,syllabogram,MET G,*334,metrical,AB 21f,CYP+D,syllabogram,,¹⁄₂,syllabogram,AB 03,PI,syllabogram
-KH6,Khania,tablet (page-shaped),VESSELS,VASE 7,*306,43,AB 122,AU,syllabogram,,RE,syllabogram,MET G,𐄁,metrical,AB 34,"
-",syllabogram,AB 30,8,syllabogram,,"
+HT116a,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 302,"
+",34,AB 04,5,syllabogram,AB 120,"
+",syllabogram,,OLE+MI,syllabogram,,1,syllabogram,,*OLIV+TU,syllabogram
+HT116a,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 304,NU,47,AB 120,*304,syllabogram,,12,syllabogram,,MA,syllabogram,,GRA,syllabogram,AB 16,"
 ",syllabogram
-KH6,Khania,tablet (page-shaped),VESSELS,VASE 7,vase,49,,"
-",syllabogram,,2,syllabogram,MET G,𐝆𐝁,metrical,AB 68,ro2?,syllabogram,AB 24,ne,syllabogram,AB 04,te,syllabogram
-KH6,Khania,tablet (page-shaped),VESSELS,VASE 7,vase,60,,𐄎,syllabogram,AB 87,?,syllabogram,,𐄈,syllabogram,VASE 2,vase,logogram,,,,,,
-KH6,Khania,tablet (page-shaped),VESSELS,VASE 2,vase,61,AB 87,?,syllabogram,,𐄈,syllabogram,VASE 7,vase,logogram,,,,,,,,,
-KH7a,Khania,tablet (page-shaped),VESSELS,VASE 8,𐄁,14,,E,syllabogram,AB 26,NA,syllabogram,MET H,SI,metrical,AB 33,10,syllabogram,AB 06,"
-",syllabogram,AB 36,CYP+D,syllabogram
-KH7a,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 397,"
-",19,AB 06,"
-",syllabogram,AB 36,CYP+D,syllabogram,,¹⁄₂,syllabogram,,I,syllabogram,MET G,PA,metrical,VASE 7,ME,logogram
-KH7a,Khania,tablet (page-shaped),VESSELS,VASE 7,ME,22,A 397,"
-",logogram,,I,syllabogram,MET G,PA,metrical,AB 26,TA,syllabogram,AB 49,TA,syllabogram,AB 03,𐄁,syllabogram
-KH7a,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 397,"
-",34,AB 13,"
-",syllabogram,AB 32,CYP+D,syllabogram,AB 56,¹⁄₃,syllabogram,,SE,syllabogram,MET G,𐄁,metrical,VASE 2,"
+HT116a,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 304,,55,AB 80,3,syllabogram,AB 120,,syllabogram,,𐄉,syllabogram,,,,,,
+HT116b,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 304,15,5,AB 120,GRA,syllabogram,,100,syllabogram,,"
+",syllabogram,,OLE,syllabogram,A 302,,logogram
+HT116b,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 302,,8,A 304,15,logogram,,"
+",syllabogram,,𐄐,syllabogram,,𐄍,syllabogram,,,
+HT119,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,A 327,*327,0,,,,,,,,34,syllabogram,,"
+",syllabogram,A 100-102,67,logogram
+HT119,Haghia Triada - Casa Room 9,tablet (page-shaped),UNKNOWN_COMMODITY,A 345,*306,22,AB 37,JA,syllabogram,,*345,syllabogram,,TU,syllabogram,A 306,"
+",logogram,AB 69,*327,syllabogram
+HT119,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 306,"
+",24,AB 57,"
+",syllabogram,A 345,*306,logogram,AB 69,*327,syllabogram,,JU,syllabogram,A 327,"
 ",logogram
-KH7a,Khania,tablet (page-shaped),VESSELS,VASE 2,"
-",37,A 397,"
-",logogram,,SE,syllabogram,MET G,𐄁,metrical,AB 09,𐄁,syllabogram,AB 89,KO,syllabogram,,E,syllabogram
-KH7a,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 397,𐝫𐝁𐝌,47,,1,syllabogram,AB 58,𐝕𐝉𐝫,syllabogram,AB 33,"
+HT119,Haghia Triada - Casa Room 9,tablet (page-shaped),VESSELS,A 327,"
+",27,A 306,"
+",logogram,AB 69,*327,syllabogram,AB 65,KU,syllabogram,,RO,syllabogram,AB 81,,syllabogram
+HT121,Haghia Triada - Casa Room 9,tablet (page-shaped),OLIVE_OIL,A 302,OLE,9,AB 76,RA₂,syllabogram,AB 120,GRA,syllabogram,,4,syllabogram,AB 30,NI,syllabogram,,2,syllabogram
+HT122a,Haghia Triada - Casa del Lebete,tablet (page-shaped),WINE,A 310,MI,25,AB 67,I,syllabogram,,3,syllabogram,AB 28,DA,syllabogram,,RE,syllabogram,AB 57,"
+",syllabogram
+HT122a,Haghia Triada - Casa del Lebete,tablet (page-shaped),UNKNOWN_COMMODITY,A 324,PA,37,AB 01,DI,syllabogram,AB 27,RA,syllabogram,AB 07,DE,syllabogram,AB 60,1,syllabogram,,"
+",syllabogram
+HT122a,Haghia Triada - Casa del Lebete,tablet (page-shaped),LIVESTOCK,A 306,1,52,AB 59,TU,syllabogram,AB 24,1,syllabogram,AB 69,"
+",syllabogram,,KU,syllabogram,,NU,syllabogram
+HT122b,Haghia Triada - Casa del Lebete,tablet (page-shaped),UNKNOWN_COMMODITY,A 346,*346,3,AB 46,JE,syllabogram,AB 07,DI,syllabogram,,𐄁,syllabogram,A 100-102,VIR+[?],logogram,,"
+",syllabogram
+HT122b,Haghia Triada - Casa del Lebete,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],5,,𐄁,syllabogram,A 346,*346,logogram,,"
+",syllabogram,,KI,syllabogram,A 306,TA₂,logogram
+HT122b,Haghia Triada - Casa del Lebete,tablet (page-shaped),LIVESTOCK,A 306,TA₂,8,A 100-102,VIR+[?],logogram,,"
+",syllabogram,AB 67,7,syllabogram,AB 66,"
+",syllabogram,,A,syllabogram
+HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),HIDES,A 308,8,7,AB 122,OLIV,syllabogram,,31,syllabogram,,¹⁄₄,syllabogram,,"
+",syllabogram,AB 67,RO,syllabogram
+HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),HIDES,A 308,³⁄₄,20,,¹⁄₂,syllabogram,,"
 ",syllabogram,,"
-",syllabogram,,𐝫,syllabogram,,𐄎,syllabogram
-KH7a,Khania,tablet (page-shaped),VESSELS,VASE 10,vase,54,MET G,weigh G,metrical,,𐄇,syllabogram,A 568,[?],logogram,,𐝫,syllabogram,,𐝫,syllabogram,VASE 2,vase,logogram
-KH7a,Khania,tablet (page-shaped),VESSELS,VASE 2,vase,57,VASE 10,vase,logogram,,𐝫,syllabogram,,𐝫,syllabogram,VASE 13,vase,logogram,,𐝫,syllabogram,,,
-KH7a,Khania,tablet (page-shaped),VESSELS,VASE 13,vase,58,,𐝫,syllabogram,,𐝫,syllabogram,VASE 2,vase,logogram,,𐝫,syllabogram,,,,,,
-KH7b,Khania,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,7,AB 26,I,syllabogram,AB 09,SE,syllabogram,MET G,CYP+D,metrical,,"
-",syllabogram,,NA,syllabogram,AB 03,TU,syllabogram
-KH7b,Khania,tablet (page-shaped),VESSELS,VASE 7,*304+PA,14,AB 06,CYP+D,syllabogram,AB 57,¹⁄₂,syllabogram,MET G,"
-",metrical,A 500,"
-",logogram,,SI,syllabogram,AB 36,"
-",syllabogram
-KH8,Khania,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,8,AB 51,CYP+D,syllabogram,,¹⁄₂,syllabogram,MET G,NI,metrical,AB 29,GRA,syllabogram,VASE 7,¹⁄₂,logogram,,*304,syllabogram
-KH8,Khania,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,10,MET G,NI,metrical,VASE 7,¹⁄₂,logogram,AB 29,GRA,syllabogram,,*304,syllabogram,AB 73,¹⁄₄,syllabogram,VASE 7,"
-",logogram
-KH8,Khania,tablet (page-shaped),VESSELS,VASE 7,"
-",13,VASE 7,¹⁄₂,logogram,,*304,syllabogram,AB 73,¹⁄₄,syllabogram,AB 88,¹⁄₄,syllabogram,VASE 4,"
-",logogram,AB 87,"
-",syllabogram
-KH8,Khania,tablet (page-shaped),VESSELS,VASE 4,"
-",15,AB 73,¹⁄₄,syllabogram,VASE 7,"
-",logogram,AB 88,¹⁄₄,syllabogram,AB 87,"
-",syllabogram,VASE 4,NI,logogram,AB 71,"
-",syllabogram
-KH8,Khania,tablet (page-shaped),VESSELS,VASE 4,NI,17,AB 88,¹⁄₄,syllabogram,VASE 4,"
-",logogram,AB 87,"
-",syllabogram,AB 71,"
-",syllabogram,,*312,syllabogram,,"
-",syllabogram
-KH8,Khania,tablet (page-shaped),VESSELS,VASE 4,1,22,,*312,syllabogram,,"
-",syllabogram,AB 29,QA2+[?]+PU,syllabogram,AB 98,?,syllabogram,,𐄇,syllabogram,A 350,[?],logogram
-KH8,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 350,[?],25,VASE 4,1,logogram,AB 98,?,syllabogram,,𐄇,syllabogram,,𐄇,syllabogram,,,,,,
-KH9,Khania,tablet (page-shaped),MANPOWER,A 395,VIR+*307,6,AB 11,PO,syllabogram,AB 08,A,syllabogram,,𐄁,syllabogram,,"
+",syllabogram,,KI,syllabogram,AB 67,.3,syllabogram
+HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),HIDES,A 308,¹⁄₆,31,AB 122,"
+",syllabogram,,*308,syllabogram,,"
+",syllabogram,,KI,syllabogram,,RO,syllabogram
+HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),HIDES,A 308,RO,44,AB 122,4,syllabogram,,¹⁄₄,syllabogram,,³⁄₄,syllabogram,,"
+",syllabogram,AB 67,RO,syllabogram
+HT123+124a,Haghia Triada - Casa del Lebete,tablet (page-shaped),HIDES,A 308,≈,56,,"
+",syllabogram,,KU,syllabogram,,¹⁄₆,syllabogram,AB 81,KI,syllabogram,AB 02,RO,syllabogram
+HT123+124b,Haghia Triada - Casa del Lebete,tablet (page-shaped),HIDES,A 308,*308,1,AB 188,*188,syllabogram,,,,,11,syllabogram,,"
+",syllabogram,A 312,1,logogram
+HT123+124b,Haghia Triada - Casa del Lebete,tablet (page-shaped),UNKNOWN_COMMODITY,A 312,1,4,A 308,*308,logogram,,11,syllabogram,,³⁄₄,syllabogram,,"
+",syllabogram,AB 37,DA,syllabogram
+HT125a,Haghia Triada - Casa del Lebete,tablet (page-shaped),LIVESTOCK,A 302,,20,AB 76,,syllabogram,AB 120,,syllabogram,,𐝫,syllabogram,,𐄇,syllabogram,,,
+HT125b,Haghia Triada - Casa del Lebete,tablet (page-shaped),LIVESTOCK,A 304,"
+",12,,¹⁄₂,syllabogram,,"
+",syllabogram,,NI,syllabogram,AB 30,,syllabogram,,𐄑,syllabogram
+HT126a,Haghia Triada - Casa del Lebete,tablet (page-shaped),UNKNOWN_COMMODITY,A 318,*318,4,AB 06,NA,syllabogram,AB 41,SI,syllabogram,,𐄁,syllabogram,AB 08,A,syllabogram,AB 06,NA,syllabogram
+HT126b,Haghia Triada - Casa del Lebete,tablet (page-shaped),LIVESTOCK,A 305,3,1,,*305,syllabogram,,,,,"
 ",syllabogram,,"
-",syllabogram,VASE 8,NI,logogram
-KH9,Khania,tablet (page-shaped),VESSELS,VASE 8,NI,9,A 395,VIR+*307,logogram,,"
-",syllabogram,,"
-",syllabogram,AB 29,"
-",syllabogram,VASE 4,MI,logogram,VASE 2,"
-",logogram
-KH9,Khania,tablet (page-shaped),VESSELS,VASE 4,MI,11,,"
-",syllabogram,VASE 8,NI,logogram,AB 29,"
-",syllabogram,VASE 2,"
-",logogram,AB 59,SI,syllabogram,,𐄁,syllabogram
-KH9,Khania,tablet (page-shaped),VESSELS,VASE 2,"
-",12,VASE 8,NI,logogram,AB 29,"
-",syllabogram,VASE 4,MI,logogram,AB 59,SI,syllabogram,,𐄁,syllabogram,,¹⁄₂,syllabogram
-KH9,Khania,tablet (page-shaped),VESSELS,VASE 7,¹⁄₄,20,AB 36,2,syllabogram,,"
-",syllabogram,MET G,CYP,metrical,,"
-",syllabogram,,"
-",syllabogram,,CYP,syllabogram
-KH9,Khania,tablet (page-shaped),VESSELS,VASE 4,.3,25,,"
-",syllabogram,,CYP,syllabogram,AB 87,"
-",syllabogram,AB 77,SI+TA2,syllabogram,,*304,syllabogram,,𐝫,syllabogram
-KH9,Khania,tablet (page-shaped),VESSELS,VASE 4,vase,30,,*304,syllabogram,,𐝫,syllabogram,AB 87,?,syllabogram,VASE 10,vase,logogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH9,Khania,tablet (page-shaped),VESSELS,VASE 10,vase,31,,𐝫,syllabogram,AB 87,?,syllabogram,VASE 4,vase,logogram,,𐝫,syllabogram,,𐝫,syllabogram,A 561,[?],logogram
-KH9,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 367,[?],35,,𐝫,syllabogram,,𐝫,syllabogram,A 561,[?],logogram,AB 88,?,syllabogram,,𐄇,syllabogram,,𐝫,syllabogram
-KH10,Khania,tablet (page-shaped),VESSELS,VASE 7,"
-",4,,2,syllabogram,,"
-",syllabogram,,¹⁄₂,syllabogram,AB 73,10,syllabogram,,"
-",syllabogram,AB 26,PA,syllabogram
-KH11,Khania,tablet (page-shaped),VESSELS,VASE 8,SU,7,,CYP,syllabogram,AB 14,¹⁄₁₆,syllabogram,AB 87,"
-",syllabogram,AB 50,"
-",syllabogram,,CYP+E,syllabogram,MET H,"
-",metrical
-KH11,Khania,tablet (page-shaped),WINE,VASE 8,VIN,11,AB 50,"
-",syllabogram,,CYP+E,syllabogram,MET H,"
-",metrical,VASE 10,≈,logogram,AB 77,"
-",syllabogram,VASE 1,*306,logogram
-KH11,Khania,tablet (page-shaped),VESSELS,VASE 10,≈,12,,CYP+E,syllabogram,MET H,"
-",metrical,VASE 8,VIN,logogram,AB 77,"
-",syllabogram,VASE 1,*306,logogram,AB 90,"
-",syllabogram
-KH11,Khania,tablet (page-shaped),VESSELS,VASE 1,*306,14,VASE 8,VIN,logogram,VASE 10,≈,logogram,AB 77,"
-",syllabogram,AB 90,"
-",syllabogram,,CYP,syllabogram,AB 87,"
-",syllabogram
-KH11,Khania,tablet (page-shaped),VESSELS,VASE 2,*348,18,AB 90,"
-",syllabogram,,CYP,syllabogram,AB 87,"
-",syllabogram,AB 136,𐝇𐝉,syllabogram,AB 87,"
-",syllabogram,VASE 8,A,logogram
-KH11,Khania,tablet (page-shaped),VESSELS,VASE 8,A,21,VASE 2,*348,logogram,AB 136,𐝇𐝉,syllabogram,AB 87,"
-",syllabogram,VASE 10,TO,logogram,AB 08,TO,syllabogram,AB 05,I,syllabogram
-KH11,Khania,tablet (page-shaped),VESSELS,VASE 10,TO,22,AB 136,𐝇𐝉,syllabogram,AB 87,"
-",syllabogram,VASE 8,A,logogram,AB 08,TO,syllabogram,AB 05,I,syllabogram,AB 137,CYP+E,syllabogram
-KH11,Khania,tablet (page-shaped),PERSONNEL,A 301,"
-",36,,TA,syllabogram,AB 08,*301,syllabogram,AB 51,1,syllabogram,AB 85,*306,syllabogram,,1,syllabogram,AB 90,SI,syllabogram
-KH11,Khania,tablet (page-shaped),VESSELS,VASE 8,vase,43,,CYP,syllabogram,AB 36,jo,syllabogram,AB 87,?,syllabogram,VASE 10,vase,logogram,,,,,,
-KH11,Khania,tablet (page-shaped),VESSELS,VASE 10,vase,44,AB 36,jo,syllabogram,AB 87,?,syllabogram,VASE 8,vase,logogram,,,,,,,,,
-KH12,Khania,tablet (page-shaped),VESSELS,VASE 7,MI+JA+RU,5,,"
-",syllabogram,,*308,syllabogram,AB 92,"
-",syllabogram,A 381,"
-",logogram,VASE 7,¹⁄₃,logogram,,*335,syllabogram
-KH12,Khania,tablet (page-shaped),OLIVE_OIL,A 381,"
-",6,,*308,syllabogram,AB 92,"
-",syllabogram,VASE 7,MI+JA+RU,logogram,VASE 7,¹⁄₃,logogram,,*335,syllabogram,VASE 2,¹⁄₃,logogram
-KH12,Khania,tablet (page-shaped),VESSELS,VASE 7,¹⁄₃,7,AB 92,"
-",syllabogram,VASE 7,MI+JA+RU,logogram,A 381,"
-",logogram,,*335,syllabogram,VASE 2,¹⁄₃,logogram,AB 123,*516,syllabogram
-KH12,Khania,tablet (page-shaped),VESSELS,VASE 2,¹⁄₃,9,A 381,"
-",logogram,VASE 7,¹⁄₃,logogram,,*335,syllabogram,AB 123,*516,syllabogram,,"
-",syllabogram,,¹⁄₁₆,syllabogram
-KH12,Khania,tablet (page-shaped),VESSELS,VASE 2,"
-",13,AB 123,*516,syllabogram,,"
-",syllabogram,,¹⁄₁₆,syllabogram,A 355,¹⁄₅,logogram,,*401+RU,syllabogram,VASE 8,𐝍𐝫,logogram
-KH12,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 355,¹⁄₅,14,,"
-",syllabogram,,¹⁄₁₆,syllabogram,VASE 2,"
-",logogram,,*401+RU,syllabogram,VASE 8,𐝍𐝫,logogram,A 608,*401+RU,ligature
-KH12,Khania,tablet (page-shaped),VESSELS,VASE 8,𐝍𐝫,16,VASE 2,"
-",logogram,A 355,¹⁄₅,logogram,,*401+RU,syllabogram,A 608,*401+RU,ligature,VASE 3,𐝍𐝫,logogram,A 604,𐝫,ligature
-KH12,Khania,tablet (page-shaped),VESSELS,VASE 3,𐝍𐝫,18,,*401+RU,syllabogram,VASE 8,𐝍𐝫,logogram,A 608,*401+RU,ligature,A 604,𐝫,ligature,A 560,[?],logogram,,𐝫,syllabogram
-KH13,Khania,tablet (page-shaped),VESSELS,VASE 7,"
-",3,,𐝫,syllabogram,,2,syllabogram,,¹⁄₂,syllabogram,,A,syllabogram,,RE,syllabogram,AB 08,ZA,syllabogram
-KH13,Khania,tablet (page-shaped),VESSELS,VASE 4,"
-",12,AB 14,"
-",syllabogram,,*304,syllabogram,,¹⁄₃,syllabogram,VASE 10,𐝫,logogram,AB 88,DA,syllabogram,,I,syllabogram
-KH13,Khania,tablet (page-shaped),VESSELS,VASE 10,𐝫,13,,*304,syllabogram,,¹⁄₃,syllabogram,VASE 4,"
-",logogram,AB 88,DA,syllabogram,,I,syllabogram,AB 87,"
-",syllabogram
-KH13,Khania,tablet (page-shaped),VESSELS,VASE 2,3,17,AB 88,DA,syllabogram,,I,syllabogram,AB 87,"
-",syllabogram,,"
+",syllabogram,,TWE,syllabogram
+HT127b,Haghia Triada - Casa del Lebete,tablet (page-shaped),LIVESTOCK,A 307,KU,9,,RO,syllabogram,AB 81,156,syllabogram,,72,syllabogram,,"
+",syllabogram,,VIR+*313c,syllabogram
+HT127b,Haghia Triada - Casa del Lebete,tablet (page-shaped),PERSONNEL,A 301,291,22,,14,syllabogram,,"
+",syllabogram,,𐄐,syllabogram,,𐄇,syllabogram,,𐛖,syllabogram
+HT128a,Haghia Triada - Casa del Lebete,tablet (page-shaped),UNKNOWN_COMMODITY,A 326,*326,0,,,,,,,,𐄁,syllabogram,AB 03,PA,syllabogram,AB 60,RA,syllabogram
+HT128b,Haghia Triada - Casa del Lebete,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],2,,GRA+KU,syllabogram,,6,syllabogram,A 329,*329,logogram,,GRA+KU,syllabogram,,1,syllabogram
+HT128b,Haghia Triada - Casa del Lebete,tablet (page-shaped),UNKNOWN_COMMODITY,A 329,*329,3,,GRA+KU,syllabogram,,6,syllabogram,,GRA+KU,syllabogram,,1,syllabogram,AB 26,RU,syllabogram
+HT129,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 304,"
+",8,,𐝆𐝁,syllabogram,,"
+",syllabogram,,NI,syllabogram,AB 30,"
+",syllabogram,,TU,syllabogram
+HT129,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 302,,27,,𐝫,syllabogram,,𐄌,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
+HT130,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 303,"
+",6,,"
+",syllabogram,AB 31,RA₂,syllabogram,,𐝫,syllabogram,,RA₂,syllabogram,,KU,syllabogram
+HT130,Haghia Triada - Casa Room 9,tablet (page-shaped),WINE,A 303,VIN,18,,8,syllabogram,,NI,syllabogram,,3,syllabogram,AB 30,,syllabogram,,𐄌,syllabogram
+HT131a,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 302,,19,,12,syllabogram,,³⁄₄,syllabogram,,𐄐,syllabogram,,𐄈,syllabogram,,𐝆,syllabogram
+HT131a,Haghia Triada - Casa Room 9,tablet (page-shaped),LIVESTOCK,A 304,,23,,𐄐,syllabogram,,𐄈,syllabogram,,𐄐,syllabogram,,𐄈,syllabogram,,𐝕,syllabogram
+HT132,Haghia Triada - Casa del Lebete,tablet (page-shaped),UNKNOWN_COMMODITY,A 319,*904,3,AB 08,A,syllabogram,AB 09,SE,syllabogram,,5,syllabogram,AB 16,QA,syllabogram,AB 27,RE,syllabogram
+HT132,Haghia Triada - Casa del Lebete,tablet (page-shaped),LIVESTOCK,A 305,1,14,,"
+",syllabogram,AB 56,𐄁,syllabogram,,"
 ",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH14,Khania,tablet (page-shaped),VESSELS,VASE 4,2,12,,CYP,syllabogram,,"
-",syllabogram,AB 87,*336,syllabogram,AB 124,CYP,syllabogram,,¹⁄₁₆,syllabogram,AB 87,NI,syllabogram
-KH14,Khania,tablet (page-shaped),VESSELS,VASE 8,¹⁄₄,16,AB 124,CYP,syllabogram,,¹⁄₁₆,syllabogram,AB 87,NI,syllabogram,,"
-",syllabogram,,2,syllabogram,AB 29,"
+HT137,Haghia Triada - Casa del Lebete,tablet (page-shaped),LIVESTOCK,A 302,,11,,2,syllabogram,,"
+",syllabogram,,𐄈,syllabogram,,𐝫,syllabogram,,,
+HT139,Haghia Triada - Casa del Lebete,tablet (page-shaped),LIVESTOCK,A 302,RA₂,9,AB 120,OLE,syllabogram,,¹⁄₂,syllabogram,,"
+",syllabogram,,𐝫,syllabogram,AB 77,,syllabogram
+HT146,Haghia Triada - Casa del Lebete,tablet (page-shaped),LIVESTOCK,A 305,MA,7,,RI,syllabogram,,*305,syllabogram,,30,syllabogram,AB 80,RI,syllabogram,,KA,syllabogram
+HTWa1025,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,1,,*905,syllabogram,,,,,,,,,,,,
+HTWa1026,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,1,,E,syllabogram,,,,,,,,,,,,
+HTWa1029,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,A 301,*301,logogram,,,,,,
+HTWa1029,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,1,A 301,*301,logogram,,,,,,,,,,,,
+HTWa1030,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,A 301,*301,logogram,,,,,,
+HTWa1030,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,1,A 301,*301,logogram,,,,,,,,,,,,
+HTWa1623,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1624,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1625,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1626,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1627,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1628,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1629,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1630,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1631,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1632,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1633,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1634,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1635,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1636,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1637,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1638,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1639,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1640,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1641,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1642,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1643,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1644,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1645,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1646,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1647,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1648,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1649,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1650,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1651,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1652,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1653,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1654,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1655,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1656,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1657,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1658,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1659,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1660,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1661,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1662,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1664,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1665,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1666,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1667,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1668,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1669,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1670,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1671,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1672,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1673,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1674,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1675,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1676,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1677,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1678,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1679,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1680,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1681,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1682,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1683,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1684,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1685,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1686,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1687,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1688,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1689,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1690,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1691,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1692,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1693,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1694,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1695,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1696,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1697,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1698,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1699,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1700,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1701,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1702,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1703,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1704,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1705,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1706,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1707,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1708,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1709,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1710,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1711,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1712,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1713,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1714,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1715,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1716,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1717,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1718,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1719,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1720,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1721,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1722,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1723,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1724,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1725,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1726,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1727,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1728,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1729,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1730,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1731,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1732,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1733,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1734,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1735,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1736,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1737,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1738,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1739,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1740,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1741,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1742,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1743,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1744,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1745,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1746,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1747,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1748,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1749,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1750,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1751,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1752,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1753,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1754,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1755,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1756,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1757,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1758,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1759,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1760,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1761,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1762,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1763,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1764,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1765,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1766,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1767,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1768,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1769,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1770,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1771,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1772,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1773,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1774,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1775,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1776,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1777,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1778,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1779,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1780,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1781,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1782,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1783,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1784,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1785,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1786,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1787,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1788,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1789,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1790,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1791,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1792,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1793,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1794,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1795,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1796,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1797,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1798,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1799,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1800,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1801,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1802,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1803,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1804,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1805,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1806,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1807,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1808,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1809,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1810,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1811,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1812,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1813,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1814,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1815,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1816,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1817,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1818,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1819,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1820,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1821,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1822,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1823,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1824,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1825,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1826,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1827,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1828,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1829,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1830,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1831,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1832,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1833,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1834,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1835,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1836,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1837,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1838,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1839,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1840,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1841,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1842,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1843,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1844,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1845+1733,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1846,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1847,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1848,Haghia Triada - Portico 11 and Room 13,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTWa1849,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 365,*365,0,,,,,,,,,,,,,,,
+HTWa1850,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 366,*366,0,,,,,,,,,,,,,,,
+HTWa1851,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 367,*367,0,,,,,,,,,,,,,,,
+HTWa1852,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 368,*368,0,,,,,,,,,,,,,,,
+HTWa1853,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 369,*369,0,,,,,,,,,,,,,,,
+HTWa1854,Haghia Triada - Portico 11 and Room 13,Nodule,UNKNOWN_COMMODITY,A 370,*370,0,,,,,,,,,,,,,,,
+HTWc3006,Haghia Triada,roundel,UNKNOWN_COMMODITY,A 314,*314,4,AB 61,O,syllabogram,AB 73,MI,syllabogram,AB 60,RA,syllabogram,,,,,,
+HTWc3009,Haghia Triada,roundel,VESSELS,A 333,*333,0,,,,,,,AB 07,DI,syllabogram,AB 58,SU,syllabogram,AB 77,KA,syllabogram
+HTWc3010,Haghia Triada,roundel,VESSELS,A 333,*333,0,,,,,,,AB 07,DI,syllabogram,AB 06,NA,syllabogram,AB 58,SU,syllabogram
+HTWc3015,Haghia Triada,roundel,LIVESTOCK,A 303,CYP,3,AB 77,KA,syllabogram,AB 81,KU,syllabogram,,,,,,,,,
+HTWc3017,Haghia Triada,roundel,LIVESTOCK,A 306,*306,5,AB 27,RE,syllabogram,,𐄁,syllabogram,,𐄁,syllabogram,,CYP+D,syllabogram,,*304+PA,syllabogram
+HTWc3022(?),Haghia Triada,roundel,MANPOWER,A 100-102,VIR+[?],0,,,,,,,,,,,,,,,
+HTWd1663,Haghia Triada,tablet (page-shaped),PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+HTZd155,Haghia Triada,Graffito,UNKNOWN_COMMODITY,A 319,*904,8,AB 80,MA,syllabogram,AB 37,TI,syllabogram,,,,,,,,,
+HTZd157+156,Haghia Triada,Graffito,UNKNOWN_COMMODITY,A 319,*904,6,AB 80,MA,syllabogram,AB 37,TI,syllabogram,,1,syllabogram,A 319,*904,logogram,,1,syllabogram
+HTZd157+156,Haghia Triada,Graffito,UNKNOWN_COMMODITY,A 319,*904,8,AB 37,TI,syllabogram,A 319,*904,logogram,,1,syllabogram,,¹⁄₂,syllabogram,A 319,*904,logogram
+HTZd157+156,Haghia Triada,Graffito,UNKNOWN_COMMODITY,A 319,*904,11,A 319,*904,logogram,,1,syllabogram,,2,syllabogram,,¹⁄₄,syllabogram,A 319,*904,logogram
+HTZd157+156,Haghia Triada,Graffito,UNKNOWN_COMMODITY,A 319,*904,14,A 319,*904,logogram,,2,syllabogram,,3,syllabogram,,³⁄₈,syllabogram,,"
 ",syllabogram
-KH14,Khania,tablet (page-shaped),VESSELS,VASE 4,CYP,20,,"
-",syllabogram,,2,syllabogram,AB 29,"
-",syllabogram,A 395,𐝫,logogram,,𐄈,syllabogram,,𐝫,syllabogram
-KH14,Khania,tablet (page-shaped),MANPOWER,A 395,𐝫,21,,2,syllabogram,AB 29,"
-",syllabogram,VASE 4,CYP,logogram,,𐄈,syllabogram,,𐝫,syllabogram,AB 87,?,syllabogram
-KH15,Khania,tablet (page-shaped),VESSELS,VASE 7,NI,3,,CYP,syllabogram,AB 87,¹⁄₂,syllabogram,,"
-",syllabogram,AB 29,"
-",syllabogram,VASE 7,NI,logogram,,𐝫,syllabogram
-KH15,Khania,tablet (page-shaped),VESSELS,VASE 7,NI,5,,"
-",syllabogram,VASE 7,NI,logogram,AB 29,"
-",syllabogram,,𐝫,syllabogram,AB 29,pu,syllabogram,VASE 4,vase,logogram
-KH15,Khania,tablet (page-shaped),VESSELS,VASE 4,vase,8,VASE 7,NI,logogram,,𐝫,syllabogram,AB 29,pu,syllabogram,,,,,,,,,
-KH16,Khania,tablet (page-shaped),VESSELS,VASE 8,U,4,,"
-",syllabogram,,CYP,syllabogram,AB 87,"
-",syllabogram,VASE 10,TA,logogram,,I,syllabogram,,CYP+D,syllabogram
-KH16,Khania,tablet (page-shaped),VESSELS,VASE 10,TA,5,,CYP,syllabogram,AB 87,"
-",syllabogram,VASE 8,U,logogram,,I,syllabogram,,CYP+D,syllabogram,AB 10,"
-",syllabogram
-KH16,Khania,tablet (page-shaped),VESSELS,VASE 7,vase,15,MET G,"
-",metrical,,𐝫,syllabogram,,𐝫,syllabogram,AB 51,du?,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH17,Khania,tablet (page-shaped),VESSELS,VASE 7,"
-",4,,𐝫,syllabogram,,4,syllabogram,,𐝆𐝁,syllabogram,VASE 2,NI,logogram,AB 29,NI,syllabogram,,1,syllabogram
-KH17,Khania,tablet (page-shaped),VESSELS,VASE 2,NI,5,,4,syllabogram,,𐝆𐝁,syllabogram,VASE 7,"
-",logogram,AB 29,NI,syllabogram,,1,syllabogram,,A,syllabogram
-KH18,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 344,[?],18,AB 36,1,syllabogram,,"
-",syllabogram,,𐝫,syllabogram,AB 79,zo?,syllabogram,,𐄇,syllabogram,A 345,[?],logogram
-KH18,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 345,[?],21,A 344,[?],logogram,AB 79,zo?,syllabogram,,𐄇,syllabogram,,𐝫,syllabogram,,,,,,
-KH19,Khania,tablet (page-shaped),MANPOWER,A 395,13,2,,*306,syllabogram,AB 90,VIR+*307,syllabogram,,,,,"
-",syllabogram,,2,syllabogram,,"
-",syllabogram
-KH19,Khania,tablet (page-shaped),VESSELS,VASE 2,vase,9,,¹⁄₃,syllabogram,,𐄈,syllabogram,NUM 100,100,numeral,,𐝫,syllabogram,,,,,,
-KH20,Khania,tablet (page-shaped),VESSELS,VASE 2,DU,10,MET H,CYP+E,metrical,,"
-",syllabogram,,"
-",syllabogram,,ZA,syllabogram,AB 44,𐄁,syllabogram,AB 24,CYP+E,syllabogram
-KH20,Khania,tablet (page-shaped),VESSELS,VASE 7,¹⁄₄,17,AB 14,¹⁄₂,syllabogram,,"
-",syllabogram,MET H,NI,metrical,AB 29,pu,syllabogram,VASE 4,vase,logogram,,,
-KH20,Khania,tablet (page-shaped),VESSELS,VASE 4,vase,19,MET H,NI,metrical,VASE 7,¹⁄₄,logogram,AB 29,pu,syllabogram,,,,,,,,,
-KH21,Khania,tablet (page-shaped),VESSELS,VASE 3,NI,5,AB 87,𐝍,syllabogram,A 560,"
-",logogram,,"
-",syllabogram,AB 29,"
-",syllabogram,,*306,syllabogram,,QE,syllabogram
-KH24,Khania,tablet (page-shaped),VESSELS,VASE 10,vase,6,,𐝫𐝉,syllabogram,,"
-",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,,,,
-KH26,Khania,tablet (page-shaped),VESSELS,VASE 4,"
-",8,,𐝃𐝋,syllabogram,AB 29,"
-",syllabogram,,𐝫,syllabogram,VASE 12,𐝫,logogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH26,Khania,tablet (page-shaped),VESSELS,VASE 12,𐝫,9,AB 29,"
-",syllabogram,,𐝫,syllabogram,VASE 4,"
-",logogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH29,Khania,tablet (page-shaped),VESSELS,VASE 7,vase,13,,"
-",syllabogram,,𐝫,syllabogram,AB 87,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH30,Khania,tablet (page-shaped),VESSELS,VASE 10,"
-",2,,𐝫,syllabogram,,𐝫𐝉𐝫,syllabogram,,,,,NI,syllabogram,,𐝫,syllabogram,AB 29,pu,syllabogram
-KH31,Khania,tablet (page-shaped),VESSELS,VASE 7,"
-",5,A LB,],ligature,,—,syllabogram,,¹⁄₂,syllabogram,A 606,"
-",ligature,,1,syllabogram,,𐝫,syllabogram
-KH36,Khania,tablet (page-shaped),OLIVE_OIL,A 381,4,3,,KA,syllabogram,AB 62,𐄁,syllabogram,,MI+JA+RU,syllabogram,,"
-",syllabogram,,NA,syllabogram,,𐝫,syllabogram
-KH38,Khania,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,3,,𐝫,syllabogram,,𐝫,syllabogram,MET G,CYP+D,metrical,,"
-",syllabogram,,"
+HTZf166,Haghia Triada,metal object,UNKNOWN_COMMODITY,A 323,*323,0,,,,,,,,,,,,,,,
+HTZf167,Haghia Triada,metal object,HIDES,A 308,*308,0,,,,,,,,,,,,,,,
+IOZa2,Iouktas,stone vessel,PERSONNEL,A 301,*301,3,AB 08,A,syllabogram,AB 59,TA,syllabogram,AB 54,WA,syllabogram,AB 57,JA,syllabogram,,𐄁,syllabogram
+IOZa3,Iouktas,stone vessel,PERSONNEL,A 301,*301,4,AB 08,A,syllabogram,AB 59,TA,syllabogram,AB 54,WA,syllabogram,AB 57,JA,syllabogram,,𐄁,syllabogram
+IOZa4,Iouktas,stone vessel,PERSONNEL,A 301,WA,1,,*301,syllabogram,,,,AB 54,,syllabogram,,𐝫,syllabogram,,,
+IOZa6,Iouktas,stone vessel,PERSONNEL,A 301,*301,3,AB 59,TA,syllabogram,AB 06,NA,syllabogram,AB 10,U,syllabogram,AB 37,TI,syllabogram,AB 55,NU,syllabogram
+IOZa7,Iouktas,stone vessel,PERSONNEL,A 301,*301,3,AB 08,A,syllabogram,AB 59,TA,syllabogram,AB 54,WA,syllabogram,AB 57,JA,syllabogram,,𐄁,syllabogram
+IOZa7,Iouktas,stone vessel,UNKNOWN_COMMODITY,A 321,*321,9,,𐄁,syllabogram,AB 57,JA,syllabogram,,𐝫,syllabogram,,,,,,
+IOZa8,Iouktas,stone vessel,PERSONNEL,A 301,WA,4,AB 08,NA,syllabogram,AB 06,TI,syllabogram,AB 54,JA,syllabogram,AB 57,,syllabogram,,𐝫,syllabogram
+KH2,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",5,,"
+",syllabogram,AB 69,"
+",syllabogram,,*306,syllabogram,,CYP+E,syllabogram,A 306,𐝫,logogram
+KH2,Khania,tablet (page-shaped),LIVESTOCK,A 306,𐝫,8,A 303,"
+",logogram,,*306,syllabogram,,𐜚,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
+KH4,Khania,tablet (page-shaped),LIVESTOCK,A 306,"
+",5,AB 27,RE,syllabogram,,"
+",syllabogram,,CYP,syllabogram,A 303,"
+",logogram,,𐝫,syllabogram
+KH4,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",7,,4,syllabogram,A 306,"
+",logogram,,𐝫,syllabogram,,"
 ",syllabogram,,𐝫,syllabogram
-KH43,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 389,RE,1,,*560,syllabogram,,,,,,,AB 24,2,syllabogram,,"
-",syllabogram,A 362,"
+KH5,Khania,tablet (page-shaped),PERSONNEL,A 301,*301,23,AB 06,NA,syllabogram,AB 51,DU,syllabogram,AB 06,NA,syllabogram,,𐄁,syllabogram,AB 81,KU,syllabogram
+KH5,Khania,tablet (page-shaped),LIVESTOCK,A 303,CYP,29,AB 81,KU,syllabogram,AB 03,PA,syllabogram,,3,syllabogram,,≈,syllabogram,,¹⁄₆,syllabogram
+KH6,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 347,RI,17,AB 24,"
+",syllabogram,,CYP,syllabogram,,TA,syllabogram,,CYP+D,syllabogram,A 303,"
 ",logogram
-KH43,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 362,"
-",4,A 389,RE,logogram,AB 24,2,syllabogram,,"
-",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-KH46,Khania,tablet (page-shaped),VESSELS,VASE 12,"
-",3,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫𐝋,syllabogram,AB 77,"
-",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH55,Khania,tablet (page-shaped),VESSELS,VASE 2,¹⁄₃,3,,𐝫,syllabogram,,𐝫,syllabogram,NUM 100,OLE+TA,numeral,,"
+KH6,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",20,A 347,RI,logogram,,TA,syllabogram,,*21M,syllabogram,,1,syllabogram,AB 53,CYP+D,syllabogram
+KH6,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 334,AU,40,,CYP+D,syllabogram,AB 27,¹⁄₂,syllabogram,,RE,syllabogram,,𐄁,syllabogram,,*306,syllabogram
+KH6,Khania,tablet (page-shaped),LIVESTOCK,A 306,,54,AB 27,,syllabogram,AB 04,,syllabogram,,𐄇,syllabogram,,𐝫,syllabogram,,𐄎,syllabogram
+KH6,Khania,tablet (page-shaped),LIVESTOCK,A 303,,58,,𐄇,syllabogram,,𐝫,syllabogram,,𐄈,syllabogram,,𐝆,syllabogram,,𐝁,syllabogram
+KH7a,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 334,CYP+D,6,,*334,syllabogram,,4,syllabogram,,1,syllabogram,,I,syllabogram,,CYP+E,syllabogram
+KH7a,Khania,tablet (page-shaped),LIVESTOCK,A 305,KO,39,,𐄁,syllabogram,,"
+",syllabogram,,E,syllabogram,AB 81,18,syllabogram,,"
+",syllabogram
+KH8,Khania,tablet (page-shaped),LIVESTOCK,A 304,¹⁄₄,14,,*304,syllabogram,AB 120,¹⁄₄,syllabogram,,"
+",syllabogram,A 303,"
+",logogram,,NI,syllabogram
+KH8,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",16,,"
+",syllabogram,A 304,¹⁄₄,logogram,,NI,syllabogram,A 100-102,"
+",logogram,,*312,syllabogram
+KH8,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 312,,23,,"
+",syllabogram,AB 30,QA2+[?]+PU,syllabogram,,𐄇,syllabogram,,𐚻,syllabogram,,𐄇,syllabogram
+KH9,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",24,,"
+",syllabogram,,"
+",syllabogram,,.3,syllabogram,AB 131A,SI+TA2,syllabogram,,*304,syllabogram
+KH9,Khania,tablet (page-shaped),LIVESTOCK,A 303,,29,AB 131A,SI+TA2,syllabogram,,*304,syllabogram,,𐝃,syllabogram,,𐝉,syllabogram,,𐝫,syllabogram
+KH9,Khania,tablet (page-shaped),LIVESTOCK,A 304,,36,,𐝫,syllabogram,,𐝎,syllabogram,,𐄇,syllabogram,,𐝫,syllabogram,,,
+KH11,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",6,,ZA,syllabogram,,CYP,syllabogram,,SU,syllabogram,AB 58,"
+",syllabogram,,CYP+E,syllabogram
+KH11,Khania,tablet (page-shaped),LIVESTOCK,A 306,"
+",15,,≈,syllabogram,AB 131A,"
+",syllabogram,,CYP,syllabogram,A 303,"
+",logogram,,*348,syllabogram
+KH11,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",17,,*306,syllabogram,A 306,"
+",logogram,,*348,syllabogram,A 348,𐝇𐝉,logogram,A 303,"
+",logogram
+KH11,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 348,𐝇𐝉,19,,CYP,syllabogram,A 303,"
+",logogram,A 303,"
+",logogram,,A,syllabogram,,TO,syllabogram
+KH11,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",20,A 303,"
+",logogram,,*348,syllabogram,,A,syllabogram,,TO,syllabogram,AB 08,TO,syllabogram
+KH11,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 349,CYP+E,25,,TO,syllabogram,AB 08,TO,syllabogram,AB 05,3,syllabogram,AB 28,"
+",syllabogram,,NI,syllabogram
+KH11,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 350,"
+",36,,TA,syllabogram,AB 08,*301,syllabogram,A 301,*306,logogram,,1,syllabogram,A 306,SI,logogram
+KH11,Khania,tablet (page-shaped),PERSONNEL,A 301,*306,37,AB 08,*301,syllabogram,AB 59,1,syllabogram,,1,syllabogram,A 306,SI,logogram,,CYP,syllabogram
+KH11,Khania,tablet (page-shaped),LIVESTOCK,A 306,SI,39,A 350,"
+",logogram,A 301,*306,logogram,,CYP,syllabogram,AB 41,,syllabogram,A 303,,logogram
+KH11,Khania,tablet (page-shaped),LIVESTOCK,A 303,,42,A 306,SI,logogram,,CYP,syllabogram,,𐝇,syllabogram,,𐝉,syllabogram,,,
+KH12,Khania,tablet (page-shaped),LIVESTOCK,A 303,2,1,,CYP,syllabogram,,,,,"
+",syllabogram,,*308,syllabogram,A 308,"
+",logogram
+KH12,Khania,tablet (page-shaped),HIDES,A 308,"
+",4,A 303,2,logogram,,"
+",syllabogram,,MI+JA+RU,syllabogram,,"
+",syllabogram,,¹⁄₃,syllabogram
+KH12,Khania,tablet (page-shaped),VESSELS,A 335,*516,10,,¹⁄₃,syllabogram,,*335,syllabogram,,"
+",syllabogram,,¹⁄₁₆,syllabogram,,"
+",syllabogram
+KH13,Khania,tablet (page-shaped),LIVESTOCK,A 304,DA,14,,¹⁄₃,syllabogram,,"
+",syllabogram,,I,syllabogram,A 303,"
+",logogram,,3,syllabogram
+KH13,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",16,,𐝫,syllabogram,A 304,DA,logogram,,3,syllabogram,,"
+",syllabogram,,𐝫,syllabogram
+KH14,Khania,tablet (page-shaped),LIVESTOCK,A 303,6,7,AB 80,JA,syllabogram,AB 57,𐄁,syllabogram,,"
+",syllabogram,,CYP,syllabogram,,"
+",syllabogram
+KH14,Khania,tablet (page-shaped),LIVESTOCK,A 303,*336,11,,"
+",syllabogram,,CYP,syllabogram,,2,syllabogram,A 336,CYP,logogram,,¹⁄₁₆,syllabogram
+KH14,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 336,CYP,13,,"
+",syllabogram,A 303,*336,logogram,,¹⁄₁₆,syllabogram,A 303,NI,logogram,,¹⁄₄,syllabogram
+KH14,Khania,tablet (page-shaped),LIVESTOCK,A 303,NI,15,,2,syllabogram,A 336,CYP,logogram,,¹⁄₄,syllabogram,,"
+",syllabogram,,2,syllabogram
+KH14,Khania,tablet (page-shaped),LIVESTOCK,A 303,,24,,𐝫,syllabogram,,𐄈,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
+KH15,Khania,tablet (page-shaped),LIVESTOCK,A 303,¹⁄₂,1,,CYP,syllabogram,,,,,"
+",syllabogram,,NI,syllabogram,AB 30,"
+",syllabogram
+KH16,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",3,,22,syllabogram,,"
+",syllabogram,,U,syllabogram,,TA,syllabogram,,I,syllabogram
+KH19,Khania,tablet (page-shaped),MANPOWER,A 306,VIR+*307,1,,*306,syllabogram,,,,,13,syllabogram,,"
+",syllabogram,,2,syllabogram
+KH21,Khania,tablet (page-shaped),LIVESTOCK,A 303,𐝍,2,,𐝫,syllabogram,,CYP,syllabogram,,"
 ",syllabogram,,"
 ",syllabogram,,NI,syllabogram
-KH56,Khania,tablet (page-shaped),VESSELS,VASE 10,𐝫,2,,𐝫𐝕𐝉𐝫,syllabogram,A 568,"
-",logogram,,,,,"
-",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH57,Khania,tablet (page-shaped),VESSELS,VASE 4,vase,11,,𐝫,syllabogram,AB 87,?,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-KH58,Khania,tablet (page-shaped),VESSELS,VASE 4,CYP+E,11,,"
-",syllabogram,MET H,A,metrical,,"
-",syllabogram,AB 08,"
-",syllabogram,,CYP,syllabogram,,"
-",syllabogram
-KH58,Khania,tablet (page-shaped),VESSELS,VASE 7,vase,21,,𐝫,syllabogram,AB 87,?,syllabogram,,𐝫,syllabogram,AB 08,a,syllabogram,AB 85,?,syllabogram,,𐝫,syllabogram
-KH60,Khania,tablet (page-shaped),VESSELS,VASE 3,𐝫,14,AB 87,"
-",syllabogram,,MI+JA+RU,syllabogram,,"
-",syllabogram,A 381,𐝫,logogram,VASE 3,vase,logogram,,𐝫,syllabogram
-KH60,Khania,tablet (page-shaped),OLIVE_OIL,A 381,𐝫,15,,MI+JA+RU,syllabogram,,"
-",syllabogram,VASE 3,𐝫,logogram,VASE 3,vase,logogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH60,Khania,tablet (page-shaped),VESSELS,VASE 3,vase,16,,"
-",syllabogram,VASE 3,𐝫,logogram,A 381,𐝫,logogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH61,Khania,tablet (page-shaped),VESSELS,VASE 2,CYP,9,AB 65,"
-",syllabogram,,OLE+TA,syllabogram,,"
-",syllabogram,NUM 100,"
-",numeral,VASE 10,GRA,logogram,,1,syllabogram
-KH61,Khania,tablet (page-shaped),GRAIN,VASE 10,GRA,11,,"
-",syllabogram,VASE 2,CYP,logogram,NUM 100,"
-",numeral,,1,syllabogram,,𐝫,syllabogram,AB 87,?,syllabogram
-KH63,Khania,tablet (page-shaped),VESSELS,VASE 10,vase,7,,*401+RU,syllabogram,,"
-",syllabogram,A 604,𐝫,ligature,,𐝫,syllabogram,,𐝫,syllabogram,,,
-KH68+71,Khania,tablet (page-shaped),VESSELS,VASE 10,𐝉𐝫,3,,𐝫,syllabogram,,*401+[,syllabogram,A LB,],ligature,,"
+KH21,Khania,tablet (page-shaped),LIVESTOCK,A 306,,9,AB 30,"
+",syllabogram,,*306,syllabogram,AB 78,,syllabogram,AB 51,,syllabogram,,𐝫,syllabogram
+KH22,Khania,tablet (page-shaped),LIVESTOCK,A 303,,10,,"
+",syllabogram,AB 41,CYP,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
+KH23,Khania,tablet (page-shaped),LIVESTOCK,A 303,𐝫,4,AB 51,DU,syllabogram,,"
+",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
+KH29,Khania,tablet (page-shaped),LIVESTOCK,A 303,𐝫,12,,CYP,syllabogram,,"
+",syllabogram,,𐝆,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
+KH32,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 331,*331,1,AB 28,I,syllabogram,,,,,"
 ",syllabogram,,"
 ",syllabogram,,𐝫,syllabogram
-KH73,Khania,tablet (page-shaped),VESSELS,VASE 10,"
-",2,,𐝫,syllabogram,,𐝫𐝉,syllabogram,,,,AB 08,"
-",syllabogram,,1,syllabogram,,NI,syllabogram
-KH73,Khania,tablet (page-shaped),VESSELS,VASE 8,vase,13,,"
-",syllabogram,,A,syllabogram,,𐝫,syllabogram,AB 08,a,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH75,Khania,tablet (page-shaped),VESSELS,VASE 7,"
-",2,,𐝫,syllabogram,,¹⁄₂,syllabogram,,,,,CYP,syllabogram,,"
-",syllabogram,AB 87,NI,syllabogram
-KH75,Khania,tablet (page-shaped),VESSELS,VASE 8,"
-",7,,"
-",syllabogram,AB 87,NI,syllabogram,,¹⁄₃,syllabogram,VASE 10,𐝫,logogram,AB 29,pu,syllabogram,VASE 2,vase,logogram
-KH75,Khania,tablet (page-shaped),VESSELS,VASE 10,𐝫,8,AB 87,NI,syllabogram,,¹⁄₃,syllabogram,VASE 8,"
-",logogram,AB 29,pu,syllabogram,VASE 2,vase,logogram,,𐝫,syllabogram
-KH75,Khania,tablet (page-shaped),VESSELS,VASE 2,vase,10,VASE 8,"
-",logogram,VASE 10,𐝫,logogram,AB 29,pu,syllabogram,,𐝫,syllabogram,,,,,,
-KH76,Khania,tablet (page-shaped),VESSELS,VASE 4,vase,8,,"
-",syllabogram,AB 87,𐝫,syllabogram,,𐝫,syllabogram,VASE 13,vase,logogram,,𐝫,syllabogram,,,
-KH76,Khania,tablet (page-shaped),VESSELS,VASE 13,vase,9,AB 87,𐝫,syllabogram,,𐝫,syllabogram,VASE 4,vase,logogram,,𐝫,syllabogram,,,,,,
-KH80,Khania,tablet (page-shaped),VESSELS,VASE 3,"
-",1,,¹⁄₅,syllabogram,,,,,,,AB 86,"
+KH35,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",4,,𐝫,syllabogram,,1,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
+KH44,Khania,tablet (page-shaped),VESSELS,A 335,"
+",3,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
+KH47,Khania,tablet (page-shaped),LIVESTOCK,A 306,,12,,𐝫,syllabogram,AB 60,,syllabogram,,𐝫,syllabogram,,,,,,
+KH57,Khania,tablet (page-shaped),LIVESTOCK,A 303,,9,,¹⁄₄,syllabogram,,"
+",syllabogram,,𐝫,syllabogram,,𐝃,syllabogram,,𐝫,syllabogram
+KH58,Khania,tablet (page-shaped),LIVESTOCK,A 303,4,3,,𐝫,syllabogram,,𐝫,syllabogram,,"
+",syllabogram,,NI,syllabogram,AB 30,CYP+E,syllabogram
+KH58,Khania,tablet (page-shaped),LIVESTOCK,A 303,,19,,*301,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝆,syllabogram,AB 08,,syllabogram
+KH58,Khania,tablet (page-shaped),PERSONNEL,A 301,,23,,𐝫,syllabogram,,𐝆,syllabogram,,𐝫,syllabogram,,,,,,
+KH60,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",11,A 131C,TA₂,logogram,,CYP,syllabogram,,MI+JA+RU,syllabogram,,"
+",syllabogram,,𐝫,syllabogram
+KH61,Khania,tablet (page-shaped),LIVESTOCK,A 303,,14,,GRA,syllabogram,,1,syllabogram,,𐝫,syllabogram,,𐄈,syllabogram,AB 120,,syllabogram
+KH75,Khania,tablet (page-shaped),LIVESTOCK,A 303,NI,5,,"
+",syllabogram,,CYP,syllabogram,,¹⁄₃,syllabogram,,"
+",syllabogram,,𐝫,syllabogram
+KH76,Khania,tablet (page-shaped),LIVESTOCK,A 303,𐝫,6,,"
+",syllabogram,,CYP,syllabogram,,𐝫,syllabogram,,𐝃,syllabogram,,𐝌,syllabogram
+KH77,Khania,tablet (page-shaped),LIVESTOCK,A 303,𐝍,1,,CYP,syllabogram,,,,,"
 ",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KH81,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 382,1000,4,,𐝫,syllabogram,,5,syllabogram,,"
-",syllabogram,,"
-",syllabogram,,3,syllabogram,,𐝫,syllabogram
-KH82,Khania,tablet (page-shaped),VESSELS,VASE 10,"
-",4,,𐝫,syllabogram,,OLE+RI,syllabogram,NUM 10,𐝉𐝫,numeral,,*315,syllabogram,,"
-",syllabogram,AB 103,*336,syllabogram
-KH84,Khania,tablet (page-shaped),VESSELS,VASE 7,"
-",3,,𐝫,syllabogram,,CYP,syllabogram,AB 87,¹⁄₂,syllabogram,,*301,syllabogram,,"
-",syllabogram,AB 85,*306,syllabogram
-KH85,Khania,tablet (page-shaped),VESSELS,VASE 7,"
-",3,,𐝫,syllabogram,,OLE+TA,syllabogram,NUM 100,¹⁄₂,numeral,AB 92,"
-",syllabogram,,*401+RU,syllabogram,,"
+KH80,Khania,tablet (page-shaped),LIVESTOCK,A 302,"
+",2,,¹⁄₅,syllabogram,,"
+",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
+KH82,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 315,*336,7,,"
+",syllabogram,,*315,syllabogram,,"
+",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
+KH82,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 336,,11,,"
+",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
+KH84,Khania,tablet (page-shaped),LIVESTOCK,A 303,¹⁄₂,2,,𐝫,syllabogram,,CYP,syllabogram,,"
+",syllabogram,,*301,syllabogram,,"
 ",syllabogram
-KH85,Khania,tablet (page-shaped),VESSELS,VASE 8,"
-",8,,*401+RU,syllabogram,,"
-",syllabogram,A 604,*131C,ligature,AB 79,"
-",syllabogram,,CYP,syllabogram,,"
-",syllabogram
-KH85,Khania,tablet (page-shaped),VESSELS,VASE 3,vase,17,,𐝫,syllabogram,AB 87,?,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-KH86,Khania,tablet (page-shaped),VESSELS,VASE 1,"
+KH84,Khania,tablet (page-shaped),PERSONNEL,A 301,*306,6,,"
+",syllabogram,,*301,syllabogram,,"
+",syllabogram,A 306,"
+",logogram,,𐝫,syllabogram
+KH84,Khania,tablet (page-shaped),LIVESTOCK,A 306,"
 ",8,,"
-",syllabogram,AB 87,PI,syllabogram,,NU,syllabogram,VASE 2,3,logogram,VASE 2,"
-",logogram,AB 34,³⁄₄,syllabogram
-KH86,Khania,tablet (page-shaped),VESSELS,VASE 2,3,9,AB 87,PI,syllabogram,,NU,syllabogram,VASE 1,"
-",logogram,VASE 2,"
-",logogram,AB 34,³⁄₄,syllabogram,AB 47,"
+",syllabogram,A 301,*306,logogram,,𐝫,syllabogram,,𐜩,syllabogram,,𐝫,syllabogram
+KH85,Khania,tablet (page-shaped),HIDES,A 308,"
+",4,,OLE+TA,syllabogram,,¹⁄₂,syllabogram,,*401+RU,syllabogram,,"
+",syllabogram,,*131C,syllabogram
+KH85,Khania,tablet (page-shaped),LIVESTOCK,A 304,𐝫,12,A 131C,"
+",logogram,,CYP,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,A 303,,logogram
+KH85,Khania,tablet (page-shaped),LIVESTOCK,A 303,,15,A 304,𐝫,logogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝂,syllabogram,,𐝫,syllabogram
+KH86,Khania,tablet (page-shaped),LIVESTOCK,A 303,"
+",3,,RE,syllabogram,AB 27,ZA,syllabogram,,CYP,syllabogram,,"
+",syllabogram,A 303,PI,logogram
+KH86,Khania,tablet (page-shaped),LIVESTOCK,A 303,PI,6,A 303,"
+",logogram,,CYP,syllabogram,,NU,syllabogram,,"
+",syllabogram,,3,syllabogram
+KH86,Khania,tablet (page-shaped),LIVESTOCK,A 303,,18,,𐄉,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝕,syllabogram,,𐝫,syllabogram
+KH87,Khania,tablet (page-shaped),LIVESTOCK,A 306,"
+",4,,𐝫,syllabogram,,𐝫𐝉,syllabogram,,¹⁄₂,syllabogram,,*23M,syllabogram,,1,syllabogram
+KH91,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 316,13/20,9,AB 131A,VIN,syllabogram,,"
+",syllabogram,,"
+",syllabogram,,ZU,syllabogram,,"
 ",syllabogram
-KH86,Khania,tablet (page-shaped),VESSELS,VASE 2,"
-",10,,NU,syllabogram,VASE 1,"
-",logogram,VASE 2,3,logogram,AB 34,³⁄₄,syllabogram,AB 47,"
-",syllabogram,,𐝫,syllabogram
-KH87,Khania,tablet (page-shaped),VESSELS,VASE 10,"
-",3,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫𐝉,syllabogram,AB 90,"
-",syllabogram,,¹⁄₂,syllabogram,,*23M,syllabogram
-KH87,Khania,tablet (page-shaped),VESSELS,VASE 7,1,7,AB 90,"
-",syllabogram,,¹⁄₂,syllabogram,,*23M,syllabogram,AB 22,pi,syllabogram,,𐄇,syllabogram,,,
-KH91,Khania,tablet (page-shaped),VESSELS,VASE 7,ZU,11,,1,syllabogram,AB 104,13/20,syllabogram,,"
-",syllabogram,VASE 10,"
-",logogram,AB 64,¹⁄₆,syllabogram,,"
-",syllabogram
-KH91,Khania,tablet (page-shaped),VESSELS,VASE 10,"
-",12,AB 104,13/20,syllabogram,,"
-",syllabogram,VASE 7,ZU,logogram,AB 64,¹⁄₆,syllabogram,,"
-",syllabogram,,¹⁄₁₆,syllabogram
-KH91,Khania,tablet (page-shaped),VESSELS,VASE 1,"
-",16,AB 64,¹⁄₆,syllabogram,,"
-",syllabogram,,¹⁄₁₆,syllabogram,AB 57,"
-",syllabogram,VASE 8,*401+RU,logogram,AB 29,"
-",syllabogram
-KH91,Khania,tablet (page-shaped),VESSELS,VASE 8,*401+RU,18,,¹⁄₁₆,syllabogram,VASE 1,"
-",logogram,AB 57,"
-",syllabogram,AB 29,"
-",syllabogram,,*401+RO,syllabogram,,𐝫,syllabogram
-KH91,Khania,tablet (page-shaped),VESSELS,VASE 8,vase,23,,*401+RO,syllabogram,,𐝫,syllabogram,A 604,ligature,ligature,A 606,ligature,ligature,,𐝫,syllabogram,,𐝫,syllabogram
-KH96,Khania,tablet (page-shaped),VESSELS,VASE 9,vase,3,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫𐝈𐝀𐝀,syllabogram,VASE 1,vase,logogram,VASE 1,vase,logogram,,,
-KH96,Khania,tablet (page-shaped),VESSELS,VASE 1,vase,4,,𐝫,syllabogram,,𐝫𐝈𐝀𐝀,syllabogram,VASE 9,vase,logogram,VASE 1,vase,logogram,,,,,,
-KH96,Khania,tablet (page-shaped),VESSELS,VASE 1,vase,5,,𐝫𐝈𐝀𐝀,syllabogram,VASE 9,vase,logogram,VASE 1,vase,logogram,,,,,,,,,
-KH100,Khania,tablet (page-shaped),LIVESTOCK,A 303,*352,0,,,,,,,,,,AB 90,*306,syllabogram,,"
+KH100,Khania,tablet (page-shaped),UNKNOWN_COMMODITY,A 352,*352,0,,,,,,,A 306,*306,logogram,,"
 ",syllabogram,,VIN,syllabogram
-KH100,Khania,tablet (page-shaped),VESSELS,VASE 4,vase,9,,¹⁄₄,syllabogram,,𐝫,syllabogram,AB 37,?,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-KHWa1001,Khania,Nodule,UNKNOWN_COMMODITY,A 342,DA+RO,1,A 504,*316+KI,logogram,,,,,,,,,,,,,,,
-KHWa1002,Khania,Nodule,UNKNOWN_COMMODITY,A 342,DA+RO,1,A 504,*316+KI,logogram,,,,,,,,,,,,,,,
-KHWa1018,Khania,Nodule,UNKNOWN_COMMODITY,A 322,*371,0,,,,,,,,,,,,,,,,,,
-KHWa1019,Khania,Nodule,VESSELS,VASE 4,¹⁄₄,0,,,,,,,,,,,,,,,,,,
-KHWc2006,Khania,roundel,UNKNOWN_COMMODITY,A 340,*417,0,,,,,,,,,,,,,,,,,,
-KHWc2007,Khania,roundel,UNKNOWN_COMMODITY,A 340,*417,0,,,,,,,,,,,,,,,,,,
-KHWc2008,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2009,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2010,Khania,roundel,UNKNOWN_COMMODITY,A 332,*409,0,,,,,,,,,,,,,,,,,,
-KHWc2011,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2012,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2013,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2014,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2015,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2016,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2017,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2018,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2019,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2020,Khania,roundel,UNKNOWN_COMMODITY,A 332,*409,0,,,,,,,,,,,,,,,,,,
-KHWc2021,Khania,roundel,UNKNOWN_COMMODITY,A 332,*409,0,,,,,,,,,,,,,,,,,,
-KHWc2022,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2023,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2024,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2025,Khania,roundel,UNKNOWN_COMMODITY,A 332,*409,0,,,,,,,,,,,VS,syllabogram,,,,,,
-KHWc2029,Khania,roundel,MANPOWER,A 394,VIR+KA,0,,,,,,,,,,,,,,,,,,
-KHWc2030,Khania,roundel,MANPOWER,A 394,VIR+KA,0,,,,,,,,,,,,,,,,,,
-KHWc2031,Khania,roundel,MANPOWER,A 394,VIR+KA,0,,,,,,,,,,,,,,,,,,
-KHWc2032,Khania,roundel,MANPOWER,A 394,VIR+KA,0,,,,,,,,,,,,,,,,,,
-KHWc2058,Khania,roundel,UNKNOWN_COMMODITY,A 393,*86+*188,0,,,,,,,,,,,,,,,,,,
-KHWc2092,Khania,roundel,UNKNOWN_COMMODITY,A 393,*86+*188,0,,,,,,,,,,,,,,,,,,
-KHWc2091,Khania,roundel,UNKNOWN_COMMODITY,A 393,*86+*188,0,,,,,,,,,,,,,,,,,,
-KHWc2059,Khania,roundel,UNKNOWN_COMMODITY,A 393,*86+*188,0,,,,,,,,,,,,,,,,,,
-KHWc2060,Khania,roundel,UNKNOWN_COMMODITY,A 393,*86+*188,0,,,,,,,,,,,,,,,,,,
-KHWc2061,Khania,roundel,UNKNOWN_COMMODITY,A 393,*86+*188,0,,,,,,,,,,,,,,,,,,
-KHWc2062,Khania,roundel,UNKNOWN_COMMODITY,A 393,*86+*188,0,,,,,,,,,,,,,,,,,,
-KHWc2064,Khania,roundel,UNKNOWN_COMMODITY,A 384,MI+*301,0,,,,,,,,,,,,,,,,,,
-KHWc2065,Khania,roundel,LIVESTOCK,A 302,*351,1,,*805,syllabogram,,,,,,,,,,,,,,,
-KHWc2066,Khania,roundel,UNKNOWN_COMMODITY,A 355,*516,0,,,,,,,,,,,,,,,,,,
-KHWc2070,Khania,roundel,UNKNOWN_COMMODITY,A 355,*516,0,,,,,,,,,,,,,,,,,,
-KHWc2079,Khania,roundel,UNKNOWN_COMMODITY,A 334,*411,0,,,,,,,,,,,,,,,,,,
-KHWc2084,Khania,roundel,UNKNOWN_COMMODITY,A 331,*408,0,,,,,,,,,,,,,,,,,,
-KHWc2097,Khania,roundel,UNKNOWN_COMMODITY,A 392,*86+'*188',0,,,,,,,,,,,,,,,,,,
-KHWc2099,Khania,roundel,UNKNOWN_COMMODITY,A 384,MI+*301,0,,,,,,,,,,,,,,,,,,
-KHWc2100,Khania,roundel,LIVESTOCK,A 303,*352,1,AB 71,VIR+[?],syllabogram,,,,,,,AB 49,JA,syllabogram,,,,,,
-KHWc2103,Khania,roundel,UNKNOWN_COMMODITY,A 331,*408,0,,,,,,,,,,,,,,,,,,
-KHWc2106,Khania,roundel,MANPOWER,A 394,VIR+KA,0,,,,,,,,,,,,,,,,,,
-KHWc2109,Khania,roundel,UNKNOWN_COMMODITY,A 393,*86+*188,0,,,,,,,,,,,,,,,,,,
-KHWc2114,Khania,roundel,UNKNOWN_COMMODITY,A 331,*408,0,,,,,,,,,,,VS,syllabogram,,,,,,
-KHWc2117,Khania,roundel,UNKNOWN_COMMODITY,A 392,[?],2,AB 71,VIR+[?],syllabogram,,"
-",syllabogram,,,,,,,,,,,,
-KHWc2122,Khania,roundel,UNKNOWN_COMMODITY,A 331,*408,0,,,,,,,,,,,,,,,,,,
-KN2,Knossos,tablet (page-shaped),UNKNOWN_COMMODITY,A 356,5,6,,"
-",syllabogram,AB 72,3,syllabogram,,"
-",syllabogram,,"
-",syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
-KN28b,Knossos,tablet (page-shaped),VESSELS,VASE 11,"
-",4,,𐝫,syllabogram,,TE,syllabogram,AB 04,𐝊𐝫,syllabogram,,3,syllabogram,,SU+MI,syllabogram,,𐝊𐝫,syllabogram
-KN28b,Knossos,tablet (page-shaped),UNKNOWN_COMMODITY,A 374,𐝫,8,,3,syllabogram,,SU+MI,syllabogram,,𐝊𐝫,syllabogram,VASE 11,vase,logogram,,𐝫,syllabogram,,𐝫,syllabogram
-KN28b,Knossos,tablet (page-shaped),VESSELS,VASE 11,vase,9,,SU+MI,syllabogram,,𐝊𐝫,syllabogram,A 374,𐝫,logogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-KN54,Knossos,tablet (page-shaped),VESSELS,VASE 8,vase,7,,*131C,syllabogram,,"
-",syllabogram,AB 79,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-KN49,Knossos,tablet (page-shaped),VESSELS,VASE 9,L,1,,𐄁,syllabogram,,,,,,,,𐝫,syllabogram,,,,,,
-KNZb56,Knossos,Clay vessel,MANPOWER,A 394,VIR+KA,1,AB 02,RO,syllabogram,,,,,,,,,,,,,,,
-KNZg<21>,Knossos,Stone object,UNKNOWN_COMMODITY,A 363,*528,0,,,,,,,,,,,,,,,,,,
-MA10b,Malia,4-sided bar,UNKNOWN_COMMODITY,A 359,[?],14,,*402+A,syllabogram,A 609,"
-",ligature,,TI+*412VAS,syllabogram,,𐄈,syllabogram,,,,,,
-MA10c,Malia,4-sided bar,VESSELS,A 327,VS,5,,"
-",syllabogram,A 615,3,ligature,,"
-",syllabogram,,𐝫,syllabogram,,,,,,
-MAZb15,Malia,Clay vessel,UNKNOWN_COMMODITY,A 328,*405,0,,,,,,,,,,VASE 8,VS,logogram,,,,,,
-MAZb15,Malia,Clay vessel,VESSELS,VASE 8,VS,1,A 328,*405,logogram,,,,,,,,,,,,,,,
-MYZf1,Mycenae,metal object,GRAIN,A 364,SI+SE,0,,,,,,,,,,,,,,,,,,
-PE1,Petras,tablet (page-shaped),VESSELS,VASE 7,E,16,A 400,26,logogram,,¹⁄₂,syllabogram,,"
-",syllabogram,AB 33,VIR+[?],syllabogram,AB 62,72,syllabogram,,"
+KH100,Khania,tablet (page-shaped),LIVESTOCK,A 306,*306,1,A 352,*352,logogram,,,,,"
+",syllabogram,,VIN,syllabogram,AB 02,"
 ",syllabogram
-PE2,Petras,tablet (page-shaped),VESSELS,VASE 2,¹⁄₃,2,,𐝫,syllabogram,,3,syllabogram,,,,AB 23,RU,syllabogram,AB 34,PI,syllabogram,,*305,syllabogram
-PE2,Petras,tablet (page-shaped),VESSELS,VASE 5,"
-",9,AB 89,MI,syllabogram,AB 59,1,syllabogram,,¹⁄₈,syllabogram,AB 08,*325,syllabogram,AB 113,ZA,syllabogram,AB 14,¹⁄₄,syllabogram
-PE2,Petras,tablet (page-shaped),VESSELS,VASE 4,"
-",13,AB 08,*325,syllabogram,AB 113,ZA,syllabogram,AB 14,¹⁄₄,syllabogram,AB 08,RI,syllabogram,AB 45,PA,syllabogram,AB 03,¹⁄₄,syllabogram
-PE2,Petras,tablet (page-shaped),VESSELS,VASE 4,"
-",17,AB 08,RI,syllabogram,AB 45,PA,syllabogram,AB 03,¹⁄₄,syllabogram,AB 13,QA,syllabogram,AB 13,DA,syllabogram,AB 01,¹⁄₂,syllabogram
-PE2,Petras,tablet (page-shaped),VESSELS,VASE 7,"
-",21,AB 13,QA,syllabogram,AB 13,DA,syllabogram,AB 01,¹⁄₂,syllabogram,AB 05,ME,syllabogram,AB 12,¹⁄₃,syllabogram,VASE 2,"
-",logogram
-PE2,Petras,tablet (page-shaped),VESSELS,VASE 2,"
-",24,VASE 7,"
-",logogram,AB 05,ME,syllabogram,AB 12,¹⁄₃,syllabogram,AB 05,*49,syllabogram,AB 42,RE,syllabogram,AB 24,1,syllabogram
-PEWy5,Petras,tablet (page-shaped),VESSELS,VASE 7,¹⁄₂,3,AB 86,OLE,syllabogram,AB 91,*307,syllabogram,,1,syllabogram,,,,,,,,,
-PEZg5,Petras,Stone object,VESSELS,VASE 7,¹⁄₂,3,AB 86,OLE,syllabogram,AB 91,*307,syllabogram,,1,syllabogram,,,,,,,,,
-PH1a,Phaistos,tablet (page-shaped),VESSELS,VASE 10,"
-",7,AB 06,*316,syllabogram,AB 104,𐄁,syllabogram,,𐝉,syllabogram,,𐄁,syllabogram,AB 49,*316,syllabogram,,1,syllabogram
-PH1a,Phaistos,tablet (page-shaped),VESSELS,VASE 6,"
-",14,AB 104,"
-",syllabogram,,CYP,syllabogram,AB 87,¹⁄₆,syllabogram,,𐝫,syllabogram,,,,,,
-PH1b,Phaistos,tablet (page-shaped),VESSELS,VASE 5,vase,9,,𐝄𐝇,syllabogram,AB 29,pu,syllabogram,,𐄈,syllabogram,VASE 8,vase,logogram,,,,,,
-PH1b,Phaistos,tablet (page-shaped),VESSELS,VASE 8,vase,10,AB 29,pu,syllabogram,,𐄈,syllabogram,VASE 5,vase,logogram,,,,,,,,,
-PH3a,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 387,1,1,,*556,syllabogram,,,,,,,,"
-",syllabogram,AB 51,"
-",syllabogram,,1,syllabogram
-PH3a,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 388,"
-",5,,"
-",syllabogram,AB 51,"
-",syllabogram,,1,syllabogram,,*563,syllabogram,A 390,"
-",logogram,A 566,*560,logogram
-PH3a,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 390,"
-",7,,1,syllabogram,A 388,"
-",logogram,,*563,syllabogram,A 566,*560,logogram,,"
-",syllabogram,A 389,PA,logogram
-PH3a,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 389,PA,10,A 390,"
-",logogram,A 566,*560,logogram,,"
-",syllabogram,A 566,RA,logogram,AB 03,"
-",syllabogram,AB 52,PA,syllabogram
-PH3b,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 379,³⁄₄,1,,]MI+JA,syllabogram,,,,,,,A 568,"
-",logogram,,SI,syllabogram,,"
-",syllabogram
-PH3b,Phaistos,tablet (page-shaped),VESSELS,VASE 4,"
-",6,,SI,syllabogram,,"
-",syllabogram,AB 36,𐝫,syllabogram,,SI,syllabogram,,¹⁄₄,syllabogram,,𐝫,syllabogram
-PH3b,Phaistos,tablet (page-shaped),VESSELS,VASE 4,vase,12,,𐝫,syllabogram,AB 36,jo,syllabogram,,𐄇,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-PH7b,Phaistos,tablet (page-shaped),VESSELS,VASE 9,"
-",4,,TA,syllabogram,AB 51,1,syllabogram,,L,syllabogram,,DA,syllabogram,,L,syllabogram,AB 01,"
-",syllabogram
-PH7b,Phaistos,tablet (page-shaped),VESSELS,VASE 9,𐝈𐝃,9,,L,syllabogram,AB 01,"
-",syllabogram,AB 52,*131C,syllabogram,,"
-",syllabogram,,𐝫,syllabogram,AB 79,zo?,syllabogram
-PH7b,Phaistos,tablet (page-shaped),VESSELS,VASE 9,vase,13,,"
-",syllabogram,,𐝫,syllabogram,AB 79,zo?,syllabogram,VASE 4,vase,logogram,,𐝫,syllabogram,,,
-PH7b,Phaistos,tablet (page-shaped),VESSELS,VASE 4,vase,14,,𐝫,syllabogram,AB 79,zo?,syllabogram,VASE 9,vase,logogram,,𐝫,syllabogram,,,,,,
-PH9a,Phaistos,tablet (page-shaped),LIVESTOCK,A 304,*353,2,AB 105,*317,syllabogram,AB 63,QE,syllabogram,,,,A 562,≈,logogram,,,,,,
-PH9b,Phaistos,tablet (page-shaped),VESSELS,A 335,VS,1,,*412,syllabogram,,,,,,,AB 77,VIN,syllabogram,,1,syllabogram,VASE 7,𐝆𐝆,logogram
-PH9b,Phaistos,tablet (page-shaped),VESSELS,VASE 7,𐝆𐝆,4,A 335,VS,logogram,AB 77,VIN,syllabogram,,1,syllabogram,VASE 7,vase,logogram,,,,,,
-PH9b,Phaistos,tablet (page-shaped),VESSELS,VASE 7,vase,5,AB 77,VIN,syllabogram,,1,syllabogram,VASE 7,𐝆𐝆,logogram,,,,,,,,,
-PH10,Phaistos,Label,LIVESTOCK,A 306,*355,0,,,,,,,,,,AB 33,E,syllabogram,A 305,*354,logogram,AB 82,HIDE+[?],syllabogram
-PH10,Phaistos,Label,LIVESTOCK,A 305,*354,2,A 306,*355,logogram,AB 33,E,syllabogram,,,,AB 82,HIDE+[?],syllabogram,VASE 9,𐝈𐝈,logogram,VASE 9,vase,logogram
-PH10,Phaistos,Label,VESSELS,VASE 9,𐝈𐝈,4,AB 33,E,syllabogram,A 305,*354,logogram,AB 82,HIDE+[?],syllabogram,VASE 9,vase,logogram,,,,,,
-PH10,Phaistos,Label,VESSELS,VASE 9,vase,5,A 305,*354,logogram,AB 82,HIDE+[?],syllabogram,VASE 9,𐝈𐝈,logogram,,,,,,,,,
-PH12a,Phaistos,Lames (short thin tablet),VESSELS,VASE 9,vase,5,AB 82,HIDE+[?],syllabogram,,10,syllabogram,,𐝈𐝈,syllabogram,VASE 9,vase,logogram,,,,,,
-PH12a,Phaistos,Lames (short thin tablet),VESSELS,VASE 9,vase,6,,10,syllabogram,,𐝈𐝈,syllabogram,VASE 9,vase,logogram,,,,,,,,,
-PH12b,Phaistos,Lames (short thin tablet),VESSELS,VASE 4,¹⁄₄,0,,,,,,,,,,,"
-",syllabogram,,𐝫,syllabogram,VASE 4,vase,logogram
-PH12b,Phaistos,Lames (short thin tablet),VESSELS,VASE 4,vase,3,VASE 4,¹⁄₄,logogram,,"
-",syllabogram,,𐝫,syllabogram,VASE 4,vase,logogram,,𐝫,syllabogram,,,
-PH12b,Phaistos,Lames (short thin tablet),VESSELS,VASE 4,vase,4,,"
-",syllabogram,,𐝫,syllabogram,VASE 4,vase,logogram,,𐝫,syllabogram,,,,,,
-PH13a,Phaistos,Lames (short thin tablet),VESSELS,VASE 4,vase,4,AB 82,*328,syllabogram,AB 116,𐝫𐝃𐝃,syllabogram,,𐝫,syllabogram,VASE 4,vase,logogram,,,,,,
-PH13a,Phaistos,Lames (short thin tablet),VESSELS,VASE 4,vase,5,AB 116,𐝫𐝃𐝃,syllabogram,,𐝫,syllabogram,VASE 4,vase,logogram,,,,,,,,,
-PH13b,Phaistos,Lames (short thin tablet),LIVESTOCK,A 307,[?],1,,*356,syllabogram,,,,,,,,,,,,,,,
-PH13c,Phaistos,Lames (short thin tablet),VESSELS,VASE 4,vase,3,,TE,syllabogram,AB 04,ZU,syllabogram,AB 64,𐝃𐝃𐝫,syllabogram,VASE 4,vase,logogram,,𐝫,syllabogram,,,
-PH13c,Phaistos,Lames (short thin tablet),VESSELS,VASE 4,vase,4,AB 04,ZU,syllabogram,AB 64,𐝃𐝃𐝫,syllabogram,VASE 4,vase,logogram,,𐝫,syllabogram,,,,,,
-PH15b,Phaistos,Lames (short thin tablet),HIDES,A 308,HIDE+[?],1,,*357,syllabogram,,,,,,,AB 82,?,syllabogram,,𐝫,syllabogram,,,
-PH16a,Phaistos,Lames (short thin tablet),GRAIN,A 309,[barley?],6,,—,syllabogram,,*358,syllabogram,,𐝫,syllabogram,AB 29,pu,syllabogram,,𐝫,syllabogram,,,
-PH17a,Phaistos,Lames (short thin tablet),WINE,A 310,[wine?],1,,*359,syllabogram,,,,,,,,𐝫,syllabogram,,,,,,
-PH17b,Phaistos,Lames (short thin tablet),OLIVE_OIL,A 311,[oil?],1,,*360,syllabogram,,,,,,,,𐝫,syllabogram,,,,,,
-PH22a,Phaistos,tablet (page-shaped),VESSELS,VASE 7,vase,1,,𐝫𐝆𐝆,syllabogram,,,,,,,VASE 7,vase,logogram,,,,,,
-PH22a,Phaistos,tablet (page-shaped),VESSELS,VASE 7,vase,2,,𐝫𐝆𐝆,syllabogram,VASE 7,vase,logogram,,,,,,,,,,,,
-PH26,Phaistos,tablet (page-shaped),VESSELS,VASE 4,vase,2,,*314,syllabogram,AB 102,𐝃𐝏𐝏𐝏𐝫,syllabogram,,,,A 562,[?],logogram,A 562,[?],logogram,A 562,[?],logogram
-PH30,Phaistos,tablet (page-shaped),VESSELS,VASE 4,"
-",3,,𐝫,syllabogram,,TI,syllabogram,AB 32,¹⁄₄,syllabogram,,MA,syllabogram,,RI,syllabogram,AB 65,MI,syllabogram
-PH(?)31a,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 353,MA,6,,RU,syllabogram,,1,syllabogram,AB 23,"
-",syllabogram,,DI,syllabogram,AB 65,1,syllabogram,AB 07,"
-",syllabogram
-PH(?)31a,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 353,3,33,,*21M,syllabogram,AB 66,"
-",syllabogram,AB 02,*21F,syllabogram,,𐄇,syllabogram,AB 18,zo,syllabogram,,𐄋,syllabogram
-PHWc41,Phaistos,roundel,VESSELS,VASE 7,¹⁄₂,2,AB 77,VIN,syllabogram,,1,syllabogram,,,,,,,,,,,,
-PKZb?,Palaikastro,Clay vessel,VESSELS,VASE 2,vase,5,AB 07,DI,syllabogram,,"
-",syllabogram,AB 24,¹⁄₃,syllabogram,,,,,,,,,
-PYR2,Pyrgos,Lames (short thin tablet),VESSELS,VASE 7,vase,2,,*304,syllabogram,AB 88,¹⁄₂,syllabogram,,,,,,,,,,,,
-SAMWa1,Samothrace,Nodule,VESSELS,VASE 8,¹⁄₁₆,6,AB 52,RA,syllabogram,AB 04,TE,syllabogram,,10,syllabogram,,,,,,,,,
-TY3a,Tylissos,tablet (page-shaped),OLIVE_OIL,VASE 4,OLE+U,6,MET A,15,metrical,,¹⁄₄,syllabogram,,"
-",syllabogram,A 728,"
-",fraction,,NE,syllabogram,,KI,syllabogram
-TY3a,Tylissos,tablet (page-shaped),VESSELS,VASE 7,"
-",15,,3,syllabogram,A 729,"
-",fraction,,OLE+MI,syllabogram,MET E,7,metrical,,¹⁄₂,syllabogram,A 728,—,fraction
-TY3a,Tylissos,tablet (page-shaped),VESSELS,VASE 7,A,20,,¹⁄₂,syllabogram,A 728,—,fraction,,"
-",syllabogram,,𐄁,syllabogram,AB 08,OLE+KI,syllabogram,AB 44,51,syllabogram
-TY3a,Tylissos,tablet (page-shaped),VESSELS,VASE 3,4,32,,OLE+KI+ME,syllabogram,MET B,"
-",metrical,,OLE+QIf,syllabogram,MET C,"
-",metrical,,OLIV,syllabogram,A 729,"
-",fraction
-TY3a,Tylissos,tablet (page-shaped),VESSELS,VASE 7,"
-",37,,OLIV,syllabogram,A 729,"
-",fraction,,—,syllabogram,,DA,syllabogram,AB 75,OLE+U,syllabogram,,21,syllabogram
-TY3a,Tylissos,tablet (page-shaped),VESSELS,VASE 3,1,60,AB 86,5,syllabogram,,"
-",syllabogram,,OLE+TU,syllabogram,,—,syllabogram,AB 08,a,syllabogram,AB 66,ta?,syllabogram
-TY3a,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 312,[?],65,AB 08,a,syllabogram,AB 66,ta?,syllabogram,AB 57,ja,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,AB 56,?,syllabogram
-ZA1a,Zakros,stone vessel,UNKNOWN_COMMODITY,A 355,*516,0,,,,,,,,,,,𐄁,syllabogram,AB 56,KI,syllabogram,AB 24,RE,syllabogram
-ZA1a,Zakros,stone vessel,VESSELS,VASE 7,"
-",9,AB 29,NI,syllabogram,,42,syllabogram,,¹⁄₂,syllabogram,AB 14,5,syllabogram,,"
+KHWa1011,Khania,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+KHWa1012,Khania,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+KHWa1017,Khania,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+KHWa1018,Khania,Nodule,UNKNOWN_COMMODITY,A 371,*371,0,,,,,,,,,,,,,,,
+KHWc2004,Khania,roundel,MANPOWER,A 100-102,VIR+[?],0,,,,,,,,𐝫,syllabogram,,,,,,
+KHWc2026,Khania,roundel,UNKNOWN_COMMODITY,A 322,*322,0,,,,,,,,,,,,,,,
+KHWc2027,Khania,roundel,UNKNOWN_COMMODITY,A 322,*322,0,,,,,,,,,,,,,,,
+KHWc2065,Khania,roundel,UNKNOWN_COMMODITY,A 351,*351,1,,*805,syllabogram,,,,,,,,,,,,
+KHWc2067,Khania,roundel,VESSELS,A 338,*338,0,,,,,,,,,,,,,,,
+KHWc2068,Khania,roundel,VESSELS,A 338,*338,0,,,,,,,,,,,,,,,
+KHWc2098,Khania,roundel,UNKNOWN_COMMODITY,A 322,*322,0,,,,,,,,,,,,,,,
+KHWc2100,Khania,roundel,MANPOWER,A 100-102,VIR+[?],0,,,,,,,A 352,*352,logogram,AB 57,JA,syllabogram,,,
+KHWc2100,Khania,roundel,UNKNOWN_COMMODITY,A 352,*352,1,A 100-102,VIR+[?],logogram,,,,AB 57,JA,syllabogram,,,,,,
+KHWc2117,Khania,roundel,MANPOWER,A 100-102,VIR+[?],0,,,,,,,,"
+",syllabogram,,𐛥,syllabogram,,,
+KN28a,Knossos,tablet (page-shaped),GRAIN,A 310,GRA,7,,"
+",syllabogram,,*310,syllabogram,,5,syllabogram,,"
 ",syllabogram,,𐝫,syllabogram
-ZA5b,Zakros,stone vessel,VESSELS,VASE 7,¹⁄₂,9,AB 34,PI,syllabogram,AB 56,KI,syllabogram,,1,syllabogram,AB 65,MA,syllabogram,AB 62,KA,syllabogram,AB 26,I,syllabogram
-ZA6b,Zakros,stone vessel,GRAIN,A 400,GRA+PA,5,AB 54,JU,syllabogram,AB 32,TI,syllabogram,AB 27,*28B,syllabogram,,50,syllabogram,VASE 4,¹⁄₄,logogram,A 716,VIN+RA,fraction
-ZA6b,Zakros,stone vessel,VESSELS,VASE 4,¹⁄₄,7,AB 27,*28B,syllabogram,A 400,GRA+PA,logogram,,50,syllabogram,A 716,VIN+RA,fraction,,40,syllabogram,A 718,VIN+KA,fraction
-ZA6b,Zakros,stone vessel,GRAIN,A 400,GRA+PA,14,,10,syllabogram,AB 98,*312,syllabogram,AB 55,TA₂,syllabogram,,40,syllabogram,,"
-",syllabogram,,"
+KNWa50,Knossos,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+KNWb50,Knossos,sealing,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+KNZb35,Knossos,Clay vessel,LIVESTOCK,A 302,,8,AB 40,"
+",syllabogram,,NI,syllabogram,,𐄙,syllabogram,AB 30,,syllabogram,,𐄈,syllabogram
+KNZf13,Knossos,metal object,PERSONNEL,A 301,*301,5,AB 24,NE,syllabogram,AB 41,SI,syllabogram,AB 39,PI,syllabogram,AB 44,KE,syllabogram,AB 03,PA,syllabogram
+KNZf31,Knossos,metal object,WINE,A 310,DA,6,AB 41,NE,syllabogram,AB 17,*310,syllabogram,,DU,syllabogram,AB 01,MI,syllabogram,AB 51,NE,syllabogram
+KOZa1,Kophinas,stone vessel,PERSONNEL,A 301,*301,3,AB 08,A,syllabogram,AB 59,TA,syllabogram,AB 54,WA,syllabogram,AB 57,JA,syllabogram,AB 69,TU,syllabogram
+KOZa1,Kophinas,stone vessel,UNKNOWN_COMMODITY,A 314,*314,11,AB 31,SA,syllabogram,,𐄁,syllabogram,AB 27,RE,syllabogram,,𐄁,syllabogram,AB 28,I,syllabogram
+MOZf1,Mokhilos,metal object,VESSELS,A 333,*333,0,,,,,,,AB 31,SA,syllabogram,AB 23,MU,syllabogram,,,
+PE1,Petras,tablet (page-shaped),MANPOWER,A 100-102,VIR+[?],10,AB 81,KU,syllabogram,AB 03,PA,syllabogram,,50,syllabogram,,"
+",syllabogram,,26,syllabogram
+PE1,Petras,tablet (page-shaped),GRAIN,A 100-102,GRA+PA,20,AB 38,VIR+[?],syllabogram,AB 77,72,syllabogram,,36,syllabogram,,𐄈,syllabogram,,𐛭,syllabogram
+PE2,Petras,tablet (page-shaped),LIVESTOCK,A 305,MI,6,AB 26,RU,syllabogram,AB 39,PI,syllabogram,AB 73,1,syllabogram,,¹⁄₈,syllabogram,,"
 ",syllabogram
-ZA7b,Zakros,stone vessel,VESSELS,VASE 5,𐝫,4,AB 65,MA,syllabogram,,"
-",syllabogram,,"
-",syllabogram,VASE 10,vase,logogram,,𐝫,syllabogram,,𐝫,syllabogram
-ZA7b,Zakros,stone vessel,VESSELS,VASE 10,vase,5,,"
-",syllabogram,,"
-",syllabogram,VASE 5,𐝫,logogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-ZA8,Zakros,stone vessel,VESSELS,VASE 7,¹⁄₂,8,AB 24,RE,syllabogram,,𐄁,syllabogram,AB 29,NI,syllabogram,AB 66,KU,syllabogram,AB 57,TU,syllabogram,AB 58,KO,syllabogram
-ZA8,Zakros,stone vessel,VESSELS,VASE 3,double,13,AB 57,TU,syllabogram,AB 58,KO,syllabogram,AB 24,RE,syllabogram,VASE 3,mina,logogram,AB 08,A,syllabogram,AB 45,RI,syllabogram
-ZA8,Zakros,stone vessel,VESSELS,VASE 3,mina,14,AB 58,KO,syllabogram,AB 24,RE,syllabogram,VASE 3,double,logogram,AB 08,A,syllabogram,AB 45,RI,syllabogram,AB 29,NI,syllabogram
-ZA8,Zakros,stone vessel,VESSELS,VASE 2,"
-",21,AB 51,TA,syllabogram,,1,syllabogram,,?,syllabogram,VASE 2,TA,logogram,AB 51,NU,syllabogram,AB 26,MA,syllabogram
-ZA8,Zakros,stone vessel,VESSELS,VASE 2,TA,22,,1,syllabogram,,?,syllabogram,VASE 2,"
-",logogram,AB 51,NU,syllabogram,AB 26,MA,syllabogram,AB 47,PA,syllabogram
-ZA8,Zakros,stone vessel,VESSELS,VASE 7,MA,28,AB 47,PA,syllabogram,AB 65,¹⁄₂,syllabogram,AB 03,"
-",syllabogram,AB 65,I,syllabogram,AB 62,SE,syllabogram,AB 26,2,syllabogram
-ZA8,Zakros,stone vessel,VESSELS,VASE 4,DA,34,AB 26,2,syllabogram,AB 09,𐝃𐝆,syllabogram,,"
-",syllabogram,VASE 7,I,logogram,AB 01,TA,syllabogram,AB 26,2,syllabogram
-ZA8,Zakros,stone vessel,VESSELS,VASE 7,I,35,AB 09,𐝃𐝆,syllabogram,,"
-",syllabogram,VASE 4,DA,logogram,AB 01,TA,syllabogram,AB 26,2,syllabogram,AB 34,¹⁄₂,syllabogram
-ZA8,Zakros,stone vessel,VESSELS,VASE 7,I,41,AB 34,¹⁄₂,syllabogram,AB 51,"
-",syllabogram,,KA,syllabogram,AB 62,4,syllabogram,AB 26,?,syllabogram,AB 02,ro,syllabogram
-ZA8,Zakros,stone vessel,VESSELS,VASE 2,vase,46,AB 26,?,syllabogram,AB 02,ro,syllabogram,,𐄊,syllabogram,VASE 2,vase,logogram,,,,,,
-ZA8,Zakros,stone vessel,VESSELS,VASE 2,vase,47,AB 02,ro,syllabogram,,𐄊,syllabogram,VASE 2,vase,logogram,,,,,,,,,
-ZA9,Zakros,stone vessel,UNKNOWN_COMMODITY,A 352,𐝫,8,,RA,syllabogram,,5,syllabogram,AB 52,"
-",syllabogram,,"
-",syllabogram,,SI,syllabogram,,QI+SI,syllabogram
-ZA9,Zakros,stone vessel,UNKNOWN_COMMODITY,A 352,NA,16,AB 36,"
-",syllabogram,AB 52,A,syllabogram,,TA,syllabogram,,𐄁,syllabogram,AB 08,QI+SI,syllabogram,AB 51,2,syllabogram
-ZA9,Zakros,stone vessel,UNKNOWN_COMMODITY,A 352,*22F,24,,𐄁,syllabogram,,MA,syllabogram,,JU,syllabogram,,2,syllabogram,,WI,syllabogram,,RA,syllabogram
-ZA10b,Zakros,stone vessel,UNKNOWN_COMMODITY,A 313,*362,1,AB 46,WA,syllabogram,,,,,,,,2,syllabogram,AB 44,DU,syllabogram,AB 24,RE,syllabogram
-ZA10b,Zakros,stone vessel,VESSELS,VASE 7,¹⁄₂,42,AB 66,KU,syllabogram,AB 22f,NE,syllabogram,AB 04,TE,syllabogram,AB 51,TA,syllabogram,,2,syllabogram,AB 44,DU,syllabogram
-ZA11a,Zakros,stone vessel,UNKNOWN_COMMODITY,A 355,𐄁,8,,TA₂,syllabogram,AB 55,𐄁,syllabogram,,*516,syllabogram,,"
-",syllabogram,A 400,"
-",logogram,,RA,syllabogram
-ZA11a,Zakros,stone vessel,VESSELS,VASE 7,KU,17,AB 65,¹⁄₂,syllabogram,AB 36,"
-",syllabogram,AB 77,E,syllabogram,,RU,syllabogram,,¹⁄₄,syllabogram,AB 33,"
+PE2,Petras,tablet (page-shaped),UNKNOWN_COMMODITY,A 325,ZA,11,,¹⁄₈,syllabogram,,"
+",syllabogram,AB 17,¹⁄₄,syllabogram,,"
+",syllabogram,AB 08,RI,syllabogram
+PEWy5,Petras,tablet (page-shaped),OLIVE_OIL,A 302,OLE,0,,,,,,,A 307,*307,logogram,,1,syllabogram,,¹⁄₂,syllabogram
+PEWy5,Petras,tablet (page-shaped),LIVESTOCK,A 307,*307,1,A 302,OLE,logogram,,,,,1,syllabogram,,¹⁄₂,syllabogram,,,
+PEZb3,Petras,Clay vessel,MANPOWER,A 100-102,VIR+[?],9,AB 41,SI,syllabogram,AB 57,JA,syllabogram,AB 17,ZA,syllabogram,,,,,,
+PEZg5,Petras,Stone object,OLIVE_OIL,A 302,OLE,0,,,,,,,A 307,*307,logogram,,1,syllabogram,,¹⁄₂,syllabogram
+PEZg5,Petras,Stone object,LIVESTOCK,A 307,*307,1,A 302,OLE,logogram,,,,,1,syllabogram,,¹⁄₂,syllabogram,,,
+PH1a,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 316,𐄁,5,AB 60,DI,syllabogram,AB 07,NA,syllabogram,,𐝉,syllabogram,,"
+",syllabogram,,𐄁,syllabogram
+PH1a,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 316,"
+",11,,𐄁,syllabogram,AB 57,*316,syllabogram,,CYP,syllabogram,A 303,¹⁄₆,logogram,,"
 ",syllabogram
-ZA11a,Zakros,stone vessel,WINE,VASE 4,VIN,24,AB 66,JU,syllabogram,AB 23,𐝈𐝉,syllabogram,,"
-",syllabogram,AB 54,"
-",syllabogram,VASE 9,QE+GRA+PA,logogram,VASE 10,4,logogram
-ZA11a,Zakros,stone vessel,GRAIN,VASE 9,QE+GRA+PA,26,,"
-",syllabogram,VASE 4,VIN,logogram,AB 54,"
-",syllabogram,VASE 10,4,logogram,AB 77,KU,syllabogram,VASE 7,PA,logogram
-ZA11a,Zakros,stone vessel,VESSELS,VASE 10,4,27,VASE 4,VIN,logogram,AB 54,"
-",syllabogram,VASE 9,QE+GRA+PA,logogram,AB 77,KU,syllabogram,VASE 7,PA,logogram,A 386,GRA+PA,logogram
-ZA11a,Zakros,stone vessel,VESSELS,VASE 7,PA,29,VASE 9,QE+GRA+PA,logogram,VASE 10,4,logogram,AB 77,KU,syllabogram,A 386,GRA+PA,logogram,,1,syllabogram,AB 66,PI,syllabogram
-ZA11a,Zakros,stone vessel,GRAIN,A 386,GRA+PA,30,VASE 10,4,logogram,AB 77,KU,syllabogram,VASE 7,PA,logogram,,1,syllabogram,AB 66,PI,syllabogram,AB 03,*310,syllabogram
-ZA11b,Zakros,stone vessel,UNKNOWN_COMMODITY,A 355,*516,3,AB 33,E,syllabogram,AB 05,TO,syllabogram,AB 45,RI,syllabogram,,𐄁,syllabogram,AB 30,SA,syllabogram,AB 85,*301,syllabogram
-ZA11b,Zakros,stone vessel,GRAIN,A 400,GRA+PA,9,AB 85,*301,syllabogram,AB 45,RI,syllabogram,,𐄁,syllabogram,,1,syllabogram,,"
-",syllabogram,AB 26,OLIV,syllabogram
-ZA14,Zakros,stone vessel,UNKNOWN_COMMODITY,A 314,*363,10,AB 43,PU,syllabogram,AB 29,NI,syllabogram,AB 62,KA,syllabogram,,3,syllabogram,AB 13,QA,syllabogram,AB 32,TI,syllabogram
-ZA15a,Zakros,stone vessel,VESSELS,VASE 7,"
-",31,AB 34,KI,syllabogram,AB 56,2,syllabogram,,¹⁄₂,syllabogram,AB 49,SA,syllabogram,AB 30,MU,syllabogram,AB 21f,5,syllabogram
-ZA15a,Zakros,stone vessel,UNKNOWN_COMMODITY,A 314,KE,41,AB 01,E,syllabogram,AB 33,4,syllabogram,,"
-",syllabogram,AB 37,MA,syllabogram,AB 65,SE,syllabogram,AB 09,5,syllabogram
-ZA18a,Zakros,stone vessel,VESSELS,VASE 3,mina,10,,GRA+PA,syllabogram,A 400,2,logogram,,double,syllabogram,VASE 3,"
-",logogram,AB 73,2,syllabogram,,double,syllabogram
-ZA18a,Zakros,stone vessel,VESSELS,VASE 3,"
-",11,A 400,2,logogram,,double,syllabogram,VASE 3,mina,logogram,AB 73,2,syllabogram,,double,syllabogram,,mina,syllabogram
-ZA18a,Zakros,stone vessel,VESSELS,VASE 3,"
-",15,AB 73,2,syllabogram,,double,syllabogram,,mina,syllabogram,VASE 3,OLE+KI,logogram,MET A,"
-",metrical,VASE 2,OLIV,logogram
-ZA18a,Zakros,stone vessel,OLIVE_OIL,VASE 3,OLE+KI,16,,double,syllabogram,,mina,syllabogram,VASE 3,"
-",logogram,MET A,"
-",metrical,VASE 2,OLIV,logogram,VASE 2,¹⁄₄,logogram
-ZA18a,Zakros,stone vessel,OLIVES,VASE 2,OLIV,18,VASE 3,"
-",logogram,VASE 3,OLE+KI,logogram,MET A,"
-",metrical,VASE 2,¹⁄₄,logogram,AB 75,𐝫,syllabogram,VASE 4,vase,logogram
-ZA18a,Zakros,stone vessel,VESSELS,VASE 2,¹⁄₄,19,VASE 3,OLE+KI,logogram,MET A,"
-",metrical,VASE 2,OLIV,logogram,AB 75,𐝫,syllabogram,VASE 4,vase,logogram,,𐝫,syllabogram
-ZA18a,Zakros,stone vessel,VESSELS,VASE 4,vase,21,VASE 2,OLIV,logogram,VASE 2,¹⁄₄,logogram,AB 75,𐝫,syllabogram,,𐝫,syllabogram,,,,,,
-ZA18b,Zakros,stone vessel,VESSELS,VASE 10,"
-",3,,𐝫,syllabogram,,2,syllabogram,A 568,𐝕𐝉𐝫,logogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
-ARKH1a,Arkhalkhori,tablet (page-shaped),VESSELS,VASE 7,NE,24,,MI,syllabogram,AB 22f,KI,syllabogram,,SA,syllabogram,AB 08,a,syllabogram,AB 03,pa,syllabogram,,𐝫,syllabogram
-ARKH3a,Arkhalkhori,tablet (page-shaped),VESSELS,VASE 3,3,6,AB 73,"
-",syllabogram,,¹⁄₅,syllabogram,,OLIV,syllabogram,AB 75,"
-",syllabogram,,*131B,syllabogram,VASE 3,2,logogram
-ARKH3a,Arkhalkhori,tablet (page-shaped),VESSELS,VASE 3,2,9,VASE 3,3,logogram,AB 75,"
-",syllabogram,,*131B,syllabogram,AB 78,2,syllabogram,,"
-",syllabogram,,*317,syllabogram
-ARKH7,Arkhalkhori,tablet (page-shaped),VESSELS,VASE 3,¹⁄₅,3,,𐝫,syllabogram,,—,syllabogram,AB 92,*308,syllabogram,,𐝫,syllabogram,,,,,,
-GO2r,Gournia,tablet (page-shaped),VESSELS,VASE 5,"
-",4,AB 36,SI,syllabogram,,"
-",syllabogram,AB 62,¹⁄₈,syllabogram,AB 36,2,syllabogram,,"
-",syllabogram,AB 01,"
-",syllabogram
-GO2r,Gournia,tablet (page-shaped),VESSELS,VASE 4,SE,12,AB 36,RO,syllabogram,AB 01,¹⁄₄,syllabogram,AB 02,"
+PH1a,Phaistos,tablet (page-shaped),LIVESTOCK,A 303,¹⁄₆,13,,1,syllabogram,A 316,"
+",logogram,,"
+",syllabogram,,𐝫,syllabogram,,,
+PH8a,Phaistos,tablet (page-shaped),LIVESTOCK,A 304,—,9,A 100-102,"
+",logogram,,*304,syllabogram,,"
 ",syllabogram,,"
-",syllabogram,,𐝫,syllabogram,AB 09,se,syllabogram
-GO2v,Gournia,tablet (page-shaped),VESSELS,VASE 5,¹⁄₈,2,,𐝫,syllabogram,,1,syllabogram,,,,AB 01,DA,syllabogram,,RE,syllabogram,AB 24,1,syllabogram
-ZO1,Zominthos,tablet (page-shaped),UNKNOWN_COMMODITY,A 332,*409,0,,,,,,,,,,,VS,syllabogram,,217,syllabogram,,𐄍,syllabogram
-KH104,Khania,tablet (page-shaped),VESSELS,VASE 7,1/2,1,AB 73,GRA,syllabogram,,,,,,,,𐝫,syllabogram,AB 01,DA,syllabogram,AB 24,RE,syllabogram
-KNZg57a,Knossos,ivory object,VESSELS,A 333,VAS,14,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
+",syllabogram,,1,syllabogram
+PH8b,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 316,1,2,,𐝫,syllabogram,,*316,syllabogram,,"
+",syllabogram,,],syllabogram,,"
+",syllabogram
+PH9a,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 317,*317,0,,,,,,,AB 78,QE,syllabogram,A 353,*353,logogram,,≈,syllabogram
+PH9a,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 353,*353,2,A 317,*317,logogram,AB 78,QE,syllabogram,,≈,syllabogram,,,,,,
+PH10,Phaistos,Label,UNKNOWN_COMMODITY,A 355,*355,0,,,,,,,AB 38,E,syllabogram,A 354,*354,logogram,AB 180,HIDE+[?],syllabogram
+PH10,Phaistos,Label,UNKNOWN_COMMODITY,A 354,*354,2,A 355,*355,logogram,AB 38,E,syllabogram,AB 180,HIDE+[?],syllabogram,,𐝈𐝈,syllabogram,,𐝈,syllabogram
+PH12a,Phaistos,Lames (short thin tablet),MANPOWER,A 100-102,VIR+[?],0,,,,,,,A 339,*339,logogram,AB 180,HIDE+[?],syllabogram,,10,syllabogram
+PH12a,Phaistos,Lames (short thin tablet),VESSELS,A 339,*339,1,A 100-102,VIR+[?],logogram,,,,AB 180,HIDE+[?],syllabogram,,10,syllabogram,,𐝈𐝈,syllabogram
+PH13a,Phaistos,Lames (short thin tablet),UNKNOWN_COMMODITY,A 328,𐝫𐝃𐝃,2,,HIDE+[?],syllabogram,AB 180,*328,syllabogram,,𐝫,syllabogram,,𐝃,syllabogram,,𐝃,syllabogram
+PH13b,Phaistos,Lames (short thin tablet),UNKNOWN_COMMODITY,A 356,,1,,*356,syllabogram,,,,,,,,,,,,
+PH14a,Phaistos,Lames (short thin tablet),LIVESTOCK,A 304,NI,2,,JA,syllabogram,AB 57,*304,syllabogram,AB 30,,syllabogram,,,,,,
+PH15a,Phaistos,Lames (short thin tablet),VESSELS,A 339,11,4,AB 80,TE,syllabogram,AB 04,RE,syllabogram,,𐄐,syllabogram,,𐄇,syllabogram,,𐝫,syllabogram
+PH15b,Phaistos,Lames (short thin tablet),HIDES,A 357,HIDE+[?],1,,*357,syllabogram,,,,AB 180,,syllabogram,,𐝫,syllabogram,,,
+PH16a,Phaistos,Lames (short thin tablet),UNKNOWN_COMMODITY,A 358,,6,,—,syllabogram,,*358,syllabogram,AB 30,,syllabogram,,𐝫,syllabogram,,,
+PH17a,Phaistos,Lames (short thin tablet),UNKNOWN_COMMODITY,A 359,,1,,*359,syllabogram,,,,,𐝫,syllabogram,,,,,,
+PH17b,Phaistos,Lames (short thin tablet),UNKNOWN_COMMODITY,A 360,,1,,*360,syllabogram,,,,,𐝫,syllabogram,,,,,,
+PH26,Phaistos,tablet (page-shaped),UNKNOWN_COMMODITY,A 314,𐝃𐝏𐝏𐝏𐝫,1,,*314,syllabogram,,,,,𐝃,syllabogram,,𐝏,syllabogram,,𐝏,syllabogram
+PH28b,Phaistos,tablet (page-shaped),LIVESTOCK,A 304,*811,6,,*304,syllabogram,,6,syllabogram,,𐄌,syllabogram,,𐝫,syllabogram,,𐄌,syllabogram
+PHWc37,Phaistos,roundel,UNKNOWN_COMMODITY,A 314,*314,1,AB 77,KA,syllabogram,,,,AB 41,SI,syllabogram,A 320,*320,logogram,,,
+PHWc37,Phaistos,roundel,UNKNOWN_COMMODITY,A 320,*320,3,AB 77,KA,syllabogram,A 314,*314,logogram,,,,,,,,,
+PHWc38,Phaistos,roundel,UNKNOWN_COMMODITY,A 314,*314,0,,,,,,,AB 59,TA,syllabogram,AB 80,MA,syllabogram,,,
+PHWc46,Phaistos,roundel,UNKNOWN_COMMODITY,A 328,*328,0,,,,,,,AB 38,E,syllabogram,,≈,syllabogram,AB 37,TI,syllabogram
+PHZb<47>,Phaistos,Clay vessel,UNKNOWN_COMMODITY,A 328,*328,0,,,,,,,,,,,,,,,
+PHZb48,Phaistos,Clay vessel,LIVESTOCK,A 305,*305,1,AB 16,QA,syllabogram,,,,,𐄁,syllabogram,,𐄁,syllabogram,,,
+PKZa8,Palaikastro,stone vessel,LIVESTOCK,A 307,PU₂,11,AB 67,TE,syllabogram,AB 04,TE,syllabogram,AB 29,RE,syllabogram,AB 27,𐄁,syllabogram,,TU,syllabogram
+PKZa11,Palaikastro,stone vessel,PERSONNEL,A 301,*301,3,AB 08,A,syllabogram,AB 59,TA,syllabogram,AB 54,WA,syllabogram,AB 38,E,syllabogram,,𐄁,syllabogram
+PKZa12,Palaikastro,stone vessel,PERSONNEL,A 301,*301,3,AB 08,A,syllabogram,AB 59,TA,syllabogram,AB 54,WA,syllabogram,AB 57,JA,syllabogram,,𐄁,syllabogram
+POZc1,Poros Herakleiou,Inked inscription,UNKNOWN_COMMODITY,A 325,*325,7,AB 31,SA,syllabogram,AB 31,SA,syllabogram,,𐄁,syllabogram,,,,,,
+PSZa2,Psykhro,stone vessel,PERSONNEL,A 301,TI,7,AB 59,NA,syllabogram,AB 06,I,syllabogram,AB 37,𐄁,syllabogram,,𐄌,syllabogram,,JA,syllabogram
+PYR2,Pyrgos,Lames (short thin tablet),LIVESTOCK,A 304,¹⁄₂,1,,*304,syllabogram,,,,,𐝆,syllabogram,,,,,,
+SKOZc1,Skoteino Cave,Inked inscription,PERSONNEL,A 301,*301,3,,𐄁,syllabogram,AB 06,NA,syllabogram,AB 24,NE,syllabogram,,"
+",syllabogram,,KI,syllabogram
+SYZa1,Syme,stone vessel,PERSONNEL,A 301,WA,4,AB 08,TA,syllabogram,AB 59,I,syllabogram,AB 54,JA,syllabogram,AB 57,𐄁,syllabogram,,I,syllabogram
+SYZa2,Syme,stone vessel,PERSONNEL,A 301,*301,3,AB 08,A,syllabogram,AB 59,TA,syllabogram,AB 54,WA,syllabogram,AB 57,JA,syllabogram,,𐄁,syllabogram
+SYZa2,Syme,stone vessel,OLIVE_OIL,A 302,OLE,18,AB 77,KA,syllabogram,AB 06,NA,syllabogram,AB 08,A,syllabogram,AB 57,JA,syllabogram,,,
+SYZa3,Syme,stone vessel,PERSONNEL,A 301,*301,3,AB 08,A,syllabogram,AB 59,TA,syllabogram,AB 54,WA,syllabogram,,JA,syllabogram,AB 57,SE,syllabogram
+SYZa4,Syme,stone vessel,PERSONNEL,A 301,*301,3,AB 08,A,syllabogram,AB 59,TA,syllabogram,AB 54,WA,syllabogram,AB 57,JA,syllabogram,,𐄁,syllabogram
+SYZa8,Syme,stone vessel,PERSONNEL,A 301,WA,4,AB 59,TA,syllabogram,,I,syllabogram,AB 54,JA,syllabogram,AB 57,𐄁,syllabogram,,JA,syllabogram
+THEfr.2,Thera,tablet (page-shaped),LIVESTOCK,A 302,,1,,OLE,syllabogram,,,,,𐝫,syllabogram,,,,,,
+THEfr.3,Thera,tablet (page-shaped),LIVESTOCK,A 302,,1,,OLE,syllabogram,,,,,𐝫,syllabogram,,,,,,
+TIZb1,Tiryns,Clay vessel,PERSONNEL,A 301,SI,1,,*301,syllabogram,,,,AB 41,,syllabogram,,𐝫,syllabogram,,,
+TLZa1,Troullos,stone vessel,PERSONNEL,A 301,*301,3,AB 08,A,syllabogram,AB 59,TA,syllabogram,AB 54,WA,syllabogram,AB 57,JA,syllabogram,,𐄁,syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309B,*309B,0,,,,,,,,*34,syllabogram,AB 34,PU,syllabogram,AB 50,PI,syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309A,290,6,AB 50,PI,syllabogram,AB 39,500,syllabogram,,"
+",syllabogram,,*309B,syllabogram,,KI,syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309B,50,10,,"
+",syllabogram,,*309B,syllabogram,AB 67,"
+",syllabogram,AB 50,*309,syllabogram,,DA,syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309A,10,14,AB 67,"
+",syllabogram,AB 50,*309,syllabogram,AB 01,"
+",syllabogram,AB 50,PA,syllabogram,,DA,syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309A,"
+",22,AB 03,JU,syllabogram,AB 01,KI,syllabogram,AB 65,*309,syllabogram,AB 67,RI,syllabogram,,JU,syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309A,*309,26,AB 65,*309,syllabogram,AB 67,RI,syllabogram,AB 53,6,syllabogram,AB 65,"
+",syllabogram,,VIR+[?],syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309A,"
+",30,AB 53,6,syllabogram,AB 65,"
+",syllabogram,,*309C,syllabogram,,DA,syllabogram,,JU,syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309C,30,37,A 100-102,"
+",logogram,,*309C,syllabogram,AB 01,"
+",syllabogram,AB 65,*309,syllabogram,,RI,syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309C,"
+",43,,RI,syllabogram,,WA,syllabogram,AB 26,*309B,syllabogram,AB 77,RI,syllabogram,,JU,syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309A,"
+",47,AB 26,*309B,syllabogram,AB 77,RI,syllabogram,AB 53,*309B,syllabogram,AB 54,"
+",syllabogram,AB 65,𐝫,syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309B,,54,,𐄙,syllabogram,,𐄕,syllabogram,AB 53,,syllabogram,AB 65,,syllabogram,,𐄚,syllabogram
+TY2,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 309B,,59,AB 65,,syllabogram,,𐄚,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,,
+TY3a,Tylissos,tablet (page-shaped),OLIVE_OIL,A 321,OLE+KI,2,,ZA,syllabogram,AB 17,*321,syllabogram,,15,syllabogram,,¹⁄₄,syllabogram,,"
+",syllabogram
+TY3a,Tylissos,tablet (page-shaped),LIVESTOCK,A 302,5,57,AB 08,*361,syllabogram,AB 51,"
+",syllabogram,,"
+",syllabogram,,OLE+TU,syllabogram,,1,syllabogram
+TY3a,Tylissos,tablet (page-shaped),UNKNOWN_COMMODITY,A 361,,65,AB 08,,syllabogram,AB 81,,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,AB 67,,syllabogram
+TYZb4,Tylissos,Clay vessel,PERSONNEL,A 301,*301,1,AB 08,A,syllabogram,,,,AB 67,KI,syllabogram,AB 59,TA,syllabogram,AB 08,A,syllabogram
+ZA6a,Zakros,stone vessel,LIVESTOCK,A 305,*305,0,,,,,,,AB 54,WA,syllabogram,AB 06,NA,syllabogram,AB 171,*171,syllabogram
+ZA6a,Zakros,stone vessel,LIVESTOCK,A 304,,42,,𐝫,syllabogram,,𐄑,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram,,𐄑,syllabogram
+ZA6b,Zakros,stone vessel,UNKNOWN_COMMODITY,A 312,*312,12,,40,syllabogram,,VIN+KA,syllabogram,AB 66,TA₂,syllabogram,,GRA+PA,syllabogram,,40,syllabogram
+ZA10b,Zakros,stone vessel,UNKNOWN_COMMODITY,A 362,*362,1,AB 54,WA,syllabogram,,,,,2,syllabogram,AB 51,DU,syllabogram,AB 27,RE,syllabogram
+ZA11a,Zakros,stone vessel,WINE,A 310,,39,,OLIV,syllabogram,,2,syllabogram,AB 08,,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
+ZA11b,Zakros,stone vessel,PERSONNEL,A 301,*301,6,,*516,syllabogram,,𐄁,syllabogram,AB 53,RI,syllabogram,,𐄁,syllabogram,,GRA+PA,syllabogram
+ZA14,Zakros,stone vessel,UNKNOWN_COMMODITY,A 363,*363,10,AB 50,PU,syllabogram,AB 30,NI,syllabogram,,3,syllabogram,AB 16,QA,syllabogram,AB 37,TI,syllabogram
+ZA15a,Zakros,stone vessel,UNKNOWN_COMMODITY,A 363,KE,41,AB 01,E,syllabogram,AB 38,4,syllabogram,AB 44,MA,syllabogram,AB 80,SE,syllabogram,AB 09,5,syllabogram
+ZA18a,Zakros,stone vessel,UNKNOWN_COMMODITY,A 321,𐄁,6,,𐄁,syllabogram,,"
+",syllabogram,,GRA+PA,syllabogram,,2,syllabogram,,double,syllabogram
+ZAWa38,Zakros,Nodule,PERSONNEL,A 301,*301,0,,,,,,,,,,,,,,,
+ZAZb3,Zakros,stone vessel,PERSONNEL,A 301,DE,16,AB 08,TA,syllabogram,AB 59,I,syllabogram,AB 45,KA,syllabogram,AB 77,𐄁,syllabogram,,A,syllabogram
+APZa1,Apodoulou,stone vessel,PERSONNEL,A 301,*301,3,AB 57,JA,syllabogram,AB 59,TA,syllabogram,AB 10,U,syllabogram,AB 57,JA,syllabogram,,𐄁,syllabogram
+ARKH2,Arkhalkhori,tablet (page-shaped),PERSONNEL,A 301,SE,15,,12,syllabogram,,"
+",syllabogram,AB 09,DE,syllabogram,AB 45,*21F,syllabogram,AB 21f,*118,syllabogram
+ARKH3a,Arkhalkhori,tablet (page-shaped),UNKNOWN_COMMODITY,A 317,KI,15,,*317,syllabogram,,"
+",syllabogram,,NU,syllabogram,,13,syllabogram,,TE,syllabogram
+ARKH3a,Arkhalkhori,tablet (page-shaped),UNKNOWN_COMMODITY,A 317,,28,,"
+",syllabogram,AB 04,KU,syllabogram,,𐄈,syllabogram,A 312,,logogram,,𐄈,syllabogram
+ARKH3a,Arkhalkhori,tablet (page-shaped),UNKNOWN_COMMODITY,A 312,,30,,3,syllabogram,A 317,,logogram,,𐄈,syllabogram,,𐝫,syllabogram,,𐝫,syllabogram
+ARKH3b,Arkhalkhori,tablet (page-shaped),UNKNOWN_COMMODITY,A 314,"
+",8,,PI,syllabogram,,GRA,syllabogram,AB 120,OLE,syllabogram,,"
+",syllabogram,,𐝫,syllabogram
+ARKH3b,Arkhalkhori,tablet (page-shaped),LIVESTOCK,A 302,2,12,AB 120,OLE,syllabogram,,"
+",syllabogram,,"
+",syllabogram,,4,syllabogram,,VIN,syllabogram
+ARKH3b,Arkhalkhori,tablet (page-shaped),LIVESTOCK,A 302,,17,,4,syllabogram,,VIN,syllabogram,,𐄊,syllabogram,,𐝫,syllabogram,AB 131A,,syllabogram
+ARKH7,Arkhalkhori,tablet (page-shaped),HIDES,A 308,*308,2,,𐝫,syllabogram,,—,syllabogram,,¹⁄₅,syllabogram,,𐝫,syllabogram,,,
+ARKHZc8,Arkhalkhori,Inked inscription,LIVESTOCK,A 306,*306,0,,,,,,,AB 59,TA,syllabogram,AB 46,JE,syllabogram,,,
+FOZc1,Fourni,Inked inscription,LIVESTOCK,A 306,*306,0,,,,,,,AB 59,TA,syllabogram,AB 46,JE,syllabogram,,,
+KH101,Khania,tablet (page-shaped),LIVESTOCK,A 303,³⁄₄,3,,32,syllabogram,,CYP,syllabogram,,𐝫,syllabogram,,𐝕,syllabogram,,𐝫,syllabogram
+KH103,Khania,tablet (page-shaped),OLIVE_OIL,A 302,OLE,0,,,,,,,,11,syllabogram,,"
+",syllabogram,,OLE,syllabogram
+KH103,Khania,tablet (page-shaped),LIVESTOCK,A 302,1,4,,11,syllabogram,,"
+",syllabogram,AB 57,OLE,syllabogram,,TA,syllabogram,,8,syllabogram
+KH103,Khania,tablet (page-shaped),LIVESTOCK,A 302,NI,8,AB 57,OLE,syllabogram,,TA,syllabogram,AB 59,"
+",syllabogram,,CYP,syllabogram,,23,syllabogram
+KH103,Khania,tablet (page-shaped),LIVESTOCK,A 303,,13,,CYP,syllabogram,,23,syllabogram,,𐄑,syllabogram,,𐄉,syllabogram,,𐝫,syllabogram
+DRAZg1,unknown,Stone object,PERSONNEL,A 301,*301,2,AB 01,DA,syllabogram,AB 51,DU,syllabogram,,𐝫,syllabogram,,,,,,
