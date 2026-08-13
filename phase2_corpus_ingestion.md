@@ -13,7 +13,7 @@
 
 ✅ **PASSED** — No errors in Bennett→Unicode mapping table.
 
-Total mapping entries: 230
+Total mapping entries: 225
 
 ## 3. Parsing Results
 
@@ -38,7 +38,7 @@ Total mapping entries: 230
 |--------|-------|
 | Total inscriptions | 1719 |
 | Total signs | 11018 |
-| Unique signs (Bennett IDs) | 210 |
+| Unique signs (Bennett IDs) | 205 |
 | Sites | 62 |
 | Periods | 12 |
 | Material types | 5 |
@@ -142,10 +142,10 @@ Total mapping entries: 230
 
 ## 6. Unicode Validation Details
 
-The built-in `BENNETT_TO_UNICODE` mapping table contains 230 entries covering:
+The built-in `BENNETT_TO_UNICODE` mapping table contains 225 entries covering:
 
 - **logogram**: 102 entries
-- **syllabogram**: 82 entries
+- **syllabogram**: 77 entries
 - **fraction**: 30 entries
 - **metrical**: 10 entries
 - **adjunct**: 5 entries
