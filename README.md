@@ -17,7 +17,7 @@ Systematic, multi-phase computational approach to deciphering Linear A, the unde
 | **9 — Formulaic Parallelism** | Substitution frames, prefix/suffix system identification | ✅ Complete |
 | **10 — Ventris Endgame** | Grid completion via grammatical testing (10a Egyptian bridge, 10b grid completion, 10c oracle test) | ⬜ Concluded — negative |
 
-**Key finding (Phase 3):** Tyrsenian (Etruscan-related) is the best structural fit among non-isolate candidates, but no family shows statistically significant lexical matches.
+**Key finding (Phase 3):** No language family is distinguished — Anatolian IE, Hurro-Urartian, and Tyrsenian are all weakly compatible but inconclusive; none shows statistically significant lexical matches.
 
 **Phase 10 outcome:** The oracle ablation test proved the grammatical scorer has no signal to recover known sign values (recovery 0.6× chance). Grid completion is closed pending new data — see `data/analysis/ventris/ventris_report.md`.
 

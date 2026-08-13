@@ -160,14 +160,21 @@ Six candidate language families tested against Linear A using Swadesh-100 wordli
 
 | Family | WALS Match | Swadesh Matches | Verdict |
 |--------|-----------|-----------------|---------|
-| **Tyrsenian** (Etruscan) | 5/8 (62.5%) | 0 exact matches | Best structural fit, lexically empty |
+| **Tyrsenian** (Etruscan) | 5/8 (62.5%) | 0 exact matches | Weak structural fit, lexically empty |
 | Indo-European (Hittite) | 3/8 (37.5%) | 0 | Poor match |
 | Semitic (Akkadian) | 2/8 (25.0%) | 0 | Poor match |
 | Hurro-Urartian | 4/8 (50.0%) | 0 | Moderate |
 | Pre-Greek substrate | N/A (not a family) | 2 partial | Best lexical evidence |
 | Isolate | Default | N/A | Remains possible |
 
-**Conclusion:** No language family has statistically significant lexical evidence. Tyrsenian (Etruscan-related) is the best structural fit but shares zero confirmed words. Minoan remains an isolate by default.
+**Audit note (Phase 11):** candidate_ranking.csv ranks Anatolian IE and
+Hurro-Urartian ABOVE Tyrsenian (scores 8 vs 7), all marked "INCONCLUSIVE
+(tentative)". The "Tyrsenian best" framing overstates — no family is
+distinguished; several are weakly compatible.
+
+**Conclusion:** No language family has statistically significant lexical
+evidence, and no family is structurally distinguished. Minoan remains
+unaffiliated.
 
 ### Known Words
 
@@ -465,7 +472,10 @@ Iterative grid expansion following Ventris's method:
 | 2 | 0.55 | 5 signs | 77 |
 | 3 | 0.50 | 0 signs | Convergence |
 
-**Final: 45 → 78 anchors** (33 newly resolved, 14 with real phonetic values)
+**Final: 45 → 77 CONFIRMED signs** (32 newly resolved, 14 with real phonetic
+values). Audit note: 19 of 77 have value `?` (category confirmed, no value),
+20/77 low-confidence (<50), only 17/77 ≥70. The Phase 5 refined grid confirms
+only 44. The reliable working set is ~58 values, ~17 high-confidence.
 
 ### 6 of 10 Conflict Signs Resolved
 

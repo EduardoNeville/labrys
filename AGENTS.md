@@ -132,7 +132,7 @@ Phonetic values are from Linear B transfer (NOT confirmed for Linear A). Phase 5
 AB 16 (qa), AB 60 (ra vs ma conflict), AB 80 (ma), AB 22 (pi), AB 02 (ro/i dual), AB 85 (word divider) — see `data/analysis/comparative/misvalued_signs_resolution.csv`
 
 ### Best Language Family Fit
-Tyrsenian (Etruscan) ranks highest structurally (5/8 WALS features, 62.5%), but lexically weak (0 exact Swadesh matches, p=1.0). No family confirmed.
+No family is distinguished. Phase 3 candidate ranking: Anatolian IE and Hurro-Urartian tie at #1 (score 8), Tyrsenian #3 (score 7) — ALL marked "INCONCLUSIVE (tentative)". Tyrsenian shows the best *structural* WALS profile in some readings but is lexically weak (0 exact Swadesh matches, p=1.0). No family confirmed; several weakly compatible.
 
 ### Most Secure Place Names
 pa-i-to (Phaistos), i-da (Mt. Ida) — HIGH confidence. di-ka-ta (Dikte), su-ki-ri-ta (Sybrita) had exact matches.

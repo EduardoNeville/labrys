@@ -83,3 +83,67 @@ the NEGATIVE ones (oracle, Avenue 3, Avenue 4). The two POSITIVE findings
 encoding. The honest synthesis must present the project's outcome as: **all
 computational avenues exhausted; no phonetic or semantic discovery survives
 verification; the corpus is below the noise floor; new data is the only path.**
+
+---
+
+## Audit of Prior Phases (2–9) Claims
+
+Beyond my own findings, the synthesis will cite Phase 2–9 results. These were
+audited against their source CSVs:
+
+### P1. "77 CONFIRMED anchors" — ⚠️ PARTIALLY OVERSTATED
+- 19 of 77 CONFIRMED signs have value `?` (confirmed as category, no value).
+- 20/77 low-confidence (<50); only 17/77 ≥70.
+- The Phase 5 refined grid confirms only 44 as CONFIRM — the two grids disagree
+  by 33 signs. My oracle's "58 anchors" are the intersection of 77-minus-`?`
+  minus 19, but ~20 of those are low-confidence.
+- **Synthesis must say "~58 values, ~17 high-confidence" not "78 anchors".**
+
+### P2. "17 high-confidence anchors" — ⚠️ 3 ARE DISPUTED
+- AB 01 (da), AB 38 (e), AB 50 (pu) are high-confidence in bootstrap grid but
+  downgraded to UNCERTAIN in the refined grid — the SAME LB/CM conflicts the
+  MASTER_SYNTHESIS flags as unresolved (AB 01 da/ta, AB 38 e/pa).
+- **Synthesis must not present these as settled.**
+
+### P3. Toponyms (pa-i-to, i-da) — ✅ SOLID
+- PHAISTOS: 95 matches at edit-distance 1 across ~75 inscriptions, 8+ sites.
+- IDA: 20 matches, patterns I-DA (14) and I-TA (6) — robust to the da/ta
+  conflict (both readings give the same place name).
+- **These are the strongest lexical claims and they hold.**
+
+### P4. "Tyrsenian is the best structural fit" — ❌ OVERSTATED
+- AGENTS.md: "Tyrsenian ranks highest structurally (5/8 WALS, 62.5%)".
+- Actual candidate_ranking.csv: Anatolian IE #1 (8), Hurro-Urartian #2 (8),
+  Tyrsenian #3 (7) — ALL "INCONCLUSIVE (tentative)".
+- WALS: no family clearly wins; Anatolian has 8 features at comparable
+  confidence to Tyrsenian's 8.
+- **Synthesis must say "no family distinguished; several weakly compatible;
+  all inconclusive" — not "Tyrsenian best".**
+
+### P5. "Agglutinative morphology" — ✅ SUPPORTED (weakly)
+- 24 alternation paradigms exist, but with small attestations. The claim is
+  reasonable but rests on limited data.
+
+### P6. Misvalued signs (AB 16, AB 60, AB 80) — ✅ SUPPORTED
+- Positional anomaly is real and reproducible (Avenue 1 table). The
+  interpretation "misvalued" follows from the anomaly + LB/CM conflict.
+
+---
+
+## Consolidated Verdict for Synthesis
+
+| Claim | Source | Status |
+|-------|--------|--------|
+| Oracle: no scorer signal | Phase 10c | ✅ Confirmed |
+| Avenues 3/4 negative | Phase 11 | ✅ Confirmed |
+| Avenue 1 AB 85 word divider | Phase 11 | ❌ Retracted |
+| Avenue 2 AB 82↔LIVESTOCK | Phase 11 | ❌ Retracted |
+| 77 CONFIRMED anchors | Phase 8 | ⚠️ Overstated (58 values, 17 high-conf) |
+| Toponyms pa-i-to/i-da | Phase 3 | ✅ Solid |
+| Tyrsenian best fit | Phase 3 | ❌ Overstated (no family distinguished) |
+| Agglutinative morphology | Phase 3 | ✅ Supported (weak) |
+| Misvalued signs | Phase 2/5 | ✅ Supported |
+
+**The synthesis's honest case:** the solid results are the toponyms (real,
+robust), the misvalued-sign flags (real), and the negative results (oracle +
+avenues). The "best family fit" and "78 anchors" claims must be downgraded.
