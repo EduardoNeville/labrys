@@ -1,4 +1,4 @@
 community_id,total_signs,sign_type_breakdown
-0,5,ligature:4; logogram:1
-1,80,logogram:5; syllabogram:75
-2,2,logogram:1; syllabogram:1
+0,80,logogram:5; syllabogram:75
+1,2,syllabogram:2
+2,5,syllabogram:5

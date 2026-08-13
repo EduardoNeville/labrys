@@ -1,5 +1,5 @@
 community_id,total_signs,sign_type_breakdown
-0,337,fraction:27; ligature:13; logogram:110; metrical:10; numeral:5; syllabogram:172
-1,2,logogram:2
-2,2,ligature:2
-3,4,syllabogram:4
+0,337,fraction:27; logogram:79; metrical:10; numeral:1; syllabogram:220
+1,2,logogram:1; syllabogram:1
+2,4,syllabogram:4
+3,2,syllabogram:2

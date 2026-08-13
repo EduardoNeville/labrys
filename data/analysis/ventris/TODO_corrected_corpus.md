@@ -73,8 +73,10 @@ The negatives (oracle, cryptanalysis) still hold.
 ### 7.1 Restore lost transliterations ✅
 - [x] Transliteration coverage 95.9% (restored from source)
 
-### 7.2 Corrected network/centrality stats ⬜
-- [ ] Re-run network analysis on corrected DB (sign_centrality, communities)
+### 7.2 Corrected network/centrality stats ✅
+- [x] Re-run network analysis on corrected DB
+- [x] Top-degree still numerals (expected); top syllabograms now AB 81, AB 59
+      (corrected identities, not the corrupted AB 85/51/26)
 
 ### 7.3 Verify no other mapping errors remain ✅
 - [x] Fractions (A 701-730), metrical (A 500-510, MET A-J), numerals (NUM 10),
