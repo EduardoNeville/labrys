@@ -26,24 +26,27 @@ chance. Mean positional profiles per vowel are nearly identical
 (init≈0.15, med≈0.68, final≈0.15 for all vowels) — Minoan words don't have
 vowel-marked word positions, so positional profiles cannot encode vowel class.
 
-**Anomaly detection (works):** Signs with medial_fraction < 0.15 are NOT normal
-medial CV syllables — they appear almost only in initial/final position. This
-correctly flags the known misvalued signs AND the word divider:
+**Anomaly detection (facts, not interpretations):** Signs with medial_fraction
+< 0.15 are NOT normal medial CV syllables — they appear almost only in
+initial/final position. This correctly flags the known misvalued signs:
 
-| Sign | Status | init | med | final | n | Interpretation |
+| Sign | Status | init | med | final | n | Positional fact |
 |------|--------|------|-----|-------|---|----------------|
-| AB 85 | UNCERTAIN | 0.47 | 0.06 | 0.47 | 508 | **Word divider (confirmed independently)** |
+| AB 85 | UNCERTAIN | 0.47 | 0.06 | 0.47 | 508 | Never medial — but see retraction below |
 | AB 60 | UNCERTAIN | 0.49 | 0.00 | 0.51 | 93 | /ra/-vs-/ma/ keystone — not a normal CV sign |
 | AB 80 | UNCERTAIN | 0.50 | 0.04 | 0.46 | 28 | Misvalued (Phase 2) |
-| AB 82 | UNCERTAIN | 0.44 | 0.00 | 0.56 | 16 | Anomalous — investigate |
+| AB 82 | UNCERTAIN | 0.44 | 0.00 | 0.56 | 16 | Never medial — see Avenue 2 retraction |
 | AB 22 | CONFIRMED | 0.22 | 0.11 | 0.67 | 9 | pi — final-dominant |
 | AB 110 | UNCERTAIN | 0.43 | 0.14 | 0.43 | 7 | Anomalous — investigate |
 | AB 16 | UNCERTAIN | 0.60 | 0.00 | 0.40 | 5 | qa/ka — misvalued |
 
-**Key finding:** AB 85 (the suspected word divider) is the #1 anomalous sign
-at 508 occurrences — positional data independently confirms it is not a
-syllabogram. The anomaly signal also flags AB 82 and AB 110 as new
-investigation targets.
+**Key finding (revised after verification audit):** AB 85 is positionally
+anomalous (med=0.06, 508 occ) — the *fact* is real. But the interpretation
+"word divider" is **not independently established**: AB 85's transliteration is
+`*301`/`*306` (logogram numbers), the `word_dividers` table is empty, and its
+grid status is CONFIRM-with-`?` (confidence 25/100). It may equally be a
+frequently-standalone logogram/ligature. **Downgraded: positional fact real,
+interpretation unsupported.**
 
 **Deliverable:** `data/analysis/positional/anomalous_signs.csv`
 
@@ -54,7 +57,7 @@ but cannot assign phonetic values. Useful for prioritization, not solving.
 
 ## Avenue 2 — "Reverse Rosetta": Commodity Logograms as Semantic Anchors
 
-**Status:** ✅ Concluded — one Bonferroni-significant association found
+**Status:** ✅ Concluded — method works, but the one "significant" result is circular (retracted after audit)
 
 **Method:** Hypergeometric enrichment test (exact, no scipy). For each
 (commodity, sign) pair, computes P(co-occurrence ≥ observed by chance) across
@@ -72,15 +75,13 @@ corrected (Bonferroni over ~94 tests → family-wise alpha = 0.00053).
 | AB 29 | VESSELS | 31/406 | 0.0093 | 1.2× | — |
 | AB 62 | VESSELS | 18/406 | 0.0455 | 1.2× | — |
 
-**Key finding — cross-avenue convergence on AB 82:**
-- Avenue 1: AB 82 is positionally anomalous (medial_fraction = 0.00, appears
-  only initial/final) — flagged as likely non-CV or functional sign
-- Avenue 2: AB 82 is significantly enriched in LIVESTOCK contexts (p=0.0002)
-
-Two independent signals converge: AB 82 behaves like a livestock-related
-word or a functional sign (qualifier / divider) in livestock entries. This is
-the "double constraint" the failed Ventris scorer couldn't find — a semantic/
-functional identification, not a phonetic value.
+**Key finding (revised after verification audit):** AB 82's association with
+LIVESTOCK is **circular** — AB 82 appears as `HIDE+[?]` (a livestock ligature)
+inside PH10, a livestock entry. The "enrichment" rediscovered the data encoding
+(AB 82 tagged with a HIDE ligature → classified as LIVESTOCK), not an
+independent association. Both co-occurrences come from the single inscription
+PH10. **Retracted as a discovery; reframed as a data fact** (AB 82 co-occurs
+with HIDE ligatures in livestock entries).
 
 **Honest caveat:** LIVESTOCK has only 5 adjacent slots (k=2/5). The 70× fold
 rests on small counts. Suggestive, not conclusive — but the independent
@@ -172,4 +173,8 @@ by the same ceiling.
 
 ---
 
-*Phase 11 — research roadmap. Avenues 1–4 concluded (1: anomaly works; 2: AB 82↔LIVESTOCK; 3: negative; 4: negative). Avenue 5 (new data) is the only remaining — and it's not code, it's corpus growth.*
+*Phase 11 — research roadmap. Avenues 1–4 concluded after verification audit:
+the oracle, Avenue 3, and Avenue 4 findings survive; the two positive findings
+(Avenue 1 AB 85 word divider, Avenue 2 AB 82↔LIVESTOCK) were circular artifacts
+and are retracted. See `data/analysis/ventris/verification_audit.md`. Avenue 5
+(new data) is the only remaining path — and it's not code, it's corpus growth.*
