@@ -54,17 +54,39 @@ but cannot assign phonetic values. Useful for prioritization, not solving.
 
 ## Avenue 2 — "Reverse Rosetta": Commodity Logograms as Semantic Anchors
 
-**Status:** ⬜ Not started
+**Status:** ✅ Concluded — one Bonferroni-significant association found
 
-**Idea:** Logograms (commodity signs) are phonetically unreadable but
-semantically known (grain, oil, wine, metal). The corpus pairs syllabograms
-with logograms on the same tablet. If the same syllabogram sequence recurs
-adjacent to "wine" across many tablets, it's likely a word for wine or a
-measure word. This is *semantic*, not phonetic — doesn't need the failed
-scorer. Phase 5's commodity alignment touched this but didn't exploit
-co-occurrence clustering.
+**Method:** Hypergeometric enrichment test (exact, no scipy). For each
+(commodity, sign) pair, computes P(co-occurrence ≥ observed by chance) across
+all 526 adjacent syllabogram slots in 635 logogram contexts. Multiple-testing
+corrected (Bonferroni over ~94 tests → family-wise alpha = 0.00053).
 
-**Data:** `data/analysis/logograms/`, `data/analysis/comparative/commodity_*`.
+**Results (uncorrected p < 0.05):**
+
+| Sign | Commodity | k/n | p | fold | Bonferroni |
+|------|-----------|-----|---|------|-----------|
+| **AB 82** | LIVESTOCK | 2/5 | 0.0002 | 70× | ✅ **survives** |
+| AB 77 | OLIVE_OIL | 2/5 | 0.0155 | 9.6× | — |
+| AB 21f | OLIVE_OIL | 1/5 | 0.0376 | 26× | — |
+| AB 14 | MANPOWER | 1/6 | 0.045 | 22× | — |
+| AB 29 | VESSELS | 31/406 | 0.0093 | 1.2× | — |
+| AB 62 | VESSELS | 18/406 | 0.0455 | 1.2× | — |
+
+**Key finding — cross-avenue convergence on AB 82:**
+- Avenue 1: AB 82 is positionally anomalous (medial_fraction = 0.00, appears
+  only initial/final) — flagged as likely non-CV or functional sign
+- Avenue 2: AB 82 is significantly enriched in LIVESTOCK contexts (p=0.0002)
+
+Two independent signals converge: AB 82 behaves like a livestock-related
+word or a functional sign (qualifier / divider) in livestock entries. This is
+the "double constraint" the failed Ventris scorer couldn't find — a semantic/
+functional identification, not a phonetic value.
+
+**Honest caveat:** LIVESTOCK has only 5 adjacent slots (k=2/5). The 70× fold
+rests on small counts. Suggestive, not conclusive — but the independent
+convergence with Avenue 1 makes AB 82 the strongest lead in the project.
+
+**Deliverable:** `data/analysis/commodity_decoding/sign_commodity_enrichment.csv`
 
 ---
 
@@ -117,4 +139,4 @@ by the same ceiling.
 
 ---
 
-*Phase 11 — research roadmap. Avenue 1 concluded (anomaly detection works, vowel recovery fails). Avenue 2 is next.*
+*Phase 11 — research roadmap. Avenue 1 concluded (anomaly detection works), Avenue 2 concluded (AB 82↔LIVESTOCK survives Bonferroni). Avenue 3 is next.*
