@@ -125,16 +125,31 @@ and too repetitive for statistical or grammatical attack.
 
 ## Avenue 4 — Cross-Script Structural Comparison (Graph Isomorphism)
 
-**Status:** ⬜ Not started
+**Status:** ✅ Concluded — negative (not testable + no phonetic correlation)
 
-**Idea:** The sign co-occurrence graph (Phase 2 network) is structure
-independent of phonetics. Compare it to the same graph for Linear B and
-Cypro-Minoan. If the *topological structure* of the LA graph matches LB's
-(same hubs, same communities), that's evidence the underlying language has
-similar syllable structure — even without knowing the values. Graph-theoretic
-test the oracle can validate.
+**Original idea:** Compare LA co-occurrence graph topology to Linear B's — if
+hubs/communities match, that's evidence of shared syllable structure.
 
-**Data:** `data/analysis/network/global/sign_centrality.csv`.
+**Why it fails (three independent reasons):**
+1. **No LB corpus sequences in the repo.** The only LB data is the visual/
+   value mapping (`la_lb_mapping.csv`) — no LB co-occurrence graph exists to
+   compare against. True isomorphism is untestable with current data.
+2. **Degenerate LA community structure.** The LA sign graph is one giant
+   component (337 of 345 signs in community 0) — everything co-occurs with
+   everything because administrative tablets list many items.
+3. **Centrality is a frequency artifact.** Top-degree signs are numerals and
+   fractions (𐄁, 𐄇, 𐄈...) which appear adjacent to everything. Among
+   syllabograms, top-degree values are phonetically incoherent (du, pa, ni,
+   jo, ro, a, ru, pu — no shared class), and the confirmed fraction among
+   top-20 degree (55%) ≈ overall (59%) — no correlation with LB confidence.
+
+**Variant tested:** graph-community ↔ phonetic-class correlation — fails.
+Graph centrality carries no phonetic signal.
+
+**Conclusion:** The LA co-occurrence graph has no structure that correlates
+with phonetics. Same root cause as Avenues 1–3: frequency dominates, the
+corpus is too small/formulaic. Cross-script isomorphism would require an LB
+corpus, which we don't have.
 
 ---
 
@@ -157,4 +172,4 @@ by the same ceiling.
 
 ---
 
-*Phase 11 — research roadmap. Avenues 1–3 concluded (1: anomaly works; 2: AB 82↔LIVESTOCK; 3: negative — all signals are frequency artifacts). Avenue 4 is next.*
+*Phase 11 — research roadmap. Avenues 1–4 concluded (1: anomaly works; 2: AB 82↔LIVESTOCK; 3: negative; 4: negative). Avenue 5 (new data) is the only remaining — and it's not code, it's corpus growth.*
