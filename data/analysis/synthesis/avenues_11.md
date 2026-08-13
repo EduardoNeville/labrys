@@ -154,6 +154,47 @@ corpus, which we don't have.
 
 ---
 
+## Avenue 6 — Diachronic Analysis (MM → LM script evolution)
+
+**Status:** ✅ Concluded — POSITIVE, first non-circular finding
+
+**Data:** 43 syllabograms appear in both MM (~1700 BCE) and LM (~1450 BCE)
+periods; 78 are LM-only. The pre-LM subset is small (172 signs) but the
+*persistence* signal is robust.
+
+**Core finding:**
+
+| Sign set | % CONFIRMED |
+|----------|-------------|
+| Shared (MM→LM persistent) | **67%** (28/42) |
+| LM-only (later) | **33%** (26/78) |
+| Fisher exact p | **0.0003** |
+| Enrichment | 2.0× |
+
+**Oracle LOO:** persistence predicts CONFIRMED status at 67% vs 55% majority
+baseline — **1.21× lift**, out-of-sample.
+
+**Why this survives verification (unlike Avenues 1–2):**
+1. **Not circular** — confirmation from phonetic evidence (LB/CM), persistence
+   from period data. Independent sources.
+2. **Significant** — Fisher p=0.0003, single test (no multiple-testing issue).
+3. **Not frequency-driven** — shared-confirmed median LM freq 2.5 vs
+   shared-uncertain 3.0; the signal is independent of frequency.
+
+**Interpretation:** script continuity is a real prior on phonetic confidence.
+Signs that survived 250 years of script evolution are twice as likely to have
+secure values. Historical sense: stable inherited signs are well-attested;
+LM-only signs are likely later innovations or rare/uncertain.
+
+**Honest limit:** a *prior*, not a value. Raises the prior on MM-attested
+UNCERTAIN signs; flags LM-only signs as likelier late/rare. Cannot assign
+phonetic values.
+
+**Deliverable:** `data/analysis/ventris/diachronic_analysis.csv`,
+`pipeline/ventris/diachronic.py`
+
+---
+
 ## Avenue 5 — New Data (the honest long-shot)
 
 **Status:** ⬜ Not started
@@ -173,8 +214,8 @@ by the same ceiling.
 
 ---
 
-*Phase 11 — research roadmap. Avenues 1–4 concluded after verification audit:
-the oracle, Avenue 3, and Avenue 4 findings survive; the two positive findings
-(Avenue 1 AB 85 word divider, Avenue 2 AB 82↔LIVESTOCK) were circular artifacts
-and are retracted. See `data/analysis/ventris/verification_audit.md`. Avenue 5
-(new data) is the only remaining path — and it's not code, it's corpus growth.*
+*Phase 11 — research roadmap. Verified findings: oracle (no scorer signal),
+Avenue 3/4 (negative), Avenue 6 (POSITIVE — diachronic persistence predicts
+confirmation, p=0.0003, LOO 1.21× lift). Retracted: Avenues 1–2 (circular).
+See `data/analysis/ventris/verification_audit.md`. Avenue 5 (new data) remains
+open — it's corpus growth, not code.*

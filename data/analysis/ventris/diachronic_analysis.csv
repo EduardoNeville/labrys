@@ -1,0 +1,13 @@
+metric,value
+shared_confirmed,28
+shared_total,42
+shared_rate,0.6666666666666666
+lm_only_confirmed,26
+lm_only_total,78
+lm_only_rate,0.3333333333333333
+fisher_p,0.0003456771160445076
+enrichment,2.0
+accuracy,0.6666666666666666
+majority_baseline,0.55
+lift,1.212121212121212
+n_signs,120
