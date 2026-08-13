@@ -442,7 +442,7 @@ The 61 signs still UNCERTAIN after Phase 8 bootstrapping fall into three categor
 
 1. **The Linear A decipherment is not solved.** We have not found a Rosetta Stone. But we have mapped the boundaries precisely — we know which 10 signs are the hardest and which methods are exhausted.
 
-2. **The Kober + Formulaic combination shows the most promise for Phase 10.** The 19 bootstrapped-but-unknown structural anchors, when cross-referenced with formulaic substitution patterns, provide the tightest independent constraints available.
+2. **The Kober + Formulaic combination was tested in Phase 10 — and failed.** The Phase 10 Ventris endgame (grid completion via grammatical testing, with Kober-consistency and known-word constraints added) was evaluated with an oracle ablation test: greedy restore of hidden CONFIRMED signs recovered them at 0.6× chance. The scorer has no signal to distinguish true phonetic values; grid completion is closed pending new data. See `data/analysis/ventris/ventris_report.md` and `data/analysis/synthesis/MASTER_SYNTHESIS.md` §14.
 
 3. **AB 60 is the keystone.** Resolve AB 60 (/ra/ vs /ma/) and you unlock the r-/m- consonant series and constrain 5+ related signs. An exhaustive toponym search under both hypotheses is the highest-ROI remaining experiment.
 

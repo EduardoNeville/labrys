@@ -108,6 +108,15 @@ class GridCompletion:
 ORACLE_HIDDEN = 20
 ORACLE_TRIALS = 8
 
+# Known-word anchors (HIGH-confidence place names, AGENTS.md). A valid
+# completion must be able to spell these — they are hard constraints on the
+# candidate sets. Caveat: these were derived from Linear B transfer, so they
+# bias toward LB values and cannot resolve LB-vs-CM conflicts (AB 60, etc.).
+ANCHOR_WORDS = [
+    ("pa-i-to", ["AB 03", "AB 28", "AB 05"]),  # Phaistos
+    ("i-da", ["AB 28", "AB 01"]),              # Mt. Ida
+]
+
 
 # ═══════════════════════════════════════════════════════════════════════════════
 # grid completer
@@ -344,6 +353,20 @@ class VentrisGridCompleter:
         # Deduplicate and sort
         candidates = sorted(set(candidates))
 
+        # Anchor-word hard constraints: only apply when THIS sign is a
+        # confirmed anchor in the known word (pa-i-to, i-da). When the sign is
+        # hidden in oracle mode (or genuinely uncertain), we don't know its
+        # value, so the anchor must not constrain it — that would leak the
+        # answer. Gate on membership in self.confirmed.
+        for word, bids in ANCHOR_WORDS:
+            if bid in bids and bid in self.confirmed:
+                idx = bids.index(bid)
+                expected = word.split("-")[idx]
+                candidates = [v for v in candidates if v == expected]
+                if not candidates:
+                    logger.warning("%s: anchor %s requires %s but no candidates fit",
+                                   bid, word, expected)
+        
         if not candidates:
             # Fallback: all CV values
             candidates = [f"{c}{v}" for c in "ptkmnslrzwjdhqg" for v in VOWEL_COLUMNS]
@@ -357,10 +380,10 @@ class VentrisGridCompleter:
         sample_size: int = 50,
         confirmed_override: Optional[Dict[str, str]] = None,
         uncertain_override: Optional[List[str]] = None,
-    ) -> Tuple[float, float, float]:
+    ) -> Tuple[float, float, float, float]:
         """Score a grid completion against the corpus.
 
-        Returns (morphology_score, entropy_score, prefix_score).
+        Returns (morphology_score, entropy_score, prefix_score, kober_score).
         Higher scores = more linguistically plausible.
 
         confirmed_override/uncertain_override: oracle-test hook. The oracle
@@ -405,37 +428,64 @@ class VentrisGridCompleter:
         else:
             morphology_score = 0.5  # neutral
 
-        # ── Entropy score: bigram entropy change ──
-        bigrams_before: Counter = Counter()
-        bigrams_after: Counter = Counter()
-        total_bigrams = 0
-        for ins_id, signs in sample:
-            for i in range(len(signs) - 1):
-                s1, s2 = signs[i], signs[i+1]
-                v1_before = effective_confirmed.get(s1, s1)  # raw sign id for unknowns (no LB leakage)
-                v2_before = effective_confirmed.get(s2, s2)
-                v1_after = full_values.get(s1, s1)
-                v2_after = full_values.get(s2, s2)
-                bigrams_before[(v1_before, v2_before)] += 1
-                bigrams_after[(v1_after, v2_after)] += 1
-                total_bigrams += 1
+        # ── Held-out bigram cross-entropy (replaces old entropy term) ──
+        # Split sample texts into train/held-out. Fit bigram probabilities on
+        # train, score held-out perplexity. A CORRECT completion makes held-out
+        # text MORE predictable (lower perplexity) — this directly rewards
+        # phonetic coherence instead of inventory size.
+        import random as _random
+        _random.seed(0)
+        shuffled = list(sample)
+        _random.shuffle(shuffled)
+        n_train = max(1, int(len(shuffled) * 0.8))
+        train_texts, held_texts = shuffled[:n_train], shuffled[n_train:]
 
-        # Compute before/after bigram entropy
-        def bigram_entropy(bg_counter, total):
-            if total == 0:
-                return 0.0
-            e = 0.0
-            for cnt in bg_counter.values():
-                p = cnt / total
-                e -= p * math.log2(p)
-            return e
+        def fit_bigrams(texts, values_map):
+            counts: Counter = Counter()
+            total = 0
+            for ins_id, signs in texts:
+                for i in range(len(signs) - 1):
+                    s1, s2 = signs[i], signs[i+1]
+                    v1 = values_map.get(s1)
+                    v2 = values_map.get(s2)
+                    if v1 is None or v2 is None:
+                        continue
+                    counts[(v1, v2)] += 1
+                    total += 1
+            probs = {}
+            for k, cnt in counts.items():
+                probs[k] = cnt / total
+            return probs, total
 
-        ent_before = bigram_entropy(bigrams_before, total_bigrams)
-        ent_after = bigram_entropy(bigrams_after, total_bigrams)
+        # Train bigrams on confirmed values only; held-out on the candidate values.
+        # If the candidate values are correct, held-out text is MORE predictable
+        # under train-confirmed bigram structure → lower cross-entropy.
+        train_conf = {bid: v for bid, v in effective_confirmed.items()}
+        # train on confirmed-only bigrams from train texts
+        train_probs, train_total = fit_bigrams(train_texts, train_conf)
+        # score held-out under both confirmed-only and full (confirmed+candidates)
+        def held_out_ce(texts, probs, values_map):
+            n = 0
+            ll = 0.0
+            for ins_id, signs in texts:
+                for i in range(len(signs) - 1):
+                    s1, s2 = signs[i], signs[i+1]
+                    v1 = values_map.get(s1)
+                    v2 = values_map.get(s2)
+                    if v1 is None or v2 is None or (v1, v2) not in probs:
+                        continue
+                    ll += math.log2(probs[(v1, v2)])
+                    n += 1
+            return -ll / n if n else float("inf")
 
-        # Entropy should decrease (more structured) with better grid
-        if ent_before > 0:
-            entropy_score = max(0.0, 1.0 - (ent_after / ent_before))
+        ce_before = held_out_ce(held_texts, train_probs, train_conf)
+        ce_after = held_out_ce(held_texts, train_probs, full_values)
+
+        # Lower cross-entropy = more predictable = better. Normalize to 0..1.
+        if math.isfinite(ce_before) and math.isfinite(ce_after):
+            # ce_after should be < ce_before if candidates help; score high when
+            # after is much lower than before. Guard against division by zero.
+            entropy_score = max(0.0, min(1.0, 1.0 - ce_after / max(ce_before, 1e-9)))
         else:
             entropy_score = 0.5
 
@@ -445,8 +495,8 @@ class VentrisGridCompleter:
         for ins_id, signs in sample:
             if len(signs) >= 2:
                 prefix = signs[0]
-                val = full_values.get(prefix, "?")
-                if val != "?":
+                val = full_values.get(prefix)
+                if val is not None:
                     prefix_signs["all"][val] += 1
 
         # Higher concentration = more grammaticalized prefix system
@@ -458,7 +508,33 @@ class VentrisGridCompleter:
 
         prefix_score = prefix_concentration  # 0..1, higher = more grammatical
 
-        return morphology_score, entropy_score, prefix_score
+        # ── Kober consistency score (soft) ──
+        # Kober C-links = same consonant series, V-links = same vowel. If a
+        # candidate's value conflicts with its linked CONFIRMED partners,
+        # that's evidence against it. Score = fraction of linked confirmed
+        # partners whose series/vowel agrees with the candidate's value.
+        total_pairs = 0
+        agree_pairs = 0
+        for bid, val in values.items():
+            series = CONS_SERIES_MAP.get(val, "?")
+            vowel = vowel_of(val)
+            if series == "?" or vowel == "?":
+                continue
+            for partner in self.kober_clinks.get(bid, set()):
+                if partner in effective_confirmed:
+                    pv = effective_confirmed[partner]
+                    total_pairs += 1
+                    if CONS_SERIES_MAP.get(pv, "") == series:
+                        agree_pairs += 1
+            for partner in self.kober_vlinks.get(bid, set()):
+                if partner in effective_confirmed:
+                    pv = effective_confirmed[partner]
+                    total_pairs += 1
+                    if vowel_of(pv) == vowel:
+                        agree_pairs += 1
+        kober_score = agree_pairs / total_pairs if total_pairs else 0.5
+
+        return morphology_score, entropy_score, prefix_score, kober_score
 
     def _greedy_restore(
         self,
@@ -482,8 +558,8 @@ class VentrisGridCompleter:
             best_val, best_score = values[bid], -1.0
             for cand in sign_candidates[bid]:
                 values[bid] = cand
-                m, e, p = self.score_completion(values, **score_kwargs)
-                total = 0.50 * m + 0.30 * e + 0.20 * p
+                m, e, p, k = self.score_completion(values, **score_kwargs)
+                total = 0.45 * m + 0.15 * e + 0.10 * p + 0.30 * k
                 if total > best_score:
                     best_score, best_val = total, cand
             values[bid] = best_val
@@ -586,7 +662,6 @@ class VentrisGridCompleter:
             sign_candidates[bid] = cands
             if len(cands) <= 5:
                 logger.debug("%s: %d candidates: %s", bid, len(cands), cands)
-
         # Count total search space
         total_combinations = 1
         for bid, cands in sign_candidates.items():
@@ -606,14 +681,15 @@ class VentrisGridCompleter:
 
             comp = GridCompletion()
             comp.values = values
-            comp.morphology_score, comp.entropy_score, comp.prefix_score = (
+            comp.morphology_score, comp.entropy_score, comp.prefix_score, _kober = (
                 self.score_completion(values)
             )
             # Total score: weighted combination
             comp.total_score = (
-                0.50 * comp.morphology_score +
-                0.30 * comp.entropy_score +
-                0.20 * comp.prefix_score
+                0.45 * comp.morphology_score +
+                0.15 * comp.entropy_score +
+                0.10 * comp.prefix_score +
+                0.30 * _kober
             )
             completions.append(comp)
 
@@ -693,10 +769,23 @@ class VentrisGridCompleter:
                 ])
 
         # Write report
+        # The raw consensus from random sampling is a FALSE signal when the
+        # scorer is flat (near-zero score spread). The oracle proved recovery
+        # = 0.6x chance, so per-sign consensus from a degenerate top-10 is
+        # meaningless. Flag flat scorers and zero the consensus count.
         high_agreement = [(bid, consensus[bid].most_common(1)[0][0],
                            consensus[bid].most_common(1)[0][1] / top_n)
                           for bid in consensus
                           if consensus[bid].most_common(1)[0][1] / top_n >= 0.6]
+        # Score spread: if completions are near-ties, the top-10 are noise-sorted
+        # duplicates and consensus is a sampling artifact, not convergence.
+        score_spread = 0.0
+        if len(completions) >= 2:
+            totals = [c.total_score for c in completions]
+            score_spread = max(totals) - min(totals)
+        scorer_flat = score_spread < 0.02  # ponytail: threshold; oracle says flat at ~0.009
+        if scorer_flat:
+            high_agreement = []  # consensus meaningless when scorer is flat
         high_agreement.sort(key=lambda x: x[2], reverse=True)
 
         best_comp = top[0] if top else None
@@ -706,6 +795,7 @@ class VentrisGridCompleter:
             "",
             f"**Completions evaluated:** {len(completions)}",
             f"**Top completion score:** {best_comp.total_score:.4f}" if best_comp else "",
+            f"**Score spread (max-min):** {score_spread:.4f}",
             f"**Signs in consensus (≥60% agreement):** {len(high_agreement)}",
             "",
             "## Best Completion Metrics",
@@ -732,8 +822,9 @@ class VentrisGridCompleter:
         else:
             report_lines.append("- No signs achieve ≥60% agreement across top completions")
             report_lines.append("- The grid remains underconstrained for reliable per-sign resolution")
-            report_lines.append("- This is honest — with 60 UNCERTAIN signs and 100 random samples,")
-            report_lines.append("  we don't expect consensus without exhaustive search or stronger constraints")
+            if scorer_flat:
+                report_lines.append(f"- The scorer is flat (score spread {score_spread:.4f}) — consensus is a sampling artifact, not convergence")
+                report_lines.append("- The oracle ablation test confirmed: recovery = 0.6× chance, no real signal")
 
         report_lines += [
             "",
@@ -815,6 +906,12 @@ def run_ventris_endgame(
     consensus = getattr(completer, "_sign_consensus", defaultdict(Counter))
     high_agree = sum(1 for bid in consensus
                      if consensus[bid].most_common(1)[0][1] / top_n >= 0.6)
+    # Same flat-scorer guard as write_outputs: near-zero score spread means
+    # consensus is a sampling artifact, not convergence. Report the honest 0.
+    if len(completions) >= 2:
+        totals = [c.total_score for c in completions]
+        if max(totals) - min(totals) < 0.02:
+            high_agree = 0
 
     summary = {
         "completions_evaluated": len(completions),
@@ -839,7 +936,7 @@ if __name__ == "__main__":
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     )
 
-    # ── self-check: greedy restore must do no worse than random on 3 hidden signs
+    # ── self-check: greedy restore must run and not crash with the new 4-term scorer
     completer = VentrisGridCompleter()
     hidden = sorted(random.Random(1).sample(sorted(completer.confirmed.keys()), 3))
     eff_conf = {b: v for b, v in completer.confirmed.items() if b not in hidden}
@@ -847,11 +944,9 @@ if __name__ == "__main__":
         "confirmed_override": eff_conf,
         "uncertain_override": hidden,
     })
-    recovered = sum(1 for b in hidden if vals.get(b) == completer.confirmed[b])
-    chance = sum(1.0 / len(completer.get_candidates(b)) for b in hidden)
-    assert recovered >= 0 and chance > 0
-    logger.info("Self-check: greedy restore recovered %d/%d (chance %.3f) — OK",
-                recovered, len(hidden), chance)
+    for b in hidden:
+        assert vals.get(b) is not None, f"greedy restore left {b} unset"
+    logger.info("Self-check: greedy restore ran on %d hidden signs — OK", len(hidden))
     completer.close()
 
     summary = run_ventris_endgame()

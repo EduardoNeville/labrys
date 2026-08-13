@@ -1,22 +1,23 @@
 # Phase 10b — Ventris Endgame Report
 
 **Completions evaluated:** 100
-**Top completion score:** 0.2362
+**Top completion score:** 0.2401
+**Score spread (max-min):** 0.0088
 **Signs in consensus (≥60% agreement):** 0
 
 ## Best Completion Metrics
 
-- Morphology score: 0.3140
+- Morphology score: 0.2660
 - Entropy score: 0.0000
 - Prefix score: 0.3958
-- Total score: 0.2362
+- Total score: 0.2401
 
 ## Signs with High Agreement (≥60%)
 
 - No signs achieve ≥60% agreement across top completions
 - The grid remains underconstrained for reliable per-sign resolution
-- This is honest — with 60 UNCERTAIN signs and 100 random samples,
-  we don't expect consensus without exhaustive search or stronger constraints
+- The scorer is flat (score spread 0.0088) — consensus is a sampling artifact, not convergence
+- The oracle ablation test confirmed: recovery = 0.6× chance, no real signal
 
 ## Per-Sign Candidate Counts
 

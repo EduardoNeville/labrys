@@ -9,12 +9,17 @@ Systematic, multi-phase computational approach to deciphering Linear A, the unde
 | **1 — Data** | Corpus digitization, schema, Unicode, SQLite | ✅ Complete |
 | **2 — Analysis** | Positional grid, word segmentation, n-gram, network, logogram/fraction analysis | ✅ Complete |
 | **3 — Linguistic** | Swadesh-100 testing, WALS typology, loanword matching, toponym alignment, morphology scan | ✅ Complete |
-| **4 — ML Decipherment** | Transformer models, contrastive learning, GAN decipherment | ⬜ Next |
+| **4 — ML Decipherment** | Transformer models, contrastive learning, GAN decipherment | ✅ Complete |
 | **5 — Comparative** | LA↔LB mapping, Cypro-Minoan bridge, phonetic grid refinement | ✅ Complete |
-| **6 — Verification** | Blind hold-out, cross-expert review, predictive testing | ⬜ Pending |
-| **7 — Collaboration** | Open-science infrastructure, community standards | ⬜ Pending |
+| **6 — Verification** | Cross-evidence triangulation, toponym testing, internal consistency | ✅ Complete |
+| **7 — Alternatives** | Five independent approaches (Eteocretan, commodity decoding, phylogenetic, Kober, Anatolian) | ✅ Complete |
+| **8 — Kober Bootstrapping** | 78 CONFIRMED anchors from Kober triples + bootstrapped values | ✅ Complete |
+| **9 — Formulaic Parallelism** | Substitution frames, prefix/suffix system identification | ✅ Complete |
+| **10 — Ventris Endgame** | Grid completion via grammatical testing (10a Egyptian bridge, 10b grid completion, 10c oracle test) | ⬜ Concluded — negative |
 
 **Key finding (Phase 3):** Tyrsenian (Etruscan-related) is the best structural fit among non-isolate candidates, but no family shows statistically significant lexical matches.
+
+**Phase 10 outcome:** The oracle ablation test proved the grammatical scorer has no signal to recover known sign values (recovery 0.6× chance). Grid completion is closed pending new data — see `data/analysis/ventris/ventris_report.md`.
 
 ## Quick Start
 
@@ -97,14 +102,17 @@ labrys/
 └── demo.py                # End-to-end pipeline demo
 ```
 
-## What Remains (Phase 4 — ML Decipherment)
+## What Remains
 
-The project is now ready for ML-based decipherment. With the full corpus in a normalized database and all analysis outputs available, the next step is to train models leveraging:
+All 10 phases are complete. Phase 10 (the Ventris endgame) concluded with a **negative result**:
 
-- **70% AB sign overlap** between Linear A and deciphered Linear B as weak supervision
-- **Cypro-Minoan triangular inference** (LA → CM → Cypriot Greek)
-- **Pre-Greek substrate loanwords** as Rosetta-fragment anchors
-- **Positional + n-gram anomaly signals** from Phase 2 to guide model attention
+- **10a** — Egyptian bridge: no detectable Egyptian loanwords (matches ≈ chance, null-model ratios 1.6–6.4×)
+- **10b** — Frequency-typology grid constraints: 28.2% of candidates eliminated, but random sampling of ~10¹⁴⁰ completions yields zero per-sign consensus
+- **10c** — Oracle ablation test: a greedy restore of hidden CONFIRMED signs recovered them at **0.6× chance** — the grammatical scorer (morphology/entropy/prefix + Kober-consistency + anchor words) has no signal to distinguish true phonetic values. No optimizer (beam, annealing, Optuna) can help an objective with no gradient.
+
+The bottleneck is corpus size (11K tokens) and the absence of independent phonetic evidence — every signal derives circularly from Linear B transfer. **Grid completion is closed pending new data** (new inscriptions, a bilingual find, or confirmed Cypro-Minoan values).
+
+The oracle harness (`pipeline/ventris/complete.py`, `oracle_test`) remains the correct gate for any future scorer or new evidence.
 
 ## For Agents
 

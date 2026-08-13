@@ -639,34 +639,27 @@ AB 46 substitutes for AB 38 (`/e/`) and AB 10 (`/u/`) at suffix positions in hig
 
 ## 14. The Path Forward
 
-### Phase 10: The Ventris Endgame
+### Phase 10: The Ventris Endgame — Concluded (Negative)
 
 Michael Ventris deciphered Linear B by combining three things:
 
 1. Kober's positional grid (we have this: 78 anchors, 7,305 triples)
 2. A small set of known sign values from the Cypriot syllabary (we have: 45 from LB transfer + 33 bootstrapped)
-3. **Systematic testing of grammatical hypotheses against the corpus** (this is what we haven't done)
+3. **Systematic testing of grammatical hypotheses against the corpus** (this is what we've now attempted — and it failed)
 
-Our Phase 10 should be:
+Phase 10 was executed in three parts:
 
-#### Step 1: Secure the grid
-Accept all 78 CONFIRMED signs as ground truth. Build the partial CV grid explicitly — rows = consonant series, columns = vowel columns, with 78 filled cells.
+- **10a — Egyptian bridge & frequency-typology constraints**: 88 Middle Egyptian trade terms tested against the corpus; matches ≈ chance (null ratios 1.6–6.4×), no detectable loans. Frequency profiles eliminated 28.2% of candidate phonemes for the 80 UNCERTAIN signs.
+- **10b — Grid completion**: Partial CV grid built from 58 CONFIRMED anchors (34/40 cells filled). 100 random completions scored on morphology/entropy/prefix; **zero per-sign consensus** at 60% threshold. Search space ~10¹⁴⁰ — random sampling cannot converge.
+- **10c — Oracle ablation test**: A greedy restore of hidden CONFIRMED signs recovered them at **0.6× chance** (0.6% vs 5.5% chance). Even in the ideal per-sign isolation case, the true value ranked 52nd/70, excluded, or 48th/70 — the argmax was never right. The scorer has **no signal**. Strengthening attempts (Kober-consistency term, held-out cross-entropy, known-word anchors) did not lift recovery above chance.
 
-#### Step 2: Enumerate remaining possibilities
-For each of the 60 empty cells, Kober triples constrain which row (consonant) or column (vowel) it belongs to. Enumerate all valid completions.
+**Conclusion:** The Ventris method requires *independent* phonetic evidence to test hypotheses against. The corpus contains none — every signal (LB transfer, Kober links, anchors) derives circularly from the same source. No optimizer (beam search, simulated annealing, Optuna) can recover answers an objective doesn't contain. **Grid completion is closed pending new data.**
 
-#### Step 3: Test grammatical hypotheses
-Assume the language is agglutinative, suffixal, head-final (confirmed Phase 3). For each grid completion, re-read the 10 longest texts and check:
-- Do repeated suffixes emerge from the text? (agglutinative prediction)
-- Do prefixes correlate with specific logogram types? (grammatical agreement)
-- Do word-final signs form a small, closed set? (case/number marking)
+### Why It Failed
 
-#### Step 4: Eliminate grid completions that fail
-Any grid completion that produces inconsistent morphology is rejected. The surviving completions converge toward the correct grid.
-
-### Why This Can Work Now
-
-We have 78 anchors (started at 44). The remaining 60 empty cells are heavily constrained. The formulaic parallelism analysis (Phase 9) identified the prefix system and suffix markers. We're not guessing — we're testing.
+1. **Circular evidence**: The scorer's "correct answers" (confirmed values) are themselves derived from LB transfer — the same evidence the scorer would have to independently rediscover. The oracle cannot distinguish right from wrong because "right" is defined by the only evidence available.
+2. **Corpus ceiling**: 11K tokens of near-unstructured administrative text. Word-final distributions, bigram structure, and prefix concentration barely move when phonetics are reassigned — the corpus is too small and too homogeneous for grammatical hypothesis testing to gain traction.
+3. **No independent anchor**: Ventris had the Cypriot syllabary and Greek morphology as external checks. Linear A has neither — Cypro-Minoan is itself half-undeciphered, and the language family is unknown.
 
 ### The One Question That Would Unlock Everything
 
@@ -704,7 +697,10 @@ labrys/
 │   ├── kober/                   # Phase 7
 │   ├── anatolian_search/        # Phase 7
 │   ├── bootstrapping/           # Phase 8
-│   └── formulaic/               # Phase 9
+│   ├── formulaic/               # Phase 9
+│   ├── egyptian_bridge/         # Phase 10a
+│   ├── frequency_constraints/   # Phase 10a
+│   └── ventris/                 # Phase 10b/c (grid completion + oracle)
 │
 ├── data/
 │   ├── database/                # lineara_full.db (3.6 MB)
@@ -747,6 +743,11 @@ labrys/
 | `data/analysis/formulaic/substitutions.csv` | 9,588 formulaic substitutions |
 | `data/analysis/phylogenetic/conflict_resolutions.csv` | 10 conflict resolutions with confidence |
 | `data/analysis/alternative_approaches_synthesis.md` | Phase 7 cross-approach synthesis |
+| `data/analysis/ventris/ventris_report.md` | Phase 10b grid-completion report (negative) |
+| `data/analysis/ventris/sign_consensus.csv` | Per-sign consensus across top completions |
+| `pipeline/ventris/complete.py` | Grid completer + oracle ablation test (`oracle_test()`) |
+| `data/analysis/egyptian_bridge/egyptian_report.md` | Phase 10a Egyptian bridge (negative) |
+| `data/analysis/frequency_constraints/frequency_report.md` | Phase 10a frequency-typology constraints |
 
 ---
 
