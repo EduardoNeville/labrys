@@ -1,0 +1,52 @@
+id: linear-a
+name: Linear A
+family: undeciphered-aegean
+sign_system: syllabary
+period_range: "1800–1450 BCE"
+mapping: mapping.csv
+corpus:
+  raw: data/raw/sigla/inscriptions.json
+  supplement: data/raw/sigla/supplement.json
+  format: sigla-json
+  id_field: name
+comparative:
+  - source: linear-b
+    via: null
+    grid: data/analysis/comparative/la_lb_mapping.csv
+  - source: cypro-minoan
+    via: cypriot-syllabary
+    grid: data/analysis/comparative/la_cm_shared_phonetic_grid.csv
+ingest:
+  period_map:
+    LMIB: "LM IB"
+    LMIA: "LM IA"
+    LMII: "LM II"
+    LMIII: "LM III"
+    MMII: "MM II"
+    MMIII: "MM III"
+    MMIII/LMIA: "MM III/LM IA"
+    MMIII-LMIA: "MM III/LM IA"
+    "": "Uncertain"
+  support_map:
+    Tablet: "tablet (page-shaped)"
+    Tablet (page-shaped): "tablet (page-shaped)"
+    Tablet (palm-leaf): "tablet (palm-leaf)"
+    Tablet (long-and-thin): "tablet (long-and-thin)"
+    Roundel: "roundel"
+    Libation table: "libation table"
+    Sealing: "sealing"
+    Seal: "seal"
+    Pottery: "pottery vessel"
+    Fresco: "fresco"
+    Metal object: "metal object"
+    Bone label: "bone label"
+    Ivory plaque: "ivory plaque"
+    Stone vessel: "stone vessel"
+    Vase: "pottery vessel"
+    Pin: "metal object"
+    Weight: "metal object"
+pipeline:
+  db: data/database/lineara_full.db
+  phases: [positional, ngram, network, morphology, swadesh, comparative, ventris]
+oracle:
+  threshold: 1.5

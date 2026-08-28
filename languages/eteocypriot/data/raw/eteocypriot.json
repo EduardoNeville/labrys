@@ -1,0 +1,528 @@
+[
+  [
+    "Amathus Bilingual (EC1/ICS 196)",
+    {
+      "name": "Amathus Bilingual (EC1/ICS 196)",
+      "site": "Amathus",
+      "findspot": "Amathus, black marble slab (Sittig 1914, Masson 1983)",
+      "context": "Classical",
+      "support": "Bilingual stone",
+      "parsedInscription": "ana matori umiesai mukulai lasana arisitonose aratowanakasokoose kerakeretulose takanasoti alo kailipoti",
+      "words": [
+        "ana",
+        "matori",
+        "umiesai",
+        "mukulai",
+        "lasana",
+        "arisitonose",
+        "aratowanakasokoose",
+        "kerakeretulose",
+        "takanasoti",
+        "alo",
+        "kailipoti"
+      ],
+      "transcription": "ana matori umiesai mukulai lasana arisitonose aratowanakasokoose kerakeretulose takanasoti alo kailipoti",
+      "images": [],
+      "names": [
+        "Amathus Bilingual (EC1/ICS 196)"
+      ],
+      "is_bilingual": true,
+      "notes": "Real EC1/ICS 196 bilingual: a-na ma-to-ri... (11 words) + Greek HE POLIS HE AMATHOUSION. Source: cyprominoica.wordpress.com EC1 + Wikipedia Amathus_bilingual."
+    }
+  ],
+  [
+    "Amathus EC2/ICS 195",
+    {
+      "name": "Amathus EC2/ICS 195",
+      "site": "Amathus",
+      "findspot": "Amathus, stone, 4th c. BC (Masson 1983 ICS 195)",
+      "context": "Classical",
+      "support": "Stone",
+      "parsedInscription": "mitarawano onasakoranoti onasakorani papono asatowanakasoko puruwano puruwanoti asataratonokoo kerakaretuloti oelotimotitusasokosoti onaitimo tasu puruwano",
+      "words": [
+        "mitarawano",
+        "onasakoranoti",
+        "onasakorani",
+        "papono",
+        "asatowanakasoko",
+        "puruwano",
+        "puruwanoti",
+        "asataratonokoo",
+        "kerakaretuloti",
+        "oelotimotitusasokosoti",
+        "onaitimo",
+        "tasu",
+        "puruwano"
+      ],
+      "transcription": "mitarawano onasakoranoti onasakorani papono asatowanakasoko puruwano puruwanoti asataratonokoo kerakaretuloti oelotimotitusasokosoti onaitimo tasu puruwano",
+      "images": [],
+      "names": [
+        "Amathus EC2/ICS 195"
+      ],
+      "is_bilingual": false,
+      "notes": "Real EC2/ICS 195 (Masson 1983): selected Eteocypriot words with Greek names bolded (Onasagoras etc.). Full text fragmentary with lacunae; words cleaned to hyphen-less. Source: cyprominoica EC2."
+    }
+  ],
+  [
+    "Amathus EC3",
+    {
+      "name": "Amathus EC3",
+      "site": "Amathus",
+      "findspot": "Amathus, stone, EC3 (cyprominoica)",
+      "context": "Archaic",
+      "support": "Stone",
+      "parsedInscription": "tu alirani oite tusu taleya pakuke anoti tasoti apupi oite apima pina asona tukaiminona",
+      "words": [
+        "tu",
+        "alirani",
+        "oite",
+        "tusu",
+        "taleya",
+        "pakuke",
+        "anoti",
+        "tasoti",
+        "apupi",
+        "oite",
+        "apima",
+        "pina",
+        "asona",
+        "tukaiminona"
+      ],
+      "transcription": "tu alirani oite tusu taleya pakuke anoti tasoti apupi oite apima pina asona tukaiminona",
+      "images": [],
+      "names": [
+        "Amathus EC3"
+      ],
+      "is_bilingual": false,
+      "notes": "Real EC3: tu a-li-ra-ni o-i-te... 5 lines, fragmentary. Source: cyprominoica EC3."
+    }
+  ],
+  [
+    "Amathus EC4",
+    {
+      "name": "Amathus EC4",
+      "site": "Amathus",
+      "findspot": "Amathus, stone, EC4",
+      "context": "Archaic",
+      "support": "Stone",
+      "parsedInscription": "ana tasi susa ekiwijaki mana apoi eki mari mana sumira imikani puenemina panamo nio tarawi kawalija pina mi",
+      "words": [
+        "ana",
+        "tasi",
+        "susa",
+        "ekiwijaki",
+        "mana",
+        "apoi",
+        "eki",
+        "mari",
+        "mana",
+        "sumira",
+        "imikani",
+        "puenemina",
+        "panamo",
+        "nio",
+        "tarawi",
+        "kawalija",
+        "pina",
+        "mi"
+      ],
+      "transcription": "ana tasi susa ekiwijaki mana apoi eki mari mana sumira imikani puenemina panamo nio tarawi kawalija pina mi",
+      "images": [],
+      "names": [
+        "Amathus EC4"
+      ],
+      "is_bilingual": false,
+      "notes": "Real EC4: a-na ta-si su-sa... 4 lines. Source: cyprominoica EC4."
+    }
+  ],
+  [
+    "Amathus EC5",
+    {
+      "name": "Amathus EC5",
+      "site": "Amathus",
+      "findspot": "Amathus, stone, EC5",
+      "context": "Archaic",
+      "support": "Stone",
+      "parsedInscription": "witileranu tana munoti ailo ekiyanoti mana ko tou pakimiranu tana mu noti",
+      "words": [
+        "witileranu",
+        "tana",
+        "munoti",
+        "ailo",
+        "ekiyanoti",
+        "mana",
+        "ko",
+        "tou",
+        "pakimiranu",
+        "tana",
+        "mu",
+        "noti"
+      ],
+      "transcription": "witileranu tana munoti ailo ekiyanoti mana ko tou pakimiranu tana mu noti",
+      "images": [],
+      "names": [
+        "Amathus EC5"
+      ],
+      "is_bilingual": false,
+      "notes": "Real EC5: wi-ti-le-ra-nu ta-na... 4 lines. Source: cyprominoica EC5."
+    }
+  ],
+  [
+    "Amathus EC14/ICS 198 (Purwos coin)",
+    {
+      "name": "Amathus EC14/ICS 198 (Purwos coin)",
+      "site": "Amathus",
+      "findspot": "Amathus, coin, ca. 390 BC (Purwos?)",
+      "context": "Classical",
+      "support": "Coin",
+      "parsedInscription": "puruwoso",
+      "words": [
+        "puruwoso"
+      ],
+      "transcription": "puruwoso",
+      "images": [],
+      "names": [
+        "Amathus EC14/ICS 198 (Purwos coin)"
+      ],
+      "is_bilingual": false,
+      "notes": "Real EC14/ICS 198: pu-ru-wo-so on coin, possibly king Purwos. Source: cyprominoica EC14."
+    }
+  ],
+  [
+    "Amathus 07",
+    {
+      "name": "Amathus 07",
+      "site": "Amathus",
+      "findspot": "Amathus, Bowl, No. 7",
+      "context": "Classical",
+      "support": "Bowl",
+      "parsedInscription": "𐠀𐠊𐠟𐠕𐠠 | 𐠃𐠂𐠦 ti",
+      "words": [
+        "𐠀𐠊𐠟𐠕𐠠",
+        "|",
+        "𐠃𐠂𐠦",
+        "ti"
+      ],
+      "transcription": "𐠀𐠊𐠟𐠕𐠠 | 𐠃𐠂𐠦 ti",
+      "images": [],
+      "names": [
+        "Amathus 07"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 08",
+    {
+      "name": "Amathus 08",
+      "site": "Amathus",
+      "findspot": "Amathus, Tablet, No. 8",
+      "context": "Classical",
+      "support": "Tablet",
+      "parsedInscription": "𐠁𐠌𐠮𐠀 𐠦𐠃 | ana",
+      "words": [
+        "𐠁𐠌𐠮𐠀",
+        "𐠦𐠃",
+        "|",
+        "ana"
+      ],
+      "transcription": "𐠁𐠌𐠮𐠀 𐠦𐠃 | ana",
+      "images": [],
+      "names": [
+        "Amathus 08"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 09",
+    {
+      "name": "Amathus 09",
+      "site": "Amathus",
+      "findspot": "Amathus, Weight, No. 9",
+      "context": "Classical",
+      "support": "Weight",
+      "parsedInscription": "kase 𐠌𐠮",
+      "words": [
+        "kase",
+        "𐠌𐠮"
+      ],
+      "transcription": "kase 𐠌𐠮",
+      "images": [],
+      "names": [
+        "Amathus 09"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 10",
+    {
+      "name": "Amathus 10",
+      "site": "Amathus",
+      "findspot": "Amathus, Bilingual stone, No. 10",
+      "context": "Classical",
+      "support": "Bilingual stone",
+      "parsedInscription": "𐠟𐠧 ana 𐠁𐠖𐠰 | 𐠦𐠠𐠮",
+      "words": [
+        "𐠟𐠧",
+        "ana",
+        "𐠁𐠖𐠰",
+        "|",
+        "𐠦𐠠𐠮"
+      ],
+      "transcription": "𐠟𐠧 ana 𐠁𐠖𐠰 | 𐠦𐠠𐠮",
+      "images": [],
+      "names": [
+        "Amathus 10"
+      ],
+      "is_bilingual": true,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "AM 11",
+    {
+      "name": "AM 11",
+      "site": "Paphos",
+      "findspot": "Paphos, Bowl, No. 11",
+      "context": "Archaic",
+      "support": "Bowl",
+      "parsedInscription": "𐠀𐠊arisitonose 𐠖𐠍𐠕 | 𐠂𐠮𐠔 | 𐠄𐠦 | 𐠍𐠪𐠦",
+      "words": [
+        "𐠀𐠊arisitonose",
+        "𐠖𐠍𐠕",
+        "|",
+        "𐠂𐠮𐠔",
+        "|",
+        "𐠄𐠦",
+        "|",
+        "𐠍𐠪𐠦"
+      ],
+      "transcription": "𐠀𐠊arisitonose 𐠖𐠍𐠕 | 𐠂𐠮𐠔 | 𐠄𐠦 | 𐠍𐠪𐠦",
+      "images": [],
+      "names": [
+        "AM 11"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 12",
+    {
+      "name": "Amathus 12",
+      "site": "Amathus",
+      "findspot": "Amathus, Tablet, No. 12",
+      "context": "Archaic",
+      "support": "Tablet",
+      "parsedInscription": "𐠀𐠊onasako | 𐠪𐠟 𐠢𐠖𐠊",
+      "words": [
+        "𐠀𐠊onasako",
+        "|",
+        "𐠪𐠟",
+        "𐠢𐠖𐠊"
+      ],
+      "transcription": "𐠀𐠊onasako | 𐠪𐠟 𐠢𐠖𐠊",
+      "images": [],
+      "names": [
+        "Amathus 12"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 13",
+    {
+      "name": "Amathus 13",
+      "site": "Amathus",
+      "findspot": "Amathus, Bowl, No. 13",
+      "context": "Classical",
+      "support": "Bowl",
+      "parsedInscription": "arisitonose 𐠖𐠰𐠦𐠢 𐠪𐠕𐠕 𐠍𐠔𐠄𐠌 𐠟𐠃𐠦",
+      "words": [
+        "arisitonose",
+        "𐠖𐠰𐠦𐠢",
+        "𐠪𐠕𐠕",
+        "𐠍𐠔𐠄𐠌",
+        "𐠟𐠃𐠦"
+      ],
+      "transcription": "arisitonose 𐠖𐠰𐠦𐠢 𐠪𐠕𐠕 𐠍𐠔𐠄𐠌 𐠟𐠃𐠦",
+      "images": [],
+      "names": [
+        "Amathus 13"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 14",
+    {
+      "name": "Amathus 14",
+      "site": "Amathus",
+      "findspot": "Amathus, Bowl, No. 14",
+      "context": "Classical",
+      "support": "Bowl",
+      "parsedInscription": "matori 𐠢𐠔 | 𐠪𐠎𐠀 𐠁𐠁",
+      "words": [
+        "matori",
+        "𐠢𐠔",
+        "|",
+        "𐠪𐠎𐠀",
+        "𐠁𐠁"
+      ],
+      "transcription": "matori 𐠢𐠔 | 𐠪𐠎𐠀 𐠁𐠁",
+      "images": [],
+      "names": [
+        "Amathus 14"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 15",
+    {
+      "name": "Amathus 15",
+      "site": "Amathus",
+      "findspot": "Amathus, Tablet, No. 15",
+      "context": "Classical",
+      "support": "Tablet",
+      "parsedInscription": "𐠕𐠀𐠠𐠟 𐠯𐠟𐠌",
+      "words": [
+        "𐠕𐠀𐠠𐠟",
+        "𐠯𐠟𐠌"
+      ],
+      "transcription": "𐠕𐠀𐠠𐠟 𐠯𐠟𐠌",
+      "images": [],
+      "names": [
+        "Amathus 15"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 16",
+    {
+      "name": "Amathus 16",
+      "site": "Amathus",
+      "findspot": "Amathus, Tablet, No. 16",
+      "context": "Classical",
+      "support": "Tablet",
+      "parsedInscription": "𐠀𐠊𐠖𐠁 𐠞𐠔 | 𐠄𐠄𐠖𐠟",
+      "words": [
+        "𐠀𐠊𐠖𐠁",
+        "𐠞𐠔",
+        "|",
+        "𐠄𐠄𐠖𐠟"
+      ],
+      "transcription": "𐠀𐠊𐠖𐠁 𐠞𐠔 | 𐠄𐠄𐠖𐠟",
+      "images": [],
+      "names": [
+        "Amathus 16"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 17",
+    {
+      "name": "Amathus 17",
+      "site": "Amathus",
+      "findspot": "Amathus, Weight, No. 17",
+      "context": "Archaic",
+      "support": "Weight",
+      "parsedInscription": "𐠀𐠊𐠄𐠧 𐠂𐠔 matori",
+      "words": [
+        "𐠀𐠊𐠄𐠧",
+        "𐠂𐠔",
+        "matori"
+      ],
+      "transcription": "𐠀𐠊𐠄𐠧 𐠂𐠔 matori",
+      "images": [],
+      "names": [
+        "Amathus 17"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 18",
+    {
+      "name": "Amathus 18",
+      "site": "Amathus",
+      "findspot": "Amathus, Tablet, No. 18",
+      "context": "Classical",
+      "support": "Tablet",
+      "parsedInscription": "𐠀𐠊onasako | 𐠔𐠊 𐠮𐠃𐠄",
+      "words": [
+        "𐠀𐠊onasako",
+        "|",
+        "𐠔𐠊",
+        "𐠮𐠃𐠄"
+      ],
+      "transcription": "𐠀𐠊onasako | 𐠔𐠊 𐠮𐠃𐠄",
+      "images": [],
+      "names": [
+        "Amathus 18"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 19",
+    {
+      "name": "Amathus 19",
+      "site": "Amathus",
+      "findspot": "Amathus, Stone, No. 19",
+      "context": "Classical",
+      "support": "Stone",
+      "parsedInscription": "𐠀𐠊𐠮𐠰 | muku 𐠌𐠮𐠂",
+      "words": [
+        "𐠀𐠊𐠮𐠰",
+        "|",
+        "muku",
+        "𐠌𐠮𐠂"
+      ],
+      "transcription": "𐠀𐠊𐠮𐠰 | muku 𐠌𐠮𐠂",
+      "images": [],
+      "names": [
+        "Amathus 19"
+      ],
+      "is_bilingual": false,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ],
+  [
+    "Amathus 20",
+    {
+      "name": "Amathus 20",
+      "site": "Amathus",
+      "findspot": "Amathus, Bilingual stone, No. 20",
+      "context": "Classical",
+      "support": "Bilingual stone",
+      "parsedInscription": "muku 𐠖𐠪𐠌𐠧 𐠮𐠧𐠊𐠋",
+      "words": [
+        "muku",
+        "𐠖𐠪𐠌𐠧",
+        "𐠮𐠧𐠊𐠋"
+      ],
+      "transcription": "muku 𐠖𐠪𐠌𐠧 𐠮𐠧𐠊𐠋",
+      "images": [],
+      "names": [
+        "Amathus 20"
+      ],
+      "is_bilingual": true,
+      "notes": "[synthetic placeholder — awaiting Egetmeyer 2010 Tome II hand CSV] [synthetic placeholder — awaiting full Egetmeyer Tome II ICS 183,190-194,196a-e,195,295,388 etc. hand transcription]"
+    }
+  ]
+]

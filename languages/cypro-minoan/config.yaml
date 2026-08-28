@@ -1,0 +1,35 @@
+id: cypro-minoan
+name: Cypro-Minoan
+family: undeciphered-aegean
+sign_system: syllabary
+period_range: "1550–1050 BCE"
+mapping: mapping.csv
+corpus:
+  raw: languages/cypro-minoan/data/raw/cm.json
+  format: sigla-json
+  id_field: name
+comparative:
+  - source: linear-a
+    via: cypriot-syllabary
+    grid: data/analysis/comparative/la_cm_shared_phonetic_grid.csv
+ingest:
+  period_map:
+    LC I: "LC I"
+    LC II: "LC II"
+    LC III: "LC III"
+    CG I: "CG I"
+    "": "Uncertain"
+  support_map:
+    Tablet: "tablet"
+    Cylinder: "cylinder"
+    Ball: "clay ball"
+    Nodule: "nodule"
+    Sealing: "sealing"
+    Vessel: "pottery vessel"
+    Weight: "weight"
+    Jewelry: "jewelry"
+pipeline:
+  db: languages/cypro-minoan/data/database/cm.db
+  phases: [positional, ngram, network, morphology, swadesh, comparative, ventris]
+oracle:
+  threshold: 1.5

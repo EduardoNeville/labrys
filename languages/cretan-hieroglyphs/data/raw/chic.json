@@ -1,0 +1,414 @@
+[
+  [
+    "KN CHIC#001",
+    {
+      "name": "KN CHIC#001",
+      "site": "Knossos",
+      "findspot": "Palace, Central Court",
+      "context": "MM II",
+      "support": "Seal",
+      "parsedInscription": " |  | ",
+      "words": [
+        "",
+        "",
+        "|",
+        "",
+        "|",
+        ""
+      ],
+      "transcription": " |  | ",
+      "images": [],
+      "names": [
+        "KN CHIC#001"
+      ]
+    }
+  ],
+  [
+    "ZA CHIC#002",
+    {
+      "name": "ZA CHIC#002",
+      "site": "Zakros",
+      "findspot": "Palace, Archives",
+      "context": "MM III",
+      "support": "Tablet",
+      "parsedInscription": " | ",
+      "words": [
+        "",
+        "|",
+        "",
+        "",
+        ""
+      ],
+      "transcription": " | ",
+      "images": [],
+      "names": [
+        "ZA CHIC#002"
+      ]
+    }
+  ],
+  [
+    "KN CHIC#003",
+    {
+      "name": "KN CHIC#003",
+      "site": "Knossos",
+      "findspot": "Palace, Central Court",
+      "context": "MM III",
+      "support": "Bar",
+      "parsedInscription": " | ",
+      "words": [
+        "",
+        "|",
+        "",
+        ""
+      ],
+      "transcription": " | ",
+      "images": [],
+      "names": [
+        "KN CHIC#003"
+      ]
+    }
+  ],
+  [
+    "PE CHIC#004",
+    {
+      "name": "PE CHIC#004",
+      "site": "Petras",
+      "findspot": "Town, House I",
+      "context": "MM III",
+      "support": "Bar",
+      "parsedInscription": " |  | ",
+      "words": [
+        "",
+        "",
+        "|",
+        "",
+        "|",
+        ""
+      ],
+      "transcription": " |  | ",
+      "images": [],
+      "names": [
+        "PE CHIC#004"
+      ]
+    }
+  ],
+  [
+    "KN CHIC#005",
+    {
+      "name": "KN CHIC#005",
+      "site": "Knossos",
+      "findspot": "Temple, Anetaki plot",
+      "context": "MM I",
+      "support": "Bar",
+      "parsedInscription": "",
+      "words": [
+        ""
+      ],
+      "transcription": "",
+      "images": [],
+      "names": [
+        "KN CHIC#005"
+      ]
+    }
+  ],
+  [
+    "PH CHIC#006",
+    {
+      "name": "PH CHIC#006",
+      "site": "Phaistos",
+      "findspot": "Palace, South Wing",
+      "context": "MM I",
+      "support": "Nodule",
+      "parsedInscription": "",
+      "words": [
+        "",
+        "",
+        ""
+      ],
+      "transcription": "",
+      "images": [],
+      "names": [
+        "PH CHIC#006"
+      ]
+    }
+  ],
+  [
+    "PE CHIC#007",
+    {
+      "name": "PE CHIC#007",
+      "site": "Petras",
+      "findspot": "Town, House I",
+      "context": "MM I",
+      "support": "Tablet",
+      "parsedInscription": "",
+      "words": [
+        ""
+      ],
+      "transcription": "",
+      "images": [],
+      "names": [
+        "PE CHIC#007"
+      ]
+    }
+  ],
+  [
+    "KN CHIC#008",
+    {
+      "name": "KN CHIC#008",
+      "site": "Knossos",
+      "findspot": "Palace, Central Court",
+      "context": "EM III",
+      "support": "Sealing",
+      "parsedInscription": " | ",
+      "words": [
+        "",
+        "|",
+        ""
+      ],
+      "transcription": " | ",
+      "images": [],
+      "names": [
+        "KN CHIC#008"
+      ]
+    }
+  ],
+  [
+    "ZA CHIC#009",
+    {
+      "name": "ZA CHIC#009",
+      "site": "Zakros",
+      "findspot": "Palace, Archives",
+      "context": "EM III",
+      "support": "Tablet",
+      "parsedInscription": " |  | ",
+      "words": [
+        "",
+        "",
+        "|",
+        "",
+        "|",
+        ""
+      ],
+      "transcription": " |  | ",
+      "images": [],
+      "names": [
+        "ZA CHIC#009"
+      ]
+    }
+  ],
+  [
+    "MA CHIC#010",
+    {
+      "name": "MA CHIC#010",
+      "site": "Malia",
+      "findspot": "Seal, CMS II.6",
+      "context": "MM III",
+      "support": "Tablet",
+      "parsedInscription": "",
+      "words": [
+        ""
+      ],
+      "transcription": "",
+      "images": [],
+      "names": [
+        "MA CHIC#010"
+      ]
+    }
+  ],
+  [
+    "ZA CHIC#011",
+    {
+      "name": "ZA CHIC#011",
+      "site": "Zakros",
+      "findspot": "Palace, Archives",
+      "context": "MM II",
+      "support": "Seal",
+      "parsedInscription": " |  | ",
+      "words": [
+        "",
+        "|",
+        "",
+        "",
+        "|",
+        ""
+      ],
+      "transcription": " |  | ",
+      "images": [],
+      "names": [
+        "ZA CHIC#011"
+      ]
+    }
+  ],
+  [
+    "PH CHIC#012",
+    {
+      "name": "PH CHIC#012",
+      "site": "Phaistos",
+      "findspot": "Palace, South Wing",
+      "context": "EM III",
+      "support": "Tablet",
+      "parsedInscription": " |  |  | ",
+      "words": [
+        "",
+        "|",
+        "",
+        "|",
+        "",
+        "|",
+        ""
+      ],
+      "transcription": " |  |  | ",
+      "images": [],
+      "names": [
+        "PH CHIC#012"
+      ]
+    }
+  ],
+  [
+    "PE CHIC#013",
+    {
+      "name": "PE CHIC#013",
+      "site": "Petras",
+      "findspot": "Town, House I",
+      "context": "EM III",
+      "support": "Nodule",
+      "parsedInscription": " |  | ",
+      "words": [
+        "",
+        "",
+        "|",
+        "",
+        "|",
+        ""
+      ],
+      "transcription": " |  | ",
+      "images": [],
+      "names": [
+        "PE CHIC#013"
+      ]
+    }
+  ],
+  [
+    "MA CHIC#014",
+    {
+      "name": "MA CHIC#014",
+      "site": "Malia",
+      "findspot": "Quartier Mu, Atelier",
+      "context": "MM II",
+      "support": "Seal",
+      "parsedInscription": " |  | ",
+      "words": [
+        "",
+        "|",
+        "",
+        "|",
+        ""
+      ],
+      "transcription": " |  | ",
+      "images": [],
+      "names": [
+        "MA CHIC#014"
+      ]
+    }
+  ],
+  [
+    "PH CHIC#015",
+    {
+      "name": "PH CHIC#015",
+      "site": "Phaistos",
+      "findspot": "Palace, South Wing",
+      "context": "MM II",
+      "support": "Tablet",
+      "parsedInscription": " | ",
+      "words": [
+        "",
+        "|",
+        ""
+      ],
+      "transcription": " | ",
+      "images": [],
+      "names": [
+        "PH CHIC#015"
+      ]
+    }
+  ],
+  [
+    "ZA CHIC#016",
+    {
+      "name": "ZA CHIC#016",
+      "site": "Zakros",
+      "findspot": "Palace, Archives",
+      "context": "MM I",
+      "support": "Seal",
+      "parsedInscription": "",
+      "words": [
+        "",
+        ""
+      ],
+      "transcription": "",
+      "images": [],
+      "names": [
+        "ZA CHIC#016"
+      ]
+    }
+  ],
+  [
+    "KN CHIC#017",
+    {
+      "name": "KN CHIC#017",
+      "site": "Knossos",
+      "findspot": "Palace, Central Court",
+      "context": "MM I",
+      "support": "Nodule",
+      "parsedInscription": "",
+      "words": [
+        ""
+      ],
+      "transcription": "",
+      "images": [],
+      "names": [
+        "KN CHIC#017"
+      ]
+    }
+  ],
+  [
+    "MA CHIC#018",
+    {
+      "name": "MA CHIC#018",
+      "site": "Malia",
+      "findspot": "Quartier Mu, Atelier",
+      "context": "EM III",
+      "support": "Nodule",
+      "parsedInscription": "",
+      "words": [
+        ""
+      ],
+      "transcription": "",
+      "images": [],
+      "names": [
+        "MA CHIC#018"
+      ]
+    }
+  ],
+  [
+    "MA CHIC Formula01",
+    {
+      "name": "MA CHIC Formula01",
+      "site": "Malia",
+      "findspot": "Palace, Altar",
+      "context": "MM II",
+      "support": "Tablet",
+      "parsedInscription": "|",
+      "words": [
+        "",
+        "|",
+        ""
+      ],
+      "transcription": "|",
+      "images": [],
+      "names": [
+        "MA CHIC Formula01"
+      ]
+    }
+  ]
+]

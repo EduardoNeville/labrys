@@ -82,22 +82,63 @@ def unicode():
 
 
 @unicode.command("validate")
-def unicode_validate():
-    """Validate the built-in Bennett → Unicode mapping table."""
-    errors = validate_mapping()
+@click.option("--language", default="linear-a", help="Language id to validate (default: linear-a)")
+def unicode_validate(language: str):
+    """Validate the Bennett → Unicode mapping table (CSV-driven per language)."""
+    from pipeline.unicode_utils import validate_mapping_for_language, load_mapping_csv
+    from pipeline.config import mapping_csv_path
+    # per-language validation
+    if language != "linear-a":
+        errors = validate_mapping_for_language(language)
+        # also load for counts
+        try:
+            csv_path = mapping_csv_path(language)
+            rows = load_mapping_csv(csv_path) if csv_path and csv_path.exists() else []
+        except Exception:
+            rows = []
+    else:
+        errors = validate_mapping()
+        rows = []
     if errors:
         click.echo(f"Found {len(errors)} error(s):")
         for e in errors:
             click.echo(f"  ✗ {e}")
         sys.exit(1)
     else:
-        click.echo("✓ Mapping table is valid.")
-        click.echo(f"  Total entries: {len(BENNETT_TO_UNICODE)}")
-        # Show break-down
-        from collections import Counter
-        types = Counter(t[4] for t in BENNETT_TO_UNICODE)
-        for st, cnt in types.most_common():
-            click.echo(f"    {st}: {cnt}")
+        # alphabet languages have mapping: null
+        from pipeline.config import mapping_csv_path as _mcp
+        _mcp_path = _mcp(language)
+        if _mcp_path is None:
+            click.echo(f"✓ Mapping valid for {language} (alphabet/syllabary, no mapping table — phonetics known directly).")
+            # try to show DB unique if available
+            try:
+                from pipeline.config import resolve_db_path
+                import sqlite3
+                dbp = resolve_db_path(language)
+                if dbp.exists():
+                    conn = sqlite3.connect(str(dbp))
+                    cur = conn.cursor()
+                    cur.execute("SELECT COUNT(DISTINCT bennett_id) FROM signs WHERE bennett_id!=''")
+                    uniq = cur.fetchone()[0]
+                    click.echo(f"  Unique signs in DB: {uniq} (alphabet)")
+                    conn.close()
+            except Exception:
+                pass
+        elif language != "linear-a" and rows:
+            click.echo(f"✓ Mapping table is valid for {language}.")
+            click.echo(f"  Total entries: {len(rows)}")
+            from collections import Counter
+            types = Counter(t[4] for t in rows)
+            for st, cnt in types.most_common():
+                click.echo(f"    {st}: {cnt}")
+        else:
+            click.echo(f"✓ Mapping table is valid for {language}.")
+            click.echo(f"  Total entries: {len(BENNETT_TO_UNICODE)}")
+            # Show break-down
+            from collections import Counter
+            types = Counter(t[4] for t in BENNETT_TO_UNICODE)
+            for st, cnt in types.most_common():
+                click.echo(f"    {st}: {cnt}")
 
 
 @unicode.command("generate-csv")

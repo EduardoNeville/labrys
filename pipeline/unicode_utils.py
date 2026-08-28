@@ -29,13 +29,128 @@ logger = logging.getLogger(__name__)
 BENNETT_TO_UNICODE: list[tuple[str, str, str, str, str]] = [
     ("AB 01", "U+10600", "𐘀", "", "syllabogram"),    ("AB 02", "U+10601", "𐘁", "", "syllabogram"),    ("AB 03", "U+10602", "𐘂", "", "syllabogram"),    ("AB 04", "U+10603", "𐘃", "", "syllabogram"),    ("AB 05", "U+10604", "𐘄", "", "syllabogram"),    ("AB 06", "U+10605", "𐘅", "", "syllabogram"),    ("AB 07", "U+10606", "𐘆", "", "syllabogram"),    ("AB 08", "U+10607", "𐘇", "", "syllabogram"),    ("AB 09", "U+10608", "𐘈", "", "syllabogram"),    ("AB 10", "U+10609", "𐘉", "", "syllabogram"),    ("AB 11", "U+1060A", "𐘊", "", "syllabogram"),    ("AB 13", "U+1060B", "𐘋", "", "syllabogram"),    ("AB 16", "U+1060C", "𐘌", "", "syllabogram"),    ("AB 17", "U+1060D", "𐘍", "", "syllabogram"),    ("AB 20", "U+1060E", "𐘎", "", "syllabogram"),    ("AB 21", "U+1060F", "𐘏", "", "syllabogram"),    ("AB 21f", "U+10610", "𐘐", "", "syllabogram"),    ("AB 21m", "U+10611", "𐘑", "", "syllabogram"),    ("AB 22", "U+10612", "𐘒", "", "syllabogram"),    ("AB 22f", "U+10613", "𐘓", "", "syllabogram"),    ("AB 22m", "U+10614", "𐘔", "", "syllabogram"),    ("AB 23", "U+10615", "𐘕", "", "syllabogram"),    ("AB 23m", "U+10616", "𐘖", "", "syllabogram"),    ("AB 24", "U+10617", "𐘗", "", "syllabogram"),    ("AB 26", "U+10618", "𐘘", "", "syllabogram"),    ("AB 27", "U+10619", "𐘙", "", "syllabogram"),    ("AB 28", "U+1061A", "𐘚", "", "syllabogram"),    ("A 028B", "U+1061B", "𐘛", "", "syllabogram"),    ("AB 29", "U+1061C", "𐘜", "", "syllabogram"),    ("AB 30", "U+1061D", "𐘝", "", "syllabogram"),    ("AB 31", "U+1061E", "𐘞", "", "syllabogram"),    ("AB 34", "U+1061F", "𐘟", "", "syllabogram"),    ("AB 37", "U+10620", "𐘠", "", "syllabogram"),    ("AB 38", "U+10621", "𐘡", "", "syllabogram"),    ("AB 39", "U+10622", "𐘢", "", "syllabogram"),    ("AB 40", "U+10623", "𐘣", "", "syllabogram"),    ("AB 41", "U+10624", "𐘤", "", "syllabogram"),    ("AB 44", "U+10625", "𐘥", "", "syllabogram"),    ("AB 45", "U+10626", "𐘦", "", "syllabogram"),    ("AB 46", "U+10627", "𐘧", "", "syllabogram"),    ("AB 47", "U+10628", "𐘨", "", "syllabogram"),    ("AB 48", "U+10629", "𐘩", "", "syllabogram"),    ("AB 49", "U+1062A", "𐘪", "", "syllabogram"),    ("AB 50", "U+1062B", "𐘫", "", "syllabogram"),    ("AB 51", "U+1062C", "𐘬", "", "syllabogram"),    ("AB 53", "U+1062D", "𐘭", "", "syllabogram"),    ("AB 54", "U+1062E", "𐘮", "", "syllabogram"),    ("AB 55", "U+1062F", "𐘯", "", "syllabogram"),    ("AB 56", "U+10630", "𐘰", "", "syllabogram"),    ("AB 57", "U+10631", "𐘱", "", "syllabogram"),    ("AB 58", "U+10632", "𐘲", "", "syllabogram"),    ("AB 59", "U+10633", "𐘳", "", "syllabogram"),    ("AB 60", "U+10634", "𐘴", "", "syllabogram"),    ("AB 61", "U+10635", "𐘵", "", "syllabogram"),    ("AB 65", "U+10636", "𐘶", "", "syllabogram"),    ("AB 66", "U+10637", "𐘷", "", "syllabogram"),    ("AB 67", "U+10638", "𐘸", "", "syllabogram"),    ("AB 69", "U+10639", "𐘹", "", "syllabogram"),    ("AB 70", "U+1063A", "𐘺", "", "syllabogram"),    ("AB 73", "U+1063B", "𐘻", "", "syllabogram"),    ("AB 74", "U+1063C", "𐘼", "", "syllabogram"),    ("AB 76", "U+1063D", "𐘽", "", "syllabogram"),    ("AB 77", "U+1063E", "𐘾", "", "syllabogram"),    ("AB 78", "U+1063F", "𐘿", "", "syllabogram"),    ("AB 79", "U+10640", "𐙀", "", "syllabogram"),    ("AB 80", "U+10641", "𐙁", "", "syllabogram"),    ("AB 81", "U+10642", "𐙂", "", "syllabogram"),    ("AB 82", "U+10643", "𐙃", "", "syllabogram"),    ("AB 85", "U+10644", "𐙄", "", "syllabogram"),    ("AB 86", "U+10645", "𐙅", "", "syllabogram"),    ("AB 87", "U+10646", "𐙆", "", "syllabogram"),    ("A 100-102", "U+10647", "𐙇", "", "logogram"),    ("A 120B", "U+1064A", "𐙊", "", "logogram"),    ("AB 131A", "U+1064D", "𐙍", "", "syllabogram"),    ("AB 131B", "U+1064E", "𐙎", "", "syllabogram"),    ("A 131C", "U+1064F", "𐙏", "", "logogram"),    ("A 301", "U+10655", "𐙕", "", "logogram"),    ("A 302", "U+10656", "𐙖", "", "logogram"),    ("A 303", "U+10657", "𐙗", "", "logogram"),    ("A 304", "U+10658", "𐙘", "", "logogram"),    ("A 305", "U+10659", "𐙙", "", "logogram"),    ("A 306", "U+1065A", "𐙚", "", "logogram"),    ("A 307", "U+1065B", "𐙛", "", "logogram"),    ("A 308", "U+1065C", "𐙜", "", "logogram"),    ("A 309A", "U+1065D", "𐙝", "", "logogram"),    ("A 309B", "U+1065E", "𐙞", "", "logogram"),    ("A 309C", "U+1065F", "𐙟", "", "logogram"),    ("A 310", "U+10660", "𐙠", "", "logogram"),    ("A 311", "U+10661", "𐙡", "", "logogram"),    ("A 312", "U+10662", "𐙢", "", "logogram"),    ("A 313A", "U+10663", "𐙣", "", "logogram"),    ("A 313B", "U+10664", "𐙤", "", "logogram"),    ("A 313C", "U+10665", "𐙥", "", "logogram"),    ("A 314", "U+10666", "𐙦", "", "logogram"),    ("A 315", "U+10667", "𐙧", "", "logogram"),    ("A 316", "U+10668", "𐙨", "", "logogram"),    ("A 317", "U+10669", "𐙩", "", "logogram"),    ("A 318", "U+1066A", "𐙪", "", "logogram"),    ("A 319", "U+1066B", "𐙫", "", "logogram"),    ("A 320", "U+1066C", "𐙬", "", "logogram"),    ("A 321", "U+1066D", "𐙭", "", "logogram"),    ("A 322", "U+1066E", "𐙮", "", "logogram"),    ("A 323", "U+1066F", "𐙯", "", "logogram"),    ("A 324", "U+10670", "𐙰", "", "logogram"),    ("A 325", "U+10671", "𐙱", "", "logogram"),    ("A 326", "U+10672", "𐙲", "", "logogram"),    ("A 327", "U+10673", "𐙳", "", "logogram"),    ("A 328", "U+10674", "𐙴", "", "logogram"),    ("A 329", "U+10675", "𐙵", "", "logogram"),    ("A 330", "U+10676", "𐙶", "", "logogram"),    ("A 331", "U+10677", "𐙷", "", "logogram"),    ("A 332", "U+10678", "𐙸", "", "logogram"),    ("A 333", "U+10679", "𐙹", "", "logogram"),    ("A 334", "U+1067A", "𐙺", "", "logogram"),    ("A 335", "U+1067B", "𐙻", "", "logogram"),    ("A 336", "U+1067C", "𐙼", "", "logogram"),    ("A 337", "U+1067D", "𐙽", "", "logogram"),    ("A 338", "U+1067E", "𐙾", "", "logogram"),    ("A 339", "U+1067F", "𐙿", "", "logogram"),    ("A 340", "U+10680", "𐚀", "", "logogram"),    ("A 341", "U+10681", "𐚁", "", "logogram"),    ("A 342", "U+10682", "𐚂", "", "logogram"),    ("A 343", "U+10683", "𐚃", "", "logogram"),    ("A 344", "U+10684", "𐚄", "", "logogram"),    ("A 345", "U+10685", "𐚅", "", "logogram"),    ("A 346", "U+10686", "𐚆", "", "logogram"),    ("A 347", "U+10687", "𐚇", "", "logogram"),    ("A 348", "U+10688", "𐚈", "", "logogram"),    ("A 349", "U+10689", "𐚉", "", "logogram"),    ("A 350", "U+1068A", "𐚊", "", "logogram"),    ("A 351", "U+1068B", "𐚋", "", "logogram"),    ("A 352", "U+1068C", "𐚌", "", "logogram"),    ("A 353", "U+1068D", "𐚍", "", "logogram"),    ("A 354", "U+1068E", "𐚎", "", "logogram"),    ("A 355", "U+1068F", "𐚏", "", "logogram"),    ("A 356", "U+10690", "𐚐", "", "logogram"),    ("A 357", "U+10691", "𐚑", "", "logogram"),    ("A 358", "U+10692", "𐚒", "", "logogram"),    ("A 359", "U+10693", "𐚓", "", "logogram"),    ("A 360", "U+10694", "𐚔", "", "logogram"),    ("A 361", "U+10695", "𐚕", "", "logogram"),    ("A 362", "U+10696", "𐚖", "", "logogram"),    ("A 363", "U+10697", "𐚗", "", "logogram"),    ("A 364", "U+10698", "𐚘", "", "logogram"),    ("A 365", "U+10699", "𐚙", "", "logogram"),    ("A 366", "U+1069A", "𐚚", "", "logogram"),    ("A 367", "U+1069B", "𐚛", "", "logogram"),    ("A 368", "U+1069C", "𐚜", "", "logogram"),    ("A 369", "U+1069D", "𐚝", "", "logogram"),    ("A 370", "U+1069E", "𐚞", "", "logogram"),    ("A 371", "U+1069F", "𐚟", "", "logogram"),    ("A 701", "U+106F0", "𐛰", "", "fraction"),    ("A 702", "U+106F1", "𐛱", "", "fraction"),    ("A 703", "U+106F2", "𐛲", "", "fraction"),    ("A 704", "U+106F3", "𐛳", "", "fraction"),    ("A 705", "U+106F4", "𐛴", "", "fraction"),    ("A 706", "U+106F5", "𐛵", "", "fraction"),    ("A 707", "U+106F6", "𐛶", "", "fraction"),    ("A 708", "U+106F7", "𐛷", "", "fraction"),    ("A 709", "U+106F8", "𐛸", "", "fraction"),    ("A 710", "U+106F9", "𐛹", "", "fraction"),    ("A 711", "U+106FA", "𐛺", "", "fraction"),    ("A 712", "U+106FB", "𐛻", "", "fraction"),    ("A 713", "U+106FC", "𐛼", "", "fraction"),    ("A 714", "U+106FD", "𐛽", "", "fraction"),    ("A 715", "U+106FE", "𐛾", "", "fraction"),    ("A 716", "U+106FF", "𐛿", "", "fraction"),    ("A 717", "U+10700", "𐜀", "", "fraction"),    ("A 718", "U+10701", "𐜁", "", "fraction"),    ("A 719", "U+10702", "𐜂", "", "fraction"),    ("A 720", "U+10703", "𐜃", "", "fraction"),    ("A 721", "U+10704", "𐜄", "", "fraction"),    ("A 722", "U+10705", "𐜅", "", "fraction"),    ("A 723", "U+10706", "𐜆", "", "fraction"),    ("A 724", "U+10707", "𐜇", "", "fraction"),    ("A 725", "U+10708", "𐜈", "", "fraction"),    ("A 726", "U+10709", "𐜉", "", "fraction"),    ("A 727", "U+1070A", "𐜊", "", "fraction"),    ("A 728", "U+1070B", "𐜋", "", "fraction"),    ("A 729", "U+1070C", "𐜌", "", "fraction"),    ("A 730", "U+1070D", "𐜍", "", "fraction"),    ("NUM 10", "U+1070F", "𐜏", "", "numeral"),    ("MET A", "U+10713", "𐜓", "", "metrical"),    ("MET B", "U+10714", "𐜔", "", "metrical"),    ("MET C", "U+10715", "𐜕", "", "metrical"),    ("MET D", "U+10716", "𐜖", "", "metrical"),    ("MET E", "U+10717", "𐜗", "", "metrical"),    ("MET F", "U+10718", "𐜘", "", "metrical"),    ("MET G", "U+10719", "𐜙", "", "metrical"),    ("MET H", "U+1071A", "𐜚", "", "metrical"),    ("MET I", "U+1071B", "𐜛", "", "metrical"),    ("MET J", "U+1071C", "𐜜", "", "metrical"),    ("A 500", "U+1071D", "𐜝", "", "logogram"),    ("A 501", "U+1071E", "𐜞", "", "logogram"),    ("A 502", "U+1071F", "𐜟", "", "logogram"),    ("A 503", "U+10720", "𐜠", "", "logogram"),    ("A 504", "U+10721", "𐜡", "", "logogram"),    ("A 505", "U+10722", "𐜢", "", "logogram"),    ("A 506", "U+10723", "𐜣", "", "logogram"),    ("A 507", "U+10724", "𐜤", "", "logogram"),    ("A 508", "U+10725", "𐜥", "", "logogram"),    ("A 509", "U+10726", "𐜦", "", "logogram"),    ("A 510", "U+10727", "𐜧", "", "logogram"),    ("VASE 10", "U+10749", "𐝉", "", "logogram"),    ("VASE 11", "U+1074A", "𐝊", "", "logogram"),    ("VASE 12", "U+1074B", "𐝋", "", "logogram"),    ("VASE 13", "U+1074C", "𐝌", "", "logogram"),    ("A 560", "U+1074D", "𐝍", "", "logogram"),    ("A 561", "U+1074E", "𐝎", "", "logogram"),    ("A 562", "U+1074F", "𐝏", "", "logogram"),    ("A 563", "U+10750", "𐝐", "", "logogram"),    ("A 564", "U+10751", "𐝑", "", "logogram"),    ("A 565", "U+10752", "𐝒", "", "logogram"),    ("A 566", "U+10753", "𐝓", "", "logogram"),    ("A 567", "U+10754", "𐝔", "", "logogram"),    ("A 568", "U+10755", "𐝕", "", "logogram"),    ("ADJ 001", "U+10757", "𐝗", "", "adjunct"),    ("ADJ 002", "U+10758", "𐝘", "", "adjunct"),    ("ADJ 003", "U+10759", "𐝙", "", "adjunct"),    ("ADJ 004", "U+1075A", "𐝚", "", "adjunct"),    ("ADJ 005", "U+1075B", "𐝛", "", "adjunct"),    ("AB 72", "U+10648", "𐙈", "?", "syllabogram"),    ("AB 75", "U+1064B", "𐙋", "?", "syllabogram"),    ("AB 83", "U+10653", "𐙓", "?", "syllabogram"),    ("AB 84", "U+10654", "𐙔", "?", "syllabogram"),]
 
+# ── CSV-driven loading (N-language support) ─────────────────────────
+# languages/<lang>/mapping.csv is source of truth; BENNETT_TO_UNICODE
+# is the fallback when no CSV exists (keeps old imports working).
+
+_DEFAULT_MAPPING_CSV = Path(__file__).resolve().parent.parent / "languages" / "linear-a" / "mapping.csv"
+
+def load_mapping_csv(path: str | Path) -> list[tuple[str, str, str, str, str]]:
+    """Load Bennett→Unicode mapping from CSV (header: bennettId,unicode,character,transliteration,signType)."""
+    path = Path(path)
+    rows: list[tuple[str, str, str, str, str]] = []
+    with open(path, encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            rows.append((row["bennettId"], row["unicode"], row["character"], row["transliteration"], row["signType"]))
+    return rows
+
+def load_mapping(path: str | Path) -> dict[str, tuple[str, str, str, str]]:
+    """Load mapping CSV → dict[bennettId] = (unicode, character, transliteration, signType)."""
+    data = load_mapping_csv(path)
+    return {ben: (uni, ch, tr, st) for ben, uni, ch, tr, st in data}
+
+def _resolve_mapping_csv(language: str | None = None) -> Path | None:
+    if language:
+        # eteocretan has mapping: null → no CSV, don't fallback to linear-a
+        cand = Path(__file__).resolve().parent.parent / "languages" / language / "mapping.csv"
+        if cand.exists():
+            return cand
+        # also check config mapping:null case — treat as no mapping (alphabet)
+        try:
+            import yaml
+            cfg_path = Path(__file__).resolve().parent.parent / "languages" / language / "config.yaml"
+            if cfg_path.exists():
+                cfg = yaml.safe_load(open(cfg_path, encoding="utf-8"))
+                if cfg and cfg.get("mapping") is None:
+                    return None
+        except Exception:
+            pass
+        return None
+    if _DEFAULT_MAPPING_CSV.exists():
+        return _DEFAULT_MAPPING_CSV
+    return None
+
+# If canonical CSV exists, it overrides the hardcoded table (no behavior
+# change for linear-a: CSV was generated from the same 225 rows).
+# ponytail: import-time override keeps the diff tiny; explicit reload via
+# load_mapping_csv() for other languages.
+try:
+    _csv_path = _resolve_mapping_csv()
+    if _csv_path is not None and _csv_path.exists():
+        _loaded = load_mapping_csv(_csv_path)
+        if _loaded:
+            BENNETT_TO_UNICODE = _loaded  # type: ignore[no-redef]
+            logger.info("Loaded %d mapping rows from %s", len(_loaded), _csv_path)
+except Exception as _e:  # fallback to hardcoded on any read error
+    logger.debug("CSV mapping load failed, using hardcoded table: %s", _e)
+
 # ---------------------------------------------------------------------------
+
+def use_language_mapping(language: str) -> int:
+    """Switch active mapping to languages/<language>/mapping.csv (if exists). Rebuilds lookup dicts. Returns rows loaded."""
+    global BENNETT_TO_UNICODE, _BENNETT_TO_UNICODE_MAP, _UNICODE_TO_BENNETT_MAP
+    csv_path = _resolve_mapping_csv(language)
+    if csv_path is None:
+        # alphabet language — no mapping to switch, keep current (or clear for alphabetic)
+        logger.info("No mapping for %s (alphabet) — skipping switch", language)
+        return 0
+    if not csv_path.exists():
+        raise FileNotFoundError(f"No mapping.csv for language: {language}")
+    data = load_mapping_csv(csv_path)
+    if not data:
+        raise ValueError(f"Empty mapping.csv for {language}: {csv_path}")
+    BENNETT_TO_UNICODE = data  # type: ignore
+    # rebuild derived maps
+    _BENNETT_TO_UNICODE_MAP.clear()
+    _UNICODE_TO_BENNETT_MAP.clear()
+    for _ben, _uni, _char, _trans, _stype in BENNETT_TO_UNICODE:
+        _BENNETT_TO_UNICODE_MAP[_ben] = (_uni, _char, _trans, _stype)
+        _UNICODE_TO_BENNETT_MAP[_uni] = _ben
+        _UNICODE_TO_BENNETT_MAP[_char] = _ben
+    logger.info("Switched mapping to %s: %d rows from %s", language, len(data), csv_path)
+    return len(data)
+
+def validate_mapping_for_language(language: str | None = None) -> list[str]:
+    """Validate mapping for a specific language (CSV-driven) or active mapping if None."""
+    if language is not None:
+        # validate the CSV directly without switching global
+        csv_path = _resolve_mapping_csv(language)
+        if csv_path is None:
+            # alphabet language (mapping: null) — no validation needed
+            return []
+        if not csv_path.exists():
+            return [f"No mapping.csv for language: {language}"]
+        rows = load_mapping_csv(csv_path)
+    else:
+        rows = BENNETT_TO_UNICODE
+    errors: list[str] = []
+    seen_bennett: set[str] = set()
+    seen_unicode: set[str] = set()
+    for ben, uni, char, trans, stype in rows:
+        if ben in seen_bennett:
+            errors.append(f"Duplicate Bennett ID: {ben}")
+        seen_bennett.add(ben)
+        if uni in seen_unicode:
+            errors.append(f"Duplicate Unicode: {uni}")
+        seen_unicode.add(uni)
+        if not re.match(r"^U\+[0-9A-Fa-f]{4,6}$", uni):
+            errors.append(f"Invalid Unicode hex: {uni} for {ben}")
+        try:
+            expected_char = chr(int(uni[2:], 16))
+        except ValueError:
+            errors.append(f"Invalid hex value: {uni} for {ben}")
+            continue
+        if char != expected_char:
+            errors.append(f"Character mismatch for {uni}: got {char!r}, expected {expected_char!r}")
+    return errors
+
 # Derived lookup structures
 # ---------------------------------------------------------------------------
 
 _BENNETT_TO_UNICODE_MAP: dict[str, tuple[str, str, str, str]] = {}
 _UNICODE_TO_BENNETT_MAP: dict[str, str] = {}
-_BENNETT_PATTERN = re.compile(r"^(AB|A|NUM|MET|VASE|ADJ)\s?(\d{1,5}|[A-Z])$", re.IGNORECASE)
+_BENNETT_PATTERN = re.compile(r"^(AB|CM|CHIC|A|NUM|MET|VASE|ADJ|CH|ET)\s?(\d{1,5}[A-Z]?(-\d+)?|[A-Z])$", re.IGNORECASE)
 
 for _ben, _uni, _char, _trans, _stype in BENNETT_TO_UNICODE:
     _BENNETT_TO_UNICODE_MAP[_ben] = (_uni, _char, _trans, _stype)
@@ -158,11 +273,14 @@ def write_mapping_csv(output_path: str) -> int:
     return count
 
 
-def validate_mapping() -> list[str]:
+def validate_mapping(language: str | None = None) -> list[str]:
     """
     Run integrity checks on the mapping table.
     Returns a list of error messages (empty = clean).
     """
+    # ponytail: language param allows per-language validation without global switch
+    if language is not None:
+        return validate_mapping_for_language(language)
     errors = []
     seen_bennett = set()
     seen_unicode = set()
@@ -176,7 +294,7 @@ def validate_mapping() -> list[str]:
             errors.append(f"Duplicate Unicode: {uni}")
         seen_unicode.add(uni)
         # Validate Unicode hex format
-        if not re.match(r"^U\+10[67][0-9A-Fa-f]{2}$", uni):
+        if not re.match(r"^U\+[0-9A-Fa-f]{4,6}$", uni):
             errors.append(f"Invalid Unicode hex: {uni} for {ben}")
         # Check character matches hex
         expected_char = chr(int(uni[2:], 16))

@@ -1,0 +1,33 @@
+id: cretan-hieroglyphs
+name: Cretan Hieroglyphs
+family: undeciphered-aegean
+sign_system: hieroglyphic
+period_range: "2100–1700 BCE"
+mapping: mapping.csv
+corpus:
+  raw: languages/cretan-hieroglyphs/data/raw/chic.json
+  format: sigla-json
+  id_field: name
+comparative:
+  - source: linear-a
+    via: null
+    grid: data/analysis/comparative/la_cm_shared_phonetic_grid.csv
+ingest:
+  period_map:
+    EM III: "EM III"
+    MM I: "MM I"
+    MM II: "MM II"
+    MM III: "MM III"
+    "": "Uncertain"
+  support_map:
+    Tablet: "tablet"
+    Seal: "seal"
+    Sealing: "sealing"
+    Bar: "bar"
+    Vessel: "pottery vessel"
+    Nodule: "nodule"
+pipeline:
+  db: languages/cretan-hieroglyphs/data/database/chic.db
+  phases: [positional, ngram, network, ventris]
+oracle:
+  threshold: 1.5

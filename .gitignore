@@ -28,3 +28,23 @@ tmp/
 *.log
 .pi/
 .pi*/
+
+# Phase 5 — PDFs + generated DBs (32 MB total, rebuildable) — added 2026-08-28
+*.pdf
+languages/*/data/database/*.db
+languages/*/data/raw/*.json
+!languages/eteocretan/data/raw/*.json
+!languages/eteocypriot/data/raw/*.json
+!languages/cypro-minoan/data/raw/*.json
+!languages/cretan-hieroglyphs/data/raw/*.json
+!languages/linear-a/data/raw/*.json
+# keep synthetic corpora (10–20KB) as proof, ignore large SigLA raw
+# Generated analysis (rebuildable via pipeline --language) — keep comparative grid only
+data/analysis/cypro-minoan/
+data/analysis/cretan-hieroglyphs/
+data/analysis/eteocretan/positional/
+data/analysis/eteocretan/ngram/
+data/analysis/eteocretan/ventris/
+data/analysis/eteocypriot/positional/
+data/analysis/eteocypriot/ngram/
+data/analysis/eteocypriot/ventris/

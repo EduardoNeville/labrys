@@ -1,0 +1,30 @@
+id: eteocretan
+name: Eteocretan
+family: undeciphered-aegean
+sign_system: alphabet
+period_range: "700–300 BCE"
+mapping: null
+corpus:
+  raw: languages/eteocretan/data/raw/eteocretan.json
+  format: sigla-json
+  id_field: name
+comparative:
+  - source: linear-a
+    via: null
+    grid: data/analysis/comparative/la_lb_mapping.csv
+ingest:
+  period_map:
+    "~650–600 BCE": "Archaic"
+    "~500–400 BCE": "Classical"
+    "~500–300 BCE": "Classical"
+    "": "Uncertain"
+  support_map:
+    Stone block: "stone block"
+    stone (block): "stone block"
+    stone (stele): "stele"
+    stone: "stone"
+pipeline:
+  db: languages/eteocretan/data/database/eteocretan.db
+  phases: [positional, ngram, network, morphology, ventris]
+oracle:
+  threshold: 1.5

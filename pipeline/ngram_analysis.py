@@ -1424,6 +1424,9 @@ def main():
         description="N-Gram Language Modeling, Phonotactic & Entropy Analysis for Linear A",
     )
     parser.add_argument(
+        "--language", default="linear-a", help="Language id (languages/<id>/config.yaml, overrides --db/--out)",
+    )
+    parser.add_argument(
         "--db", default=DEFAULT_DB,
         help=f"Path to SQLite database (default: {DEFAULT_DB})",
     )
@@ -1432,6 +1435,20 @@ def main():
         help=f"Output directory (default: {DEFAULT_OUT})",
     )
     args = parser.parse_args()
+
+    # ponytail: --language overrides --db/--out via languages/<id>/config.yaml
+    if args.language != "linear-a":
+        try:
+            from pipeline.config import resolve_db_path, resolve_analysis_dir
+            from pathlib import Path as _P
+            if args.db == DEFAULT_DB:
+                args.db = str(resolve_db_path(args.language))
+            if args.out == DEFAULT_OUT:
+                cat = _P(DEFAULT_OUT).name
+                args.out = str(resolve_analysis_dir(args.language, cat))
+        except Exception as _e:  # noqa: BLE001
+            pass
+
 
     analyzer = NgramAnalyzer(db_path=args.db, output_dir=args.out)
     analyzer.run()

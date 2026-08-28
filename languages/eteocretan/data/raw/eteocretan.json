@@ -1,0 +1,197 @@
+[
+  [
+    "DR 1",
+    {
+      "name": "DR 1",
+      "site": "Dreros",
+      "findspot": "Dreros (eastern Crete)",
+      "context": "~650–600 BCE",
+      "support": "Stone block",
+      "parsedInscription": "sadore deode nos komnoda etap eo os da ital atho rko isal eto kalmit kap etes sete sardo",
+      "words": [
+        "sadore",
+        "deode",
+        "nos",
+        "komnoda",
+        "etap",
+        "eo",
+        "os",
+        "da",
+        "ital",
+        "atho",
+        "rko",
+        "isal",
+        "eto",
+        "kalmit",
+        "kap",
+        "etes",
+        "sete",
+        "sardo"
+      ],
+      "transcription": "sadore deode nos komnoda etap eo os da ital atho rko isal eto kalmit kap etes sete sardo",
+      "images": [],
+      "names": [
+        "DR 1"
+      ],
+      "is_bilingual": false,
+      "notes": "Very fragmentary; only ~18 discernible word tokens. Often compared with DR 2."
+    }
+  ],
+  [
+    "DR 2",
+    {
+      "name": "DR 2",
+      "site": "Dreros",
+      "findspot": "Dreros (eastern Crete)",
+      "context": "~650–600 BCE",
+      "support": "Stone block",
+      "parsedInscription": "onadesimet epikles meteso oda etet oph alo ono et no on",
+      "words": [
+        "onadesimet",
+        "epikles",
+        "meteso",
+        "oda",
+        "etet",
+        "oph",
+        "alo",
+        "ono",
+        "et",
+        "no",
+        "on"
+      ],
+      "transcription": "onadesimet epikles meteso oda etet oph alo ono et no on",
+      "images": [],
+      "names": [
+        "DR 2"
+      ],
+      "is_bilingual": false,
+      "notes": "Very fragmentary; only ~11 readable word fragments. Scholia: lines 2 and 4 are most discussed."
+    }
+  ],
+  [
+    "PR 1",
+    {
+      "name": "PR 1",
+      "site": "Praisos",
+      "findspot": "Praisos (eastern Crete, modern Praesos)",
+      "context": "~500–400 BCE",
+      "support": "Stone block",
+      "parsedInscription": "nonet o th sstephe kalmite kai at ph ois ed onadesimet ep set",
+      "words": [
+        "nonet",
+        "o",
+        "th",
+        "sstephe",
+        "kalmite",
+        "kai",
+        "at",
+        "ph",
+        "ois",
+        "ed",
+        "onadesimet",
+        "ep",
+        "set"
+      ],
+      "transcription": "nonet o th sstephe kalmite kai at ph ois ed onadesimet ep set",
+      "images": [],
+      "names": [
+        "PR 1"
+      ],
+      "is_bilingual": false,
+      "notes": "Contains word onadesimet also found in DR 2 — this is a key repeated word."
+    }
+  ],
+  [
+    "PR 2",
+    {
+      "name": "PR 2",
+      "site": "Praisos",
+      "findspot": "Praisos (eastern Crete, modern Praesos)",
+      "context": "~500–400 BCE",
+      "support": "Stone block",
+      "parsedInscription": "onadesimet epikles et phar isal set",
+      "words": [
+        "onadesimet",
+        "epikles",
+        "et",
+        "phar",
+        "isal",
+        "set"
+      ],
+      "transcription": "onadesimet epikles et phar isal set",
+      "images": [],
+      "names": [
+        "PR 2"
+      ],
+      "is_bilingual": true,
+      "notes": "BILINGUAL — the most important Eteocretan text. Greek part is a dedication '...sons dedicated to Zeus...'. Eteocretan part is on the same stone. Words onadesimet, epikles, isal, set recur across texts, suggesting formulaic language."
+    }
+  ],
+  [
+    "PR 3",
+    {
+      "name": "PR 3",
+      "site": "Praisos",
+      "findspot": "Praisos (eastern Crete, modern Praesos)",
+      "context": "~500–400 BCE",
+      "support": "Stone block",
+      "parsedInscription": "ph isalabre et",
+      "words": [
+        "ph",
+        "isalabre",
+        "et"
+      ],
+      "transcription": "ph isalabre et",
+      "images": [],
+      "names": [
+        "PR 3"
+      ],
+      "is_bilingual": false,
+      "notes": "Fragmentary; 'isalabre' may be isal+abre or a single word."
+    }
+  ],
+  [
+    "PR 4",
+    {
+      "name": "PR 4",
+      "site": "Praisos",
+      "findspot": "Praisos (eastern Crete, modern Praesos)",
+      "context": "~500–300 BCE",
+      "support": "Stone block",
+      "parsedInscription": "phdeo et",
+      "words": [
+        "phdeo",
+        "et"
+      ],
+      "transcription": "phdeo et",
+      "images": [],
+      "names": [
+        "PR 4"
+      ],
+      "is_bilingual": false,
+      "notes": "Very fragmentary."
+    }
+  ],
+  [
+    "PR 5",
+    {
+      "name": "PR 5",
+      "site": "Praisos",
+      "findspot": "Praisos (eastern Crete, modern Praesos)",
+      "context": "~500–300 BCE",
+      "support": "Stone block",
+      "parsedInscription": "barze et",
+      "words": [
+        "barze",
+        "et"
+      ],
+      "transcription": "barze et",
+      "images": [],
+      "names": [
+        "PR 5"
+      ],
+      "is_bilingual": false,
+      "notes": "Fragmentary; 'barze' is a unique word not seen elsewhere."
+    }
+  ]
+]

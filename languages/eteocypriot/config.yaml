@@ -1,0 +1,35 @@
+id: eteocypriot
+name: Eteocypriot
+family: undeciphered-aegean
+sign_system: syllabary
+period_range: "600–300 BCE"
+mapping: null
+corpus:
+  raw: languages/eteocypriot/data/raw/eteocypriot.json
+  format: sigla-json
+  id_field: name
+comparative:
+  - source: cypro-minoan
+    via: cypriot-syllabary
+    grid: data/analysis/comparative/la_cm_shared_phonetic_grid.csv
+  - source: linear-a
+    via: cypriot-syllabary
+    grid: data/analysis/comparative/la_cm_eteocypriot_grid.csv
+ingest:
+  period_map:
+    Archaic: "Archaic"
+    Classical: "Classical"
+    "600–500 BCE": "Archaic"
+    "500–300 BCE": "Classical"
+    "": "Uncertain"
+  support_map:
+    Stone: "stone"
+    Bilingual stone: "bilingual stone"
+    Tablet: "tablet"
+    Bowl: "bowl"
+    Weight: "weight"
+pipeline:
+  db: languages/eteocypriot/data/database/eteocypriot.db
+  phases: [positional, ngram, network, comparative, ventris]
+oracle:
+  threshold: 1.5
