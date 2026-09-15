@@ -308,6 +308,90 @@ def validate_mapping(language: str | None = None) -> list[str]:
 # Quick CLI for mapping generation
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Authoritative number → glyph lookup, straight from the Unicode character names
+# ---------------------------------------------------------------------------
+# The Linear A and Linear B blocks name every sign by its standard scholarly
+# number ("LINEAR A SIGN AB078", "LINEAR B SYLLABLE B061 O"). Codepoints are NOT
+# in number order, so any code that computes a codepoint by offset produces a
+# wrong glyph. That defect existed in pipeline/linear_b_mapping.py (hardcoded
+# U+10000, U+10001, … per row: 71 of 117 rows pointed at the wrong sign) and in
+# the Linear A glyph column of the same table. This is the single source of
+# truth for glyphs; see data/analysis/ventris/oracle_repair_report.md.
+
+_AEGEAN_GLYPHS: dict | None = None
+
+
+def _aegean_glyph_table() -> dict:
+    """{(script, number): (unicode_ref, char, value|None)} from Unicode names."""
+    global _AEGEAN_GLYPHS
+    if _AEGEAN_GLYPHS is not None:
+        return _AEGEAN_GLYPHS
+    import re as _re
+    import unicodedata as _ud
+
+    re_la = _re.compile(r"^LINEAR A SIGN (?:AB|A)(\d+)$")   # plain signs, not variants
+    re_lb = _re.compile(r"^LINEAR B SYLLABLE B(\d+) ([A-Z0-9]+)$")
+    table: dict = {}
+    for cp in range(0x10600, 0x10800):
+        try:
+            name = _ud.name(chr(cp))
+        except ValueError:
+            continue
+        m = re_la.match(name)
+        if m:
+            table.setdefault(("la", int(m.group(1))),
+                             (f"U+{cp:04X}", chr(cp), None))
+    for cp in range(0x10000, 0x10100):
+        try:
+            name = _ud.name(chr(cp))
+        except ValueError:
+            continue
+        m = re_lb.match(name)
+        if m:
+            table[("lb", int(m.group(1)))] = (
+                f"U+{cp:04X}", chr(cp), m.group(2).lower())
+    _AEGEAN_GLYPHS = table
+    return table
+
+
+def _sign_number(bennett_id: str) -> int | None:
+    """'AB 78' / 'AB78' → 78. Non-numeric ids (logograms such as 'A 301') → None."""
+    import re as _re
+    m = _re.match(r"^AB\s*(\d+)$", (bennett_id or "").strip(), _re.I)
+    return int(m.group(1)) if m else None
+
+
+def linear_a_glyph(number: int) -> tuple[str, str] | None:
+    """(unicode_ref, char) for Linear A sign *number*, or None if unencoded."""
+    e = _aegean_glyph_table().get(("la", number))
+    return (e[0], e[1]) if e else None
+
+
+def linear_b_glyph(number: int) -> tuple[str, str, str] | None:
+    """(unicode_ref, char, phonetic value) for Linear B sign *number*."""
+    e = _aegean_glyph_table().get(("lb", number))
+    return (e[0], e[1], e[2]) if e else None
+
+
+def correct_glyph_columns(row: dict) -> dict:
+    """Return *row* with the la_*/lb_ glyph columns set from Unicode names.
+
+    Numbered syllabograms only; logogram rows (A 301 …) are returned untouched.
+    """
+    n = _sign_number(row.get("bennett_id", ""))
+    if n is None:
+        return row
+    out = dict(row)
+    la = linear_a_glyph(n)
+    if la:
+        out["la_unicode"], out["la_char"] = la
+    lb = linear_b_glyph(n)
+    if lb:
+        out["lb_unicode"], out["lb_char"] = lb[0], lb[1]
+    return out
+
+
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     errors = validate_mapping()

@@ -2710,6 +2710,12 @@ def identify_misaligned(entries: list[dict],
 # ---------------------------------------------------------------------------
 
 def main():
+    # Glyph columns must be looked up by SIGN NUMBER from the Unicode names, not
+    # by codepoint offset: the AB_MAPPING table below hardcodes U+10000,
+    # U+10001, … per row, which pointed 85 of 267 rows at the wrong sign.
+    # Applies to the two glyph columns only; values and scores are untouched.
+    from pipeline.unicode_utils import correct_glyph_columns
+
     logger.info("=" * 60)
     logger.info("Linear A ↔ Linear B Mapping with Transfer Confidence")
     logger.info("=" * 60)
@@ -2761,7 +2767,7 @@ def main():
             bid = entry["bennett_id"]
             scores = score_map.get(bid, {})
             row = {
-                **entry,
+                **correct_glyph_columns(entry),
                 "visual_score": scores.get("visual_score", ""),
                 "positional_score": scores.get("positional_score", ""),
                 "frequency_score": scores.get("frequency_score", ""),

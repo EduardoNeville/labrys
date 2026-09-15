@@ -106,7 +106,13 @@ def load_triples() -> list[dict]:
 def parse_cv(refined_value: str) -> tuple[str | None, str | None]:
     if not refined_value or refined_value.strip() in ("?", ""):
         return None, None
-    val = refined_value.strip().lower()
+    # Strip subscripts (ra2 → ra). Previously the vowel came back as "a2",
+    # failed the `in VOWELS` check in classify_sign, and the vowel constraint
+    # was dropped silently. See data/analysis/ventris/oracle_repair_report.md.
+    from pipeline.phonetics import strip_subscript
+    val = strip_subscript(refined_value)
+    if not val:
+        return None, None
     if val in ("a", "e", "i", "o", "u"):
         return "", val
     consonant = val[0]

@@ -31,12 +31,12 @@ VOWEL_COLUMNS = ["a", "e", "i", "o", "u"]
 
 
 def vowel_of(val: str) -> str:
-    v = val.strip().lower()
-    if len(v) == 1:
-        return v
-    if len(v) == 2:
-        return v[1] if v[1] in "aeiou" else v[0]
-    return v[-1] if v[-1] in "aeiou" else "?"
+    """Vowel of a phonetic value (delegates to pipeline/phonetics.py).
+
+    Previously a local copy that returned '?' for subscripted values.
+    """
+    from pipeline.phonetics import vowel_of as _canonical
+    return _canonical(val)
 
 
 def load_positional_profiles(path: str = "data/analysis/positional/positional_profiles.csv") -> Dict[str, Dict]:

@@ -53,38 +53,15 @@ __all__ = ["VentrisGridCompleter", "GridCompletion", "run_ventris_endgame"]
 CONSONANT_SERIES = ["VOWEL", "LABIAL", "DENTAL", "VELAR", "SIBILANT", "LIQUID", "PALATAL", "SEMIVOWEL"]
 VOWEL_COLUMNS = ["a", "e", "i", "o", "u"]
 
-# Consonant-to-series mapping for each phonetic value
-CONS_SERIES_MAP = {
-    # VOWEL only (no consonant onset)
-    "a": "VOWEL", "e": "VOWEL", "i": "VOWEL", "o": "VOWEL", "u": "VOWEL",
-    # LABIAL
-    "pa": "LABIAL", "pi": "LABIAL", "pu": "LABIAL",
-    "ma": "LABIAL", "me": "LABIAL", "mi": "LABIAL", "mo": "LABIAL", "mu": "LABIAL",
-    "wa": "SEMIVOWEL", "wi": "SEMIVOWEL", "wo": "SEMIVOWEL", "we": "SEMIVOWEL",
-    # DENTAL (stops + nasals + liquids)
-    "ta": "DENTAL", "te": "DENTAL", "ti": "DENTAL", "to": "DENTAL", "tu": "DENTAL",
-    "da": "DENTAL", "de": "DENTAL", "di": "DENTAL", "do": "DENTAL", "du": "DENTAL",
-    "na": "DENTAL", "ne": "DENTAL", "ni": "DENTAL", "nu": "DENTAL",
-    "ra": "LIQUID", "re": "LIQUID", "ri": "LIQUID", "ro": "LIQUID", "ru": "LIQUID",
-    "la": "LIQUID",
-    # SIBILANT
-    "sa": "SIBILANT", "se": "SIBILANT", "si": "SIBILANT", "so": "SIBILANT", "su": "SIBILANT",
-    "za": "SIBILANT", "ze": "SIBILANT", "zo": "SIBILANT",
-    # VELAR
-    "ka": "VELAR", "ke": "VELAR", "ki": "VELAR", "ko": "VELAR", "ku": "VELAR",
-    "qa": "VELAR", "qe": "VELAR", "qi": "VELAR",
-    # PALATAL
-    "ja": "PALATAL", "je": "PALATAL", "jo": "PALATAL", "ju": "PALATAL",
-}
+# Consonant-to-series mapping and vowel extraction now live in one place:
+# pipeline/phonetics.py. They had drifted — this file was missing 18 of the 74
+# Linear B values and returned '?' for every subscripted value (ra2/ro2/ta2/
+# pu2/a2/a3). Re-exported so existing importers keep working.
+from pipeline.phonetics import (  # noqa: F401  (re-export for compatibility)
+    CONS_SERIES_MAP,
+    vowel_of,
+)
 
-# Vowel extraction
-def vowel_of(val: str) -> str:
-    v = val.strip().lower()
-    if len(v) == 1:
-        return v
-    if len(v) == 2:
-        return v[1] if v[1] in "aeiou" else v[0]
-    return v[-1] if v[-1] in "aeiou" else "?"
 
 # All possible CV combinations
 ALL_CV_VALUES = [f"{c}{v}" for c in "ptkmnslrzwjdhqg" for v in "aeiou"]
@@ -136,9 +113,13 @@ class VentrisGridCompleter:
     def __init__(
         self,
         db_path: str = "data/database/lineara_full.db",
-        expanded_grid_path: str = "data/analysis/bootstrapping/expanded_grid.csv",
+        # AGENTS.md: use the purged grid (58 CONFIRMED + 11 UNCERTAIN = 69 real
+        # signs). The legacy expanded_grid.csv still carries the AB 86-137
+        # phantom rows ('lo' values) recorded as purged in Phase 11.
+        expanded_grid_path: str = "data/analysis/bootstrapping/expanded_grid_purged.csv",
         kober_triples_path: str = "data/analysis/kober/triple_patterns.csv",
         freq_constraints_path: str = "data/analysis/frequency_constraints/constrained_candidates.csv",
+        ab68_override: bool = True,
     ) -> None:
         # Database
         self.conn = sqlite3.connect(db_path)
@@ -163,8 +144,10 @@ class VentrisGridCompleter:
             else:
                 self.uncertain.append(bid)
 
-        # AB 68 override (resolved Phase 7)
-        if "AB 68" in self.uncertain:
+        # AB 68 override (resolved Phase 7) — disabled for non-Linear-A corpora:
+        # the value is a Linear A hypothesis and would corrupt a ground-truth
+        # answer key (LB *68 is ro2).
+        if ab68_override and "AB 68" in self.uncertain:
             self.uncertain.remove("AB 68")
             self.confirmed["AB 68"] = "ro"
 
@@ -198,19 +181,32 @@ class VentrisGridCompleter:
         self._load_inscriptions()
 
     def _load_kober(self, path: str) -> None:
-        """Extract C-link and V-link partners from Kober triples."""
+        """Extract C-link and V-link partners from Kober triples.
+
+        The triple file carries the actual Kober semantics (see
+        pipeline/kober/triple_detection.py:build_triples):
+
+            sign_1 ↔ sign_2  share a FOLLOWING sign  → consonant-candidate
+            sign_2 ↔ sign_3  share a PRECEDING sign  → vowel-candidate
+            sign_1 ↔ sign_3  share both              → both
+
+        Adding every pair to both graphs (the earlier behaviour) collapses the
+        C/V distinction that is the whole method, turning each constraint into
+        the same clique over dozens of partners — i.e. noise.
+        """
         try:
             with open(path, newline="", encoding="utf-8") as f:
                 reader = csv.DictReader(f)
                 for row in reader:
-                    s1, s2, s3 = row.get("sign_1", ""), row.get("sign_2", ""), row.get("sign_3", "")
-                    # C-linked: signs sharing same following sign → same consonant
-                    # In a triple, either s1-s2 or s1-s3 or s2-s3 is C-linked
-                    # We use all pairwise connections
-                    for a, b in [(s1, s2), (s1, s3), (s2, s3)]:
+                    s1 = row.get("sign_1", "")
+                    s2 = row.get("sign_2", "")
+                    s3 = row.get("sign_3", "")
+                    for a, b in ((s1, s2), (s1, s3)):
                         if a and b and a != b:
                             self.kober_clinks[a].add(b)
                             self.kober_clinks[b].add(a)
+                    for a, b in ((s2, s3), (s1, s3)):
+                        if a and b and a != b:
                             self.kober_vlinks[a].add(b)
                             self.kober_vlinks[b].add(a)
             logger.info("Kober links: %d signs with C-links, %d with V-links",
@@ -261,7 +257,8 @@ class VentrisGridCompleter:
             self.inscriptions[row["id"]].append(row["bennett_id"])
         logger.info("Loaded %d inscriptions", len(self.inscriptions))
 
-    def get_candidates(self, bid: str) -> List[str]:
+    def get_candidates(self, bid: str,
+                       confirmed: Optional[Dict[str, str]] = None) -> List[str]:
         """Return plausible phonetic values for an UNCERTAIN sign.
 
         Constraints applied:
@@ -269,15 +266,21 @@ class VentrisGridCompleter:
         2. Kober V-links → vowel column
         3. Frequency-typology → eliminates impossible frequencies
         4. Grid structure → only CV combinations that fit
+
+        ``confirmed`` is the anchor set used for every constraint. During the
+        oracle it must be the *effective* anchor set (hidden signs removed);
+        using ``self.confirmed`` here would leak a hidden sign's true value
+        through Kober partners and anchor words.
         """
         candidates: List[str] = []
+        anchors = self.confirmed if confirmed is None else confirmed
 
         # Step 1: Determine allowed consonant series
         allowed_series: Set[str] = set(CONSONANT_SERIES)
         clinks = self.kober_clinks.get(bid, set())
         clink_series: Counter = Counter()
         for partner in clinks:
-            if partner in self.confirmed:
+            if partner in anchors:
                 val = self.confirmed[partner]
                 series = CONS_SERIES_MAP.get(val, "")
                 if series and series != "VOWEL":
@@ -293,8 +296,8 @@ class VentrisGridCompleter:
         vlinks = self.kober_vlinks.get(bid, set())
         vlink_vowels: Counter = Counter()
         for partner in vlinks:
-            if partner in self.confirmed:
-                val = self.confirmed[partner]
+            if partner in anchors:
+                val = anchors[partner]
                 v = vowel_of(val)
                 if v != "?":
                     vlink_vowels[v] += 1
@@ -365,9 +368,9 @@ class VentrisGridCompleter:
         # confirmed anchor in the known word (pa-i-to, i-da). When the sign is
         # hidden in oracle mode (or genuinely uncertain), we don't know its
         # value, so the anchor must not constrain it — that would leak the
-        # answer. Gate on membership in self.confirmed.
+        # answer. Gate on membership in the effective anchor set.
         for word, bids in ANCHOR_WORDS:
-            if bid in bids and bid in self.confirmed:
+            if bid in bids and bid in anchors:
                 idx = bids.index(bid)
                 expected = word.split("-")[idx]
                 candidates = [v for v in candidates if v == expected]
@@ -558,7 +561,9 @@ class VentrisGridCompleter:
         Returns the final {bid: value} assignment.
         """
         score_kwargs = score_kwargs or {}
-        sign_candidates = {bid: self.get_candidates(bid) for bid in targets}
+        anchors = score_kwargs.get("confirmed_override") or self.confirmed
+        sign_candidates = {bid: self.get_candidates(bid, confirmed=anchors)
+                           for bid in targets}
         values: Dict[str, str] = {bid: cands[0] for bid, cands in sign_candidates.items()}
 
         ordered = sorted(targets, key=lambda b: len(sign_candidates[b]))
@@ -595,6 +600,7 @@ class VentrisGridCompleter:
 
         confirmed_bids = sorted(self.confirmed.keys())
         trial_recovered: List[int] = []
+        trial_chances: List[float] = []
         per_sign: Dict[str, List[bool]] = defaultdict(list)
 
         for t in range(trials):
@@ -608,6 +614,16 @@ class VentrisGridCompleter:
                 "sample_size": sample_size,
             }
             values = self._greedy_restore(targets, score_kwargs=kwargs, seed=t)
+
+            # Baseline for THIS trial must use the same candidate generator the
+            # search saw: effective (non-hidden) anchors. Computing it with the
+            # full self.confirmed inflates the per-sign chance rate, because
+            # hidden signs' own values tighten their own candidate lists.
+            trial_chance = [
+                1.0 / max(len(self.get_candidates(b, confirmed=eff_confirmed)), 1)
+                for b in targets
+            ]
+            trial_chances.append(sum(trial_chance) / max(len(trial_chance), 1))
 
             recovered = 0
             for bid in targets:
@@ -626,9 +642,9 @@ class VentrisGridCompleter:
         total_hidden = trials * len(targets) if trials else 0
         recovery_rate = recovered / max(total_hidden, 1)
 
-        # Random baseline: per sign, 1/len(candidates) chance of guessing right
-        chance_per_sign = [1.0 / max(len(self.get_candidates(b)), 1) for b in confirmed_bids]
-        chance_rate = sum(chance_per_sign) / max(len(chance_per_sign), 1)
+        # Random baseline: mean per-sign chance, averaged over trials, using the
+        # effective anchor set (see the per-trial comment above).
+        chance_rate = (sum(trial_chances) / len(trial_chances)) if trial_chances else 0.0
 
         # Per-sign stability
         per_sign_rates = {
@@ -891,7 +907,7 @@ class VentrisGridCompleter:
 
 def run_ventris_endgame(
     db_path: str = "data/database/lineara_full.db",
-    expanded_grid_path: str = "data/analysis/bootstrapping/expanded_grid.csv",
+    expanded_grid_path: str = "data/analysis/bootstrapping/expanded_grid_purged.csv",
     kober_triples_path: str = "data/analysis/kober/triple_patterns.csv",
     freq_constraints_path: str = "data/analysis/frequency_constraints/constrained_candidates.csv",
     output_dir: str = "data/analysis/ventris",

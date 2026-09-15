@@ -63,13 +63,14 @@ def coarse_of(val: str) -> int:
 # Vowel extraction from CV sign
 VOWEL_MAP = {"a": "a", "i": "i", "o": "o", "u": "u", "e": "e"}
 def vowel_of(val: str) -> str:
-    """Extract vowel from CV value, or return the value if monophthong."""
-    v = val.strip().lower()
-    if len(v) == 1 and v in VOWEL_MAP:
-        return v
-    if len(v) == 2:
-        return v[1] if v[1] in VOWEL_MAP else v[0]
-    return v[-1] if v[-1] in VOWEL_MAP else "?"
+    """Extract vowel from CV value, or return the value if monophthong.
+
+    Delegates to pipeline/phonetics.py. This file used to carry its own copy
+    which, like complete.py's, returned '?' for every subscripted value
+    (ra2/ro2/ta2/pu2/a2/a3) — see oracle_repair_report.md.
+    """
+    from pipeline.phonetics import vowel_of as _canonical
+    return _canonical(val)
 
 
 # ── data structures ─────────────────────────────────────────────────────

@@ -128,7 +128,12 @@ def load_kober_vlinks(path: str = "data/analysis/kober/triple_patterns.csv") -> 
             for row in csv.DictReader(f):
                 s1, s2, s3 = (row.get("sign_1", ""), row.get("sign_2", ""),
                               row.get("sign_3", ""))
-                for a, b in [(s1, s2), (s1, s3), (s2, s3)]:
+                # Kober semantics: sign_2↔sign_3 and sign_1↔sign_3 share a
+                # PRECEDING sign (vowel-candidate); sign_1↔sign_2 shares a
+                # FOLLOWING sign (consonant-candidate). Adding all three pairs
+                # here (the earlier behaviour) collapsed the C/V distinction
+                # that is the method.
+                for a, b in [(s2, s3), (s1, s3)]:
                     if a and b and a != b:
                         vlinks[a].add(b)
                         vlinks[b].add(a)
