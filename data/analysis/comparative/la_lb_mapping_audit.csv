@@ -1,0 +1,8 @@
+bennett_id,lb_value,la_hyp_value,issue
+AB 18,zo,zo,UNVERIFIABLE: asserts 'zo'; no Unicode sign for B018
+AB 19,zo?,zo?,UNVERIFIABLE: asserts 'zo'; no Unicode sign for B019
+AB 22,pi,pi,UNVERIFIABLE: asserts 'pi'; no Unicode sign for B022
+AB 34,pa2?,pa2?,UNVERIFIABLE: asserts 'pa2'; no Unicode sign for B034
+AB 35,ti,ti,UNVERIFIABLE: asserts 'ti'; no Unicode sign for B035
+AB 64,swi?,swi?,UNVERIFIABLE: asserts 'swi'; no Unicode sign for B064
+AB 79,zo?,zo?,UNVERIFIABLE: asserts 'zo'; no Unicode sign for B079

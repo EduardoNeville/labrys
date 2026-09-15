@@ -1,105 +1,105 @@
 bennett_id,conventional_value,lb_proposed_value,cm_suggested_value,refined_value,decision,confidence_score,lb_composite_score,cm_triangular_confidence,grid_confidence_score,positional_anomaly_rank,positional_flags,ngram_disruption_score,ngram_rank,phase2_misvalued_flag,phase2_revaluation_supported,conflict_note,evidence_summary
-AB 01,da,da,ta,da,UNCERTAIN,73.5,82.8,HIGH,65.0,27,,0.447,3,YES,,HIGH CM=/ta/ vs LB=/da/ — genuine conflict,LB=83; CM=HIGH; GC=65; Pos#27; Ng#3
-AB 02,ro,ro,,ro,UNCERTAIN,42.8,76.2,,45.0,6,ANOMALOUS: CV sign in final position,0.375,17,YES,,Conflict: LB=/ro/; GC=/i/,LB=76; GC=45; Pos#6; Ng#17
+AB 01,da,da,ta,da,UNCERTAIN,75.0,82.8,HIGH,70.0,26,,0.447,3,YES,,HIGH CM=/ta/ vs LB=/da/ — genuine conflict,LB=83; CM=HIGH; GC=70; Pos#26; Ng#3
+AB 02,ro,ro,,ro,UNCERTAIN,42.8,76.2,,45.0,3,ANOMALOUS: CV sign in final position,0.375,17,YES,,Conflict: LB=/ro/; GC=/i/,LB=76; GC=45; Pos#3; Ng#17
 AB 03,pa,pa,pa,pa,CONFIRM,74.5,79.8,HIGH,61.0,21,,0.412,9,YES,,,LB=80; CM=HIGH; GC=61; Pos#21; Ng#9
-AB 04,te,te,te,te,CONFIRM,57.6,70.5,HIGH,28.0,32,,0.445,4,YES,,Conflict: LB=/te/; CM=/te/; GC=/i/,LB=70; CM=HIGH; GC=28; Pos#32; Ng#4
-AB 05,to,to,to,to,CONFIRM,65.5,73.8,HIGH,35.0,18,,0.138,39,,,Conflict: LB=/to/; CM=/to/; GC=/i/,LB=74; CM=HIGH; GC=35; Pos#18; Ng#39
-AB 06,na,na,na,na,CONFIRM,65.6,75.2,HIGH,43.0,13,,0.429,7,YES,,Conflict: LB=/na/; CM=/na/; GC=/pa/,LB=75; CM=HIGH; GC=43; Pos#13; Ng#7
+AB 04,te,te,te,te,CONFIRM,57.6,70.5,HIGH,28.0,10,,0.445,4,YES,,Conflict: LB=/te/; CM=/te/; GC=/i/,LB=70; CM=HIGH; GC=28; Pos#10; Ng#4
+AB 05,to,to,to,to,CONFIRM,64.6,73.8,HIGH,32.0,13,,0.138,39,,,Conflict: LB=/to/; CM=/to/; GC=/i/,LB=74; CM=HIGH; GC=32; Pos#13; Ng#39
+AB 06,na,na,na,na,CONFIRM,65.6,75.2,HIGH,43.0,9,,0.429,7,YES,,Conflict: LB=/na/; CM=/na/; GC=/pa/,LB=75; CM=HIGH; GC=43; Pos#9; Ng#7
 AB 07,di,di,ti,di,UNCERTAIN,69.2,76.2,HIGH,55.0,20,,0.432,6,YES,,HIGH CM=/ti/ vs LB=/di/ — genuine conflict,LB=76; CM=HIGH; GC=55; Pos#20; Ng#6
-AB 08,a,a,a,a,CONFIRM,65.1,75.0,HIGH,32.0,19,,0.339,20,,,Conflict: LB=/a/; CM=/a/; GC=/i/,LB=75; CM=HIGH; GC=32; Pos#19; Ng#20
-AB 09,se,se,se,se,CONFIRM,68.3,75.5,HIGH,42.0,24,,0.364,19,,,Conflict: LB=/se/; CM=/se/; GC=/i/,LB=76; CM=HIGH; GC=42; Pos#24; Ng#19
-AB 10,u,u,u,u,CONFIRM,67.3,76.0,HIGH,38.0,35,,0.23,31,,,Conflict: LB=/u/; CM=/u/; GC=/pa/,LB=76; CM=HIGH; GC=38; Pos#35; Ng#31
-AB 11,si,si,si,si,CONFIRM,73.7,77.8,HIGH,57.0,10,,0.217,32,,,Conflict: LB=/si/; CM=/si/; GC=/pa/,LB=78; CM=HIGH; GC=57; Pos#10; Ng#32
-AB 12,so,so,so,so,CONFIRM,65.3,72.5,HIGH,36.0,22,,0.212,35,,,Conflict: LB=/so/; CM=/so/; GC=/pa/,LB=72; CM=HIGH; GC=36; Pos#22; Ng#35
-AB 13,me,me,me,me,CONFIRM,57.5,74.0,MEDIUM,38.0,29,,0.214,34,,,Conflict: LB=/me/; CM=/me/; GC=/i/,LB=74; CM=MEDIUM; GC=38; Pos#29; Ng#34
-AB 14,do,do,to,do,UNCERTAIN,61.9,74.5,MEDIUM,52.0,17,,0.236,30,,,Conflict: LB=/do/; CM=/to/; GC=/i/,LB=74; CM=MEDIUM; GC=52; Pos#17; Ng#30
+AB 08,a,a,a,a,CONFIRM,65.1,75.0,HIGH,32.0,16,,0.339,20,,,Conflict: LB=/a/; CM=/a/; GC=/i/,LB=75; CM=HIGH; GC=32; Pos#16; Ng#20
+AB 09,se,se,se,se,CONFIRM,68.3,75.5,HIGH,42.0,18,,0.364,19,,,Conflict: LB=/se/; CM=/se/; GC=/i/,LB=76; CM=HIGH; GC=42; Pos#18; Ng#19
+AB 10,u,u,u,u,CONFIRM,67.3,76.0,HIGH,38.0,11,,0.23,31,,,Conflict: LB=/u/; CM=/u/; GC=/pa/,LB=76; CM=HIGH; GC=38; Pos#11; Ng#31
+AB 11,si,po,si,po,UNCERTAIN,80.9,77.8,HIGH,,7,,0.217,32,,,HIGH CM=/si/ vs LB=/po/ — genuine conflict,LB=78; CM=HIGH; Pos#7; Ng#32
+AB 12,so,so,so,so,CONFIRM,77.9,72.5,HIGH,,,,0.212,35,,,,LB=72; CM=HIGH; Ng#35
+AB 13,me,me,me,me,CONFIRM,63.2,74.0,MEDIUM,57.0,19,,0.214,34,,,Conflict: LB=/me/; CM=/me/; GC=/pa/,LB=74; CM=MEDIUM; GC=57; Pos#19; Ng#34
+AB 14,do,do,to,do,UNCERTAIN,66.1,74.5,MEDIUM,,,,0.236,30,,,Conflict: LB=/do/; CM=/to/,LB=74; CM=MEDIUM; Ng#30
 AB 15,mo,mo,mo,mo,CONFIRM,59.3,62.5,MEDIUM,,,,0.306,24,,,,LB=62; CM=MEDIUM; Ng#24
-AB 16,qa,qa,ka,qa,UNCERTAIN,48.1,68.0,MEDIUM,,1,initial-biased; prefix-like CV sign,0.408,11,YES,,Conflict: LB=/qa/; CM=/ka/,LB=68; CM=MEDIUM; Pos#1; Ng#11
-AB 17,za,za,za,za,CONFIRM,78.1,73.0,HIGH,,31,,0.104,43,,,,LB=73; CM=HIGH; Pos#31; Ng#43
-AB 18,zo,zo,zo,zo,CONFIRM,61.6,66.5,MEDIUM,,34,,0.308,23,,,,LB=66; CM=MEDIUM; Pos#34; Ng#23
+AB 16,qa,qa,ka,qa,UNCERTAIN,54.3,68.0,MEDIUM,38.0,31,,0.408,11,YES,,Conflict: LB=/qa/; CM=/ka/; GC=/i/,LB=68; CM=MEDIUM; GC=38; Pos#31; Ng#11
+AB 17,za,za,za,za,CONFIRM,70.3,73.0,HIGH,52.0,12,,0.104,43,,,Conflict: LB=/za/; CM=/za/; GC=/i/,LB=73; CM=HIGH; GC=52; Pos#12; Ng#43
+AB 18,zo,zo,zo,zo,CONFIRM,61.6,66.5,MEDIUM,,,,0.308,23,,,,LB=66; CM=MEDIUM; Ng#23
 AB 19,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
 AB 20,zo?,,,zo?,UNCERTAIN,0.0,,,,,,,,,,Insufficient comparative evidence; retaining conventional value,no evidence
-AB 21,mi,mi,mi,mi,CONFIRM,60.4,64.5,MEDIUM,,,,0.325,21,,,,LB=64; CM=MEDIUM; Ng#21
+AB 21,mi,qi,mi,qi,UNCERTAIN,44.7,64.5,MEDIUM,,1,initial-biased; prefix-like CV sign,0.325,21,,,Conflict: LB=/qi/; CM=/mi/,LB=64; CM=MEDIUM; Pos#1; Ng#21
 AB 21F,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
-AB 22,pi,pi,pi,pi,CONFIRM,54.7,68.0,HIGH,,4,final-biased; ANOMALOUS: CV sign in final position,0.406,14,YES,,,LB=68; CM=HIGH; Pos#4; Ng#14
-AB 22F,?,,,pa,CONFIRM,57.0,,,57.0,,,,,,,,GC=57
-AB 23,mu,mu,ma,mu,UNCERTAIN,61.5,69.0,HIGH,28.0,16,,0.372,18,,,HIGH CM=/ma/ vs LB=/mu/ — genuine conflict,LB=69; CM=HIGH; GC=28; Pos#16; Ng#18
-AB 24,ne,ne,ne,ne,CONFIRM,71.3,77.5,HIGH,52.0,28,,0.408,13,YES,,Conflict: LB=/ne/; CM=/ne/; GC=/pa/,LB=78; CM=HIGH; GC=52; Pos#28; Ng#13
-AB 26,ru,ru,ru,ru,CONFIRM,72.2,78.0,HIGH,58.0,38,,0.419,8,YES,,Conflict: LB=/ru/; CM=/ru/; GC=/i/,LB=78; CM=HIGH; GC=58; Pos#38; Ng#8
-AB 27,re,re,re,re,CONFIRM,64.9,65.0,HIGH,,9,,0.487,2,YES,,,LB=65; CM=HIGH; Pos#9; Ng#2
-AB 28,i,i,i,i,CONFIRM,78.7,74.0,HIGH,,39,,0.255,29,,,,LB=74; CM=HIGH; Pos#39; Ng#29
-AB 29,pu,pu,,pu,UNCERTAIN,63.2,75.0,,50.0,37,,0.411,10,YES,,Conflict: LB=/pu/; GC=/i/,LB=75; GC=50; Pos#37; Ng#10
-AB 30,ni,ni,ni,ni,CONFIRM,62.7,70.5,HIGH,30.0,11,,0.305,25,,,Conflict: LB=/ni/; CM=/ni/; GC=/i/,LB=70; CM=HIGH; GC=30; Pos#11; Ng#25
-AB 31,sa,sa,sa,sa,CONFIRM,75.3,68.0,HIGH,,8,,0.217,33,,,,LB=68; CM=HIGH; Pos#8; Ng#33
-AB 32,?,,,i,CONFIRM,67.0,,,67.0,,,,,,,,GC=67
-AB 33,?,,,pa,CONFIRM,57.0,,,57.0,,,,,,,,GC=57
+AB 22,pi,pi,pi,pi,CONFIRM,54.7,68.0,HIGH,,2,ANOMALOUS: CV sign in final position,0.406,14,YES,,,LB=68; CM=HIGH; Pos#2; Ng#14
+AB 22F,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 23,mu,mu,ma,mu,UNCERTAIN,75.9,69.0,HIGH,,33,,0.372,18,,,HIGH CM=/ma/ vs LB=/mu/ — genuine conflict,LB=69; CM=HIGH; Pos#33; Ng#18
+AB 24,ne,ne,ne,ne,CONFIRM,71.3,77.5,HIGH,52.0,27,,0.408,13,YES,,Conflict: LB=/ne/; CM=/ne/; GC=/pa/,LB=78; CM=HIGH; GC=52; Pos#27; Ng#13
+AB 26,ru,ru,ru,ru,CONFIRM,63.2,78.0,HIGH,28.0,14,,0.419,8,YES,,Conflict: LB=/ru/; CM=/ru/; GC=/i/,LB=78; CM=HIGH; GC=28; Pos#14; Ng#8
+AB 27,re,re,re,re,CONFIRM,58.4,65.0,HIGH,52.0,30,,0.487,2,YES,,Conflict: LB=/re/; CM=/re/; GC=/pa/,LB=65; CM=HIGH; GC=52; Pos#30; Ng#2
+AB 28,i,i,i,i,CONFIRM,77.0,74.0,HIGH,73.0,36,,0.255,29,,,,LB=74; CM=HIGH; GC=73; Pos#36; Ng#29
+AB 29,pu,pu2,,pu2,REVISE,73.9,75.0,,,34,,0.411,10,YES,YES,Single source LB suggests /pu2/ vs conventional /pu/,LB=75; Pos#34; Ng#10
+AB 30,ni,ni,ni,ni,CONFIRM,68.7,70.5,HIGH,50.0,25,,0.305,25,,,Conflict: LB=/ni/; CM=/ni/; GC=/i/,LB=70; CM=HIGH; GC=50; Pos#25; Ng#25
+AB 31,sa,sa,sa,sa,CONFIRM,61.7,68.0,HIGH,30.0,8,,0.217,33,,,Conflict: LB=/sa/; CM=/sa/; GC=/pa/,LB=68; CM=HIGH; GC=30; Pos#8; Ng#33
+AB 32,?,qo,,qo,UNCERTAIN,79.8,79.8,,,,,,,,,Single source LB proposes /qo/; awaiting corroboration,LB=80
+AB 33,?,ra3,,ra3,UNCERTAIN,74.2,74.2,,,,,,,,,Single source LB proposes /ra3/; awaiting corroboration,LB=74
 AB 34,ti,,ti,ti,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
-AB 35,ti,ti,ti,ti,CONFIRM,54.7,77.0,LOW,,30,,0.115,40,,,,LB=77; CM=LOW; Pos#30; Ng#40
-AB 36,jo,jo,za,jo,UNCERTAIN,59.0,67.2,HIGH,35.0,14,,0.439,5,YES,,HIGH CM=/za/ vs LB=/jo/ — genuine conflict,LB=67; CM=HIGH; GC=35; Pos#14; Ng#5
-AB 37,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
-AB 38,e,e,pa,e,UNCERTAIN,73.5,81.0,HIGH,52.0,26,,0.166,38,,,HIGH CM=/pa/ vs LB=/e/ — genuine conflict,LB=81; CM=HIGH; GC=52; Pos#26; Ng#38
-AB 39,?,,pe,pe,UNCERTAIN,41.0,,LOW,57.0,,,,,,,Conflict: CM=/pe/; GC=/i/,CM=LOW; GC=57
-AB 40,wi,wi,wi,wi,CONFIRM,76.4,70.0,HIGH,,36,,0.177,37,,,,LB=70; CM=HIGH; Pos#36; Ng#37
-AB 41,?,,si,si,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 42,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
-AB 43,?,,,pa,CONFIRM,57.0,,,57.0,,,,,,,,GC=57
-AB 44,ke,,ke,ke,CONFIRM,85.0,,HIGH,,,,,,,,,CM=HIGH
-AB 45,ri,,de,de,UNCERTAIN,45.0,,LOW,65.0,,,,,,,Conflict: CM=/de/; GC=/ri/,CM=LOW; GC=65
-AB 46,?,,je,je,UNCERTAIN,33.5,,LOW,42.0,,,,,,,Conflict: CM=/je/; GC=/to/,CM=LOW; GC=42
-AB 47,nu,,ja,ja,UNCERTAIN,35.5,,LOW,46.0,,,,,,,Conflict: CM=/ja/; GC=/pa/,CM=LOW; GC=46
-AB 48,?,,wa,wa,UNCERTAIN,64.0,,HIGH,43.0,,,,,,,Conflict: CM=/wa/; GC=/pa/,CM=HIGH; GC=43
-AB 49,?,,we,we,UNCERTAIN,62.0,,HIGH,39.0,,,,,,,Conflict: CM=/we/; GC=/i/,CM=HIGH; GC=39
-AB 50,pu,,pu,pu,UNCERTAIN,71.0,,HIGH,57.0,,,,,,,Conflict: CM=/pu/; GC=/su/,CM=HIGH; GC=57
-AB 51,du,,du,du,UNCERTAIN,53.0,,MEDIUM,51.0,,,,,,,Conflict: CM=/du/; GC=/i/,CM=MEDIUM; GC=51
-AB 52,?,,no,no,UNCERTAIN,62.0,,HIGH,39.0,,,,,,,Conflict: CM=/no/; GC=/i/,CM=HIGH; GC=39
-AB 53,ri,ri,ri,ri,CONFIRM,58.7,74.0,HIGH,,7,ANOMALOUS: CV sign in final position,0.109,42,YES,,,LB=74; CM=HIGH; Pos#7; Ng#42
-AB 54,wa,wa,wa,wa,CONFIRM,50.7,70.0,LOW,,15,,0.313,22,,,,LB=70; CM=LOW; Pos#15; Ng#22
-AB 55,nu,nu,nu,nu,CONFIRM,78.1,73.0,HIGH,,12,,0.114,41,,,,LB=73; CM=HIGH; Pos#12; Ng#41
-AB 56,?,,pa,pa,UNCERTAIN,35.0,,LOW,45.0,,,,,,,Conflict: CM=/pa/; GC=/ki/,CM=LOW; GC=45
-AB 57,ja,ja,ja,ja,CONFIRM,47.0,72.5,LOW,36.0,25,,0.403,15,YES,,Conflict: LB=/ja/; CM=/ja/; GC=/pa/,LB=72; CM=LOW; GC=36; Pos#25; Ng#15
-AB 58,?,,su,su,UNCERTAIN,56.0,,MEDIUM,57.0,,,,,,,Conflict: CM=/su/; GC=/pa/,CM=MEDIUM; GC=57
-AB 59,?,,ta,ta,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 60,ra,ra,ma,ra,UNCERTAIN,57.9,72.5,HIGH,,2,final-biased; ANOMALOUS: CV sign in final position; prefix-like CV sign,0.4,16,YES,,HIGH CM=/ma/ vs LB=/ra/ — genuine conflict,LB=72; CM=HIGH; Pos#2; Ng#16
-AB 61,o,,o,o,CONFIRM,85.0,,HIGH,,,,,,,,,CM=HIGH
-AB 62,?,,,ta,UNCERTAIN,39.0,,,39.0,,,,,,,Low confidence (39/100) — insufficient for assignment,GC=39
-AB 63,?,,ke,ke,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
-AB 64,?,,o,o,UNCERTAIN,41.0,,LOW,57.0,,,,,,,Conflict: CM=/o/; GC=/i/,CM=LOW; GC=57
-AB 65,ju,,jo,jo,UNCERTAIN,47.5,,LOW,70.0,,,,,,,Conflict: CM=/jo/; GC=/i/,CM=LOW; GC=70
-AB 66,?,,ta,ta,UNCERTAIN,29.5,,LOW,34.0,,,,,,,Conflict: CM=/ta/; GC=/i/,CM=LOW; GC=34
-AB 67,ki,ki,ki,ki,CONFIRM,73.3,66.0,HIGH,,5,,0.408,12,YES,,,LB=66; CM=HIGH; Pos#5; Ng#12
-AB 68,ro₂,,ro,ro,UNCERTAIN,41.0,,LOW,57.0,,,,,,,Conflict: CM=/ro/; GC=/pa/,CM=LOW; GC=57
-AB 69,tu,tu,tu,tu,CONFIRM,65.9,74.0,MEDIUM,,33,,0.191,36,,,,LB=74; CM=MEDIUM; Pos#33; Ng#36
-AB 70,ko,,ko,ko,CONFIRM,85.0,,HIGH,,,,,,,,,CM=HIGH
-AB 71,?,,ke,ke,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 72,?,,pe,pe,UNCERTAIN,56.0,,MEDIUM,57.0,,,,,,,Conflict: CM=/pe/; GC=/pa/,CM=MEDIUM; GC=57
-AB 73,?,,mi,mi,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 74,?,,ze,ze,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
-AB 75,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
-AB 76,?,,pi,pi,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
-AB 77,ka,ka,ka,ka,CONFIRM,77.6,72.0,HIGH,,23,,0.284,28,,,,LB=72; CM=HIGH; Pos#23; Ng#28
-AB 78,qe,qe,ka,qe,UNCERTAIN,47.0,63.5,LOW,,,,0.302,26,,,Conflict: LB=/qe/; CM=/ka/,LB=64; CM=LOW; Ng#26
-AB 79,?,,ze,ze,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 80,ma,ma,pa,ma,UNCERTAIN,34.1,76.0,LOW,,3,ANOMALOUS: CV sign in final position; prefix-like CV sign,0.296,27,YES,,Conflict: LB=/ma/; CM=/pa/,LB=76; CM=LOW; Pos#3; Ng#27
-AB 81,ku,ku,ku,ku,CONFIRM,53.9,62.5,HIGH,,,,0.583,1,YES,,,LB=62; CM=HIGH; Ng#1
-AB 82,?,,o,o,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 83,?,,la,la,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
+AB 35,ti,ti,ti,ti,CONFIRM,54.7,77.0,LOW,,,,0.115,40,,,,LB=77; CM=LOW; Ng#40
+AB 36,jo,jo,za,jo,UNCERTAIN,71.0,67.2,HIGH,,,,0.439,5,YES,,HIGH CM=/za/ vs LB=/jo/ — genuine conflict,LB=67; CM=HIGH; Ng#5
+AB 37,?,ti,,ti,UNCERTAIN,68.4,69.5,,67.0,,,,,,,Conflict: LB=/ti/; GC=/i/,LB=70; GC=67
+AB 38,e,e,pa,pa,UNCERTAIN,73.5,81.0,HIGH,52.0,15,,0.166,38,,,HIGH CM=/pa/ vs LB=/e/ — genuine conflict,LB=81; CM=HIGH; GC=52; Pos#15; Ng#38
+AB 39,?,,pe,pe,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /pe/; awaiting corroboration,CM=LOW
+AB 40,wi,wi,wi,wi,CONFIRM,76.4,70.0,HIGH,,29,,0.177,37,,,,LB=70; CM=HIGH; Pos#29; Ng#37
+AB 41,?,,si,si,UNCERTAIN,32.5,,LOW,40.0,,,,,,,Conflict: CM=/si/; GC=/i/,CM=LOW; GC=40
+AB 42,?,wo,,wo,UNCERTAIN,61.5,61.5,,,,,,,,,Single source LB proposes /wo/; awaiting corroboration,LB=62
+AB 43,?,a3,,a3,UNCERTAIN,74.2,74.2,,,,,,,,,Single source LB proposes /a3/; awaiting corroboration,LB=74
+AB 44,ke,ke,ke,ke,CONFIRM,75.0,67.5,HIGH,,,,,,,,,LB=68; CM=HIGH
+AB 45,ri,,de,de,UNCERTAIN,38.5,,LOW,52.0,,,,,,,Conflict: CM=/de/; GC=/i/,CM=LOW; GC=52
+AB 46,?,,je,je,UNCERTAIN,38.5,,LOW,52.0,,,,,,,Conflict: CM=/je/; GC=/i/,CM=LOW; GC=52
+AB 47,nu,,ja,ja,REVISE,25.0,,LOW,,,,,,,,Single source CM suggests /ja/ vs conventional /nu/,CM=LOW
+AB 48,?,,wa,wa,UNCERTAIN,85.0,,HIGH,,,,,,,,Single source CM proposes /wa/; awaiting corroboration,CM=HIGH
+AB 49,?,,we,we,UNCERTAIN,85.0,,HIGH,,,,,,,,Single source CM proposes /we/; awaiting corroboration,CM=HIGH
+AB 50,pu,,pu,pu,UNCERTAIN,68.5,,HIGH,52.0,,,,,,,Conflict: CM=/pu/; GC=/pa/,CM=HIGH; GC=52
+AB 51,du,,du,du,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
+AB 52,?,no,no,no,CONFIRM,76.9,70.8,HIGH,,,,,,,,2 sources agree on /no/,LB=71; CM=HIGH
+AB 53,ri,ri,ri,ri,CONFIRM,74.6,74.0,HIGH,65.0,6,,0.109,42,,,,LB=74; CM=HIGH; GC=65; Pos#6; Ng#42
+AB 54,wa,wa,wa,wa,CONFIRM,48.1,70.0,LOW,42.0,32,,0.313,22,,,Conflict: LB=/wa/; CM=/wa/; GC=/to/,LB=70; CM=LOW; GC=42; Pos#32; Ng#22
+AB 55,nu,nu,nu,nu,CONFIRM,68.5,73.0,HIGH,46.0,23,,0.114,41,,,Conflict: LB=/nu/; CM=/nu/; GC=/pa/,LB=73; CM=HIGH; GC=46; Pos#23; Ng#41
+AB 56,?,,pa,pa,CONFIRM,34.0,,LOW,43.0,,,,,,,2 sources agree on /pa/,CM=LOW; GC=43
+AB 57,ja,ja,ja,ja,CONFIRM,52.4,72.5,LOW,54.0,37,,0.403,15,YES,,Conflict: LB=/ja/; CM=/ja/; GC=/i/,LB=72; CM=LOW; GC=54; Pos#37; Ng#15
+AB 58,?,su,su,su,CONFIRM,63.6,71.2,MEDIUM,62.0,,,,,,,3 sources agree on /su/,LB=71; CM=MEDIUM; GC=62
+AB 59,?,ta,ta,ta,CONFIRM,50.6,69.5,LOW,51.0,,,,,,,Conflict: LB=/ta/; CM=/ta/; GC=/i/,LB=70; CM=LOW; GC=51
+AB 60,ra,ra,ma,ra,UNCERTAIN,66.2,72.5,HIGH,39.0,22,,0.4,16,,,HIGH CM=/ma/ vs LB=/ra/ — genuine conflict,LB=72; CM=HIGH; GC=39; Pos#22; Ng#16
+AB 61,o,o,o,o,CONFIRM,76.1,69.5,HIGH,,,,,,,,,LB=70; CM=HIGH
+AB 62,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
+AB 63,?,,ke,ke,UNCERTAIN,55.0,,MEDIUM,,,,,,,,Single source CM proposes /ke/; awaiting corroboration,CM=MEDIUM
+AB 64,?,,o,o,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /o/; awaiting corroboration,CM=LOW
+AB 65,ju,,jo,jo,REVISE,25.0,,LOW,,,,,,,,Single source CM suggests /jo/ vs conventional /ju/,CM=LOW
+AB 66,?,ta2,ta,ta2,UNCERTAIN,49.3,67.5,LOW,,,,,,,,Conflict: LB=/ta2/; CM=/ta/,LB=68; CM=LOW
+AB 67,ki,ki,ki,ki,CONFIRM,67.6,66.0,HIGH,55.0,28,,0.408,12,YES,,,LB=66; CM=HIGH; GC=55; Pos#28; Ng#12
+AB 68,ro₂,,ro,ro,REVISE,25.0,,LOW,,,,,,,,Single source CM suggests /ro/ vs conventional /ro₂/,CM=LOW
+AB 69,tu,tu,tu,tu,CONFIRM,56.9,74.0,MEDIUM,36.0,24,,0.191,36,,,Conflict: LB=/tu/; CM=/tu/; GC=/pa/,LB=74; CM=MEDIUM; GC=36; Pos#24; Ng#36
+AB 70,ko,,ko,ko,UNCERTAIN,68.5,,HIGH,52.0,,,,,,,Conflict: CM=/ko/; GC=/pa/,CM=HIGH; GC=52
+AB 71,?,dwe,ke,dwe,UNCERTAIN,49.9,68.5,LOW,,,,,,,,Conflict: LB=/dwe/; CM=/ke/,LB=68; CM=LOW
+AB 72,?,pe,pe,pe,CONFIRM,64.1,76.2,MEDIUM,57.0,,,,,,,Conflict: LB=/pe/; CM=/pe/; GC=/pa/,LB=76; CM=MEDIUM; GC=57
+AB 73,?,mi,mi,mi,CONFIRM,50.4,69.5,LOW,,,,,,,,2 sources agree on /mi/,LB=70; CM=LOW
+AB 74,?,,ze,ze,UNCERTAIN,55.0,,MEDIUM,,,,,,,,Single source CM proposes /ze/; awaiting corroboration,CM=MEDIUM
+AB 75,?,we,,we,UNCERTAIN,69.5,69.5,,,,,,,,,Single source LB proposes /we/; awaiting corroboration,LB=70
+AB 76,?,,pi,pi,UNCERTAIN,55.0,,MEDIUM,,,,,,,,Single source CM proposes /pi/; awaiting corroboration,CM=MEDIUM
+AB 77,ka,ka,ka,ka,CONFIRM,66.0,72.0,HIGH,39.0,4,prefix-like CV sign,0.284,28,,,Conflict: LB=/ka/; CM=/ka/; GC=/ta/,LB=72; CM=HIGH; GC=39; Pos#4; Ng#28
+AB 78,qe,qe,ka,qe,UNCERTAIN,47.0,63.5,LOW,,35,,0.302,26,,,Conflict: LB=/qe/; CM=/ka/,LB=64; CM=LOW; Pos#35; Ng#26
+AB 79,?,,ze,ze,UNCERTAIN,41.0,,LOW,57.0,,,,,,,Conflict: CM=/ze/; GC=/i/,CM=LOW; GC=57
+AB 80,ma,ma,pa,ma,UNCERTAIN,58.0,76.0,LOW,67.0,17,,0.296,27,,,Conflict: LB=/ma/; CM=/pa/; GC=/i/,LB=76; CM=LOW; GC=67; Pos#17; Ng#27
+AB 81,ku,ku,ku,ku,CONFIRM,42.4,62.5,HIGH,34.0,5,,0.583,1,YES,,Conflict: LB=/ku/; CM=/ku/; GC=/i/,LB=62; CM=HIGH; GC=34; Pos#5; Ng#1
+AB 82,?,,o,o,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /o/; awaiting corroboration,CM=LOW
+AB 83,?,,la,la,UNCERTAIN,55.0,,MEDIUM,,,,,,,,Single source CM proposes /la/; awaiting corroboration,CM=MEDIUM
 AB 84,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
-AB 85,?,,au,au,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 86,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 87,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 88,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 89,?,,mi,mi,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 90,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 91,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 92,?,,je,je,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 93,?,,pi,pi,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 94,?,,re,re,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 95,?,,te,te,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 96,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 97,?,,o,o,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 98,?,,ke,ke,UNCERTAIN,41.0,,LOW,57.0,,,,,,,Conflict: CM=/ke/; GC=/tu/,CM=LOW; GC=57
-AB 99,?,,ma,ma,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
-AB 100,?,,to,to,UNCERTAIN,25.0,,LOW,,,,,,,,Low confidence (25/100) — insufficient for assignment,CM=LOW
+AB 85,?,au,au,au,CONFIRM,52.4,69.5,LOW,57.0,,,,,,,Conflict: LB=/au/; CM=/au/; GC=/pa/,LB=70; CM=LOW; GC=57
+AB 86,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /lo/; awaiting corroboration,CM=LOW
+AB 87,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /lo/; awaiting corroboration,CM=LOW
+AB 88,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /lo/; awaiting corroboration,CM=LOW
+AB 89,?,,mi,mi,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /mi/; awaiting corroboration,CM=LOW
+AB 90,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /lo/; awaiting corroboration,CM=LOW
+AB 91,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /lo/; awaiting corroboration,CM=LOW
+AB 92,?,,je,je,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /je/; awaiting corroboration,CM=LOW
+AB 93,?,,pi,pi,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /pi/; awaiting corroboration,CM=LOW
+AB 94,?,,re,re,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /re/; awaiting corroboration,CM=LOW
+AB 95,?,,te,te,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /te/; awaiting corroboration,CM=LOW
+AB 96,?,,lo,lo,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /lo/; awaiting corroboration,CM=LOW
+AB 97,?,,o,o,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /o/; awaiting corroboration,CM=LOW
+AB 98,?,,ke,ke,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /ke/; awaiting corroboration,CM=LOW
+AB 99,?,,ma,ma,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /ma/; awaiting corroboration,CM=LOW
+AB 100,?,,to,to,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /to/; awaiting corroboration,CM=LOW
 AB 101,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
 AB 102,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
 AB 103,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
@@ -111,7 +111,7 @@ AB 108,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
 AB 109,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
 AB 110,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
 AB 111,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
-AB 112,?,,,pa,CONFIRM,57.0,,,57.0,,,,,,,,GC=57
+AB 112,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
 AB 113,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
 AB 114,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
 AB 115,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence

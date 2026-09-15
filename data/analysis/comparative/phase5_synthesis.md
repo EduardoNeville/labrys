@@ -8,25 +8,29 @@ This report synthesises all comparative evidence from Phase 5 (Linear B transfer
 
 | Decision | Count | Percentage |
 |----------|-------|------------|
-| CONFIRM  | 44 | 31.9% |
-| REVISE   | 0 | 0.0% |
+| CONFIRM  | 40 | 29.0% |
+| REVISE   | 4 | 2.9% |
 | UNCERTAIN| 94 | 68.1% |
 
 **Confidence distribution:**
-- High (≥70): 17 signs
-- Medium (40-69): 51 signs
-- Low (<40): 70 signs
+- High (≥70): 21 signs
+- Medium (40-69): 49 signs
+- Low (<40): 68 signs
 
 ## Changes from Conventional AB Grid
 
-**4 signs** revised:
+**8 signs** revised:
 
 | Sign | Conventional | Refined | Confidence | Reason |
 |------|-------------|---------|------------|--------|
-| AB 45 | /ri/ | /de/ | 45.0 | Conflict: CM=/de/; GC=/ri/ |
-| AB 47 | /nu/ | /ja/ | 35.5 | Conflict: CM=/ja/; GC=/pa/ |
-| AB 65 | /ju/ | /jo/ | 47.5 | Conflict: CM=/jo/; GC=/i/ |
-| AB 68 | /ro₂/ | /ro/ | 41.0 | Conflict: CM=/ro/; GC=/pa/ |
+| AB 11 | /si/ | /po/ | 80.9 | HIGH CM=/si/ vs LB=/po/ — genuine conflict |
+| AB 21 | /mi/ | /qi/ | 44.7 | Conflict: LB=/qi/; CM=/mi/ |
+| AB 29 | /pu/ | /pu2/ | 73.9 | Single source LB suggests /pu2/ vs conventional /pu/ |
+| AB 38 | /e/ | /pa/ | 73.5 | HIGH CM=/pa/ vs LB=/e/ — genuine conflict |
+| AB 45 | /ri/ | /de/ | 38.5 | Conflict: CM=/de/; GC=/i/ |
+| AB 47 | /nu/ | /ja/ | 25.0 | Single source CM suggests /ja/ vs conventional /nu/ |
+| AB 65 | /ju/ | /jo/ | 25.0 | Single source CM suggests /jo/ vs conventional /ju/ |
+| AB 68 | /ro₂/ | /ro/ | 25.0 | Single source CM suggests /ro/ vs conventional /ro₂/ |
 
 ## Phase 2 Misvalued Signs — Resolution
 
@@ -36,10 +40,11 @@ This report synthesises all comparative evidence from Phase 5 (Linear B transfer
 - **Conventional AB value:** /qa/
 - **Refined value:** /qa/
 - **Decision:** UNCERTAIN
-- **Confidence:** 48.1/100
+- **Confidence:** 54.3/100
 - **LB composite:** 68.0
 - **CM:** MEDIUM (value: /ka/)
-- **Conflict note:** Conflict: LB=/qa/; CM=/ka/
+- **Grid confidence (Ph3):** 38.0
+- **Conflict note:** Conflict: LB=/qa/; CM=/ka/; GC=/i/
 
 **Detailed assessment:**
 
@@ -55,9 +60,10 @@ AB 16 (qa) was ranked #1 anomalous (60% initial, 40% final, 0% medial). CM evide
 - **Conventional AB value:** /ra/
 - **Refined value:** /ra/
 - **Decision:** UNCERTAIN
-- **Confidence:** 57.9/100
+- **Confidence:** 66.2/100
 - **LB composite:** 72.5
 - **CM:** HIGH (value: /ma/)
+- **Grid confidence (Ph3):** 39.0
 - **Conflict note:** HIGH CM=/ma/ vs LB=/ra/ — genuine conflict
 
 **Detailed assessment:**
@@ -74,10 +80,11 @@ AB 60 shows 50.5% final position — anomalous for CV. LB transfer is secure (co
 - **Conventional AB value:** /ma/
 - **Refined value:** /ma/
 - **Decision:** UNCERTAIN
-- **Confidence:** 34.1/100
+- **Confidence:** 58.0/100
 - **LB composite:** 76.0
 - **CM:** LOW (value: /pa/)
-- **Conflict note:** Conflict: LB=/ma/; CM=/pa/
+- **Grid confidence (Ph3):** 67.0
+- **Conflict note:** Conflict: LB=/ma/; CM=/pa/; GC=/i/
 
 **Detailed assessment:**
 
@@ -129,10 +136,12 @@ AB 02 is a complex case. Conventional value is /ro/, but toponym evidence sugges
 - **Phase 2 finding:** 47% initial/47% final, likely word divider
 - **Conventional AB value:** /?/
 - **Refined value:** /au/
-- **Decision:** UNCERTAIN
-- **Confidence:** 25.0/100
+- **Decision:** CONFIRM
+- **Confidence:** 52.4/100
+- **LB composite:** 69.5
 - **CM:** LOW (value: /au/)
-- **Conflict note:** Low confidence (25/100) — insufficient for assignment
+- **Grid confidence (Ph3):** 57.0
+- **Conflict note:** Conflict: LB=/au/; CM=/au/; GC=/pa/
 
 **Detailed assessment:**
 
@@ -150,12 +159,16 @@ Signs where LB and CM evidence genuinely disagree (both provide different confid
 |------|------|----|----|----------|
 | AB 01 | /da/ | /da/ | /ta/ | UNCERTAIN |
 | AB 07 | /di/ | /di/ | /ti/ | UNCERTAIN |
+| AB 11 | /si/ | /po/ | /si/ | UNCERTAIN |
 | AB 14 | /do/ | /do/ | /to/ | UNCERTAIN |
 | AB 16 | /qa/ | /qa/ | /ka/ | UNCERTAIN |
+| AB 21 | /mi/ | /qi/ | /mi/ | UNCERTAIN |
 | AB 23 | /mu/ | /mu/ | /ma/ | UNCERTAIN |
 | AB 36 | /jo/ | /jo/ | /za/ | UNCERTAIN |
 | AB 38 | /e/ | /e/ | /pa/ | UNCERTAIN |
 | AB 60 | /ra/ | /ra/ | /ma/ | UNCERTAIN |
+| AB 66 | /?/ | /ta2/ | /ta/ | UNCERTAIN |
+| AB 71 | /?/ | /dwe/ | /ke/ | UNCERTAIN |
 | AB 78 | /qe/ | /qe/ | /ka/ | UNCERTAIN |
 | AB 80 | /ma/ | /ma/ | /pa/ | UNCERTAIN |
 

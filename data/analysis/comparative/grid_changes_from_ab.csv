@@ -1,5 +1,9 @@
 bennett_id,conventional_value,refined_value,decision,confidence,reason
-AB 45,ri,de,UNCERTAIN,45.0,Conflict: CM=/de/; GC=/ri/
-AB 47,nu,ja,UNCERTAIN,35.5,Conflict: CM=/ja/; GC=/pa/
-AB 65,ju,jo,UNCERTAIN,47.5,Conflict: CM=/jo/; GC=/i/
-AB 68,ro₂,ro,UNCERTAIN,41.0,Conflict: CM=/ro/; GC=/pa/
+AB 11,si,po,UNCERTAIN,80.9,HIGH CM=/si/ vs LB=/po/ — genuine conflict
+AB 21,mi,qi,UNCERTAIN,44.7,Conflict: LB=/qi/; CM=/mi/
+AB 29,pu,pu2,REVISE,73.9,Single source LB suggests /pu2/ vs conventional /pu/
+AB 38,e,pa,UNCERTAIN,73.5,HIGH CM=/pa/ vs LB=/e/ — genuine conflict
+AB 45,ri,de,UNCERTAIN,38.5,Conflict: CM=/de/; GC=/i/
+AB 47,nu,ja,REVISE,25.0,Single source CM suggests /ja/ vs conventional /nu/
+AB 65,ju,jo,REVISE,25.0,Single source CM suggests /jo/ vs conventional /ju/
+AB 68,ro₂,ro,REVISE,25.0,Single source CM suggests /ro/ vs conventional /ro₂/

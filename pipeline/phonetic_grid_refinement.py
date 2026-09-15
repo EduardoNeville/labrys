@@ -467,9 +467,29 @@ def determine_decision(bid, ev, conv_val, confidence=0):
 
     if len(unique_vals) == 1:
         val = unique_vals.pop()
-        if val == conv_val or conv_val == "?":
-            decision = "CONFIRM"
+        if val == conv_val:
+            decision = "CONFIRM"       # agrees with a KNOWN conventional value
             best_guess = val
+        elif conv_val == "?":
+            # No conventional value to agree with. POLICY (see
+            # data/analysis/ventris/verification_audit.md P1/P2 and
+            # EXPERIMENT_PROTOCOL.md): a single source cannot CONFIRM a value
+            # that was previously unknown. LB transfer is a conjecture about a
+            # cognate, not corroboration, and granting CONFIRM on one source
+            # inflates the project's confirmed count without new evidence.
+            if len(value_sources) >= 2:
+                decision = "CONFIRM"
+                best_guess = val
+                conflict_note = (
+                    f"{len(value_sources)} sources agree on /{val}/"
+                )
+            else:
+                src = list(value_sources.keys())[0]
+                decision = "UNCERTAIN"
+                best_guess = val
+                conflict_note = (
+                    f"Single source {src} proposes /{val}/; awaiting corroboration"
+                )
         else:
             # All sources agree on a value different from conventional
             # Check if we have multiple independent sources confirming the new value
@@ -480,14 +500,14 @@ def determine_decision(bid, ev, conv_val, confidence=0):
                     f"Multiple sources agree on /{val}/ instead of /{conv_val}/"
                 )
             else:
-                # Single source but confident
+                # Single source proposing a change is a proposal, not a
+                # confirmation — same treatment whatever the source is.
                 src = list(value_sources.keys())[0]
-                decision = "CONFIRM" if src == "LB" else "REVISE"
+                decision = "REVISE"
                 best_guess = val
-                if src != "LB":
-                    conflict_note = (
-                        f"Single source {src} suggests /{val}/ vs conventional /{conv_val}/"
-                    )
+                conflict_note = (
+                    f"Single source {src} suggests /{val}/ vs conventional /{conv_val}/"
+                )
 
     else:
         # Multiple different values proposed — conflict
