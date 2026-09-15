@@ -129,7 +129,9 @@ Phonetic values are from Linear B transfer (NOT confirmed for Linear A). Phase 5
 ## Key Findings to Reuse
 
 ### Misvalued AB Signs (Phase 2 + Phase 5) 
-AB 16 (qa), AB 60 (ra vs ma conflict), AB 80 (ma), AB 22 (pi), AB 02 (ro/i dual), AB 85 (word divider) — see `data/analysis/comparative/misvalued_signs_resolution.csv`
+AB 16 (qa), AB 60 (ra vs ma conflict), AB 80 (ma), AB 22 (pi), AB 02 (ro/i dual) — see `data/analysis/comparative/misvalued_signs_resolution.csv`
+
+AB 85 was **removed** from this list in Phase 12: the 508-occurrence "never medial" profile that motivated it belongs to the logogram **A 301**, not to the syllabogram AB 85 (n=8, medial=0.75, i.e. medial-dominant). See `data/analysis/ventris/verification_audit.md` Phase 12 Addendum.
 
 ### Best Language Family Fit
 No family is distinguished. Phase 3 candidate ranking: Anatolian IE and Hurro-Urartian tie at #1 (score 8), Tyrsenian #3 (score 7) — ALL marked "INCONCLUSIVE (tentative)". Tyrsenian shows the best *structural* WALS profile in some readings but is lexically weak (0 exact Swadesh matches, p=1.0). No family confirmed; several weakly compatible.
@@ -138,7 +140,7 @@ No family is distinguished. Phase 3 candidate ranking: Anatolian IE and Hurro-Ur
 pa-i-to (Phaistos), i-da (Mt. Ida) — HIGH confidence. di-ka-ta (Dikte), su-ki-ri-ta (Sybrita) had exact matches. Verified: 95 Phaistos matches (dist=1), 20 Ida matches robust to the da/ta conflict.
 
 ### Phase 10-11 Verified Findings
-- **Oracle (10c)**: the grammatical scorer has NO signal (recovery 0.6× chance, 4 runs). No optimizer can help. See `pipeline/ventris/complete.py` `oracle_test()`.
+- **Oracle (10c)**: the grammatical scorer has NO signal — **recovery 0.00× chance (0/160)**. The earlier "0.6× chance" figure was leak-contaminated (anchor-word leak + a chance baseline computed from the full anchor set); both fixed in Phase 12. No optimizer can help. See `pipeline/ventris/complete.py` `oracle_test()` and `data/analysis/ventris/verification_audit.md` Phase 12.
 - **Corpus correction (11)**: 144 Unicode→Bennett mapping errors + 29 phantom codepoints fixed. The corpus is now correct (IOZa2 reads A-TA-I-*301-WA-JA per GORILA). See `data/analysis/ventris/corpus_correction.md`.
 - **Grid purge (11)**: the expanded grid has 69 real signs (58 CONFIRMED + 11 UNCERTAIN). 69 phantom entries removed — including AB 68 (the old "Phase 7 ro resolution", VOID) and all AB 100-137. Use `data/analysis/bootstrapping/expanded_grid_purged.csv`, NOT the old 138-sign grid.
 - **Libation formula (11)**: recovered on the corrected corpus — ja-sa-sa-ra-me (9 insns), u-na-ka-na-si (6), si-ru-te (7); di-ki-te-te at Palaikastro. Structurally real but phonetically inert (cannot yield new values). See `data/analysis/ventris/libation_recovered.md`.
