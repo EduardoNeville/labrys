@@ -1,0 +1,73 @@
+bennett_id,repo_lb_value,repo_lb_unicode,kind,detail
+AB 01,da,U+10000,unicode_number,U+10000 is B008 a
+AB 02,ro,U+10001,unicode_number,U+10001 is B038 e
+AB 03,pa,U+10002,unicode_number,U+10002 is B028 i
+AB 04,te,U+10003,unicode_number,U+10003 is B061 o
+AB 05,to,U+10004,unicode_number,U+10004 is B010 u
+AB 06,na,U+10005,unicode_number,U+10005 is B001 da
+AB 07,di,U+10006,unicode_number,U+10006 is B045 de
+AB 08,a,U+10007,unicode_number,U+10007 is B007 di
+AB 09,se,U+10008,unicode_number,U+10008 is B014 do
+AB 10,u,U+10009,unicode_number,U+10009 is B051 du
+AB 11,si,U+1000A,unicode_number+lb_value,U+1000A is B057 ja; value 'si' is B041 — standard B011 = 'po'
+AB 12,so,U+1000B,unicode_number,U+1000B is B046 je
+AB 14,do,U+1000D,unicode_number,U+1000D is B036 jo
+AB 15,mo,U+1000E,unicode_number,U+1000E is B065 ju
+AB 16,qa,U+1000F,unicode_number,U+1000F is B077 ka
+AB 17,za,U+10010,unicode_number,U+10010 is B044 ke
+AB 18,zo,U+10011,unicode_number+lb_value,U+10011 is B067 ki; value 'zo' is B020 — standard B018 = 'unnamed'
+AB 19,zo,U+10012,unicode_number+lb_value,U+10012 is B070 ko; value 'zo' is B020 — standard B019 = 'unnamed'
+AB 20,zo,U+10013,unicode_number,U+10013 is B081 ku
+AB 21,mi,U+10014,unicode_number+lb_value,U+10014 is B080 ma; value 'mi' is B073 — standard B021 = 'qi'
+AB 22,pi,U+10016,unicode_number+lb_value,U+10016 is B073 mi; value 'pi' is B039 — standard B022 = 'unnamed'
+AB 24,ne,U+10019,unicode_number,U+10019 is B006 na
+AB 26,ru,U+1001A,unicode_number,U+1001A is B024 ne
+AB 27,re,U+1001B,unicode_number,U+1001B is B030 ni
+AB 28,i,U+1001C,unicode_number,U+1001C is B052 no
+AB 29,pu,U+1001D,unicode_number+lb_value,U+1001D is B055 nu; value 'pu' is B050 — standard B029 = 'pu2'
+AB 30,ni,U+1001E,unicode_number,U+1001E is B003 pa
+AB 31,sa,U+1001F,unicode_number,U+1001F is B072 pe
+AB 32,,U+10020,unicode_number,U+10020 is B039 pi
+AB 33,ra,U+10021,unicode_number+lb_value,U+10021 is B011 po; value 'ra' is B060 — standard B033 = 'ra3'
+AB 34,pa2,U+10022,unicode_number,U+10022 is B050 pu
+AB 35,ti,U+10023,unicode_number+lb_value,U+10023 is B016 qa; value 'ti' is B037 — standard B035 = 'unnamed'
+AB 36,jo,U+10024,unicode_number,U+10024 is B078 qe
+AB 37,,U+10025,unicode_number,U+10025 is B021 qi
+AB 38,e,U+10026,unicode_number,U+10026 is B032 qo
+AB 40,wi,U+10028,unicode_number,U+10028 is B060 ra
+AB 41,si,U+10029,unicode_number,U+10029 is B027 re
+AB 42,ke,U+1002A,unicode_number+lb_value,U+1002A is B053 ri; value 'ke' is B044 — standard B042 = 'wo'
+AB 43,ai,U+1002B,unicode_number,U+1002B is B002 ro
+AB 44,,U+1002C,unicode_number,U+1002C is B026 ru
+AB 45,de,U+1002D,unicode_number,U+1002D is B031 sa
+AB 46,je,U+1002E,unicode_number,U+1002E is B009 se
+AB 47,,U+1002F,unicode_number,U+1002F is B041 si
+AB 48,nwa,U+10030,unicode_number,U+10030 is B012 so
+AB 49,,U+10031,unicode_number,U+10031 is B058 su
+AB 50,pu,U+10032,unicode_number,U+10032 is B059 ta
+AB 51,du,U+10033,unicode_number,U+10033 is B004 te
+AB 52,,U+10034,unicode_number,U+10034 is B037 ti
+AB 53,ri,U+10035,unicode_number,U+10035 is B005 to
+AB 54,wa,U+10036,unicode_number,U+10036 is B069 tu
+AB 55,nu,U+10037,unicode_number,U+10037 is B054 wa
+AB 56,,U+10038,unicode_number,U+10038 is B075 we
+AB 57,ja,U+10039,unicode_number,U+10039 is B040 wi
+AB 58,,U+1003A,unicode_number,U+1003A is B042 wo
+AB 60,ra,U+1003C,unicode_number,U+1003C is B017 za
+AB 61,,U+1003D,unicode_number,U+1003D is B074 ze
+AB 63,,U+1003F,unicode_number,U+1003F is B020 zo
+AB 64,swi,U+10040,unicode_number,U+10040 is B025 a2
+AB 65,ju,U+10041,unicode_number,U+10041 is B043 a3
+AB 66,ta,U+10042,unicode_number+lb_value,U+10042 is B085 au; value 'ta' is B059 — standard B066 = 'ta2'
+AB 67,ki,U+10043,unicode_number,U+10043 is B071 dwe
+AB 68,ro2,U+10044,unicode_number,U+10044 is B090 dwo
+AB 69,tu,U+10045,unicode_number,U+10045 is B048 nwa
+AB 70,ko,U+10046,unicode_number,U+10046 is B029 pu2
+AB 71,,U+10047,unicode_number,U+10047 is B062 pte
+AB 72,,U+10048,unicode_number,U+10048 is B076 ra2
+AB 73,,U+10049,unicode_number,U+10049 is B033 ra3
+AB 74,ze,U+1004A,unicode_number,U+1004A is B068 ro2
+AB 75,,U+1004B,unicode_number,U+1004B is B066 ta2
+AB 76,ra2,U+1004C,unicode_number,U+1004C is B087 twe
+AB 77,ka,U+1004D,unicode_number,U+1004D is B091 two
+AB 79,zo,U+1004F,lb_value,; value 'zo' is B020 — standard B079 = 'unnamed'

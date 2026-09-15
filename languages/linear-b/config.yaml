@@ -1,0 +1,20 @@
+id: linear-b
+name: Linear B
+family: hellenic
+sign_system: syllabary
+period_range: "1450–1150 BCE"
+mapping: translit_to_signid.csv
+corpus:
+  raw: data/raw/tablets.csv
+  format: lb-translit
+  id_field: identifier
+comparative:
+  - source: linear-a
+    via: null
+    grid: data/analysis/comparative/la_lb_mapping.csv
+pipeline:
+  db: languages/linear-b/data/database/linear-b.db
+  phases: [kober, ventris]
+oracle:
+  threshold: 1.5
+  note: "answer key: answer_key.csv (Unicode Linear B standard). The scorer reads bennett_id only; transliteration stays NULL. Run via pipeline/lb_oracle.py."
