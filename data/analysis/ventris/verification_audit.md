@@ -664,9 +664,24 @@ Recorded here per PLAN §2. Full record in `data/analysis/rsi/`.
   both counts are stated in the pool's README rather than reconciled by adding nodes. **K3** is
   decided: no candidate beats the pre-registered reference, Phase 5's entry condition is not met (no
   traversal reaches the same quality with fewer nodes), so Phase 5 was not built.
-- **One channel no part of this covers.** `frame_link_test.py`'s context-profile series rate: 35.7%
-  against a 22.5% majority baseline (1.59×), the strongest number this project has recorded. It is
-  measured on 70 draws with **no same-draw null** — the script's own 1.3% uniform figure is the wrong
-  null for a class metric — so it is carried in the tree as an unvalidated sub-metric, not a result.
-  That is the one live thread, and it is a channel, not an optimizer.
+- **One channel was not covered by any of this, and is now measured.** `frame_link_test.py`'s
+  context-profile channel, extended with a same-draw permutation control
+  (`op2d-context-profile-class`): **series 1.21× the majority baseline** (2.01× the permutation
+  null, n=500 independent draws) → INCONCLUSIVE, below the 1.5× gate. At 73 draws the same
+  channel read 1.52×, i.e. above the gate, while the permutation null held at 14.7% across
+  both samples — which is how the small-sample read was caught before it was recorded.
+- **The (series, vowel) class axis does survive**: 9.6% exact class pick against a 2.4%
+  majority baseline (4.00×) and a 2.4% permutation null (3.93×) — the strongest controlled
+  result this project has. Recorded as a metric and claimed as nothing more, because the 1.5×
+  gate was pre-registered for exact-value lift over uniform chance, and a class is not a value.
+- **Why no value-level per-sign channel can be measured here, by construction.** In a syllabary
+  one value belongs to one sign. Hiding the sign removes its value from the anchor set, so for
+  the only candidate that could be right the anchor support is *empty*: exact value is 0/500
+  not because the channel failed but because the design deletes the answer. The hide-N-recover
+  oracle can measure class information and cannot measure value identification — a structural
+  reason for `METHOD_CLOSURE_PAPER.md` §4.1's result, not only an empirical one.
+- **And it would not pay even if it were live.** `op2d` is the tree's only node with a
+  substantial positive quality term (s_v = 0.21). Reaching it costs five reveals, so acting
+  beats π₀ only if β₁ < 0.142 h/node — a cost model under which only free re-weighting pays,
+  never a new channel.
 

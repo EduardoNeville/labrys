@@ -9,13 +9,14 @@ frontier is a data structure instead of a list in a paper.
 
 ## What is in the pool
 
-`tree.json` — 14 nodes, **11 replayable + 3 world-expanding**.
+`tree.json` — 15 nodes, **12 replayable + 3 world-expanding**.
 
 | branch | nodes | outcome |
 | root | `op1-shipped-scorer` | 0.00×, 0 recovered, NO SIGNAL (reproduces; guard 8) |
 | repair | `op1a-six-defect-repair` | still 0.00× after six repairs |
 | repair | `op1b-seventh-defect-repair` | **the first repair that moves a number: 1/160, 0.23×, still NO SIGNAL** |
 | independent instrument | `op2-per-sign-instrument` | exact 0.00×, series 1.03×, vowel 1.00× — lands on the majority baseline |
+| the retrace's open item 1 | `op2d-context-profile-class` | series **1.21×** majority (2.01× permutation) — INCONCLUSIVE; exact value **void by construction** |
 | stronger search | `op2a-coordinate-ascent-4inits` | 0/60 — search is not the limit |
 | aggregators | `op2b-aggregator-bakeoff` | 8 aggregators, unique argmax 0.0% for all |
 | control | `op2c-in-argmax-null-control` | every channel *below* its permutation null (0.25–0.52×) |
@@ -74,20 +75,43 @@ uv run python -c "import sys; sys.path.insert(0,'.'); from pipeline.rsi_tree imp
 
 ## The reference number, and the two splits
 
-`split.json` is pre-registered and subtree-aware: dev = the spine (6 nodes), holdout =
-op3/op3a, op4/op4b, x1, x2, x3.
+`split.json` is pre-registered and subtree-aware: dev = the spine (7 nodes), holdout =
+op3/op3a, op4/op4b, x1, x2, x3 (7 nodes). One amendment, dated and recorded in the file:
+a node discovered after the split joins **dev** if its parent is in dev; the holdout never
+grows, because a class the policy has not seen stays unseen.
 
 | policy | dev V | holdout V |
 | **π₀ (`return []`)** | **0.000** | **0.000** |
-| control (closure paper §8, transcribed) | −4.500 | −3.694 |
-| clairvoyant (post-hoc upper bound) | −4.500 | −3.694 |
+| control (closure paper §8, transcribed) | −5.290 | −3.694 |
+| clairvoyant (post-hoc upper bound) | −5.290 | −3.694 |
 | acquire | 0.000 | 0.000 |
 
 **π₀ is optimal on both splits, at β₁ ∈ {0.5, 1.0, 2.0}** — the ranking does not flip, so
-the negative is not an artifact of the cost calibration (§10.4). The tree's quality term
-reaches 0.02 in total (`op3a`'s excess over its majority baseline), which is §6.3's
-degeneracy reached by machinery rather than by exhaustion. K3 is decided: no candidate
-beats the pre-registered reference, so there is nothing for a Phase 5 policy to win.
+the negative is not an artifact of the cost calibration (§10.4). K3 is decided: nothing beats
+the pre-registered reference, so there is nothing for a Phase 5 policy to win.
+
+### The one live node, and what it would cost to be worth reaching
+
+`op2d` is the only node in the tree with a quality term worth much, `s_v = 0.21`. Reaching
+it costs five reveals (its parent chain, and a node's children are revealed in file order),
+so a policy that acted would score `0.21 − 5β₁ + 0.5` and beat π₀ only if
+**β₁ < 0.142 h/node** — under ~8.5 minutes per method class. At the plan's β₁ = 1.0, the
+tree's best available information is **7× too expensive** to be worth reaching. That is
+PLAN §4's "the cost term is load-bearing" made quantitative: re-weighting existing channels
+is free and would pay; computing a new channel does not.
+
+### The measurement that produced it
+
+`frame_link_test.py` now carries a same-draw permutation null for the context-profile channel
+that the 35.7% figure never had (and its own RNG stream, so adding the control cannot perturb
+the draw sequence it controls). At n=500 draws: series **30.8%** vs a 25.4% majority baseline
+(**1.21×**, INCONCLUSIVE) and a 15.4% permutation null (**2.01×**); exact class pick 9.6% vs
+2.4% majority (4.00×) and 2.4% null (3.93×); exact value 0.0% against a 2.3% chance rate. At
+73 draws the series rate read 1.52× — above the gate — while the null held at 14.7%, which is
+how that was caught. Two self-inflicted errors were also caught before committing the node:
+the channel was first called per hidden sign instead of per trial, overstating n by 20× (with
+rates unaffected), and the first null consumed the *shared* RNG, which would have silently
+changed the draw sequence it was controlling.
 
 **Phase 5 entry condition (§11): not met.** A different traversal does not reach the same
 max `s_v` with fewer `N` — `clairvoyant` and `control` both reach 0.02 with N=4 on the
@@ -116,5 +140,5 @@ holdout, and both lose to stopping. Phase 5 is not built.
 | `phase0.md` | the three numbers, the §6.4 determination (all-flat, branch 2), the two defects |
 | `phase0_null_control.py` | the permutation control that retires PLAN §6.4's tie-collapse hypothesis |
 | `backfill.py` | the nodes, written through `rsi_tree.append` so verdicts are gate-recomputed |
-| `tree.json`, `split.json` | the pool and the pre-registered split |
+| `tree.json`, `split.json` | the pool (one dated dev amendment) and the pre-registered split |
 | `cache/` | gitignored component cache, keyed on canonical content (not mtime) |

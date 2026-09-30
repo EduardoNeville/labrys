@@ -311,6 +311,38 @@
    "cost_estimated": true,
    "source": "pipeline/lb_oracle.py --trials 8 --hidden 20, 2026-10-01, after the D1/D2 repairs (phase0.md)",
    "note": "The seventh repair, and the first one that MOVES the number: 0/160 -> 1/160, lift 0.00x -> 0.23x. Cause: score_completion reseeded the global RNG, so the committed '8 trials' were 2 distinct hidden sets (trial 1 alone, then the same set seven times). With 8 genuinely independent draws the oracle now reports 0.0063 vs chance 0.0273 (chance 0.0208 -> 0.0273 for the same reason) and the verdict is unchanged: NO SIGNAL, 0.23x, still below chance. The single hit is attributable, and it is not signal: AB 01, hidden in 1 of 8 trials and recovered there, via a TIE resolved by candidate-list order - the unique-argmax rate over these same draws is 0.0%. AB 01 is the sign with the most corpus occurrences (640) and one of the two signs the original anchor-word leak produced (1.28x, repaired in op1a). Evaluated tie-strictly (rsi_evaluate), the shipped config still returns 0 recovered. The repair is behaviour-neutral for scoring: all 3,311 (sign, candidate) component tuples are bit-identical before and after."
+  },
+  {
+   "id": "op2d-context-profile-class",
+   "parent": "op2-per-sign-instrument",
+   "evidence_class": "distributional",
+   "is_world_expanding": false,
+   "lift": null,
+   "metrics": {
+    "series": 1.21,
+    "series_rate": 0.308,
+    "series_majority": 0.254,
+    "series_vs_permutation": 2.01,
+    "perm_series_null": 0.154,
+    "class_rate": 0.096,
+    "class_majority": 0.024,
+    "class_vs_majority": 4.0,
+    "class_vs_permutation": 3.93,
+    "perm_class_null": 0.024,
+    "exact": 0.0,
+    "exact_rate": 0.0,
+    "exact_chance": 0.023
+   },
+   "primary_metric": "series",
+   "values_recovered": 0,
+   "n_draws": 500,
+   "control_ok": true,
+   "leak_ok": true,
+   "verdict": "INCONCLUSIVE",
+   "cost_hours": 3.0,
+   "cost_estimated": true,
+   "source": "pipeline/frame_link_test.py --language linear-b --trials 25 (2026-10-01)",
+   "note": "The retrace's open item 1 (a per-sign channel that models the sign itself), measured against a same-draw permutation control: 25 trials x 20 hidden = 500 independent draws. The null gets its own RNG stream so the control cannot perturb the draw sequence it controls.\nPRIMARY is series-vs-majority at 1.21x - chosen over the better class number, per PLAN \u00a77.1's rule that a node must not be scored on the best of its metrics. INCONCLUSIVE (0.5-1.5) and below the pre-registered 1.5x.\nThe (series,vowel) class axis is stronger: 9.6% exact class pick vs a 2.4% majority baseline (4.00x) and a 2.4% permutation null (3.93x) - the strongest controlled result in this project. Recorded as a metric and claimed as nothing more: the 1.5x gate was pre-registered for exact-value lift over uniform chance, and a class is not a value.\nExact value is 0.0% BY CONSTRUCTION: in a syllabary one value belongs to one sign, so hiding the sign removes its value from the anchor set and the anchor support of the only right candidate is empty. No hide-N-recover instrument can measure a value-level per-sign channel; it can measure class information only. That is a structural reason for METHOD_CLOSURE_PAPER.md \u00a74.1, not an empirical one.\nTwo corrections made before committing this node, both recorded because they are the project's own failure modes: (1) at 73 draws the series rate read 1.52x, above the gate, against a null stable at 14.7% - small-sample noise, which is why n=500 is recorded here; (2) the channel was first called per hidden sign instead of per trial, overstating n by 20x (8820 -> 500) with rates unaffected."
   }
  ]
 }
