@@ -17,31 +17,40 @@ fully controlled: **Linear B itself**, with its phonetic values withheld, using 
 deciphered values as the answer key, 73 correct anchors, 40,038 sign tokens (4× the Linear A
 corpus), real Greek phonotactics, and editor-supplied word division.
 
-Four independent operationalizations are measured, each against both a uniform-chance and a
-majority-class baseline, with permutation controls for partner-set relations:
+Four independent operationalizations are measured — five as of 2026-10-01 (§4.5) — each against
+both a uniform-chance and a majority-class baseline, with permutation controls for partner-set
+relations:
 
 | operationalization | result |
 |---|---|
-| Shipped-style scorer, hide-N-recover oracle | **0.00×** chance (0/160 recovered) |
+| Shipped-style scorer, hide-N-recover oracle | **0.00×** chance (0/160 recovered) ᵈ |
+| Weight simplex, swept exhaustively *(2026-10-01)* | **0 of 1,771** vectors recover one value, and 0 again with the answer guaranteed present |
 | From-scratch per-sign instrument (no shared code) | exact value **0.00×**; series 1.03× majority; vowel 1.00× majority |
 | Frame sharing (Kober's recorded relation, ~72k pairs) | 0.85–0.98× chance on all four relations |
 | Paradigm-slot alternation (identical slot; strict minimal pairs) | partners share series 13.9–14.3% vs 27.4% majority; vowel elimination **matched or beaten by its own permutation control** |
+| Context profiles *(2026-10-01)* | series 1.21× majority, (series,vowel) class 4.00× — the first controlled positive; **not convertible** (§4.5) |
+
+ᵈ The pre-repair measurement. A seventh instrument defect made "8 trials" two distinct hidden
+sets; repaired, the oracle reports **1/160 and 0.23×** — still below chance, verdict unchanged. §6.1.
 
 No operationalization recovers phonetic values, and none exceeds majority-class prediction for
 either the consonant series or the vowel, on the easiest instance available. The negative
-survives the repair of six implementation defects found during this work, including one leak
-that had inflated an earlier positive result by 1.28×.
+survives the repair of eight implementation defects found during this work, including one leak
+that had inflated an earlier positive result by 1.28×. Seven repairs left the result where it was;
+the eighth moved it from 0.00× to 0.23× — toward chance, not past it (§6.1).
 
 We conclude that corpus-internal distributional structure plus Linear B transfer does not
 suffice for value attribution in this script family, and we state precisely which evidence
-classes remain untested.
+classes remain untested — now measured rather than listed (§7).
 
 **Plain-language version.** We built a practice version of the puzzle whose answers we already
 know, gave the computer every advantage — perfect word divisions, correct readings for
 two-thirds of the signs, four times more text than Linear A has — and every method tested
-recovered nothing. The methods are not mis-implemented: we found and fixed six bugs during the
-work, and the answer stayed zero. The missing ingredient is not computation; it is information
-that this corpus does not contain.
+recovered nothing. The methods are not mis-implemented: we found and fixed eight bugs during the
+work, and the answer stayed zero (the eighth moved it to 0.23× — still below chance). We then
+stopped trying aggregators and swept *every* weighting of the four evidence channels: not one of
+1,771 recovers a value, even when the right answer is known to be in the candidate list. The
+missing ingredient is not computation; it is information that this corpus does not contain.
 
 ---
 
@@ -131,6 +140,29 @@ the same objective also recovered **0/60**; and no aggregator tried — shipped 
 weights, rank-normalised (Borda), two-stage — produced a *unique* argmax for any hidden sign
 (top-1 rate **0.0%** across all).
 
+**The whole weight space, swept (2026-10-01).** Eight hand-picked aggregators are not a search, so
+the entire 4-channel weight simplex was swept — 1,771 vectors on a 0.05 grid, split by trial into
+dev and holdout, the winner reported once on holdout
+(`data/analysis/rsi/weight_space_search.py`): **zero vectors recover even one value**, on dev or
+holdout. Restricted to draws where the true value *is* in the candidate list (117 dev, 154
+holdout) — which isolates the aggregation question from the candidate-generation defect in §6.1 D4
+— it is still zero of 1,771. The **identical search** with the truth replaced by a random other
+candidate finds 2.8% of dev draws (max 3.8%), and 2.7% on the identifiable subset (max 6.0%): the
+true value is *less* likely to be the unique argmax than a random candidate is. This turns §8's
+claim from eight counterexamples into an exhaustive result over the convex simplex, and it kills
+the tie-break rescue outright — the simplex's vertices are single-channel aggregators, and
+lexicographic chains collapse to their first channel when ties are rare, as continuous channels
+make them.
+
+**Two readings of the same numbers, distinguished (2026-10-01).** The "components rank the true
+value top-1 at 67% / 47% / 59% / 100%" figures (`aggregator_bakeoff.py`; the same quantity appears
+in `oracle_diagnose.py` part C) are *not* unique identification. They are `in_argmax`, ties allowed,
+which is argmax-set size: for the morph channel the argmax set covers two thirds of the candidate
+list. Measured conditional on the truth being a candidate, `in_argmax` equals its own mechanical tie
+rate (morph 66.1% vs 66.8%; entropy 50.2 vs 50.9; prefix 52.8 vs 53.9) while unique argmax is
+**0.0%** for all nine aggregators tested. Three of the four quoted figures do reproduce as
+`in_argmax`; the kober channel's 100% does not (8.9%).
+
 ### 4.2 Operationalization 2 — an independent per-sign instrument
 
 Scoring each hidden sign on its own (context-profile cosine against each candidate-bearing anchor
@@ -192,6 +224,47 @@ reporting it is the point: it has the right shape, and it is noise.
 
 ---
 
+### 4.5 Operationalization 5 — context profiles: the first controlled positive, and why it is not convertible *(added 2026-10-01)*
+
+Every result above is a negative. This one is not, and it is reported in full for that reason.
+
+**The channel.** A hidden sign's context profile — which signs precede and follow it — is compared
+by cosine similarity against the profile of each (series, vowel) class, a class profile being the
+summed profiles of the anchors carrying it. No links, no partitioning, no global statistic.
+
+| metric | channel | majority | permutation null | vs majority | vs null |
+| (series, vowel) class, exact | **9.6%** | 2.4% | 2.4% | **4.00×** | 3.93× |
+| consonant series | 30.8% | 25.4% | 15.4% | **1.21×** | 2.01× |
+| exact value | 0.0% | — | 2.3% chance | **0.00×** | — |
+
+500 independent draws (25 trials × 20 hidden signs). The permutation null shuffles values among all
+confirmed signs and re-splits anchors from the permutation, on the same draws
+(`EXPERIMENT_PROTOCOL.md` §2); it gets its own RNG stream, because a control that consumes the
+measurement's randomness is measuring something else.
+
+The class result is the strongest controlled number in this work. **It is claimed as a metric and
+nothing more**, for one practical reason and one ceiling:
+
+**1. A class is not a value.** A (series, vowel) class holds ~2.3 candidates. Identifying it does not
+identify a value; end-to-end, 9.6% × (within-class accuracy) is the ceiling on what it could deliver.
+
+**2. The scorer cannot pick within a class it is given.** Handing over the *true* class for free —
+an oracle restriction, generous in the only direction that matters — the shipped scorer selects the
+right member of a 2.32-candidate class **8.5%** of the time against a **47.4%** chance rate:
+**0.18×, worse than random** (`data/analysis/rsi/class_restriction_ceiling.py`). Tie-lenient, the
+truth is in the argmax set 35.2% of the time (0.74×). The objective actively prefers the less typical
+member of a class, which is what a frequency/typicality objective does. No improvement to this
+channel, not even a perfect one, can yield values with this scorer. The prediction was written into
+the script before the run and held.
+
+**3. And exact value here is 0.0% by construction, not by measurement.** In a syllabary one value
+belongs to one sign. Hiding a sign removes its value from the anchor set, so the only candidate that
+could be right has an **empty anchor support**: no hide-N-recover instrument can measure a
+value-level per-sign channel. It can measure class information, and the class information stops at
+attempting to pick a member.
+
+---
+
 ## 5. Methodological note: why two baselines
 
 An earlier version of this work reported that the Kober channel identified the correct consonant
@@ -207,7 +280,9 @@ majority baseline is meaningful — including our own earlier ones.
 
 ---
 
-## 6. The result survives the repair of six defects
+## 6. The result survives the repair of eight defects
+
+*(Six at the time of first writing; the seventh and eighth are §6.1, found 2026-10-01.)*
 
 A zero multiplied by anything is zero, but a zero *measured by broken machinery* is worth
 nothing. This result was subjected to adversarial repair before being reported, and is stated
@@ -233,10 +308,35 @@ project's fraction-value file are derived by complement-fitting whose result is 
 own evidence.
 
 **Why this is a strength, not a caveat.** The negative is not the output of one script. It is the
-output of four independent operationalizations, an independently written instrument, a permutation
-control that beats its own signal, and a repair process that fixed everything fixable and moved
-the result by zero. A result that survives adversarial self-repair is the only kind worth
-publishing.
+output of five independent operationalizations, an independently written instrument, a permutation
+control that beats its own signal, and a repair process that fixed everything fixable and — over
+seven of the eight repairs — did not move the result at all. The eighth moved it by 0.23×, still
+below chance, verdict unchanged. A result that survives adversarial self-repair is the only kind
+worth publishing.
+
+### 6.1 The seventh and eighth defects *(2026-10-01)* — one of them moved the number
+
+Found while building a replay-based method search over this sandbox
+(`data/analysis/rsi/`, `.pi/PLAN.md`). Both are in this paper's own instrument.
+
+| # | defect | effect | measured impact |
+| 7 | `score_completion` (`complete.py:447`) called `random.seed(0)` on the **global** RNG from inside the scorer, in the middle of `oracle_test`'s trial loop: trial 1 left the stream in a fixed state, so trials 2–8 drew the same hidden set | the pre-registered "8 trials × 20" design ran as **2 distinct draws**; "160 hidden signs scored" was 40. Baseline chance 0.0208 was a 1:7 average of 0.0374 and 0.0185 | repaired (private RNG, scoring bit-identical: all 3,311 component tuples unchanged); oracle **0.00× → 0.23×**, 1/160, **verdict unchanged** (NO SIGNAL). The single hit is `AB 01`, hidden in 1 of 8 trials, recovered via a **tie resolved by candidate-list order** — unique-argmax rate over those draws is 0.0% |
+| 8 | `triple_detection.py` enumerated triples by iterating two `set`s of sign ids, so `triple_id` **and** the positional s1/s2/s3 roles that `_load_kober` reads the C/V distinction from were a per-process permutation | the Kober constraint graph was not reproducible in principle, and every oracle run rewrote a tracked data artifact with a 120k-line diff | repaired (sorted enumeration, canonical file order); verified unchanged: same 60,155 triples, same 2,667 C-pairs, same 2,564 V-pairs, and byte-identical across two runs |
+
+Also corrected: the report line "Signs recovered in ALL trials: AB 01" was **false as worded** —
+AB 01 was hidden in 1 of 8 trials. It now prints the appearance count. And a **fourth defect, not
+repaired**: the candidate generator discards the true value before scoring on ~46% of draws
+(36.2% at 80 draws; 54.2% at 500), so every recovery figure in this paper is diluted by ~2× and
+no aggregator can be right on those draws (§6.1 D4). It is **not** the binding constraint, which
+is why it was left alone: `weight_space_search.py` sweeps 1,771 weight vectors on the *identifiable*
+subset — truth guaranteed present — and recovers **zero**.
+
+**Why this strengthens rather than weakens the result.** Seven repairs left the number where it
+was. The eighth moved it from 0.00× to 0.23× — toward chance, not past it, and with the verdict
+unchanged, because a tie broken by list order is not identification. The repairs also place the two
+real defects in order: **aggregation first** (no weighting of the four channels identifies a value,
+even with the answer present), **candidate generation second** (~46% of draws void). Fixing the
+second first would recover nothing.
 
 ---
 
@@ -262,14 +362,44 @@ agglutinative. A method could in principle be better suited to the hypothesized 
 the test bed. This is the one objection that would require a different best-case corpus to
 answer, and we note it rather than dismiss it.
 
+### 7.1 The frontier as an action space, and what a policy does with it *(added 2026-10-01)*
+
+The three classes above were prose. They are now a **recorded decision problem**: a pool of 18
+method nodes (`data/analysis/rsi/tree.json`, 15 of them replayable, every verdict recomputed from
+its own primary metric rather than typed in), each carrying its evidence class, cost, and outcome.
+A policy is a Python function over that pool, and it can be replayed against the recorded tree
+without re-running the evaluator, because every outcome is already saved.
+
+| class | status as of 2026-10-01 |
+| distributional | **measured, closed.** Six branches, 0–1.21× against matched controls, and no weighting of the four channels recovers anything (§4.1) |
+| cross-script | untested here, and untestable *as stated* until an independent side exists: the Linear A phonetic grid is itself Linear B transfer, so "LA→LB" is circular. Needs Cypro-Minoan or Cretan Hieroglyphic values |
+| semantic anchors | untested. No bilingual of adequate length; needs the find, not a method |
+| long text | untested. `KN Zg 57/58` is the case; needs the edition, not a method |
+
+Against that pool, the control policy transcribed from §8's own reasoning — expand a live class,
+switch after two flat ones, take an acquisition when everything is flat — **scores below doing
+nothing**, on both a dev and a held-out split, at every cost calibration tried (β₁ ∈ {0.5, 1, 2}
+hours per node): the empty policy scores V = 0, the exploring policy −5.29 (dev) and −3.69
+(holdout). The tree's one node with real positive value (the class channel, §4.5) is seven times too
+expensive to be worth reaching at β₁ = 1. So the loop's honest output is *stop searching and acquire
+evidence*, and that is now a number rather than an argument.
+
+The binding constraint is therefore exactly where §7's list points: outside the corpus. Note what
+this implies for anyone tempted to build a self-improving loop on this project: the failure mode is
+not a bad policy. It is a well-controlled, rigorously negative loop that returns 0.00× indefinitely
+because it was pointed at the one resource that was never scarce — computation.
+
 ---
 
 ## 8. Implications
 
 **For the method family.** The Ventris-endgame operationalization — frames → series, contexts →
 vowels, corpus plausibility → ranking, greedy or coordinate search → values — is closed. It
-should not be re-implemented with more parameters, larger models, or better optimizers: §4.1 shows
-the objective has no resolution to optimize, and §4.2 shows the ceiling is majority prediction.
+should not be re-implemented with more parameters, larger models, or better optimizers: §4.1
+shows the objective has no resolution to optimize — now **by search over the whole weight simplex
+(0 of 1,771 vectors) rather than by eight examples** — and §4.2 shows the ceiling is majority
+prediction, and §4.5 a class channel with real signal that the scorer cannot convert (0.18× within
+a class it is handed for free).
 
 **For this project.** Four earlier internal conclusions are retired by this work: the 0.6×
 oracle baseline (leak-contaminated), the claim that misvalued signs plus positional anomaly
@@ -309,7 +439,20 @@ commands in `data/analysis/ventris/oracle_repair_report.md`.
 | corpus round-trip evidence | `pipeline/oracle_diagnose.py` (`check_roundtrip`) |
 | defect log | `data/analysis/ventris/oracle_repair_report.md` |
 | drift + claim audit | `data/analysis/ventris/verification_audit.md` |
+| replay pool, policy, Phase 0–4 record | `data/analysis/rsi/` (`README.md`, `phase0.md`, `tree.json`, `split.json`) |
+| the sweep over the weight simplex | `data/analysis/rsi/weight_space_search.py` |
+| the class channel and its ceiling | `data/analysis/rsi/identifiable_subset.py`, `class_restriction_ceiling.py` |
 | binding rules for new measurements | `EXPERIMENT_PROTOCOL.md` |
+
+```bash
+# added 2026-10-01: the method-search appendix (§4.5, §6.1, §7.1)
+uv run python pipeline/frame_link_test.py --language linear-b --trials 25    # §4.5
+uv run python data/analysis/rsi/class_restriction_ceiling.py                 # §4.5
+uv run python data/analysis/rsi/weight_space_search.py --identifiable-only    # §4.1
+uv run python data/analysis/rsi/identifiable_subset.py --trials 25           # §4.1, §6.1 D4
+uv run python pipeline/rsi_replay.py --policy all --sensitivity              # §7.1
+uv run python pipeline/guards.py                     # 13 guards now, not 7
+```
 
 ---
 
@@ -318,7 +461,12 @@ commands in `data/analysis/ventris/oracle_repair_report.md`.
 On the deciphered sister script, with perfect anchors, four times the data and ground-truth word
 division, no operationalization of the Kober–Ventris method recovers a single phonetic value, and
 none beats majority-class prediction for the consonant series or the vowel. The result survived
-the repair of six defects, a leak that had inflated it, and an independently written instrument.
+the repair of **eight** defects, a leak that had inflated it, an independently written instrument,
+a sweep of the entire weight simplex (0 of 1,771 vectors), and a class channel with genuine signal
+that the scorer cannot convert into a value (0.18× within a class it is handed for free).
+
+One number moved during those repairs — 0.00× to 0.23× — and it moved toward chance, not past it:
+the single recovered sign was a tie broken by candidate-list order.
 
 If Linear A is to be read, the evidence will have to come from outside its own distributional
 structure: a bilingual, a longer non-administrative text, or a deciphered neighbour. The
