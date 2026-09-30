@@ -189,8 +189,14 @@ def run_oracle(trials: int, hidden: int) -> dict:
                 f"(gate > {GATE_THRESHOLD}x — pre-registered)\n")
         f.write(f"- total hidden signs scored: {res['total_hidden_scored']}\n\n")
         if res.get("signs_recovered_all_trials"):
-            f.write("Signs recovered in ALL trials: "
-                    + ", ".join(sorted(res["signs_recovered_all_trials"])) + "\n")
+            # Name the field for what it measures. "Recovered in all trials" is what the
+            # rate says, but a sign hidden in 1 of 8 trials and recovered there reads as
+            # far stronger evidence than it is, so the appearance count is printed too.
+            seen = res.get("per_sign_trials", {})
+            f.write("Signs recovered in every trial they appeared in: "
+                    + ", ".join(f"{b} ({seen.get(b, '?')}/{trials} trials)"
+                                for b in sorted(res["signs_recovered_all_trials"]))
+                    + "\n")
     print(f"\nRESULT: recovery {res['recovery_rate']:.4f} vs chance "
           f"{res['chance_rate']:.4f} → lift {lift:.2f}x — {verdict}")
     return res

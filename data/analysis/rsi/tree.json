@@ -284,6 +284,33 @@
    "cost_estimated": true,
    "source": "METHOD_CLOSURE_PAPER.md \u00a77.1",
    "note": "Evidence class #1 in \u00a77: semantic anchors. The failure of distributional methods says nothing about a bilingual of adequate length."
+  },
+  {
+   "id": "op1b-seventh-defect-repair",
+   "parent": "op1a-six-defect-repair",
+   "evidence_class": "distributional",
+   "is_world_expanding": false,
+   "lift": null,
+   "metrics": {
+    "exact": 0.23,
+    "exact_rate": 0.0063,
+    "exact_chance": 0.0273,
+    "recovered": 1,
+    "of": 160,
+    "distinct_hidden_sets": 8,
+    "unique_argmax_rate": 0.0,
+    "forced_rate": 0.5563
+   },
+   "primary_metric": "exact",
+   "values_recovered": 1,
+   "n_draws": 160,
+   "control_ok": true,
+   "leak_ok": true,
+   "verdict": "NO SIGNAL",
+   "cost_hours": 1.0,
+   "cost_estimated": true,
+   "source": "pipeline/lb_oracle.py --trials 8 --hidden 20, 2026-10-01, after the D1/D2 repairs (phase0.md)",
+   "note": "The seventh repair, and the first one that MOVES the number: 0/160 -> 1/160, lift 0.00x -> 0.23x. Cause: score_completion reseeded the global RNG, so the committed '8 trials' were 2 distinct hidden sets (trial 1 alone, then the same set seven times). With 8 genuinely independent draws the oracle now reports 0.0063 vs chance 0.0273 (chance 0.0208 -> 0.0273 for the same reason) and the verdict is unchanged: NO SIGNAL, 0.23x, still below chance. The single hit is attributable, and it is not signal: AB 01, hidden in 1 of 8 trials and recovered there, via a TIE resolved by candidate-list order - the unique-argmax rate over these same draws is 0.0%. AB 01 is the sign with the most corpus occurrences (640) and one of the two signs the original anchor-word leak produced (1.28x, repaired in op1a). Evaluated tie-strictly (rsi_evaluate), the shipped config still returns 0 recovered. The repair is behaviour-neutral for scoring: all 3,311 (sign, candidate) component tuples are bit-identical before and after."
   }
  ]
 }

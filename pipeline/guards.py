@@ -197,10 +197,15 @@ def g_rsi_seam() -> str:
     """`evaluate(shipped)` must reproduce the committed oracle result.
 
     Asserts the gate quantities — lift, recovered, verdict — not `chance`. The
-    committed chance (0.0208) belongs to a draw sequence in which trials 2-8 repeat
-    trial 2's hidden set, because `score_completion` reseeds the global RNG
-    (phase0.md D2). Over 8 independent draws the same quantity is 0.0273. Asserting
-    the gate quantities is what K4 asks for; asserting `chance` would enshrine a defect.
+    committed chance (0.0208) belonged to a draw sequence in which trials 2-8 repeated
+    trial 2's hidden set, because `score_completion` reseeded the global RNG. That is
+    repaired (guard 12) and the report now reads 0.0063 vs chance 0.0273 -> 0.23x, still
+    NO SIGNAL: verified by `oracle_test`, not by this guard, which stays cheap.
+
+    `evaluate` counts only *resolved* picks, so its recovered is 0 where the oracle's
+    greedy restore reports 1 — the one hit is a tie resolved by candidate order (unique-
+    argmax rate is 0.0% over the same draws). Both are recorded; the gate verdict, which
+    is what K4 asks about, is identical.
     """
     from pipeline.rsi_evaluate import SHIPPED_METHOD, evaluate
 
@@ -288,6 +293,62 @@ def g_rsi_monotone_select() -> str:
             f"{scores[best]['holdout']['V']:+.3f}")
 
 
+def g_rsi_score_rng_isolated() -> str:
+    """One scoring call must not touch the global RNG (phase0.md D2, repaired).
+
+    Behavioural, not textual: the defect was `random.seed(0)` on the module-level
+    stream from inside `score_completion`. Any caller sampling around a scoring call
+    then draws a hidden-sign sequence shaped by the scorer's internals — which is how
+    trials 2-8 of the committed oracle came out identical, and how 160 scored signs
+    were 40 distinct draws. This guard fails on a reintroduction.
+    """
+    import random
+
+    from pipeline.oracle_diagnose import build
+
+    c = build("linear-b")
+    try:
+        bids = sorted(c.confirmed)
+        hidden = [bids[0]]
+        eff = {b: v for b, v in c.confirmed.items() if b not in hidden}
+        cand = c.get_candidates(bids[0], confirmed=eff)[0]
+        random.seed(12345)
+        before = random.getstate()
+        c.score_completion({bids[0]: cand}, confirmed_override=eff,
+                           uncertain_override=hidden, sample_size=50)
+        after = random.getstate()
+        assert after == before, \
+            "score_completion mutates the global RNG; a caller sampling around it " \
+            "(oracle_test's hidden-sign draw) gets a sequence shaped by the scorer"
+    finally:
+        c.close()
+    return "a scoring call leaves the global RNG state untouched"
+
+
+def g_kober_triples_canonical() -> str:
+    """The Kober triples file must be canonically ordered (phase0.md D1, repaired).
+
+    The enumeration walked two sets, so `triple_id` — and the positional s1/s2/s3 roles
+    that `_load_kober` reads the C/V distinction from — were a per-process permutation.
+    The committed content happened to match the deterministic order (verified: identical
+    triple set and identical 2,667 C-pairs / 2,564 V-pairs), so this pins the ordering
+    rather than the values.
+    """
+    p = REPO / "languages/linear-b/data/analysis/kober/triple_patterns.csv"
+    if not p.exists():
+        return "skipped (no LB triples)"
+    rows = list(csv.DictReader(open(p, encoding="utf-8")))
+    keys = [tuple(sorted((r["sign_1"], r["sign_2"], r["sign_3"]))) for r in rows]
+    ids = [int(r["triple_id"]) for r in rows]
+    assert ids == list(range(1, len(rows) + 1)), "triple_id is not 1..N in file order"
+    assert keys == sorted(keys), \
+        "triple rows are not in canonical sign-triple order (re-run lb_oracle.py)"
+    src = (PIPELINE / "kober/triple_detection.py").read_text(encoding="utf-8")
+    for needle in ("for s2 in sorted(c_neighbors_s1):", "for s3 in sorted(candidates):"):
+        assert needle in src, f"triple enumeration iterates an unordered set: {needle!r}"
+    return f"{len(rows)} triples, canonical order, enumeration sorted"
+
+
 def main() -> None:
     guard("no value leak in corpus tables", g_leak)
     guard("phonetic constants complete + subscript-safe", g_phonetics)
@@ -300,6 +361,8 @@ def main() -> None:
     guard("rsi has no direct score_completion path", g_rsi_no_leak_path)
     guard("rsi replay is deterministic", g_rsi_replay_determinism)
     guard("rsi argmax never scores below pi_0", g_rsi_monotone_select)
+    guard("scoring leaves the global RNG alone", g_rsi_score_rng_isolated)
+    guard("kober triples are canonically ordered", g_kober_triples_canonical)
 
     print("=== Labrys guards ===")
     for name, ok, detail in RESULTS:

@@ -444,10 +444,18 @@ class VentrisGridCompleter:
         # train, score held-out perplexity. A CORRECT completion makes held-out
         # text MORE predictable (lower perplexity) — this directly rewards
         # phonetic coherence instead of inventory size.
+        # A LOCAL rng, not the module-level one. This line used to be
+        #     import random as _random; _random.seed(0)
+        # which resets the GLOBAL stream on every call, from inside the scorer. Any
+        # caller that samples around a scoring call (oracle_test's hidden-sign draw)
+        # then draws from a stream shaped by this function's internals: trials 2..8 of
+        # the committed oracle came out identical. Seeding a private instance keeps the
+        # shuffle bit-identical for every call while leaving the global state alone.
+        # See data/analysis/rsi/phase0.md D2.
         import random as _random
-        _random.seed(0)
+        _rng = _random.Random(0)
         shuffled = list(sample)
-        _random.shuffle(shuffled)
+        _rng.shuffle(shuffled)
         n_train = max(1, int(len(shuffled) * 0.8))
         train_texts, held_texts = shuffled[:n_train], shuffled[n_train:]
 
@@ -665,6 +673,10 @@ class VentrisGridCompleter:
             "total_hidden_scored": total_hidden,
             "recovered": recovered,
             "per_sign_recovery_rates": per_sign_rates,
+            # How many trials each sign was hidden in. Without this, a rate of 1.0 is
+            # uninterpretable: a sign hidden once and recovered once is not evidence of
+            # the same weight as one hidden in all trials and recovered every time.
+            "per_sign_trials": {bid: len(oks) for bid, oks in per_sign.items()},
             "signs_recovered_all_trials": recovered_bids,
         }
 

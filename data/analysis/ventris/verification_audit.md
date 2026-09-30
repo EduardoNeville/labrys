@@ -4,6 +4,11 @@
 > supersedes Claim 1 (oracle numbers), Claim 2 (which is now **fully void**, not merely
 > downgraded), and Claim 4 (numbers), and records five defects in the oracle machinery
 > plus four drifted analysis products. Do not cite the tables above without reading it.
+>
+> **2026-10-01 addendum:** see the *Phase 13 Addendum*. A seventh instrument defect moved
+> the Linear B oracle from 0/160 to 1/160 (lift 0.00× → **0.23×**, verdict unchanged:
+> NO SIGNAL), and the Dream-RSI method search over the same sandbox is recorded there:
+> π₀ is optimal on both splits at every β, K3 decided, Phase 5 not built.
 
 **Purpose:** Verify every finding before synthesis. This audit caught TWO
 compromised claims (Avenue 1 AB 85, Avenue 2 AB 82) — both were circular
@@ -584,3 +589,84 @@ anchor (from a new text, from Cypro-Minoan, or from a newly proposed place name)
 
 **Conclusion of the Phase 12 audit series: the existing corpus contains no anchor capable of
 deciphering Linear A. Progress requires material the repository does not hold.**
+
+---
+
+## Phase 13 Addendum — the Linear B instrument, and the Dream-RSI method search (2026-10-01)
+
+At stake: `METHOD_CLOSURE_PAPER.md` §6, "the result survives the repair of six defects". A
+**seventh** defect was found 2026-09-30 and repaired 2026-10-01. It is the first repair that moves a
+number, and it moves it the way that paper would predict: toward chance, not past it.
+
+### D1 — the Kober triples file was a per-process permutation (repaired)
+
+`pipeline/kober/triple_detection.py` enumerated triples by iterating two `set`s of sign ids, so
+`triple_id` — and the positional s1/s2/s3 roles — were freshly permuted on every run in a new process.
+`lb_oracle.py` step 2 rewrites that file, so every oracle run left a 120,184-line diff on a tracked
+data artifact, and because `complete.py:_load_kober` reads the C/V distinction *from the roles*
+(s1↔s2, s1↔s3 → C; s2↔s3, s1↔s3 → V), the constraint graph was not reproducible in principle.
+
+Repaired: sort the enumeration, canonicalise the file order. Verified unchanged: same 60,155 triples,
+same 2,667 C-pairs, same 2,564 V-pairs. Verified fixed: byte-identical across two independent runs.
+**Guard 13** pins it. The roles happened to match, so this repair changed no measurement — it removed
+the capacity to change one silently.
+
+### D2 — the oracle's "8 trials" were 2 distinct draws (repaired)
+
+`complete.py:447` called `random.seed(0)` on the **global** RNG from inside `score_completion`, in the
+middle of `oracle_test`'s trial loop. Trial 1's greedy restore left that stream in a fixed state, so
+trials 2–8 drew the same hidden set.
+
+| trial | chance | hidden set |
+| 1 | 0.0374 | A |
+| 2–8 | 0.0185 | B (identical in all seven) |
+| mean | **0.0208** | = the committed `chance_rate`, exactly |
+
+Repaired with a private `random.Random(0)`. Behaviour-neutral for scoring: all **3,311**
+(sign, candidate) component tuples are bit-identical before and after. **Guard 12** fails on a
+reintroduction.
+
+### The measured impact
+
+| | before (committed) | after |
+| recovery | 0.0000 (0/160) | **0.0063 (1/160)** |
+| chance | 0.0208 | **0.0273** |
+| lift | 0.00× | **0.23×** |
+| distinct hidden sets | 2 | **8** |
+| verdict | NO SIGNAL | **NO SIGNAL** |
+
+**Attributed, not asserted.** The hit is `AB 01`, hidden in 1 of 8 trials and recovered there, by a
+**tie resolved by candidate-list order**: the unique-argmax rate over these draws is 0.0%, and
+evaluated tie-strictly the shipped config still returns 0 recovered. AB 01 is the most frequent sign
+in the corpus (640 occurrences) and one of the two signs the original anchor-word leak produced
+(1.28×, repaired among the six). So: still below chance, unchanged verdict, and the single positive is
+a list-order artifact of the kind this project has now caught four times.
+
+Also corrected: the report's old line "Signs recovered in ALL trials" was a false claim as worded — a
+sign hidden once and recovered once does not carry the weight that phrase implies. It now prints the
+appearance count (`AB 01 (1/8 trials)`), and `oracle_test` returns `per_sign_trials` so the rate is
+interpretable.
+
+### The Dream-RSI method search (`.pi/PLAN.md` phases 0–4)
+
+Recorded here per PLAN §2. Full record in `data/analysis/rsi/`.
+
+- **§6.4 = all-flat, branch 2, with a permutation control.** No channel beats its own null
+  (0.25–0.52×); the 27–36% `in_argmax` figures were argmax sets covering ~59% of the candidate list.
+  The plan's tie-collapse hypothesis rested on a number about PMI, not about the kober channel, and
+  `op5` — its only invented node — already existed as `aggregator_bakeoff.py`'s TWO-STAGE aggregator:
+  0.0% top1, 0.44× its control.
+- **Reference number.** π₀ (`return []`) scores **V = 0.000 on dev and holdout** and is optimal at
+  β₁ ∈ {0.5, 1.0, 2.0}; the transcribed control policy scores −4.500 / −3.694 and the post-hoc
+  clairvoyant bound the same. Total quality across the whole tree is 0.02. No ranking flips, so the
+  negative is not an artifact of the cost calibration.
+- **K2** fires on its strict wording (10 replayable nodes < 12) and passes §8.6's (13 nodes ≥ 12);
+  both counts are stated in the pool's README rather than reconciled by adding nodes. **K3** is
+  decided: no candidate beats the pre-registered reference, Phase 5's entry condition is not met (no
+  traversal reaches the same quality with fewer nodes), so Phase 5 was not built.
+- **One channel no part of this covers.** `frame_link_test.py`'s context-profile series rate: 35.7%
+  against a 22.5% majority baseline (1.59×), the strongest number this project has recorded. It is
+  measured on 70 draws with **no same-draw null** — the script's own 1.3% uniform figure is the wrong
+  null for a class metric — so it is carried in the tree as an unvalidated sub-metric, not a result.
+  That is the one live thread, and it is a channel, not an optimizer.
+

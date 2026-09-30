@@ -11,7 +11,8 @@
 
 ## Results (appended after the run)
 
-- recovery: 0.0000 vs chance 0.0208 → lift 0.00x
+- recovery: 0.0063 vs chance 0.0273 → lift 0.23x
 - verdict: **NO SIGNAL** (gate > 1.5x — pre-registered)
 - total hidden signs scored: 160
 
+Signs recovered in every trial they appeared in: AB 01 (1/8 trials)

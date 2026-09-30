@@ -323,12 +323,12 @@ class TripleDetector:
             if not both_neighbors_s1:
                 continue
 
-            for s2 in c_neighbors_s1:
+            for s2 in sorted(c_neighbors_s1):
                 if s2 == s1:
                     continue
                 v_neighbors_s2 = v_graph.get(s2, set())
                 candidates = v_neighbors_s2 & both_neighbors_s1
-                for s3 in candidates:
+                for s3 in sorted(candidates):
                     if s3 in (s1, s2):
                         continue
                     triple_key = tuple(sorted([s1, s2, s3]))
@@ -389,6 +389,16 @@ class TripleDetector:
 
         logger.info("Built %d triple patterns (≥2 UNCERTAIN, common≥%d)",
                     len(self.triples), MIN_COMMON)
+
+        # Canonicalise the file order. The discovery loop walks sets, so the append
+        # order — and with it `triple_id` and the positional s1/s2/s3 roles that
+        # `complete.py:_load_kober` reads the C/V distinction from — was a per-process
+        # permutation. Sorting here makes the artifact byte-reproducible: same triples,
+        # same ids, same roles, every run. See data/analysis/rsi/phase0.md D1.
+        self.triples.sort(key=lambda t: tuple(sorted(
+            (t["sign_1"], t["sign_2"], t["sign_3"]))))
+        for i, t in enumerate(self.triples, 1):
+            t["triple_id"] = i
 
     # ------------------------------------------------------------------
     # Full pipeline
