@@ -661,6 +661,22 @@ Recorded here per PLAN §2. Full record in `data/analysis/rsi/`.
   not about the kober channel, and `op5` — its only invented node — already existed as
   `aggregator_bakeoff.py`'s TWO-STAGE aggregator: 0.0% unique argmax, `in_argmax` 8.5% vs a 7.0%
   null.
+- **§6.4's question is now answered by search, not by example.** `op2g`
+  (`weight_space_search.py`) sweeps the whole 4-channel weight simplex — 1,771 vectors on a 0.05
+  grid, dev/holdout split by trial, winner reported once — and **zero vectors recover even one
+  hidden value**, on dev or holdout. Restricting to draws where the true value *is* a candidate
+  (117 dev / 154 holdout) isolates the question from D4 and the answer is still zero. The identical
+  search with a permuted truth finds 2.8% (max 3.8%), and 2.7% (max 6.0%) on the identifiable
+  subset: **the true value is less likely to be the unique argmax than a random candidate is.** So
+  `METHOD_CLOSURE_PAPER.md` §8's "the objective has no resolution to optimize" holds by search over
+  the convex simplex, and PLAN §6.4's tie-break hypothesis is dead for weight vectors generally,
+  not merely for the two-stage aggregator that implemented it.
+  *Deviation, recorded:* PLAN §13 forbids optimizers. This is a bounded one-shot sweep used to
+  falsify a published claim, with a holdout and a matched control for the best-of-N effect, and
+  nothing is fed back into a loop — its result confirms §13's reasoning rather than contradicting
+  it. It also places the two defects in order: aggregation first (0 of 1,771 vectors, even with the
+  answer present), candidate generation second (~46% of draws void), so fixing D4 first would
+  recover nothing.
 - **Two corrections to earlier claims in this addendum's own series, both recorded rather than
   quietly fixed.** (i) `aggregator_bakeoff.py`'s "67/47/59/100%" figures are *not* stale: three of
   them reproduce as `in_argmax` (ties allowed), which is argmax-set size, not identification —

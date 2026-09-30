@@ -409,6 +409,39 @@
    "cost_estimated": true,
    "source": "data/analysis/rsi/identifiable_subset.py --trials 25 (2026-10-01); pipeline/oracle_diagnose.py parts B-D",
    "note": "Corrects the DENOMINATOR for op2b/op2c, and corrects one of this project's own nulls. Two separate defects in how the earlier numbers were read:\n1. Membership. The true value is a candidate on only 54.2% of draws here, and on 36.2% of oracle_diagnose part B's 80 draws - so on ~half of all draws NO aggregator can be right, and averaging them in dilutes every rate by ~2x.\n2. The null had 100% membership. phase0_null_control.py replaced the truth with a candidate DRAWN FROM the candidate list, so its 'truth' was always present while the real truth was present ~40-54% of the time. The null was solving an easier problem, and its 0.25-0.52x win was that asymmetry as much as flatness. This node recomputes everything conditional on the truth being in the list, with a within-subset null (a random OTHER candidate from the same list).\nWith the corrected denominator the conclusion SURVIVES, and for the right reasons:\n  * unique argmax is 0.0% for all nine channels, even on identifiable draws. The closure paper's \u00a74.1 claim holds.\n  * in_argmax equals its mechanical tie rate (morph 66.1% vs 66.8% null; entropy 50.2 vs 50.9; prefix 52.8 vs 53.9). The high in_argmax figures were argmax-set SIZE, not orientation - and the argmax sets are huge (morph's covers two thirds of the candidate list).\n  * mean rank is at the null for every channel (0.406-0.507 vs 0.488-0.503): no channel orders the truth above a random candidate even in the favourable subset.\n  * TWO-STAGE (op5) in the subset: in_argmax 8.5% vs 7.0% null. PLAN \u00a76.4's tie-collapse hypothesis is dead under the corrected denominator too.\nIt also resolves the apparent contradiction PLAN \u00a76.4 was built on. aggregator_bakeoff.py's docstring says the components rank truth top-1 at 67/47/59/100% - measured here as in_argmax (ties allowed), morph 67~66, entropy 47~50 and prefix 59~53 DO reproduce; they are argmax-set size, not identification. KOBER's 100% is the one that does not reproduce: 8.9% here, 4.8% averaged over all draws. oracle_diagnose part C prints the same ties-allowed quantity under the label 'top-1', which is where the misreading starts; its 69/59/55 for morph/entropy/prefix match this node's in_argmax figures.\nPractical consequence: candidate generation, not aggregation, is the first fixable defect - ~46% of draws are void before any scoring happens. The aggregation defect is second (the shipped sum is BELOW its own components: 5.2% vs 66.1% in_argmax). Neither is fixable by a better optimiser, which is what the closure paper \u00a78 says."
+  },
+  {
+   "id": "op2g-weight-space-search",
+   "parent": "op2b-aggregator-bakeoff",
+   "evidence_class": "distributional",
+   "is_world_expanding": false,
+   "lift": null,
+   "metrics": {
+    "exact": 0.0,
+    "vectors": 1771,
+    "grid_step": 0.05,
+    "dev_draws": 240,
+    "dev_vectors_recovering_anything": 0,
+    "holdout_draws": 260,
+    "holdout_best": 0.0,
+    "identifiable_dev": 117,
+    "identifiable_holdout": 154,
+    "identifiable_vectors_recovering_anything": 0,
+    "perm_control_mean": 0.028,
+    "perm_control_max": 0.038,
+    "perm_control_identifiable_mean": 0.027,
+    "perm_control_identifiable_max": 0.06
+   },
+   "primary_metric": "exact",
+   "values_recovered": 0,
+   "n_draws": 500,
+   "control_ok": true,
+   "leak_ok": true,
+   "verdict": "NO SIGNAL",
+   "cost_hours": 0.5,
+   "cost_estimated": true,
+   "source": "data/analysis/rsi/weight_space_search.py --trials 25 (2026-10-01), from the cached shipped-config draws",
+   "note": "The exhaustive version of op2b, and the answer to PLAN \u00a76.4's actual question. Eight hand-picked aggregators are not a search, so the whole 4-channel weight simplex was swept on a 0.05 grid: 1,771 vectors, evaluated on a dev half of the draws, the winner reported ONCE on the holdout half (PLAN \u00a710.4's discipline).\nResult: ZERO of 1,771 vectors recover even one hidden value, on dev or holdout. Not one. The vertices are included, so single-channel aggregators are covered; lexicographic chains collapse to their first channel when ties are rare, which the continuous channels make them.\nAnd with the candidate-generation defect (D4) removed from the question - --identifiable-only, 117 dev / 154 holdout draws where the true value IS a candidate - it is still zero of 1,771.\nThe permutation control runs the IDENTICAL search with the truth replaced by a random other candidate: best-of-1,771 finds 2.8% (max 3.8%) over all draws and 2.7% (max 6.0%) on the identifiable subset. So the true value is LESS likely to be the unique argmax than a random candidate is - anti-signal, which is the same shape as op2e's 0.18x within-class result and consistent with an objective that rewards typicality.\nConsequences: (1) METHOD_CLOSURE_PAPER.md \u00a78's 'the objective has no resolution to optimize' now holds BY SEARCH over the whole convex simplex, not by eight examples; (2) PLAN \u00a76.4's tie-break hypothesis is dead for weight vectors generally, not just for the TWO-STAGE aggregator that implemented it; (3) the aggregation defect is independent of D4, so fixing candidate generation first would still recover nothing.\nDeviation recorded: PLAN \u00a713 says 'an optimizer (beam, annealing, Optuna): never'. This is a bounded one-shot sweep used to falsify a published claim about the objective, with a holdout and a matched-control null for the best-of-N selection effect - not method search, and nothing is fed back into any loop. Its result confirms the reasoning behind \u00a713's prohibition rather than contradicting it."
   }
  ]
 }

@@ -11,7 +11,8 @@
   "op2c-in-argmax-null-control",
   "op2d-context-profile-class",
   "op2e-class-restriction-ceiling",
-  "op2f-identifiable-subset"
+  "op2f-identifiable-subset",
+  "op2g-weight-space-search"
  ],
  "holdout": [
   "op3-frame-sharing",
@@ -55,6 +56,14 @@
    ],
    "rule": "Same rule: parent in dev -> dev; the holdout never grows.",
    "why": "A correction node is part of the discovery history the pool records."
+  },
+  {
+   "date": "2026-10-01",
+   "added_to_dev": [
+    "op2g-weight-space-search"
+   ],
+   "rule": "Same rule: parent in dev -> dev; the holdout never grows.",
+   "why": "The exhaustive version of op2b belongs in the branch it completes."
   }
  ],
  "why": {

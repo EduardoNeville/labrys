@@ -9,7 +9,7 @@ frontier is a data structure instead of a list in a paper.
 
 ## What is in the pool
 
-`tree.json` — 17 nodes, **14 replayable + 3 world-expanding**.
+`tree.json` — 18 nodes, **15 replayable + 3 world-expanding**.
 
 | branch | nodes | outcome |
 | root | `op1-shipped-scorer` | 0.00×, 0 recovered, NO SIGNAL (reproduces; guard 8) |
@@ -22,6 +22,7 @@ frontier is a data structure instead of a list in a paper.
 | stronger search | `op2a-coordinate-ascent-4inits` | 0/60 — search is not the limit |
 | aggregators | `op2b-aggregator-bakeoff` | 8 aggregators, unique argmax 0.0% for all |
 | control | `op2c-in-argmax-null-control` | every channel *below* its permutation null (0.25–0.52×) |
+| the exhaustive version | `op2g-weight-space-search` | **0 of 1,771 weight vectors recover one value** — and 0 of 1,771 with the answer guaranteed present |
 | Kober's own relation | `op3-frame-sharing` | 0.85× / 0.98× / 0.88× / 0.95×, n=71,804 |
 | per-sign use of it | `op3a-link-vote-and-context-profile` | series 22.9% vs 22.5% majority = 1.02× |
 | Ventris's method | `op4-slot-alternation-A`, `op4b-minimal-pair-B` | anti-predictive (0.51×), then signal/control converge (0.98×) |
@@ -42,8 +43,8 @@ aggregators are one node. Counting them individually would clear K2 by construct
 is precisely the game the recomputed-verdict rule exists to prevent.
 
 **K2 status.** K2 fires if the backfill yields "< 12 replayable nodes"; §8.6's gate is "tree.json
-has ≥ 12 nodes". The pool now has **14 replayable** and **17 total**, so **K2 fires under neither
-reading** — and the margin came from discovery continuing (`op2d`, `op2e`, `op2f`), not from
+has ≥ 12 nodes". The pool now has **15 replayable** and **18 total**, so **K2 fires under neither
+reading** — and the margin came from discovery continuing (`op2d`–`op2g`), not from
 padding: each is one hypothesis with one primary metric and a recorded outcome, and the counting
 rule is stated above so a reviewer can disagree and recount. Earlier in the build it stood at 10
 replayable, when K2 fired on its strict wording; both counts were reported at the time rather than
@@ -128,9 +129,18 @@ changed the draw sequence it was controlling.
 max `s_v` with fewer `N` — `clairvoyant` and `control` both reach 0.02 with N=4 on the
 holdout, and both lose to stopping. Phase 5 is not built.
 
-## Three structural limits found while building this
+## Four structural limits found while building this
 
-1. **Branch choice is not expressible in this replay.** A policy selects parents; each
+1. **The aggregation has no resolution at all, verified by search.** `op2g` sweeps the whole
+   4-channel weight simplex (1,771 vectors, 0.05 grid) on a dev half of the draws and reports the
+   winner once on the holdout: **zero vectors recover even one value**, and zero as well when the
+   question is isolated from candidate generation by keeping only draws where the answer *is* a
+   candidate. The identical search on a permuted truth finds 2.7–2.8%, so the true value is *less*
+   likely to be the unique argmax than a random candidate is. `METHOD_CLOSURE_PAPER.md` §8's claim
+   now holds by search rather than by eight examples, and PLAN §6.4's tie-break hypothesis is dead
+   for weight vectors generally — not just for the two-stage aggregator that implemented it.
+
+2. **Branch choice is not expressible in this replay.** A policy selects parents; each
    parent reveals its next child in file order. So "go to op3 rather than op1a" cannot be
    said. The policy's real decisions are pace (batch size), stopping, and — because
    `x1`/`x2`/`x3` are children of `op1` — whether to keep widening until an acquisition is
@@ -138,13 +148,13 @@ holdout, and both lose to stopping. Phase 5 is not built.
    data?") is therefore weaker than intended: the acquisition is reached by continuing,
    not by preferring. Fixing it needs an action space over *children*, which is a change
    to §10.1's replay, not to the policy.
-2. **The committed oracle scored 2 distinct hidden sets, not 8** — and the repair moved the
+3. **The committed oracle scored 2 distinct hidden sets, not 8** — and the repair moved the
    result. `score_completion` reseeded the global RNG mid-loop; fixed with a private RNG. The
    scoring path is bit-identical (3,311 component tuples) but the oracle now reports **1/160,
    lift 0.23×, still NO SIGNAL**: the single hit is `AB 01`, hidden in 1 of 8 trials, via a tie
    resolved by candidate-list order. Full mechanism, numbers and the cache-key consequence in
    `phase0.md` (D1, D2, D3).
-3. **The candidate generator removes the answer before scoring starts.** The true value is a
+4. **The candidate generator removes the answer before scoring starts.** The true value is a
    candidate on 36.2–54.2% of draws, so roughly half of every recovery figure in this project
    measures a question that was already unanswerable, and the two aggregation defects sit *behind*
    this one. Also: an earlier null control of **mine** had 100% membership (it drew its "truth"
