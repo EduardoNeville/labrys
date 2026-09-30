@@ -192,6 +192,102 @@ def report_known_defects() -> None:
     print(f"    asserts a value for an unencoded sign ({len(unver)}): {', '.join(unver)}")
 
 
+# ── 8. the Dream-RSI seam (PLAN §7.2, §10.5) ────────────────────────────────
+def g_rsi_seam() -> str:
+    """`evaluate(shipped)` must reproduce the committed oracle result.
+
+    Asserts the gate quantities — lift, recovered, verdict — not `chance`. The
+    committed chance (0.0208) belongs to a draw sequence in which trials 2-8 repeat
+    trial 2's hidden set, because `score_completion` reseeds the global RNG
+    (phase0.md D2). Over 8 independent draws the same quantity is 0.0273. Asserting
+    the gate quantities is what K4 asks for; asserting `chance` would enshrine a defect.
+    """
+    from pipeline.rsi_evaluate import SHIPPED_METHOD, evaluate
+
+    node = evaluate(SHIPPED_METHOD)
+    m = node["metrics"]
+    assert node["lift"] == 0.0, f"lift {node['lift']} != committed 0.00x"
+    assert node["values_recovered"] == 0, \
+        f"recovered {node['values_recovered']} != committed 0"
+    assert node["verdict"] == "NO SIGNAL", \
+        f"verdict {node['verdict']} != committed NO SIGNAL"
+    assert node["n_draws"] == 160, f"{node['n_draws']} draws != committed 160"
+    assert m["exact_chance"] > 0, "no chance baseline computed in the same run"
+    return (f"shipped config: lift {node['lift']:.2f}x, {node['values_recovered']} "
+            f"recovered, {node['verdict']} over {node['n_draws']} independent draws "
+            f"(chance {m['exact_chance']:.4f}; committed 0.0208 over its own "
+            f"entangled sequence)")
+
+
+def g_rsi_no_leak_path() -> str:
+    """INVARIANT 3: the only path to the components is collect().
+
+    Textual, in the style of g_oracle_chance: any direct `score_completion(` call in
+    rsi_evaluate.py would be a path that can omit `confirmed_override` and read a
+    hidden sign's real value.
+    """
+    src = (PIPELINE / "rsi_evaluate.py").read_text(encoding="utf-8")
+    offenders = [ln for ln in src.splitlines()
+                 if "score_completion(" in ln and not ln.strip().startswith("#")]
+    assert not offenders, f"direct score_completion call in rsi_evaluate: {offenders}"
+    assert "collect(" in src, "rsi_evaluate does not route through collect()"
+    return "components come only from collect() (which always passes confirmed_override)"
+
+
+# ── 9. replay (PLAN §10.5) ───────────────────────────────────────────────────
+def _rsi_replay_all() -> str:
+    import json
+
+    from pipeline.rsi_policy import POLICIES
+    from pipeline.rsi_replay import report
+    from pipeline.rsi_tree import TREE, load
+
+    tree = load(TREE)
+    split = json.loads((TREE.parent / "split.json").read_text(encoding="utf-8"))
+    return json.dumps({name: report(tree, POLICIES[name], name, split, {})
+                       for name in POLICIES}, sort_keys=True)
+
+
+def g_rsi_replay_determinism() -> str:
+    """Same tree + policy twice -> byte-identical output."""
+    from pipeline.rsi_tree import TREE
+
+    if not TREE.exists():
+        return "skipped (no tree)"
+    assert _rsi_replay_all() == _rsi_replay_all(), "replay is not deterministic"
+    return "replay is bit-reproducible across all four policies"
+
+
+def g_rsi_monotone_select() -> str:
+    """argmax over a set containing pi_0 never scores below pi_0 (PLAN §10.5).
+
+    Guaranteed, because pi_0 is always a candidate. The guard exists to catch the code
+    not doing it — so it also checks the pre-registered reference number itself.
+    """
+    import json
+
+    from pipeline.rsi_policy import POLICIES
+    from pipeline.rsi_replay import report
+    from pipeline.rsi_tree import TREE, load
+
+    if not TREE.exists():
+        return "skipped (no tree)"
+    tree = load(TREE)
+    split = json.loads((TREE.parent / "split.json").read_text(encoding="utf-8"))
+    scores = {name: report(tree, POLICIES[name], name, split, {})
+              for name in POLICIES}
+    assert "stop" in scores, "pi_0 is not in the candidate set"
+    for part in ("dev", "holdout"):
+        pi0 = scores["stop"][part]["V"]
+        best = max(s["V"] for s in (x[part] for x in scores.values()))
+        assert best >= pi0 - 1e-9, f"argmax {best} < pi_0 {pi0} on {part}"
+        assert pi0 == 0.0, f"pi_0 does not score 0 on {part} ({pi0})"
+    best = max(scores, key=lambda n: scores[n]["dev"]["V"])
+    return (f"pi_0 is in the candidate set and scores 0.00; best on dev is {best} "
+            f"({scores[best]['dev']['V']:+.3f}), holdout "
+            f"{scores[best]['holdout']['V']:+.3f}")
+
+
 def main() -> None:
     guard("no value leak in corpus tables", g_leak)
     guard("phonetic constants complete + subscript-safe", g_phonetics)
@@ -200,6 +296,10 @@ def main() -> None:
     guard("candidates honour the anchor override", g_candidate_override)
     guard("oracle chance baseline uses effective anchors", g_oracle_chance)
     guard("glyph columns follow Unicode names", g_glyphs)
+    guard("rsi seam reproduces the committed oracle", g_rsi_seam)
+    guard("rsi has no direct score_completion path", g_rsi_no_leak_path)
+    guard("rsi replay is deterministic", g_rsi_replay_determinism)
+    guard("rsi argmax never scores below pi_0", g_rsi_monotone_select)
 
     print("=== Labrys guards ===")
     for name, ok, detail in RESULTS:

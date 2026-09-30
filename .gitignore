@@ -49,3 +49,6 @@ data/analysis/eteocypriot/positional/
 data/analysis/eteocypriot/ngram/
 data/analysis/eteocypriot/ventris/
 data/analysis/eteocretan/ventris_report.md
+
+# Dream-RSI component cache (PLAN.md §12)
+data/analysis/rsi/cache/
