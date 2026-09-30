@@ -349,6 +349,62 @@ def g_kober_triples_canonical() -> str:
     return f"{len(rows)} triples, canonical order, enumeration sorted"
 
 
+def g_rsi_tree_consistent() -> str:
+    """The pool, its verdicts and its split must agree (PLAN §8.5, §9).
+
+    Catches the drift that actually happened while building this: a node appended to the tree
+    but never added to the split (op2d), which silently kept the loop's only live channel out
+    of the pool. Enforcement is a three-way partition — dev / holdout / recorded_only — so an
+    intentional exclusion stays visible instead of looking like an oversight.
+
+    K2's pre-registered count is REPORTED, not asserted: too few replayable nodes is a scope
+    decision (stop searching), not an incoherent artifact, and a guard that fails on it would
+    block a legitimate state.
+    """
+    import json
+
+    from pipeline.rsi_tree import TREE, primary_lift, verdict_for
+    from pipeline.rsi_tree import load as load_tree
+
+    tree = load_tree(TREE)
+    if not tree["nodes"]:
+        return "skipped (no tree)"
+    ids = [n["id"] for n in tree["nodes"]]
+    assert len(set(ids)) == len(ids), "duplicate node ids in the tree"
+    known = set(ids)
+    for n in tree["nodes"]:
+        assert n["parent"] is None or n["parent"] in known, \
+            f"{n['id']}: parent {n['parent']!r} is not in the tree"
+        assert "cost_hours" in n, f"{n['id']}: no cost_hours"
+        if n["is_world_expanding"]:
+            assert n["values_recovered"] is None, f"{n['id']}: world node carries a score"
+            assert n["verdict"] == "N/A", f"{n['id']}: world node has a verdict"
+        else:
+            want = verdict_for(primary_lift(n))
+            assert n["verdict"] == want, \
+                f"{n['id']}: verdict {n['verdict']!r} drifted from gate({want!r})"
+    roots = [n["id"] for n in tree["nodes"] if n["parent"] is None]
+    assert roots == [tree["root"]], f"root mismatch: single root is {tree['root']}, found {roots}"
+
+    split = json.loads((TREE.parent / "split.json").read_text(encoding="utf-8"))
+    dev, hold = set(split["dev"]), set(split["holdout"])
+    only = set(split.get("recorded_only", {}))
+    assert not (dev & hold), f"node in both halves: {sorted(dev & hold)}"
+    assert not (dev & only) and not (hold & only), "a node is both played and recorded-only"
+    missing = known - dev - hold - only
+    assert not missing, f"nodes in no part of the split: {sorted(missing)}"
+    extra = (dev | hold | only) - known
+    assert not extra, f"split names nodes that do not exist: {sorted(extra)}"
+
+    replayable = [n for n in tree["nodes"] if not n["is_world_expanding"]]
+    played = [n for n in replayable if n["id"] in dev | hold]
+    k2 = (f"K2 {"fires" if len(played) < 12 else "passes"} "
+          f"({len(played)} replayable nodes played")
+    return (f"{len(tree['nodes'])} nodes, {len(replayable)} replayable, verdicts recompute, "
+            f"split covers every node once ({len(dev)} dev / {len(hold)} holdout / "
+            f"{len(only)} recorded-only); {k2}")
+
+
 def main() -> None:
     guard("no value leak in corpus tables", g_leak)
     guard("phonetic constants complete + subscript-safe", g_phonetics)
@@ -363,6 +419,7 @@ def main() -> None:
     guard("rsi argmax never scores below pi_0", g_rsi_monotone_select)
     guard("scoring leaves the global RNG alone", g_rsi_score_rng_isolated)
     guard("kober triples are canonically ordered", g_kober_triples_canonical)
+    guard("rsi tree, verdicts and split are consistent", g_rsi_tree_consistent)
 
     print("=== Labrys guards ===")
     for name, ok, detail in RESULTS:

@@ -23,6 +23,9 @@
   "x2-anetaki-ii",
   "x3-bilingual-find"
  ],
+ "recorded_only": {
+  "op1b-seventh-defect-repair": "Appended after this split was frozen. It is a repair node on the dev spine, so adding it to dev would not touch the holdout - but it would be a post-hoc edit of a pre-registration record, and its quality term is 0, so it would change no policy's V. Recorded, not smuggled in. Guard 14 enforces that every node is in exactly one of dev / holdout / recorded_only, so this exclusion stays visible and intentional."
+ },
  "amendments": [
   {
    "date": "2026-10-01",
