@@ -343,6 +343,35 @@
    "cost_estimated": true,
    "source": "pipeline/frame_link_test.py --language linear-b --trials 25 (2026-10-01)",
    "note": "The retrace's open item 1 (a per-sign channel that models the sign itself), measured against a same-draw permutation control: 25 trials x 20 hidden = 500 independent draws. The null gets its own RNG stream so the control cannot perturb the draw sequence it controls.\nPRIMARY is series-vs-majority at 1.21x - chosen over the better class number, per PLAN \u00a77.1's rule that a node must not be scored on the best of its metrics. INCONCLUSIVE (0.5-1.5) and below the pre-registered 1.5x.\nThe (series,vowel) class axis is stronger: 9.6% exact class pick vs a 2.4% majority baseline (4.00x) and a 2.4% permutation null (3.93x) - the strongest controlled result in this project. Recorded as a metric and claimed as nothing more: the 1.5x gate was pre-registered for exact-value lift over uniform chance, and a class is not a value.\nExact value is 0.0% BY CONSTRUCTION: in a syllabary one value belongs to one sign, so hiding the sign removes its value from the anchor set and the anchor support of the only right candidate is empty. No hide-N-recover instrument can measure a value-level per-sign channel; it can measure class information only. That is a structural reason for METHOD_CLOSURE_PAPER.md \u00a74.1, not an empirical one.\nTwo corrections made before committing this node, both recorded because they are the project's own failure modes: (1) at 73 draws the series rate read 1.52x, above the gate, against a null stable at 14.7% - small-sample noise, which is why n=500 is recorded here; (2) the channel was first called per hidden sign instead of per trial, overstating n by 20x (8820 -> 500) with rates unaffected."
+  },
+  {
+   "id": "op2e-class-restriction-ceiling",
+   "parent": "op2d-context-profile-class",
+   "evidence_class": "distributional",
+   "is_world_expanding": false,
+   "lift": null,
+   "metrics": {
+    "exact": 0.18,
+    "within_class_rate": 0.085,
+    "within_class_chance": 0.474,
+    "tie_lenient_rate": 0.352,
+    "tie_lenient_lift": 0.74,
+    "mean_class_size": 2.32,
+    "class_available_rate": 0.444,
+    "truth_survives_given_class": 1.0,
+    "end_to_end_estimate": 0.0081,
+    "uniform_chance": 0.025
+   },
+   "primary_metric": "exact",
+   "values_recovered": 0,
+   "n_draws": 160,
+   "control_ok": true,
+   "leak_ok": true,
+   "verdict": "NO SIGNAL",
+   "cost_hours": 0.5,
+   "cost_estimated": true,
+   "source": "data/analysis/rsi/class_restriction_ceiling.py (2026-10-01), from the cached shipped-config draws",
+   "note": "Ceiling for op2d, and the reason its class signal is not convertible. The true (series,vowel) class is handed over FOR FREE - this is an oracle restriction, not the channel's 9.6% prediction - so it is generous to the channel in the only direction that matters.\nResult: within a 2.32-candidate class, the shipped scorer picks the right member 8.5% of the time against a 47.4% chance rate = 0.18x = NO SIGNAL. Tie-lenient (truth in the argmax set) 35.2% = 0.74x. The scorer is WORSE THAN RANDOM among class peers: it actively prefers the less typical member, which is what a frequency/typicality objective does.\nConsequence: no improvement to the class channel - not even a perfect one - can yield values with this scorer. End-to-end estimate 0.096 x 0.085 = 0.81% absolute against a 2.5% uniform chance rate (0.33x). Ceiling, not sample size, is the binding constraint.\nAlso measured: the true class is only present in the candidate list on 44.4% of draws, and when present the truth always survives within it - the restriction is sound, the candidate generation is what removes the answer.\nPre-registered before the run in the script's docstring: within-class accuracy at or below 1/|class|. It held (0.18x). Recording it as a prediction that was written down first, and confirmed, is the only thing that distinguishes this from a number found and then explained."
   }
  ]
 }

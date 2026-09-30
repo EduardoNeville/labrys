@@ -1,6 +1,6 @@
 {
  "preregistered": true,
- "statement": "Subtree-aware split, decided before any policy file exists (PLAN.md §9). Whole branches are held out: holding out a child whose parent is in dev means replay can never reach it and the holdout measures nothing.",
+ "statement": "Subtree-aware split, decided before any policy file exists (PLAN.md \u00a79). Whole branches are held out: holding out a child whose parent is in dev means replay can never reach it and the holdout measures nothing.",
  "rule": "Hold out whole branches, never random nodes.",
  "dev": [
   "op1-shipped-scorer",
@@ -9,7 +9,8 @@
   "op2a-coordinate-ascent-4inits",
   "op2b-aggregator-bakeoff",
   "op2c-in-argmax-null-control",
-  "op2d-context-profile-class"
+  "op2d-context-profile-class",
+  "op2e-class-restriction-ceiling"
  ],
  "holdout": [
   "op3-frame-sharing",
@@ -23,19 +24,37 @@
  "amendments": [
   {
    "date": "2026-10-01",
-   "added_to_dev": ["op2d-context-profile-class"],
+   "added_to_dev": [
+    "op2d-context-profile-class"
+   ],
    "rule": "A node discovered after the split joins dev if its parent is in dev. The holdout never grows: a class the policy has not seen stays unseen, which is the only property this file exists to protect.",
-   "why": "Dream-RSI's premise is that the pool expands as discovery proceeds (§1), so a frozen dev side is not the intent - a frozen holdout is. op2d is the first node in the tree with a positive quality term (s_v = 0.17), so excluding it would have left the loop's only live channel outside the pool.",
-   "holdout_untouched": ["op3-frame-sharing", "op3a-link-vote-and-context-profile", "op4-slot-alternation-A", "op4b-minimal-pair-B", "x1-cm-corpus", "x2-anetaki-ii", "x3-bilingual-find"]
+   "why": "Dream-RSI's premise is that the pool expands as discovery proceeds (\u00a71), so a frozen dev side is not the intent - a frozen holdout is. op2d is the first node in the tree with a positive quality term (s_v = 0.17), so excluding it would have left the loop's only live channel outside the pool.",
+   "holdout_untouched": [
+    "op3-frame-sharing",
+    "op3a-link-vote-and-context-profile",
+    "op4-slot-alternation-A",
+    "op4b-minimal-pair-B",
+    "x1-cm-corpus",
+    "x2-anetaki-ii",
+    "x3-bilingual-find"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "added_to_dev": [
+    "op2e-class-restriction-ceiling"
+   ],
+   "rule": "Same rule as the first amendment: a node discovered after the split joins dev if its parent is in dev; the holdout never grows.",
+   "why": "op2e is the ceiling for op2d, so it belongs in the branch the policy may learn on. Its quality term is 0 (it is a negative result), so it only adds the cost of reaching it."
   }
  ],
  "why": {
   "dev": "The spine. Everything downstream of op1 exists because op1 was flat, so it cannot be learned from any other branch.",
-  "op3-frame-sharing": "Kober's recorded relation on a deciphered script. The real generalisation test: can a dev-tuned policy triage a class it has never seen? (op3a rides with it — same branch.)",
+  "op3-frame-sharing": "Kober's recorded relation on a deciphered script. The real generalisation test: can a dev-tuned policy triage a class it has never seen? (op3a rides with it \u2014 same branch.)",
   "op4-slot-alternation-A": "Ventris's actual method, and the most surprising negative. It must not be visible while the policy is tuned.",
   "op4b-minimal-pair-B": "Exists because A failed its own permutation control. Holding out the parent and not the child would make the child unreachable.",
-  "x1-cm-corpus": "Tests whether the policy ever chooses to stop searching and go get data. If a dev-tuned policy never selects it while every class is flat, the loop has learned to thrash (PLAN §9.3).",
+  "x1-cm-corpus": "Tests whether the policy ever chooses to stop searching and go get data. If a dev-tuned policy never selects it while every class is flat, the loop has learned to thrash (PLAN \u00a79.3).",
   "x2-anetaki-ii": "Second acquisition option, so 'get data' is a choice and not a single named action.",
-  "x3-bilingual-find": "Third, child of x1: semantic anchors are evidence class #1 in the closure paper §7."
+  "x3-bilingual-find": "Third, child of x1: semantic anchors are evidence class #1 in the closure paper \u00a77."
  }
 }

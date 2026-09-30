@@ -590,6 +590,8 @@ anchor (from a new text, from Cypro-Minoan, or from a newly proposed place name)
 **Conclusion of the Phase 12 audit series: the existing corpus contains no anchor capable of
 deciphering Linear A. Progress requires material the repository does not hold.**
 
+*(Phase 13 continues below: the Linear B instrument repairs, and the Dream-RSI method search.)*
+
 ---
 
 ## Phase 13 Addendum — the Linear B instrument, and the Dream-RSI method search (2026-10-01)
@@ -684,4 +686,12 @@ Recorded here per PLAN §2. Full record in `data/analysis/rsi/`.
   substantial positive quality term (s_v = 0.21). Reaching it costs five reveals, so acting
   beats π₀ only if β₁ < 0.142 h/node — a cost model under which only free re-weighting pays,
   never a new channel.
+- **And it is not convertible even at β₁ = 0.** `op2e` hands the class over *for free* (an
+  oracle restriction) and the shipped scorer still picks the right member of a 2.32-candidate
+  class 8.5% of the time against a 47.4% chance rate — **0.18×, worse than random**, the
+  signature of an objective that rewards typicality and therefore avoids the truth among its
+  class peers. Tie-lenient: 35.2% (0.74×). End-to-end estimate 0.096 × 0.085 = 0.81% absolute
+  against a 2.5% uniform chance rate. So the class signal cannot be converted into values by
+  this scorer: the binding constraint is the objective, not the channel and not the corpus.
+  The within-class prediction was written into the script before the run and held.
 

@@ -9,7 +9,7 @@ frontier is a data structure instead of a list in a paper.
 
 ## What is in the pool
 
-`tree.json` — 15 nodes, **12 replayable + 3 world-expanding**.
+`tree.json` — 16 nodes, **13 replayable + 3 world-expanding**.
 
 | branch | nodes | outcome |
 | root | `op1-shipped-scorer` | 0.00×, 0 recovered, NO SIGNAL (reproduces; guard 8) |
@@ -17,6 +17,7 @@ frontier is a data structure instead of a list in a paper.
 | repair | `op1b-seventh-defect-repair` | **the first repair that moves a number: 1/160, 0.23×, still NO SIGNAL** |
 | independent instrument | `op2-per-sign-instrument` | exact 0.00×, series 1.03×, vowel 1.00× — lands on the majority baseline |
 | the retrace's open item 1 | `op2d-context-profile-class` | series **1.21×** majority (2.01× permutation) — INCONCLUSIVE; exact value **void by construction** |
+| ceiling for it | `op2e-class-restriction-ceiling` | given the true class **for free**, the scorer is **0.18× chance** within it — worse than random |
 | stronger search | `op2a-coordinate-ascent-4inits` | 0/60 — search is not the limit |
 | aggregators | `op2b-aggregator-bakeoff` | 8 aggregators, unique argmax 0.0% for all |
 | control | `op2c-in-argmax-null-control` | every channel *below* its permutation null (0.25–0.52×) |
@@ -82,15 +83,15 @@ grows, because a class the policy has not seen stays unseen.
 
 | policy | dev V | holdout V |
 | **π₀ (`return []`)** | **0.000** | **0.000** |
-| control (closure paper §8, transcribed) | −5.290 | −3.694 |
-| clairvoyant (post-hoc upper bound) | −5.290 | −3.694 |
+| control (closure paper §8, transcribed) | −6.290 | −3.694 |
+| clairvoyant (post-hoc upper bound) | −6.290 | −3.694 |
 | acquire | 0.000 | 0.000 |
 
 **π₀ is optimal on both splits, at β₁ ∈ {0.5, 1.0, 2.0}** — the ranking does not flip, so
 the negative is not an artifact of the cost calibration (§10.4). K3 is decided: nothing beats
 the pre-registered reference, so there is nothing for a Phase 5 policy to win.
 
-### The one live node, and what it would cost to be worth reaching
+### The one live node, what it would cost to be worth reaching, and why it is not convertible
 
 `op2d` is the only node in the tree with a quality term worth much, `s_v = 0.21`. Reaching
 it costs five reveals (its parent chain, and a node's children are revealed in file order),
@@ -99,6 +100,14 @@ so a policy that acted would score `0.21 − 5β₁ + 0.5` and beat π₀ only i
 tree's best available information is **7× too expensive** to be worth reaching. That is
 PLAN §4's "the cost term is load-bearing" made quantitative: re-weighting existing channels
 is free and would pay; computing a new channel does not.
+
+And even at β₁ = 0 it would not pay, which `op2e` establishes as a **ceiling rather than a
+sample-size question**. Handing that channel the true class *for free* — an oracle
+restriction, generous in the only direction that matters — leaves the shipped scorer at
+**8.5% within-class accuracy against a 47.4% chance rate (0.18×), i.e. worse than random**
+among 2.32 class peers. Tie-lenient, the truth is in the argmax set 35.2% of the time (0.74×).
+So no improvement to the class channel, not even a perfect one, can yield values with this
+scorer: the binding constraint is the objective, not the channel and not the corpus.
 
 ### The measurement that produced it
 
