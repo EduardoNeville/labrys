@@ -9,11 +9,12 @@ frontier is a data structure instead of a list in a paper.
 
 ## What is in the pool
 
-`tree.json` — 13 nodes, **10 replayable + 3 world-expanding**.
+`tree.json` — 14 nodes, **11 replayable + 3 world-expanding**.
 
 | branch | nodes | outcome |
 | root | `op1-shipped-scorer` | 0.00×, 0 recovered, NO SIGNAL (reproduces; guard 8) |
 | repair | `op1a-six-defect-repair` | still 0.00× after six repairs |
+| repair | `op1b-seventh-defect-repair` | **the first repair that moves a number: 1/160, 0.23×, still NO SIGNAL** |
 | independent instrument | `op2-per-sign-instrument` | exact 0.00×, series 1.03×, vowel 1.00× — lands on the majority baseline |
 | stronger search | `op2a-coordinate-ascent-4inits` | 0/60 — search is not the limit |
 | aggregators | `op2b-aggregator-bakeoff` | 8 aggregators, unique argmax 0.0% for all |
@@ -39,9 +40,21 @@ is precisely the game the recomputed-verdict rule exists to prevent.
 
 **K2 status, stated both ways because the plan states it two ways.** K2 fires if the
 backfill yields "< 12 replayable nodes"; §8.6's gate is "tree.json has ≥ 12 nodes". The
-backfill yields **10 replayable** and **13 total**, so **K2 fires on its strict wording and
-§8.6's gate passes.** This was not resolved by adding nodes. The reviewer who disagrees
-with the counting rule above can recount from the table.
+backfill yields **11 replayable** (`op1b`, appended after the repair, is the eleventh) and
+**14 total**, so **K2 fires on its strict wording and §8.6's gate passes.** This was not
+resolved by adding nodes. The reviewer who disagrees with the counting rule above can recount
+from the table.
+
+**`op1b` post-dates `split.json`.** It is a repair node on the dev spine, so it is not in the
+pre-registered split and the replay does not traverse it. Adding it to dev would not have
+touched the holdout, but it would be a post-hoc edit of a frozen pre-registration — and because
+a repair node's `s_v` is 0 it would change no policy's `V` anyway. Recorded, not smuggled in.
+The append itself (the tree is append-only; this is the one node not written by `backfill.py`):
+
+```bash
+uv run python -c "import sys; sys.path.insert(0,'.'); from pipeline.rsi_tree import append; \
+  append({'id':'op1b-seventh-defect-repair','parent':'op1a-six-defect-repair', ...})"
+```
 
 ## Definitions the plan left open, fixed here in one place
 
@@ -90,10 +103,12 @@ holdout, and both lose to stopping. Phase 5 is not built.
    data?") is therefore weaker than intended: the acquisition is reached by continuing,
    not by preferring. Fixing it needs an action space over *children*, which is a change
    to §10.1's replay, not to the policy.
-2. **The committed oracle scored 2 distinct hidden sets, not 8.** `score_completion`
-   reseeds the global RNG mid-loop. K4 still passes (lift, recovery and verdict all
-   reproduce) but "160 hidden signs scored" is 40 distinct draws. Full mechanism, numbers
-   and consequence for the cache key in `phase0.md` (D1, D2).
+2. **The committed oracle scored 2 distinct hidden sets, not 8** — and the repair moved the
+   result. `score_completion` reseeded the global RNG mid-loop; fixed with a private RNG. The
+   scoring path is bit-identical (3,311 component tuples) but the oracle now reports **1/160,
+   lift 0.23×, still NO SIGNAL**: the single hit is `AB 01`, hidden in 1 of 8 trials, via a tie
+   resolved by candidate-list order. Full mechanism, numbers and the cache-key consequence in
+   `phase0.md` (D1, D2, D3).
 
 ## Files
 

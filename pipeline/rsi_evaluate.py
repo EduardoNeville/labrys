@@ -54,18 +54,21 @@ def _sha(path: Path) -> str:
 
 
 def _kober_digest(path: Path) -> str:
-    """Canonical content digest of the Kober triples.
+    """Canonical content digest of the Kober triples, roles preserved.
 
-    NOT the file's mtime or bytes: `lb_oracle.py` rewrites this file with a fresh
-    `triple_id` permutation on every run (same 60,155 triples, same 2,716 linked sign
-    pairs — verified in data/analysis/rsi/phase0.md), so an mtime key would never hit
-    and a byte key would invalidate the cache for no reason. Hashing the sorted
-    sign-triple set still catches a real corpus correction, which is the stated intent.
+    NOT the file's mtime or bytes: `lb_oracle.py` rewrites this file on every run, so an
+    mtime key would never hit (and before the D1 repair it re-permuted `triple_id` every
+    time, making a byte key useless too). `phase0.md` D1.
+
+    The roles s1/s2/s3 are kept in written order rather than sorted: `_load_kober` reads
+    the C/V distinction *from* them (s1<->s2, s1<->s3 -> C; s2<->s3, s1<->s3 -> V), so a
+    permutation of the roles changes the constraint graph and must invalidate the cache.
+    Rows themselves are sorted, because row order carries no meaning.
     """
     triples = set()
     with open(path, encoding="utf-8") as f:
         for r in csv.DictReader(f):
-            triples.add(tuple(sorted((r["sign_1"], r["sign_2"], r["sign_3"]))))
+            triples.add((r["sign_1"], r["sign_2"], r["sign_3"]))
     blob = "\n".join("|".join(t) for t in sorted(triples))
     return hashlib.sha1(blob.encode()).hexdigest()
 

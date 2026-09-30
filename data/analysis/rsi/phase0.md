@@ -113,50 +113,66 @@ the four existing channels, so Phase 0.3 does not touch it:
 That is a **new channel** in PLAN §4's cost model (hours, not seconds), and it is the only
 documented candidate for a node that is not flat. op5 was not it.
 
-## Three defects found while running Phase 0
+## Three defects found while running Phase 0 — all three repaired 2026-10-01
 
-**D1 — `lb_oracle.py` is not idempotent, and it edits a data file (INVARIANT 1).** It step 2
-regenerates `languages/linear-b/data/analysis/kober/triple_patterns.csv`. The regenerated file
-is *semantically* identical — verified: same 60,155 triples, same 2,716 linked sign pairs, ids
-a permutation of 1..N — but `triple_id` enumeration order and within-row sign order differ, so
-it lands as a 120,184-line diff and a permanently dirty working tree. The file was restored
-(`git checkout --`) after the run; content was unchanged, so no measurement here is affected.
-K4 still holds: `ventris_report.md` regenerates byte-identical.
+**D1 — `lb_oracle.py` is not idempotent, and it edits a data file (INVARIANT 1).** ~~Its step 2
+regenerates `languages/linear-b/data/analysis/kober/triple_patterns.csv` non-canonically.~~
+**REPAIRED.** Root cause was not the writer but the enumeration: `triple_detection.py` walked two
+`set`s of sign ids, so `triple_id` *and* the positional s1/s2/s3 roles were a per-process
+permutation — and `complete.py:_load_kober` reads the C/V distinction from those roles, so the
+constraint graph was not reproducible in principle, only in practice. Fixed by sorting both set
+iterations and canonicalising the file order.
+
+Verified unchanged: same 60,155 triples, same 2,667 C-pairs, same 2,564 V-pairs. Verified fixed:
+byte-identical across two independent runs. Guard 13 pins it. `ventris_report.md` regenerates
+byte-identical as before.
 
 **Consequence for the plan's cache key.** PLAN §7.1 step 1 keys the component cache on
 `mtime(triples)` "so a future corpus correction invalidates stale caches automatically". With a
-non-canonically-reserialized file, that mtime changes on **every** `lb_oracle.py` run — and
+non-canonically-reserialized file, that mtime changed on **every** `lb_oracle.py` run — and
 Phase 0.1 is a command the plan runs repeatedly. The cache would never hit. `rsi_evaluate.py`
-keys on the *canonical content* instead (`sha1` of the sorted sign-triple set, 2,716 stable
-pairs) plus the grid/freq/db digests. The stated intent is preserved by hashing content; the
-mtime does not do it.
+keys on the *canonical content* instead (`sha1` over all 60,155 rows with the s1/s2/s3 roles
+preserved). The stated intent is preserved by hashing content; the mtime does not do it. Note the
+digest deliberately keeps row roles rather than sorting them: the roles are what the C/V split is
+read from, so a role change must invalidate the cache, while a row reordering must not.
 
-**D2 — the committed oracle ran 2 distinct hidden-sign sets, not 8.** `score_completion`
+**D2 — the committed oracle ran 2 distinct hidden-sign sets, not 8.** ~~`score_completion`
 (`pipeline/ventris/complete.py:447-448`) does `import random as _random; _random.seed(0);
-_random.shuffle(...)` on the **global** RNG, in the middle of `oracle_test`'s trial loop. Trial
-1's greedy restore leaves the global stream in a fixed state; every later trial therefore draws
-the *same* hidden set. Reproduced directly:
+_random.shuffle(...)` on the **global** RNG, in the middle of `oracle_test`'s trial loop.~~
+**REPAIRED** with a private `random.Random(0)` instance: identical shuffle, no global side effect.
+Reproduced before the repair:
 
 | trial | chance | hidden set |
 | 1 | 0.0374 | A |
 | 2–8 | 0.0185 | B (identical in all seven) |
 | mean | **0.0208** | = the committed `chance_rate`, exactly |
 
-The consequences, stated precisely:
+**The repair is behaviour-neutral for scoring.** All **3,311** (sign, candidate) component tuples
+are bit-identical before and after (compared against the cache the pre-repair code produced), so
+no recorded value in the tree changes for this reason. What changes is the draw sequence:
 
-- **The pre-registered conclusion is unaffected.** Recovery is 0 over both distinct sets, so
-  `0.00×` / NO SIGNAL holds and K4 does not fire. The lift, recovery and verdict reproduce.
-- **"160 hidden signs scored" is 40 distinct sign draws.** 20 of them counted seven times.
-  Any per-trial stability claim (`per_sign_recovery_rates`, `signs_recovered_all_trials`) rests
-  on two independent trials, not eight.
-- **The committed chance 0.0208 is not an 8-trial baseline** — it is a 1:7 weighted average of
-  0.0374 and 0.0185. Over 8 *independent* draws (the `random.Random(0)` instance that
-  `aggregator_bakeoff.collect()` uses, untouched by that reseed) the same quantity is **0.0273**.
-  This is why guard 8 asserts the gate quantities (`lift`, `recovered`, `verdict`), not `chance`.
+| | before | after |
+| recovery | 0.0000 (0/160) | **0.0063 (1/160)** |
+| chance | 0.0208 | **0.0273** |
+| lift | 0.00× | **0.23×** |
+| distinct hidden sets | 2 | **8** |
+| verdict | NO SIGNAL | **NO SIGNAL** |
 
-This is a seventh defect, of the same class as the six in `METHOD_CLOSURE_PAPER.md` §6, and it
-is not in that list. It is **not fixed here**: PLAN §12 permits modifying exactly one existing
-file (`guards.py`), and `complete.py` is on the evaluator side of INVARIANT 1.
+**Attributed**: the hit is `AB 01`, hidden in 1 of 8 trials and recovered there, by a **tie resolved
+by candidate-list order** — the unique-argmax rate over these draws is 0.0%, and evaluated
+tie-strictly the shipped config still returns 0 recovered (`rsi_evaluate`, guard 8). AB 01 is the
+most frequent sign in the corpus and one of the two the original anchor-word leak produced. So the
+seventh defect is the first repair that moves a number, and it moves it the way
+`METHOD_CLOSURE_PAPER.md` §6 predicts: toward chance, not past it. Guard 12 fails on a
+reintroduction.
+
+**D3 — a report line overstated its own evidence.** "Signs recovered in ALL trials: AB 01" while
+AB 01 was hidden in 1 of 8 trials. Repaired: `oracle_test` returns `per_sign_trials` and the report
+prints `AB 01 (1/8 trials)`. The class of error is protocol §7's — a plausible number outrunning its
+control.
+
+Repairs recorded in `data/analysis/ventris/verification_audit.md` (Phase 13 Addendum) and as the
+append-only tree node `op1b-seventh-defect-repair`.
 
 ## Artifacts
 
