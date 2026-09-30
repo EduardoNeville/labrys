@@ -10,7 +10,8 @@
   "op2b-aggregator-bakeoff",
   "op2c-in-argmax-null-control",
   "op2d-context-profile-class",
-  "op2e-class-restriction-ceiling"
+  "op2e-class-restriction-ceiling",
+  "op2f-identifiable-subset"
  ],
  "holdout": [
   "op3-frame-sharing",
@@ -46,6 +47,14 @@
    ],
    "rule": "Same rule as the first amendment: a node discovered after the split joins dev if its parent is in dev; the holdout never grows.",
    "why": "op2e is the ceiling for op2d, so it belongs in the branch the policy may learn on. Its quality term is 0 (it is a negative result), so it only adds the cost of reaching it."
+  },
+  {
+   "date": "2026-10-01",
+   "added_to_dev": [
+    "op2f-identifiable-subset"
+   ],
+   "rule": "Same rule: parent in dev -> dev; the holdout never grows.",
+   "why": "A correction node is part of the discovery history the pool records."
   }
  ],
  "why": {

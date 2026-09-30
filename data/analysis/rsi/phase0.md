@@ -171,8 +171,51 @@ AB 01 was hidden in 1 of 8 trials. Repaired: `oracle_test` returns `per_sign_tri
 prints `AB 01 (1/8 trials)`. The class of error is protocol §7's — a plausible number outrunning its
 control.
 
+**D4 — the candidate generator removes the answer on ~46–64% of draws.** `oracle_diagnose.py`
+part B: 29/80 draws (36.2%) have the true value in the candidate list; the same metric at n=500 is
+54.2%. Every recovery figure in this project is therefore diluted by ~2×, and no aggregator can be
+right on the void draws. Not repaired here (it is a design change to `get_candidates`, and INVARIANT
+1 keeps the evaluator frozen); recorded because it is the *first* fixable defect in the chain, ahead
+of aggregation. See `identifiable_subset.py` and tree node `op2f`.
+
 Repairs recorded in `data/analysis/ventris/verification_audit.md` (Phase 13 Addendum) and as the
 append-only tree node `op1b-seventh-defect-repair`.
+
+### Correction, 2026-10-01 — see `identifiable_subset.py` and tree node `op2f`
+
+Two things in the determination above were wrong. Both were found by following
+`oracle_diagnose.py` part C rather than by a later re-run of the same commands.
+
+**1. "The docstring's 67/47/59/100% figures do not reproduce" — three of them do.** They are
+`in_argmax` (ties allowed), not unique identification. Measured conditional on the truth being
+in the candidate list: morph 66.1%, entropy 50.2%, prefix 52.8%, against the docstring's
+67/47/59. `oracle_diagnose.py` part C prints the same ties-allowed quantity under the label
+"top-1" (69/59/55), which is where the misreading starts. Only **kober's 100%** does not
+reproduce: 8.9% on the identifiable subset, 4.8% over all draws. The docstring is not stale —
+it is mislabelled, and that mislabelling is what made §6.4 look like it had a contradiction to
+reconcile. The correct reconciliation is: `in_argmax` is argmax-set size (morph's covers two
+thirds of the candidate list), not signal.
+
+**2. The permutation control in `phase0_null_control.py` had 100% membership.** It replaced the
+truth with a candidate *drawn from the candidate list*, so its "truth" was always a candidate —
+while the real truth is one on only 36.2–54.2% of draws. The null was solving an easier problem
+than the measurement, so its 0.25–0.52× win was that asymmetry as much as flatness.
+
+With the denominator fixed (`identifiable_subset.py`: n=500 draws → 271 identifiable, null = a
+random *other* candidate from the same list, same subset), **the determination survives**:
+
+| channel | unique argmax | in_argmax | null | mean rank | null rank |
+| shipped sum | 0.0% | 5.2% | 2.2% | 0.406 | 0.499 |
+| morph only | 0.0% | 66.1% | 66.8% | 0.450 | 0.495 |
+| entropy only | 0.0% | 50.2% | 50.9% | 0.492 | 0.501 |
+| prefix only | 0.0% | 52.8% | 53.9% | 0.487 | 0.498 |
+| kober only | 0.0% | 8.9% | 6.6% | 0.463 | 0.488 |
+| **TWO-STAGE (op5)** | 0.0% | 8.5% | 7.0% | 0.507 | 0.503 |
+
+Branch 2 still holds, now on a fair denominator. It also orders the two real defects:
+**candidate generation voids ~46% of draws before any scoring happens** (D4 below), and the
+shipped sum is *below its own components* (5.2% vs 66.1% `in_argmax`). Neither is fixable by a
+better optimizer, which is what `METHOD_CLOSURE_PAPER.md` §8 says.
 
 ## Artifacts
 

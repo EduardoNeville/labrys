@@ -653,11 +653,25 @@ interpretable.
 
 Recorded here per PLAN §2. Full record in `data/analysis/rsi/`.
 
-- **§6.4 = all-flat, branch 2, with a permutation control.** No channel beats its own null
-  (0.25–0.52×); the 27–36% `in_argmax` figures were argmax sets covering ~59% of the candidate list.
-  The plan's tie-collapse hypothesis rested on a number about PMI, not about the kober channel, and
-  `op5` — its only invented node — already existed as `aggregator_bakeoff.py`'s TWO-STAGE aggregator:
-  0.0% top1, 0.44× its control.
+- **§6.4 = all-flat, branch 2 — with the denominator corrected.** No channel beats its null, and
+  with metrics computed conditional on the truth being knowable (n=500 → 271 identifiable,
+  within-subset null) **unique argmax is 0.0% for all nine channels**, `in_argmax` equals its
+  mechanical tie rate (morph 66.1% vs 66.8%; entropy 50.2 vs 50.9; prefix 52.8 vs 53.9), and mean
+  rank is at the null everywhere. The plan's tie-collapse hypothesis rested on a number about PMI,
+  not about the kober channel, and `op5` — its only invented node — already existed as
+  `aggregator_bakeoff.py`'s TWO-STAGE aggregator: 0.0% unique argmax, `in_argmax` 8.5% vs a 7.0%
+  null.
+- **Two corrections to earlier claims in this addendum's own series, both recorded rather than
+  quietly fixed.** (i) `aggregator_bakeoff.py`'s "67/47/59/100%" figures are *not* stale: three of
+  them reproduce as `in_argmax` (ties allowed), which is argmax-set size, not identification —
+  morph 67≈66, entropy 47≈50, prefix 59≈53. Only kober's 100% does not (8.9%). `oracle_diagnose`
+  part C prints the same ties-allowed quantity under the label "top-1", which is where the
+  misreading starts. (ii) The permutation control in `phase0_null_control.py` had 100% membership
+  — its "truth" was drawn from the candidate list, while the real truth is a candidate on only
+  36.2–54.2% of draws — so it was solving an easier problem than the measurement. The corrected
+  analysis (`identifiable_subset.py`, node `op2f`) reaches the same conclusion on a fair
+  denominator, and orders the two real defects: **candidate generation voids ~46% of draws before
+  any scoring**, and the shipped sum is *below* its own components (5.2% vs 66.1% `in_argmax`).
 - **Reference number.** π₀ (`return []`) scores **V = 0.000 on dev and holdout** and is optimal at
   β₁ ∈ {0.5, 1.0, 2.0}; the transcribed control policy scores −4.500 / −3.694 and the post-hoc
   clairvoyant bound the same. Total quality across the whole tree is 0.02. No ranking flips, so the

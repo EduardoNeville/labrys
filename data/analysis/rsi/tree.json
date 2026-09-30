@@ -372,6 +372,43 @@
    "cost_estimated": true,
    "source": "data/analysis/rsi/class_restriction_ceiling.py (2026-10-01), from the cached shipped-config draws",
    "note": "Ceiling for op2d, and the reason its class signal is not convertible. The true (series,vowel) class is handed over FOR FREE - this is an oracle restriction, not the channel's 9.6% prediction - so it is generous to the channel in the only direction that matters.\nResult: within a 2.32-candidate class, the shipped scorer picks the right member 8.5% of the time against a 47.4% chance rate = 0.18x = NO SIGNAL. Tie-lenient (truth in the argmax set) 35.2% = 0.74x. The scorer is WORSE THAN RANDOM among class peers: it actively prefers the less typical member, which is what a frequency/typicality objective does.\nConsequence: no improvement to the class channel - not even a perfect one - can yield values with this scorer. End-to-end estimate 0.096 x 0.085 = 0.81% absolute against a 2.5% uniform chance rate (0.33x). Ceiling, not sample size, is the binding constraint.\nAlso measured: the true class is only present in the candidate list on 44.4% of draws, and when present the truth always survives within it - the restriction is sound, the candidate generation is what removes the answer.\nPre-registered before the run in the script's docstring: within-class accuracy at or below 1/|class|. It held (0.18x). Recording it as a prediction that was written down first, and confirmed, is the only thing that distinguishes this from a number found and then explained."
+  },
+  {
+   "id": "op2f-identifiable-subset",
+   "parent": "op2c-in-argmax-null-control",
+   "evidence_class": "distributional",
+   "is_world_expanding": false,
+   "lift": null,
+   "metrics": {
+    "exact": 0.0,
+    "top1_all_channels": 0.0,
+    "membership": 0.542,
+    "n_identifiable": 271,
+    "morph_in_argmax": 0.661,
+    "morph_null_in_argmax": 0.668,
+    "entropy_in_argmax": 0.502,
+    "entropy_null_in_argmax": 0.509,
+    "prefix_in_argmax": 0.528,
+    "prefix_null_in_argmax": 0.539,
+    "kober_in_argmax": 0.089,
+    "kober_null_in_argmax": 0.066,
+    "twostage_in_argmax": 0.085,
+    "twostage_null_in_argmax": 0.07,
+    "morph_rank": 0.45,
+    "morph_null_rank": 0.495,
+    "twostage_rank": 0.507,
+    "twostage_null_rank": 0.503
+   },
+   "primary_metric": "exact",
+   "values_recovered": 0,
+   "n_draws": 271,
+   "control_ok": true,
+   "leak_ok": true,
+   "verdict": "NO SIGNAL",
+   "cost_hours": 0.5,
+   "cost_estimated": true,
+   "source": "data/analysis/rsi/identifiable_subset.py --trials 25 (2026-10-01); pipeline/oracle_diagnose.py parts B-D",
+   "note": "Corrects the DENOMINATOR for op2b/op2c, and corrects one of this project's own nulls. Two separate defects in how the earlier numbers were read:\n1. Membership. The true value is a candidate on only 54.2% of draws here, and on 36.2% of oracle_diagnose part B's 80 draws - so on ~half of all draws NO aggregator can be right, and averaging them in dilutes every rate by ~2x.\n2. The null had 100% membership. phase0_null_control.py replaced the truth with a candidate DRAWN FROM the candidate list, so its 'truth' was always present while the real truth was present ~40-54% of the time. The null was solving an easier problem, and its 0.25-0.52x win was that asymmetry as much as flatness. This node recomputes everything conditional on the truth being in the list, with a within-subset null (a random OTHER candidate from the same list).\nWith the corrected denominator the conclusion SURVIVES, and for the right reasons:\n  * unique argmax is 0.0% for all nine channels, even on identifiable draws. The closure paper's \u00a74.1 claim holds.\n  * in_argmax equals its mechanical tie rate (morph 66.1% vs 66.8% null; entropy 50.2 vs 50.9; prefix 52.8 vs 53.9). The high in_argmax figures were argmax-set SIZE, not orientation - and the argmax sets are huge (morph's covers two thirds of the candidate list).\n  * mean rank is at the null for every channel (0.406-0.507 vs 0.488-0.503): no channel orders the truth above a random candidate even in the favourable subset.\n  * TWO-STAGE (op5) in the subset: in_argmax 8.5% vs 7.0% null. PLAN \u00a76.4's tie-collapse hypothesis is dead under the corrected denominator too.\nIt also resolves the apparent contradiction PLAN \u00a76.4 was built on. aggregator_bakeoff.py's docstring says the components rank truth top-1 at 67/47/59/100% - measured here as in_argmax (ties allowed), morph 67~66, entropy 47~50 and prefix 59~53 DO reproduce; they are argmax-set size, not identification. KOBER's 100% is the one that does not reproduce: 8.9% here, 4.8% averaged over all draws. oracle_diagnose part C prints the same ties-allowed quantity under the label 'top-1', which is where the misreading starts; its 69/59/55 for morph/entropy/prefix match this node's in_argmax figures.\nPractical consequence: candidate generation, not aggregation, is the first fixable defect - ~46% of draws are void before any scoring happens. The aggregation defect is second (the shipped sum is BELOW its own components: 5.2% vs 66.1% in_argmax). Neither is fixable by a better optimiser, which is what the closure paper \u00a78 says."
   }
  ]
 }

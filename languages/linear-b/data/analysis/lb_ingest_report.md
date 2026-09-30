@@ -8,8 +8,8 @@
 | coverage | 1.0000 |
 | unique syllabograms | 88 |
 | reference inventory | 74 |
-| grid rows with wrong glyph | 71 |
-| grid rows with wrong value | 11 |
+| grid rows with wrong glyph | 10 |
+| grid rows with wrong value | 5 |
 | unmapped token types | 0 |
 | gate | PASSED |
 

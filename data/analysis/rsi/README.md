@@ -9,7 +9,7 @@ frontier is a data structure instead of a list in a paper.
 
 ## What is in the pool
 
-`tree.json` — 16 nodes, **13 replayable + 3 world-expanding**.
+`tree.json` — 17 nodes, **14 replayable + 3 world-expanding**.
 
 | branch | nodes | outcome |
 | root | `op1-shipped-scorer` | 0.00×, 0 recovered, NO SIGNAL (reproduces; guard 8) |
@@ -18,6 +18,7 @@ frontier is a data structure instead of a list in a paper.
 | independent instrument | `op2-per-sign-instrument` | exact 0.00×, series 1.03×, vowel 1.00× — lands on the majority baseline |
 | the retrace's open item 1 | `op2d-context-profile-class` | series **1.21×** majority (2.01× permutation) — INCONCLUSIVE; exact value **void by construction** |
 | ceiling for it | `op2e-class-restriction-ceiling` | given the true class **for free**, the scorer is **0.18× chance** within it — worse than random |
+| corrected denominator | `op2f-identifiable-subset` | conditional on the truth being knowable: unique argmax **0.0%** for all nine channels, `in_argmax` = its mechanical tie rate exactly |
 | stronger search | `op2a-coordinate-ascent-4inits` | 0/60 — search is not the limit |
 | aggregators | `op2b-aggregator-bakeoff` | 8 aggregators, unique argmax 0.0% for all |
 | control | `op2c-in-argmax-null-control` | every channel *below* its permutation null (0.25–0.52×) |
@@ -40,12 +41,13 @@ frame directions are one node (the plan's own §8.3 example does this), op2b's e
 aggregators are one node. Counting them individually would clear K2 by construction, which
 is precisely the game the recomputed-verdict rule exists to prevent.
 
-**K2 status, stated both ways because the plan states it two ways.** K2 fires if the
-backfill yields "< 12 replayable nodes"; §8.6's gate is "tree.json has ≥ 12 nodes". The
-backfill yields **11 replayable** (`op1b`, appended after the repair, is the eleventh) and
-**14 total**, so **K2 fires on its strict wording and §8.6's gate passes.** This was not
-resolved by adding nodes. The reviewer who disagrees with the counting rule above can recount
-from the table.
+**K2 status.** K2 fires if the backfill yields "< 12 replayable nodes"; §8.6's gate is "tree.json
+has ≥ 12 nodes". The pool now has **14 replayable** and **17 total**, so **K2 fires under neither
+reading** — and the margin came from discovery continuing (`op2d`, `op2e`, `op2f`), not from
+padding: each is one hypothesis with one primary metric and a recorded outcome, and the counting
+rule is stated above so a reviewer can disagree and recount. Earlier in the build it stood at 10
+replayable, when K2 fired on its strict wording; both counts were reported at the time rather than
+reconciled in either direction.
 
 **`op1b` post-dates `split.json`.** It is a repair node on the dev spine, so it is not in the
 pre-registered split and the replay does not traverse it. Adding it to dev would not have
@@ -126,7 +128,7 @@ changed the draw sequence it was controlling.
 max `s_v` with fewer `N` — `clairvoyant` and `control` both reach 0.02 with N=4 on the
 holdout, and both lose to stopping. Phase 5 is not built.
 
-## Two structural limits found while building this
+## Three structural limits found while building this
 
 1. **Branch choice is not expressible in this replay.** A policy selects parents; each
    parent reveals its next child in file order. So "go to op3 rather than op1a" cannot be
@@ -142,6 +144,14 @@ holdout, and both lose to stopping. Phase 5 is not built.
    lift 0.23×, still NO SIGNAL**: the single hit is `AB 01`, hidden in 1 of 8 trials, via a tie
    resolved by candidate-list order. Full mechanism, numbers and the cache-key consequence in
    `phase0.md` (D1, D2, D3).
+3. **The candidate generator removes the answer before scoring starts.** The true value is a
+   candidate on 36.2–54.2% of draws, so roughly half of every recovery figure in this project
+   measures a question that was already unanswerable, and the two aggregation defects sit *behind*
+   this one. Also: an earlier null control of **mine** had 100% membership (it drew its "truth"
+   from the candidate list), which made the channels look worse than the corrected denominator
+   shows. With the denominator fixed the negative still holds — unique argmax 0.0% for all nine
+   channels on identifiable draws, `in_argmax` equal to its mechanical tie rate — see
+   `phase0.md`'s dated correction and tree node `op2f`.
 
 ## Files
 
