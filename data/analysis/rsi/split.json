@@ -1,0 +1,31 @@
+{
+ "preregistered": true,
+ "statement": "Subtree-aware split, decided before any policy file exists (PLAN.md §9). Whole branches are held out: holding out a child whose parent is in dev means replay can never reach it and the holdout measures nothing.",
+ "rule": "Hold out whole branches, never random nodes.",
+ "dev": [
+  "op1-shipped-scorer",
+  "op1a-six-defect-repair",
+  "op2-per-sign-instrument",
+  "op2a-coordinate-ascent-4inits",
+  "op2b-aggregator-bakeoff",
+  "op2c-in-argmax-null-control"
+ ],
+ "holdout": [
+  "op3-frame-sharing",
+  "op3a-link-vote-and-context-profile",
+  "op4-slot-alternation-A",
+  "op4b-minimal-pair-B",
+  "x1-cm-corpus",
+  "x2-anetaki-ii",
+  "x3-bilingual-find"
+ ],
+ "why": {
+  "dev": "The spine. Everything downstream of op1 exists because op1 was flat, so it cannot be learned from any other branch.",
+  "op3-frame-sharing": "Kober's recorded relation on a deciphered script. The real generalisation test: can a dev-tuned policy triage a class it has never seen? (op3a rides with it — same branch.)",
+  "op4-slot-alternation-A": "Ventris's actual method, and the most surprising negative. It must not be visible while the policy is tuned.",
+  "op4b-minimal-pair-B": "Exists because A failed its own permutation control. Holding out the parent and not the child would make the child unreachable.",
+  "x1-cm-corpus": "Tests whether the policy ever chooses to stop searching and go get data. If a dev-tuned policy never selects it while every class is flat, the loop has learned to thrash (PLAN §9.3).",
+  "x2-anetaki-ii": "Second acquisition option, so 'get data' is a choice and not a single named action.",
+  "x3-bilingual-find": "Third, child of x1: semantic anchors are evidence class #1 in the closure paper §7."
+ }
+}
