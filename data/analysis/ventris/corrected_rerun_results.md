@@ -75,7 +75,11 @@ corpus itself (now correct).
 associations (AB 30↔LIVESTOCK, AB 28↔WINE) — all on corrected data. This is
 the genuine path forward.
 
-**2026-10-01 update:** both commodity associations were audited against a document-level null and
-a site-stratified permutation, and both hold (p=0.0005 at the floor of 2,000 permutations). They
-are the first positively-signed results in this repository to survive a matched null. Details
-above and in `data/analysis/ventris/verification_audit.md` (Phase 14).
+**2026-10-01 update:** both commodity associations were audited against a document-level null, a
+site-stratified permutation and a cross-site replication. Result: **the association is real within
+Haghia Triada and does not generalize.** The slot-level null was wrong (windows overlap, so the
+effective sample is documents), the document-level numbers are stronger (p=2.7e-11 / 2.6e-05), and
+a site-stratified permutation clears them at the floor of 20,000 reps — but selecting on Haghia
+Triada and testing on Khania replicates **2 of 67 pairs, both logogram↔own-class tautologies**,
+while every syllabogram association fails. These are HT's entry conventions, not semantic anchors
+for Linear A. Details in `data/analysis/ventris/verification_audit.md` Phase 14/14.1.

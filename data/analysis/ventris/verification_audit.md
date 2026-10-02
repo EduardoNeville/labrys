@@ -806,3 +806,41 @@ point of this addendum:
 **What replication would require:** a held-out site or period, or the same test pre-registered on
 `KN Zg 57/58` when its edition prints. Until then these are controlled candidates — the strongest
 kind of evidence this project has produced, and still not meanings.
+
+### Phase 14.1 — the replication, and it fails *(same day, pre-registered before the run)*
+
+The requirement above was written hours before it was met, and it is the most informative result in
+this file. `cross_site_replication.py` selects pairs on **one site** and tests the fixed set on a
+**different site never used in selection**, then swaps the sites.
+
+**Pre-registered prediction:** the three strongest LIVESTOCK pairs (AB 30, AB 81, AB 31) replicate;
+AB 41 does not; the WINE pairs are untestable at Khania. **The prediction was wrong, and in the
+informative direction.**
+
+Selection on Haghia Triada: 67 pairs clear 0.05/122. Replication on Khania, threshold 0.05/67:
+
+| pair | Haghia Triada | Khania | verdict |
+| A 303 ↔ LIVESTOCK | p=1.6e-11 (k=13/55) | p=7.9e-10 (k=29/34) | **replicates — a logogram and its own class** |
+| A 301 ↔ PERSONNEL | p=7.2e-88 (k=237/237) | p=7.5e-09 (k=7/7) | **replicates — a logogram and its own class** |
+| AB 30 ↔ LIVESTOCK | p=8.8e-10 (k=19/55) | p=4.4e-02 (k=10/34) | **fails** |
+| AB 81 ↔ LIVESTOCK | p=1.8e-15 | p=2.7e-01 | **fails** |
+| AB 31 ↔ LIVESTOCK | p=1.4e-10 | p=4.2e-01 | **fails** |
+| AB 76, AB 02, AB 41 ↔ LIVESTOCK | p ≤ 4.6e-05 | p ≥ 8.3e-03 | **fail** |
+| WINE pairs (AB 28, AB 27), MANPOWER, HIDES | p ≤ 4.9e-06 | no population | **untestable** |
+
+**Two of 67 replicate, and both are tautologies** — a logogram co-occurring with the semantic class
+that *defines* it. So the pipeline has a working positive control (it detects an association that is
+real across sites) while every *syllabogram* association fails to generalise.
+
+**The correction to Phase 14:** these associations are real **within Haghia Triada** and are a
+property of that archive's entry conventions, not of the script's commodity notation. The
+site-stratified permutation did not catch this because it is a within-site test that pools sites,
+and HT supplies 336 of 604 contexts — it measured the HT association correctly and said nothing
+about whether it travels. Phase 14's framing ("the first semantic-anchor candidates") was too
+strong: what the audit establishes is that HT's livestock entries use a particular syllabogram set,
+and that this does not hold at Khania.
+
+**What still stands from Phase 14:** the slot-level null was wrong (windows overlap, the effective
+sample is documents); the Bonferroni family is 122, not 61; the document level is more sensitive;
+and AB 82↔LIVESTOCK's retraction remains correct. What does not stand is treating the surviving
+pairs as candidate semantic anchors for Linear A.
