@@ -929,3 +929,31 @@ instrument) need per-stratum scorers, so they remain pooled. For them the risk r
 from the usual one: their pooled result is a *floor* (0.00×), so a stratum-specific signal is the
 only thing stratification could reveal, and the weight-simplex sweep (0 of 1,771 vectors, on all
 draws) argues the defect is in the objective rather than in anyone's corpus subset.
+
+### §4.1 stratified — the exposure is now closed *(same day)*
+
+`stratify_oracle_by_findspot.py` ran the §4.1 oracle per findspot, with a corpus filtered to the
+stratum **and its Kober graph rebuilt from that corpus**: using the corpus-wide triples would inject
+other sites' frame structure into the stratum's constraint channel and produce a number about the
+pooled corpus wearing a stratum's name.
+
+| stratum | inscriptions | sign tokens | recovery | chance | lift | verdict |
+| KN | 3,326 | 16,114 | 0.0125 | 0.0275 | **0.46×** | NO SIGNAL |
+| PY | 1,105 | 20,689 | 0.0125 | 0.0275 | **0.45×** | NO SIGNAL |
+| TH | 291 | 2,270 | 0.0000 | 0.0507 | **0.00×** | NO SIGNAL |
+| pooled (§4.1) | 4,794 | 40,038 | 0.0063 | 0.0273 | 0.23× | NO SIGNAL |
+
+Every stratum is below chance, none approaches the pre-registered 0.5× band edge let alone 1.5×,
+and the strata sit slightly *above* the pooled figure only because recovery is a floor effect (1–2
+hits in 160 draws). Note PY carries **more sign tokens than KN** (20,689 vs 16,114) on a third of
+the inscriptions, so the second archive is not the weaker sample. §4.1's negative survives
+stratification, and §4.3/§4.4 already did; §4.2 (the independent instrument) remains pooled and is
+the only piece left.
+
+**A near-miss, recorded because it is instructive.** The first version of that script patched the
+module's corpus path per stratum and then re-read it as the *source* for the next copy, so PY and TH
+were scored against an empty corpus — and an empty corpus produced **recovery 0.0187 vs chance
+0.0143 = 1.31×, INCONCLUSIVE**: the most interesting-looking number of the whole audit, and pure
+plumbing error. It was caught only because the inscription count printed alongside it was 0. The
+lesson is the project's oldest one — report the input size next to every number — and the script now
+captures the pooled path before any patching, with a comment saying why.
