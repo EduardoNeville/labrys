@@ -52,3 +52,6 @@ data/analysis/eteocretan/ventris_report.md
 
 # Dream-RSI component cache (PLAN.md §12)
 data/analysis/rsi/cache/
+
+# cron driver log (tools/rsi_loop.sh)
+data/analysis/rsi/loop_cron.log

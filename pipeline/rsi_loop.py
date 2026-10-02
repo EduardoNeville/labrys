@@ -319,7 +319,24 @@ def main() -> None:
     p.add_argument("--force", action="store_true",
                    help="run actions again even if they passed (a scheduled re-check)")
     p.add_argument("--include-expensive", action="store_true")
+    p.add_argument("--cron", action="store_true",
+                   help="print crontab-ready lines for this checkout, with paths resolved")
     args = p.parse_args()
+
+    if args.cron:
+        wrapper = REPO / "tools/rsi_loop.sh"
+        # named `log_path`, not `log`: a local `log` shadows the module's log() function and the
+        # first action's recording then dies with UnboundLocalError. Caught by running the driver.
+        log_path = RSI / "loop_cron.log"
+        print("# Dream-RSI inner loop - see RSI_LOOP.md §6. Install with: crontab -e")
+        print("# Nightly re-derives every recorded number; \"full\" adds the expensive checks.")
+        print("SHELL=/bin/sh")
+        print(f"PATH={Path.home()}/.local/bin:/usr/local/bin:/usr/bin:/bin")
+        print(f"0 3 * * *  {wrapper} due  >> {log_path} 2>&1")
+        print(f"0 4 * * 0  {wrapper} full >> {log_path} 2>&1")
+        print(f"# exit status 1 means a verify action FLAGGED drift; log: {log_path}")
+        print(f"# run once by hand now:  {wrapper} due")
+        return
 
     state = load_state()
     inbox = acquisition_inbox()
@@ -368,6 +385,7 @@ def main() -> None:
         return
 
     ran = 0
+    ran_ids = set()
     for a in ACTIONS:
         if ran >= args.run:
             break
@@ -387,8 +405,9 @@ def main() -> None:
         flag = "FLAGGED" if res["changed"] else "ok"
         print(f"[{flag}] {a['id']} ({entry['seconds']}s): {res['detail']}")
         ran += 1
+        ran_ids.add(a["id"])
 
-    remaining = [a for a in ACTIONS if runnable(a) and due(a)]
+    remaining = [a for a in ACTIONS if runnable(a) and due(a) and a["id"] not in ran_ids]
     outer = [a for a in ACTIONS if a["kind"] in ("code", "acquire")]
     if not remaining:
         state["terminal"] = ("inner queue drained: every executable action has run. What remains "

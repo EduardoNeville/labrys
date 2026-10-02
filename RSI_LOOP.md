@@ -120,21 +120,35 @@ uv run python pipeline/rsi_loop.py --run 9                      # execute everyt
 uv run python pipeline/rsi_loop.py --run 9 --force              # re-check (scheduled drift detection)
 uv run python pipeline/rsi_loop.py --run 9 --force --include-expensive
 uv run python pipeline/rsi_loop.py --status                     # coverage, inbox, terminal state
+uv run python pipeline/rsi_loop.py --cron                       # print the crontab lines, paths resolved
+```
+
+`--cron` prints exactly what to paste, with `$HOME` and this checkout's path already resolved — so
+the commands below are written down once, in the code that knows the paths, rather than in a snippet
+that rots:
+
+```cron
+SHELL=/bin/sh
+PATH=/home/<user>/.local/bin:/usr/local/bin:/usr/bin:/bin
+0 3 * * *  <repo>/tools/rsi_loop.sh due  >> <repo>/data/analysis/rsi/loop_cron.log 2>&1
+0 4 * * 0  <repo>/tools/rsi_loop.sh full >> <repo>/data/analysis/rsi/loop_cron.log 2>&1
+```
+
+`tools/rsi_loop.sh` exists because cron supplies a minimal environment: it sets `PATH` (so `uv` is
+found), cds to the checkout, timestamps and logs each run, bounds the log to ~1 MB, and exits **1 when
+any verify action flagged drift** — so cron's mail is the alert channel, and a silent log is a healthy
+one. Modes: `due` (nightly) and `full` (weekly, adds the expensive stratified checks).
+
+Run once by hand before trusting the schedule:
+
+```bash
+tools/rsi_loop.sh due && tail -20 data/analysis/rsi/loop_cron.log
 ```
 
 State is durable and committed: `data/analysis/rsi/loop_state.json` (last run per action, ok/changed)
 and `loop_log.jsonl` (append-only history). `--run` skips actions that are not *due* — never run, last
 run flagged, or `--force` — so an unscheduled invocation always moves on to unmeasured work instead of
 re-checking the same things.
-
-On a machine that stays up:
-
-```cron
-# nightly: every recorded number re-derived; flags mean drift, not noise
-0 3 * * *  cd ~/projects/labrys && uv run python pipeline/rsi_loop.py --run 9 --force >> ~/labrys-loop.log 2>&1
-# weekly: the expensive stratified checks
-0 4 * * 0  cd ~/projects/labrys && uv run python pipeline/rsi_loop.py --run 9 --force --include-expensive >> ~/labrys-loop.log 2>&1
-```
 
 Two properties make this safe to leave running: the inner loop is **LLM-free** (no per-iteration cost,
 and no chance of a model drift changing what "verified" means), and it **cannot write to the
