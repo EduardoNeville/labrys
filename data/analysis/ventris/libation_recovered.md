@@ -59,3 +59,51 @@ I-PI-NA-MA · SI-RU-TE · TA-NA-RA-TE-U-TI-NU · I
 - The formula words' phonetic values are LB-transfer (unverified for LA).
 - BUT: the STRUCTURE is real (fixed order, recurring words), and the
   DEITY-SLOT hypothesis is now concrete and testable.
+
+---
+
+## Audit, 2026-10-01 — the structure reproduces, and it is the project's only cross-site result
+
+Re-derived from the corpus rather than from the earlier run, after the commodity associations (the
+project's other surviving positive) **failed** a cross-site replication on the same day.
+
+**Reproducibility note.** The pattern must be matched over sign rows whose `sign_type` is
+`syllabogram` or `logogram` **and** whose `bennett_id` is non-null. Divider and lacuna rows carry a
+NULL id (there are 87 `metrical` rows plus others) and a naive match over the raw sequence silently
+drops occurrences — it cost me a false "the record does not reproduce" finding before being caught.
+
+**Every recorded count reproduces exactly:**
+
+| word | signs | occurrences | sites |
+| opening `A-TA-I-*301-WA-JA` | AB 08 59 28 A 301 54 57 | **11** | 5 (Iouktas, Kophinas, Palaikastro, Syme ×5, Troullos) |
+| `ja-sa-sa-ra-me` | AB 57 31 31 60 13 | **9** | **5 (Iouktas ×5, Platanos, Psykhro, Troullos, Palaikastro)** |
+| `u-na-ka-na-si` | AB 10 06 77 06 41 | **6** | 4 (Iouktas ×2, Kophinas, Palaikastro ×2, Syme) |
+| `si-ru-te` | AB 41 26 04 | **7** | 5 (Iouktas ×3, Kophinas, Syme, Troullos, Vrysinas) |
+
+The two structural claims also hold, and are stronger than the prose suggested:
+
+- **"Always position 0" is exact**: the opening is at index 0 in **11 of 11** occurrences.
+- **Slot order is exact**: in every one of the **9** texts containing two or more of the five
+  formula words, they appear in the documented order (opening → name-anchor → request → favour →
+  divine). 9 of 9, no exceptions. The short variant texts (APZa2, VRYZa1, IOZa15) drop slots but do
+  not reorder them.
+
+**Why this matters more than the counts.** On the same day, the commodity associations — 8 pairs
+surviving a site-stratified permutation at the family alpha — **failed** cross-site replication (2 of
+67, both logogram↔own-class tautologies). This formula **passes** it: the same five-sign sequence in
+nine inscriptions at five sites, in fixed order. So the audit thread's contrast is clean, and it
+points where the next method should look:
+
+| | generalises across sites? |
+| distributional enrichment (commodity sign↔class) | **no** — a property of Haghia Triada's entry conventions |
+| formulaic genre structure (fixed slots, recurring words) | **yes** — 5 sites, 9/9 order-consistent |
+
+That is the opposite of the ordering the project's history would suggest (enrichment looked like the
+quantitative finding; the formula looked like a curiosity), and it matches this paper's thesis: the
+structure that survives is *genre and formula*, not corpus-wide distribution.
+
+**What this still does not give.** The nine texts are 8–48 signs each and share one genre, so there
+is no power here for a slot-alternation test (§4.4's method needs volume this corpus does not have).
+The words' translations remain the source's tentative readings, not independent scholarship, and
+their phonetic values remain Linear B transfer. The formula is a *structural* anchor and a promising
+sub-corpus — not a decipherment.
