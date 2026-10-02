@@ -404,13 +404,15 @@ own control in both large strata (PY 14.7% vs 19.1%; KN 16.9% vs 19.7%). The lar
 the pre-registered gate. PY is the stratum that mattered: a different archive, different scribal
 tradition, more words than KN, and flat.
 
-**§4.1 and §4.2 were pooled; §4.1 is now stratified too.** Running the oracle per findspot — with
-a corpus filtered to the stratum *and its Kober graph rebuilt from that corpus*, so the constraint
-channel cannot carry other sites' frame structure — gives: KN 0.46×, PY 0.45×, TH 0.00×, all NO
+**§4.1 and §4.2 were pooled; both are now stratified.** Running the oracle per findspot — with a
+corpus filtered to the stratum *and its Kober graph rebuilt from that corpus*, so the constraint
+channel cannot carry other sites' frame structure — gives KN 0.46×, PY 0.45×, TH 0.00×, all NO
 SIGNAL, against the pooled 0.23×. PY carries more sign tokens than KN (20,689 vs 16,114) on a third
-of the inscriptions, so the second archive is not the weaker sample. Every stratum is below chance
-and none approaches the gate; the exposure is closed for §4.1. §4.2 (the independent instrument)
-remains pooled and is the only piece left.
+of the inscriptions, so the second archive is not the weaker sample. The instrument, on the same
+filtered corpora, gives exact value 0.0% in every stratum with series 0.78–1.03× and vowel
+0.96–1.04× against their own majority baselines. **All four operationalizations are now
+stratified and none changes verdict** (§4.1 0.46/0.45/0.00×; §4.2 exact 0.00×; §4.3 0.87–1.18×;
+§4.4 series 12.1–21.6% with the eliminative step below its control in both large strata).
 `data/analysis/ventris/stratify_lb_by_findspot.py`, `stratify_oracle_by_findspot.py`.
 
 ---

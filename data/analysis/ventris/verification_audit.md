@@ -946,9 +946,26 @@ pooled corpus wearing a stratum's name.
 Every stratum is below chance, none approaches the pre-registered 0.5× band edge let alone 1.5×,
 and the strata sit slightly *above* the pooled figure only because recovery is a floor effect (1–2
 hits in 160 draws). Note PY carries **more sign tokens than KN** (20,689 vs 16,114) on a third of
-the inscriptions, so the second archive is not the weaker sample. §4.1's negative survives
-stratification, and §4.3/§4.4 already did; §4.2 (the independent instrument) remains pooled and is
-the only piece left.
+the inscriptions, so the second archive is not the weaker sample.
+
+**§4.2 on the same filtered corpora** (the instrument is path-parameterised, so only the grid — the
+answer key, not corpus data — stays shared):
+
+| stratum | exact value | series vs majority | vowel vs majority |
+| KN | 0.0% (0.00×) | 23.1% vs 22.5% (**1.03×**) | 16.2% vs 16.9% (0.96×) |
+| PY | 0.0% (0.00×) | 22.5% vs 22.5% (**1.00×**) | 17.5% vs 16.9% (1.04×) |
+| TH | 0.0% (0.00×) | 17.5% vs 22.5% (**0.78×**) | 17.5% vs 16.9% (1.04×) |
+| pooled (§4.2) | 0.0% | 23.1% vs 22.5% (1.03×) | 16.9% vs 16.9% (1.00×) |
+
+Exact value is 0.0% in every stratum, and neither class metric clears its own majority baseline
+anywhere — TH is the largest departure and it is *below* (−0.78×). **All four §4 operationalizations
+are now stratified**, and none changes verdict:
+
+| | pooled | per stratum |
+| §4.1 oracle | 0.23× NO SIGNAL | 0.46× / 0.45× / 0.00× — NO SIGNAL |
+| §4.2 instrument | exact 0.00×; series 1.03×; vowel 1.00× | exact 0.00×; series 0.78–1.03×; vowel 0.96–1.04× |
+| §4.3 frames | 0.85–0.98× | 0.87–1.18× (max on one of four relations, small stratum) |
+| §4.4 paradigm | A 13.9%, control 19.4% | 12.1–21.6% series; eliminative step below control in both large strata |
 
 **A near-miss, recorded because it is instructive.** The first version of that script patched the
 module's corpus path per stratum and then re-read it as the *source* for the next copy, so PY and TH

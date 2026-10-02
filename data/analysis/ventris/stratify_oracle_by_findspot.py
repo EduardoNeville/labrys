@@ -111,6 +111,15 @@ def main() -> None:
               f"{res['chance_rate']:8.4f} {res['lift_over_chance']:6.2f}x  "
               f"{res['verdict']}   ({time.time() - t0:.0f}s)")
 
+        # §4.2 — the independent instrument, on the same filtered corpus. It is path-
+        # parameterised, so it needs no patching; only the grid stays shared (it is the
+        # answer key, not corpus data). Cheap: seconds per stratum.
+        from pipeline.repaired_instrument import CONFIGS as INST_CFG
+        from pipeline.repaired_instrument import RepairedInstrument, evaluate as inst_eval
+
+        inst = RepairedInstrument(db, INST_CFG["linear-b"]["grid"])
+        inst_eval(inst, trials=args.trials, hidden=args.hidden, label=f"§4.2 — {site}")
+
     print("\nthe question this answers: does any stratum recover where the pooled run does not?")
     print("A stratum clearing the pre-registered 1.5x gate would falsify the pooled negative.")
 
