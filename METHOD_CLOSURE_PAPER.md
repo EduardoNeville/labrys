@@ -389,15 +389,25 @@ this implies for anyone tempted to build a self-improving loop on this project: 
 not a bad policy. It is a well-controlled, rigorously negative loop that returns 0.00× indefinitely
 because it was pointed at the one resource that was never scarce — computation.
 
-**A limitation this work did not control: archive skew.** Auditing the Linear A side on 2026-10-01
+**A limitation, tested and mostly closed: archive skew.** Auditing the Linear A side on 2026-10-01
 established that Haghia Triada *Portico 11 and Room 13* is **50.2% of that entire corpus**, and that
 two rooms of the same site disagree about a sign's behaviour — so pooled statistics there describe
-one room. The Linear B test bed has the same shape: 4,794 inscriptions from six findspots, with one
-centre dominant. Pooling cannot manufacture a signal, but it *can* dilute a stratum-specific one
-away, so the negatives in §4 are exposed to this in a way the positives would not be. Stratifying
-every §4 result by findspot is the obvious follow-up and is not done here; the check is one command
-(`data/analysis/ventris/archive_stratification.py`) on the Linear A corpus and would be a small
-adaptation for the Linear B one.
+one room. The Linear B test bed has the same shape (KN 69.4%, PY 23.0%), where the risk runs the
+other way: pooling cannot manufacture a signal, but it can dilute a stratum-specific one away, and
+that is the one way §4's negative could be wrong.
+
+**It was tested for §4.3 and §4.4 and it holds.** Re-run per findspot, driving the same canonical
+implementations: frame sharing 0.87–1.18× across PY/KN/TH/MY (pooled 0.85–0.98×), series sharing
+12.1–21.6% against a ~27.4% majority baseline, and the eliminative vowel step firing *less* than its
+own control in both large strata (PY 14.7% vs 19.1%; KN 16.9% vs 19.7%). The largest deviation is
+1.18× on one of four relations in one small stratum — what twelve tests predict — and it is below
+the pre-registered gate. PY is the stratum that mattered: a different archive, different scribal
+tradition, more words than KN, and flat.
+
+**Still pooled, and named:** §4.1 and §4.2 need per-stratum scorers. Their pooled result is a floor
+(0.00×), so stratification is the only thing that could reveal a hidden positive — though the
+weight-simplex sweep (0 of 1,771 vectors, all draws) points at the objective rather than at any
+corpus subset. `data/analysis/ventris/stratify_lb_by_findspot.py`.
 
 ---
 

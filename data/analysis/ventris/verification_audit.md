@@ -896,6 +896,36 @@ sites, not a corpus-wide enrichment. The structure that survives this corpus is 
 the structure that does not is distribution. That is the same conclusion the closure paper reaches
 for the Linear B test bed by an entirely different route.
 
-**Applies to the Linear B sandbox too.** Its 4,794 inscriptions also come from a handful of centres,
-so the same question applies to the closure paper's negative: pooling cannot manufacture a real
-signal, but it can dilute a stratum-specific one away. Recorded as a limitation in §7.1 there.
+**Applies to the Linear B sandbox too — and there it was tested.** That corpus is *more* skewed
+than Linear A's: **KN is 3,326 of 4,794 inscriptions (69.4%)**, PY 1,105 (23.0%). Pooling cannot
+manufacture a signal but it can dilute a stratum-specific one away, so both cheap §4
+operationalizations were re-run per findspot (`stratify_lb_by_findspot.py`, driving the canonical
+implementations rather than copies):
+
+| stratum | words | frame sharing (4 relations) | paradigm A series / unique vs control |
+| PY | 6,412 (49.6%) | 0.87 / **1.03** / 0.95 / 1.00× | 14.4% / 14.7% vs 19.1% |
+| KN | 5,482 (42.4%) | 0.88 / 1.00 / 0.94 / 0.99× | 14.3% / 16.9% vs 19.7% |
+| TH | 740 (5.7%) | 0.90 / **1.15** / 0.95 / 1.01× | 13.6% / 10.7% vs 8.3% |
+| MY | 277 (2.1%) | 0.86 / **1.18** / 1.03 / 0.97× | **21.6%** / 2.3% vs 2.3% |
+| pooled (§4.3, §4.4) | 12,932 | 0.85 / 0.98 / 0.88 / 0.95× | 13.9% / 12.5% vs 19.4% |
+
+**The negatives survive stratification.** PY is the stratum that mattered — a different archive and
+scribal tradition, and more words than KN — and it is flat. Every series-sharing rate sits at
+12.1–21.6% against a ~27.4% majority baseline; the eliminative vowel step fires *less* than its own
+control in PY (14.7% vs 19.1%) and KN (16.9% vs 19.7%).
+
+Two deviations, both of the kind this file has documented before:
+
+1. **The largest frame ratio is 1.18× (MY) and 1.15× (TH)** on the same relation. With 12 tests
+   across strata, one or two at ~1.15× is what multiplicity predicts, and both are below the
+   pre-registered 1.5× gate.
+2. **TH's "correct when unique" is 5/6 (A) and 4/4 (B)**, against controls of 21.4% and 44.4% —
+   the §4.4 small-sample artifact recurring at n=6, one stratum down. The paper already documents
+   exactly this shape at n=9 with a control reaching 73.8%; here the *control's* rate is the
+   artifact. A careless reader would cite it as "Thera: 83–100% correct".
+
+**Not stratified, and the exposure is named:** §4.1 (the scorer + oracle) and §4.2 (the independent
+instrument) need per-stratum scorers, so they remain pooled. For them the risk runs the other way
+from the usual one: their pooled result is a *floor* (0.00×), so a stratum-specific signal is the
+only thing stratification could reveal, and the weight-simplex sweep (0 of 1,771 vectors, on all
+draws) argues the defect is in the objective rather than in anyone's corpus subset.
