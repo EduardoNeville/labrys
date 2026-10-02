@@ -1,0 +1,7 @@
+{"action": "verify:guards", "when": "2026-10-02 17:55:34", "ok": true, "changed": false, "detail": "14/14 guards passed", "seconds": 1.5}
+{"action": "verify:shipped-node", "when": "2026-10-02 17:55:34", "ok": true, "changed": false, "detail": "lift 0.00x, 0 recovered, NO SIGNAL; matches the recorded node: True", "seconds": 0.5}
+{"action": "verify:libation-counts", "when": "2026-10-02 17:55:34", "ok": true, "changed": false, "detail": "counts [9, 6, 7, 11] (recorded [9, 6, 7, 11]); opening at index 0 in 11/11; slot order 7/7 texts", "seconds": 0.0}
+{"action": "verify:commodity-pairs", "when": "2026-10-02 17:55:39", "ok": true, "changed": false, "detail": "document-level p reproduces; cross-site replication still 2 of 67", "seconds": 4.6}
+{"action": "verify:guards", "when": "2026-10-02 17:55:40", "ok": true, "changed": false, "detail": "14/14 guards passed", "seconds": 1.5}
+{"action": "diagnose:membership-by-archive", "when": "2026-10-02 17:56:17", "ok": false, "changed": true, "detail": "TypeError: expected str, bytes or os.PathLike object, not NoneType", "seconds": 0.2}
+{"action": "diagnose:membership-by-archive", "when": "2026-10-02 17:59:34", "ok": true, "changed": false, "detail": "{\"KN\": {\"membership\": 0.4688, \"mean_candidates\": 41.2, \"inscriptions\": 3326}, \"PY\": {\"membership\": 0.4688, \"mean_candidates\": 41.1, \"inscriptions\": 1105}, \"TH\": {\"membership\": 0.5375, \"mean_candidates\": 46.5, \"inscriptions\": 291}}", "seconds": 173.2}

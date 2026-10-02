@@ -1,0 +1,17 @@
+{
+ "corpus_file": "cm.json",
+ "synthetic": true,
+ "entries": 19,
+ "signs": 252,
+ "unique_signs": 53,
+ "source": "synthetic placeholder generated from HIGH-confidence LA->CM->CG triangular signs (CM 001, 002, 005, 008, 010, 012, ...) plus random fill, to exercise positional/ngram code paths",
+ "not_the_corpus": "Ferrara/Perna 2021 Cypro-Minoan and the 2024 CRIS dump (~250 objects, <4k signs)",
+ "why_it_matters": "This file is circular for any LA<->CM transfer test: it was generated FROM the signs whose values a transfer test would try to confirm. Any apparent transfer signal measured on it is an artifact of its own generation. The continuous loop (pipeline/rsi_loop.py) refuses to treat an acquisition as available unless a provenance manifest declares synthetic=false, because 'an artifact exists' is not 'the evidence exists' -- the distinction this project has had to make thirteen times.",
+ "replace_with": "drop the real dump into languages/cypro-minoan/data/raw/cm.json (SigLA-style list-of-[id, data], see README), set synthetic=false and record the retrieval date and citation here",
+ "acceptance_on_arrival": {
+  "pre_registered": false,
+  "gate": "a CM sign whose value is established independently (not by LA transfer) must agree with the LA-derived candidate for its LB cognate above the project's 1.5x gate, against a same-draw permutation null and stratified by site",
+  "must_include": "the LA-side values used must be listed in advance, and the CM values must not have been assigned by LA transfer",
+  "expectation": "on a corpus this size, expect NO SIGNAL; the test is for the day the corpus is real, and the honest prior is that ~30 LA values do not fall out of 250 objects"
+ }
+}
