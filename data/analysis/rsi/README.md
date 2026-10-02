@@ -129,6 +129,32 @@ changed the draw sequence it was controlling.
 max `s_v` with fewer `N` — `clairvoyant` and `control` both reach 0.02 with N=4 on the
 holdout, and both lose to stopping. Phase 5 is not built.
 
+## The frontier's next requirement: semantic-anchor nodes cannot be scored yet
+
+The audit of the commodity enrichment (Phase 14 of `verification_audit.md`) produced the project's
+first **controlled positives**: eight sign↔commodity associations surviving a site-stratified
+permutation at the 122-test family alpha, the two originals reaching document-level p = 2.7e-11 and
+2.6e-05. They are candidate **semantic anchors** — closure paper §7 class 1, and `semantic-anchor`
+in PLAN §8.1's taxonomy, marked replayable.
+
+**They cannot enter this pool as it stands, and that is a finding about the apparatus.**
+`rsi_tree.verdict_for` gates on `primary_lift` — recovery over a baseline — and the declared metrics
+are `exact`, `series`, `vowel`, `frame`. A permutation p on a document-level co-occurrence rate is
+not a lift, so a semantic-anchor node has no legal `primary_metric` here. Forcing one in (say,
+calling `observed / null_mean = 2.4×` an `exact` lift) would be the number-outrunning-its-control
+move the protocol exists to prevent.
+
+What such a node would need first:
+
+1. a declared metric meaning "association with a meaning class", with its own pre-registered
+   threshold — a permutation p at a stated family size is the honest candidate, not a ratio; and
+2. a statement of what it is worth: an association narrows a sign's *context*, not its value, so
+   `values_recovered` is 0 by construction and the quality term has to be defined for it.
+
+So the `semantic-anchor` class is populated in the world and empty in the tree, and the policy's
+frontier is narrower than §8.1 of the plan says. Recorded here because it is the cheapest place for
+the next person to find it.
+
 ## Four structural limits found while building this
 
 1. **The aggregation has no resolution at all, verified by search.** `op2g` sweeps the whole

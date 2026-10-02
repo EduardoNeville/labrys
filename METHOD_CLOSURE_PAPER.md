@@ -373,7 +373,7 @@ without re-running the evaluator, because every outcome is already saved.
 | class | status as of 2026-10-01 |
 | distributional | **measured, closed.** Six branches, 0–1.21× against matched controls, and no weighting of the four channels recovers anything (§4.1) |
 | cross-script | untested here, and untestable *as stated* until an independent side exists: the Linear A phonetic grid is itself Linear B transfer, so "LA→LB" is circular. Needs Cypro-Minoan or Cretan Hieroglyphic values |
-| semantic anchors | untested. No bilingual of adequate length; needs the find, not a method |
+| semantic anchors | **measured in the world, not yet scoreable in the pool.** Eight sign↔commodity-context associations survive a site-stratified permutation at the 122-test family alpha (two at document-level p=2.7e-11 / 2.6e-05; six more as a partially-overlapping set) — this project's first controlled positives. But the tree's gate scores *recovery* lifts, so a permutation-p association has no legal `primary_metric` there: it needs its own pre-registered threshold and a definition of what an association is worth before a policy can weigh it. See `verification_audit.md` Phase 14 |
 | long text | untested. `KN Zg 57/58` is the case; needs the edition, not a method |
 
 Against that pool, the control policy transcribed from §8's own reasoning — expand a live class,
