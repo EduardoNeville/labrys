@@ -55,3 +55,8 @@ data/analysis/rsi/cache/
 
 # cron driver log (tools/rsi_loop.sh)
 data/analysis/rsi/loop_cron.log
+
+# SQLite WAL sidecars (read-only digest queries create them)
+*.db-shm
+*.db-wal
+*.db-journal

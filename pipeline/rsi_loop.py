@@ -66,10 +66,17 @@ ACTIONS = [
          what="the candidate generator discards the truth on ~46% of draws pooled; measure it per "
               "archive, since the ceiling on any method is set here and the archive rule applies",
          executor="membership"),
-    dict(id="diagnose:recall-by-archive", kind="diagnose", cost=420, expensive=True,
+    dict(id="diagnose:recall-by-archive", kind="code", cost=420,
          what="conditional unique-argmax per archive (op2f is pooled): does any archive's scorer "
-              "identify where the pooled one does not?",
-         executor="recall"),
+              "identify where the pooled one does not? NOT IMPLEMENTED — it was registered as "
+              "executable while its executor was a stub returning ok:True, which is the "
+              "fake-progress failure this document warns about. The overseer caught it",
+         unblocks="op2f-identifiable-subset"),
+    dict(id="verify:header-counts", kind="verify", cost=5,
+         what="the corpus facts AGENTS.md states (inscriptions, sign occurrences, distinct Bennett "
+              "IDs, findspots) against the database. The overseer found '312 unique Bennett IDs' "
+              "claimed against 205 in the DB, with nothing checking it",
+         executor="header_counts"),
     dict(id="code:cm-acceptance-test", kind="code", cost=3600,
          what="pre-register the LA<->Cypro-Minoan acceptance test: the gate, the null, the "
               "stratification, and the falsification criterion, written before the corpus exists",
@@ -130,28 +137,35 @@ def x_libation(state: dict) -> dict:
     for g, q, b, t in rows:
         if t in ("syllabogram", "logogram") and b:
             seq.setdefault(g, []).append(b)
-    words = {"ja-sa-sa-ra-me": 9, "u-na-ka-na-si": 6, "si-ru-te": 7,
+    words = {"ja-sa-sa-ra-me": 9, "u-na-ka-na-si": 6, "si-ru-te": 7, "favour": 6,
              "opening": 11}
     pats = {"ja-sa-sa-ra-me": ("AB 57", "AB 31", "AB 31", "AB 60", "AB 13"),
             "u-na-ka-na-si": ("AB 10", "AB 06", "AB 77", "AB 06", "AB 41"),
             "si-ru-te": ("AB 41", "AB 26", "AB 04"),
+            "favour": ("AB 28", "AB 39", "AB 06", "AB 80"),
             "opening": ("AB 08", "AB 59", "AB 28", "A 301", "AB 54", "AB 57")}
     got = {}
     for name, pat in pats.items():
-        n = z = 0
+        n = z = strict = 0
         for g, s in seq.items():
-            for i in range(len(s) - len(pat) + 1):
-                if tuple(s[i:i + len(pat)]) == pat:
+            keep = [(i, b) for i, b in enumerate(s)]
+            for i in range(len(keep) - len(pat) + 1):
+                if tuple(b for _, b in keep[i:i + len(pat)]) == pat:
                     n += 1
                     z += int(i == 0)
-        got[name] = (n, z)
+                    # strict contiguity in the sign rows: a match spanning an unidentified row is
+                    # not a word. The overseer raised this; every match is contiguous, so the check
+                    # keeps the question answered permanently rather than assumed.
+                    strict += int(keep[i + len(pat) - 1][0] - keep[i][0] == len(pat) - 1)
+        got[name] = (n, z, strict)
     changed = [k for k, v in words.items() if got[k][0] != v]
+    noncontig = [k for k, v in got.items() if v[2] != v[0]]
     # SLOT ORDER matters and must be the DOCUMENTED one (opening -> name-anchor -> request ->
     # favour -> divine), not this dict's insertion order. The first version of this check compared
     # against `list(pats)` and flagged 2/7 texts as out of order: a false drift report caused by
     # the reference being wrong, not the corpus. It is the same trap as comparing against a stale
     # baseline, one level down.
-    SLOT_ORDER = ["opening", "ja-sa-sa-ra-me", "u-na-ka-na-si", "si-ru-te"]
+    SLOT_ORDER = ["opening", "ja-sa-sa-ra-me", "u-na-ka-na-si", "favour", "si-ru-te"]
     order_ok = order_tot = 0
     for g in seq:
         hits = sorted((next(i for i in range(len(seq[g]) - len(p) + 1)
@@ -163,11 +177,12 @@ def x_libation(state: dict) -> dict:
             order_tot += 1
             order_ok += int([k for _, k in hits]
                             == sorted((k for _, k in hits), key=SLOT_ORDER.index))
-    return {"ok": not changed,
+    return {"ok": not changed and not noncontig and order_ok == order_tot,
             "detail": f"counts {[got[k][0] for k in words]} (recorded {list(words.values())}); "
-                      f"opening at index 0 in {got['opening'][1]}/11; slot order "
-                      f"{order_ok}/{order_tot} texts",
-            "changed": bool(changed) or order_ok != order_tot}
+                      f"opening at index 0 in {got['opening'][1]}/{got['opening'][0]}; "
+                      f"slot order {order_ok}/{order_tot} texts over {len(pats)} patterns; "
+                      f"non-contiguous matches: {noncontig or 'none'}",
+            "changed": bool(changed) or bool(noncontig) or order_ok != order_tot}
 
 
 def x_commodity(state: dict) -> dict:
@@ -192,7 +207,17 @@ def x_commodity(state: dict) -> dict:
 
 
 def x_membership(state: dict) -> dict:
-    """D4 per archive: the share of draws where the truth survives candidate generation."""
+    """D4 per archive: the share of draws where the truth survives candidate generation.
+
+    Two corrections after the overseer's first report:
+      * it compares against the LAST recorded value and flags a change beyond tolerance. The first
+        version hardcoded changed=False, so membership — the figure the D4 cost estimate rests on —
+        could have halved and the loop would have logged healthy. A verifier that cannot fail is not
+        a verifier.
+      * the three strata are measured on the SAME hidden sets (random.Random(0) over each stratum's
+        own anchor list), so the archives are PAIRED and their differences must not be read as
+        independent. The detail string says so.
+    """
     sys.path.insert(0, str(REPO))
     import importlib.util
     from pathlib import Path as P
@@ -235,18 +260,65 @@ def x_membership(state: dict) -> dict:
                 tot += 1
         c.close()
         out[site] = {"membership": round(inside / tot, 4), "mean_candidates":
-                     round(sum(sizes) / len(sizes), 1), "inscriptions": stats["inscriptions"]}
-    return {"ok": True, "detail": json.dumps(out), "changed": False}
+                     round(sum(sizes) / len(sizes), 1), "lb_inscriptions": stats["inscriptions"]}
+    prev_runs = state["runs"].get("diagnose:membership-by-archive") or {}
+    prev = prev_runs.get("values", {})
+    moved = {s: (prev.get(s, {}).get("membership"), v["membership"])
+             for s, v in out.items()
+             if abs(prev.get(s, {}).get("membership", v["membership"]) - v["membership"]) > 0.02}
+    return {"ok": True,
+            "detail": json.dumps(out),
+            "values": out,          # machine-readable, so the drift check need not parse prose
+            "note": "strata are PAIRED: the same hidden sets are drawn per archive, so the "
+                    "KN/PY/TH differences must not be read as independent samples",
+            "changed": bool(moved)}
+
+
+def x_header_counts(state: dict) -> dict:
+    """The corpus facts in AGENTS.md, checked against the database.
+
+    The overseer's first report found '312 unique Bennett IDs' in AGENTS.md against 205 in the DB,
+    with no verify action covering any of it — so the header numbers could rot silently, and one of
+    them appears to have. This checks every figure in that block that the DB can settle.
+    """
+    conn = sqlite3.connect(REPO / "data/database/lineara_full.db")
+    q = lambda s: conn.execute(s).fetchone()[0]                       # noqa: E731
+    actual = {
+        "inscriptions": q("SELECT COUNT(*) FROM inscriptions"),
+        "sign_occurrences": q("SELECT COUNT(*) FROM signs"),
+        "bennett_ids": q("SELECT COUNT(DISTINCT bennett_id) FROM signs WHERE bennett_id != ''"),
+        "findspots": q("SELECT COUNT(*) FROM findspots"),
+    }
+    conn.close()
+    # Parse the numbers out of the doc and compare NUMERICALLY. The first version grepped for the
+    # claimed strings, so a doc claiming 1,719,000 would have passed and the disclaimed "312" kept
+    # reporting OK — the overseer's second report. Presence is not agreement.
+    import re
+    doc = (REPO / "AGENTS.md").read_text(encoding="utf-8")
+    block = doc.split("## Corpus Facts", 1)[-1][:900]
+    nums = {int(m.replace(",", "")) for m in re.findall(r"\b\d[\d,]*\b", block)}
+    straddle = {k: v for k, v in actual.items() if v not in nums}
+    return {"ok": not straddle,
+            "detail": f"db: {actual}; numbers present in the AGENTS.md block: {sorted(nums)}; "
+                      + (f"NOT matched: {straddle}" if straddle else "all matched numerically"),
+            "changed": bool(straddle)}
 
 
 def x_recall(state: dict) -> dict:
-    return {"ok": True, "detail": "not implemented in the inner loop: needs per-archive "
-                                  "collect() passes (~7 min per archive)",
-            "changed": False}
+    """NOT IMPLEMENTED. Returns ok=False so it can never record a green tick for a non-measurement.
+
+    The first version returned ok:True with a 'not implemented' detail, while the action was
+    registered as executable — so `--run` would have recorded success for a measurement that never
+    happened, and the terminal line would have claimed a drained queue. The overseer flagged it in
+    its first report; the action is now kind="code" (outer menu) and this executor refuses.
+    """
+    return {"ok": False, "changed": False,
+            "detail": "NOT IMPLEMENTED — registered as code, not as executable coverage"}
 
 
 EXECUTORS = {"guards": x_guards, "shipped_node": x_shipped_node, "libation": x_libation,
-             "commodity": x_commodity, "membership": x_membership, "recall": x_recall}
+             "commodity": x_commodity, "membership": x_membership, "recall": x_recall,
+             "header_counts": x_header_counts}
 
 
 # ── state ────────────────────────────────────────────────────────────────────
@@ -325,17 +397,21 @@ def main() -> None:
 
     if args.cron:
         wrapper = REPO / "tools/rsi_loop.sh"
+        overseer = REPO / "tools/rsi_overseer.sh"
         # named `log_path`, not `log`: a local `log` shadows the module's log() function and the
         # first action's recording then dies with UnboundLocalError. Caught by running the driver.
         log_path = RSI / "loop_cron.log"
-        print("# Dream-RSI inner loop - see RSI_LOOP.md §6. Install with: crontab -e")
-        print("# Nightly re-derives every recorded number; \"full\" adds the expensive checks.")
+        print("# Dream-RSI loop - see RSI_LOOP.md §6. Install with: crontab -e")
+        print("# tier 0 (nightly) re-derives every recorded number; the weekly run adds the")
+        print("# expensive checks; tier 1 is the daily overseer: a pinned free model that reads")
+        print("# the record and reports anomalies, with the frozen set hash-checked and reverted.")
         print("SHELL=/bin/sh")
-        print(f"PATH={Path.home()}/.local/bin:/usr/local/bin:/usr/bin:/bin")
+        print(f"PATH={Path.home()}/.bun/bin:{Path.home()}/.local/bin:/usr/local/bin:/usr/bin:/bin")
         print(f"0 3 * * *  {wrapper} due  >> {log_path} 2>&1")
+        print(f"30 4 * * *  {overseer} >> {log_path} 2>&1")
         print(f"0 4 * * 0  {wrapper} full >> {log_path} 2>&1")
-        print(f"# exit status 1 means a verify action FLAGGED drift; log: {log_path}")
-        print(f"# run once by hand now:  {wrapper} due")
+        print(f"# exit 1 (tier 0 drift) or 2 (tier 1 violation) means investigate; log: {log_path}")
+        print(f"# run once by hand now:  {wrapper} due && {overseer}")
         return
 
     state = load_state()
@@ -399,6 +475,9 @@ def main() -> None:
         entry = {"when": time.strftime("%Y-%m-%d %H:%M:%S"), "ok": res["ok"],
                  "changed": res["changed"], "detail": res["detail"],
                  "seconds": round(time.time() - t0, 1)}
+        # Executors may return extra machine-readable fields (e.g. `values` for drift checks);
+        # pass them through rather than making the next run parse them back out of prose.
+        entry.update({k: v for k, v in res.items() if k not in entry})
         state["runs"][a["id"]] = entry
         save_state(state)
         log({"action": a["id"], **entry})

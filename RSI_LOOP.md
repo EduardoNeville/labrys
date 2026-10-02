@@ -66,10 +66,46 @@ First run, for the record:
 | `code:cm-acceptance-test` | ~1 h | the only path with a ceiling. Pre-register the gate, null, stratification and falsification criterion *before* the corpus exists |
 | `code:d4-candidate-generator` | ~2 h | the candidate generator voids ~47% of draws in every archive. Must be a **new method** behind the frozen evaluator (INVARIANT 1), never an edit to it |
 | `code:new-channel` | ~3 h | any channel outside the four cached components. A proposal must say why it can be *converted* where the class channel (op2d, 4.00× its majority baseline) could not (op2e: 0.18× within a class handed over for free) |
+| `diagnose:recall-by-archive` | ~7 min | registered as `code`, not as coverage: its executor was a stub returning `ok: True`, which the overseer caught in its first report — a stub that reports success is exactly the fake progress this document refuses |
 
 The outer loop is an agent session, and its shape is Dream-RSI's: the improver is **fixed**
 (INVARIANT 2 — same model, same prompt, same temperature), it may not touch the evaluator, and every
 proposal must be pre-registered, nulled in the same run, and stratified before it can become a node.
+
+### Tier 1 — the overseer (`tools/rsi_overseer.sh`)
+
+A cheap model reviews what the deterministic tiers recorded and reports anomalies. Pinned by
+invocation (`--model`, `--thinking`, `--no-session`), so its judgement cannot drift between days;
+today's pin is `space-bunny-free` at `max` thinking, both overridable by env var.
+
+Two properties make it safe to schedule:
+
+- **It is treated as untrusted, and the guarantee is deterministic.** The frozen set is hashed before
+  and after every run; any modification is reverted, recorded in the report as a violation, and the
+  driver exits 2. Files touched outside the frozen set are diffed against the pre-run `git status`, so
+  pre-existing untracked files are not blamed on the model. (pi offers no per-path read-only flag;
+  isolation is via containerization, so the check is enforced here rather than requested in a prompt.)
+- **It cannot write its own artifact.** The driver pipes a precomputed digest (loop status, guard
+  output, tree table, log tail) plus a versioned prompt (`tools/rsi_overseer_prompt.md`) into
+  `pi --print`, and writes the report itself. The agent never needs write access to produce anything.
+
+**Its first two runs earned the tier.** Eight real defects, several of them in code written the same
+day:
+
+| # | found | disposition |
+| 1 | `x_recall` was registered as executable while its executor returned `ok: True` for a measurement that never happened — a fake green tick, and the terminal line would have claimed a drained queue on its strength | action regraded to `code`; the stub now refuses |
+| 2 | the libation verifier used 4 of the 5 formula patterns, so it reported slot order **7/7** while every document says **9/9**, and compared only against its own denominator | 5 patterns; now **9/9**, matching the docs |
+| 3 | the matcher tested contiguity over a sequence with 45.9% of sign rows removed, so a match could span a lacuna and merge two fragments into a "word" | both counts now reported; **every match is contiguous** — the concern is permanently answered rather than assumed |
+| 4 | `x_membership` hardcoded `changed: False`, so the figure the D4 cost estimate rests on could have halved and the loop would have logged healthy | compares against the last recorded values, flags >0.02 |
+| 5 | the three archives' membership is measured on the **same hidden sets** (paired), and was reported as if independent | `values` recorded machine-readably; the pairing is stated in the record |
+| 6 | `verify:header-counts` greped for claimed strings, so a doc claiming 1,719,000 would have passed and the disclaimed "312" kept reporting OK | parses the doc's numbers and compares numerically |
+| 7 | AGENTS.md's "312 unique Bennett IDs" is unreproducible: the DB holds **205** non-empty (206 including the empty row), and the union across grid files is **269**. Nothing checked any header number | number corrected with the discrepancy recorded; action added |
+| 8 | SQLite's WAL sidecars created by the driver's own digest queries were reported as agent violations | gitignored and exempted from the diff |
+
+It also refused to declare the terminal state above, on the grounds that a three-way value concordance
+over the grid is uncovered (its second report: `la_lb_mapping.lb_value` and
+`refined_phonetic_grid.refined_value` disagree on AB 34 and AB 79 while the guard built to catch that
+prints "conflicts (0)"). That refusal is the tier working: the stop rule has to hold from both sides.
 
 **World** — the inbox. This is the only tier that can change the verdict, and it is currently empty:
 
@@ -129,20 +165,23 @@ that rots:
 
 ```cron
 SHELL=/bin/sh
-PATH=/home/<user>/.local/bin:/usr/local/bin:/usr/bin:/bin
-0 3 * * *  <repo>/tools/rsi_loop.sh due  >> <repo>/data/analysis/rsi/loop_cron.log 2>&1
-0 4 * * 0  <repo>/tools/rsi_loop.sh full >> <repo>/data/analysis/rsi/loop_cron.log 2>&1
+PATH=/home/<user>/.bun/bin:/home/<user>/.local/bin:/usr/local/bin:/usr/bin:/bin
+0 3 * * *  <repo>/tools/rsi_loop.sh due      >> <repo>/data/analysis/rsi/loop_cron.log 2>&1
+30 4 * * * <repo>/tools/rsi_overseer.sh      >> <repo>/data/analysis/rsi/loop_cron.log 2>&1
+0 4 * * 0  <repo>/tools/rsi_loop.sh full     >> <repo>/data/analysis/rsi/loop_cron.log 2>&1
 ```
 
-`tools/rsi_loop.sh` exists because cron supplies a minimal environment: it sets `PATH` (so `uv` is
-found), cds to the checkout, timestamps and logs each run, bounds the log to ~1 MB, and exits **1 when
-any verify action flagged drift** — so cron's mail is the alert channel, and a silent log is a healthy
-one. Modes: `due` (nightly) and `full` (weekly, adds the expensive stratified checks).
+`--cron` prints this with the paths resolved for whatever machine it runs on. Three schedules: tier 0
+nightly (re-derive every recorded number), tier 1 daily (the overseer's review), and the weekly run
+that adds the expensive stratified checks. Exit 1 from tier 0 or exit 2 from tier 1 means investigate;
+a silent log is a healthy one.
 
-Run once by hand before trusting the schedule:
+`tools/rsi_loop.sh` sets `PATH` (uv lives in `~/.local/bin`, pi in `~/.bun/bin` and runs under node),
+cds to the checkout, timestamps each run, bounds the log to ~1 MB, and exits **1 when any verify
+action flagged drift**. Run the pair once by hand before trusting the schedule:
 
 ```bash
-tools/rsi_loop.sh due && tail -20 data/analysis/rsi/loop_cron.log
+tools/rsi_loop.sh due && tools/rsi_overseer.sh && tail -40 data/analysis/rsi/loop_cron.log
 ```
 
 State is durable and committed: `data/analysis/rsi/loop_state.json` (last run per action, ok/changed)
@@ -190,7 +229,9 @@ has already run — and the answer was recorded before the loop was built.
 
 ## Appendix — the loop's own defect log
 
-Written while building it, because a verifier that has never flagged anything is untested:
+Written while building it, because a verifier that has never flagged anything is untested. Items 1–5
+were found by running the inner loop; items 6+ by the overseer (tier 1), which is the point of having
+one.
 
 1. **The inbox said "ready" for a synthetic corpus** (§4). Found by reading the README of the corpus
    the inbox had just declared available. This is the loop's most important failure and the reason

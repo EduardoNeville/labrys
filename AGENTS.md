@@ -99,8 +99,15 @@ Phonetic values are from Linear B transfer (NOT confirmed for Linear A). Phase 5
 
 ## Corpus Facts
 
+> **Numbers verified against the DB 2026-10-02** (`verify:header-counts` in `pipeline/rsi_loop.py`):
+> 1,719 inscriptions, 11,018 sign occurrences, 62 findspots — all confirmed. **The "312 unique
+> Bennett IDs" figure is not reproducible**: `signs` holds **206** distinct Bennett IDs (205
+> non-empty, 5,960 of 11,018 rows have one), and the union across the grid and mapping files is
+> **269**. Neither is 312, and no artifact in the repo yields it. Treat the ID count as ~206 and
+> re-derive before citing it.
+
 - 1,719 inscriptions, 11,018 sign occurrences
-- 312 unique Bennett IDs, 62 findspots, 12 periods
+- 312 unique Bennett IDs *(see the note above: the DB holds 206 distinct non-empty IDs; 312 is unverified)*, 62 findspots, 12 periods
 - 1,308 texts from LM IB (~1450 BCE destruction horizon)
 - Largest archive: Hagia Triada (~863 inscriptions)
 - Longest text: HT 117a (82 signs)

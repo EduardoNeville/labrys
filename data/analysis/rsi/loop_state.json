@@ -1,39 +1,64 @@
 {
  "runs": {
   "verify:guards": {
-   "when": "2026-10-02 18:27:29",
+   "when": "2026-10-02 19:07:40",
    "ok": true,
    "changed": false,
    "detail": "14/14 guards passed",
    "seconds": 1.5
   },
   "verify:shipped-node": {
-   "when": "2026-10-02 18:27:29",
+   "when": "2026-10-02 19:07:40",
    "ok": true,
    "changed": false,
    "detail": "lift 0.00x, 0 recovered, NO SIGNAL; matches the recorded node: True",
-   "seconds": 0.5
+   "seconds": 0.4
   },
   "verify:libation-counts": {
-   "when": "2026-10-02 18:27:29",
+   "when": "2026-10-02 19:07:41",
    "ok": true,
    "changed": false,
-   "detail": "counts [9, 6, 7, 11] (recorded [9, 6, 7, 11]); opening at index 0 in 11/11; slot order 7/7 texts",
+   "detail": "counts [9, 6, 7, 6, 11] (recorded [9, 6, 7, 6, 11]); opening at index 0 in 11/11; slot order 9/9 texts over 5 patterns; non-contiguous matches: none",
    "seconds": 0.0
   },
   "verify:commodity-pairs": {
-   "when": "2026-10-02 18:27:34",
+   "when": "2026-10-02 19:07:45",
    "ok": true,
    "changed": false,
    "detail": "document-level p reproduces; cross-site replication still 2 of 67",
-   "seconds": 4.4
+   "seconds": 4.6
   },
   "diagnose:membership-by-archive": {
-   "when": "2026-10-02 18:30:31",
+   "when": "2026-10-02 19:11:01",
    "ok": true,
    "changed": false,
-   "detail": "{\"KN\": {\"membership\": 0.4688, \"mean_candidates\": 41.2, \"inscriptions\": 3326}, \"PY\": {\"membership\": 0.4688, \"mean_candidates\": 41.1, \"inscriptions\": 1105}, \"TH\": {\"membership\": 0.5375, \"mean_candidates\": 46.5, \"inscriptions\": 291}}",
-   "seconds": 177.6
+   "detail": "{\"KN\": {\"membership\": 0.4688, \"mean_candidates\": 41.2, \"lb_inscriptions\": 3326}, \"PY\": {\"membership\": 0.4688, \"mean_candidates\": 41.1, \"lb_inscriptions\": 1105}, \"TH\": {\"membership\": 0.5375, \"mean_candidates\": 46.5, \"lb_inscriptions\": 291}}",
+   "seconds": 196.0,
+   "values": {
+    "KN": {
+     "membership": 0.4688,
+     "mean_candidates": 41.2,
+     "lb_inscriptions": 3326
+    },
+    "PY": {
+     "membership": 0.4688,
+     "mean_candidates": 41.1,
+     "lb_inscriptions": 1105
+    },
+    "TH": {
+     "membership": 0.5375,
+     "mean_candidates": 46.5,
+     "lb_inscriptions": 291
+    }
+   },
+   "note": "strata are PAIRED: the same hidden sets are drawn per archive, so the KN/PY/TH differences must not be read as independent samples"
+  },
+  "verify:header-counts": {
+   "when": "2026-10-02 19:11:01",
+   "ok": true,
+   "changed": false,
+   "detail": "db: {'inscriptions': 1719, 'sign_occurrences': 11018, 'bennett_ids': 205, 'findspots': 62}; numbers present in the AGENTS.md block: [2, 10, 12, 62, 82, 205, 206, 269, 312, 863, 1308, 1450, 1719, 2026, 5960, 11018]; all matched numerically",
+   "seconds": 0.0
   }
  },
  "terminal": "inner queue drained: every executable action has run. What remains needs code (outer loop) or the world (acquisition inbox)."
