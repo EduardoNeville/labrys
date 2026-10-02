@@ -590,7 +590,8 @@ anchor (from a new text, from Cypro-Minoan, or from a newly proposed place name)
 **Conclusion of the Phase 12 audit series: the existing corpus contains no anchor capable of
 deciphering Linear A. Progress requires material the repository does not hold.**
 
-*(Phase 13 continues below: the Linear B instrument repairs, and the Dream-RSI method search.)*
+*(Phase 13 below: the Linear B instrument repairs and the Dream-RSI method search. Phase 14,
+further down: the commodity associations, audited — the one positive that survives.)*
 
 ---
 
@@ -725,3 +726,49 @@ Recorded here per PLAN §2. Full record in `data/analysis/rsi/`.
   this scorer: the binding constraint is the objective, not the channel and not the corpus.
   The within-class prediction was written into the script before the run and held.
 
+---
+
+## Phase 14 — the commodity associations, audited *(2026-10-01)*
+
+The last positively-signed claim in `AGENTS.md`'s verified list: **AB 30 ↔ LIVESTOCK** and
+**AB 28 ↔ WINE**, both recorded as surviving Bonferroni. Every sibling in that list has since been
+retracted, corrected, or shown to be a class metric, so this one got the toponym treatment:
+re-test it against a null matched to its unit of observation, then stratify.
+
+**What was wrong with the null.** `pipeline/ventris/commodity_semantics.py` runs a hypergeometric
+test over adjacent *slots* — syllabograms in a ±3-sign window around each commodity logogram.
+Slots are not independent draws: windows overlap within a text, and a short tablet's window spans
+most of the document. WINE is 10 contexts and 14 slots, so the effective sample is nearer 10 than
+14.
+
+**The re-test** (`data/analysis/commodity_decoding/enrichment_audit.py`):
+
+| test | AB 30 ↔ LIVESTOCK | AB 28 ↔ WINE |
+| slot level, as committed | p=1.16e-04 | p=7.30e-05 |
+| **document level** (the hypergeometric's assumption actually holds) | **p=2.69e-11** | **p=2.63e-05** |
+| **site-stratified permutation**, 2,000 reps, each sign's documents-per-site held fixed | observed 31 vs null mean 13.0 / max 24 → **p=0.0005 (floor)** | observed 7 vs null mean 1.3 / max 5 → **p=0.0005 (floor)** |
+
+Not one permutation reached the observed counts. Recall what this control is for: on the toponym
+claim, stratifying by genre moved p from 0.00086 to **0.38**. Here it moves nothing, because the
+sign footprints are spread across sites (AB 30 inside the population: 30 Haghia Triada, 11 Khania,
+2 Zakros, 2 Phaistos) and the association is not a geography effect.
+
+**Corrections the audit produced:**
+
+1. **The Bonferroni family is 122 tests, not 61.** `sign_commodity_enrichment.csv` has 61 rows
+   because it holds only the p<0.05 pairs; `bonferroni_alpha` counts every tested pair. So the
+   family-wise alpha is 0.05/122 = **0.00041**. Both claims clear it; "survives Bonferroni" is
+   right, for a reason slightly different from the one written down.
+2. **The document level is more sensitive and surfaces six more pairs** (AB 31, AB 76, AB 41,
+   AB 02, AB 81 → LIVESTOCK; AB 27 → WINE). Eight survivors against 0.05 expected by chance. They
+   are **candidates of the same kind, not findings**: they have not had the stratified permutation,
+   and the two that have, have it.
+3. **What the association does not say.** It gives neither sign a meaning or a value. It says a
+   syllabogram's *entry context* is enriched with a logogram's *semantic class*. That makes these
+   the first **semantic-anchor candidates** in this project — closure paper §7's class 1 — as
+   against the distributional class, which is closed. It is the only evidence class here that has
+   ever returned a controlled positive.
+
+**Standing result: the two commodity associations are the best-audited claims in this repository
+and the only positives to survive a matched null. They remain associations with a meaning class,
+not meanings.**

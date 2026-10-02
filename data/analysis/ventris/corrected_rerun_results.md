@@ -32,9 +32,32 @@
    - si-ru-te: 7 insns (IOZa14/15, IOZa2, KOZa1, SYZa3, TLZa1, VRYZa1)
    - Opening: AB 08 AB 59 AB 28 AB 54 AB 57 (matches GORILA)
 
-2. **Commodity enrichment (corrected, Bonferroni-surviving):**
-   - AB 30 → LIVESTOCK (p=0.0001, 2.6×)
-   - AB 28 → WINE (p=0.0001, 8.6×)
+2. **Commodity enrichment (corrected, Bonferroni-surviving) — AUDITED 2026-10-01, holds and strengthens:**
+   - AB 30 → LIVESTOCK (slot p=0.000116, 2.64×) → **document-level p=2.7e-11**, 2.87×
+   - AB 28 → WINE (slot p=0.000073, 8.64×) → **document-level p=2.6e-05**, 5.71×
+
+   `data/analysis/commodity_decoding/enrichment_audit.py` re-tests both against the null their
+   unit requires, plus a site-stratified permutation (2,000 reps) that holds each sign's number
+   of documents *per site* fixed — the control that dissolved the toponym claim (p 0.00086 →
+   0.38). **Not one permutation reached the observed counts (empirical p = 0.0005, the floor of
+   2,000).** These are the only positively-signed statistical results in this repository that
+   have survived a matched null, and they are now its best-audited claims.
+
+   Two corrections to the numbers as recorded:
+   - **The Bonferroni family is 122 tests, not the 61 rows in `sign_commodity_enrichment.csv`**
+     (`bonferroni_alpha` counts every tested pair, including the non-significant ones), so the
+     family-wise alpha is 0.05/122 = **0.00041**, not 0.00082. Both claims clear it either way.
+   - **The document level is more sensitive than the slot level and surfaces six more pairs**
+     (AB 31, AB 76, AB 41, AB 02, AB 81 → LIVESTOCK; AB 27 → WINE, all p < 0.00041 at document
+     level; none at slot level). Eight survivors against 0.05 expected by chance. Treat them as
+     **candidates of the same kind, not findings** — they have not had the site-stratified
+     permutation, and the two that have, have it.
+
+   What the association does *not* say: it does not give AB 30 or AB 28 a meaning or a value. It
+   says a syllabogram's *entry context* is enriched with a logogram's *semantic class* — which
+   makes these the first **semantic-anchor candidates** in the project (closure paper §7 class 1)
+   rather than distributional ones, and the only evidence class here that has ever returned a
+   controlled positive.
 
 3. **A 301 functional profile:** logogram, 85% inscription-initial, 229/274 at
    Haghia Triada — a heading/entry-opening marker, not a syllabogram.
@@ -51,3 +74,8 @@ corpus itself (now correct).
 **What's newly enabled:** the real libation formula and two new commodity
 associations (AB 30↔LIVESTOCK, AB 28↔WINE) — all on corrected data. This is
 the genuine path forward.
+
+**2026-10-01 update:** both commodity associations were audited against a document-level null and
+a site-stratified permutation, and both hold (p=0.0005 at the floor of 2,000 permutations). They
+are the first positively-signed results in this repository to survive a matched null. Details
+above and in `data/analysis/ventris/verification_audit.md` (Phase 14).
