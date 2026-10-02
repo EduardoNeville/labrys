@@ -844,3 +844,58 @@ and that this does not hold at Khania.
 sample is documents); the Bonferroni family is 122, not 61; the document level is more sensitive;
 and AB 82↔LIVESTOCK's retraction remains correct. What does not stand is treating the surviving
 pairs as candidate semantic anchors for Linear A.
+
+---
+
+## Phase 15 — archive stratification, and why three claims failed it *(2026-10-01)*
+
+Three survivors of every earlier audit were re-tested on this date. Two failed, one passed, and the
+reason is a corpus property nobody had written down:
+
+| claim | verdict |
+| commodity sign↔class enrichment | **fails cross-site replication** — 2 of 67 pairs, both logogram↔own-class tautologies |
+| A 301 "heading/entry-opening marker" | **archive-specific** — see below |
+| libation formula | **passes** — 9 occurrences, 5 sites, 9 of 9 texts in documented slot order |
+
+**The corpus property:**
+
+```
+Haghia Triada - Portico 11 and Room 13     863 of 1719 inscriptions   (50.2%)
+Khania                                     226                        (13.1%)
+Haghia Triada - Villa Magazine              96                        ( 5.6%)
+```
+
+Half the corpus is one room, and it has its own tablet format. **A pooled positional or
+distributional statistic is therefore mostly a statistic about Portico 11 and Room 13.**
+
+**A 301, corrected.** The recorded profile is "logogram, 85% inscription-initial, 229/274 at Haghia
+Triada — a heading/entry-opening marker". Pooled, it reproduces (238/274 = 86.9%). Per archive it
+comes apart:
+
+| archive | n | at index 0 |
+| Haghia Triada - Portico 11 and Room 13 | 231 | **229 (99.1%)** |
+| everywhere else | 43 | **9 (20.9%)** — Khania 3/7, Iouktas 1/6, Syme 0/5, Zakros 1/3, Palaikastro 0/2 |
+
+The apparent coincidence in the record is the finding: *229* is both the index-0 count and (nearly)
+the Portico count, because they are the same occurrences. A 301 heads tablets **at Portico**, and
+does not elsewhere. Stratification has to reach room level, not site level — **two rooms of the same
+site disagree**: Portico 229/231 initial, Villa Magazine 0/3, Casa Room 7 0/2, Casa Room 9 0/1.
+
+The AB 85 retraction is **unaffected**: it rests on the attribution of 508 occurrences (a mapping
+fact from Phase 11/12), not on this profile.
+
+**The rule, and the tool.** Any positional, distributional or functional claim about Linear A signs
+must be computed per archive and reported across archives; a pooled number answers a question about
+the largest room. `data/analysis/ventris/archive_stratification.py` runs the check for any sign
+(`--sign`), which is also how the rule generalises: A 306, the livestock logogram, is
+Khania-weighted (11 of 22 occurrences) and therefore *not* a Portico artifact — the tool
+distinguishes the two cases rather than banning pooled numbers outright.
+
+**Why the libation formula passes where the others fail:** it is genre structure spanning five
+sites, not a corpus-wide enrichment. The structure that survives this corpus is formula and genre;
+the structure that does not is distribution. That is the same conclusion the closure paper reaches
+for the Linear B test bed by an entirely different route.
+
+**Applies to the Linear B sandbox too.** Its 4,794 inscriptions also come from a handful of centres,
+so the same question applies to the closure paper's negative: pooling cannot manufacture a real
+signal, but it can dilute a stratum-specific one away. Recorded as a limitation in §7.1 there.

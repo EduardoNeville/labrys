@@ -59,8 +59,14 @@
    rather than distributional ones, and the only evidence class here that has ever returned a
    controlled positive.
 
-3. **A 301 functional profile:** logogram, 85% inscription-initial, 229/274 at
-   Haghia Triada — a heading/entry-opening marker, not a syllabogram.
+3. **A 301 functional profile (corrected 2026-10-01):** logogram, 86.9% inscription-initial
+   *pooled* — but that pooled figure is a statistic about one room. Per archive: **229 of 231
+   (99.1%) initial at Haghia Triada Portico 11 and Room 13**, and **9 of 43 (20.9%) everywhere
+   else** (Khania 3/7, Iouktas 1/6, Syme 0/5, Zakros 1/3, Palaikastro 0/2). "Heading/entry-opening
+   marker" is that archive's tablet format, not a general property of the script. The AB 85
+   retraction is unaffected — it rests on the attribution of 508 occurrences, not on the profile.
+   Stratification must reach ROOM level: two rooms of the same site disagree (Portico 229/231,
+   Villa Magazine 0/3). Tool: `data/analysis/ventris/archive_stratification.py`.
 
 ## The honest meta-verdict
 

@@ -389,6 +389,16 @@ this implies for anyone tempted to build a self-improving loop on this project: 
 not a bad policy. It is a well-controlled, rigorously negative loop that returns 0.00× indefinitely
 because it was pointed at the one resource that was never scarce — computation.
 
+**A limitation this work did not control: archive skew.** Auditing the Linear A side on 2026-10-01
+established that Haghia Triada *Portico 11 and Room 13* is **50.2% of that entire corpus**, and that
+two rooms of the same site disagree about a sign's behaviour — so pooled statistics there describe
+one room. The Linear B test bed has the same shape: 4,794 inscriptions from six findspots, with one
+centre dominant. Pooling cannot manufacture a signal, but it *can* dilute a stratum-specific one
+away, so the negatives in §4 are exposed to this in a way the positives would not be. Stratifying
+every §4 result by findspot is the obvious follow-up and is not done here; the check is one command
+(`data/analysis/ventris/archive_stratification.py`) on the Linear A corpus and would be a small
+adaptation for the Linear B one.
+
 ---
 
 ## 8. Implications

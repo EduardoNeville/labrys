@@ -128,10 +128,19 @@ Phonetic values are from Linear B transfer (NOT confirmed for Linear A). Phase 5
 
 ## Key Findings to Reuse
 
+> **Archive stratification is mandatory (2026-10-01).** Haghia Triada *Portico 11 and Room 13*
+> alone is **863 of 1,719 inscriptions (50.2%)** and has its own tablet format, so any pooled
+> positional/distributional/functional statistic is mostly a statistic about that room. **Two rooms
+> of the same site disagree** (A 301 is initial in 229/231 occurrences at Portico and 0/3 at Villa
+> Magazine). Compute per archive and report across archives; a pooled number answers a question
+> about the largest room. Three survivors of every earlier audit were re-tested this way and two
+> failed (commodity enrichment: fails cross-site; A 301's "heading" profile: Portico-specific) while
+> one passed (libation formula: 5 sites, 9/9 slot order). Tool: `python data/analysis/ventris/archive_stratification.py --sign "A 301"`. See `verification_audit.md` Phases 14, 14.1, 15.
+
 ### Misvalued AB Signs (Phase 2 + Phase 5) 
 AB 16 (qa), AB 60 (ra vs ma conflict), AB 80 (ma), AB 22 (pi), AB 02 (ro/i dual) — see `data/analysis/comparative/misvalued_signs_resolution.csv`
 
-AB 85 was **removed** from this list in Phase 12: the 508-occurrence "never medial" profile that motivated it belongs to the logogram **A 301**, not to the syllabogram AB 85 (n=8, medial=0.75, i.e. medial-dominant). See `data/analysis/ventris/verification_audit.md` Phase 12 Addendum.
+AB 85 was **removed** from this list in Phase 12: the 508-occurrence "never medial" profile that motivated it belongs to the logogram **A 301**, not to the syllabogram AB 85 (n=8, medial=0.75, i.e. medial-dominant). See `data/analysis/ventris/verification_audit.md` Phase 12 Addendum. **Caveat (2026-10-01):** A 301's replacement profile ("entry-initial") is itself archive-local — 229/231 initial at Haghia Triada Portico 11 and Room 13, 9/43 elsewhere. The retraction stands (it rests on the occurrence count, not the profile); do not cite the profile as a general property.
 
 ### Best Language Family Fit
 No family is distinguished. Phase 3 candidate ranking: Anatolian IE and Hurro-Urartian tie at #1 (score 8), Tyrsenian #3 (score 7) — ALL marked "INCONCLUSIVE (tentative)". Tyrsenian shows the best *structural* WALS profile in some readings but is lexically weak (0 exact Swadesh matches, p=1.0). No family confirmed; several weakly compatible.
