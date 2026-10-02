@@ -772,3 +772,37 @@ sign footprints are spread across sites (AB 30 inside the population: 30 Haghia 
 **Standing result: the two commodity associations are the best-audited claims in this repository
 and the only positives to survive a matched null. They remain associations with a meaning class,
 not meanings.**
+
+### Phase 14 addendum — the six candidates, tested, and one caveat about counting
+
+The six pairs flagged above as candidates have now had the same stratified permutation, at
+20,000 reps (resolution 5e-5, below the family alpha 0.00041):
+
+| pair | documents | null mean ± sd | z | p_perm |
+| AB 30 ↔ LIVESTOCK | 31 | 12.9 ± 2.54 | 7.1 | ≤5e-05 |
+| AB 81 ↔ LIVESTOCK | 29 | 10.2 ± 2.44 | 7.7 | ≤5e-05 |
+| AB 31 ↔ LIVESTOCK | 22 | 7.1 ± 2.14 | 6.9 | ≤5e-05 |
+| AB 76 ↔ LIVESTOCK | 16 | 3.6 ± 1.69 | 7.3 | ≤5e-05 |
+| AB 02 ↔ LIVESTOCK | 16 | 5.3 ± 1.98 | 5.4 | ≤5e-05 |
+| **AB 41 ↔ LIVESTOCK** | 22 | 13.2 ± 2.36 | 3.7 | **4.0e-04** (marginal, at the threshold) |
+| AB 28 ↔ WINE | 7 | 1.3 ± 1.00 | — | ≤5e-05 |
+| AB 27 ↔ WINE | 8 | 1.3 ± 1.00 | 6.6 | ≤5e-05 |
+
+All eight survive. **But they are not eight discoveries**, and the counting caveat is the whole
+point of this addendum:
+
+- **They were selected by the document-level test and then re-tested**, which inflates them. That
+  is why the threshold used is the full 122-test family alpha and not something smaller.
+- **Six of the eight are LIVESTOCK pairs, and they overlap.** 74 of 107 LIVESTOCK documents carry
+  at most one of the six, which rules out a single entry template — but pairwise Jaccard reaches
+  0.52 (AB 31/AB 76) and 0.45 (AB 02/AB 81), so they are not independent findings either. They are
+  a partially-overlapping **set**, and should be cited as one result with that overlap matrix, not
+  as six.
+- **AB 41 is the marginal one** (p = 4.0e-04, eight permutations in 20,000). It is also the
+  project's key open target — the most frequent UNCERTAIN sign (240 occurrences) — so the claim
+  "AB 41 appears in livestock-entry contexts" is the kind of constraint that would matter *if* it
+  replicates on a held-out site. It has not been.
+
+**What replication would require:** a held-out site or period, or the same test pre-registered on
+`KN Zg 57/58` when its edition prints. Until then these are controlled candidates — the strongest
+kind of evidence this project has produced, and still not meanings.

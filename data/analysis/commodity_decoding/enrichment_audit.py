@@ -107,25 +107,29 @@ def main() -> None:
     for cc, sign, p in survivors_doc:
         print(f"  {cc} <-> {sign}: p={p:.2e}")
 
-    # ── site-stratified permutation: does it exceed chance *within* sites? ──
-    # The toponym lesson: a "geographic signal" survived until the null was stratified by
-    # genre, at which point p went 0.00086 -> 0.38. LIVESTOCK documents are 74 Haghia Triada
-    # + 58 Khania, so the same question applies to every number above. This null keeps each
-    # sign's number of documents *per site* fixed and permutes which documents they are,
-    # destroying the sign<->commodity association while preserving frequency and geography.
+    # ── every document-level survivor gets the stratified permutation ──
+    # Note the resolution requirement: the family-wise alpha is 0.05/122 = 0.00041, so 2,000
+    # reps (floor 0.0005) cannot resolve it. 20,000 gives a floor of 5e-5, below the threshold.
     import random
 
     rng = random.Random(0)
-    REPS = 2000
+    REPS = 20000
     site_of = {r["gorila_id"]: r["site"].split(" - ")[0]
                for r in rows if r["gorila_id"] in all_docs}
     docs_by_site: dict = defaultdict(list)
     for d in sorted(all_docs):
         docs_by_site[site_of[d]].append(d)
-    print(f"\nsite-stratified permutation ({REPS} reps), keeping per-site document counts:")
-    print(f"  {'pair':26s} {'k':>4s} {'null mean':>10s} {'null max':>9s} {'p_perm':>9s}  {'null fold mean':>14s}")
-    for cc, sign in (("LIVESTOCK", "AB 30"), ("WINE", "AB 28"),
-                     ("LIVESTOCK", "AB 31"), ("LIVESTOCK", "AB 81")):
+    print(f"\nsite-stratified permutation, all document-level survivors ({REPS} reps, "
+          f"floor {1/REPS:.0e} < family alpha {fam_alpha:.5f}):")
+    print(f"  {'pair':26s} {'k':>4s} {'null mean':>10s} {'null sd':>8s} {'null max':>9s} "
+          f"{'p_perm':>8s} {'z':>7s}")
+    tested = [(cc, sign) for cc, sign, _ in survivors_doc]
+    # also the two originals even if the survivor list ever changes
+    for pair in (("LIVESTOCK", "AB 30"), ("WINE", "AB 28")):
+        if pair not in tested:
+            tested.append(pair)
+    promoted, demoted = [], []
+    for cc, sign in tested:
         docs_cc = docs_by_commodity[cc]
         docs_sign = {d for d in all_docs if d in sign_docs.get(sign, set())}
         obs = len(docs_sign & docs_cc)
@@ -137,10 +141,50 @@ def main() -> None:
                 pool = docs_by_site[s]
                 fake |= set(rng.sample(pool, min(cnt, len(pool))))
             nulls.append(len(fake & docs_cc))
+        mean = sum(nulls) / len(nulls)
+        var = sum((x - mean) ** 2 for x in nulls) / len(nulls)
+        sd = var ** 0.5
         ge = sum(1 for x in nulls if x >= obs)
         p_perm = max(ge, 1) / len(nulls)
-        print(f"  {cc + ' <-> ' + sign:26s} {obs:4d} {sum(nulls)/len(nulls):10.1f} "
-              f"{max(nulls):9d} {p_perm:9.4f}  {sum(nulls)/len(nulls):14.1f}")
+        z = (obs - mean) / sd if sd else float("inf")
+        ok = p_perm < fam_alpha
+        (promoted if ok else demoted).append((cc, sign, obs, p_perm))
+        print(f"  {cc + ' <-> ' + sign:26s} {obs:4d} {mean:10.1f} {sd:8.2f} {max(nulls):9d} "
+              f"{p_perm:8.1e} {z:7.1f}  {'<-- survives' if ok else ''}")
+
+    print(f"\n  survive the stratified permutation at family alpha: {len(promoted)}")
+    for cc, sign, obs, p in promoted:
+        print(f"    {cc} <-> {sign}: {obs} documents, p_perm={p:.1e}")
+    if demoted:
+        print(f"  do not: {', '.join(f'{cc} <-> {sign} (p={p:.1e})' for cc, sign, _, p in demoted)}")
+    print("  Caveat: these pairs were SELECTED by the document-level test, then re-tested"
+          " here. The selection step inflates them, which is why the family alpha used is the"
+          " full 122-test threshold rather than a smaller one. Treat as candidates still.")
+
+    # ── are the survivors independent, or one entry template? ──
+    # The AB 82<->LIVESTOCK retraction was exactly this failure: both hits from one inscription.
+    # Here the question is whether the six LIVESTOCK signs are facets of a single formula. They
+    # are neither: most documents carry at most one of them, and no pair exceeds Jaccard 0.52.
+    live_signs = [s for cc, s, _, _ in promoted if cc == "LIVESTOCK"]
+    docs_live = docs_by_commodity["LIVESTOCK"]
+    present = {s: sign_docs[s] & docs_live for s in live_signs}
+    hist = Counter(sum(1 for s in live_signs if d in present[s]) for d in docs_live)
+    print(f"\nindependence check among the {len(live_signs)} LIVESTOCK survivors "
+          f"({len(docs_live)} documents):")
+    for k in sorted(hist):
+        print(f"  {k} of {len(live_signs)} signs present: {hist[k]:3d} documents "
+              f"({hist[k]/len(docs_live):4.0%})")
+    pairs = []
+    for a, b in ((x, y) for i, x in enumerate(live_signs) for y in live_signs[i + 1:]):
+        u = present[a] | present[b]
+        if u:
+            pairs.append((len(present[a] & present[b]) / len(u), a, b))
+    pairs.sort(reverse=True)
+    print("  highest pairwise overlap (Jaccard): "
+          + ", ".join(f"{a}/{b}={j:.2f}" for j, a, b in pairs[:3]))
+    print(f"  -> not one template ({hist.get(0, 0) + hist.get(1, 0)} documents carry at most "
+          f"one of them) and not independent either; reported as a SET with this matrix, not as "
+          f"{len(promoted)} discoveries.")
 
     # ── where do the commodity documents live? (the toponym lesson) ──
     print("\nsite concentration of the two claims' documents:")
