@@ -59,6 +59,13 @@
    "changed": false,
    "detail": "db: {'inscriptions': 1719, 'sign_occurrences': 11018, 'bennett_ids': 205, 'findspots': 62}; numbers present in the AGENTS.md block: [2, 10, 12, 62, 82, 205, 206, 269, 312, 863, 1308, 1450, 1719, 2026, 5960, 11018]; all matched numerically",
    "seconds": 0.0
+  },
+  "verify:cm-acceptance": {
+   "when": "2026-10-04 14:45:44",
+   "ok": true,
+   "changed": false,
+   "detail": "CG vs LB-standard concordance reproduces: 44.65x PASS on 54 named pairs (83.3% exact, 94.4% series); the 33 rows that would EXTEND the chain are all LOW-confidence correspondences",
+   "seconds": 0.8
   }
  },
  "terminal": "inner queue drained: every executable action has run. What remains needs code (outer loop) or the world (acquisition inbox)."

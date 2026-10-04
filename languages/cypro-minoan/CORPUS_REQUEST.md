@@ -105,3 +105,41 @@ uv run python pipeline/positional_analysis.py --language cypro-minoan
 
 The existing `data/raw/cm.json` is a **synthetic placeholder** (19 inscriptions, 252 signs) built to
 prove the pipeline transfers; it is not evidence of anything and must be replaced.
+---
+
+## What the value file must contain, and why
+
+The acceptance test (`pipeline/cm_acceptance_test.py`) is written and pre-registered. It needs values
+whose provenance is **declared**, because the one failure it exists to prevent is circularity: a CM
+value assigned *by* Linear A or Linear B transfer would confirm the chain by construction.
+
+Drop a `languages/cypro-minoan/cm_values.csv` with these columns:
+
+```
+cm_sign,cm_unicode,value,independence,source,citation,notes
+CM 020,U+12FA3,i,independent,"Unicode Cypriot Syllabary chart, via CM-CG shape correspondence (Ferrara 2024)","Ferrara & Perna 2021, no. ...",...
+```
+
+- **`independence` must be `independent`** for the value to count. Any other value (`by-la-transfer`,
+  `by-lb-transfer`, `inferred`, blank) is refused: those values are derived from the side we are
+  testing against, and using them would measure the chain against itself.
+- **`source`** names where the value comes from. Acceptable: a deciphered relative (Cypriot Syllabary
+  values, Ugaritic/Akkadian contact, a CG bilingual), or a published reading independent of Linear A.
+  Not acceptable: this project's own grids (`refined_phonetic_grid.csv`,
+  `expanded_grid_purged.csv`, `la_lb_mapping.csv`).
+- `languages/cypro-minoan/data/raw/PROVENANCE.json` must declare `synthetic: false` for the corpus
+  files, for the same reason. The current corpus in that directory is a synthetic placeholder
+  generated from the very LA→CM signs a transfer test would try to confirm, and the loop's inbox
+  refuses it.
+
+## What the chain already does, so you know what is being asked
+
+Measured 2026-10-04 (`verification_audit.md` Phase 16): the shape chain LA→CM→CG **passes** — CG values
+agree with the LB-standard value of the corresponding LA sign 45 of 54 times (83.3%) against a 1.9%
+permutation null, 44.65×, series-level 94.4% vs 16.5%. Nine disagreements, six of them within-series
+(ta/da, ti/di, ma/mu, to/do, ka/qa, ka/qe) — the chain carries the series and misses voicing/vowel.
+
+So the chain is validated where values were already known. The 33 mapped signs whose LB value has **no
+name** (the `?` entries) are where a corpus would extend it — and all 33 sit in the LOW-confidence
+stratum of the shape correspondence, which is exactly what independent CM values would fix. That is
+the specific thing this request is for.

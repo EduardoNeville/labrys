@@ -974,3 +974,65 @@ were scored against an empty corpus — and an empty corpus produced **recovery 
 plumbing error. It was caught only because the inscription count printed alongside it was 0. The
 lesson is the project's oldest one — report the input size next to every number — and the script now
 captures the pooled path before any patching, with a comment saying why.
+
+---
+
+## Phase 16 — the cross-script chain, measured *(2026-10-04)*
+
+The first **pre-registered PASS** in this project, and the first test whose two endpoints are both
+external standards that never saw this project.
+
+```
+Linear A  --shape-->  Cypro-Minoan  --shape-->  Cypriot Syllabary  -->  Greek
+          LB-standard value (Unicode)            CG value (deciphered 1870s)
+```
+
+The hypothesis is the *shape correspondence*; both values are borrowed from standards. The null
+permutes the CG values across the mapped signs (20,000 reps, same signs, same multiset). Gate: the
+project's 1.5× convention; power floor 15 usable rows.
+
+| | value |
+| usable rows (both values **named**) | 54 of 87 mapped |
+| exact concordance | **45/54 = 83.3%** |
+| permutation null | 1.9% (max 14.8% in 20,000 reps) |
+| **lift** | **44.65× → PASS** |
+| series-level concordance | 51/54 = 94.4% vs a 16.5% null (5.71×) |
+| by hand-assigned correspondence confidence | HIGH 31/36 (86%), MEDIUM 12/15 (80%), LOW 2/3 |
+
+Pre-declared prediction held (non-LOW above LOW). Nine disagreements, **six of them within-series**
+(AB 01 ta/da, 07 ti/di, 23 ma/mu, 14 to/do, 16 ka/qa, 78 ka/qe) — the chain transfers the series and
+misses voicing/vowel, which is a systematic difference between the two standards rather than noise.
+Three cross it (AB 38 pa/e, AB 36 za/jo, AB 76 pi/ra).
+
+### The version that was rejected, and why it matters
+
+The obvious form of this test compares the CG value against the project's own
+`refined_phonetic_grid.csv`. **That version is circular.** The refined grid carries
+`cm_suggested_value` / `cm_triangular_confidence`, and `phonetic_grid_refinement.py` consumes the CM
+chain as evidence at weight 1.5 — for **all 87** mapped rows, at some confidence. Measured, so the
+claim is not theoretical: the naive version reports 78% (35.2×) over all rows, still 70% (16.7×) on
+rows where CM was not HIGH, and only 11 rows survive excluding CM at every confidence — below the
+power floor. **The chain is already inside the LA grid**, which is a standing caveat for every LA
+value that rests on it and a reason to prefer `la_lb_mapping.lb_value` (Unicode standard) as the
+reference in any future cross-script test.
+
+A second, smaller correction: LB-standard values ending in `?` (`je?`, `wa?`, `ta?`) are the standard
+saying *no name for this sign*. The first version counted `je` vs `je?` as a disagreement, which put
+33 unknown-value rows in the denominator — all of them at LOW correspondence confidence — and dragged
+that stratum to 6%.
+
+### The boundary: it confirms but does not extend
+
+The rows split by whether an independent check exists at all:
+
+| rows | correspondence confidence | what the chain does |
+| LB value **named** (n=54) | HIGH 36, MEDIUM 15, LOW 3 | **validates** — an external value exists to check against |
+| LB value **unnamed** (n=33) | **HIGH 0, MEDIUM 0, LOW 33** | **would extend**, but only in the stratum whose reliability is unestablished |
+
+Every row where the chain would propose a value nobody has is a LOW-confidence correspondence. So the
+result is a validation of the route and *not* a source of new values — the extension needs either a
+real Cypro-Minoan corpus with independently established values, or better shape correspondences. That
+is the project's bottleneck restated with a number attached, by the one test that passed.
+
+Test: `pipeline/cm_acceptance_test.py` (pre-registration in its docstring, re-derived nightly as the
+loop's `verify:cm-acceptance`).

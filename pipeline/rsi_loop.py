@@ -77,6 +77,10 @@ ACTIONS = [
               "IDs, findspots) against the database. The overseer found '312 unique Bennett IDs' "
               "claimed against 205 in the DB, with nothing checking it",
          executor="header_counts"),
+    dict(id="verify:cm-acceptance", kind="verify", cost=20,
+         what="the cross-script concordance test (CG vs LB-standard values, pre-registered gate): "
+              "the only PASS in the project and the only test with two external-standard endpoints",
+         executor="cm_acceptance"),
     dict(id="code:cm-acceptance-test", kind="code", cost=3600,
          what="pre-register the LA<->Cypro-Minoan acceptance test: the gate, the null, the "
               "stratification, and the falsification criterion, written before the corpus exists",
@@ -304,6 +308,27 @@ def x_header_counts(state: dict) -> dict:
             "changed": bool(straddle)}
 
 
+def x_cm_acceptance(state: dict) -> dict:
+    """The cross-script concordance test (CG vs LB-standard values) with its pre-registered gate.
+
+    The only pre-registered PASS in this project, and the only test whose two endpoints are both
+    external standards, so it is worth re-deriving on a schedule: if the correspondence file is ever
+    revised, this number is the first thing that should move.
+    """
+    r = subprocess.run([sys.executable, "pipeline/cm_acceptance_test.py"], cwd=REPO,
+                       capture_output=True, text=True)
+    out = r.stdout or ""
+    ok = "44.65x" in out and "PASS" in out and "both values named 54" in out
+    if ok:
+        detail = ("CG vs LB-standard concordance reproduces: 44.65x PASS on 54 named pairs "
+                  "(83.3% exact, 94.4% series); the 33 rows that would EXTEND the chain are all "
+                  "LOW-confidence correspondences")
+    else:
+        lines = [l for l in out.splitlines() if "VERDICT" in l or "named" in l]
+        detail = "MOVED — inspect: " + " | ".join(lines)[:240]
+    return {"ok": bool(ok), "detail": detail, "changed": not ok}
+
+
 def x_recall(state: dict) -> dict:
     """NOT IMPLEMENTED. Returns ok=False so it can never record a green tick for a non-measurement.
 
@@ -318,7 +343,7 @@ def x_recall(state: dict) -> dict:
 
 EXECUTORS = {"guards": x_guards, "shipped_node": x_shipped_node, "libation": x_libation,
              "commodity": x_commodity, "membership": x_membership, "recall": x_recall,
-             "header_counts": x_header_counts}
+             "header_counts": x_header_counts, "cm_acceptance": x_cm_acceptance}
 
 
 # ── state ────────────────────────────────────────────────────────────────────
