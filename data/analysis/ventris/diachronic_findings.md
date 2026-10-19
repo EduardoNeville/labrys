@@ -1,5 +1,11 @@
 # Phase 11, Avenue 6 — Diachronic Prior: Findings and Use
 
+> ❌ **RETRACTED (2026-08-13, corpus correction).** The 2× persistence→confirmation effect
+> (p=0.0003) is gone on the corrected corpus: **p=0.1748, 1.1×**. The corpus is 76% one
+> destruction horizon, so the prior was never identifiable. The code is in
+> `archive/retracted/diachronic.py`. Do not cite any number below.
+> See `corrected_rerun_results.md` and `CODE_AUDIT.md` §2.
+
 ## What we established
 
 ### 1. Persistence → confirmation (SOLID, verified)

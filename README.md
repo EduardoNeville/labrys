@@ -1,123 +1,119 @@
 # Labrys — Linear A Decipherment Project
 
-Systematic, multi-phase computational approach to deciphering Linear A, the undeciphered script of Minoan Crete (ca. 1800–1450 BCE).
+Systematic, multi-phase computational approach to Linear A, the undeciphered script of Minoan
+Crete (ca. 1800–1450 BCE).
+
+**Read this with [`CODE_AUDIT.md`](CODE_AUDIT.md) open.** That document states, file by file,
+which code is live, which avenue is concluded, and which claims were retracted and why. Several
+numbers that older project summaries carry (0.6× oracle, "78 anchors", "312 signs", "Tyrsenian
+best fit", "AB 85 word divider") are superseded; the audit lists every one.
 
 ## Status
 
 | Phase | Description | Status |
-|-------|-------------|--------|
-| **1 — Data** | Corpus digitization, schema, Unicode, SQLite | ✅ Complete |
-| **2 — Analysis** | Positional grid, word segmentation, n-gram, network, logogram/fraction analysis | ✅ Complete |
-| **3 — Linguistic** | Swadesh-100 testing, WALS typology, loanword matching, toponym alignment, morphology scan | ✅ Complete |
-| **4 — ML Decipherment** | Transformer models, contrastive learning, GAN decipherment | ✅ Complete |
-| **5 — Comparative** | LA↔LB mapping, Cypro-Minoan bridge, phonetic grid refinement | ✅ Complete |
-| **6 — Verification** | Cross-evidence triangulation, toponym testing, internal consistency | ✅ Complete |
-| **7 — Alternatives** | Five independent approaches (Eteocretan, commodity decoding, phylogenetic, Kober, Anatolian) | ✅ Complete |
-| **8 — Kober Bootstrapping** | 78 CONFIRMED anchors from Kober triples + bootstrapped values | ✅ Complete |
-| **9 — Formulaic Parallelism** | Substitution frames, prefix/suffix system identification | ✅ Complete |
-| **10 — Ventris Endgame** | Grid completion via grammatical testing (10a Egyptian bridge, 10b grid completion, 10c oracle test) | ⬜ Concluded — negative |
-| **11 — Avenues + Correction + Grid Purge** | Corpus correction (144 mapping errors + 29 phantoms) + libation formula recovery + grid purged to 69 real signs | ⬜ Concluded — honest 69-sign grid; formula recovered; positives were artifacts |
+| 1 — Data | Corpus digitization, schema, Unicode, SQLite | ✅ Complete (1,719 inscriptions, 11,018 signs) |
+| 2 — Analysis | Positional grid, segmentation, n-gram, network, logograms | ✅ Complete |
+| 3 — Linguistic | Swadesh-100, WALS, loanwords, toponymy, morphology | ✅ Complete — **no family distinguished** |
+| 4 — ML | Transformer / contrastive experiments | ⚠️ **Built, unvalidated, stale** — inputs moved after the corpus correction; outputs are not citable |
+| 5 — Comparative | LA↔LB mapping, Cypro-Minoan bridge, grid refinement | ✅ Complete — 40 CONFIRM (35 on real signs) |
+| 6 — Verification | Cross-evidence triangulation, toponym testing | ⚠️ consumes Phase 4 outputs — stale with them |
+| 7–9 — Alternatives | Eteocretan, commodity, phylogenetic, Kober, Anatolian, formulaic | ✅ Complete — **all negative after controls** |
+| 10 — Ventris endgame | Grid completion by grammatical testing | ⬜ **Concluded negative** — 0 recovered, 0.00× chance |
+| 11 — Correction + purge | 144 mapping errors + 29 phantoms fixed; libation formula recovered; grid purged | ✅ Complete — honest 69-sign grid |
+| 12–15 — Audits | Oracle machinery, commodity enrichment, archive stratification | ✅ Complete — most positives failed replication |
+| 16 — Cross-script chain | LA → Cypro-Minoan → Cypriot Syllabary | ✅ **PASS** — 44.65×, 45/54 (the project's only pre-registered pass) |
 
-**Key finding (Phase 3):** No language family is distinguished — Anatolian IE, Hurro-Urartian, and Tyrsenian are all weakly compatible but inconclusive; none shows statistically significant lexical matches.
-
-**Phase 10 outcome:** The oracle ablation test proved the grammatical scorer has no signal to recover known sign values (recovery 0.6× chance). Grid completion is closed pending new data — see `data/analysis/ventris/ventris_report.md`.
+The method-search loop is closed: π₀ (stop) is optimal on both splits at every weight, so the
+recorded tree is replayable evidence rather than a queue.
 
 ## Quick Start
 
-### Prerequisites
-- Python 3.10+
-- [uv](https://github.com/astral-sh/uv) for package management
-
-### Install
-
 ```bash
-git clone git@github.com:EduardoNeville/labrys.git
-cd labrys
-uv sync
+git clone git@github.com:EduardoNeville/labrys.git && cd labrys
+./tools/bootstrap.sh          # uv sync → Linear B sandbox → grid check → 15/15 guards
 ```
 
-For GPU (Phase 4 ML):
+`bootstrap.sh` is the only supported entry point for a fresh clone: the Linear B sandbox database
+is gitignored (9.7 MB, rebuilt from `languages/linear-b/data/raw/tablets.csv`), so two guards
+would otherwise fail for a reason that is not a defect.
 
 ```bash
-uv sync --extra cu121   # on GPU server
-```
+uv sync                       # corpus + analysis deps (no torch)
+./tools/bootstrap.sh --extra-ml   # adds the Phase 4 ML stack (torch, transformers, …)
 
-### Verify
-
-```bash
-uv run python demo.py
 uv run python -m pipeline.cli db stats data/database/lineara_full.db
-# Expected: 1,719 inscriptions, 11,018 signs, 312 unique signs, 62 sites
+# → 1,719 inscriptions, 11,018 signs, 205 distinct Bennett IDs, 62 findspots
+uv run python pipeline/guards.py   # 15/15 + the non-fatal defect reports
+./tools/rsi_loop.sh                # nightly re-check of every recorded number
 ```
 
-## What We Know
+Python is pinned to 3.12 (`.python-version`, and `requires-python = ">=3.10,<3.14"`): `uv` once
+picked 3.14 and deleted the venv trying to build a cu121 torch wheel that has no 3.14 build.
 
-- **44 syllabograms confirmed** (of 138) — ~32%
-- **~10 place names** identified with varying confidence (Phaistos, Ida, Tylissos, Dikte, Setoia, Sybrita)
-- **~5 accounting terms** known from tablet context (ku-ro "total", po-to-ku-ro "grand total", ki-ro "owed")
-- **~2 religious formula** recognized (a-sa-sa-ra, ja-sa-sa-ra-me) from libation tables
-- **124 logogram types** identified — ~40 have clear commodity meanings
-- **29 fraction signs** with proposed mathematical values
-- **Morphological profile:** agglutinative, suffixal, head-final, no grammatical gender
+## What we actually know
 
-## Project Structure
+Deliberately stated with instruments attached, because the counts disagree (see `CODE_AUDIT.md` §4):
+
+- **Sign inventory:** ~205 attestation IDs in the DB. The honest phonetic grid is **69 real signs**
+  (`expanded_grid_purged.csv`): 58 CONFIRMED + 11 UNCERTAIN, of which **AB 41 (si)** — 240
+  occurrences — is the noteable open target. The Phase 5 refined grid reaches **40 CONFIRM, 35 of
+  them on signs that exist**; the two grids have not been reconciled.
+- **Logograms:** 88 distinct IDs, 742 occurrences (not 124).
+- **Fractions:** 29 IDs. **16 of 29 proposed values are circular** and 1 is corroborated by the
+  Linear B fraction series — treat the file as unaudited (`verification_audit.md` Phase 12).
+- **Place names:** `i-da` (13 exact matches) is the only toponym that survives a findspot control.
+  `pa-i-to` fails its control (95 fuzzy hits collapse to 1 exact). `di-ka-ta`, `su-ki-ri-ta`: not
+  independently established.
+- **The one thing that replicates across sites:** the **libation formula** — opening
+  `A-TA-I-*301-WA-JA` in 11 of 11 texts at position 0, `ja-sa-sa-ra-me` (9), `si-ru-te` (7),
+  `u-na-ka-na-si` (6), across 5 sites, 9/9 slot order in multi-formula texts
+  (`libation_recovered.md`).
+- **Morphology:** agglutinative, suffixal, no gender — weakly supported.
+- **Language family:** none. Anatolian IE and Hurro-Urartian tie at rank 1, Tyrsenian 3 — all
+  "INCONCLUSIVE (tentative)". Zero exact Swadesh matches for any family.
+
+### What is closed, with the number
+
+| route | closed by |
+| Ventris scorer / any optimizer (beam, annealing, GPU MCMC, weight sweep) | 0.00×, 0/160; **0 of 1,771** weight vectors recover a value |
+| Frame links, paradigm-slot alternation, series/vowel voting | at or below chance in 4 operationalizations (best 1.03×) |
+| Diachronic (MM→LM) prior | p=0.0003 → **0.1748** after correction |
+| `AB 85` word divider, `AB 82`↔LIVESTOCK | artifact of a sign mis-attribution and of the encoding |
+| Commodity semantic anchors | real at Haghia Triada, **does not replicate** (2/67 pairs, both tautologies) |
+| `pa-i-to`, `A 301` heading profile | fail their controls (exact recount 1; 229/231 vs 9/43 across archives) |
+| Egyptian loans, Eteocretan, Anatolian cognates, phylogenetic parsimony | no signal above null |
+
+**The bottleneck, stated once:** the corpus is ~11k sign tokens, every phonetic signal derives
+circularly from Linear B transfer, and no independent phonetic evidence exists. That is why the
+one route that passed (cross-script shape → Cypro-Minoan → Cypriot Syllabary) is also the route
+that **validates but cannot extend** — every row where it would propose a new value is a
+LOW-confidence correspondence. New data is the unlock: a real CM corpus with established values,
+a bilingual, or new inscriptions.
+
+## Project structure
 
 ```
 labrys/
-├── pipeline/              # 26 Python modules (Phases 1–5)
-│   ├── models.py          # Data models (7-tier schema)
-│   ├── database.py        # SQLite corpus (1,719 inscriptions)
-│   ├── unicode_utils.py   # Bennett AB → Unicode Aegean mapping
-│   ├── positional_analysis.py   # Kober-style grid analysis
-│   ├── word_segmentation.py     # 5-strategy word segmenter
-│   ├── ngram_analysis.py        # N-grams, entropy, misvalued scan
-│   ├── network_analysis.py      # Graph co-occurrence + communities
-│   ├── swadesh_search.py        # 6-family Swadesh-100 testing
-│   ├── wals_analysis.py         # WALS typology comparison
-│   ├── loanword_matching.py     # Pre-Greek substrate matching
-│   ├── toponym_alignment.py     # Place name phonetic anchors
-│   ├── morphology_scan.py       # Paradigm detection, agglutination
-│   ├── falsification_report.py  # Synthesis + ranking
-│   ├── linear_b_mapping.py      # LA↔LB confidence-rated mapping
-│   ├── cypro_minoan_bridge.py   # LA→CM→Cypriot Greek bridge
-│   ├── commodity_alignment.py   # LA↔LB logogram/fraction alignment
-│   ├── phonetic_grid_refinement.py   # Final refined phonetic grid
-│   ├── logogram_analysis.py     # Commodity ontology + fractions
-│   └── cli.py             # Click CLI with 7 commands
-│
+├── CODE_AUDIT.md               # what is live / concluded / retracted — read first
+├── EXPERIMENT_PROTOCOL.md      # binding rules for any measurement
+├── archive/                    # retracted + wrong turns, with the falsifying number
+├── pipeline/
+│   ├── models.py database.py unicode_utils.py phonetics.py   # core
+│   ├── guards.py purge_grid.py                               # gates
+│   ├── lb_ingest.py lb_oracle.py ventris/complete.py          # oracle
+│   ├── cm_acceptance_test.py comparative_bridge.py            # cross-script PASS
+│   ├── rsi_*.py                                              # method-search replay pool
+│   └── <phase modules>                                       # concluded avenues
 ├── data/
-│   ├── database/          # lineara_full.db (SQLite, 3.6 MB)
-│   ├── analysis/          # 90+ output CSVs across all phases
-│   │   ├── positional/    # Sign positional profiles + clusters
-│   │   ├── segmentation/  # Word-segmented corpus
-│   │   ├── ngram/         # N-gram freqs, entropy, typology
-│   │   ├── network/       # Graph centrality + communities (5 sites)
-│   │   ├── logograms/     # Commodity ontology + fraction values
-│   │   ├── linguistic/    # Phase 3: Swadesh, WALS, loanwords, falsification
-│   │   └── comparative/   # Phase 5: refined phonetic grid, LA↔LB mapping
-│   └── corpus/            # linear_a_inventory.csv (625 texts)
-│
-├── docs/                  # Schema docs (TEI ODD, JSON-LD, examples)
-├── pyproject.toml         # Project config + dependencies (uv)
-├── uv.lock                # Lockfile for reproducible installs
-└── demo.py                # End-to-end pipeline demo
+│   ├── database/lineara_full.db
+│   └── analysis/            # outputs + the audit scripts that check them
+├── languages/               # per-script configs; linear-b is the blind sandbox
+├── tools/                   # bootstrap.sh, rsi_loop.sh, rsi_overseer.sh, new_language.py
+└── docs/                    # TEI ODD, JSON-LD, schema
 ```
 
-## What Remains
+## For agents
 
-All 10 phases are complete, and Phase 11 (avenues after the oracle failure) is concluded. The outcome is honest and verified:
-
-- **10a** — Egyptian bridge: no detectable Egyptian loanwords (matches ≈ chance, null-model ratios 1.6–6.4×)
-- **10b** — Frequency-typology grid constraints: 28.2% of candidates eliminated, but random sampling of ~10¹⁴⁰ completions yields zero per-sign consensus
-- **10c** — Oracle ablation test: a greedy restore of hidden CONFIRMED signs recovered them at **0.6× chance** — the grammatical scorer (morphology/entropy/prefix + Kober-consistency + anchor words) has no signal to distinguish true phonetic values. No optimizer (beam, annealing, Optuna) can help an objective with no gradient.
-- **11** — Four phonetic-independent avenues (positional, commodity, cryptanalysis, graph): all negative or circular after proper controls. **The diachronic prior (claimed positive) was INVALIDATED by the corpus correction.**
-
-**The corpus correction (the key event):** 144 Unicode→Bennett mapping errors were found and fixed (verified against the Unicode standard + GORILA). AB 85 was a mis-mapped A 301 (274→8 occurrences); the corrected DB reads the libation formula correctly. This invalidated several earlier findings (diachronic prior, misvalued signs, AB 85 word-divider, V-link cohesion, AB 82↔LIVESTOCK) — they were artifacts of the transcription bias. It also **recovered the real libation formula**: A-TA-I-*301-WA-JA · JA-DI-KI-TU · JA-SA-SA-RA-ME · U-NA-KA-NA-SI · I-PI-NA-MA · SI-RU-TE, with ja-sa-sa-ra-me (9 insns), u-na-ka-na-si (6), si-ru-te (7), and di-ki-te-te at Palaikastro. The formula is structurally real but phonetically inert for value recovery.
-
-The bottleneck is corpus size (11K tokens) and the absence of independent phonetic evidence — every signal derives circularly from Linear B transfer. **Grid completion is closed pending new data** (new inscriptions, a bilingual find, or confirmed Cypro-Minoan values).
-
-The oracle harness (`pipeline/ventris/complete.py`, `oracle_test`) remains the correct gate for any future scorer or new evidence. The corpus correction (`data/analysis/ventris/corpus_correction.md`) and grid purge (`data/analysis/ventris/b1b2_phantom_finding.md`) are the key recent events — see `data/analysis/ventris/corrected_rerun_results.md`, `data/analysis/ventris/libation_recovered.md`, and the honest grid `data/analysis/bootstrapping/expanded_grid_purged.csv` (58 CONFIRMED + 11 UNCERTAIN).
-
-## For Agents
-
-See [AGENTS.md](AGENTS.md) for conventions, data access patterns, and how to work on this project.
+See [`AGENTS.md`](AGENTS.md) for conventions and data access, and
+[`EXPERIMENT_PROTOCOL.md`](EXPERIMENT_PROTOCOL.md) §8 for the code-lifecycle rules this audit
+produced. `CODE_AUDIT.md` §8 lists the open items in priority order.

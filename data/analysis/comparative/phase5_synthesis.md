@@ -1,5 +1,12 @@
 # Phase 5 Synthesis — Refined Phonetic Grid for Linear A
 
+> ⚠️ **PARTIALLY SUPERSEDED (2026-10-19).** The companion data file
+> `refined_phonetic_grid.csv` still contains the **69 phantom rows** (signs with no codepoint and
+> zero corpus occurrences), **5 of them CONFIRM** (AB 12, 15, 18, 35, 52), and predates the
+> Phase 12 CONFIRM policy. The real-sign CONFIRM count in this grid is **35**, not the number
+> quoted here. Use `expanded_grid_purged.csv` as the honest grid; the Phase 5 grid is pending
+> re-derivation (`CODE_AUDIT.md` §8 item 1).
+
 ## Overview
 
 This report synthesises all comparative evidence from Phase 5 (Linear B transfer, Cypro-Minoan triangular inference, loanword shadow lexicon, commodity context patterns) alongside Phase 3 (toponym anchors, phonetic grid confidence) and Phase 2 (positional & n-gram anomaly detection) to produce a refined phonetic grid for Linear A.

@@ -2,16 +2,29 @@
 
 ## Project Context
 
-We are systematically deciphering Linear A, the undeciphered script of Minoan Crete. The project has completed Phases 1–3 and 5 (infrastructure, analysis, linguistic testing, comparative script bridging). Phase 4 (ML) is next.
+We are systematically deciphering Linear A, the undeciphered script of Minoan Crete. Phases 1–3, 5, 7–9 and 11–15 are complete; Phase 4 (ML) is **built but unvalidated and stale** with respect to the corrected grid (its outputs are not citable — see `CODE_AUDIT.md`); the Ventris method family (Phase 10) is **closed negative**, and Phase 16 (cross-script chain) is the project's only pre-registered pass.
 
 ## Important: What We Actually Know
 
-Be realistic about the state of the field. We have not "deciphered" Linear A. We know:
-- ~44 of ~138 syllabograms with confidence
-- ~15–20 words with high-confidence meanings (mostly accounting terms and place names)
-- The morphological profile (agglutinative, suffixal, no gender)
-- 124 logogram types with economic semantics
-- No confirmed language family (Tyrsenian is best structural fit but lexically weak)
+Read [`CODE_AUDIT.md`](CODE_AUDIT.md) before citing anything. It records, file by file, which
+code is live, which avenue is concluded, and which claims were retracted — with the number that
+retracted them. Several numbers that circulate in older docs (0.6× oracle, "78 anchors",
+"312 signs", "Tyrsenian best fit", "AB 85 word divider", "pa-i-to") are superseded there.
+
+Be realistic about the state of the field. We have not "deciphered" Linear A. What we have,
+with the instrument attached because the counts disagree (`CODE_AUDIT.md` §4):
+
+- **Sign inventory:** ~205 attestation IDs in the DB. The honest phonetic grid is **69 real
+  signs** (`expanded_grid_purged.csv`): 58 CONFIRMED + 11 UNCERTAIN. The Phase 5 refined grid
+  reaches 40 CONFIRM, **35 of them on signs that exist**. The two grids are unreconciled — never
+  write "N confirmed" without naming the grid.
+- **Logograms:** **88** distinct IDs / 742 occurrences. "124" is unsupported.
+- **Words:** ~15–20 with provisional meanings, mostly accounting terms and place names. Only
+  **`i-da`** survives a findspot control; `pa-i-to` fails its own.
+- **Morphology:** agglutinative, suffixal, no gender — weakly supported.
+- **Language family:** **none confirmed.** Anatolian IE and Hurro-Urartian tie at rank 1,
+  Tyrsenian 3, all "INCONCLUSIVE (tentative)". Do not describe Tyrsenian as the best fit.
+- **The one cross-site replication:** the libation formula (11/11 opening at position 0, 5 sites).
 
 Do not overclaim. This is a 70-year-old unsolved problem for good reasons.
 
@@ -19,10 +32,15 @@ Do not overclaim. This is a 70-year-old unsolved problem for good reasons.
 
 ```bash
 # Use uv for everything
-uv sync              # install all deps
+./tools/bootstrap.sh   # fresh clone: deps + Linear B sandbox + grid check + guards (idempotent)
+uv sync              # install deps (no torch; add --extra ml for Phase 4 ML)
 uv run python ...    # run any script through uv's venv
 uv run python -m pipeline.cli ...  # CLI access
+uv run python pipeline/guards.py   # 15/15 before trusting any analysis output
 ```
+
+`uv run` re-syncs from `pyproject.toml`, so it is the supported way to run anything. Python is
+pinned to 3.12 — 3.14 removed the venv trying to build a cu121 torch wheel.
 
 ## Code Conventions
 
@@ -43,12 +61,16 @@ conn.row_factory = sqlite3.Row
 c = conn.cursor()
 ```
 
-Key tables:
-- `inscriptions` — gorila_id, findspot_id, material, object_type, minoan_period
-- `signs` — inscription_id, sequence, bennett_id, character, sign_type, transliteration
-- `findspots` — site name, coordinates
-- `sign_semantics` — logogram meanings
-- `words`, `word_dividers`, `lacunae` — from segmentation
+Key tables — **only four have rows** (`CODE_AUDIT.md` §6):
+- `inscriptions` (1,719) — gorila_id, findspot_id, material, object_type, minoan_period
+- `signs` (11,018) — inscription_id, sequence, bennett_id, character, sign_type, transliteration
+- `findspots` (62) — site name, coordinates
+- `images` (1,718)
+
+**Empty and not a data source:** `words`, `word_dividers`, `lacunae`, `lines`, `sign_semantics`,
+`relations_linear_b`, `bibliography`. Segmentation lives in
+`data/analysis/segmentation/segmented_texts_consensus.csv`; logogram semantics in
+`data/analysis/logograms/commodity_ontology.csv`.
 
 ### CLI
 
@@ -116,22 +138,26 @@ Phonetic values are from Linear B transfer (NOT confirmed for Linear A). Phase 5
 
 ## Key Analysis Outputs (Where to Find Things)
 
-| What | Where |
-|------|-------|
-| Positional sign profiles | `data/analysis/positional/positional_profiles.csv` |
-| Misvalued AB signs (Phase 2) | `data/analysis/positional/misvalued_signs_ranked.csv` |
-| Word-segmented corpus | `data/analysis/segmentation/segmented_texts_consensus.csv` |
-| N-gram frequencies | `data/analysis/ngram/ngram_freqs.csv` |
-| Sign co-occurrence graph | `data/analysis/network/global/sign_centrality.csv` |
-| Fraction values | `data/analysis/logograms/fraction_values_proposed.csv` |
-| Swadesh test results | `data/analysis/linguistic/swadesh_results.csv` |
-| WALS typology matrix | `data/analysis/linguistic/wals_comparison.csv` |
-| Falsification ranking | `data/analysis/linguistic/candidate_ranking.csv` |
-| LA↔LB sign mapping | `data/analysis/comparative/la_lb_mapping.csv` |
-| Cypro-Minoan values | `data/analysis/comparative/la_cm_shared_phonetic_grid.csv` |
-| Refined phonetic grid | `data/analysis/comparative/refined_phonetic_grid.csv` |
-| Phase 3 synthesis | `data/analysis/linguistic/phase3_synthesis.md` |
-| Phase 5 synthesis | `data/analysis/comparative/phase5_synthesis.md` |
+| What | Where | Status |
+|------|-------|--------|
+| Positional sign profiles | `data/analysis/positional/positional_profiles.csv` | live |
+| Anomalous signs (Phase 2) | `data/analysis/positional/anomalous_signs.csv` | live (3 rows) |
+| Misvalued AB signs | `.../positional/misvalued_signs_ranked.csv`, `.../comparative/misvalued_signs_resolution.csv` | ⚠️ contested/stale — see the section below |
+| Word-segmented corpus | `data/analysis/segmentation/segmented_texts_consensus.csv` | live |
+| N-gram frequencies | `data/analysis/ngram/ngram_freqs.csv` | live |
+| Sign co-occurrence graph | `data/analysis/network/global/sign_centrality.csv` | live |
+| Fraction values | `data/analysis/logograms/fraction_values_proposed.csv` | ⚠️ 16/29 circular — use `fraction_values_audit.csv` |
+| Swadesh test results | `data/analysis/linguistic/swadesh_results.csv` | live (negative) |
+| WALS typology matrix | `data/analysis/linguistic/wals_comparison.csv` | live |
+| Falsification ranking | `data/analysis/linguistic/candidate_ranking.csv` | live (all inconclusive) |
+| LA↔LB sign mapping | `data/analysis/comparative/la_lb_mapping.csv` | live (glyphs + `lb_value` repaired) |
+| Cypro-Minoan values | `data/analysis/comparative/la_cm_shared_phonetic_grid.csv` | live — input to the Phase 16 PASS |
+| Refined phonetic grid | `data/analysis/comparative/refined_phonetic_grid.csv` | ⚠️ **stale** — 69 phantom rows, 5 CONFIRM |
+| Honest grid (use this) | `data/analysis/bootstrapping/expanded_grid_purged.csv` | live — regenerable (`purge_grid.py --check`) |
+| Phase 3 synthesis | `data/analysis/linguistic/phase3_synthesis.md` | historical (carries superseded numbers) |
+| Phase 5 synthesis | `data/analysis/comparative/phase5_synthesis.md` | historical |
+| Audit trail | `data/analysis/ventris/verification_audit.md` | **canonical — read before citing anything** |
+| Code status | `CODE_AUDIT.md` | **canonical — what is live / concluded / retracted** |
 
 ## Key Findings to Reuse
 
@@ -144,8 +170,14 @@ Phonetic values are from Linear B transfer (NOT confirmed for Linear A). Phase 5
 > failed (commodity enrichment: fails cross-site; A 301's "heading" profile: Portico-specific) while
 > one passed (libation formula: 5 sites, 9/9 slot order). Tool: `python data/analysis/ventris/archive_stratification.py --sign "A 301"`. See `verification_audit.md` Phases 14, 14.1, 15.
 
-### Misvalued AB Signs (Phase 2 + Phase 5) 
-AB 16 (qa), AB 60 (ra vs ma conflict), AB 80 (ma), AB 22 (pi), AB 02 (ro/i dual) — see `data/analysis/comparative/misvalued_signs_resolution.csv`
+### Misvalued AB Signs (Phase 2 + Phase 5)
+
+**Status: contested — do not cite without re-deriving.** `data/analysis/comparative/misvalued_signs_resolution.csv`
+still carries a phantom row (AB 36 `jo`, a sign with no codepoint and 0 occurrences) and predates
+the Phase 12 CONFIRM policy (`verification_audit.md`). The Phase 2 anomaly list stands as a
+*flag*; the "misvalued" interpretation does not, and the corrected-corpus rerun records
+AB 16/60/80 as no longer anomalous. Re-derive via `phonetic_grid_refinement.py` after the
+grid itself is re-derived (`CODE_AUDIT.md` §8 items 1–2).
 
 AB 85 was **removed** from this list in Phase 12: the 508-occurrence "never medial" profile that motivated it belongs to the logogram **A 301**, not to the syllabogram AB 85 (n=8, medial=0.75, i.e. medial-dominant). See `data/analysis/ventris/verification_audit.md` Phase 12 Addendum. **Caveat (2026-10-01):** A 301's replacement profile ("entry-initial") is itself archive-local — 229/231 initial at Haghia Triada Portico 11 and Room 13, 9/43 elsewhere. The retraction stands (it rests on the occurrence count, not the profile); do not cite the profile as a general property.
 
@@ -165,6 +197,14 @@ pa-i-to (Phaistos), i-da (Mt. Ida) — HIGH confidence. di-ka-ta (Dikte), su-ki-
 - **Retracted**: "AB 85 word divider", "AB 82↔LIVESTOCK" (circular), "Tyrsenian best fit", "78 anchors", "diachronic prior" (all invalidated by correction). See `data/analysis/ventris/verification_audit.md` and `data/analysis/ventris/corrected_rerun_results.md`.
 
 ## Phase 4 ML Guidance
+
+**Read `CODE_AUDIT.md` §2 item 11 and §8 item 1 first.** The Phase 4 code exists and runs, but its
+training labels come from `refined_phonetic_grid.csv`, which still carries the 69 phantom rows
+(5 of them CONFIRM) and predates the Phase 12 CONFIRM policy. Its committed outputs are therefore
+not citable, and the module set is behind the optional `ml` extra (`uv sync --extra ml`).
+
+The last honest Phase 4 result was **0 high-confidence predictions**. Any restart should begin
+with the grid re-derivation, not with a training run.
 
 When building ML models:
 - The corpus is tiny (~11K tokens) — data augmentation and transfer learning are essential

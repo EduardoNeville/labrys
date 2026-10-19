@@ -18,7 +18,11 @@ Linear A has no verifier, and this repo has already proved it empirically:
 
 ```
 pipeline/ventris/complete.py:oracle_test()
-  recovery 0.6x chance   (4 runs, independent seeds)
+  recovery 0.6x chance   (4 runs, independent seeds)   <-- RETIRED: leak-contaminated,
+                                                           corrected figure is 0.00x (0/160).
+                                                           Kept because it is the number that
+                                                           motivated the sandbox; see
+                                                           verification_audit.md Phase 12.
 ```
 
 That number is not "our model is too small." It says the objective function contains no

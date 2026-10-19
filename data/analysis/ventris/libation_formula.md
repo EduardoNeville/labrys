@@ -1,5 +1,12 @@
 # Phase 11, Avenue 7 — The Libation Formula (the Rosetta-fragment)
 
+> ⚠️ **SUPERSEDED (2026-08-13).** This is the pre-correction segmentation. The formula was
+> re-derived on the corrected corpus in `libation_recovered.md`, which is canonical: opening
+> A-TA-I-*301-WA-JA at position 0 in 11/11 texts, ja-sa-sa-ra-me (9), si-ru-te (7),
+> u-na-ka-na-si (6), 5 sites, 9/9 slot order. Note that slot A in this file reads `AB 85` —
+> the retracted attribution of the logogram **A 301**. The segmentation module that encoded it
+> is archived (`archive/retracted/libation_segmentation.py`).
+
 **Status:** 🔥 DISCOVERED — the closest thing Linear A has to a fixed text
 
 ## The finding

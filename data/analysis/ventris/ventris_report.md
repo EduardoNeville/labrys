@@ -1,5 +1,11 @@
 # Phase 10b — Ventris Endgame Report
 
+> ⚠️ **SUPERSEDED (2026-10-19).** The headline number in this report — "recovery 0.6× chance" —
+> was **leak-contaminated** (the chance baseline used the full anchor set) and is retired. The
+> corrected figure is **0.00× (0/160)**; the conclusion (no signal) is unchanged and is now
+> backed by four operationalizations of the method, all empty (`method_closure.md`).
+> See `verification_audit.md` Phase 12 and `CODE_AUDIT.md`.
+
 **Completions evaluated:** 100
 **Top completion score:** 0.2329
 **Score spread (max-min):** 0.0046

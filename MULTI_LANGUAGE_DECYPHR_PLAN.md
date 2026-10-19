@@ -1,7 +1,7 @@
 # Multi-Language Decyphr Plan — One Pipeline, N Undeciphered Scripts
 
 **Date:** 2026-08-20  
-**Context:** `labrys/` — Linear A decipherment pipeline (11 phases, 1,719 inscriptions, 11,018 signs, ~69 real phonetic values). Oracle `0.6× chance` proves corpus-alone has no gradient. Unlock is external — a deciphered sister script.  
+**Context:** `labrys/` — Linear A decipherment pipeline (11 phases, 1,719 inscriptions, 11,018 signs, 69 real signs in the honest grid). Oracle **`0.00× chance` (0/160)** proves corpus-alone has no gradient. (The `0.6×` figure this line used to quote was leak-contaminated and is retired — `data/analysis/ventris/verification_audit.md` Phase 12.) Unlock is external — a deciphered sister script.  
 **Goal:** Generate N repositories (one per undeciphered language), reuse the same pipeline to attack each, and let a break in any one unlock the others.
 
 ---
@@ -121,7 +121,7 @@ pipeline:
   db: data/database/cm.db
   phases: [positional, ngram, network, morphology, swadesh, comparative, ventris]
 oracle:
-  # must beat labrys baseline 0.6× chance
+  # must beat labrys baseline 0.00× chance
   threshold: 1.5
 ```
 
@@ -136,7 +136,7 @@ No schema change. `Inscription.gorilaId` → generic `id`, `findspot.site`, `sig
 `pipeline/ventris/complete.py:oracle_test()` is the **only** gate that matters. For each language:
 
 1. Hide 20 CONFIRMED signs, greedy restore via scorer (Kober + entropy + prefix + anchor words).
-2. Recovery must be `>1.5× chance` (labrys was `0.6×` — scorer has no signal).
+2. Recovery must be `>1.5× chance` (labrys was `0.00×` — scorer has no signal).
 3. If flat, no optimizer (beam, annealing, Optuna) will help — objective has no gradient. Report negative honestly, as `ventris_report.md` does.
 
 Also reuse: `validate_mapping()`, `db stats`, `demo.py` smoke test.
@@ -237,7 +237,7 @@ Impact: `+119 signs` (+1% corpus), first cult non-accounting long text, only LA+
 |-------|------|-------------|-----------|
 | **0 — Now** | No-code prep | This plan file | this commit |
 | **1 — Extract (1 day)** | `unicode_utils.py` → CSV-driven, `ingest_lineara.py` → `ingest.py --language` | `languages/linear-a/mapping.csv`, `languages/linear-a/config.yaml`, alias `labrys = languages/linear-a` | `uv run python demo.py` + `unicode validate` green, DB `1,719` rows |
-| **2 — CM proof (2–3 days)** | Add `cypro-minoan` in-monorepo, run full pipeline, oracle | `languages/cypro-minoan/data/database/cm.db`, `data/analysis/cypro-minoan/ventris_report.md` | `oracle_test` reports `X× chance`; if `0.6×` again → confirms small-corpus wall, honestly |
+| **2 — CM proof (2–3 days)** | Add `cypro-minoan` in-monorepo, run full pipeline, oracle | `languages/cypro-minoan/data/database/cm.db`, `data/analysis/cypro-minoan/ventris_report.md` | `oracle_test` reports `X× chance`; if it lands below the 1.5× gate again → confirms small-corpus wall, honestly |
 | **3 — CHIC + Eteocretan (1 week)** | Promote `eteocretan/corpus.csv`, ingest `CHIC` | `languages/cretan-hieroglyphs/`, `languages/eteocretan/` | each has `db stats` + `positional_profiles.csv` |
 | **4 — Eteocypriot + bridges (1 week)** | `comparative_bridge.py` triangular `LA→CM→CG` + `CM→Eteocypriot` | `data/analysis/comparative/la_cm_eteocypriot_grid.csv` | updated `MASTER_SYNTHESIS.md §14` |
 | **5 — Template (½ day)** | `labrys-template` cookiecutter from monorepo | `github.com/EduardoNeville/labrys-template` | `cookiecutter` generates new lang in <30 min |

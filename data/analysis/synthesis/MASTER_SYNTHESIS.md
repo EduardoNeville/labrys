@@ -1,5 +1,12 @@
 # The Labrys Project — Complete Synthesis Report
 
+> ⚠️ **SUPERSEDED (2026-10-19).** This report predates the corpus correction (144 Unicode→Bennett
+> mapping errors), the grid purge (69 phantom signs), the oracle repair (0.6× → **0.00×**) and the
+> Phase 12–15 audits. It contains numbers that are now retracted: "0.6× chance", "pa-i-to 95
+> matches", "Tyrsenian best fit", "78 anchors", "AB 85 word divider". Do not cite it.
+> Canonical: `data/analysis/ventris/verification_audit.md` (results) and `CODE_AUDIT.md` (status).
+> Kept as the historical record of what was believed at Phase 9.
+
 **Date:** 2026-08-03
 **Phases completed:** 9
 **Repository:** `https://github.com/EduardoNeville/labrys`

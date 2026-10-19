@@ -81,6 +81,50 @@ shape, all were artifacts of a defect or a bad baseline.
 
 ---
 
+## 8. Retire code the way you retire a claim
+
+Added 2026-10-19, after a code audit found retracted ideas still importable, ten modules still
+reading a grid with 69 non-existent signs, and the project's most-cited artifact with no
+generator. Full detail: `CODE_AUDIT.md`.
+
+**8.1 A retraction is three actions, never one.**
+
+1. move the code to `archive/` with a header naming the falsifying number;
+2. fix every doc that cites its output — a banner, not a silent deletion, for historical files;
+3. record it in `data/analysis/ventris/verification_audit.md`.
+
+Deleting the file alone guarantees the idea returns, because the reasoning that produced it is
+still plausible.
+
+**8.2 Every canonical artifact gets a generator and a guard.** If a file cannot be re-derived
+from committed inputs, it is a hand-copied number wearing a `.csv` extension. If it can be, the
+check belongs in `pipeline/guards.py` so a hand-edit fails loudly.
+
+**8.3 Every guard must pass on a fresh clone.** "Skipped — run `tools/bootstrap.sh`" is
+acceptable; "FAILED because a gitignored file is absent" teaches people to ignore the suite.
+
+**8.4 Freeze concluded avenues.** A negative result is a result. The only permitted change to a
+RECORD module is a repaired import. Re-tuning one is how a retracted positive comes back.
+
+**8.5 Name the instrument in every claim.** This repo currently contains three different
+"confirmed sign" counts on two grids, one of which is 50% phantom signs. A count without its
+instrument is not a number, it is a rumour.
+
+**8.6 Purge phantoms at the source.** The purge was applied to one grid and not the other, so
+five CONFIRM decisions survived on signs with no codepoint and zero occurrences. When a filter is
+introduced, grep every derived file for the thing it filters.
+
+**8.7 A dependency only unvalidated code needs is not a default dependency.** torch was a 2 GB
+CUDA wheel behind code that has produced zero live conclusions; it is now the optional `ml` extra.
+
+**8.8 Working files are not findings.** A subagent's `JOURNAL.md`/`MEMORY.md` at the repo root
+read like project documentation. Scratch goes in `archive/agent_scratch/`, findings go in
+`data/analysis/` **with a control**.
+
+**8.9 When the audit and a summary disagree, the summary is wrong until proven otherwise.**
+
+---
+
 ## Checklist for a new claim
 
 1. Gate written down first, threshold and interpretation included.
@@ -89,4 +133,6 @@ shape, all were artifacts of a defect or a bad baseline.
 4. Diff attribution done if any input or output moved.
 5. Result recorded in `data/analysis/ventris/verification_audit.md`; retractions are
    first-class entries, not silent edits.
-6. `uv run python pipeline/guards.py` green.
+6. `uv run python pipeline/guards.py` green (15/15, `tools/bootstrap.sh` on a fresh clone).
+7. If the claim rests on a file, that file has a generator (§8.2) and the claim names the
+   instrument it was measured on (§8.5).
