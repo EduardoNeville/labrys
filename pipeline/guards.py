@@ -107,25 +107,13 @@ def g_grid_values() -> str:
 
 
 def report_legacy_grid() -> None:
-    """Legacy 138-sign grid: phantom rows must not be used (AGENTS.md).
+    """Retired grid name, and who still uses it.
 
-    Two reports, both non-fatal on purpose: the canonical grid is enforced
-    (`g_purged_grid_regenerates`), but the *consumers* of the legacy grid are a
-    migration, not a typo — each one changes a recorded number when it moves, so
-    the list is printed for the maintainer instead of silently rewritten.
+    `expanded_grid.csv` was renamed `expanded_grid_legacy_138.csv` on 2026-10-19: the canonical
+    grid is now written directly by `bootstrapping/grid_expand.py`, and the 138-row form is frozen
+    because it is what the Phase 11 purge result was computed from. Anything still naming the old
+    file is either a doc to update or a consumer to migrate (verification_audit.md Phase 18).
     """
-    p = REPO / "data/analysis/bootstrapping/expanded_grid.csv"
-    if not p.exists():
-        return
-    from pipeline.phonetics import series_of
-    phantoms = [r.get("bennett_id") for r in csv.DictReader(open(p, encoding="utf-8"))
-                if (r.get("refined_value") or "").strip()
-                and series_of(r["refined_value"]) == "?"]
-    if phantoms:
-        print(f"\n  legacy grid phantoms (do not use expanded_grid.csv): "
-              f"{len(phantoms)} rows, e.g. {phantoms[:6]}")
-
-    # who still defaults to the deprecated grid
     allowed = {"guards.py", "purge_grid.py", "audit_grid_inputs.py", "grid_expand.py"}
     consumers = []
     for f in sorted(PIPELINE.rglob("*.py")):
@@ -136,45 +124,74 @@ def report_legacy_grid() -> None:
                 consumers.append(f"{f.relative_to(REPO)}:{i}")
     if consumers:
         files = sorted({c.split(":")[0] for c in consumers})
-        print(f"  still defaulting to the deprecated grid ({len(files)} modules, "
+        print(f"\n  still reading the retired 138-row grid name ({len(files)} modules, "
               f"{len(consumers)} call sites): " + ", ".join(consumers))
 
 
-def g_purged_grid_regenerates() -> str:
-    """The honest grid must be derivable from its inputs (it had no generator).
+def g_canonical_grid_honest() -> str:
+    """Guard 20: the grid everything reads contains only real signs, with canonical IDs.
 
-    `expanded_grid_purged.csv` is the project's most-cited artifact and was produced
-    once by hand. `pipeline/purge_grid.py` re-derives it from `expanded_grid.csv` +
-    the corpus + the Unicode mapping; this guard fails if the committed file and the
-    re-derivation ever disagree, which is what a silent hand-edit would look like.
+    The rule (valid codepoint AND >=1 corpus occurrence) is applied at the generators now, so this
+    guard is the regression test for three separate failures that each cost real time: the 69
+    phantom rows, the six CONFIRM decisions that landed on them during bootstrapping, and the two
+    real signs (AB 21f/AB 22f, 37 occurrences) that a case-sensitive lookup purged as phantoms.
     """
-    from pipeline.purge_grid import check
+    from pipeline.purge_grid import check_canonical
 
-    return check()
+    return check_canonical()
 
 
-def report_refined_grid_phantoms() -> None:
-    """The refined grid still carries the 69 phantom rows. Reported, not fixed.
+def g_grid_row_agreement() -> str:
+    """Guard 21: the Phase 5 and Phase 8 lineages must cover the same signs.
 
-    Purging `refined_phonetic_grid.csv` would change the Phase 5 grid that 25+ modules
-    read, including five CONFIRM rows for signs with no codepoint and no occurrences.
-    That is a re-derivation with review (verification_audit.md, *Still pending*), so it
-    is measured here and left to its own commit rather than done inside a guard.
+    They disagree on CONFIRM counts by design (different instruments), but a sign present in one
+    and absent from the other means one lineage has lost a sign — which is how AB 21f/AB 22f went
+    missing for two months.
     """
-    from pipeline.purge_grid import corpus_counts, purge
+    from pipeline.purge_grid import check_row_agreement
 
-    p = REPO / "data/analysis/comparative/refined_phonetic_grid.csv"
-    if not p.exists():
+    return check_row_agreement()
+
+
+def report_completeness_gap() -> None:
+    """Guard 23 (report): corpus signs that no grid lists.
+
+    The grid is evidence-driven, so a sign with no evidence file naming it cannot be given a row
+    without inventing one. This reports the gap instead of hiding it: today it is three
+    syllabograms (AB 21m, AB 22m, AB 23m, 19 occurrences) that the Phase 7/8 writers never listed.
+    """
+    from pipeline.purge_grid import CANONICAL, REFINED, corpus_counts
+
+    from pipeline.unicode_utils import bennett_to_unicode, canonical_bennett
+
+    if not CANONICAL.exists():
         return
-    rows = list(csv.DictReader(open(p, encoding="utf-8")))
     counts = corpus_counts()
-    kept, dropped = purge(rows, counts)
-    conf = [r["bennett_id"] for r in rows
-            if r.get("decision") == "CONFIRM" and any(b == r["bennett_id"] for b, _ in dropped)]
-    if dropped:
-        print(f"  refined_phonetic_grid.csv still holds {len(dropped)} phantom rows "
-              f"({len(conf)} of them CONFIRM: {conf}) — purge/re-derive pending, "
-              f"real-sign CONFIRM count is {sum(1 for r in kept if r.get('decision') == 'CONFIRM')}")
+    listed = {r["bennett_id"] for r in csv.DictReader(open(CANONICAL, encoding="utf-8"))}
+    listed |= {r["bennett_id"] for r in csv.DictReader(open(REFINED, encoding="utf-8"))} \
+        if REFINED.exists() else set()
+    missing = []
+    for bid, n in sorted(counts.items()):
+        c = canonical_bennett(bid)
+        if c.startswith("AB ") and bennett_to_unicode(c) and c not in listed:
+            missing.append((c, n))
+    if missing:
+        import sqlite3
+
+        conn = sqlite3.connect(REPO / "data/database/lineara_full.db")
+        detail = []
+        for b, n in missing:
+            rows = [r[0] for r in conn.execute(
+                "SELECT DISTINCT transliteration FROM signs WHERE bennett_id=? "
+                "AND transliteration<>'' AND transliteration NOT IN ('\n',' ') LIMIT 2", (b,))]
+            detail.append(f"{b} n={n}" + (f" ({', '.join(rows)})" if rows else ""))
+        conn.close()
+        total = sum(n for _, n in missing)
+        print(f"  completeness gap — corpus syllabograms with a codepoint that no grid lists: "
+              f"{len(missing)} ({total} occurrences): " + ", ".join(detail))
+        print("    (invented rows are not the fix: the grid is evidence-driven. The two AB 131* "
+              "entries carry logogram codes — VIN, GRA — under a syllabogram ID, which is a corpus "
+              "typing issue, not a missing value.)")
 
 
 # ── 4. candidate generation honours the anchor override ──────────────────────
@@ -608,7 +625,8 @@ def main() -> None:
     guard("scoring leaves the global RNG alone", g_rsi_score_rng_isolated)
     guard("kober triples are canonically ordered", g_kober_triples_canonical)
     guard("rsi tree, verdicts and split are consistent", g_rsi_tree_consistent)
-    guard("honest grid regenerates from its inputs", g_purged_grid_regenerates)
+    guard("canonical grid contains only real signs", g_canonical_grid_honest)
+    guard("both grid lineages cover the same signs", g_grid_row_agreement)
     guard("pipeline/ does not import legacy/", g_legacy_is_not_imported)
     guard("libation doc matches the corpus", g_libation_doc_matches_corpus)
     guard("libation catalog regenerates from the corpus", g_libation_catalog_regenerates)
@@ -621,7 +639,7 @@ def main() -> None:
             print(f"         {detail}")
     report_known_defects()
     report_legacy_grid()
-    report_refined_grid_phantoms()
+    report_completeness_gap()
     failed = [n for n, ok, _ in RESULTS if not ok]
     print(f"\n{len(RESULTS) - len(failed)}/{len(RESULTS)} guards passed")
     if failed:

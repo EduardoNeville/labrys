@@ -1,7 +1,7 @@
 # Multi-Language Decyphr Plan — One Pipeline, N Undeciphered Scripts
 
 **Date:** 2026-08-20  
-**Context:** `labrys/` — Linear A decipherment pipeline (11 phases, 1,719 inscriptions, 11,018 signs, 69 real signs in the honest grid). Oracle **`0.00× chance` (0/160)** proves corpus-alone has no gradient. (The `0.6×` figure this line used to quote was leak-contaminated and is retired — `data/analysis/ventris/verification_audit.md` Phase 12.) Unlock is external — a deciphered sister script.  
+**Context:** `labrys/` — Linear A decipherment pipeline (11 phases, 1,719 inscriptions, 11,018 signs, 71 real signs in the honest grid). Oracle **`0.056× chance` (1/160)** proves corpus-alone has no gradient. (The `0.6×` figure this line used to quote was leak-contaminated and is retired — `data/analysis/ventris/verification_audit.md` Phase 12.) Unlock is external — a deciphered sister script.  
 **Goal:** Generate N repositories (one per undeciphered language), reuse the same pipeline to attack each, and let a break in any one unlock the others.
 
 ---
@@ -290,7 +290,7 @@ uv run python pipeline/ventris/complete.py --language cypro-minoan oracle_test
 |------|------|
 | Corpus canonical | `data/raw/sigla/inscriptions.json` (1,719), `supplement.json` (1,713) |
 | DB | `data/database/lineara_full.db` (3.6 MB) |
-| Honest grid (use this) | `data/analysis/bootstrapping/expanded_grid_purged.csv` (58 CONFIRMED + 11 UNCERTAIN = 69 real) — not `expanded_grid.csv` (138 with 69 phantoms) |
+| Honest grid (use this) | `data/analysis/bootstrapping/expanded_grid_purged.csv` (71 real signs, 53 CONFIRM) — not `expanded_grid_legacy_138.csv` (frozen, 138 with 69 phantoms) |
 | CM bridge | `data/analysis/comparative/la_cm_shared_phonetic_grid.csv`, `pipeline/cypro_minoan_bridge.py` |
 | LB mapping | `data/analysis/comparative/la_lb_mapping.csv`, `pipeline/linear_b_mapping.py` |
 | Phases 1–3 synthesis | `data/analysis/synthesis/phase_summary_1_3.md` |

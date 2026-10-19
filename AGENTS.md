@@ -14,10 +14,13 @@ retracted them. Several numbers that circulate in older docs (0.6× oracle, "78 
 Be realistic about the state of the field. We have not "deciphered" Linear A. What we have,
 with the instrument attached because the counts disagree (`CODE_AUDIT.md` §4):
 
-- **Sign inventory:** ~205 attestation IDs in the DB. The honest phonetic grid is **69 real
-  signs** (`expanded_grid_purged.csv`): 58 CONFIRMED + 11 UNCERTAIN. The Phase 5 refined grid
-  reaches 40 CONFIRM, **35 of them on signs that exist**. The two grids are unreconciled — never
-  write "N confirmed" without naming the grid.
+- **Sign inventory:** ~205 attestation IDs in the DB. The honest phonetic grid is **71 real
+  signs**, **53 CONFIRM** (`expanded_grid_purged.csv`, Phase 8 lineage). The Phase 5 refined grid
+  covers the same 71 signs with **35 CONFIRM** — different instruments, same sign set. They are
+  unreconciled on *values*; never write "N confirmed" without naming the grid.
+  (Until 2026-10-19 the figures were 69/58 and 40/35-of-138: the grid was not reproducible from
+  current inputs, six CONFIRMs sat on phantom signs, and two real signs had been purged by a
+  case-sensitivity bug. See `verification_audit.md` Phase 18.)
 - **Logograms:** **88** distinct IDs / 742 occurrences. "124" is unsupported.
 - **Words:** ~15–20 with provisional meanings, mostly accounting terms and place names. Only
   **`i-da`** survives a findspot control; `pa-i-to` fails its own.
@@ -199,12 +202,12 @@ No family is distinguished. Phase 3 candidate ranking: Anatolian IE and Hurro-Ur
 pa-i-to (Phaistos), i-da (Mt. Ida) — HIGH confidence. di-ka-ta (Dikte), su-ki-ri-ta (Sybrita) had exact matches. Verified: 95 Phaistos matches (dist=1), 20 Ida matches robust to the da/ta conflict.
 
 ### Phase 10-11 Verified Findings
-- **Oracle (10c)**: the grammatical scorer has NO signal — **recovery 0.00× chance (0/160)**. The earlier "0.6× chance" figure was leak-contaminated (anchor-word leak + a chance baseline computed from the full anchor set); both fixed in Phase 12. No optimizer can help. See `pipeline/ventris/complete.py` `oracle_test()` and `data/analysis/ventris/verification_audit.md` Phase 12.
+- **Oracle (10c)**: the grammatical scorer has NO signal — **recovery 1/160, 0.056× chance** on the re-derived grid (the Phase 12 record said 0/160, 0.00×; the number moved with the corrected Kober graph, the verdict did not). The earlier "0.6× chance" figure was leak-contaminated (anchor-word leak + a chance baseline computed from the full anchor set); both fixed in Phase 12. No optimizer can help. See `pipeline/ventris/complete.py` `oracle_test()` and `data/analysis/ventris/verification_audit.md` Phase 12.
 - **Corpus correction (11)**: 144 Unicode→Bennett mapping errors + 29 phantom codepoints fixed. The corpus is now correct (IOZa2 reads A-TA-I-*301-WA-JA per GORILA). See `data/analysis/ventris/corpus_correction.md`.
-- **Grid purge (11)**: the expanded grid has 69 real signs (58 CONFIRMED + 11 UNCERTAIN). 69 phantom entries removed — including AB 68 (the old "Phase 7 ro resolution", VOID) and all AB 100-137. Use `data/analysis/bootstrapping/expanded_grid_purged.csv`, NOT the old 138-sign grid.
+- **Grid purge (11, corrected 2026-10-19)**: the canonical grid has **71 real signs, 53 CONFIRM** (`expanded_grid_purged.csv`). The 138-row form is frozen as `expanded_grid_legacy_138.csv`; do not read it. The Phase 11 record said "69 signs / 58 CONFIRM" — both numbers were artifacts: two real signs (AB 21f, 22f) had been purged as case-mismatched phantoms, and six CONFIRMs sat on signs with no codepoint (`verification_audit.md` Phase 18).
 - **Libation formula (11, audited 2026-10-01)**: recovered on the corrected corpus — ja-sa-sa-ra-me (**9** insns), u-na-ka-na-si (**6**), si-ru-te (**7**), opening A-TA-I-*301-WA-JA (**11**, at position 0 in **11 of 11**). Recent re-derivation from the corpus reproduces every count and both structural claims exactly: in all **9** texts carrying two or more formula words, they appear in the documented slot order (9/9). **Spanning 5 sites** (Iouktas, Platanos, Psykhro, Troullos, Palaikastro). Phonetically inert (LB-transfer values, cannot yield new ones), and the word translations are the source's tentative readings. **It is the project's only result that replicates across sites** — on the same day the commodity associations failed the same test — which says the structure that generalises is *genre and formula*, not corpus-wide enrichment. See `data/analysis/ventris/libation_recovered.md`.
 - **Commodity (11, corrected; audited 2026-10-01; replication FAILED)**: AB 30↔LIVESTOCK and AB 28↔WINE. **The association is real within Haghia Triada and does not generalize.** Auditing it: the recorded null was wrong (adjacent *slots* from ±3 windows are not independent draws — the effective sample is documents); at the document level the two claims are p=2.69e-11 / 2.63e-05 and they clear a site-stratified permutation at the floor of 20,000 reps (z=7.1). But **selection on Haghia Triada → test on Khania replicates 2 of 67 pairs, and both are logogram↔own-class tautologies** (A 303↔LIVESTOCK, A 301↔PERSONNEL); every syllabogram association fails (AB 30 p=4.4e-02, AB 81 p=0.27, AB 31 p=0.42; the WINE pairs have no Khania population at all). So: a property of HT's entry conventions, **not** semantic anchors for Linear A. Bonferroni family is 122 tests (alpha=0.00041), not 61. See `data/analysis/commodity_decoding/enrichment_audit.py`, `cross_site_replication.py`, and `verification_audit.md` Phase 14/14.1.
-- **AB 41 (si)** is the most frequent UNCERTAIN sign (240 occ) and the key open target.
+- **AB 41 (si)** is the most frequent unresolved sign (240 occ) and the key open target. The Phase 8 lineage marks it CONFIRM with value `?` (identity only); that is not evidence for `si`.
 - **Retracted**: "AB 85 word divider", "AB 82↔LIVESTOCK" (circular), "Tyrsenian best fit", "78 anchors", "diachronic prior" (all invalidated by correction). See `data/analysis/ventris/verification_audit.md` and `data/analysis/ventris/corrected_rerun_results.md`.
 
 ## Phase 4 ML Guidance

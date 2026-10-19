@@ -1,92 +1,64 @@
 {
-  "initial_anchors": 44,
-  "initial_uncertain": 94,
+  "initial_anchors": 35,
+  "initial_uncertain": 34,
   "cycles": [
     {
       "cycle": 1,
       "threshold": 0.6,
-      "accepted_count": 27,
+      "accepted_count": 15,
       "accepted_signs": [
         "AB 01",
         "AB 07",
+        "AB 16",
         "AB 23",
-        "AB 36",
-        "AB 38",
-        "AB 65",
-        "AB 29",
+        "AB 60",
+        "AB 80",
+        "AB 21f",
         "AB 37",
-        "AB 50",
-        "AB 51",
-        "AB 62",
-        "AB 14",
+        "AB 70",
+        "AB 39",
+        "AB 41",
         "AB 45",
         "AB 46",
-        "AB 47",
-        "AB 48",
-        "AB 49",
-        "AB 52",
-        "AB 56",
-        "AB 58",
-        "AB 59",
-        "AB 64",
-        "AB 66",
-        "AB 73",
-        "AB 85",
-        "AB 87",
-        "AB 96"
+        "AB 78",
+        "AB 79"
       ],
       "accepted_values": {
         "AB 01": "da",
         "AB 07": "di",
+        "AB 16": "qa",
         "AB 23": "mu",
-        "AB 36": "jo",
-        "AB 38": "e",
-        "AB 65": "ju",
-        "AB 29": "pu",
+        "AB 60": "ra",
+        "AB 80": "ma",
+        "AB 21f": "?",
         "AB 37": "?",
-        "AB 50": "pu",
-        "AB 51": "du",
-        "AB 62": "?",
-        "AB 14": "do",
+        "AB 70": "ko",
+        "AB 39": "?",
+        "AB 41": "?",
         "AB 45": "ri",
         "AB 46": "?",
-        "AB 47": "nu",
-        "AB 48": "?",
-        "AB 49": "?",
-        "AB 52": "?",
-        "AB 56": "?",
-        "AB 58": "?",
-        "AB 59": "?",
-        "AB 64": "?",
-        "AB 66": "?",
-        "AB 73": "?",
-        "AB 85": "?",
-        "AB 87": "?",
-        "AB 96": "?"
+        "AB 78": "qe",
+        "AB 79": "?"
       },
-      "anchors_after": 72,
-      "uncertain_after": 66
+      "anchors_after": 51,
+      "uncertain_after": 18
     },
     {
       "cycle": 2,
       "threshold": 0.5499999999999999,
-      "accepted_count": 5,
+      "accepted_count": 3,
       "accepted_signs": [
-        "AB 39",
-        "AB 72",
-        "AB 92",
+        "AB 76",
         "AB 02",
-        "AB 113"
+        "AB 50"
       ],
       "accepted_values": {
-        "AB 39": "?",
-        "AB 72": "?",
-        "AB 92": "?",
+        "AB 76": "?",
         "AB 02": "ro",
-        "AB 113": "?"
+        "AB 50": "pu"
       },
-      "anchors_after": 77,
-      "uncertain_after": 61
+      "anchors_after": 54,
+      "uncertain_after": 15
     },
     {
       "cycle": 3,
@@ -94,12 +66,12 @@
       "accepted_count": 0,
       "accepted_signs": [],
       "accepted_values": {},
-      "anchors_after": 77,
-      "uncertain_after": 61
+      "anchors_after": 54,
+      "uncertain_after": 15
     }
   ],
-  "total_accepted": 32,
-  "final_anchors": 77,
-  "remaining_uncertain": 61,
-  "resolution_rate": 0.3404255319148936
+  "total_accepted": 18,
+  "final_anchors": 54,
+  "remaining_uncertain": 15,
+  "resolution_rate": 0.5294117647058824
 }

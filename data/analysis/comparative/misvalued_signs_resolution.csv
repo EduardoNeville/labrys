@@ -11,7 +11,6 @@ AB 24,ne,ne,CONFIRM,71.3,27,13,,77.5,HIGH,ne,52.0,pa,LB=78; CM=HIGH; GC=52; Pos#
 AB 26,ru,ru,CONFIRM,63.2,14,8,,78.0,HIGH,ru,28.0,i,LB=78; CM=HIGH; GC=28; Pos#14; Ng#8,Conflict: LB=/ru/; CM=/ru/; GC=/i/,CONFIRM: retained as ru
 AB 27,re,re,CONFIRM,58.4,30,2,,65.0,HIGH,re,52.0,pa,LB=65; CM=HIGH; GC=52; Pos#30; Ng#2,Conflict: LB=/re/; CM=/re/; GC=/pa/,CONFIRM: retained as re
 AB 29,pu,pu2,REVISE,73.9,34,10,,75.0,,,,,LB=75; Pos#34; Ng#10,Single source LB suggests /pu2/ vs conventional /pu/,REVISE: pu → pu2
-AB 36,jo,jo,UNCERTAIN,71.0,,5,,67.2,HIGH,za,,,LB=67; CM=HIGH; Ng#5,HIGH CM=/za/ vs LB=/jo/ — genuine conflict,UNCERTAIN: retained as jo
 AB 57,ja,ja,CONFIRM,52.4,37,15,,72.5,LOW,ja,54.0,i,LB=72; CM=LOW; GC=54; Pos#37; Ng#15,Conflict: LB=/ja/; CM=/ja/; GC=/i/,CONFIRM: retained as ja
 AB 60,ra,ra,UNCERTAIN,66.2,22,16,,72.5,HIGH,ma,39.0,i,LB=72; CM=HIGH; GC=39; Pos#22; Ng#16,HIGH CM=/ma/ vs LB=/ra/ — genuine conflict,UNCERTAIN: retained as ra
 AB 67,ki,ki,CONFIRM,67.6,28,12,,66.0,HIGH,ki,55.0,ki,LB=66; CM=HIGH; GC=55; Pos#28; Ng#12,,CONFIRM: retained as ki

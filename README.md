@@ -18,7 +18,7 @@ best fit", "AB 85 word divider") are superseded; the audit lists every one.
 | 5 — Comparative | LA↔LB mapping, Cypro-Minoan bridge, grid refinement | ✅ Complete — 40 CONFIRM (35 on real signs) |
 | 6 — Verification | Cross-evidence triangulation, toponym testing | ⚠️ consumes Phase 4 outputs — stale with them |
 | 7–9 — Alternatives | Eteocretan, commodity, phylogenetic, Kober, Anatolian, formulaic | ✅ Complete — **all negative after controls** |
-| 10 — Ventris endgame | Grid completion by grammatical testing | ⬜ **Concluded negative** — 0 recovered, 0.00× chance |
+| 10 — Ventris endgame | Grid completion by grammatical testing | ⬜ **Concluded negative** — 1/160 recovered, 0.056× chance |
 | 11 — Correction + purge | 144 mapping errors + 29 phantoms fixed; libation formula recovered; grid purged | ✅ Complete — honest 69-sign grid |
 | 12–15 — Audits | Oracle machinery, commodity enrichment, archive stratification | ✅ Complete — most positives failed replication |
 | 16 — Cross-script chain | LA → Cypro-Minoan → Cypriot Syllabary | ✅ **PASS** — 44.65×, 45/54 (the project's only pre-registered pass) |
@@ -54,10 +54,11 @@ picked 3.14 and deleted the venv trying to build a cu121 torch wheel that has no
 
 Deliberately stated with instruments attached, because the counts disagree (see `CODE_AUDIT.md` §4):
 
-- **Sign inventory:** ~205 attestation IDs in the DB. The honest phonetic grid is **69 real signs**
-  (`expanded_grid_purged.csv`): 58 CONFIRMED + 11 UNCERTAIN, of which **AB 41 (si)** — 240
-  occurrences — is the noteable open target. The Phase 5 refined grid reaches **40 CONFIRM, 35 of
-  them on signs that exist**; the two grids have not been reconciled.
+- **Sign inventory:** ~205 attestation IDs in the DB. The honest phonetic grid is **71 real signs,
+  53 CONFIRM** (`expanded_grid_purged.csv`, Phase 8 lineage), covering the same 71 signs as the
+  Phase 5 refined grid (**35 CONFIRM** — a different instrument). **AB 41 (si)**, 240 occurrences,
+  is the notable open target: the Phase 8 lineage confirms its *identity* with value `?`, which is
+  not an argument for `si`. The grids are not reconciled on values.
 - **Logograms:** 88 distinct IDs, 742 occurrences (not 124).
 - **Fractions:** 29 IDs. **16 of 29 proposed values are circular** and 1 is corroborated by the
   Linear B fraction series — treat the file as unaudited (`verification_audit.md` Phase 12).
@@ -76,13 +77,17 @@ Deliberately stated with instruments attached, because the counts disagree (see 
 ### What is closed, with the number
 
 | route | closed by |
-| Ventris scorer / any optimizer (beam, annealing, GPU MCMC, weight sweep) | 0.00×, 0/160; **0 of 1,771** weight vectors recover a value |
+| Ventris scorer / any optimizer (beam, annealing, GPU MCMC, weight sweep) | **0.056×, 1/160**; **0 of 1,771** weight vectors recover a value |
 | Frame links, paradigm-slot alternation, series/vowel voting | at or below chance in 4 operationalizations (best 1.03×) |
 | Diachronic (MM→LM) prior | p=0.0003 → **0.1748** after correction |
 | `AB 85` word divider, `AB 82`↔LIVESTOCK | artifact of a sign mis-attribution and of the encoding |
 | Commodity semantic anchors | real at Haghia Triada, **does not replicate** (2/67 pairs, both tautologies) |
 | `pa-i-to`, `A 301` heading profile | fail their controls (exact recount 1; 229/231 vs 9/43 across archives) |
 | Egyptian loans, Eteocretan, Anatolian cognates, phylogenetic parsimony | no signal above null |
+
+**The Linear A oracle, re-derived:** 1/160 recovered at **0.056× chance** — below chance, not merely
+short of the 1.5× gate (`verification_audit.md` Phase 18; the Phase 12 figure of 0/160 / 0.00× was
+measured on a Kober graph that predated the corpus correction).
 
 **The bottleneck, stated once:** the corpus is ~11k sign tokens, every phonetic signal derives
 circularly from Linear B transfer, and no independent phonetic evidence exists. That is why the

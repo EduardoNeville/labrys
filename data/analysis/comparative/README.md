@@ -15,8 +15,8 @@ status here. Full reasoning: `../../../CODE_AUDIT.md`.
 ## ⚠️ Stale — reproduces, but its inputs moved
 
 | file | problem |
-| `refined_phonetic_grid.csv` | **69 phantom rows** (no codepoint, 0 occurrences), **5 of them CONFIRM**: AB 12, 15, 18, 35, 52. Predates the Phase 12 CONFIRM policy. Real-sign CONFIRM count is **35**, not the 44 quoted in older docs. 25+ modules read it. |
-| `misvalued_signs_resolution.csv` | One phantom row (AB 36 `jo`), does not reflect the Phase 12 policy. Its companion report is bannered. |
+| `refined_phonetic_grid.csv` | **live since 2026-10-19** — 71 rows, 35 CONFIRM; the 111 phantom IDs are filtered at the generator, and the case-sensitivity defect that hid AB 21f/22f is fixed (Phase 18). |
+| `misvalued_signs_resolution.csv` | Regenerated 2026-10-19 from the purged grid: the phantom AB 36 `jo` row is gone. |
 | `grid_changes_from_ab.csv`, `phase5_synthesis.md` | same lineage as the refined grid; report carries a supersession banner |
 
 Re-derivation is `CODE_AUDIT.md` §8 item 1 — a review task, not a cleanup edit, because purging

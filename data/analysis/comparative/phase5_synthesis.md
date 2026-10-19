@@ -1,32 +1,25 @@
 # Phase 5 Synthesis — Refined Phonetic Grid for Linear A
 
-> ⚠️ **PARTIALLY SUPERSEDED (2026-10-19).** The companion data file
-> `refined_phonetic_grid.csv` still contains the **69 phantom rows** (signs with no codepoint and
-> zero corpus occurrences), **5 of them CONFIRM** (AB 12, 15, 18, 35, 52), and predates the
-> Phase 12 CONFIRM policy. The real-sign CONFIRM count in this grid is **35**, not the number
-> quoted here. Use `expanded_grid_purged.csv` as the honest grid; the Phase 5 grid is pending
-> re-derivation (`CODE_AUDIT.md` §8 item 1).
-
 ## Overview
 
 This report synthesises all comparative evidence from Phase 5 (Linear B transfer, Cypro-Minoan triangular inference, loanword shadow lexicon, commodity context patterns) alongside Phase 3 (toponym anchors, phonetic grid confidence) and Phase 2 (positional & n-gram anomaly detection) to produce a refined phonetic grid for Linear A.
 
-**Total signs evaluated:** 138
+**Total signs evaluated:** 71
 
 | Decision | Count | Percentage |
 |----------|-------|------------|
-| CONFIRM  | 40 | 29.0% |
-| REVISE   | 4 | 2.9% |
-| UNCERTAIN| 94 | 68.1% |
+| CONFIRM  | 35 | 49.3% |
+| REVISE   | 3 | 4.2% |
+| UNCERTAIN| 33 | 46.5% |
 
 **Confidence distribution:**
-- High (≥70): 21 signs
-- Medium (40-69): 49 signs
-- Low (<40): 68 signs
+- High (≥70): 15 signs
+- Medium (40-69): 42 signs
+- Low (<40): 14 signs
 
 ## Changes from Conventional AB Grid
 
-**8 signs** revised:
+**7 signs** revised:
 
 | Sign | Conventional | Refined | Confidence | Reason |
 |------|-------------|---------|------------|--------|
@@ -37,7 +30,6 @@ This report synthesises all comparative evidence from Phase 5 (Linear B transfer
 | AB 45 | /ri/ | /de/ | 38.5 | Conflict: CM=/de/; GC=/i/ |
 | AB 47 | /nu/ | /ja/ | 25.0 | Single source CM suggests /ja/ vs conventional /nu/ |
 | AB 65 | /ju/ | /jo/ | 25.0 | Single source CM suggests /jo/ vs conventional /ju/ |
-| AB 68 | /ro₂/ | /ro/ | 25.0 | Single source CM suggests /ro/ vs conventional /ro₂/ |
 
 ## Phase 2 Misvalued Signs — Resolution
 
@@ -167,15 +159,12 @@ Signs where LB and CM evidence genuinely disagree (both provide different confid
 | AB 01 | /da/ | /da/ | /ta/ | UNCERTAIN |
 | AB 07 | /di/ | /di/ | /ti/ | UNCERTAIN |
 | AB 11 | /si/ | /po/ | /si/ | UNCERTAIN |
-| AB 14 | /do/ | /do/ | /to/ | UNCERTAIN |
 | AB 16 | /qa/ | /qa/ | /ka/ | UNCERTAIN |
 | AB 21 | /mi/ | /qi/ | /mi/ | UNCERTAIN |
 | AB 23 | /mu/ | /mu/ | /ma/ | UNCERTAIN |
-| AB 36 | /jo/ | /jo/ | /za/ | UNCERTAIN |
 | AB 38 | /e/ | /e/ | /pa/ | UNCERTAIN |
 | AB 60 | /ra/ | /ra/ | /ma/ | UNCERTAIN |
 | AB 66 | /?/ | /ta2/ | /ta/ | UNCERTAIN |
-| AB 71 | /?/ | /dwe/ | /ke/ | UNCERTAIN |
 | AB 78 | /qe/ | /qe/ | /ka/ | UNCERTAIN |
 | AB 80 | /ma/ | /ma/ | /pa/ | UNCERTAIN |
 

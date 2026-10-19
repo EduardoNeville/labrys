@@ -44,9 +44,17 @@ CONFIGS = {
     ),
     "linear-a": dict(
         db=REPO / "data/database/lineara_full.db",
-        grid=REPO / "data/analysis/bootstrapping/expanded_grid.csv",
+        # Canonical grid. `expanded_grid.csv` (138 rows, 69 phantom signs) was retired on
+        # 2026-10-19 and frozen as `expanded_grid_legacy_138.csv`; this module was its last
+        # consumer (verification_audit.md Phase 18).
+        grid=REPO / "data/analysis/bootstrapping/expanded_grid_purged.csv",
         kober=REPO / "data/analysis/kober/triple_patterns.csv",
-        freq=REPO / "data/analysis/frequency_constraints/constrained_candidates.csv",
+        # Frequency-typology candidates were generated from the retired 138-row grid by a module
+        # now in `legacy/`. Feeding a diagnostic from a retired lineage is worse than feeding it
+        # less, so the term is disabled rather than silently stale. The consequence is a wider
+        # candidate space for the Linear A diagnose only; the Linear B path (which is the one the
+        # guards and the RSI loop use) is unaffected.
+        freq=None,
         raw=None,
         raw_delim=None,
         ab68=True,
@@ -60,7 +68,8 @@ def build(lang: str):
     c = CONFIGS[lang]
     return VentrisGridCompleter(
         db_path=str(c["db"]), expanded_grid_path=str(c["grid"]),
-        kober_triples_path=str(c["kober"]), freq_constraints_path=str(c["freq"]),
+        kober_triples_path=str(c["kober"]),
+        freq_constraints_path=str(c["freq"]) if c.get("freq") else "",
         ab68_override=c["ab68"],
     )
 

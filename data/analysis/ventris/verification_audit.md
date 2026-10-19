@@ -1089,3 +1089,103 @@ claim about the gate's inputs that nothing can verify.
 counts read the corpus, `i-da` reads `signs.transliteration`, the commodity audits read
 document-level co-occurrence, and the Phase 16 cross-script PASS reads
 `la_cm_shared_phonetic_grid.csv` plus the Unicode standard.
+
+---
+
+## Phase 18 — the Linear A value chain, re-derived *(2026-10-19)*
+
+**Trigger.** Step 1 of the repository cleanup: *"re-derive `refined_phonetic_grid.csv` (purge 69
+phantoms, apply Phase 12 policy) and migrate the last legacy-grid consumer."* The purge turned out to
+be the smallest part. Everything below was measured in scratch copies before anything was changed,
+and every regenerated file was diffed and attributed (protocol §3).
+
+### 18.1 The canonical grid was not reproducible, and six of its CONFIRMs were on signs that do not exist
+
+Re-deriving the Phase 8 chain from the committed Phase 5 grid gives **52** CONFIRM on the 69 real
+signs, not the committed **58**. The six missing CONFIRMs had landed on **phantom signs** — AB 12
+`so`, AB 15 `mo`, AB 18 `zo`, AB 35 `ti`, AB 52 `no`, and AB 68 `ro` (the void "Phase 7 `ro`
+resolution"). A CONFIRM on a sign with no codepoint and zero occurrences asserts a value for
+something nobody has ever seen.
+
+**Twelve signs lost CONFIRM**: AB 11 `si`→`po`, AB 21 `mi`→`qi`, AB 29 `pu`→`pu2`, AB 38, AB 47,
+AB 48, AB 49, AB 65, AB 66, AB 74, AB 83, AB 87 — exactly the signs Phase 12 demoted in the refined
+grid. **Phase 12's cascade reached `refined_phonetic_grid.csv` and never reached the expanded/purged
+grid.** That is the whole of the drift: not a new defect, an unpropagated one.
+
+**Six signs gained CONFIRM**: AB 16, AB 41, AB 60, AB 78, AB 79, AB 80 — including **AB 41 (`si`)**,
+the project's key open target (240 occurrences), which gains CONFIRM with value `?`. That is the
+Phase 8 semantics ("sign identity confirmed, value unknown"), the same inconsistency already flagged
+for AB 37. It is **not** evidence that `si` is established, and AB 41 remains open item 4.
+
+### 18.2 The Linear A Kober graph was two months and one defect fix out of date
+
+`data/analysis/kober/triple_patterns.csv` was last committed **2026-08-03**, ten days before the
+corpus correction and two months before `kober/triple_detection.py` was itself repaired
+(2026-10-01). Regenerating it changes **7,306 → 2,542 rows**. It is a live input to
+`ventris/complete.py`, i.e. to every Linear A oracle number.
+
+### 18.3 The Linear A oracle number does not reproduce — and the verdict does
+
+| state | recovered | chance | lift | verdict |
+| recorded (Phase 12) | 0/160 | 0.0373 | 0.00× | NO SIGNAL |
+| current code, stale triple file | 1/160 | 0.0852 | 0.073× | NO SIGNAL |
+| triple file regenerated, grid not yet purged | 3/160 | 0.0905 | 0.207× | NO SIGNAL |
+| **after the full re-derivation (final)** | **1/160** | **0.1111** | **0.056×** | **NO SIGNAL** |
+
+The chance baseline rose because the corrected Kober graph carries fewer constraints, so candidate
+lists are wider. The single "recovery" is the tie-break artifact already noted in Phase 12 (a hit
+resolved by candidate order; unique-argmax rate is 0.0%). **The claim rests on the verdict, not on
+the count, and the verdict is unchanged — and now further from chance than before.**
+
+### 18.4 Two real signs were purged as phantoms: a case-sensitivity defect
+
+The corpus and `languages/linear-a/mapping.csv` spell five signs with **lower-case** suffix letters
+(`AB 21f`, `AB 21m`, `AB 22f`, `AB 22m`, `AB 23m`) and agree with each other exactly. The grid
+lineage wrote them **upper-case** (`AB 21F`), and `unicode_utils.normalize_bennett()` upper-cases any
+ID that does not match its `AB <digits>` pattern — so `bennett_to_unicode("AB 21F")` returned **None**
+and the corpus lookup found **0 occurrences**. The Phase 11 purge therefore dropped `AB 21F` and
+`AB 22F` as "no valid codepoint; 0 corpus occurrences", which is true of the *strings* and false of
+the *signs*: **37 real occurrences were removed from the grid the project calls honest.**
+
+Fix: `unicode_utils.canonical_bennett()` returns the mapping's spelling, the lookups are
+case-insensitive, and `purge_grid` resolves before deciding. The honest grid is **71 signs, not 69**.
+
+### 18.5 Completeness gap (reported, not invented)
+
+Five corpus IDs with codepoints appear in no grid: `AB 131A` (65 occurrences), `AB 131B` (4),
+`AB 21m` (8), `AB 22m` (4), `AB 23m` (7). The 131* rows carry **logogram codes** (`VIN`, `GRA`) under
+a syllabogram ID — a corpus typing issue, not a missing phonetic value. The three M-signs are real
+syllabograms with no evidence file naming them. Guard 23 reports the gap; rows are not invented,
+because the grid is evidence-driven.
+
+### 18.6 Final state of the two lineages
+
+| instrument | rows | CONFIRM | status |
+| `refined_phonetic_grid.csv` (Phase 5) | **71** | **35** (was 40 of 138) | generated; 111 phantom IDs filtered at the source |
+| `expanded_grid_purged.csv` (Phase 8, canonical) | **71** | **53** (was 58 of 69) | generated by `bootstrapping/grid_expand.py`, which now writes the canonical name directly |
+| `expanded_grid_legacy_138.csv` | 138 | — | **frozen**; the input the Phase 11 purge result was computed from |
+
+Their CONFIRM counts differ because they are different instruments (evidence synthesis vs Kober
+bootstrapping). They cover the **same 71 signs** (guard 21). Reconciling their *values* is a research
+decision and remains open; step 1 only makes both reproducible.
+
+### 18.7 What did not move
+
+`repaired_instrument.py`: exact **0.00×**, series **1.03×**, vowel **1.00×** — identical to
+`method_closure.md`. The Linear B path (guards, RSI, the cross-script PASS) is untouched: the Phase 16
+test reads `la_cm_shared_phonetic_grid.csv` and the Unicode standard, never the LA grids.
+`vowel_recovery_test.py` / `series_filtered_oracle.py` are documented as superseded probes and their
+numbers are not cited.
+
+### 18.8 What a reader may now cite
+
+| claim | value | source |
+| Linear A oracle | **1/160, 0.056× chance, NO SIGNAL** | `complete.py oracle_test`, reproducible |
+| Linear A grid | **71 real signs, 53 CONFIRM** (Phase 8 lineage) | `expanded_grid_purged.csv` |
+| Linear A grid, Phase 5 lineage | **71 real signs, 35 CONFIRM** | `refined_phonetic_grid.csv` |
+| Kober triple graph (LA) | **2,542 triples** | `kober/triple_patterns.csv` |
+| Signs missing from every grid | 5 IDs / 88 occurrences, reported | guard 23 |
+
+**Guards added:** 20 (canonical grid honest), 21 (row sets agree), 23 (completeness report); guard 15
+was replaced — the purge is applied at the generators now, so there is no separate production step to
+verify. The retired `expanded_grid.csv` name is reported wherever it survives.

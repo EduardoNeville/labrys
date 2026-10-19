@@ -57,7 +57,7 @@ new in this audit: it is the missing generator for `expanded_grid_purged.csv` (s
 ### INSTRUMENT — 23 modules, the part of the repo that is actually load-bearing
 
 | group | modules | what it decides |
-| oracle / gate | `lb_ingest.py`, `lb_oracle.py`, `ventris/complete.py`, `repaired_instrument.py`, `aggregator_bakeoff.py`, `oracle_diagnose.py` | whether any scorer has signal (answer: 0.00×, 0/160) |
+| oracle / gate | `lb_ingest.py`, `lb_oracle.py`, `ventris/complete.py`, `repaired_instrument.py`, `aggregator_bakeoff.py`, `oracle_diagnose.py` | whether any scorer has signal (LA: 0.056×, 1/160 — no; LB: 0.00×, 0/160 — no) |
 | channel probes | `frame_link_test.py`, `paradigm_slot_probe.py`, `local_vowel_test.py`, `vowel_recovery_test.py`, `series_filtered_oracle.py`, `substratum_anchor_test.py` | whether an evidence channel beats its own null |
 | controls | `toponym_findspot_control.py`, `audit_grid_inputs.py`, `fix_mapping_values.py`, `guards.py` | whether a claim survives its control |
 | cross-script | `cm_acceptance_test.py`, `comparative_bridge.py` | the one pre-registered PASS (44.65×, 45/54) |
@@ -99,7 +99,7 @@ Different from a bug: these were *plausible* lines of attack, each closed by a m
 The measured number is the only thing that should ever be cited as the reason.
 
 | # | the turn | the number that closed it |
-| 1 | **Optimizer family** — GPU MCMC, annealing, weight search over the Ventris scorer | oracle **0.00× / 0 recovered** (0/160); exhaustive sweep **0 of 1,771** weight vectors recover one value. `method_closure.md`: *no optimizer can help an objective with no gradient.* |
+| 1 | **Optimizer family** — GPU MCMC, annealing, weight search over the Ventris scorer | oracle **0.056× / 1 recovered** (1/160, re-derived) and **0.00× / 0** on Linear B (0/160); exhaustive sweep **0 of 1,771** weight vectors recover one value. `method_closure.md`: *no optimizer can help an objective with no gradient.* |
 | 2 | **Frame/paradigm control (Ventris's actual method)** | 4 operationalizations all at or below chance; the apparent 9/9 vowel complement was **12.5% unique vs 19.4% control** — beaten by its own null |
 | 3 | **Diachronic prior** (MM-attested ⇒ CONFIRMED) | p=0.0003 → **p=0.1748** after the corpus correction; corpus is 76% one destruction horizon, so the prior was never identifiable |
 | 4 | **`AB 85` word divider** | the 508 occurrences belong to logogram **A 301**; real AB 85 is n=8, **medial-dominant 0.75** — the opposite profile |
@@ -108,7 +108,7 @@ The measured number is the only thing that should ever be cited as the reason.
 | 7 | **Toponym `pa-i-to`** | 95 "matches" were distance-1 fuzzy hits against the transliteration convention itself; exact recount **1**. `i-da` (13 exact) survives its findspot control |
 | 8 | **`A 301` "entry-initial heading"** | 229/231 at HT Portico 11 + Room 13, **9/43 elsewhere** — that room's tablet format, not a property of the script. Two rooms of the same site disagree |
 | 9 | **Fraction values** | 16 of 29 rows are determined by complement-fitting and then cite the complement as evidence; **1 of 29** is corroborated by the LB fraction series |
-| 10 | **CFS "78 anchors"** | 19 were phantom signs; real count **58 CONFIRMED in 69 real signs** |
+| 10 | **CFS "78 anchors"** | 19 were phantom signs; the honest grid is **71 signs, 53 CONFIRM** (Phase 18) |
 | 11 | **Phase 4 ML** | built, cached, and never validated; 0 high-confidence predictions, and its inputs have since moved. Not a wrong turn so much as an **unfinished** turn. Now in `legacy/ml/` |
 
 **The pattern across all eleven.** Every one of them was *a real structure in the data* that did
@@ -147,16 +147,16 @@ and silently editing an old number destroys the evidence that the correction hap
 Four instruments report a "confirmed" count, and they do not agree:
 
 | instrument | rows | CONFIRM | of which on signs that exist |
-| `data/analysis/comparative/refined_phonetic_grid.csv` (Phase 5) | 138 | 40 | **35** (5 phantoms: AB 12, 15, 18, 35, 52) |
-| `data/analysis/bootstrapping/expanded_grid.csv` (Phase 8, deprecated) | 138 | 77 | 58 |
-| `data/analysis/bootstrapping/expanded_grid_purged.csv` (Phase 11, canonical) | 69 | 58 | **58** |
+| `data/analysis/comparative/refined_phonetic_grid.csv` (Phase 5) | 71 | **35** | 35 — phantoms filtered at the source |
+| `data/analysis/bootstrapping/expanded_grid_legacy_138.csv` (frozen Phase 8) | 138 | 77 | 58 (6 of them on phantoms) |
+| `data/analysis/bootstrapping/expanded_grid_purged.csv` (Phase 8, **canonical**) | **71** | **53** | **53** |
 | `data/analysis/comparative/misvalued_signs_resolution.csv` (Phase 5 output) | 19 | — | includes 1 phantom row (AB 36) |
 
-The two grids disagree by ~33 signs, and no document reconciles them. `AGENTS.md`'s "44 of 138"
-is from a third snapshot. **Until that is resolved, any sentence of the form "N syllabograms are
-confirmed" must state which grid it refers to.** The honest formulation is the one in the
-README: the sign inventory is ~205 attestation IDs, the honest grid is 69 signs, and the
-CONFIRMED count differs by instrument (58 Phase 8 lineage / 40‥35 Phase 5).
+**Resolved for row sets, open for values (2026-10-19, Phase 18).** Both live grids now cover the
+same **71 signs** (guard 21) and neither contains a phantom row (guard 20). They still disagree on
+*values*: 53 CONFIRM in the Phase 8 lineage, 35 in the Phase 5 lineage — different instruments, not
+different data. Reconciling the values is a research decision, still open. The "44 of 138" figure is
+retired: 138 was the phantom-inflated denominator.
 
 This is not pedantry. A collaborator who asks "how many values do you have?" will get four
 answers from four files, and will conclude the project is confused — when in fact each file is
@@ -169,10 +169,11 @@ reproducible and the confusion is a naming/documentation failure.
 **Verified reproductions (this audit):**
 
 | artifact | generator | result |
-| `expanded_grid_purged.csv` | `pipeline/purge_grid.py --check` | **byte-identical**, 69/138 rows, 58 CONFIRM |
+| `expanded_grid_purged.csv` | `pipeline/bootstrapping/grid_expand.py` | **byte-identical on re-run**, 71 rows, 53 CONFIRM (Phase 18) |
+| `expanded_grid_legacy_138.csv` → purge rule | `pipeline/purge_grid.py --legacy-report` | 71 of 138 survive under the corrected case-insensitive rule |
 | `refined_phonetic_grid.csv`, `grid_changes_from_ab.csv`, `misvalued_signs_resolution.csv` | `pipeline/phonetic_grid_refinement.py` | **byte-identical** (run in a scratch tree) |
 | Linear B sandbox DB | `pipeline/lb_ingest.py` | gate passes; 4,794 inscriptions / 40,038 signs |
-| guard suite | `pipeline/guards.py` | **15/15** |
+| guard suite | `pipeline/guards.py` | **20/20** |
 
 **The three gaps, and what was done:**
 
@@ -192,9 +193,9 @@ reproducible and the confusion is a naming/documentation failure.
 
 - `refined_phonetic_grid.csv` carries **69 phantom rows, 5 of them CONFIRM**. Purging it changes
   what 25+ modules read — a re-derivation with review, not a cleanup edit.
-- **1 pipeline module still defaults to the deprecated grid** (`oracle_diagnose.py:47`) — down
-  from 6 modules / 10 call sites after the `legacy/` move. It is live (guards, RSI) and part of
-  open item 1. The guard prints it.
+- **0 pipeline modules read the retired 138-row grid** (was 6 modules / 10 call sites before the
+  `legacy/` move; `oracle_diagnose.py` was the last, migrated in Phase 18). The guard prints any
+  reappearance.
 - `positional/anomalous_signs.csv` (3 rows) vs `misvalued_signs_ranked.csv` (age-stale) — the
   Phase 12 drift item.
 - `data/analysis/comparative/misvalued_signs_resolution.csv` contains one phantom row (AB 36)
@@ -252,20 +253,20 @@ These extend `EXPERIMENT_PROTOCOL.md`; §8 there is the binding version.
 ## 8. Open items, ranked
 
 | # | item | why it matters | cost |
-| 1 | Re-derive `refined_phonetic_grid.csv` (purge 69 phantoms, apply Phase 12 policy) and migrate the last legacy-grid consumer (`oracle_diagnose.py`) | every downstream "confirmed" count, plus the ML/verification stack | 1–2 days + review |
-| 2 | Reconcile the two grids (58 vs 35–40), or state permanently that they measure different things | a collaborator will ask this first | ½ day |
+| ~~1~~ | ~~Re-derive the Linear A value chain and migrate the last legacy-grid consumer~~ | **done, Phase 18**: grids filtered at their generators, 71 signs / 53 CONFIRM, LA oracle re-measured, `oracle_diagnose.py` migrated | — |
+| 2 | Reconcile the two grids' **values** (53 vs 35 CONFIRM on the same 71 signs — different instruments) | a collaborator will ask this first | ½ day |
 | 3 | Regenerate the 25+ stale consumers, or mark the affected outputs `SUPERSEDED` in place (the consumers themselves are now in `legacy/`) | prevents citing pre-correction numbers | 1–2 days |
 | 4 | `AB 41 (si)` — 240 occurrences, UNCERTAIN, in the libation formula | the key open sign | research |
 | 5 | Falsify-or-confirm the libation formula on the CM-syllabary chain (Phase 16 route) | the only surviving positive; its extension needs a real CM corpus | blocked on data |
 | 6 | Second reviewer for the Phase 16 test | it is currently self-audited | external |
-| 7 | Plan the Phase 4 restart: grid re-derivation first, then `git mv legacy/ml pipeline/ml` (or import from `legacy`) | the ML stack is stale and torch is now an optional extra | after item 1 |
+| 7 | Plan the Phase 4 restart: the grid is now reproducible, so `git mv legacy/ml pipeline/ml` (or import from `legacy`) and re-run against the 71-row grid | the ML stack is stale and torch is an optional extra | unblocked |
 
 ---
 
 ## Appendix — how to re-run this audit
 
 ```bash
-./tools/bootstrap.sh                 # deps, LB sandbox, grid check, 15/15 guards
+./tools/bootstrap.sh                 # deps, LB sandbox, grid check, 20/20 guards
 uv run python pipeline/guards.py     # the suite + the non-fatal defect reports
 uv run python pipeline/purge_grid.py --check
 uv run python -m pipeline.cli db stats data/database/lineara_full.db

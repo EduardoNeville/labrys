@@ -74,7 +74,7 @@ and runs standalone.
 | kept | why |
 | `pipeline/kober/triple_detection.py` | generates `kober/triple_patterns.csv`, read by the live scorer; a guard checks its 60,155 triples are canonically ordered |
 | `pipeline/kober/positional_grid.py` | generates `kober/grid_series.csv` + cluster files cited by the Phase 12 cascade |
-| `pipeline/bootstrapping/grid_expand.py` | first link of the grid chain (`refined_phonetic_grid.csv` → `expanded_grid.csv` → `expanded_grid_purged.csv`), i.e. open item 1 |
+| `pipeline/bootstrapping/grid_expand.py` | the Phase 8 grid generator; since Phase 18 it writes the canonical `expanded_grid_purged.csv` directly |
 | `pipeline/phonetic_grid_refinement.py` | generates the Phase 5 grid — the artifact open item 1 re-derives |
 | `pipeline/linear_b_mapping.py`, `cypro_minoan_bridge.py`, `commodity_alignment.py` | generators of `la_lb_mapping.csv`, `la_cm_shared_phonetic_grid.csv` (input to the Phase 16 PASS) and the ideogram/fraction alignments |
 | `pipeline/commodity_decoding/` | generator of a Phase 14 audit input |

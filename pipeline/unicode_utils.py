@@ -157,9 +157,33 @@ for _ben, _uni, _char, _trans, _stype in BENNETT_TO_UNICODE:
     _UNICODE_TO_BENNETT_MAP[_uni] = _ben
     _UNICODE_TO_BENNETT_MAP[_char] = _ben
 
+# Case-insensitive index → the spelling the mapping file uses. The mapping is validated against the
+# Unicode names (`pipeline.cli unicode validate`), so its spelling is the authority. This exists
+# because the grid lineage upper-cased sign IDs while the mapping and the corpus use lower-case
+# suffixes for five signs (AB 21f/21m/22f/22m/23m): `bennett_to_unicode("AB 21F")` returned None,
+# the corpus lookup found 0 occurrences, and the Phase 11 purge dropped two real signs (37
+# occurrences) as "phantoms". See verification_audit.md Phase 18.
+_CANONICAL_CASE_MAP: dict[str, str] = {b.upper(): b for b in _BENNETT_TO_UNICODE_MAP}
+
+
+def canonical_bennett(bennett_id: str) -> str:
+    """Return the mapping file's spelling for this ID, case-insensitively.
+
+    'ab 21F' -> 'AB 21f'  ·  'AB 21F' -> 'AB 21f'  ·  unknown ids come back stripped, unchanged.
+    """
+    s = (bennett_id or "").strip()
+    return _CANONICAL_CASE_MAP.get(s.upper(), s)
+
 
 def normalize_bennett(bennett_id: str) -> str:
-    """Normalize a Bennett ID to a canonical form (e.g., 'ab 01' → 'AB 01')."""
+    """Normalize a Bennett ID to a canonical form (e.g., 'ab 01' → 'AB 01', 'AB 21F' → 'AB 21f').
+
+    Upper-cases the prefix and number; the suffix letter keeps the mapping's case, because that is
+    what the corpus and the Unicode mapping agree on.
+    """
+    canonical = _CANONICAL_CASE_MAP.get((bennett_id or "").strip().upper())
+    if canonical:
+        return canonical
     m = _BENNETT_PATTERN.match(bennett_id.strip())
     if m:
         prefix = m.group(1).upper()

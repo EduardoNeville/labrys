@@ -66,6 +66,19 @@ def safe_int(v, default=0):
 
 
 def clean_bennett(bid):
+    """Canonical spelling from the mapping file — 'AB 21F' must come back as 'AB 21f'.
+
+    Until 2026-10-19 this was `bid.strip().upper()`, which renamed five real signs into IDs that
+    resolve against neither the Unicode mapping nor the corpus (AB 21f/21m/22f/22m/23m). Two of
+    them were then purged from the grid as phantoms, taking 37 occurrences with them
+    (verification_audit.md Phase 18).
+    """
+    from pipeline.unicode_utils import canonical_bennett
+    return canonical_bennett(bid)
+
+
+def clean_bennett_upper(bid):
+    """Legacy upper-cased form — kept only where an upper-case key is required."""
     return bid.strip().upper()
 
 
@@ -264,6 +277,17 @@ for row in misvalued_ngram:
 
 
 # ── 3. Build master sign set and index grid confidence ─────────────────────
+#
+# The union below is assembled from evidence dictionaries, so it inherits whatever sign IDs those
+# files name — including IDs that exist in no corpus: AB 100-137 (placeholders whose codepoints are
+# actually A 300+ logograms) and a handful of signs with a codepoint but zero occurrences. Those
+# rows were carried through every downstream product, and in Phase 8's bootstrapping they *captured
+# CONFIRM decisions*: re-deriving the chain on 2026-10-19 put six CONFIRMs on AB 12, 15, 18, 35, 52
+# and the void AB 68, while six real signs went without.
+#
+# Since 2026-10-19 the grid is filtered at the generator, by the same rule as `pipeline/purge_grid.py`:
+# **a row survives iff the sign has a valid Unicode codepoint AND >= 1 occurrence in the corpus.**
+# That is why this file now writes 69 rows, not 138 (verification_audit.md Phase 18).
 all_signs = set()
 all_signs.update(LB_EVIDENCE.keys())
 all_signs.update(CM_EVIDENCE.keys())
@@ -281,13 +305,26 @@ TRACKED_SIGNS = ["AB 16", "AB 60", "AB 80", "AB 22", "AB 02", "AB 85"]
 for s in TRACKED_SIGNS:
     all_signs.add(s)
 
+_assembled = len(all_signs)
+
+def _is_real_sign(bid: str) -> bool:
+    """Valid codepoint AND at least one occurrence in the corrected corpus."""
+    from pipeline.purge_grid import corpus_counts, reasons
+    return not reasons({"bennett_id": bid}, corpus_counts())
+
+PHANTOM_SIGNS = sorted(s for s in all_signs if not _is_real_sign(s))
+all_signs = {s for s in all_signs if _is_real_sign(s)}
+if PHANTOM_SIGNS:
+    print(f"    Dropped {len(PHANTOM_SIGNS)} phantom IDs (no codepoint or 0 occurrences): "
+          f"{PHANTOM_SIGNS[:8]}{"…" if len(PHANTOM_SIGNS) > 8 else ""}")
+
 GC_BY_SIGN = {}
 for row in grid_confidence:
     bid = clean_bennett(row.get("bennett_id", ""))
     if bid:
         GC_BY_SIGN[bid] = row
 
-print(f"    Total unique signs to evaluate: {len(all_signs)}")
+print(f"    Total unique signs to evaluate: {len(all_signs)} (assembled {_assembled})")
 
 
 # ── 4. Conventional AB grid (scholarly consensus) ──────────────────────────
