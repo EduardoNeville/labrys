@@ -690,7 +690,7 @@ Phase 11 tested four phonetic-independent approaches after the oracle failure:
 - AB 85: 274 → 8 occurrences (the real sign was A 301, a logogram, now 274)
 - AB 26→AB 28, AB 51→AB 59, AB 46→AB 54, AB 49→AB 57 (systematic codepoint offsets)
 - Re-ingested all 1,720 inscriptions; the corrected DB now reads IOZa2 as
-  AB 08 AB 59 AB 28 AB 54 AB 57 (= A-TA-I-*301-WA-JA, matching GORILA)
+  AB 08 AB 59 AB 28 A 301 AB 54 AB 57 (= A-TA-I-*301-WA-JA, matching GORILA)
 
 **Invalidated by the correction:** the diachronic prior, the misvalued-sign flags (AB 16/60/80), the AB 85 word-divider, the V-link cohesion (2.2×→1.18×), the AB 82↔LIVESTOCK association. They were all artifacts of the transcription bias.
 

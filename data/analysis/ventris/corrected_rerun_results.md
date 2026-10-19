@@ -7,7 +7,7 @@
 
 - Fixed 144 Unicode→Bennett mapping errors (rebuilt from unicode.org names list)
 - Re-ingested 1,720 inscriptions; DB now: 10,389 syllabograms + 629 logograms
-- IOZa2 now reads AB 08 AB 59 AB 28 AB 54 AB 57 (= A-TA-I-*301-WA-JA, GORILA)
+- IOZa2 now reads AB 08 AB 59 AB 28 A 301 AB 54 AB 57 (= A-TA-I-*301-WA-JA, GORILA)
 
 ## Final before/after verdict
 
@@ -30,7 +30,7 @@
    - ja-sa-sa-ra-me: 9 insns (IOZa2/6/9/12/16, PKZa27, PLZf1, PSZa2)
    - u-na-ka-na-si: 6 insns (IOZa2/9, KOZa1, PKZa27/8, SYZa2)
    - si-ru-te: 7 insns (IOZa14/15, IOZa2, KOZa1, SYZa3, TLZa1, VRYZa1)
-   - Opening: AB 08 AB 59 AB 28 AB 54 AB 57 (matches GORILA)
+   - Opening: AB 08 AB 59 AB 28 A 301 AB 54 AB 57 (matches GORILA)
 
 2. **Commodity enrichment (corrected, Bonferroni-surviving) — AUDITED 2026-10-01, holds and strengthens:**
    - AB 30 → LIVESTOCK (slot p=0.000116, 2.64×) → **document-level p=2.7e-11**, 2.87×

@@ -560,6 +560,39 @@ def g_libation_doc_matches_corpus() -> str:
     return "opening 11/11 at position 0 and slot 5 = 6 matches; doc table states both correctly"
 
 
+def g_libation_catalog_regenerates() -> str:
+    """The catalog must equal what the generator produces (it was hand-written).
+
+    `libation_catalog.md` claimed "generated from the corrected DB" while being hand-kept, and
+    its `?` convention had silently absorbed the omitted `A 301` in the opening — the same slip
+    as `libation_recovered.md`. It is now derived from the corpus, one token per sign row, so a
+    drift is detectable and a length mismatch is impossible.
+    """
+    import subprocess
+
+    r = subprocess.run([sys.executable, str(PIPELINE / "libation_catalog.py"), "--check"],
+                       capture_output=True, text=True)
+    if r.returncode != 0:
+        raise AssertionError((r.stdout + r.stderr).strip()[:400])
+    return r.stdout.strip()
+
+
+def g_doc_claims_match_corpus() -> str:
+    """Sign-ID sequences a canonical doc attributes to the corpus must exist in it.
+
+    Written after three unsupported claims were found in the libation documents: the opening
+    listed as five signs instead of six (A 301 omitted, 0 matches), slot 5 as `AB 28 54 06 80`
+    instead of `AB 28 AB 39 AB 06 AB 80` (0 matches), and `i-da-ki-sa-ri-me` at ZA21b as
+    `AB 28 01 67 31 26 13` (0 matches; ZA21b holds 14 signs). See verification_audit.md Phase 17.
+    """
+    sys.path.insert(0, str(REPO))
+    from pipeline.doc_claims_check import check_sequences, check_wrong_opening, load_corpus
+
+    problems = check_sequences(load_corpus()) + check_wrong_opening()
+    assert not problems, f"doc claims not in corpus: {problems[:4]}"
+    return "4 canonical docs: every sign-ID sequence and the retracted opening check out"
+
+
 def main() -> None:
     guard("no value leak in corpus tables", g_leak)
     guard("phonetic constants complete + subscript-safe", g_phonetics)
@@ -578,6 +611,8 @@ def main() -> None:
     guard("honest grid regenerates from its inputs", g_purged_grid_regenerates)
     guard("pipeline/ does not import legacy/", g_legacy_is_not_imported)
     guard("libation doc matches the corpus", g_libation_doc_matches_corpus)
+    guard("libation catalog regenerates from the corpus", g_libation_catalog_regenerates)
+    guard("doc sign-ID claims match the corpus", g_doc_claims_match_corpus)
 
     print("=== Labrys guards ===")
     for name, ok, detail in RESULTS:

@@ -134,7 +134,7 @@ The gap between shared and LM-only confirmed rates **collapsed** on corrected da
 | AB 49 | 169 | → AB 57 |
 
 - Re-ingested all 1,720 inscriptions; DB now has correct sign types (10,084 syllabograms, 742 logograms, 101 fractions, 87 metrical, 4 numerals).
-- IOZa2 now reads AB 08 AB 59 AB 28 AB 54 AB 57 (= A-TA-I-*301-WA-JA, matching GORILA).
+- IOZa2 now reads AB 08 AB 59 AB 28 A 301 AB 54 AB 57 (= A-TA-I-*301-WA-JA, matching GORILA).
 
 **Invalidated by the correction:** diachronic prior, misvalued-sign flags (AB 16/60/80), AB 85 word-divider, V-link cohesion (2.2×→1.18×), AB 82↔LIVESTOCK.
 
