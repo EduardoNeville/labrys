@@ -1121,7 +1121,7 @@ for AB 37. It is **not** evidence that `si` is established, and AB 41 remains op
 
 `data/analysis/kober/triple_patterns.csv` was last committed **2026-08-03**, ten days before the
 corpus correction and two months before `kober/triple_detection.py` was itself repaired
-(2026-10-01). Regenerating it changes **7,306 → 2,542 rows**. It is a live input to
+(2026-10-01). Regenerating it changes **7,305 → 2,541 triples** (line counts with the header: 7,306 → 2,542). It is a live input to
 `ventris/complete.py`, i.e. to every Linear A oracle number.
 
 ### 18.3 The Linear A oracle number does not reproduce — and the verdict does
@@ -1183,7 +1183,7 @@ numbers are not cited.
 | Linear A oracle | **1/160, 0.056× chance, NO SIGNAL** | `complete.py oracle_test`, reproducible |
 | Linear A grid | **71 real signs, 53 CONFIRM** (Phase 8 lineage) | `expanded_grid_purged.csv` |
 | Linear A grid, Phase 5 lineage | **71 real signs, 35 CONFIRM** | `refined_phonetic_grid.csv` |
-| Kober triple graph (LA) | **2,542 triples** | `kober/triple_patterns.csv` |
+| Kober triple graph (LA) | **2,541 triples** | `kober/triple_patterns.csv` |
 | Signs missing from every grid | 5 IDs / 88 occurrences, reported | guard 23 |
 
 **Guards added:** 20 (canonical grid honest), 21 (row sets agree), 23 (completeness report); guard 15
