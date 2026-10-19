@@ -1,4 +1,16 @@
-"""Phase 11, Avenue 7b — Libation formula segmentation into word-hypotheses.
+"""ARCHIVED — RETRACTED READING. Do not run, import, or cite.
+
+This module places `AB 85` in slot A of the libation formula. That attribution
+is void: the 508 occurrences once assigned to AB 85 are the logogram **A 301**
+(Phase 12 addendum, `verification_audit.md`). The corrected reading of the same
+texts is A-TA-I-*301-WA-JA in `data/analysis/ventris/libation_recovered.md`,
+which is canonical and was re-derived from the corrected corpus.
+
+See ../README.md and ../../CODE_AUDIT.md.
+
+Original docstring follows.
+
+Phase 11, Avenue 7b — Libation formula segmentation into word-hypotheses.
 
 The libation texts share a five-part formulaic structure:
   A: AB 08 AB 51 AB 26 [AB 85] AB 46 [AB 49]

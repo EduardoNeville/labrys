@@ -1,4 +1,16 @@
-"""Phase 11, Avenue 6 — Diachronic analysis: MM → LM script evolution.
+"""ARCHIVED — RETRACTED. Do not run, import, or cite.
+
+Premise: MM-attested signs are 2× more likely CONFIRMED (p=0.0003).
+Falsified by the corpus correction: p=0.1748, 1.1×, no effect
+(`data/analysis/ventris/corrected_rerun_results.md`).
+
+Why it was never identifiable: the corpus is 76% LM IB, one destruction
+horizon, so a time prior has almost no independent variation to act on.
+See ../README.md and ../../CODE_AUDIT.md.
+
+Original docstring follows.
+
+Phase 11, Avenue 6 — Diachronic analysis: MM → LM script evolution.
 
 The corpus is 76% LM IB (1450 BCE destruction horizon), but has a pre-LM
 subset (MM II/III, ~1700 BCE). 43 syllabograms appear in BOTH periods.

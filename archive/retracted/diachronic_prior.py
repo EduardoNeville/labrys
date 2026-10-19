@@ -1,4 +1,14 @@
-"""Phase 11, Avenue 6b — Applying the diachronic prior to the grid.
+"""ARCHIVED — RETRACTED. Do not run, import, or cite.
+
+Applies the prior from `diachronic.py`, whose premise was falsified by the
+corpus correction (p 0.0003 → 0.1748). Nothing downstream of a retracted
+prior survives it.
+
+See ../README.md and ../../CODE_AUDIT.md.
+
+Original docstring follows.
+
+Phase 11, Avenue 6b — Applying the diachronic prior to the grid.
 
 Avenue 6 showed MM-attested signs are 2x more likely CONFIRMED (p=0.0003).
 This module APPLIES that prior to the grid:
