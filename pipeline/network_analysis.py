@@ -24,6 +24,7 @@ import argparse
 from collections import defaultdict, Counter, deque
 import math
 import random
+from pathlib import Path
 
 
 # ── 1. Data Loading ──────────────────────────────────────────────────────────
@@ -617,9 +618,10 @@ def analyze_graph(rows, name, output_dir, findspots=None, ins_ids=None):
 def main():
     parser = argparse.ArgumentParser(description="Linear A sign network analysis")
     parser.add_argument("--language", default="linear-a", help="Language id (languages/<id>/config.yaml, overrides --db/--out)")
-    parser.add_argument("--db", default="/home/eduardoneville/projects/labrys/data/database/lineara_full.db",
+    _REPO = Path(__file__).resolve().parent.parent
+    parser.add_argument("--db", default=str(_REPO / "data/database/lineara_full.db"),
                         help="Path to SQLite database")
-    parser.add_argument("--out", default="/home/eduardoneville/projects/labrys/data/analysis/network",
+    parser.add_argument("--out", default=str(_REPO / "data/analysis/network"),
                         help="Output directory for analysis files")
     args = parser.parse_args()
     if args.language != "linear-a":
@@ -627,8 +629,8 @@ def main():
             from pipeline.config import resolve_db_path, resolve_analysis_dir
             from pathlib import Path as _P
             # DEFAULT_DB/DEFAULT_OUT are module globals; compare to current values
-            _default_db = "/home/eduardoneville/projects/labrys/data/database/lineara_full.db"
-            _default_out = "/home/eduardoneville/projects/labrys/data/analysis/network"
+            _default_db = str(_REPO / "data/database/lineara_full.db")
+            _default_out = str(_REPO / "data/analysis/network")
             # fallback: if args still equals original defaults (portable check)
             if args.db == _default_db or args.db.endswith("data/database/lineara_full.db"):
                 args.db = str(resolve_db_path(args.language))

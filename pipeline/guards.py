@@ -610,6 +610,48 @@ def g_doc_claims_match_corpus() -> str:
     return "4 canonical docs: every sign-ID sequence and the retracted opening check out"
 
 
+def g_provenance_map_regenerates() -> str:
+    """Guard 24: `data/analysis/PROVENANCE.md` must equal what the generator produces.
+
+    Without this, the map of "which output came from what" is one more hand-kept artifact — the
+    exact failure it exists to prevent. A moved or added file changes the map or fails here.
+    """
+    import subprocess
+
+    r = subprocess.run([sys.executable, str(PIPELINE / "analysis_provenance.py"), "--check"],
+                       capture_output=True, text=True)
+    if r.returncode != 0:
+        raise AssertionError((r.stdout + r.stderr).strip()[:300])
+    return r.stdout.strip()
+
+
+def g_no_live_doc_cites_superseded() -> str:
+    """Guard 25: a live document must not cite a file under `data/analysis/_superseded/`.
+
+    Superseded outputs are retired measurements; citing one presents it as a result. The files
+    themselves carry a README and the generated map says what each one was.
+    """
+    import re
+
+    pat = re.compile(r"_superseded/[A-Za-z0-9_./-]+\.[A-Za-z0-9]+")
+    allowed = {"_superseded/README.md", "PROVENANCE.md", "PLAN.md", "CODE_AUDIT.md"}
+    offenders = []
+    for p in REPO.rglob("*.md"):
+        if {".venv", ".git", "archive", "legacy", ".pi", ".pi-subagents"} & set(p.parts):
+            continue
+        rel = str(p.relative_to(REPO))
+        if rel in allowed or rel.startswith("data/analysis/_superseded/"):
+            continue
+        for ln, line in enumerate(p.read_text(encoding="utf-8", errors="ignore").splitlines(), 1):
+            for m in pat.finditer(line):
+                target = m.group(0)
+                if target.endswith("_superseded/README.md"):
+                    continue          # pointing a reader at the redirect is the point
+                offenders.append(f"{rel}:{ln} -> {target}")
+    assert not offenders, f"live docs cite superseded files: {offenders[:5]}"
+    return "no live document cites a file under _superseded/"
+
+
 def main() -> None:
     guard("no value leak in corpus tables", g_leak)
     guard("phonetic constants complete + subscript-safe", g_phonetics)
@@ -631,6 +673,8 @@ def main() -> None:
     guard("libation doc matches the corpus", g_libation_doc_matches_corpus)
     guard("libation catalog regenerates from the corpus", g_libation_catalog_regenerates)
     guard("doc sign-ID claims match the corpus", g_doc_claims_match_corpus)
+    guard("provenance map regenerates", g_provenance_map_regenerates)
+    guard("no live doc cites a superseded file", g_no_live_doc_cites_superseded)
 
     print("=== Labrys guards ===")
     for name, ok, detail in RESULTS:

@@ -19,7 +19,9 @@ import statistics
 from pathlib import Path
 
 # ── paths ──────────────────────────────────────────────────────────────────
-BASE = Path("/home/eduardoneville/projects/labrys")
+# Repo-relative: the hardcoded absolute path pointed at /projects/labrys, which does not
+# exist — the Phase 3 ranking could not be regenerated until 2026-10-19.
+BASE = Path(__file__).resolve().parent.parent
 DATA = BASE / "data" / "analysis" / "linguistic"
 OUT_CSV_DIR = DATA
 OUT_MD_PATH = DATA / "phase3_synthesis.md"

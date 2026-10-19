@@ -18,7 +18,9 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-PROJECT = Path("/home/eduardoneville/projects/labrys")
+# Repo-relative: the hardcoded absolute path pointed at a directory that no longer exists
+# (/projects/labrys), so this module could not run at all until 2026-10-19.
+PROJECT = Path(__file__).resolve().parent.parent
 DATA_ANALYSIS = PROJECT / "data" / "analysis"
 SEGMENTATION = DATA_ANALYSIS / "segmentation"
 POSITIONAL   = DATA_ANALYSIS / "positional"
