@@ -1045,10 +1045,10 @@ loop's `verify:cm-acceptance`).
 sign IDs where the corpus holds six. The bug class is not arithmetic — it is *prose stating data
 that nothing checked*, in the documents carrying the project's only cross-site positive.
 
-**Measured.** Every sign-ID sequence claim in the canonical libation and correction documents was
-extracted and tested against `lineara_full.db` (`pipeline/doc_claims_check.py`). Twenty-one
-sequence claims examined; **four failed**, and one further claim failed once the catalog was
-regenerated:
+**Measured.** A repo-wide sweep of contiguous sign-ID sequences in `*.md` produced 21 claims with
+**zero** matches in `lineara_full.db`. Of those, four sit in documents that are still cited (the
+rest are in bannered historical reports or in before/after tables that deliberately quote the
+old form), and one further claim failed when the catalog was regenerated from the corpus:
 
 | claim | where | corpus |
 | opening as `AB 08 59 28 54 57` (five signs) | `libation_recovered.md`, `corrected_rerun_results.md` (×2), `MASTER_SYNTHESIS.md`, `phase_summary_10_11.md` | **0 matches**; the corpus reads `AB 08 AB 59 AB 28 A 301 AB 54 AB 57` — 11 matches, all at position 0 |
@@ -1078,6 +1078,11 @@ archived in the same cleanup. **No rerun was required for these defects.**
 **A check that was withdrawn.** Comparing the catalog's readings token-by-token was implemented
 and then removed: a lossy convention cannot be checked soundly, and a lenient checker is worse
 than none. The document was made derivable instead.
+
+**One dead constant removed.** `cm_acceptance_test.py` still defined `LA_GRID` and `REFINED`,
+leftovers of the rejected circular form of the Phase 16 test. Neither was read — verified by
+grep, and the gate re-derives at 44.98× / PASS with them gone. A dead constant inside a gate is a
+claim about the gate's inputs that nothing can verify.
 
 **Blast radius on live claims: none.** The phantom rows in `refined_phonetic_grid.csv`
 (`CODE_AUDIT.md` §4) are a separate defect; no surviving positive reads that grid — the libation

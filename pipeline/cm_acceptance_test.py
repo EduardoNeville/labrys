@@ -74,9 +74,15 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
+# The gate reads exactly two things: the CM correspondence grid (both endpoints are standards:
+# the LB value from Unicode, the CG value from the deciphered Cypriot Syllabary) and, for
+# readiness, the CM value list. It deliberately does NOT read the project's own refined grid —
+# that version is circular (the refined grid already contains the CM chain as evidence at
+# weight 1.5) and was rejected after measuring it: 78% over all rows, but only 11 rows survive
+# excluding CM at every confidence, below the power floor. Two constants for that rejected
+# version (`LA_GRID`, `REFINED`) were left behind and removed 2026-10-19; they were never read,
+# and a dead constant in a gate is a claim about the gate that nothing can verify.
 CM_GRID = REPO / "data/analysis/comparative/la_cm_shared_phonetic_grid.csv"
-LA_GRID = REPO / "data/analysis/bootstrapping/expanded_grid_purged.csv"
-REFINED = REPO / "data/analysis/comparative/refined_phonetic_grid.csv"
 CM_VALUES = REPO / "languages/cypro-minoan/cm_values.csv"
 PROVENANCE = REPO / "languages/cypro-minoan/data/raw/PROVENANCE.json"
 
