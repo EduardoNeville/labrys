@@ -1,4 +1,16 @@
-# PLAN.md — Step 3: the seven values asserted for unencoded signs
+# PLAN.md — steps 1–3: complete
+
+> **All three steps are closed.** Plans are preserved as
+> `docs/plans/step-1-grid-rederivation.md`, `step-2-stale-consumers.md`, `step-3-unencoded-values.md`.
+> What each actually changed is recorded in `verification_audit.md` Phases 18–20.
+>
+> Final state: Linear A grids **71 signs** — Phase 8 canonical **53 CONFIRM**, Phase 5 **34 CONFIRM**;
+> Linear A oracle **1/160, 0.056×, NO SIGNAL**; **23/23 guards**. Open items that remain are the
+> reconciliation of the two lineages (code audit §8 item 2) and the Phase 4 restart (item 7).
+>
+> This file is kept as the step-3 plan below.
+
+# Step 3: the seven values asserted for unencoded signs
 
 **Status:** ✅ complete (2026-10-19) · **Opened:** 2026-10-19 · **Previous:** `docs/plans/step-2-stale-consumers.md` (✅ complete)
 

@@ -163,8 +163,7 @@ def render() -> str:
         cited = docs.get(name, set())
         top = str(p.relative_to(ANALYSIS)).split("/")[0]
         st, why = status(name, refs, cited, top)
-        rows.append((str(p.relative_to(REPO)), st, why, commit_date(p),
-                     len(cited), ", ".join(sorted(cited)[:1])))
+        rows.append((str(p.relative_to(REPO)), st, why, commit_date(p)))
 
     order = {"LIVE": 0, "INPUT": 1, "MIXED": 2, "REPORT": 3, "RETIRED": 4, "ORPHAN": 5}
     rows.sort(key=lambda r: (order[r[1]], r[0]))
@@ -184,13 +183,15 @@ def render() -> str:
          "| **RETIRED** | only a `legacy/` module names it (or owns its directory) — superseded, kept for the record |",
          "| **ORPHAN** | nothing generates it and nothing (live) cites it |", "",
          f"Totals: {', '.join(f'{k} {v}' for k, v in sorted(counts.items()))}.", "",
-         "| artifact | status | provenance | last commit | cited |", "|---|---|---|---|---|"]
-    for rel, st, why, date, n, first in rows:
-        L.append(f"| `{rel}` | {st} | {why} | {date} | {n}" + (f" — `{first}`" if first else "") + " |")
+         "| artifact | status | provenance | last commit |", "|---|---|---|---|"]
+    for rel, st, why, date in rows:
+        L.append(f"| `{rel}` | {st} | {why} | {date} |")
     L += ["", "---", "",
           "**How to read it.** `RETIRED` does not mean wrong; it means *its measurement belongs to its",
           "phase*, and the module that produced it no longer lives in `pipeline/`. `ORPHAN` means the",
-          "file has no owner left — it is either cited history or a deletion candidate.", ""]
+          "file has no owner left — it is either cited history or a deletion candidate.", "",
+          "*Citation counts are deliberately not in this table: they change whenever prose changes,",
+          "which made the map drift on edits that touched no data (fixed 2026-10-19).*", ""]
     return "\n".join(L)
 
 
