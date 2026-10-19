@@ -1,11 +1,21 @@
 """Phase 10b — Ventris Endgame: Grid Completion via Grammatical Testing
 
-After 10 phases of systematic analysis, we have 78 CONFIRMED anchor signs, Kober
-triples constraining row/column membership, frequency-typology constraints, and
-a morphological profile (agglutinative, suffixal, no gender).
+CONCLUDED NEGATIVE — this scorer has no signal. Oracle: 0 recovered / 0.00× chance
+over 160 draws; the exhaustive weight sweep recovered nothing in 1,771 weight
+vectors. It is kept as the gate any future scorer must pass, not as a method to
+re-tune (`data/analysis/ventris/method_closure.md`).
+
+Anchor count: the canonical Phase 11 grid is `expanded_grid_purged.csv` — 69 real
+signs, 58 CONFIRMED + 11 UNCERTAIN. The "78 anchors" this docstring used to quote
+was the phantom-inflated Phase 8 figure (19 of the 77 were signs with no codepoint
+and zero occurrences; see `b1b2_phantom_finding.md`, `grid_purge_result.md`).
+
+Kober triples constrain row/column membership, frequency-typology constraints
+narrow the candidates, and the morphological profile (agglutinative, suffixal, no
+gender) is the scoring prior.
 
 The Ventris method:
-1. Build the partial CV grid from 78 anchors
+1. Build the partial CV grid from the confirmed anchors
 2. For empty cells, enumerate valid phoneme candidates consistent with:
    - Kober row/column constraints (C-linked and V-linked partners)
    - Frequency-typology constraints (sign frequency × expected phoneme frequency)

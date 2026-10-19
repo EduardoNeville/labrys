@@ -107,7 +107,13 @@ def g_grid_values() -> str:
 
 
 def report_legacy_grid() -> None:
-    """Legacy 138-sign grid: phantom rows must not be used (AGENTS.md)."""
+    """Legacy 138-sign grid: phantom rows must not be used (AGENTS.md).
+
+    Two reports, both non-fatal on purpose: the canonical grid is enforced
+    (`g_purged_grid_regenerates`), but the *consumers* of the legacy grid are a
+    migration, not a typo — each one changes a recorded number when it moves, so
+    the list is printed for the maintainer instead of silently rewritten.
+    """
     p = REPO / "data/analysis/bootstrapping/expanded_grid.csv"
     if not p.exists():
         return
@@ -118,6 +124,57 @@ def report_legacy_grid() -> None:
     if phantoms:
         print(f"\n  legacy grid phantoms (do not use expanded_grid.csv): "
               f"{len(phantoms)} rows, e.g. {phantoms[:6]}")
+
+    # who still defaults to the deprecated grid
+    allowed = {"guards.py", "purge_grid.py", "audit_grid_inputs.py", "grid_expand.py"}
+    consumers = []
+    for f in sorted(PIPELINE.rglob("*.py")):
+        if f.name in allowed:
+            continue
+        for i, line in enumerate(f.read_text(encoding="utf-8", errors="ignore").splitlines(), 1):
+            if "expanded_grid.csv" in line and not line.strip().startswith("#"):
+                consumers.append(f"{f.relative_to(REPO)}:{i}")
+    if consumers:
+        files = sorted({c.split(":")[0] for c in consumers})
+        print(f"  still defaulting to the deprecated grid ({len(files)} modules, "
+              f"{len(consumers)} call sites): " + ", ".join(consumers))
+
+
+def g_purged_grid_regenerates() -> str:
+    """The honest grid must be derivable from its inputs (it had no generator).
+
+    `expanded_grid_purged.csv` is the project's most-cited artifact and was produced
+    once by hand. `pipeline/purge_grid.py` re-derives it from `expanded_grid.csv` +
+    the corpus + the Unicode mapping; this guard fails if the committed file and the
+    re-derivation ever disagree, which is what a silent hand-edit would look like.
+    """
+    from pipeline.purge_grid import check
+
+    return check()
+
+
+def report_refined_grid_phantoms() -> None:
+    """The refined grid still carries the 69 phantom rows. Reported, not fixed.
+
+    Purging `refined_phonetic_grid.csv` would change the Phase 5 grid that 25+ modules
+    read, including five CONFIRM rows for signs with no codepoint and no occurrences.
+    That is a re-derivation with review (verification_audit.md, *Still pending*), so it
+    is measured here and left to its own commit rather than done inside a guard.
+    """
+    from pipeline.purge_grid import corpus_counts, purge
+
+    p = REPO / "data/analysis/comparative/refined_phonetic_grid.csv"
+    if not p.exists():
+        return
+    rows = list(csv.DictReader(open(p, encoding="utf-8")))
+    counts = corpus_counts()
+    kept, dropped = purge(rows, counts)
+    conf = [r["bennett_id"] for r in rows
+            if r.get("decision") == "CONFIRM" and any(b == r["bennett_id"] for b, _ in dropped)]
+    if dropped:
+        print(f"  refined_phonetic_grid.csv still holds {len(dropped)} phantom rows "
+              f"({len(conf)} of them CONFIRM: {conf}) — purge/re-derive pending, "
+              f"real-sign CONFIRM count is {sum(1 for r in kept if r.get('decision') == 'CONFIRM')}")
 
 
 # ── 4. candidate generation honours the anchor override ──────────────────────
@@ -207,6 +264,11 @@ def g_rsi_seam() -> str:
     argmax rate is 0.0% over the same draws). Both are recorded; the gate verdict, which
     is what K4 asks about, is identical.
     """
+    from pipeline.lb_ingest import DB_PATH
+    if not DB_PATH.exists():
+        return ("skipped (no Linear B DB — run tools/bootstrap.sh; the sandbox DB is "
+                "gitignored and rebuilt from languages/linear-b/data/raw/tablets.csv)")
+
     from pipeline.rsi_evaluate import SHIPPED_METHOD, evaluate
 
     node = evaluate(SHIPPED_METHOD)
@@ -303,6 +365,10 @@ def g_rsi_score_rng_isolated() -> str:
     were 40 distinct draws. This guard fails on a reintroduction.
     """
     import random
+
+    from pipeline.lb_ingest import DB_PATH
+    if not DB_PATH.exists():
+        return "skipped (no Linear B DB — run tools/bootstrap.sh)"
 
     from pipeline.oracle_diagnose import build
 
@@ -420,6 +486,7 @@ def main() -> None:
     guard("scoring leaves the global RNG alone", g_rsi_score_rng_isolated)
     guard("kober triples are canonically ordered", g_kober_triples_canonical)
     guard("rsi tree, verdicts and split are consistent", g_rsi_tree_consistent)
+    guard("honest grid regenerates from its inputs", g_purged_grid_regenerates)
 
     print("=== Labrys guards ===")
     for name, ok, detail in RESULTS:
@@ -428,6 +495,7 @@ def main() -> None:
             print(f"         {detail}")
     report_known_defects()
     report_legacy_grid()
+    report_refined_grid_phantoms()
     failed = [n for n, ok, _ in RESULTS if not ok]
     print(f"\n{len(RESULTS) - len(failed)}/{len(RESULTS)} guards passed")
     if failed:
