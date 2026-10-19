@@ -29,6 +29,7 @@ Outputs:
 import csv
 import os
 import math
+import re
 from collections import defaultdict
 
 # ── Paths ──────────────────────────────────────────────────────────────────
@@ -462,6 +463,31 @@ def compute_confidence(ev):
     return max(0.0, min(100.0, final))
 
 
+def _sign_number(bid: str):
+    """'AB 34' -> 34; None for anything that is not an AB syllabogram number."""
+    m = re.match(r"^AB\s*(\d+)", (bid or "").strip(), re.I)
+    return int(m.group(1)) if m else None
+
+
+_STANDARD_SILENT: set[int] = set()
+
+
+def _standard_silent(n: int) -> bool:
+    """True when the Unicode Linear B standard names no value for this sign number.
+
+    These are the sign numbers that produce B018, B019, B022, B034, B035, B064 and B079 — the seven
+    rows `pipeline/audit_grid_inputs.py` reports as UNVERIFIABLE. For them, the project's
+    conventional table is the only claimant, so it cannot serve as corroboration.
+    """
+    if not _STANDARD_SILENT:
+        from pipeline.unicode_utils import linear_b_glyph
+        for i in range(1, 200):
+            g = linear_b_glyph(i)
+            if g is None or not (g[2] or "").strip():
+                _STANDARD_SILENT.add(i)
+    return n in _STANDARD_SILENT
+
+
 def determine_decision(bid, ev, conv_val, confidence=0):
     """
     Return (decision, best_guess, conflict_note).
@@ -501,6 +527,19 @@ def determine_decision(bid, ev, conv_val, confidence=0):
     decision = "UNCERTAIN"
     best_guess = conv_val if conv_val != "?" else "?"
     conflict_note = ""
+
+    # A conventional value can only corroborate if it is independently established. For seven sign
+    # numbers the Unicode Linear B standard names no value (B018, B019, B022, B034, B035, B064,
+    # B079), so the project's conventional table is the only claimant — and "agrees with
+    # conventional" would then confirm a claim with itself. AB 34 was confirmed `ti` this way on a
+    # single CM source whose standard value is unnamed, while `la_lb_mapping.csv` says `pa2?`.
+    # Treating the conventional value as unknown restores the policy's intent: one source cannot
+    # confirm, and two sources still can.
+    _bnum = _sign_number(bid)
+    if _bnum is not None and _standard_silent(_bnum) and conv_val != "?":
+        conflict_note = (f"conventional /{conv_val}/ is not corroborated by the Unicode Linear B "
+                         f"standard (B{_bnum:03d} unnamed); treated as unknown for confirmation")
+        conv_val = "?"
 
     if len(unique_vals) == 1:
         val = unique_vals.pop()

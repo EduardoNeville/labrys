@@ -16,7 +16,7 @@ with the instrument attached because the counts disagree (`CODE_AUDIT.md` §4):
 
 - **Sign inventory:** ~205 attestation IDs in the DB. The honest phonetic grid is **71 real
   signs**, **53 CONFIRM** (`expanded_grid_purged.csv`, Phase 8 lineage). The Phase 5 refined grid
-  covers the same 71 signs with **35 CONFIRM** — different instruments, same sign set. They are
+  covers the same 71 signs with **34 CONFIRM** — different instruments, same sign set. They are
   unreconciled on *values*; never write "N confirmed" without naming the grid.
   (Until 2026-10-19 the figures were 69/58 and 40/35-of-138: the grid was not reproducible from
   current inputs, six CONFIRMs sat on phantom signs, and two real signs had been purged by a

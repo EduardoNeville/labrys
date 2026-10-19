@@ -1263,3 +1263,78 @@ ORPHAN), the module that references it, its last commit date and its citers. Cur
 
 Guard 25 fails if a live document cites a file under `_superseded/` — the citation rule the
 directory exists to enforce.
+
+---
+
+## Phase 20 — the seven "unencoded sign" values, reclassified and one policy bug fixed *(2026-10-19)*
+
+**Trigger.** Step 3: the guard line `asserts a value for an unencoded sign (7): AB 18, AB 19, AB 22,
+AB 34, AB 35, AB 64, AB 79` — reported on every run since Phase 12 and never acted on.
+
+### 20.1 The line conflated three different things
+
+It comes from `la_lb_mapping_audit.csv`, not from the grids. Measured, the seven split:
+
+| class | signs | meaning |
+| **phantom-range** | AB 18, AB 19, AB 35, AB 64 | no Linear A codepoint, **zero occurrences**, absent from every grid. A value here describes a sign nobody has seen. |
+| **literature-only, real sign** | AB 22 (`pi`), AB 34 (`ti`/`pa2?`), AB 79 (`ze`) | the sign exists; the value comes from the literature because the Unicode Linear B standard names no value for that sign number (B022, B034, B079) |
+| **the actual defect** | AB 34 | see 20.2 |
+
+So four of the seven were already impossible after step 1's purge, and two were a provenance fact
+(the mapping's values are literature-based, which the mapping should say). One was a real bug.
+
+### 20.2 AB 34: a conventional value corroborating itself
+
+`refined_phonetic_grid.csv` had **AB 34 = `ti`, CONFIRM, confidence 55, `evidence_summary` = "CM=MEDIUM"**,
+with `lb_proposed_value` empty and `grid_confidence_score` empty — a single source. Phase 12's policy
+says a single source cannot confirm a previously unknown value. It got through because the decision
+function treats "agrees with the conventional value" as corroboration, and `CONVENTIONAL_AB` lists
+AB 34 = `ti`. For a sign whose standard value is **unnamed**, the conventional table is the only
+claimant — so the rule was confirming a claim with itself.
+
+Meanwhile `la_lb_mapping.csv` says `pa2?` for the same sign, i.e. the project held two different
+values for it in two files.
+
+**Fix** (`pipeline/phonetic_grid_refinement.py`): a conventional value can only corroborate if the
+Unicode Linear B standard names a value for that sign number. When the standard is silent, the
+conventional value is treated as unknown for confirmation purposes, and the row records why:
+
+```
+AB 34  ti  UNCERTAIN  "Single source CM proposes /ti/; awaiting corroboration"
+```
+
+**Refined grid: CONFIRM 35 → 34.** Guard 26 now enforces the rule for every CONFIRM row.
+
+### 20.3 What deliberately did not change
+
+The **canonical Phase 8 grid still confirms AB 34**. Its generator (Kober bootstrapping) proposes
+the value from the refined grid and accepts it on distributional support — so its route is
+CM proposal + Kober acceptance, two channels. That is a legitimate disagreement between
+instruments, not a bug, and resolving it is open item 2 (reconcile the two grids), not this step.
+Forcing agreement here would have been reconciliation by accident.
+
+Consequence, measured: the Linear A oracle is **unchanged** — 1/160, chance 0.1111, lift 0.056×,
+NO SIGNAL — because the canonical candidate space did not move.
+
+### 20.4 Final counts
+
+| instrument | rows | CONFIRM |
+| `refined_phonetic_grid.csv` (Phase 5) | 71 | **34** (was 35) |
+| `expanded_grid_purged.csv` (Phase 8, canonical) | 71 | **53** |
+
+### 20.5 The report now says what it means
+
+Old: `asserts a value for an unencoded sign (7): …`
+New:
+
+```
+  mapping provenance (NOT failures — recorded facts):
+    lb_value conflicts with the standard (0): -
+    standard value not recorded (0): -
+    literature-only values, standard silent (7): AB 18, AB 19, AB 22, AB 34, AB 35, AB 64, AB 79
+      of which phantom-range (no LA codepoint, no occurrences, in no grid): 4: AB 18, AB 19, AB 35, AB 64
+    (a literature-only value cannot corroborate a CONFIRM — enforced by guard 26)
+```
+
+**Guards 23/23.** Item 3 of `CODE_AUDIT.md` §8 closes here; what remains open is the reconciliation
+of the two lineages (item 2) and the Phase 4 restart (item 7).

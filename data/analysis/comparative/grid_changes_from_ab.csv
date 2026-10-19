@@ -4,5 +4,5 @@ AB 21,mi,qi,UNCERTAIN,44.7,Conflict: LB=/qi/; CM=/mi/
 AB 29,pu,pu2,REVISE,73.9,Single source LB suggests /pu2/ vs conventional /pu/
 AB 38,e,pa,UNCERTAIN,73.5,HIGH CM=/pa/ vs LB=/e/ — genuine conflict
 AB 45,ri,de,UNCERTAIN,38.5,Conflict: CM=/de/; GC=/i/
-AB 47,nu,ja,REVISE,25.0,Single source CM suggests /ja/ vs conventional /nu/
+AB 47,nu,ja,UNCERTAIN,25.0,Single source CM proposes /ja/; awaiting corroboration
 AB 65,ju,jo,REVISE,25.0,Single source CM suggests /jo/ vs conventional /ju/

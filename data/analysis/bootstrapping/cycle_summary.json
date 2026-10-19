@@ -1,6 +1,6 @@
 {
-  "initial_anchors": 35,
-  "initial_uncertain": 34,
+  "initial_anchors": 34,
+  "initial_uncertain": 36,
   "cycles": [
     {
       "cycle": 1,
@@ -40,25 +40,27 @@
         "AB 78": "qe",
         "AB 79": "?"
       },
-      "anchors_after": 51,
-      "uncertain_after": 18
+      "anchors_after": 50,
+      "uncertain_after": 20
     },
     {
       "cycle": 2,
       "threshold": 0.5499999999999999,
-      "accepted_count": 3,
+      "accepted_count": 4,
       "accepted_signs": [
         "AB 76",
         "AB 02",
+        "AB 34",
         "AB 50"
       ],
       "accepted_values": {
         "AB 76": "?",
         "AB 02": "ro",
+        "AB 34": "ti",
         "AB 50": "pu"
       },
       "anchors_after": 54,
-      "uncertain_after": 15
+      "uncertain_after": 16
     },
     {
       "cycle": 3,
@@ -67,11 +69,11 @@
       "accepted_signs": [],
       "accepted_values": {},
       "anchors_after": 54,
-      "uncertain_after": 15
+      "uncertain_after": 16
     }
   ],
-  "total_accepted": 18,
+  "total_accepted": 19,
   "final_anchors": 54,
-  "remaining_uncertain": 15,
-  "resolution_rate": 0.5294117647058824
+  "remaining_uncertain": 16,
+  "resolution_rate": 0.5277777777777778
 }

@@ -18,16 +18,16 @@ Totals: INPUT 16, LIVE 95, MIXED 23, ORPHAN 1, REPORT 6, RETIRED 9.
 
 | artifact | status | provenance | last commit | cited |
 |---|---|---|---|---|
-| `data/analysis/bootstrapping/bootstrapping_report.md` | LIVE | `pipeline/bootstrapping/grid_expand.py` | 2026-10-19 | 3 — `PLAN.md` |
-| `data/analysis/bootstrapping/cycle_summary.json` | LIVE | `pipeline/bootstrapping/grid_expand.py` | 2026-10-19 | 3 — `PLAN.md` |
-| `data/analysis/bootstrapping/expanded_grid_purged.csv` | LIVE | `pipeline/audit_grid_inputs.py` (+7) | 2026-10-19 | 17 — `AGENTS.md` |
+| `data/analysis/bootstrapping/bootstrapping_report.md` | LIVE | `pipeline/bootstrapping/grid_expand.py` | 2026-10-19 | 3 — `data/analysis/PROVENANCE.md` |
+| `data/analysis/bootstrapping/cycle_summary.json` | LIVE | `pipeline/bootstrapping/grid_expand.py` | 2026-10-19 | 3 — `data/analysis/PROVENANCE.md` |
+| `data/analysis/bootstrapping/expanded_grid_purged.csv` | LIVE | `pipeline/audit_grid_inputs.py` (+7) | 2026-10-19 | 18 — `AGENTS.md` |
 | `data/analysis/commodity_decoding/commodity_signatures.csv` | LIVE | `pipeline/bootstrapping/grid_expand.py` (+1) | 2026-08-13 | 3 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/comparative/commodity_alignment_report.md` | LIVE | `pipeline/commodity_alignment.py` | 2026-07-30 | 2 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/comparative/cypro_minoan_report.md` | LIVE | `pipeline/cypro_minoan_bridge.py` | 2026-07-30 | 2 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/comparative/grid_changes_from_ab.csv` | LIVE | `pipeline/phonetic_grid_refinement.py` | 2026-10-19 | 5 — `CODE_AUDIT.md` |
 | `data/analysis/comparative/la_cm_comparison.csv` | LIVE | `pipeline/cypro_minoan_bridge.py` | 2026-07-30 | 2 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/comparative/la_cm_eteocypriot_grid.csv` | LIVE | `pipeline/comparative_bridge.py` | 2026-08-28 | 3 — `MULTI_LANGUAGE_DECYPHR_PLAN.md` |
-| `data/analysis/comparative/la_lb_mapping_audit.csv` | LIVE | `pipeline/audit_grid_inputs.py` (+1) | 2026-09-15 | 3 — `data/analysis/PROVENANCE.md` |
+| `data/analysis/comparative/la_lb_mapping_audit.csv` | LIVE | `pipeline/audit_grid_inputs.py` (+1) | 2026-09-15 | 4 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/comparative/la_lb_mapping_value_fixes.csv` | LIVE | `pipeline/fix_mapping_values.py` | 2026-09-15 | 3 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/comparative/la_lb_transfer_report.md` | LIVE | `pipeline/linear_b_mapping.py` | 2026-07-30 | 2 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/comparative/misvalued_signs_resolution.csv` | LIVE | `pipeline/phonetic_grid_refinement.py` | 2026-10-19 | 7 — `AGENTS.md` |
@@ -47,11 +47,11 @@ Totals: INPUT 16, LIVE 95, MIXED 23, ORPHAN 1, REPORT 6, RETIRED 9.
 | `data/analysis/linguistic/morphology_summary.md` | LIVE | `pipeline/morphology_scan.py` | 2026-07-30 | 1 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/linguistic/phase3_synthesis.md` | LIVE | `pipeline/falsification_report.py` | 2026-07-30 | 3 — `AGENTS.md` |
 | `data/analysis/linguistic/reduplication_patterns.csv` | LIVE | `pipeline/falsification_report.py` (+1) | 2026-07-30 | 1 — `data/analysis/PROVENANCE.md` |
-| `data/analysis/linguistic/swadesh_match_details.csv` | LIVE | `pipeline/swadesh_search.py` | 2026-07-30 | 2 — `data/analysis/PROVENANCE.md` |
-| `data/analysis/linguistic/swadesh_results.csv` | LIVE | `pipeline/falsification_report.py` (+2) | 2026-07-30 | 3 — `AGENTS.md` |
+| `data/analysis/linguistic/swadesh_match_details.csv` | LIVE | `pipeline/swadesh_search.py` | 2026-10-19 | 3 — `data/analysis/PROVENANCE.md` |
+| `data/analysis/linguistic/swadesh_results.csv` | LIVE | `pipeline/falsification_report.py` (+2) | 2026-10-19 | 4 — `AGENTS.md` |
 | `data/analysis/linguistic/swadesh_summary.md` | LIVE | `pipeline/falsification_report.py` (+1) | 2026-07-30 | 1 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/linguistic/toponym_report.md` | LIVE | `pipeline/toponym_alignment.py` | 2026-08-13 | 1 — `data/analysis/PROVENANCE.md` |
-| `data/analysis/linguistic/wals_comparison.csv` | LIVE | `pipeline/falsification_report.py` (+1) | 2026-07-30 | 3 — `AGENTS.md` |
+| `data/analysis/linguistic/wals_comparison.csv` | LIVE | `pipeline/falsification_report.py` (+1) | 2026-10-19 | 4 — `AGENTS.md` |
 | `data/analysis/linguistic/wals_summary.md` | LIVE | `pipeline/falsification_report.py` (+1) | 2026-07-30 | 1 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/linguistic/word_length_distribution.csv` | LIVE | `pipeline/falsification_report.py` (+1) | 2026-07-30 | 1 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/logograms/commodity_ontology.csv` | LIVE | `pipeline/logogram_analysis.py` (+1) | 2026-07-30 | 3 — `AGENTS.md` |
@@ -112,7 +112,7 @@ Totals: INPUT 16, LIVE 95, MIXED 23, ORPHAN 1, REPORT 6, RETIRED 9.
 | `data/analysis/ventris/sign_consensus.csv` | LIVE | `pipeline/ventris/complete.py` | 2026-08-13 | 3 — `MULTI_LANGUAGE_DECYPHR_PLAN.md` |
 | `data/analysis/ventris/top_completions.csv` | LIVE | `pipeline/ventris/complete.py` | 2026-08-13 | 1 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/ventris/ventris_report.md` | LIVE | `pipeline/lb_oracle.py` (+1) | 2026-10-19 | 11 — `CODE_AUDIT.md` |
-| `data/analysis/ventris/verification_audit.md` | LIVE | `pipeline/doc_claims_check.py` | 2026-10-19 | 27 — `AGENTS.md` |
+| `data/analysis/ventris/verification_audit.md` | LIVE | `pipeline/doc_claims_check.py` | 2026-10-19 | 28 — `AGENTS.md` |
 | `data/analysis/bootstrapping/expanded_grid_legacy_138.csv` | INPUT | consumed by an instrument; not a result | 2026-10-19 | 6 — `AGENTS.md` |
 | `data/analysis/commodity_decoding/logogram_contexts.csv` | INPUT | consumed by an instrument; not a result | 2026-08-13 | 3 — `CLEANUP_PLAN.md` |
 | `data/analysis/commodity_decoding/sign_commodity_enrichment.csv` | INPUT | consumed by an instrument; not a result | 2026-08-13 | 4 — `data/analysis/PROVENANCE.md` |
@@ -120,10 +120,10 @@ Totals: INPUT 16, LIVE 95, MIXED 23, ORPHAN 1, REPORT 6, RETIRED 9.
 | `data/analysis/comparative/fraction_alignment.csv` | INPUT | consumed by an instrument; not a result | 2026-07-30 | 3 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/comparative/la_cm_shared_phonetic_grid.csv` | INPUT | consumed by an instrument; not a result | 2026-07-30 | 8 — `AGENTS.md` |
 | `data/analysis/comparative/la_lb_ideogram_map.csv` | INPUT | consumed by an instrument; not a result | 2026-07-30 | 3 — `data/analysis/PROVENANCE.md` |
-| `data/analysis/comparative/la_lb_mapping.csv` | INPUT | consumed by an instrument; not a result | 2026-09-15 | 15 — `AGENTS.md` |
+| `data/analysis/comparative/la_lb_mapping.csv` | INPUT | consumed by an instrument; not a result | 2026-09-15 | 16 — `AGENTS.md` |
 | `data/analysis/comparative/la_lb_misaligned.csv` | INPUT | consumed by an instrument; not a result | 2026-07-30 | 2 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/comparative/minoan_shadow_lexicon.csv` | INPUT | consumed by an instrument; not a result | 2026-07-30 | 2 — `data/analysis/PROVENANCE.md` |
-| `data/analysis/comparative/refined_phonetic_grid.csv` | INPUT | consumed by an instrument; not a result | 2026-10-19 | 12 — `AGENTS.md` |
+| `data/analysis/comparative/refined_phonetic_grid.csv` | INPUT | consumed by an instrument; not a result | 2026-10-19 | 13 — `AGENTS.md` |
 | `data/analysis/linguistic/phonetic_grid_confidence.csv` | INPUT | consumed by an instrument; not a result | 2026-08-13 | 1 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/linguistic/toponym_anchors.csv` | INPUT | consumed by an instrument; not a result | 2026-08-13 | 2 — `data/analysis/PROVENANCE.md` |
 | `data/analysis/ngram/misvalued_signs_ngram.csv` | INPUT | consumed by an instrument; not a result | 2026-07-30 | 1 — `data/analysis/PROVENANCE.md` |

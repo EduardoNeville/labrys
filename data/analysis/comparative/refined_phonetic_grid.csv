@@ -16,7 +16,7 @@ AB 17,za,za,za,za,CONFIRM,70.3,73.0,HIGH,52.0,12,,0.104,43,,,Conflict: LB=/za/; 
 AB 20,zo?,,,zo?,UNCERTAIN,0.0,,,,,,,,,,Insufficient comparative evidence; retaining conventional value,no evidence
 AB 21,mi,qi,mi,qi,UNCERTAIN,44.7,64.5,MEDIUM,,1,initial-biased; prefix-like CV sign,0.325,21,,,Conflict: LB=/qi/; CM=/mi/,LB=64; CM=MEDIUM; Pos#1; Ng#21
 AB 21f,?,,,?,UNCERTAIN,0.0,,,,,,,,,,No evidence available,no evidence
-AB 22,pi,pi,pi,pi,CONFIRM,54.7,68.0,HIGH,,2,ANOMALOUS: CV sign in final position,0.406,14,YES,,,LB=68; CM=HIGH; Pos#2; Ng#14
+AB 22,pi,pi,pi,pi,CONFIRM,54.7,68.0,HIGH,,2,ANOMALOUS: CV sign in final position,0.406,14,YES,,2 sources agree on /pi/,LB=68; CM=HIGH; Pos#2; Ng#14
 AB 22f,pi?,,,pi?,UNCERTAIN,0.0,,,,,,,,,,Insufficient comparative evidence; retaining conventional value,no evidence
 AB 23,mu,mu,ma,mu,UNCERTAIN,75.9,69.0,HIGH,,33,,0.372,18,,,HIGH CM=/ma/ vs LB=/mu/ — genuine conflict,LB=69; CM=HIGH; Pos#33; Ng#18
 AB 24,ne,ne,ne,ne,CONFIRM,71.3,77.5,HIGH,52.0,27,,0.408,13,YES,,Conflict: LB=/ne/; CM=/ne/; GC=/pa/,LB=78; CM=HIGH; GC=52; Pos#27; Ng#13
@@ -26,7 +26,7 @@ AB 28,i,i,i,i,CONFIRM,77.0,74.0,HIGH,73.0,36,,0.255,29,,,,LB=74; CM=HIGH; GC=73;
 AB 29,pu,pu2,,pu2,REVISE,73.9,75.0,,,34,,0.411,10,YES,YES,Single source LB suggests /pu2/ vs conventional /pu/,LB=75; Pos#34; Ng#10
 AB 30,ni,ni,ni,ni,CONFIRM,68.7,70.5,HIGH,50.0,25,,0.305,25,,,Conflict: LB=/ni/; CM=/ni/; GC=/i/,LB=70; CM=HIGH; GC=50; Pos#25; Ng#25
 AB 31,sa,sa,sa,sa,CONFIRM,61.7,68.0,HIGH,30.0,8,,0.217,33,,,Conflict: LB=/sa/; CM=/sa/; GC=/pa/,LB=68; CM=HIGH; GC=30; Pos#8; Ng#33
-AB 34,ti,,ti,ti,CONFIRM,55.0,,MEDIUM,,,,,,,,,CM=MEDIUM
+AB 34,ti,,ti,ti,UNCERTAIN,55.0,,MEDIUM,,,,,,,,Single source CM proposes /ti/; awaiting corroboration,CM=MEDIUM
 AB 37,?,ti,,ti,UNCERTAIN,68.4,69.5,,67.0,,,,,,,Conflict: LB=/ti/; GC=/i/,LB=70; GC=67
 AB 38,e,e,pa,pa,UNCERTAIN,73.5,81.0,HIGH,52.0,15,,0.166,38,,,HIGH CM=/pa/ vs LB=/e/ — genuine conflict,LB=81; CM=HIGH; GC=52; Pos#15; Ng#38
 AB 39,?,,pe,pe,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /pe/; awaiting corroboration,CM=LOW
@@ -35,7 +35,7 @@ AB 41,?,,si,si,UNCERTAIN,32.5,,LOW,40.0,,,,,,,Conflict: CM=/si/; GC=/i/,CM=LOW; 
 AB 44,ke,ke,ke,ke,CONFIRM,75.0,67.5,HIGH,,,,,,,,,LB=68; CM=HIGH
 AB 45,ri,,de,de,UNCERTAIN,38.5,,LOW,52.0,,,,,,,Conflict: CM=/de/; GC=/i/,CM=LOW; GC=52
 AB 46,?,,je,je,UNCERTAIN,38.5,,LOW,52.0,,,,,,,Conflict: CM=/je/; GC=/i/,CM=LOW; GC=52
-AB 47,nu,,ja,ja,REVISE,25.0,,LOW,,,,,,,,Single source CM suggests /ja/ vs conventional /nu/,CM=LOW
+AB 47,nu,,ja,ja,UNCERTAIN,25.0,,LOW,,,,,,,,Single source CM proposes /ja/; awaiting corroboration,CM=LOW
 AB 48,?,,wa,wa,UNCERTAIN,85.0,,HIGH,,,,,,,,Single source CM proposes /wa/; awaiting corroboration,CM=HIGH
 AB 49,?,,we,we,UNCERTAIN,85.0,,HIGH,,,,,,,,Single source CM proposes /we/; awaiting corroboration,CM=HIGH
 AB 50,pu,,pu,pu,UNCERTAIN,68.5,,HIGH,52.0,,,,,,,Conflict: CM=/pu/; GC=/pa/,CM=HIGH; GC=52

@@ -147,7 +147,7 @@ and silently editing an old number destroys the evidence that the correction hap
 Four instruments report a "confirmed" count, and they do not agree:
 
 | instrument | rows | CONFIRM | of which on signs that exist |
-| `data/analysis/comparative/refined_phonetic_grid.csv` (Phase 5) | 71 | **35** | 35 — phantoms filtered at the source |
+| `data/analysis/comparative/refined_phonetic_grid.csv` (Phase 5) | 71 | **34** | 34 — phantoms filtered at the source; AB 34 demoted in Phase 20 |
 | `data/analysis/bootstrapping/expanded_grid_legacy_138.csv` (frozen Phase 8) | 138 | 77 | 58 (6 of them on phantoms) |
 | `data/analysis/bootstrapping/expanded_grid_purged.csv` (Phase 8, **canonical**) | **71** | **53** | **53** |
 | `data/analysis/comparative/misvalued_signs_resolution.csv` (Phase 5 output) | 19 | — | includes 1 phantom row (AB 36) |
@@ -254,8 +254,8 @@ These extend `EXPERIMENT_PROTOCOL.md`; §8 there is the binding version.
 
 | # | item | why it matters | cost |
 | ~~1~~ | ~~Re-derive the Linear A value chain and migrate the last legacy-grid consumer~~ | **done, Phase 18**: grids filtered at their generators, 71 signs / 53 CONFIRM, LA oracle re-measured, `oracle_diagnose.py` migrated | — |
-| 2 | Reconcile the two grids' **values** (53 vs 35 CONFIRM on the same 71 signs — different instruments) | a collaborator will ask this first | ½ day |
-| 3 | Regenerate the 25+ stale consumers, or mark the affected outputs `SUPERSEDED` in place (the consumers themselves are now in `legacy/`) | prevents citing pre-correction numbers | 1–2 days |
+| 2 | Reconcile the two grids' **values** (53 vs 34 CONFIRM on the same 71 signs — different instruments) | a collaborator will ask this first | ½ day |
+| ~~3~~ | ~~Regenerate the stale consumers or mark them superseded~~ | **done, Phase 19**: 3 regenerated, 31 moved to `_superseded/`, 4 non-deterministic generators recorded | — |
 | 4 | `AB 41 (si)` — 240 occurrences, UNCERTAIN, in the libation formula | the key open sign | research |
 | 5 | Falsify-or-confirm the libation formula on the CM-syllabary chain (Phase 16 route) | the only surviving positive; its extension needs a real CM corpus | blocked on data |
 | 6 | Second reviewer for the Phase 16 test | it is currently self-audited | external |

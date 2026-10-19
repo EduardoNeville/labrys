@@ -253,6 +253,20 @@ def g_glyphs() -> str:
 
 # ── 7. known defects (reported, not enforced) ────────────────────────────────
 def report_known_defects() -> None:
+    """Report the mapping's residual issues, split by what they actually are.
+
+    Until 2026-10-19 this printed one line — "asserts a value for an unencoded sign (7)" — which
+    conflated three different defects and read like an accusation of fabrication. They are not the
+    same thing, and only one is a claim about the project's own data:
+
+      * **literature-only values** — `la_lb_mapping.csv` gives a value for a sign number the Unicode
+        Linear B standard leaves unnamed (B018, B019, B022, B034, B035, B064, B079). The value comes
+        from the literature, not the standard; it is a provenance fact, and the mapping now says so
+        in the audit file. Enforced since Phase 20: such a value can no longer *corroborate* a
+        CONFIRM (guard 26).
+      * **phantom-range** — a subset of those also has no Linear A codepoint and zero occurrences, so
+        they appear in no grid at all. Guard 20 enforces that, and this report says how many.
+    """
     p = REPO / "data/analysis/comparative/la_lb_mapping_audit.csv"
     if not p.exists():
         return
@@ -260,10 +274,17 @@ def report_known_defects() -> None:
     conflict = [r["bennett_id"] for r in rows if "CONFLICT" in r["issue"]]
     missing = [r["bennett_id"] for r in rows if "MISSING" in r["issue"]]
     unver = [r["bennett_id"] for r in rows if "UNVERIFIABLE" in r["issue"]]
-    print("\n  known defects awaiting deliberate re-derivation (NOT enforced):")
-    print(f"    lb_value conflicts standard ({len(conflict)}): {', '.join(conflict)}")
-    print(f"    standard value not recorded ({len(missing)}): {', '.join(missing)}")
-    print(f"    asserts a value for an unencoded sign ({len(unver)}): {', '.join(unver)}")
+
+    from pipeline.unicode_utils import bennett_to_unicode
+    phantom = [b for b in unver if not bennett_to_unicode(b)]
+
+    print("\n  mapping provenance (NOT failures — recorded facts):")
+    print(f"    lb_value conflicts with the standard ({len(conflict)}): {', '.join(conflict) or '-'}")
+    print(f"    standard value not recorded ({len(missing)}): {', '.join(missing) or '-'}")
+    print(f"    literature-only values, standard silent ({len(unver)}): {', '.join(unver) or '-'}")
+    print(f"      of which phantom-range (no LA codepoint, no occurrences, in no grid): "
+          f"{len(phantom)}: {', '.join(phantom) or '-'}")
+    print("    (a literature-only value cannot corroborate a CONFIRM — enforced by guard 26)")
 
 
 # ── 8. the Dream-RSI seam (PLAN §7.2, §10.5) ────────────────────────────────
@@ -652,6 +673,44 @@ def g_no_live_doc_cites_superseded() -> str:
     return "no live document cites a file under _superseded/"
 
 
+def g_no_unsupported_confirm() -> str:
+    """Guard 26: a CONFIRM needs either two sources or a standard-corroborated value.
+
+    Phase 12's policy says a single source cannot confirm a previously unknown value, and that a
+    value agreeing with a *known* conventional value may be confirmed. The word "known" was doing
+    all the work: for seven sign numbers the Unicode Linear B standard names no value, so the
+    conventional table was corroborating itself. AB 34 was confirmed `ti` this way on one CM source
+    while the mapping says `pa2?` — fixed in Phase 20 (the refined grid now reads UNCERTAIN).
+
+    This guard keeps the fix: a CONFIRM row must name >= 2 evidence sources, unless the sign's
+    standard value exists to corroborate it.
+    """
+    import re as _re
+
+    p = REPO / "data/analysis/comparative/refined_phonetic_grid.csv"
+    if not p.exists():
+        return "skipped (no refined grid)"
+    from pipeline.unicode_utils import linear_b_glyph
+
+    def standard_named(bid: str) -> bool:
+        m = _re.match(r"^AB\s*(\d+)", bid.strip(), _re.I)
+        if not m:
+            return True                       # not an AB syllabogram: not this guard's business
+        g = linear_b_glyph(int(m.group(1)))
+        return bool(g and (g[2] or "").strip())
+
+    bad = []
+    for r in csv.DictReader(open(p, encoding="utf-8")):
+        if r.get("decision") != "CONFIRM":
+            continue
+        sources = len(_re.findall(r"(?:LB|CM|GC)=", r.get("evidence_summary") or ""))
+        if sources < 2 and not standard_named(r["bennett_id"]):
+            bad.append(f"{r['bennett_id']}={r.get('refined_value')} ({sources} source)")
+    assert not bad, f"CONFIRM without corroboration: {bad[:6]}"
+    n = sum(1 for r in csv.DictReader(open(p, encoding="utf-8")) if r.get("decision") == "CONFIRM")
+    return f"{n} CONFIRM rows, each corroborated by >=2 sources or a standard-named value"
+
+
 def main() -> None:
     guard("no value leak in corpus tables", g_leak)
     guard("phonetic constants complete + subscript-safe", g_phonetics)
@@ -675,6 +734,7 @@ def main() -> None:
     guard("doc sign-ID claims match the corpus", g_doc_claims_match_corpus)
     guard("provenance map regenerates", g_provenance_map_regenerates)
     guard("no live doc cites a superseded file", g_no_live_doc_cites_superseded)
+    guard("CONFIRM needs corroboration", g_no_unsupported_confirm)
 
     print("=== Labrys guards ===")
     for name, ok, detail in RESULTS:

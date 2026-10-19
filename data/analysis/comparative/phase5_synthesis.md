@@ -8,9 +8,9 @@ This report synthesises all comparative evidence from Phase 5 (Linear B transfer
 
 | Decision | Count | Percentage |
 |----------|-------|------------|
-| CONFIRM  | 35 | 49.3% |
-| REVISE   | 3 | 4.2% |
-| UNCERTAIN| 33 | 46.5% |
+| CONFIRM  | 34 | 47.9% |
+| REVISE   | 2 | 2.8% |
+| UNCERTAIN| 35 | 49.3% |
 
 **Confidence distribution:**
 - High (≥70): 15 signs
@@ -28,7 +28,7 @@ This report synthesises all comparative evidence from Phase 5 (Linear B transfer
 | AB 29 | /pu/ | /pu2/ | 73.9 | Single source LB suggests /pu2/ vs conventional /pu/ |
 | AB 38 | /e/ | /pa/ | 73.5 | HIGH CM=/pa/ vs LB=/e/ — genuine conflict |
 | AB 45 | /ri/ | /de/ | 38.5 | Conflict: CM=/de/; GC=/i/ |
-| AB 47 | /nu/ | /ja/ | 25.0 | Single source CM suggests /ja/ vs conventional /nu/ |
+| AB 47 | /nu/ | /ja/ | 25.0 | Single source CM proposes /ja/; awaiting corroboration |
 | AB 65 | /ju/ | /jo/ | 25.0 | Single source CM suggests /jo/ vs conventional /ju/ |
 
 ## Phase 2 Misvalued Signs — Resolution
@@ -102,6 +102,7 @@ AB 80 shows 50% initial, 46.4% final — anomalous. LB gives /ma/ (composite 76.
 - **Confidence:** 54.7/100
 - **LB composite:** 68.0
 - **CM:** HIGH (value: /pi/)
+- **Conflict note:** 2 sources agree on /pi/
 
 **Detailed assessment:**
 

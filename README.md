@@ -15,7 +15,7 @@ best fit", "AB 85 word divider") are superseded; the audit lists every one.
 | 2 — Analysis | Positional grid, segmentation, n-gram, network, logograms | ✅ Complete |
 | 3 — Linguistic | Swadesh-100, WALS, loanwords, toponymy, morphology | ✅ Complete — **no family distinguished** |
 | 4 — ML | Transformer / contrastive experiments | ⚠️ **Built, unvalidated, stale** — inputs moved after the corpus correction; outputs are not citable |
-| 5 — Comparative | LA↔LB mapping, Cypro-Minoan bridge, grid refinement | ✅ Complete — 40 CONFIRM (35 on real signs) |
+| 5 — Comparative | LA↔LB mapping, Cypro-Minoan bridge, grid refinement | ✅ Complete — 34 CONFIRM on 71 real signs |
 | 6 — Verification | Cross-evidence triangulation, toponym testing | ⚠️ consumes Phase 4 outputs — stale with them |
 | 7–9 — Alternatives | Eteocretan, commodity, phylogenetic, Kober, Anatolian, formulaic | ✅ Complete — **all negative after controls** |
 | 10 — Ventris endgame | Grid completion by grammatical testing | ⬜ **Concluded negative** — 1/160 recovered, 0.056× chance |
@@ -56,7 +56,7 @@ Deliberately stated with instruments attached, because the counts disagree (see 
 
 - **Sign inventory:** ~205 attestation IDs in the DB. The honest phonetic grid is **71 real signs,
   53 CONFIRM** (`expanded_grid_purged.csv`, Phase 8 lineage), covering the same 71 signs as the
-  Phase 5 refined grid (**35 CONFIRM** — a different instrument). **AB 41 (si)**, 240 occurrences,
+  Phase 5 refined grid (**34 CONFIRM** — a different instrument). **AB 41 (si)**, 240 occurrences,
   is the notable open target: the Phase 8 lineage confirms its *identity* with value `?`, which is
   not an argument for `si`. The grids are not reconciled on values.
 - **Logograms:** 88 distinct IDs, 742 occurrences (not 124).

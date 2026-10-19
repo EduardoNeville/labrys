@@ -6,7 +6,7 @@ AB 04,te,te,CONFIRM,57.6,10,4,,70.5,HIGH,te,28.0,i,LB=70; CM=HIGH; GC=28; Pos#10
 AB 06,na,na,CONFIRM,65.6,9,7,,75.2,HIGH,na,43.0,pa,LB=75; CM=HIGH; GC=43; Pos#9; Ng#7,Conflict: LB=/na/; CM=/na/; GC=/pa/,CONFIRM: retained as na
 AB 07,di,di,UNCERTAIN,69.2,20,6,,76.2,HIGH,ti,55.0,di,LB=76; CM=HIGH; GC=55; Pos#20; Ng#6,HIGH CM=/ti/ vs LB=/di/ — genuine conflict,UNCERTAIN: retained as di
 AB 16,qa,qa,UNCERTAIN,54.3,31,11,,68.0,MEDIUM,ka,38.0,i,LB=68; CM=MEDIUM; GC=38; Pos#31; Ng#11,Conflict: LB=/qa/; CM=/ka/; GC=/i/,UNCERTAIN: retained as qa
-AB 22,pi,pi,CONFIRM,54.7,2,14,ANOMALOUS: CV sign in final position,68.0,HIGH,pi,,,LB=68; CM=HIGH; Pos#2; Ng#14,,CONFIRM: retained as pi
+AB 22,pi,pi,CONFIRM,54.7,2,14,ANOMALOUS: CV sign in final position,68.0,HIGH,pi,,,LB=68; CM=HIGH; Pos#2; Ng#14,2 sources agree on /pi/,CONFIRM: retained as pi
 AB 24,ne,ne,CONFIRM,71.3,27,13,,77.5,HIGH,ne,52.0,pa,LB=78; CM=HIGH; GC=52; Pos#27; Ng#13,Conflict: LB=/ne/; CM=/ne/; GC=/pa/,CONFIRM: retained as ne
 AB 26,ru,ru,CONFIRM,63.2,14,8,,78.0,HIGH,ru,28.0,i,LB=78; CM=HIGH; GC=28; Pos#14; Ng#8,Conflict: LB=/ru/; CM=/ru/; GC=/i/,CONFIRM: retained as ru
 AB 27,re,re,CONFIRM,58.4,30,2,,65.0,HIGH,re,52.0,pa,LB=65; CM=HIGH; GC=52; Pos#30; Ng#2,Conflict: LB=/re/; CM=/re/; GC=/pa/,CONFIRM: retained as re
