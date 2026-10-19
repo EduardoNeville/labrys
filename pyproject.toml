@@ -5,7 +5,7 @@ description = "Linear A Decipherment Pipeline"
 authors = [
     {name = "Labrys Project"},
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.14"
 dependencies = [
     "pyyaml>=6.0",
     "click>=8.0",
@@ -18,13 +18,21 @@ dependencies = [
     "tqdm>=4.65",
     "matplotlib>=3.7",
     "seaborn>=0.12",
+    "pymupdf>=1.28.2",
+]
+
+# Phase 4 ML only. Nothing outside `pipeline/ml/` imports these, and the Phase 4
+# outputs are stale with respect to the corrected grid (CODE_AUDIT.md §6), so they
+# are NOT a default install: `uv sync` stays CPU-cheap and works on any machine.
+#   uv sync --extra ml
+[project.optional-dependencies]
+ml = [
     "torch>=2.0,<2.6",
     "transformers>=4.30",
     "datasets>=2.14",
     "tokenizers>=0.13",
     "accelerate>=0.20",
     "sentencepiece>=0.1",
-    "pymupdf>=1.28.2",
 ]
 
 [project.scripts]
