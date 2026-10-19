@@ -28,7 +28,7 @@ from pipeline.config import load_config, resolve_corpus_paths, resolve_db_path
 from pipeline.database import LinearADatabase
 from pipeline.unicode_utils import validate_mapping, validate_mapping_for_language
 
-import ingest_lineara as la
+from pipeline import ingest_lineara as la
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 logger = logging.getLogger(__name__)

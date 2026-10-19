@@ -21,19 +21,19 @@ import matplotlib.pyplot as plt
 import torch
 from torch.utils.data import DataLoader, random_split
 
-from pipeline.ml.data import (
+from legacy.ml.data import (
     ContrastiveSignDataset,
     MaskedLMDataset,
     SYLLABOGRAM_RANGE,
 )
-from pipeline.ml.contrastive import (
+from legacy.ml.contrastive import (
     PhoneticClassifier,
     SignContextEncoder,
     extract_embeddings,
     train_phonetic_classifier,
     _load_phonetic_classes,
 )
-from pipeline.ml.lm import SignLM, train_lm, evaluate_perplexity
+from legacy.ml.lm import SignLM, train_lm, evaluate_perplexity
 
 logger = logging.getLogger(__name__)
 

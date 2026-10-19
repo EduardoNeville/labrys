@@ -31,12 +31,12 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from pipeline.ml.data import (
+from legacy.ml.data import (
     MaskedLMDataset,
     PAD_IDX,
     SYLLABOGRAM_RANGE,
 )
-from pipeline.ml.lm import SignLM, evaluate_perplexity
+from legacy.ml.lm import SignLM, evaluate_perplexity
 
 logger = logging.getLogger(__name__)
 
@@ -560,7 +560,7 @@ def _train_lm_inline(
 ) -> List[float]:
     """Train a SignLM and return per-epoch losses.
 
-    Identical logic to ``train_lm`` in ``pipeline.ml.lm`` but returns
+    Identical logic to ``train_lm`` in ``legacy.ml.lm`` but returns
     losses inline (without checkpoint saves).
     """
     model = model.to(device)
@@ -626,7 +626,7 @@ def compare_transfer_vs_baseline(
 ) -> Dict[str, object]:
     """Public entry point: run transfer comparison and return results.
 
-    This is the function called from ``pipeline.ml.evaluate`` for
+    This is the function called from ``legacy.ml.evaluate`` for
     end-to-end evaluation.
     """
     device = "cuda" if torch.cuda.is_available() else "cpu"

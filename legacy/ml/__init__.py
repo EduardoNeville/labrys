@@ -11,23 +11,23 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-from pipeline.ml.data import (
+from legacy.ml.data import (
     ContrastiveSignDataset,
     LinearASignDataset,
     MaskedLMDataset,
     PAD_IDX,
     SYLLABOGRAM_RANGE,
 )
-from pipeline.ml.contrastive import (
+from legacy.ml.contrastive import (
     PhoneticClassifier,
     SignContextEncoder,
     extract_embeddings,
     train_phonetic_classifier,
     _load_phonetic_classes,
 )
-from pipeline.ml.lm import SignLM, train_lm, evaluate_perplexity
-from pipeline.ml.evaluate import run_baselines, plot_loss_curves
-from pipeline.ml.augment import (
+from legacy.ml.lm import SignLM, train_lm, evaluate_perplexity
+from legacy.ml.evaluate import run_baselines, plot_loss_curves
+from legacy.ml.augment import (
     AugmentedSequenceDataset,
     CurriculumDataset,
     create_augmented_loader,
@@ -36,14 +36,14 @@ from pipeline.ml.augment import (
     sign_substitution,
     window_crop,
 )
-from pipeline.ml.transfer import (
+from legacy.ml.transfer import (
     LBPhoneticPretrainer,
     TransferSignLM,
     compare_transfer_vs_baseline,
     pretrain_lb_embeddings,
     train_transfer_lm,
 )
-from pipeline.ml.constraints import (
+from legacy.ml.constraints import (
     CMConstraintTarget,
     LoanwordAnchorTarget,
     compute_constraint_loss,
@@ -56,7 +56,7 @@ from pipeline.ml.constraints import (
     load_cm_constraint_targets,
     load_loanword_anchor_targets,
 )
-from pipeline.ml.multitask import (
+from legacy.ml.multitask import (
     MultiTaskDataset,
     MultiTaskLoss,
     MultiTaskTransformer,

@@ -5,9 +5,9 @@ Before this module the same logic existed in four places and drifted:
   * `pipeline/ventris/complete.py`      — CONS_SERIES_MAP missing 18 of 74
     Linear B values (incl. `no`, `po`, `pe`), `vowel_of` returning "?" for
     every subscripted value
-  * `pipeline/formulaic/analyze.py`     — duplicate `vowel_of`, same subscript bug
-  * `pipeline/ventris/positional_oracle.py` — duplicate `vowel_of`, same bug
-  * `pipeline/frequency_constraints/constrain.py` — `parse_cv` returned the
+  * `legacy/formulaic/analyze.py`       — duplicate `vowel_of`, same subscript bug
+  * `legacy/positional_oracle.py`       — duplicate `vowel_of`, same bug
+  * `legacy/frequency_constraints/constrain.py` — `parse_cv` returned the
     vowel as "a2"/"u2" for subscripted values, which then failed the
     `in VOWELS` check, silently dropping the vowel constraint
 

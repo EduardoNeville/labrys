@@ -18,7 +18,7 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from pipeline.ml.data import MaskedLMDataset, PAD_IDX
+from legacy.ml.data import MaskedLMDataset, PAD_IDX
 
 logger = logging.getLogger(__name__)
 

@@ -19,13 +19,26 @@ I-PI-NA-MA · SI-RU-TE · TA-NA-RA-TE-U-TI-NU · I
 
 | Slot | Word | Signs | Occurrences | Position |
 |------|------|-------|-------------|----------|
-| 1 | OPENING (A-TA-I-*301-WA-JA) | AB 08 59 28 54 57 | 11 | always position 0 |
+| 1 | OPENING (A-TA-I-*301-WA-JA) | AB 08 AB 59 AB 28 A 301 AB 54 AB 57 | 11 | always position 0 |
 | 2 | [variable: deity] | e.g. JA-DI-KI-TU (AB 57 07 67 69) | varies | between 1 and 3 |
 | 3 | ja-sa-sa-ra-me | AB 57 31 31 60 13 | 9 | fixed order |
 | 4 | u-na-ka-na-si | AB 10 06 77 06 41 | 6 | follows 3 (5/9) |
-| 5 | i-*301-na-ma | AB 28 54 06 80 | — | follows 4 (3/6) |
+| 5 | i-pi-na-ma | AB 28 AB 39 AB 06 AB 80 | 6 | follows 4 (3/6) |
 | 6 | si-ru-te | AB 41 26 04 | 7 | preceded by ma (5/7) |
 | 7 | [proper name] | TA-NA-RA-TE-U-TI-NU | 1 | end |
+
+> **Corrections (2026-10-19).** Two sign-ID slips were found by checking this table against the
+> corpus; both wrong forms have **zero** occurrences:
+> * slot 1 was written as five signs (`AB 08 59 28 54 57`), omitting **A 301** — the corpus reads
+>   the six-sign sequence now shown, 11/11 at position 0.
+> * slot 5 was written as `AB 28 54 06 80` and named "i-*301-na-ma" — the corpus reads
+>   `AB 28 AB 39 AB 06 AB 80`, i.e. **i-pi-na-ma**, 6 occurrences.
+>
+> The live verifier (`pipeline/rsi_loop.py:x_libation`, `verify:libation-counts`) always had both
+> right; the prose did not, and nothing compared the two. `pipeline/guards.py` now checks this
+> table against the corpus. Caveat: AB 39's value is `pi?` (uncertain) in `la_lb_mapping.csv`, so
+> the **i-pi-na-ma** *reading* rests on one sign whose value is not independently confirmed —
+> what the corpus supports is the sign *sequence*.
 
 ## The deity-name milestone
 

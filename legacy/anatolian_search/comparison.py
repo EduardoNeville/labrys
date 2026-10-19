@@ -40,7 +40,7 @@ MORPH_OUTPUT = OUTPUT_DIR / "morphology_comparison.csv"
 REPORT_OUTPUT = OUTPUT_DIR / "anatolian_report.md"
 
 # Import from our cognate_lists module
-from pipeline.anatolian_search.cognate_lists import (
+from legacy.anatolian_search.cognate_lists import (
     compile_all_words,
     compile_suffix_inventory,
     compile_toponym_list,

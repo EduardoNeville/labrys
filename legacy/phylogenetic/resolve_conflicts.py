@@ -281,7 +281,7 @@ def resolve_conflicts(
     -------
     list of ConflictResolution
     """
-    from pipeline.phylogenetic.alignment import (
+    from legacy.phylogenetic.alignment import (
         _load_cm_shared,
         _load_la_lb,
         _load_refined_grid,

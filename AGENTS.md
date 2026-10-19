@@ -33,16 +33,27 @@ Do not overclaim. This is a 70-year-old unsolved problem for good reasons.
 ```bash
 # Use uv for everything
 ./tools/bootstrap.sh   # fresh clone: deps + Linear B sandbox + grid check + guards (idempotent)
-uv sync              # install deps (no torch; add --extra ml for Phase 4 ML)
+uv sync              # install deps (no torch; add --extra ml for the Phase 4 ML stack, now in legacy/ml)
 uv run python ...    # run any script through uv's venv
 uv run python -m pipeline.cli ...  # CLI access
-uv run python pipeline/guards.py   # 15/15 before trusting any analysis output
+uv run python pipeline/guards.py   # 17/17 before trusting any analysis output
 ```
 
 `uv run` re-syncs from `pyproject.toml`, so it is the supported way to run anything. Python is
 pinned to 3.12 — 3.14 removed the venv trying to build a cu121 torch wheel.
 
 ## Code Conventions
+
+### Where code lives
+
+| directory | what belongs there |
+|-------|
+| `pipeline/` | **live only** — imported by an entry point, or the named generator of a cited artifact, or a documented runnable check |
+| `legacy/` | concluded avenues — importable, never imported by `pipeline/` (guard 16), never extended |
+| `archive/` | retracted/wrong turns — premise falsified, falsifying number in the header |
+
+Before adding or moving a file, read `CLEANUP_PLAN.md` §2 (the three tests). 36 modules moved to
+`legacy/` in the 2026-10-19 cleanup; the old→new path map is in that document's §3.
 
 ### Python
 - Target Python 3.10+
@@ -198,13 +209,14 @@ pa-i-to (Phaistos), i-da (Mt. Ida) — HIGH confidence. di-ka-ta (Dikte), su-ki-
 
 ## Phase 4 ML Guidance
 
-**Read `CODE_AUDIT.md` §2 item 11 and §8 item 1 first.** The Phase 4 code exists and runs, but its
-training labels come from `refined_phonetic_grid.csv`, which still carries the 69 phantom rows
-(5 of them CONFIRM) and predates the Phase 12 CONFIRM policy. Its committed outputs are therefore
-not citable, and the module set is behind the optional `ml` extra (`uv sync --extra ml`).
+**Read `CODE_AUDIT.md` §2 item 11 and §8 item 1 first.** Phase 4 is **not** a restart-from-here:
+its labels come from `refined_phonetic_grid.csv`, which still carries the 69 phantom rows
+(5 of them CONFIRM) and predates the Phase 12 CONFIRM policy. Its committed outputs are not
+citable, it lives in `legacy/ml/` (torch is the optional `ml` extra: `uv sync --extra ml`), and
+the last honest result was **0 high-confidence predictions**.
 
-The last honest Phase 4 result was **0 high-confidence predictions**. Any restart should begin
-with the grid re-derivation, not with a training run.
+To restart: re-derive the grid first (`CODE_AUDIT.md` §8 item 1), then
+`git mv legacy/ml pipeline/ml` and rewrite its self-imports (`CLEANUP_PLAN.md` §7).
 
 When building ML models:
 - The corpus is tiny (~11K tokens) — data augmentation and transfer learning are essential

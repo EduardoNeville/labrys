@@ -24,7 +24,7 @@ from typing import Dict, List, Tuple, Optional
 
 import torch
 
-from pipeline.ml.contrastive import _load_phonetic_classes
+from legacy.ml.contrastive import _load_phonetic_classes
 
 logger = logging.getLogger(__name__)
 

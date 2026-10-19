@@ -25,7 +25,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from pipeline.ml.data import (
+from legacy.ml.data import (
     ContrastiveSignDataset,
     PAD_IDX,
     SYLLABOGRAM_RANGE,

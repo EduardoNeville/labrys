@@ -19,9 +19,9 @@ next to the files they check. Two conventions worth knowing before you "clean up
 | `comparative/` | mixed — see `comparative/README.md` for the file-level status |
 | `synthesis/` | historical — `MASTER_SYNTHESIS.md` is bannered superseded (0.6×, pa-i-to 95, 78 anchors) |
 | `bootstrapping/` | `expanded_grid_purged.csv` is the honest grid; `expanded_grid.csv` is deprecated |
-| `commodity_decoding/` | live audit + the retracted-then-narrowed enrichment result (`enrichment_audit.py` is the authority) |
+| `commodity_decoding/` | mixed — `context_extract.py` stays (it generates `logogram_contexts.csv`, read by the live Phase 14 audits); `enrichment_audit.py` and `cross_site_replication.py` are the authority on the retracted-then-narrowed enrichment result; the Phase 7 clustering module is in `legacy/semantic_cluster.py` and `commodity_report.md` is historical |
 | `rsi/` | the method-search replay pool — 18 nodes, π₀ optimal, concluded |
-| `ml/`, `verification/`, `positional/`, `formulaic/`, `frequency_constraints/` | ⚠️ stale with respect to the corrected grid (`CODE_AUDIT.md` §5) |
+| `ml/`, `verification/`, `positional/`, `formulaic/`, `frequency_constraints/` | ⚠️ stale with respect to the corrected grid. The **code** for the first four moved to `legacy/` on 2026-10-19 (`CLEANUP_PLAN.md` §3); the committed outputs here still carry pre-correction numbers |
 | `linguistic/`, `ngram/`, `network/`, `logograms/`, `segmentation/` | live, except `fraction_values_proposed.csv` (16/29 rows circular — use `fraction_values_audit.csv`) |
 
 **Before citing anything here:** check `CODE_AUDIT.md` §3–§5 and the banner on the file's own

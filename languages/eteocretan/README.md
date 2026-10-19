@@ -4,9 +4,9 @@
 
 - **Config:** `config.yaml` — 18 lines, `sign_system: alphabet`, `mapping: null`
 - **Mapping:** none — Greek letters are phonetic directly (`onadesimet` affixes → LA suffixes)
-- **Corpus:** `data/raw/eteocretan.json` — **7 inscriptions / 221 letters / 16 unique** — promoted from `pipeline/eteocretan/corpus.py` (Duhoux 1982). `DR 1` (24w), `DR 2` (11w), `PR 1` (13w), `PR 2 bilingual` (6w, +6w Greek `anethēkan to Di` dedication), `PR 3/4/5` fragments. Synthetic JSON is SigLA-style list-of-pairs for reuse of `ingest.py`; each Latin letter = a sign with `signType: syllabogram` so generic `List[SignInstance]` code reuses unchanged (ponytail: map alphabet to syllabogram).
+- **Corpus:** `data/raw/eteocretan.json` — **7 inscriptions / 221 letters / 16 unique** — promoted from `legacy/eteocretan/corpus.py` (Duhoux 1982). `DR 1` (24w), `DR 2` (11w), `PR 1` (13w), `PR 2 bilingual` (6w, +6w Greek `anethēkan to Di` dedication), `PR 3/4/5` fragments. Synthetic JSON is SigLA-style list-of-pairs for reuse of `ingest.py`; each Latin letter = a sign with `signType: syllabogram` so generic `List[SignInstance]` code reuses unchanged (ponytail: map alphabet to syllabogram).
 - **DB:** `data/database/eteocretan.db` — `7 / 221 / 16 / 2 sites (Dreros, Praisos) / 2 periods (Archaic, Classical)`
-- **Provenance:** Duhoux 1982, `pipeline/eteocretan/corpus.py::ALL_INSCRIPTIONS` (422 chars across 7 ins). For real data pull: `python -c "from pipeline.eteocretan.corpus import build_corpus; build_corpus()"` → `data/analysis/eteocretan/corpus.csv`.
+- **Provenance:** Duhoux 1982, `pipeline/eteocretan/corpus.py::ALL_INSCRIPTIONS` (422 chars across 7 ins). For real data pull: `python -c "from legacy.eteocretan.corpus import build_corpus; build_corpus()"` → `data/analysis/eteocretan/corpus.csv`.
 
 ## Run
 

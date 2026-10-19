@@ -10,8 +10,10 @@ import sys
 from pathlib import Path
 from typing import Optional
 
-# Add project to path
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+# Add project root to path (this module is imported by pipeline/ingest.py and can also be
+# run standalone: `uv run python pipeline/ingest_lineara.py`). It lives in pipeline/ since the
+# 2026-10-19 cleanup — it was at the repository root and imported from there.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from pipeline.models import (
     Inscription, Findspot, SignInstance, DateInfo, Dimensions,

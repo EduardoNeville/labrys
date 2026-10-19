@@ -123,6 +123,24 @@ read like project documentation. Scratch goes in `archive/agent_scratch/`, findi
 
 **8.9 When the audit and a summary disagree, the summary is wrong until proven otherwise.**
 
+**8.10 Three directories, three meanings — do not mix them.**
+
+| directory | holds | test |
+| `pipeline/` | live code: imported, guarded, or the generator of a cited artifact | — |
+| `legacy/` | concluded work: importable, no live importer, not to be extended | `pipeline/` must not import it (guard 16) |
+| `archive/` | falsified work: the premise died, with the number in the file header | must not be imported by anything |
+
+**When in doubt, apply the three tests in `CLEANUP_PLAN.md` §2 — live import, documented tool,
+generator of a live artifact.** "Nothing imports it" alone is not enough: it would have moved
+`kober/triple_detection.py`, which generates a file the live scorer and a guard both read.
+
+**8.11 A prose table that states data gets checked against the data.**
+
+The canonical libation table listed the opening as five signs where the corpus reads six, and
+slot 5 as `AB 28 54 06 80` where the corpus reads `AB 28 AB 39 AB 06 80` — for two months, while
+the live verifier had both right. Nothing compared the two. If a document asserts sign IDs,
+counts or sequences, that assertion belongs in `pipeline/guards.py`.
+
 ---
 
 ## Checklist for a new claim
@@ -133,6 +151,7 @@ read like project documentation. Scratch goes in `archive/agent_scratch/`, findi
 4. Diff attribution done if any input or output moved.
 5. Result recorded in `data/analysis/ventris/verification_audit.md`; retractions are
    first-class entries, not silent edits.
-6. `uv run python pipeline/guards.py` green (15/15, `tools/bootstrap.sh` on a fresh clone).
+6. `uv run python pipeline/guards.py` green (17/17, `tools/bootstrap.sh` on a fresh clone).
 7. If the claim rests on a file, that file has a generator (§8.2) and the claim names the
    instrument it was measured on (§8.5).
+8. Any sign ID, count or sequence the write-up states is asserted in a guard (§8.11).

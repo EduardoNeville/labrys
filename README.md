@@ -30,7 +30,7 @@ recorded tree is replayable evidence rather than a queue.
 
 ```bash
 git clone git@github.com:EduardoNeville/labrys.git && cd labrys
-./tools/bootstrap.sh          # uv sync → Linear B sandbox → grid check → 15/15 guards
+./tools/bootstrap.sh          # uv sync → Linear B sandbox → grid check → 17/17 guards
 ```
 
 `bootstrap.sh` is the only supported entry point for a fresh clone: the Linear B sandbox database
@@ -39,11 +39,11 @@ would otherwise fail for a reason that is not a defect.
 
 ```bash
 uv sync                       # corpus + analysis deps (no torch)
-./tools/bootstrap.sh --extra-ml   # adds the Phase 4 ML stack (torch, transformers, …)
+./tools/bootstrap.sh --extra-ml   # adds the Phase 4 ML stack (which now lives in legacy/ml/)
 
 uv run python -m pipeline.cli db stats data/database/lineara_full.db
 # → 1,719 inscriptions, 11,018 signs, 205 distinct Bennett IDs, 62 findspots
-uv run python pipeline/guards.py   # 15/15 + the non-fatal defect reports
+uv run python pipeline/guards.py   # 17/17 + the non-fatal defect reports
 ./tools/rsi_loop.sh                # nightly re-check of every recorded number
 ```
 
@@ -65,9 +65,10 @@ Deliberately stated with instruments attached, because the counts disagree (see 
   `pa-i-to` fails its control (95 fuzzy hits collapse to 1 exact). `di-ka-ta`, `su-ki-ri-ta`: not
   independently established.
 - **The one thing that replicates across sites:** the **libation formula** — opening
-  `A-TA-I-*301-WA-JA` in 11 of 11 texts at position 0, `ja-sa-sa-ra-me` (9), `si-ru-te` (7),
-  `u-na-ka-na-si` (6), across 5 sites, 9/9 slot order in multi-formula texts
-  (`libation_recovered.md`).
+  `A-TA-I-*301-WA-JA` in 11 of 11 texts at position 0 (`AB 08 AB 59 AB 28 A 301 AB 54 AB 57`),
+  `ja-sa-sa-ra-me` (9), `si-ru-te` (7), `u-na-ka-na-si` (6), `i-pi-na-ma` (6), across 5 sites,
+  9/9 slot order in multi-formula texts (`libation_recovered.md`, now checked against the corpus
+  by a guard).
 - **Morphology:** agglutinative, suffixal, no gender — weakly supported.
 - **Language family:** none. Anatolian IE and Hurro-Urartian tie at rank 1, Tyrsenian 3 — all
   "INCONCLUSIVE (tentative)". Zero exact Swadesh matches for any family.
@@ -95,15 +96,18 @@ a bilingual, or new inscriptions.
 ```
 labrys/
 ├── CODE_AUDIT.md               # what is live / concluded / retracted — read first
+├── CLEANUP_PLAN.md             # what moved to legacy/ and why (old→new path map)
 ├── EXPERIMENT_PROTOCOL.md      # binding rules for any measurement
 ├── archive/                    # retracted + wrong turns, with the falsifying number
-├── pipeline/
+├── legacy/                     # concluded avenues — importable, never imported by pipeline/
+├── pipeline/                   # the live tree: 62 files, 34k LOC
 │   ├── models.py database.py unicode_utils.py phonetics.py   # core
-│   ├── guards.py purge_grid.py                               # gates
-│   ├── lb_ingest.py lb_oracle.py ventris/complete.py          # oracle
-│   ├── cm_acceptance_test.py comparative_bridge.py            # cross-script PASS
-│   ├── rsi_*.py                                              # method-search replay pool
-│   └── <phase modules>                                       # concluded avenues
+│   ├── ingest.py ingest_lineara.py parsers                    # corpus build
+│   ├── guards.py purge_grid.py                                # gates
+│   ├── lb_ingest.py lb_oracle.py ventris/complete.py           # oracle
+│   ├── cm_acceptance_test.py comparative_bridge.py             # cross-script PASS
+│   ├── rsi_*.py                                               # method-search replay pool
+│   └── <phase modules>                                        # frozen generators/records
 ├── data/
 │   ├── database/lineara_full.db
 │   └── analysis/            # outputs + the audit scripts that check them

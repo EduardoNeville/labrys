@@ -175,7 +175,7 @@ class LinearASignDataset(Dataset):
         Triada, ``"KN"`` for Knossos).
     bennett_ids : list[str] or None
         Restrict vocabulary to these Bennett IDs.  When ``None`` all
-        signs from the database are used.  Pass ``pipeline.ml.data.
+        signs from the database are used.  Pass ``legacy.ml.data.
         SYLLABOGRAM_RANGE`` for syllabograms only.
     """
 

@@ -305,7 +305,7 @@ indistinguishable from a finding.
 
 | Tempting | Why not |
 |---|---|
-| Bigger model / 36-class classifier in `pipeline/ml` | Phase 4 answered this: 0 HIGH, 6 MEDIUM of 94, mean cosine 0.177. ~2 orders of magnitude short on tokens. More capacity means more confidently wrong |
+| Bigger model / 36-class classifier in `legacy/ml` | Phase 4 answered this: 0 HIGH, 6 MEDIUM of 94, mean cosine 0.177. ~2 orders of magnitude short on tokens. More capacity means more confidently wrong |
 | Any optimizer (beam, annealing, Optuna) | `oracle_test` exists to say no, and already said no |
 | Arithmetic/fraction verifier | `data/analysis/logograms/fraction_values_proposed.csv` is circular — `proposed_decimal_value` is derived from "pairs with A 708 to sum ~1", which is then cited as evidence for that pair. Also `A 710 = 0.6`, `A 713 = 0.4`, `A 712 = 0.9375`, `A 722 = 0.4375` are not in the Aegean fraction series → smells like a complement-generator emitting phantoms (cf. AB 100–137). Audit before it becomes evidence |
 | Bayesian phylogenetics, evidence-weight blending | Blending three uninformative sources yields one uninformative source with a nicer confidence number |

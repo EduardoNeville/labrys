@@ -1,6 +1,6 @@
 """Verification modules for Linear A deciphered readings."""
 
-from pipeline.verification.toponym_testing import (
+from legacy.verification.toponym_testing import (
     TermResult,
     build_syllabary_map,
     load_ml_predictions,

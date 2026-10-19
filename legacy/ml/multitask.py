@@ -23,7 +23,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader, Dataset, random_split
 from tqdm import tqdm
 
-from pipeline.ml.data import PAD_IDX, _build_vocab, _load_sequences
+from legacy.ml.data import PAD_IDX, _build_vocab, _load_sequences
 
 logger = logging.getLogger(__name__)
 

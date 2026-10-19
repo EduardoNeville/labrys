@@ -20,7 +20,7 @@ from dataclasses import dataclass, field
 from typing import Optional
 from collections import Counter
 
-from pipeline.eteocretan.corpus import (
+from legacy.eteocretan.corpus import (
     ALL_INSCRIPTIONS, ALL_WORDS, get_vocabulary, get_unique_et_words,
     EteocretanWord, EteocretanInscription,
 )

@@ -471,6 +471,95 @@ def g_rsi_tree_consistent() -> str:
             f"{len(only)} recorded-only); {k2}")
 
 
+def g_legacy_is_not_imported() -> str:
+    """`pipeline/` must not import `legacy/`.
+
+    The 2026-10-19 cleanup moved 33 modules of concluded avenues into `legacy/` — importable, so
+    an old check can still be re-run, but out of the live tree. This guard is what keeps the
+    move honest: the moment live code depends on a legacy module, the module is not legacy and
+    belongs back in `pipeline/` with a generator and a guard of its own.
+
+    Parses imports (AST), not text: a first version grepped and flagged this guard's own title
+    string, which is exactly the kind of false positive that gets a suite ignored.
+    """
+    import ast
+
+    p = REPO / "legacy"
+    if not p.exists():
+        return "skipped (no legacy/)"
+    offenders = []
+    for f in PIPELINE.rglob("*.py"):
+        tree = ast.parse(f.read_text(encoding="utf-8", errors="ignore"))
+        nameset = set()
+        for n in ast.walk(tree):
+            if isinstance(n, ast.Import):
+                nameset |= {a.name for a in n.names}
+            elif isinstance(n, ast.ImportFrom) and not n.level and n.module:
+                nameset.add(n.module)
+        hits = sorted(m for m in nameset if m == "legacy" or m.startswith("legacy."))
+        if hits:
+            offenders.append(f"{f.relative_to(REPO)} -> {hits}")
+    assert not offenders, f"pipeline/ imports legacy/: {offenders}"
+    n = sum(1 for _ in p.rglob("*.py"))
+    return f"{n} legacy modules, none imported from pipeline/"
+
+
+def g_libation_doc_matches_corpus() -> str:
+    """The canonical libation doc's sign IDs must exist in the corpus, with the stated counts.
+
+    Written after the 2026-10-19 cleanup found two transcription slips in the project's only
+    cross-site positive: the opening was listed as five signs where the corpus has six
+    (`AB 08 59 28 A 301 54 57`, with A 301 omitted), and slot 5 was listed as `AB 28 54 06 80`
+    where the corpus reads `AB 28 39 06 80`. Both five-sign forms have **zero** occurrences.
+    The live verifier (`rsi_loop.py:x_libation`) always had it right — the doc did not, and
+    nothing checked the doc against the data.
+
+    Enforced rows: slot 1 (11 inscriptions) and slot 5 (6). Slots 3/4/6 are enforced by the
+    loop's `verify:libation-counts`; this guard exists so the *written* record cannot drift
+    from the corpus again.
+    """
+    import sqlite3
+
+    from pipeline.lb_ingest import DB_PATH as _unused  # noqa: F401  (import-order smoke test)
+
+    db = REPO / "data/database/lineara_full.db"
+    doc = REPO / "data/analysis/ventris/libation_recovered.md"
+    if not (db.exists() and doc.exists()):
+        return "skipped (no DB or doc)"
+    rows = list(sqlite3.connect(db).execute(
+        "SELECT i.gorila_id g, s.bennett_id b FROM signs s "
+        "JOIN inscriptions i ON i.id = s.inscription_id ORDER BY i.id, s.sequence"))
+    seq: dict = {}
+    for g, b in rows:
+        if b:
+            seq.setdefault(g, []).append(b)
+
+    def count(pat):
+        n = z = 0
+        for s in seq.values():
+            for i in range(len(s) - len(pat) + 1):
+                if tuple(s[i:i + len(pat)]) == pat:
+                    n += 1
+                    z += int(i == 0)
+        return n, z
+
+    opening = ("AB 08", "AB 59", "AB 28", "A 301", "AB 54", "AB 57")
+    n, z = count(opening)
+    assert n == 11 and z == 11, f"opening pattern: {n} matches, {z} at position 0 (want 11/11)"
+    n5, _ = count(("AB 28", "AB 39", "AB 06", "AB 80"))
+    assert n5 == 6, f"slot 5 pattern: {n5} matches (want 6)"
+
+    text = doc.read_text(encoding="utf-8")
+    table = {ln.split("|")[1].strip(): ln for ln in text.splitlines() if ln.startswith("| ")}
+    assert "A 301" in table.get("1", ""), \
+        "libation_recovered.md slot 1 does not list A 301 (the retracted 5-sign form)"
+    row5 = table.get("5", "")
+    assert "AB 28 AB 39 AB 06 AB 80" in row5, \
+        f"libation_recovered.md slot 5 is not the corpus form: {row5!r}"
+    assert "i-pi-na-ma" in row5, f"libation_recovered.md slot 5 name is wrong: {row5!r}"
+    return "opening 11/11 at position 0 and slot 5 = 6 matches; doc table states both correctly"
+
+
 def main() -> None:
     guard("no value leak in corpus tables", g_leak)
     guard("phonetic constants complete + subscript-safe", g_phonetics)
@@ -487,6 +576,8 @@ def main() -> None:
     guard("kober triples are canonically ordered", g_kober_triples_canonical)
     guard("rsi tree, verdicts and split are consistent", g_rsi_tree_consistent)
     guard("honest grid regenerates from its inputs", g_purged_grid_regenerates)
+    guard("pipeline/ does not import legacy/", g_legacy_is_not_imported)
+    guard("libation doc matches the corpus", g_libation_doc_matches_corpus)
 
     print("=== Labrys guards ===")
     for name, ok, detail in RESULTS:

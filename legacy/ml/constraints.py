@@ -20,7 +20,7 @@ regularization terms for the phonetic classifier:
 
 Typical usage::
 
-    from pipeline.ml.constraints import (
+    from legacy.ml.constraints import (
         load_cm_constraint_targets,
         load_loanword_anchor_targets,
         compute_constraint_loss,

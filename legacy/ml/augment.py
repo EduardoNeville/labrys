@@ -29,7 +29,7 @@ from typing import Dict, List, Optional, Tuple
 import torch
 from torch.utils.data import Dataset
 
-from pipeline.ml.data import PAD_IDX
+from legacy.ml.data import PAD_IDX
 
 logger = logging.getLogger(__name__)
 
@@ -278,7 +278,7 @@ class AugmentedSequenceDataset(Dataset):
     are applied **on-the-fly** during iteration.
 
     The dataset yields ``(augmented_seq, gorila_id)`` pairs compatible
-    with :class:`~pipeline.ml.data.LinearASignDataset`.
+    with :class:`~legacy.ml.data.LinearASignDataset`.
 
     Parameters
     ----------

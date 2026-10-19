@@ -1,9 +1,13 @@
 # Code audit — what is live, what is concluded, and what was a wrong turn
 
 **Date:** 2026-10-19 · **Scope:** everything under `pipeline/`, `data/analysis/`, `tools/`,
-`scripts/`, plus the root markdown. **Method:** import graph, generator tracing (which
-script writes which committed artifact), a re-run of the reproducibility-critical scripts, and
-a claim-by-claim pass over the root docs against `data/analysis/ventris/verification_audit.md`.
+plus the root markdown. **Method:** import graph, generator tracing (which script writes which
+committed artifact), a re-run of the reproducibility-critical scripts, and a claim-by-claim pass
+over the root docs against `data/analysis/ventris/verification_audit.md`.
+
+**Second pass (same day):** `CLEANUP_PLAN.md` moved 36 concluded modules (~16.6k LOC) into
+`legacy/`, leaving `pipeline/` at 62 files / 34k LOC. This document is the status of what
+remains; that one is the record of what moved and why.
 
 **Why now.** The project is about to be shown to an external specialist (Ferrara / CM + CHIC).
 A collaborator who clones this repo must be able to tell a live number from a retracted one,
@@ -38,6 +42,9 @@ and `AB 85` is the sign whose 508-occurrence profile turned out to belong to the
 97 files in `pipeline/` counting `__init__` (~50k LOC) — **84 modules**, plus 10 audit scripts
 under `data/analysis/` and 1 tool script. By state:
 
+`pipeline/` after the cleanup: **62 files** (57 modules + 5 package inits), ~34k LOC — down from
+97 files / 50k LOC. Of the 57 modules:
+
 ### CORE — 12 modules
 
 `models.py`, `database.py`, `config.py`, `ingest.py`, `unicode_utils.py`, `phonetics.py`,
@@ -56,29 +63,24 @@ new in this audit: it is the missing generator for `expanded_grid_purged.csv` (s
 | cross-script | `cm_acceptance_test.py`, `comparative_bridge.py` | the one pre-registered PASS (44.65×, 45/54) |
 | method search | `rsi_tree.py`, `rsi_evaluate.py`, `rsi_replay.py`, `rsi_policy.py`, `rsi_loop.py` | replayable pool of 18 method hypotheses; π₀ optimal ⇒ stop |
 
-### RECORD — 37 modules, concluded avenues
+### RECORD — 21 modules, concluded avenues (frozen)
 
-Phases 2–9 (positional, segmentation, n-gram, network, co-occurrence, logograms, morphology,
-Swadesh, WALS, loanword, toponym, falsification, LA↔LB mapping, CM bridge, commodity alignment,
-phonetic grid refinement), the Phase 7 alternatives (`eteocretan/`, `anatolian_search/`,
-`phylogenetic/`, `kober/`, `formulaic/`, `frequency_constraints/`, `egyptian_bridge/`,
-`commodity_decoding/`), and the Phase 11 avenues that stand as negatives
-(`ventris/positional_oracle.py`, `ventris/cryptanalysis.py`, `ventris/commodity_semantics.py`,
-`ventris/libation_formula.py`).
+Phases 2–3 (positional, segmentation, n-gram, network, co-occurrence, logograms, morphology,
+Swadesh, WALS, loanword, toponym, falsification, deep loanword mining), the Phase 5 comparative
+chain (LA↔LB mapping, CM bridge, commodity alignment, grid refinement), the parts of Phase 7–9
+that are import targets or generators (`kober/*`, `bootstrapping/grid_expand`,
+`commodity_decoding/context_extract`), and the Phase 11 negative `ventris/commodity_semantics.py`.
 
-**These are not dead code.** Each records a measured negative, and the closure paper's strength
-is that four operationalizations of the same method all read empty. Deleting them would delete
-the evidence. The rule is: **frozen**. A "small fix" to a concluded avenue is how a negative
-becomes an unearned positive.
+**These are not dead code.** Each records a measured negative or generates an artifact a claim
+rests on. The rule is: **frozen**. A "small fix" to a concluded avenue is how a negative becomes
+an unearned positive.
 
-### STALE — 12 modules (+ an unknown number of committed outputs)
+### LEGACY — 28 modules in `legacy/` (moved out of `pipeline/`)
 
-`pipeline/ml/*` (9 modules, all of Phase 4) and `pipeline/verification/*` (3 modules, Phase 6,
-which consume ML predictions). Beyond the modules, everything that reads
-`refined_phonetic_grid.csv` has a stale committed output — the Phase 12 audit's *"their committed
-outputs are now stale with respect to the corrected grid"* — including `eteocretan/*` and
-`anatolian_search/*`, plus the four products that had drifted before the correction
-(`positional/anomalous_signs.csv`, `formulaic/*`, `frequency_constraints/*`).
+The other 16 concluded modules plus all 12 STALE ones: `legacy/{ml,verification,eteocretan,
+anatolian_search,phylogenetic,formulaic,frequency_constraints,egyptian_bridge}/` and five
+standalone modules. Importable, never imported by `pipeline/` (guard 16). Old→new path map and
+the per-module reason: `CLEANUP_PLAN.md` §3.
 
 **Status: flagged, not regenerated — deliberately.** Regenerating the ML pipeline cannot change
 a live conclusion (Phase 4 reported 0 high-confidence predictions), and re-running the rest is a
@@ -107,7 +109,7 @@ The measured number is the only thing that should ever be cited as the reason.
 | 8 | **`A 301` "entry-initial heading"** | 229/231 at HT Portico 11 + Room 13, **9/43 elsewhere** — that room's tablet format, not a property of the script. Two rooms of the same site disagree |
 | 9 | **Fraction values** | 16 of 29 rows are determined by complement-fitting and then cite the complement as evidence; **1 of 29** is corroborated by the LB fraction series |
 | 10 | **CFS "78 anchors"** | 19 were phantom signs; real count **58 CONFIRMED in 69 real signs** |
-| 11 | **Phase 4 ML** | built, cached, and never validated; 0 high-confidence predictions, and its inputs have since moved. Not a wrong turn so much as an **unfinished** turn |
+| 11 | **Phase 4 ML** | built, cached, and never validated; 0 high-confidence predictions, and its inputs have since moved. Not a wrong turn so much as an **unfinished** turn. Now in `legacy/ml/` |
 
 **The pattern across all eleven.** Every one of them was *a real structure in the data* that did
 not survive being asked "compared to what?". The recurring defect is not arithmetic, it is the
@@ -190,10 +192,9 @@ reproducible and the confusion is a naming/documentation failure.
 
 - `refined_phonetic_grid.csv` carries **69 phantom rows, 5 of them CONFIRM**. Purging it changes
   what 25+ modules read — a re-derivation with review, not a cleanup edit.
-- **6 pipeline modules still default to the deprecated grid** (10 call sites):
-  `egyptian_bridge/search.py`, `formulaic/analyze.py`, `frequency_constraints/constrain.py`,
-  `frequency_constraints/frequency_profile.py`, `oracle_diagnose.py`,
-  `ventris/positional_oracle.py`. The guard prints them.
+- **1 pipeline module still defaults to the deprecated grid** (`oracle_diagnose.py:47`) — down
+  from 6 modules / 10 call sites after the `legacy/` move. It is live (guards, RSI) and part of
+  open item 1. The guard prints it.
 - `positional/anomalous_signs.csv` (3 rows) vs `misvalued_signs_ranked.csv` (age-stale) — the
   Phase 12 drift item.
 - `data/analysis/comparative/misvalued_signs_resolution.csv` contains one phantom row (AB 36)
@@ -242,18 +243,22 @@ These extend `EXPERIMENT_PROTOCOL.md`; §8 there is the binding version.
 9. **A subagent's working files are not project documentation.** `JOURNAL.md`/`MEMORY.md` at the
    repo root read like findings; they were scratch, and their numbers were never controlled.
 10. **When the audit and the README disagree, the README is wrong until proven otherwise.**
+11. **`legacy/` is for concluded work, `archive/` is for falsified work, `pipeline/` is the live
+    tree.** Unused ≠ useless: a module nothing imports may be the only generator of a cited
+    artifact. Run the three tests in `CLEANUP_PLAN.md` §2 before moving anything.
 
 ---
 
 ## 8. Open items, ranked
 
 | # | item | why it matters | cost |
-| 1 | Re-derive `refined_phonetic_grid.csv` (purge 69 phantoms, apply Phase 12 policy) and migrate the 10 legacy-grid consumers | every downstream "confirmed" count, plus the ML/verification stack | 1–2 days + review |
+| 1 | Re-derive `refined_phonetic_grid.csv` (purge 69 phantoms, apply Phase 12 policy) and migrate the last legacy-grid consumer (`oracle_diagnose.py`) | every downstream "confirmed" count, plus the ML/verification stack | 1–2 days + review |
 | 2 | Reconcile the two grids (58 vs 35–40), or state permanently that they measure different things | a collaborator will ask this first | ½ day |
-| 3 | Regenerate the 25+ stale consumers, or mark the affected outputs `SUPERSEDED` in place | prevents citing pre-correction numbers | 1–2 days |
+| 3 | Regenerate the 25+ stale consumers, or mark the affected outputs `SUPERSEDED` in place (the consumers themselves are now in `legacy/`) | prevents citing pre-correction numbers | 1–2 days |
 | 4 | `AB 41 (si)` — 240 occurrences, UNCERTAIN, in the libation formula | the key open sign | research |
 | 5 | Falsify-or-confirm the libation formula on the CM-syllabary chain (Phase 16 route) | the only surviving positive; its extension needs a real CM corpus | blocked on data |
 | 6 | Second reviewer for the Phase 16 test | it is currently self-audited | external |
+| 7 | Plan the Phase 4 restart: grid re-derivation first, then `git mv legacy/ml pipeline/ml` (or import from `legacy`) | the ML stack is stale and torch is now an optional extra | after item 1 |
 
 ---
 

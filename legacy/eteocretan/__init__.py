@@ -22,7 +22,7 @@ Output:
     - data/analysis/eteocretan/eteocretan_report.md
 """
 
-from pipeline.eteocretan.corpus import (
+from legacy.eteocretan.corpus import (
     EteocretanInscription,
     EteocretanWord,
     ET_DR1,
@@ -37,7 +37,7 @@ from pipeline.eteocretan.corpus import (
     build_corpus,
 )
 
-from pipeline.eteocretan.compare import (
+from legacy.eteocretan.compare import (
     ComparisonResult,
     run_all_comparisons,
     analyze_bilinguals,

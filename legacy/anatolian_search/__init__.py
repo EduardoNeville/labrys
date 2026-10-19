@@ -9,6 +9,6 @@ Modules:
   - comparison: Search engine and report generation
 """
 
-from pipeline.anatolian_search.comparison import run
+from legacy.anatolian_search.comparison import run
 
 __all__ = ["run"]

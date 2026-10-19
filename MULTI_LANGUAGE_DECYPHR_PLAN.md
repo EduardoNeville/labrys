@@ -151,7 +151,7 @@ Also reuse: `validate_mapping()`, `db stats`, `demo.py` smoke test.
 | **+ scepter** | `KN Zg 57` (~119 signs) + `KN Zg 58` (handle, 6 fractions) — Kanta et al. *Ariadne* 2024 | Wait for `Kanta (ed.) forthcoming: Anetaki II` continuous transliteration. Currently stubs `KNZg57a/b` (17+11 placeholder signs) + empty `KNZg58`. See §6. | 2–3 (`*652`, `*653`, `*418+L2` ligatures → `BENNETT_TO_UNICODE` U+1076B etc.) | 1 PR when edition prints |
 | **cypro-minoan** | Ferrara/Perna 2021 *Cypro-Minoan* + 2024 *Cris* corpus (`~250` objects) | Request `cris.unibo.it/handle/11585/962437` CSV/JSON; fallback: `Olivier 2007` + `Unicode U+12F90` code chart | ~80–90 (`CM 001`–`CM 090` → U+12F90 block) | 2 days |
 | **cretan-hieroglyphs** | Olivier/Godart `CHIC` + Ferrara 2023 seal inventory (`~350` texts) | `CHIC` JSON via `cris.unibo.it`; seals via `CMS` / `Ferrara 2023 OJoA` | ~96 (CHIC 001–096, PUA until encoded) | 2 days |
-| **eteocretan** | Duhoux 7 texts (Praisos, Dreros; already in `pipeline/eteocretan/corpus.csv`) | promote `pipeline/eteocretan/corpus.csv` → `languages/eteocretan/data/raw/` | 0 (Greek alphabet) | 1 hour |
+| **eteocretan** | Duhoux 7 texts (Praisos, Dreros; already in `legacy/eteocretan/corpus.py`) | promote `legacy/eteocretan/corpus.py` → `languages/eteocretan/data/raw/` | 0 (Greek alphabet) | 1 hour |
 | **eteocypriot** | Egetmeyer 2010 *Le dialecte grec ancien de Chypre* + Cambridge appendix (~20 texts) | `Egetmeyer` PDF table → CSV | 0 (Cypriot syllabary U+10800 already in `la_cm_shared_phonetic_grid.csv`) | 1 day |
 
 `SigLA` live sync gap (2026-06-26): `KH 101, KH 103–105, KN 54, THE 7–11` (~10 vas/sealings, <30 signs) missing from `lineara.xyz` snapshot — pull `sigla.phis.me` API on next ingest.
@@ -267,7 +267,7 @@ uv run python pipeline/ventris/complete.py --language cypro-minoan oracle_test
 |----------------|-----------------------|-----------------|
 | **Cypro-Minoan** deciphered (e.g., via Eteocypriot or new bilingual) | 30–40 LA phonetic values via `la_cm_shared_phonetic_grid.csv` HIGH chain; `refined_phonetic_grid.csv` 11 UNCERTAIN become CONFIRMED (`AB 41 si` already 240 occ candidate) | Re-run `phonetic_grid_refinement.py` with CM as CONFIRMED, regenerate `expanded_grid_purged.csv` (69→100 real), re-run `morphology_scan.py` with true phonetics |
 | **Cretan Hieroglyphs** deciphered | Pre-LA language proven same as Minoan; shared logograms (`*180` hide, `GRA/FAR/OLIV` already on `KN Zg 57`) give semantic anchors | Ingest CHIC, run `commodity_alignment.py` LA↔CHIC, test `i-ri=barley` at higher N |
-| **Eteocretan** proven Minoan descendant | Greek alphabet = phonetics: map `onadesimet` affixes (`-de-`, `-si-`, `-met` agglutinative) onto LA suffixes (`-RO`, `A-` prefix per `field_state_2025.md`) | Run `pipeline/eteocretan/` at scale on new bilingual find (1 bilingual `PR 2` today — need 1 more with shared content) |
+| **Eteocretan** proven Minoan descendant | Greek alphabet = phonetics: map `onadesimet` affixes (`-de-`, `-si-`, `-met` agglutinative) onto LA suffixes (`-RO`, `A-` prefix per `field_state_2025.md`) | Run `legacy/eteocretan/` at scale on new bilingual find (1 bilingual `PR 2` today — need 1 more with shared content) |
 | **Linear A** itself breaks (e.g., via scepter `KN Zg 58` fraction sequence or new `Hashimoto 2025` toponym) | Unlocks CM and CHIC backwards via same triangular grids | Update `languages/cypro-minoan/mapping.csv` from LA side, re-run `comparison_results.csv` |
 
 ---
